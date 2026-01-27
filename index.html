@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moteur Révisions IFSI - En Ligne</title>
+    <style>
+        /* --- STYLES --- */
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: #f0f2f5; color: #2d3436; margin: 0; padding: 10px; line-height: 1.5; }
+        .container { background-color: white; max-width: 800px; margin: 0 auto; padding: 20px; border-radius: 16px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05); min-height: 60vh; }
+        
+        h1 { color: #2c3e50; text-align: center; font-size: 1.4rem; margin: 10px 0 5px 0; }
+        .subtitle { text-align: center; color: #7f8c8d; font-size: 0.9rem; margin-bottom: 25px; border-bottom: 2px solid #f1f2f6; padding-bottom: 15px; }
+        
+        /* Zone Chargement */
+        #setup-panel { text-align: center; padding: 30px; border: 2px dashed #bdc3c7; border-radius: 12px; margin: 20px 0; background: #fafafa; }
+        
+        /* Selecteur de Quiz Stylisé */
+        select.quiz-selector {
+            width: 100%;
+            max-width: 400px;
+            padding: 12px;
+            border-radius: 8px;
+            border: 2px solid #3498db;
+            background-color: white;
+            font-size: 1rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+
+        .start-btn { background-color: #3498db; color: white; padding: 12px 30px; border-radius: 8px; cursor: pointer; font-weight: bold; border: none; font-size: 1rem; transition: 0.2s; }
+        .start-btn:hover { background-color: #2980b9; transform: translateY(-2px); }
+        .start-btn:disabled { background-color: #bdc3c7; cursor: not-allowed; transform: none; }
+
+        /* Quiz UI */
+        .progress { text-align: right; color: #3498db; font-weight: 700; font-size: 0.85rem; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 0.5px; }
+        .question-box { display: none; animation: slideUp 0.3s ease-out; }
+        .question-box.active { display: block; }
+        @keyframes slideUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+        
+        .question-title { font-size: 1.1rem; font-weight: 600; margin-bottom: 20px; color: #2c3e50; background-color: #eaf6fd; padding: 15px; border-radius: 12px; border-left: 5px solid #3498db; }
+        .hint-text { font-size: 0.85rem; color: #636e72; margin-bottom: 15px; font-style: italic; display: block; }
+        
+        .options { display: flex; flex-direction: column; gap: 10px; }
+        .options label { display: flex; align-items: flex-start; padding: 15px; background-color: #fff; border: 2px solid #dfe6e9; border-radius: 12px; cursor: pointer; transition: all 0.2s ease; position: relative; font-size: 1rem; }
+        .options label:active { transform: scale(0.98); background-color: #f1f2f6; }
+        
+        .options input[type="checkbox"], 
+        .options input[type="radio"] { margin-right: 15px; width: 22px; height: 22px; accent-color: #3498db; flex-shrink: 0; margin-top: 2px; }
+        .options span { flex: 1; word-wrap: break-word; }
+
+        /* Validation Colors */
+        .options label.correct-checked { background-color: #d4edda; border-color: #27ae60; color: #155724; }
+        .options label.wrong-checked { background-color: #f8d7da; border-color: #e74c3c; color: #721c24; }
+        .options label.missed-correct { border-color: #27ae60; background-color: #fff; border-style: dashed; color: #27ae60; }
+        .options label.neutral-disabled { opacity: 0.6; background-color: #f5f6fa; border-color: #dcdde1; pointer-events: none; }
+
+        .btn { background-color: #3498db; color: white; border: none; padding: 16px; font-size: 1.1rem; border-radius: 12px; cursor: pointer; margin-top: 25px; width: 100%; font-weight: 600; box-shadow: 0 4px 6px rgba(52, 152, 219, 0.2); transition: transform 0.1s; }
+        .btn:active { transform: scale(0.98); }
+        .btn-next { background-color: #2c3e50; margin-top: 15px; }
+
+        .feedback-text { margin-top: 20px; padding: 20px; background-color: #fff3cd; border-left: 6px solid #f1c40f; border-radius: 8px; font-size: 0.95rem; color: #856404; display: none; line-height: 1.6; }
+
+        #result-screen { display: none; text-align: center; padding: 20px 0; }
+        .score-circle { width: 120px; height: 120px; background: linear-gradient(135deg, #3498db, #2980b9); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5rem; font-weight: bold; margin: 20px auto; box-shadow: 0 10px 20px rgba(52, 152, 219, 0.3); }
+        .time-stat { color: #7f8c8d; font-size: 1rem; margin-top: -15px; margin-bottom: 20px; font-weight: 500; }
+
+        @media (max-width: 600px) {
+            .container { padding: 15px; border-radius: 0; box-shadow: none; min-height: 100vh; }
+            .options label { flex-wrap: wrap; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 id="main-title">MOTEUR QUIZZ IFSI</h1>
+        <div class="subtitle" id="sub-title">Chargement des sujets...</div>
+
+        <div id="setup-panel">
+            <h3>Choisis ton sujet de révision</h3>
+            <p style="color:#7f8c8d; margin-bottom:20px;">Sélectionne un module dans la liste ci-dessous</p>
+            
+            <select id="quiz-select" class="quiz-selector" disabled>
+                <option value="">Chargement...</option>
+            </select>
+            <br>
+            <button id="load-btn" class="start-btn" onclick="loadSelectedQuiz()" disabled>🚀 Lancer le Quiz</button>
+            
+            <div id="error-msg" style="color:#e74c3c; margin-top:15px; display:none; font-weight:bold;"></div>
+        </div>
+
+        <div class="progress" id="progress" style="display:none;"></div>
+        <div id="quiz-container"></div>
+
+        <div id="result-screen">
+            <h2>Session Terminée !</h2>
+            <div class="score-circle" id="final-score">0/0</div>
+            <div class="time-stat" id="final-time">⏱ Temps : --</div>
+            <h3 id="comment" style="margin-bottom: 10px;"></h3>
+            <p id="detail-msg" style="color: #666;"></p>
+            <button class="btn" onclick="startSession()">Recommencer cette série</button>
+            <button class="btn" style="background-color:#95a5a6; margin-top:15px;" onclick="location.reload()">Choisir un autre sujet</button>
+        </div>
+    </div>
+
+    <script>
+        // --- VARIABLES GLOBALES ---
+        const QUESTIONS_PER_SESSION = 10;
+        let fullQuestionPool = [];
+        let currentSession = [];
+        let currentIndex = 0;
+        let score = 0;
+        let startTime = 0;
+
+        // --- DÉMARRAGE : Charger la liste des quiz ---
+        window.onload = function() {
+            fetch('quizzes.json')
+                .then(response => {
+                    if (!response.ok) throw new Error("Impossible de charger la liste des sujets.");
+                    return response.json();
+                })
+                .then(data => {
+                    const select = document.getElementById('quiz-select');
+                    select.innerHTML = '<option value="">-- Sélectionner un sujet --</option>';
+                    
+                    data.forEach(q => {
+                        const option = document.createElement('option');
+                        option.value = q.file;
+                        option.textContent = q.name;
+                        select.appendChild(option);
+                    });
+
+                    select.disabled = false;
+                    document.getElementById('sub-title').innerText = "Prêt à réviser ?";
+                    
+                    // Activer le bouton seulement si une sélection est faite
+                    select.addEventListener('change', function() {
+                        document.getElementById('load-btn').disabled = this.value === "";
+                    });
+                })
+                .catch(err => {
+                    document.getElementById('error-msg').style.display = 'block';
+                    document.getElementById('error-msg').innerText = "Erreur : " + err.message;
+                });
+        };
+
+        // --- CHARGEMENT DU JSON SÉLECTIONNÉ ---
+        function loadSelectedQuiz() {
+            const fileUrl = document.getElementById('quiz-select').value;
+            if (!fileUrl) return;
+
+            // UI Feedback
+            const btn = document.getElementById('load-btn');
+            const originalText = btn.innerText;
+            btn.innerText = "Téléchargement...";
+            btn.disabled = true;
+
+            fetch(fileUrl)
+                .then(response => {
+                    if (!response.ok) throw new Error("Erreur lors du chargement du fichier questions.");
+                    return response.json();
+                })
+                .then(data => {
+                    if(!data.questions || !Array.isArray(data.questions)) throw new Error("Format JSON invalide");
+                    
+                    fullQuestionPool = data.questions;
+                    
+                    // Mise à jour Titres
+                    if(data.title) document.getElementById('main-title').innerText = data.title;
+                    let subText = data.subtitle ? data.subtitle : "Sujet chargé";
+                    document.getElementById('sub-title').innerText = `${subText} • ${fullQuestionPool.length} questions dispos`;
+
+                    document.getElementById('setup-panel').style.display = 'none';
+                    startSession();
+                })
+                .catch(err => {
+                    document.getElementById('error-msg').style.display = 'block';
+                    document.getElementById('error-msg').innerText = "Erreur : " + err.message;
+                    btn.innerText = originalText;
+                    btn.disabled = false;
+                });
+        }
+
+        // --- MOTEUR QUIZ (Reste identique à la version précédente) ---
+        function shuffle(array) {
+            return array.sort(() => Math.random() - 0.5);
+        }
+
+        function startSession() {
+            let pool = JSON.parse(JSON.stringify(fullQuestionPool));
+            
+            if (pool.length > QUESTIONS_PER_SESSION) {
+                currentSession = shuffle(pool).slice(0, QUESTIONS_PER_SESSION);
+            } else {
+                currentSession = shuffle(pool);
+            }
+
+            currentIndex = 0;
+            score = 0;
+            startTime = new Date();
+
+            document.getElementById('result-screen').style.display = 'none';
+            document.getElementById('quiz-container').innerHTML = '';
+            document.getElementById('progress').style.display = 'block';
+            document.getElementById('quiz-container').style.display = 'block';
+
+            showQuestion();
+        }
+
+        function showQuestion() {
+            const q = currentSession[currentIndex];
+            const container = document.getElementById('quiz-container');
+            document.getElementById('progress').innerText = `Question ${currentIndex + 1} / ${currentSession.length}`;
+
+            const isVF = q.options.length === 2 && 
+                         q.options.some(o => o.toLowerCase().includes("vrai")) && 
+                         q.options.some(o => o.toLowerCase().includes("faux"));
+
+            let inputType = 'checkbox'; 
+            let hint = "(Cochez la ou les bonnes réponses)";
+
+            if (isVF) {
+                inputType = 'radio';
+                hint = "(Vrai ou Faux)";
+            } 
+
+            let optionsWithIndex = q.options.map((opt, i) => ({ text: opt, originalIndex: i }));
+            if (!isVF) {
+                optionsWithIndex = shuffle(optionsWithIndex);
+            }
+
+            let html = `
+            <div class="question-box active">
+                <div class="question-title">${q.question}</div>
+                <div class="hint-text">${hint}</div>
+                <div class="options">
+                    ${optionsWithIndex.map((opt, i) => `
+                        <label id="opt-${i}">
+                            <input type="${inputType}" name="option" value="${opt.originalIndex}">
+                            <span>${opt.text}</span>
+                        </label>
+                    `).join('')}
+                </div>
+                
+                <button id="validate-btn" class="btn" onclick="validate()">Valider</button>
+                <div class="feedback-text" id="feedback"></div>
+            </div>
+            `;
+            container.innerHTML = html;
+        }
+
+        window.validate = function () {
+            const q = currentSession[currentIndex];
+            const allInputs = document.querySelectorAll('input[name="option"]');
+            const checkedInputs = document.querySelectorAll('input[name="option"]:checked');
+            
+            if (checkedInputs.length === 0) return alert("Choisis au moins une réponse !");
+
+            const btn = document.getElementById('validate-btn');
+            const feedback = document.getElementById('feedback');
+
+            allInputs.forEach(i => i.disabled = true);
+            btn.style.display = 'none';
+
+            const checkedValues = Array.from(checkedInputs).map(cb => parseInt(cb.value));
+            const correctSorted = JSON.stringify(q.correct.sort());
+            const checkedSorted = JSON.stringify(checkedValues.sort());
+            const isCorrect = correctSorted === checkedSorted;
+
+            if (isCorrect) score++;
+
+            allInputs.forEach((input, domIndex) => {
+                const val = parseInt(input.value);
+                const label = document.getElementById(`opt-${domIndex}`);
+                if (!label) return;
+
+                if (q.correct.includes(val)) {
+                    if (input.checked) label.classList.add('correct-checked');
+                    else label.classList.add('missed-correct');
+                } else {
+                    if (input.checked) label.classList.add('wrong-checked');
+                    else label.classList.add('neutral-disabled');
+                }
+            });
+
+            const nextText = currentIndex === currentSession.length - 1 ? "Voir Résultats" : "Suivant";
+            
+            let explanationContent = "";
+            if (q.explanation && q.explanation.trim() !== "") {
+                explanationContent = `<br><span style="display:block; margin-top:10px; font-weight:normal; color:#2d3436;">${q.explanation}</span>`;
+            }
+
+            feedback.style.display = 'block';
+            feedback.innerHTML = `
+                <strong>${isCorrect ? "BRAVO ! 🎉" : "DOMMAGE..."}</strong>
+                ${explanationContent}
+                <button class="btn btn-next" onclick="nextQuestion()">${nextText}</button>
+            `;
+            feedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        };
+
+        window.nextQuestion = function () {
+            if (currentIndex < currentSession.length - 1) {
+                currentIndex++;
+                showQuestion();
+            } else {
+                endQuiz();
+            }
+        };
+
+        function endQuiz() {
+            const endTime = new Date();
+            const timeDiff = Math.floor((endTime - startTime) / 1000); 
+            const minutes = Math.floor(timeDiff / 60);
+            const seconds = timeDiff % 60;
+            const timeString = `${minutes} min ${seconds} sec`;
+
+            document.getElementById('quiz-container').style.display = 'none';
+            document.getElementById('progress').style.display = 'none';
+            document.getElementById('result-screen').style.display = 'block';
+
+            const total = currentSession.length;
+            document.getElementById('final-score').innerText = `${score}/${total}`;
+            document.getElementById('final-time').innerText = `⏱ Temps écoulé : ${timeString}`;
+
+            const ratio = score / total;
+            const comment = document.getElementById('comment');
+            const detail = document.getElementById('detail-msg');
+
+            if (ratio >= 0.8) {
+                comment.innerText = "Excellent ! 🏆";
+                comment.style.color = "#27ae60";
+                detail.innerText = "Tu maîtrises le sujet.";
+            } else if (ratio >= 0.5) {
+                comment.innerText = "Bien joué ! 👍";
+                comment.style.color = "#f39c12";
+                detail.innerText = "Les bases sont là.";
+            } else {
+                comment.innerText = "Courage ! 💪";
+                comment.style.color = "#c0392b";
+                detail.innerText = "Relis tes fiches.";
+            }
+        }
+    </script>
+</body>
+</html>
