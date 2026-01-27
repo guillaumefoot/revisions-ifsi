@@ -1,0 +1,490 @@
+{
+  "title": "UE 2.8 S3 – Processus obstructifs",
+  "subtitle": "Infarctus du myocarde – Partie 1",
+  "questions": [
+    {
+      "question": "Un infarctus du myocarde correspond à une nécrose ischémique d’une partie du muscle cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’infarctus du myocarde est causé par une obstruction brutale d’une artère coronaire par un thrombus.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Lors d’un infarctus du myocarde, les apports en oxygène du myocarde sont supérieurs aux besoins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’infarctus résulte d’une inadéquation entre les besoins et les apports en oxygène du myocarde."
+    },
+    {
+      "question": "L’athérosclérose est une maladie dégénérative touchant les artères de gros et moyens calibres.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les plaques d’athérome augmentent le diamètre des artères coronaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les plaques d’athérome rétrécissent la lumière artérielle, entraînant une sténose."
+    },
+    {
+      "question": "L’infarctus du myocarde est une urgence cardiaque absolue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La rapidité de la prise en charge n’influence pas le pronostic de l’infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la rapidité de prise en charge a une incidence directe sur la mortalité et les complications."
+    },
+    {
+      "question": "Les troubles du rythme font partie des complications possibles de l’infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La douleur d’un infarctus du myocarde est typiquement rétrosternale et constrictive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une douleur thoracique qui cède rapidement après prise de trinitrine évoque un infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car une douleur qui cède à la trinitrine évoque plutôt un angor."
+    },
+    {
+      "question": "Les nausées et les sueurs peuvent accompagner un infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’irradiation de la douleur vers le bras gauche est compatible avec un infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une douleur thoracique durant moins de 5 minutes est typique de l’infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la douleur de l’infarctus est prolongée, souvent supérieure à 30 minutes."
+    },
+    {
+      "question": "L’électrocardiogramme est l’enregistrement de l’activité électrique du cœur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Un sus-décalage du segment ST est un signe électrocardiographique évocateur d’infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’ECG permet uniquement de mesurer la fréquence cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’ECG analyse l’activité électrique et permet d’identifier des anomalies ischémiques."
+    },
+    {
+      "question": "La troponine est un marqueur biologique spécifique de la souffrance myocardique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La troponine s’élève immédiatement après le début de la douleur thoracique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’élévation de la troponine débute plusieurs heures après le début de l’ischémie."
+    },
+    {
+      "question": "Le bilan de coagulation est prescrit pour évaluer le risque hémorragique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La numération plaquettaire est inutile avant l’administration d’un anticoagulant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car elle sert de valeur de référence et à dépister une thrombopénie."
+    },
+    {
+      "question": "Une extrasystole correspond à une contraction cardiaque prématurée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La saturation pulsée en oxygène reflète l’oxygénation de l’hémoglobine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une SpO2 normale exclut toute pathologie cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car une saturation normale n’élimine pas une souffrance myocardique."
+    },
+    {
+      "question": "La coronarographie est un examen permettant de visualiser les artères coronaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La coronarographie est uniquement un examen diagnostique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car elle peut être suivie immédiatement d’un geste thérapeutique."
+    },
+    {
+      "question": "Quelles sont les caractéristiques typiques de la douleur d’un infarctus du myocarde ?",
+      "options": [
+        "Douleur rétrosternale prolongée",
+        "Douleur constrictive",
+        "Douleur calmée par le repos en quelques minutes",
+        "Irradiation possible vers le bras gauche"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Quels éléments participent à la physiopathologie de l’infarctus du myocarde ?",
+      "options": [
+        "Obstruction coronaire",
+        "Ischémie myocardique",
+        "Excès d’oxygénation du myocarde",
+        "Formation d’un thrombus"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Quels sont des facteurs de risque cardiovasculaire modifiables ?",
+      "options": [
+        "Hypercholestérolémie",
+        "Stress chronique",
+        "Âge",
+        "Sédentarité"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Quels signes peuvent accompagner un infarctus du myocarde ?",
+      "options": [
+        "Sueurs",
+        "Nausées",
+        "Dyspnée",
+        "Éruption cutanée"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Quels sont les rôles principaux de l’électrocardiogramme en phase aiguë d’infarctus ?",
+      "options": [
+        "Confirmer le diagnostic",
+        "Localiser l’atteinte myocardique",
+        "Évaluer la glycémie",
+        "Suivre l’évolution de l’ischémie"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Quels examens biologiques sont utiles dans le cadre d’un infarctus du myocarde ?",
+      "options": [
+        "Troponine",
+        "Bilan de coagulation",
+        "Ionogramme sanguin",
+        "Groupage sanguin uniquement"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Quels objectifs vise la surveillance clinique lors d’un infarctus du myocarde ?",
+      "options": [
+        "Détecter les troubles du rythme",
+        "Surveiller l’hémodynamique",
+        "Évaluer la douleur",
+        "Mesurer la capacité pulmonaire"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Quels éléments justifient une surveillance cardiaque continue ?",
+      "options": [
+        "Risque de troubles du rythme",
+        "Risque de choc cardiogénique",
+        "Risque d’hypoglycémie",
+        "Évolution possible de l’ischémie"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Quels sont les objectifs de la coronarographie dans l’infarctus du myocarde ?",
+      "options": [
+        "Identifier l’artère occluse",
+        "Permettre une revascularisation",
+        "Mesurer la pression artérielle",
+        "Évaluer l’état des coronaires"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Quels mécanismes expliquent la douleur lors de l’infarctus du myocarde ?",
+      "options": [
+        "Hypoxie du muscle cardiaque",
+        "Souffrance cellulaire myocardique",
+        "Stimulation des voies nerveuses",
+        "Hyperactivité digestive"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Quels éléments cliniques orientent vers un infarctus plutôt qu’un angor ?",
+      "options": [
+        "Douleur prolongée",
+        "Absence de soulagement par la trinitrine",
+        "Irradiation de la douleur",
+        "Disparition rapide au repos"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Quels sont les bénéfices attendus d’une revascularisation précoce ?",
+      "options": [
+        "Limiter l’étendue de la nécrose",
+        "Améliorer le pronostic vital",
+        "Prévenir les complications",
+        "Supprimer définitivement les facteurs de risque"
+      ],
+      "correct": [0, 1, 2]
+    },
+        {
+      "question": "Quels critères cliniques sont caractéristiques d’un infarctus du myocarde par rapport à un angor ? (Cochez les bonnes réponses)",
+      "options": [
+        "Douleur thoracique prolongée supérieure à 30 minutes",
+        "Irradiation de la douleur vers le bras gauche ou la mâchoire",
+        "Soulagement rapide après prise de trinitrine",
+        "Douleur associée à une angoisse intense"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Concernant la distinction entre angor et infarctus du myocarde, la douleur d’un infarctus cède généralement après la prise de trinitrine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la douleur de l’infarctus du myocarde ne cède pas à la trinitrine, contrairement à celle de l’angor."
+    },
+    {
+      "question": "Une douleur thoracique durant plus de 30 minutes oriente davantage vers un infarctus du myocarde que vers un angor.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’irradiation de la douleur thoracique permet d’éliminer le diagnostic d’angor au profit de l’infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’irradiation de la douleur peut être présente aussi bien dans l’angor que dans l’infarctus du myocarde."
+    },
+    {
+      "question": "L’angoisse associée à la douleur thoracique est un élément clinique fréquemment retrouvé lors d’un infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "Un angor correspond à une ischémie myocardique transitoire sans nécrose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’infarctus du myocarde se caractérise par une ischémie myocardique réversible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’infarctus du myocarde entraîne une nécrose irréversible d’une partie du muscle cardiaque."
+    },
+    {
+      "question": "La nécrose myocardique est la conséquence directe d’un défaut prolongé d’apport en oxygène.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Dans l’angor, l’obstruction coronaire est le plus souvent partielle et transitoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Dans l’infarctus du myocarde, l’obstruction coronaire est généralement brutale et complète.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’athérosclérose est un dépôt lipidique localisé exclusivement dans les veines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’athérosclérose touche les artères de gros et moyens calibres."
+    },
+    {
+      "question": "Une plaque d’athérome peut évoluer vers une thrombose coronaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’ischémie myocardique correspond à une inadéquation entre les besoins et les apports en oxygène du cœur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La douleur angineuse est typiquement déclenchée par l’effort et calmée par le repos.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une douleur thoracique calmée par la trinitrine oriente vers un infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le soulagement par la trinitrine est plutôt évocateur d’un angor."
+    },
+    {
+      "question": "La douleur de l’infarctus du myocarde est souvent décrite comme constrictive et oppressante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une douleur thoracique brève, de quelques minutes, est caractéristique de l’infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la douleur de l’infarctus est prolongée, souvent supérieure à 30 minutes."
+    },
+    {
+      "question": "Quels éléments permettent de définir un infarctus du myocarde ?",
+      "options": [
+        "Nécrose du muscle cardiaque",
+        "Ischémie prolongée",
+        "Obstruction coronaire",
+        "Douleur systématiquement absente"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Quels éléments définissent un angor stable ?",
+      "options": [
+        "Douleur thoracique liée à l’effort",
+        "Ischémie transitoire",
+        "Absence de nécrose myocardique",
+        "Élévation persistante de la troponine"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "L’élévation de la troponine traduit une souffrance myocardique avec destruction cellulaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une troponine normale permet d’éliminer formellement un infarctus du myocarde précoce.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la troponine peut être normale dans les premières heures suivant le début de l’ischémie."
+    },
+    {
+      "question": "Quels signes cliniques peuvent accompagner un infarctus du myocarde ?",
+      "options": [
+        "Sueurs",
+        "Nausées",
+        "Angoisse",
+        "Amélioration rapide spontanée"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "L’angoisse intense ressentie lors d’un infarctus du myocarde est liée à la douleur et à la peur de mourir.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une douleur thoracique irradiant vers le bras gauche est spécifique de l’infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette irradiation peut être observée aussi bien dans l’angor que dans l’infarctus."
+    },
+    {
+      "question": "La distinction clinique entre angor et infarctus repose notamment sur la durée de la douleur et la réponse à la trinitrine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "La troponine est un marqueur biologique spécifique de la nécrose myocardique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le bilan de coagulation (TP, INR, TCA) permet d’évaluer l’hémostase et le risque hémorragique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La numération formule sanguine avec plaquettes est utile avant un traitement anticoagulant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’ionogramme sanguin est prescrit afin de prévenir les troubles du rythme liés aux désordres électrolytiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le dosage de l’urée et de la créatinine permet d’évaluer la fonction rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La coronarographie est un examen vasculaire invasif permettant de visualiser les artères coronaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’angioplastie transluminale consiste à dilater une artère coronaire obstruée à l’aide d’un ballonnet.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La pose d’une endoprothèse coronaire a pour objectif de maintenir l’artère dilatée après angioplastie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le Natispray est un dérivé nitré utilisé pour ses effets vasodilatateurs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’Aspégic est un antiagrégant plaquettaire indiqué dans la prévention des thromboses artérielles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le Brilique est un médicament antiagrégant plaquettaire utilisé en association dans l’infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’héparine non fractionnée est un anticoagulant qui permet de prévenir l’extension du thrombus.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’héparine non fractionnée a pour effet principal de dissoudre le thrombus déjà formé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’héparine empêche l’extension du thrombus mais ne le lyse pas."
+    },
+    {
+      "question": "La morphine est un antalgique de palier III utilisé pour soulager la douleur intense de l’infarctus du myocarde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le Glucosé 5 % est utilisé comme soluté de remplissage apportant un support veineux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    }
+  ]
+}

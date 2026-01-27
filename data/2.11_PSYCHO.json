@@ -1,0 +1,424 @@
+{
+  "title": "Psychotropes",
+  "subtitle": "UE 2.11 – Pharmacologie et thérapeutiques",
+  "questions": [
+    {
+      "question": "Les psychotropes sont définis comme des substances qui :",
+      "options": [
+        "Agissent uniquement sur la douleur",
+        "Modifient le fonctionnement psychique",
+        "Guérissent les troubles psychiatriques",
+        "Ont uniquement un effet sédatif"
+      ],
+      "correct": [1],
+      "explanation": "Les psychotropes modifient l’activité mentale, l’humeur, les perceptions et le comportement."
+    },
+    {
+      "question": "Les psychotropes agissent principalement au niveau :",
+      "options": [
+        "Du système nerveux périphérique",
+        "Du système nerveux central",
+        "Du système cardiovasculaire",
+        "Du système endocrinien uniquement"
+      ],
+      "correct": [1],
+      "explanation": "Les psychotropes agissent sur le système nerveux central."
+    },
+    {
+      "question": "Quel déséquilibre en neurotransmetteurs est associé à la schizophrénie ?",
+      "options": [
+        "Déficit en sérotonine",
+        "Excès de dopamine",
+        "Déficit en GABA",
+        "Excès d’acétylcholine"
+      ],
+      "correct": [1],
+      "explanation": "Une augmentation de la dopamine est impliquée dans la schizophrénie."
+    },
+    {
+      "question": "Quels neurotransmetteurs sont principalement ciblés par les psychotropes ?",
+      "options": [
+        "Dopamine",
+        "Sérotonine",
+        "Noradrénaline",
+        "Calcium"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les psychotropes agissent surtout sur dopamine, sérotonine et noradrénaline."
+    },
+    {
+      "question": "Les neuroleptiques sont aussi appelés :",
+      "options": [
+        "Anxiolytiques",
+        "Antipsychotiques",
+        "Antidépresseurs",
+        "Hypnotiques"
+      ],
+      "correct": [1],
+      "explanation": "Les neuroleptiques sont des antipsychotiques."
+    },
+    {
+      "question": "Quelle est l’indication principale des neuroleptiques ?",
+      "options": [
+        "Dépression légère",
+        "Troubles bipolaires uniquement",
+        "Psychoses",
+        "Insomnie chronique"
+      ],
+      "correct": [2],
+      "explanation": "Les neuroleptiques sont indiqués principalement dans les psychoses."
+    },
+    {
+      "question": "Les neuroleptiques agissent principalement sur quel système ?",
+      "options": [
+        "Sérotoninergique",
+        "Dopaminergique",
+        "GABAergique",
+        "Cholinergique"
+      ],
+      "correct": [1],
+      "explanation": "Ils agissent majoritairement sur le système dopaminergique."
+    },
+    {
+      "question": "Les neuroleptiques incisifs ont pour caractéristique :",
+      "options": [
+        "Un fort effet sédatif",
+        "Une action ciblée sur le délire et les hallucinations",
+        "Une absence d’effets indésirables",
+        "Une action anxiolytique majeure"
+      ],
+      "correct": [1],
+      "explanation": "Les neuroleptiques incisifs agissent surtout sur les symptômes productifs."
+    },
+    {
+      "question": "Quel effet indésirable neurologique est fréquent avec les neuroleptiques ?",
+      "options": [
+        "Syndrome extrapyramidal",
+        "Convulsions systématiques",
+        "Myopathie",
+        "Neuropathie périphérique"
+      ],
+      "correct": [0],
+      "explanation": "Les neuroleptiques peuvent provoquer des effets extrapyramidaux."
+    },
+    {
+      "question": "Le syndrome malin des neuroleptiques (SMN) associe :",
+      "options": [
+        "Hyperthermie",
+        "Rigidité musculaire",
+        "Altération de la conscience",
+        "Hypoglycémie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le SMN est une urgence associant fièvre, rigidité et troubles de la conscience."
+    },
+    {
+      "question": "Quelle conduite est prioritaire devant une suspicion de SMN ?",
+      "options": [
+        "Continuer le traitement",
+        "Arrêter immédiatement le neuroleptique",
+        "Administrer un anxiolytique",
+        "Donner un antipyrétique seul"
+      ],
+      "correct": [1],
+      "explanation": "L’arrêt immédiat du neuroleptique est indispensable."
+    },
+    {
+      "question": "L’élévation des CPK dans le SMN traduit :",
+      "options": [
+        "Une infection",
+        "Une destruction musculaire",
+        "Une insuffisance hépatique",
+        "Une déshydratation simple"
+      ],
+      "correct": [1],
+      "explanation": "Les CPK augmentent en raison d’une rhabdomyolyse."
+    },
+    {
+      "question": "Les neuroleptiques peuvent entraîner une hyperprolactinémie responsable de :",
+      "options": [
+        "Galactorrhée",
+        "Aménorrhée",
+        "Gynécomastie",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "L’hyperprolactinémie entraîne des troubles endocriniens."
+    },
+    {
+      "question": "Les neuroleptiques entraînent-ils une dépendance psychique ?",
+      "options": [
+        "Oui systématiquement",
+        "Oui à forte dose",
+        "Non",
+        "Uniquement chez l’adolescent"
+      ],
+      "correct": [2],
+      "explanation": "Les neuroleptiques n’entraînent pas de dépendance psychique."
+    },
+    {
+      "question": "Les antidépresseurs ont un délai d’action moyen de :",
+      "options": [
+        "Quelques heures",
+        "2 à 3 semaines",
+        "24 heures",
+        "6 mois"
+      ],
+      "correct": [1],
+      "explanation": "L’effet clinique des antidépresseurs est retardé."
+    },
+    {
+      "question": "Quel risque est majoré en début de traitement antidépresseur ?",
+      "options": [
+        "Risque suicidaire",
+        "Risque infectieux",
+        "Risque hémorragique",
+        "Risque allergique"
+      ],
+      "correct": [0],
+      "explanation": "La levée d’inhibition peut augmenter le risque suicidaire."
+    },
+    {
+      "question": "L’arrêt d’un antidépresseur doit être :",
+      "options": [
+        "Brutal",
+        "Progressif",
+        "Conditionné à la disparition des symptômes",
+        "Systématiquement hospitalier"
+      ],
+      "correct": [1],
+      "explanation": "L’arrêt brutal expose à un syndrome de sevrage."
+    },
+    {
+      "question": "Quel est un effet indésirable possible des antidépresseurs ?",
+      "options": [
+        "Syndrome sérotoninergique",
+        "Insuffisance rénale aiguë",
+        "Bronchospasme",
+        "Constipation systématique"
+      ],
+      "correct": [0],
+      "explanation": "Le syndrome sérotoninergique est une complication grave."
+    },
+    {
+      "question": "Les anxiolytiques agissent principalement sur :",
+      "options": [
+        "La dopamine",
+        "Le GABA",
+        "La sérotonine",
+        "La noradrénaline"
+      ],
+      "correct": [1],
+      "explanation": "Les anxiolytiques potentialisent l’action du GABA."
+    },
+    {
+      "question": "Quelle est la durée recommandée d’un traitement anxiolytique ?",
+      "options": [
+        "Illimitée",
+        "Environ 12 semaines maximum",
+        "1 an minimum",
+        "À vie"
+      ],
+      "correct": [1],
+      "explanation": "Le traitement doit être limité pour éviter la dépendance."
+    },
+    {
+      "question": "Quel est un risque majeur des benzodiazépines ?",
+      "options": [
+        "Dépendance",
+        "Insuffisance hépatique systématique",
+        "Hypoglycémie",
+        "Syndrome malin"
+      ],
+      "correct": [0],
+      "explanation": "Les benzodiazépines exposent à un risque de dépendance."
+    },
+    {
+      "question": "Quel est l’antidote des benzodiazépines ?",
+      "options": [
+        "Naloxone",
+        "Flumazénil",
+        "Vitamine K",
+        "Charbon actif"
+      ],
+      "correct": [1],
+      "explanation": "Le flumazénil est l’antidote spécifique."
+    },
+    {
+      "question": "Les hypnotiques sont principalement indiqués dans :",
+      "options": [
+        "Les psychoses",
+        "Les troubles du sommeil",
+        "La dépression sévère",
+        "Les troubles bipolaires"
+      ],
+      "correct": [1],
+      "explanation": "Les hypnotiques traitent les troubles du sommeil."
+    },
+    {
+      "question": "Quel effet paradoxal peut survenir avec les anxiolytiques ?",
+      "options": [
+        "Sédation",
+        "Agitation",
+        "Somnolence",
+        "Relaxation musculaire"
+      ],
+      "correct": [1],
+      "explanation": "Des effets paradoxaux comme l’agitation sont possibles."
+    },
+    {
+      "question": "Les thymorégulateurs sont indiqués principalement dans :",
+      "options": [
+        "Les troubles anxieux",
+        "Les troubles bipolaires",
+        "Les psychoses aiguës",
+        "Les troubles du sommeil"
+      ],
+      "correct": [1],
+      "explanation": "Ils stabilisent l’humeur dans les troubles bipolaires."
+    },
+    {
+      "question": "Quel thymorégulateur est un médicament à marge thérapeutique étroite ?",
+      "options": [
+        "Valproate",
+        "Lithium",
+        "Carbamazépine",
+        "Lamotrigine"
+      ],
+      "correct": [1],
+      "explanation": "Le lithium nécessite une surveillance étroite."
+    },
+    {
+      "question": "Quelle surveillance biologique est indispensable sous lithium ?",
+      "options": [
+        "Glycémie",
+        "Lithiémie",
+        "INR",
+        "CPK"
+      ],
+      "correct": [1],
+      "explanation": "La lithiémie permet d’éviter le surdosage."
+    },
+    {
+      "question": "Quel signe évoque un surdosage en lithium ?",
+      "options": [
+        "Tremblements",
+        "Nausées",
+        "Troubles de l’équilibre",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Ces signes doivent alerter immédiatement."
+    },
+    {
+      "question": "Quelle interaction médicamenteuse est contre-indiquée avec le lithium ?",
+      "options": [
+        "AINS",
+        "IEC",
+        "Diurétiques",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Ces médicaments augmentent la lithiémie."
+    },
+    {
+      "question": "Les psychotropes doivent être associés à :",
+      "options": [
+        "Une psychothérapie",
+        "Un accompagnement social",
+        "Une relation thérapeutique",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "La prise en charge est globale."
+    },
+    {
+      "question": "Les psychotropes traitent-ils la cause des troubles psychiques ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Uniquement à forte dose",
+        "Uniquement en phase aiguë"
+      ],
+      "correct": [1],
+      "explanation": "Ils soulagent les symptômes mais ne traitent pas la cause."
+    },
+    {
+      "question": "Quel effet indésirable métabolique est surveillé sous neuroleptiques ?",
+      "options": [
+        "Prise de poids",
+        "Troubles du métabolisme glucidique",
+        "Dyslipidémie",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "La surveillance métabolique est essentielle."
+    },
+    {
+      "question": "Quel examen est recommandé avant et pendant un traitement par certains psychotropes à risque cardiaque ?",
+      "options": [
+        "ECG",
+        "INR",
+        "Radiographie thoracique",
+        "Échographie rénale"
+      ],
+      "correct": [0],
+      "explanation": "Certains psychotropes allongent l’intervalle QT."
+    },
+    {
+      "question": "Le syndrome sérotoninergique associe principalement :",
+      "options": [
+        "Hyperréflexie",
+        "Tremblements",
+        "Confusion",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "C’est une urgence liée à un excès de sérotonine."
+    },
+    {
+      "question": "Quel comportement doit être conseillé à un patient sous psychotropes ?",
+      "options": [
+        "Consommer de l’alcool",
+        "Arrêter le traitement dès amélioration",
+        "Éviter l’alcool",
+        "Modifier seul les doses"
+      ],
+      "correct": [2],
+      "explanation": "L’alcool potentialise les effets indésirables."
+    },
+    {
+      "question": "Quel est le rôle infirmier essentiel chez un patient sous psychotropes ?",
+      "options": [
+        "Surveillance clinique",
+        "Surveillance des effets indésirables",
+        "Éducation thérapeutique",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Le rôle infirmier est central dans la prise en charge."
+    },
+    {
+      "question": "Les correcteurs associés aux psychotropes servent à :",
+      "options": [
+        "Renforcer l’effet thérapeutique",
+        "Corriger les effets indésirables",
+        "Traiter la cause psychiatrique",
+        "Prévenir les rechutes"
+      ],
+      "correct": [1],
+      "explanation": "Ils traitent les effets secondaires des psychotropes."
+    },
+    {
+      "question": "Quel psychotrope est utilisé comme antidote d’un syndrome malin des neuroleptiques ?",
+      "options": [
+        "Dantrolène",
+        "Flumazénil",
+        "Naloxone",
+        "Vitamine K"
+      ],
+      "correct": [0],
+      "explanation": "Le dantrolène est un myorelaxant utilisé dans le SMN."
+    }
+  ]
+}

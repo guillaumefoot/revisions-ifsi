@@ -1,0 +1,407 @@
+{
+  "title": "UE 2.8 S3 – Processus obstructifs",
+  "subtitle": "Colique néphrétique – Couverture globale initiale",
+  "questions": [
+    {
+      "question": "La colique néphrétique est une douleur liée à une obstruction aiguë des voies urinaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La cause la plus fréquente de colique néphrétique est la présence d’une lithiase urinaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La douleur de la colique néphrétique débute le plus souvent de manière progressive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car la douleur de la colique néphrétique débute brutalement."
+    },
+    {
+      "question": "Quelle est la localisation typique de la douleur lors d’une colique néphrétique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Région lombaire",
+        "Flanc",
+        "Irradiation vers les organes génitaux",
+        "Région épigastrique isolée"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La colique néphrétique s’accompagne fréquemment d’une agitation importante du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le patient atteint de colique néphrétique trouve généralement une position antalgique efficace.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car aucune position antalgique ne soulage durablement la douleur."
+    },
+    {
+      "question": "Quels signes urinaires peuvent être associés à une colique néphrétique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Hématurie",
+        "Pollakiurie",
+        "Dysurie",
+        "Anurie systématique"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La présence d’une hématurie est fréquente lors d’une colique néphrétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une fièvre associée à une colique néphrétique évoque une forme compliquée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels éléments orientent vers une colique néphrétique compliquée ? (Cochez les bonnes réponses)",
+      "options": [
+        "Fièvre",
+        "Infection urinaire associée",
+        "Douleur modérée isolée",
+        "Altération de la fonction rénale"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "La colique néphrétique compliquée nécessite une prise en charge hospitalière.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels examens biologiques sont utiles dans l’exploration d’une colique néphrétique ? (Cochez les bonnes réponses)",
+      "options": [
+        "NFS",
+        "Ionogramme sanguin",
+        "Créatininémie",
+        "Dosage de la troponine"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "L’ECBU permet de rechercher une infection urinaire associée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Un pH urinaire acide favorise la formation de calculs d’acide urique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels sont les types de calculs urinaires les plus fréquents ? (Cochez les bonnes réponses)",
+      "options": [
+        "Calculs d’oxalate de calcium",
+        "Calculs de phosphate de calcium",
+        "Calculs d’acide urique",
+        "Calculs biliaires"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Les calculs calciques représentent la majorité des lithiases urinaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’échographie abdominale permet de visualiser la dilatation des cavités pyélocalicielles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le scanner abdomino-pelvien est l’examen de référence pour le diagnostic de colique néphrétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’ASP permet de visualiser tous les types de calculs urinaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car seuls les calculs radio-opaques sont visibles à l’ASP."
+    },
+    {
+      "question": "Quels facteurs favorisent la survenue d’une colique néphrétique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Antécédents familiaux",
+        "Apports hydriques insuffisants",
+        "Alimentation riche en sel et oxalates",
+        "Activité physique régulière"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Le sexe masculin est un facteur de risque de colique néphrétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La colique néphrétique touche exclusivement les personnes âgées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car elle touche surtout l’adulte jeune et d’âge moyen."
+    },
+    {
+      "question": "Quels sont les objectifs du traitement antalgique dans la colique néphrétique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Soulager la douleur",
+        "Diminuer les spasmes urétéraux",
+        "Favoriser l’élimination du calcul",
+        "Traiter systématiquement une infection"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Les AINS sont utilisés car ils diminuent l’œdème et la douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les antispasmodiques permettent de réduire les spasmes des voies urinaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La morphine est contre-indiquée dans la colique néphrétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car la morphine peut être utilisée en cas de douleur intense."
+    },
+    {
+      "question": "La sonde urétérale de type double J permet d’assurer le drainage des urines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’urétéroscopie est une technique permettant de traiter certaines lithiases urinaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une consultation diététique est utile pour prévenir les récidives de colique néphrétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "La douleur de la colique néphrétique évolue typiquement par crises paroxystiques entrecoupées d’accalmies.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les spasmes urétéraux ont pour but de favoriser la progression de l’obstacle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une colique néphrétique peut évoluer vers une pyélonéphrite obstructive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une colique néphrétique fébrile doit être considérée comme une urgence.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La présence de frissons associés à une colique néphrétique est un signe rassurant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car les frissons peuvent traduire une infection sévère associée."
+    },
+    {
+      "question": "La CRP est un marqueur biologique de l’inflammation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une élévation de la CRP peut orienter vers une colique néphrétique compliquée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’électrocardiogramme peut être prescrit en cas de troubles ioniques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels éléments peuvent justifier la réalisation d’un ECG chez un patient présentant une colique néphrétique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Troubles de la kaliémie",
+        "Prescription de certains traitements",
+        "Douleur lombaire isolée",
+        "Antécédents cardiaques"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Une insuffisance rénale aiguë peut compliquer une colique néphrétique obstructive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’élévation de la créatininémie traduit une altération de la fonction rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une colique néphrétique simple ne s’accompagne jamais d’anomalies biologiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car des anomalies biologiques peuvent être présentes même en l’absence de complication."
+    },
+    {
+      "question": "La dilatation des cavités pyélocalicielles traduit un obstacle à l’écoulement des urines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une lithiase située dans l’uretère peut provoquer une distension du rein en amont.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels signes cliniques peuvent traduire une gravité accrue de la colique néphrétique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Fièvre élevée",
+        "Douleur persistante malgré le traitement",
+        "Altération de l’état général",
+        "Disparition rapide de la douleur sans traitement"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Une colique néphrétique peut récidiver en l’absence de mesures préventives.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’hydratation adaptée participe à la prévention des récidives lithiasiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une alimentation riche en sel favorise la formation de calculs urinaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les calculs d’oxalate de calcium représentent la majorité des lithiases urinaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La prise en charge rapide d’une colique néphrétique compliquée permet de prévenir des complications graves.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "La colique néphrétique est une douleur très intense.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La colique néphrétique est liée à un obstacle sur les voies urinaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La douleur de la colique néphrétique est souvent localisée au niveau lombaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La colique néphrétique provoque généralement une douleur bilatérale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car la douleur est le plus souvent unilatérale."
+    },
+    {
+      "question": "La douleur peut irradier vers l’aine ou les organes génitaux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le patient présentant une colique néphrétique est souvent agité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le repos strict soulage complètement la douleur de la colique néphrétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car aucune position antalgique n’est réellement efficace."
+    },
+    {
+      "question": "Une hématurie peut être observée lors d’une colique néphrétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La présence de fièvre est un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une colique néphrétique fébrile est une urgence médicale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les calculs urinaires sont toujours visibles à l’ASP.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car seuls les calculs radio-opaques sont visibles."
+    },
+    {
+      "question": "Le scanner est un examen très performant pour diagnostiquer une colique néphrétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’échographie permet de visualiser une dilatation des voies urinaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les calculs d’oxalate de calcium sont les plus fréquents.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Boire peu d’eau favorise la formation de calculs urinaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une alimentation riche en sel peut favoriser la lithiase urinaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les antécédents familiaux sont un facteur de risque de colique néphrétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La colique néphrétique touche plus souvent les femmes que les hommes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car la colique néphrétique touche plus souvent les hommes."
+    },
+    {
+      "question": "Les AINS sont utilisés pour soulager la douleur de la colique néphrétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une bonne hydratation aide à prévenir les récidives de colique néphrétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "title": "UE 2.8 S3 – Processus obstructifs",
+  "subtitle": "Occlusion intestinale – Prise en charge médicale et infirmière",
+  "questions": [
+    {
+      "question": "Une occlusion intestinale correspond à un arrêt du transit des matières et des gaz.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une occlusion intestinale est toujours d’origine mécanique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car une occlusion peut être mécanique ou fonctionnelle, comme lors d’un iléus paralytique."
+    },
+    {
+      "question": "L’iléus paralytique correspond à un arrêt du péristaltisme intestinal.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels signes cliniques peuvent évoquer une occlusion intestinale ? (Cochez les bonnes réponses)",
+      "options": ["Douleurs abdominales", "Vomissements", "Diarrhée abondante", "Arrêt des selles et des gaz"],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "L’arrêt des selles et des gaz est un signe fréquent de l’occlusion intestinale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Des vomissements répétés peuvent entraîner des troubles hydro-électrolytiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une hypokaliémie correspond à une augmentation du potassium sanguin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’hypokaliémie correspond à une diminution du potassium sanguin."
+    },
+    {
+      "question": "Quel est l’intérêt du dosage de la CRP chez un patient présentant des signes d’occlusion intestinale ?",
+      "options": ["Évaluer l’inflammation ou l’infection", "Mesurer la fonction rénale", "Évaluer la coagulation", "Mesurer la glycémie"],
+      "correct": [0]
+    },
+    {
+      "question": "Une élévation des globules blancs peut être un signe d’infection.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’ASP est un examen radiologique permettant de rechercher des niveaux hydro-aériques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le scanner abdominal est moins précis que l’ASP dans le diagnostic d’une occlusion intestinale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le scanner abdominal est plus précis et permet de localiser et identifier la cause de l’occlusion."
+    },
+    {
+      "question": "La mise à jeun est indiquée chez un patient présentant une occlusion intestinale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Pourquoi une voie veineuse périphérique est-elle indispensable en cas d’occlusion intestinale ? (Cochez les bonnes réponses)",
+      "options": ["Administrer les traitements IV", "Réhydrater le patient", "Administrer une alimentation orale", "Corriger les troubles hydro-électrolytiques"],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Le paracétamol est un antalgique de palier I.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les antispasmodiques sont utilisés pour calmer les douleurs abdominales.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Après une chirurgie digestive, la reprise du transit est souvent attestée par l’émission de gaz.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La sonde nasogastrique en aspiration douce permet de réduire les nausées et vomissements.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’aspiration gastrique doit être réglée à une pression élevée pour être efficace.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car une aspiration douce est utilisée afin d’éviter les lésions de la muqueuse gastrique."
+    },
+    {
+      "question": "La coeliochirurgie est une technique chirurgicale mini-invasive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels sont les avantages de la coeliochirurgie par rapport à la laparotomie ? (Cochez les bonnes réponses)",
+      "options": ["Moins de douleurs post-opératoires", "Risque infectieux accru", "Reprise plus rapide de la mobilité", "Hospitalisation plus longue"],
+      "correct": [0, 2]
+    },
+    {
+      "question": "Une colostomie permet de dériver temporairement ou définitivement le transit intestinal.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La baguette d’une colostomie sur baguette est retirée plusieurs mois après l’intervention.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la baguette est retirée généralement entre 8 et 10 jours après l’intervention."
+    },
+    {
+      "question": "La poche de colostomie permet de recueillir les selles et les gaz.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est l’objectif principal de l’anticoagulation post-opératoire ?",
+      "options": ["Prévenir le risque thromboembolique", "Soulager la douleur", "Prévenir l’infection", "Stimuler le transit"],
+      "correct": [0]
+    },
+    {
+      "question": "La morphine peut entraîner un risque de constipation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Un patient porteur d’une colostomie ne peut pas retrouver une autonomie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car avec un accompagnement adapté, un patient porteur de colostomie peut retrouver une autonomie."
+    },
+    {
+      "question": "L’anxiété peut être un problème infirmier chez un patient porteur d’une stomie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels dispositifs invasifs augmentent le risque infectieux ? (Cochez les bonnes réponses)",
+      "options": ["Sonde urinaire", "Voie veineuse périphérique", "Sonde nasogastrique", "Tensiomètre"],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La surveillance de la diurèse permet d’évaluer l’équilibre hydrique du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le risque thromboembolique est augmenté par l’alitement prolongé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est l’intérêt du dosage de l’urée et de la créatinine chez un patient présentant des vomissements répétés ?",
+      "options": [
+        "Évaluer la fonction rénale et le risque de déshydratation",
+        "Rechercher une infection bactérienne",
+        "Évaluer le risque hémorragique",
+        "Mesurer l’inflammation"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "Une augmentation de la créatinine peut traduire une insuffisance rénale aiguë.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est l’objectif principal du dosage des plaquettes dans le cadre d’une occlusion intestinale ?",
+      "options": [
+        "Rechercher un syndrome inflammatoire ou infectieux",
+        "Évaluer la fonction hépatique",
+        "Mesurer la glycémie",
+        "Évaluer l’état nutritionnel"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "Pourquoi le TP et le TCA sont-ils prescrits avant une intervention chirurgicale ?",
+      "options": [
+        "Évaluer la coagulation en vue du risque hémorragique",
+        "Rechercher une infection",
+        "Évaluer la fonction rénale",
+        "Mesurer les troubles hydro-électrolytiques"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "Un TP et un TCA normaux permettent d’écarter tout risque hémorragique opératoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car des tests normaux n’éliminent pas totalement le risque hémorragique, ils permettent seulement d’en apprécier une partie."
+    },
+    {
+      "question": "Quel est l’intérêt d’un bilan hépatique dans le cadre d’un syndrome abdominal aigu ?",
+      "options": [
+        "Rechercher une origine biliaire ou hépatique à la symptomatologie",
+        "Évaluer la fonction respiratoire",
+        "Mesurer l’équilibre hydro-électrolytique",
+        "Évaluer la coagulation"
+      ],
+      "correct": [0]
+    },
+        {
+      "question": "Quel est l’objectif principal de la pose d’une voie veineuse périphérique chez un patient opéré d’une occlusion intestinale ?",
+      "options": [
+        "Administrer les traitements et assurer la réhydratation",
+        "Permettre l’alimentation orale",
+        "Mesurer la pression artérielle",
+        "Éviter les vomissements"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "La voie veineuse périphérique permet une action plus rapide des traitements que la voie orale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est le rôle du Bionolyte® dans la prise en charge post-opératoire ?",
+      "options": [
+        "Compenser les pertes hydro-électrolytiques",
+        "Prévenir le risque infectieux",
+        "Stimuler le transit intestinal",
+        "Soulager la douleur"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "Pourquoi du sodium et du potassium peuvent-ils être ajoutés à une perfusion post-opératoire ?",
+      "options": [
+        "Corriger des troubles hydro-électrolytiques",
+        "Augmenter l’efficacité des antibiotiques",
+        "Prévenir les vomissements",
+        "Réduire l’inflammation"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "Le paracétamol est utilisé en première intention pour la prise en charge de la douleur post-opératoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’Acupan® est un antalgique opioïde de palier III.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’Acupan® est un antalgique non opioïde de palier I."
+    },
+    {
+      "question": "Quels sont les risques associés à l’administration de morphine ? (Cochez les bonnes réponses)",
+      "options": [
+        "Constipation",
+        "Dépression respiratoire",
+        "Diarrhée",
+        "Somnolence"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "La morphine peut nécessiter une surveillance accrue de la vigilance du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Pourquoi une antibiothérapie peut-elle être prescrite après une chirurgie digestive ?",
+      "options": [
+        "Traiter ou prévenir une infection",
+        "Soulager la douleur",
+        "Prévenir le risque thromboembolique",
+        "Favoriser la reprise du transit"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "L’association de deux antibiotiques peut permettre une couverture bactérienne plus large.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est l’objectif de la prescription d’Inexium® en post-opératoire ?",
+      "options": [
+        "Protéger la muqueuse gastrique",
+        "Prévenir la douleur",
+        "Prévenir l’infection",
+        "Stimuler le transit"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "L’Inexium® appartient à la famille des inhibiteurs de la pompe à protons.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est l’objectif principal de la prescription de Lovenox® en post-opératoire ?",
+      "options": [
+        "Prévenir le risque thromboembolique",
+        "Traiter une infection",
+        "Soulager la douleur",
+        "Corriger une anémie"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "L’alitement prolongé augmente le risque de thrombose veineuse profonde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Pourquoi une sonde urinaire est-elle maintenue en post-opératoire ?",
+      "options": [
+        "Surveiller la diurèse",
+        "Soulager la douleur abdominale",
+        "Prévenir les vomissements",
+        "Stimuler le transit"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "Une sonde urinaire mal positionnée ou mal surveillée augmente le risque infectieux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est l’objectif principal de la sonde nasogastrique en aspiration douce ?",
+      "options": [
+        "Réduire les nausées et vomissements",
+        "Administrer une alimentation entérale",
+        "Stimuler le péristaltisme",
+        "Mesurer la pression gastrique"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "Une aspiration gastrique trop forte peut léser la muqueuse de l’estomac.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Pourquoi le patient est-il maintenu à jeun après une chirurgie digestive ?",
+      "options": [
+        "Attendre la reprise du transit intestinal",
+        "Prévenir l’infection",
+        "Éviter la douleur",
+        "Prévenir l’hypoglycémie"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "La reprise de l’alimentation se fait généralement après l’émission de gaz.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Pourquoi l’atteinte à l’intégrité des tissus est-elle un risque infirmier chez un patient opéré d’une occlusion intestinale ?",
+      "options": [
+        "En raison de l’intervention chirurgicale et de la présence d’une stomie",
+        "En raison de l’alitement prolongé",
+        "En raison de la fièvre post-opératoire",
+        "En raison des troubles hydro-électrolytiques"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "La présence d’orifices de cœlioscopie et d’une colostomie constitue une atteinte à l’intégrité des tissus.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel effet indésirable fréquent de la morphine justifie une surveillance du transit intestinal ?",
+      "options": [
+        "Constipation",
+        "Diarrhée",
+        "Vomissements",
+        "Polyurie"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "La morphine peut être responsable d’une constipation par ralentissement du transit intestinal.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel risque infirmier est directement lié à l’effet de la morphine sur le système urinaire ?",
+      "options": [
+        "Rétention urinaire",
+        "Infection respiratoire",
+        "Hypotension artérielle",
+        "Hyperglycémie"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "La morphine peut entraîner une altération de l’élimination urinaire nécessitant une surveillance de la diurèse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est un risque lié à l’administration de morphine nécessitant une surveillance de l’état de vigilance ?",
+      "options": [
+        "Somnolence",
+        "Agitation psychomotrice",
+        "Insomnie",
+        "Céphalées"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "La somnolence induite par la morphine peut augmenter le risque de chute chez le patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    }
+  ]
+}

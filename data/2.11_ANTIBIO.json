@@ -1,0 +1,276 @@
+{
+  "title": "Antibiothérapie – Généralités",
+  "subtitle": "UE 2.11 – Bases, usages et sécurité (hors classifications et DCI)",
+  "questions": [
+    {
+      "question": "Un antibiotique bactériostatique entraîne la destruction des micro-organismes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Un antibiotique bactériostatique inhibe la multiplication bactérienne sans entraîner leur destruction."
+    },
+    {
+      "question": "Un antibiotique est dit bactéricide lorsqu’il provoque la mort du micro-organisme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un antibiotique bactéricide entraîne la destruction directe des bactéries."
+    },
+    {
+      "question": "Quelle est la définition correcte d’un antibiotique ?",
+      "options": ["Substance qui stimule l’immunité", "Substance inhibant ou détruisant les micro-organismes", "Substance active uniquement sur les virus", "Substance antipyrétique"],
+      "correct": [1],
+      "explanation": "Un antibiotique inhibe la multiplication ou détruit les micro-organismes."
+    },
+    {
+      "question": "Un antibiotique à large spectre est actif sur un nombre important et varié de germes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Plus le nombre de germes sensibles est élevé, plus le spectre est large."
+    },
+    {
+      "question": "L’antibiogramme permet d’identifier le germe responsable de l’infection.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "L’antibiogramme teste la sensibilité d’un germe déjà identifié aux antibiotiques."
+    },
+    {
+      "question": "Quel est l’objectif principal de l’antibiogramme ?",
+      "options": ["Identifier la bactérie", "Mesurer la charge virale", "Choisir l’antibiotique le plus efficace", "Évaluer la toxicité d’un antibiotique"],
+      "correct": [2],
+      "explanation": "L’antibiogramme permet de déterminer quels antibiotiques seront actifs sur un germe isolé."
+    },
+    {
+      "question": "La CMI correspond à la plus petite concentration d’antibiotique empêchant la croissance bactérienne in vitro.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La CMI est mesurée en laboratoire après environ 18 heures d’incubation."
+    },
+    {
+      "question": "Une bactérie est dite sensible lorsque sa CMI est supérieure au seuil toxique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Une bactérie est sensible lorsque la CMI est inférieure au taux plasmatique atteignable."
+    },
+    {
+      "question": "Quels sont les critères permettant de juger l’efficacité d’une antibiothérapie ?",
+      "options": ["Bonne diffusion tissulaire", "Bonne observance du patient", "Durée de traitement suffisante", "Choix aléatoire de l’antibiotique"],
+      "correct": [0,1,2],
+      "explanation": "L’efficacité dépend du germe, de la diffusion, de la tolérance et de l’observance."
+    },
+    {
+      "question": "L’antibiothérapie prophylactique a pour objectif de traiter une infection déclarée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "La prophylaxie vise à prévenir une infection, notamment en contexte chirurgical."
+    },
+    {
+      "question": "Une résistance naturelle signifie que la bactérie était initialement sensible à l’antibiotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "La résistance naturelle correspond à une absence d’activité d’emblée liée à l’espèce bactérienne."
+    },
+    {
+      "question": "La résistance acquise peut être liée à une mutation chromosomique ou à un plasmide.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La résistance acquise résulte d’une modification génétique après exposition aux antibiotiques."
+    },
+    {
+      "question": "Quel est l’intérêt principal des associations d’antibiotiques ?",
+      "options": ["Augmenter la toxicité", "Éviter l’apparition de résistances", "Traiter une infection polymicrobienne", "Renforcer l’efficacité par synergie"],
+      "correct": [1,2,3],
+      "explanation": "Les associations peuvent prévenir les résistances et améliorer l’efficacité thérapeutique."
+    },
+    {
+      "question": "Toutes les associations d’antibiotiques sont bénéfiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Certaines associations peuvent être antagonistes et diminuer l’efficacité."
+    },
+    {
+      "question": "Quels sont les principaux modes d’action des antibiotiques ?",
+      "options": ["Synthèse de la paroi bactérienne", "Synthèse des protéines", "Synthèse des acides nucléiques", "Stimulation du système immunitaire"],
+      "correct": [0,1,2],
+      "explanation": "Les antibiotiques agissent directement sur des cibles bactériennes spécifiques."
+    },
+    {
+      "question": "Les effets indésirables des antibiotiques peuvent être dose-dépendants.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les accidents toxiques sont souvent liés à la dose et au terrain du patient."
+    },
+    {
+      "question": "Quel effet indésirable est typiquement lié aux aminosides ?",
+      "options": ["Phototoxicité", "Ototoxicité", "Néphrotoxicité", "Hypoglycémie"],
+      "correct": [1,2],
+      "explanation": "Les aminosides sont connus pour leur oto- et néphrotoxicité."
+    },
+    {
+      "question": "Les accidents d’intolérance sont des réactions immuno-allergiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils surviennent chez des patients sensibilisés, comme le choc anaphylactique."
+    },
+    {
+      "question": "Le syndrome de Lyell est une réaction allergique bénigne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Le syndrome de Lyell est une urgence vitale avec décollement cutané massif."
+    },
+    {
+      "question": "Quels troubles peuvent survenir lors d’une modification de la flore intestinale par les antibiotiques ?",
+      "options": ["Diarrhée", "Candidose", "Colite pseudo-membraneuse", "Hypertension artérielle"],
+      "correct": [0,1,2],
+      "explanation": "La perturbation de la flore favorise la prolifération de germes opportunistes."
+    },
+    {
+      "question": "Clostridium difficile peut proliférer après un traitement antibiotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La destruction de la flore protectrice favorise sa prolifération."
+    },
+    {
+      "question": "Quels terrains nécessitent une vigilance particulière lors d’une antibiothérapie ?",
+      "options": ["Femme enceinte", "Insuffisance rénale", "Déficit en G6PD", "Myopie"],
+      "correct": [0,1,2],
+      "explanation": "Certaines situations augmentent le risque de toxicité ou de contre-indication."
+    },
+    {
+      "question": "La voie urinaire est une voie majeure d’élimination de nombreux antibiotiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Beaucoup d’antibiotiques sont éliminés par le rein."
+    },
+    {
+      "question": "La voie parentérale est réservée aux infections graves ou lorsque la voie orale est impossible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle permet une biodisponibilité rapide et contrôlée."
+    },
+    {
+      "question": "Quels éléments permettent d’évaluer l’efficacité d’un traitement antibiotique ?",
+      "options": ["Amélioration clinique", "Normalisation des paramètres biologiques", "Disparition de la fièvre", "Couleur des comprimés"],
+      "correct": [0,1,2],
+      "explanation": "L’évaluation repose sur des critères cliniques et biologiques."
+    },
+    {
+      "question": "Respecter la durée du traitement antibiotique est essentiel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un arrêt prématuré favorise l’échec thérapeutique et les résistances."
+    },
+    {
+      "question": "Un patient peut arrêter son antibiotique dès amélioration des symptômes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "L’arrêt précoce augmente le risque de rechute et de résistance."
+    },
+    {
+      "question": "L’automédication antibiotique est recommandée en cas de fièvre isolée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "L’usage inapproprié des antibiotiques favorise l’antibiorésistance."
+    },
+    {
+      "question": "Les fluoroquinolones peuvent provoquer des troubles musculo-squelettiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elles exposent notamment à un risque de tendinopathie et de rupture tendineuse."
+    },
+    {
+      "question": "Quels effets indésirables peuvent être observés avec les fluoroquinolones ?",
+      "options": ["Photosensibilisation", "Tendinopathies", "Troubles neuropsychiatriques", "Hypotension orthostatique isolée"],
+      "correct": [0,1,2],
+      "explanation": "Ces effets sont bien documentés et justifient des restrictions d’usage."
+    },
+    {
+      "question": "Une antibiothérapie efficace nécessite une bonne observance du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le non-respect des prises compromet l’efficacité du traitement."
+    },
+    {
+      "question": "Les antibiotiques sont efficaces contre les infections virales.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Les antibiotiques n’agissent que sur les bactéries."
+    },
+    {
+      "question": "Une surveillance de la fonction rénale est indispensable avant certains antibiotiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle permet d’adapter la posologie et d’éviter une toxicité."
+    },
+    {
+      "question": "La résistance bactérienne est uniquement due à un mauvais usage des antibiotiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Elle peut être naturelle ou acquise par différents mécanismes génétiques."
+    },
+    {
+      "question": "La synergie antibiotique correspond à un effet inférieur à l’action individuelle des antibiotiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "La synergie correspond à un effet thérapeutique supérieur."
+    },
+    {
+      "question": "Les accidents toxiques peuvent dépendre du terrain du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’âge, la fonction rénale ou hépatique influencent la tolérance."
+    },
+    {
+      "question": "La flore intestinale joue un rôle dans la synthèse de certaines vitamines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle participe notamment à la synthèse des vitamines B et K."
+    },
+    {
+      "question": "La phototoxicité peut être un effet indésirable de certains antibiotiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle se manifeste par des réactions cutanées lors d’une exposition solaire."
+    },
+    {
+      "question": "Une infection polymicrobienne justifie parfois une association d’antibiotiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’association permet de couvrir plusieurs germes simultanément."
+    },
+    {
+      "question": "Les recommandations officielles insistent sur la limitation des prescriptions inutiles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un usage raisonné est essentiel pour lutter contre l’antibiorésistance."
+    },
+    {
+      "question": "La durée de traitement antibiotique n’influence pas l’apparition de résistances.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Une durée inadaptée favorise l’émergence de résistances bactériennes."
+    },
+    {
+      "question": "L’évaluation clinique est inutile pour juger de l’efficacité d’un antibiotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "L’amélioration clinique est un critère majeur d’efficacité."
+    },
+    {
+      "question": "Les antibiotiques peuvent être administrés par voie locale dans certaines situations.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Des voies locales existent comme cutanée, oculaire ou auriculaire."
+    },
+    {
+      "question": "Une bonne diffusion tissulaire est nécessaire pour l’efficacité d’un antibiotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’antibiotique doit atteindre le site de l’infection à une concentration efficace."
+    },
+    {
+      "question": "La surveillance biologique peut être nécessaire au cours d’une antibiothérapie prolongée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle permet de détecter précocement des effets indésirables."
+    }
+  ]
+}

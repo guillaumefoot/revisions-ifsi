@@ -1,0 +1,424 @@
+{
+  "title": "Pharmacologie générale",
+  "subtitle": "UE 2.11 – Principes généraux (sans calculs de dose)",
+  "questions": [
+    {
+      "question": "La pharmacologie étudie principalement :",
+      "options": [
+        "La fabrication des médicaments",
+        "Les effets des médicaments sur l’organisme",
+        "La chirurgie médicamenteuse",
+        "La psychologie du patient"
+      ],
+      "correct": [1],
+      "explanation": "La pharmacologie étudie le devenir et les effets des médicaments dans l’organisme."
+    },
+    {
+      "question": "La pharmacodynamie correspond à :",
+      "options": [
+        "Ce que l’organisme fait au médicament",
+        "Ce que le médicament fait à l’organisme",
+        "L’élimination du médicament",
+        "La distribution tissulaire"
+      ],
+      "correct": [1],
+      "explanation": "La pharmacodynamie étudie les mécanismes d’action et les effets du médicament."
+    },
+    {
+      "question": "La pharmacocinétique comprend :",
+      "options": [
+        "Absorption",
+        "Distribution",
+        "Métabolisme",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "La pharmacocinétique regroupe absorption, distribution, métabolisme et élimination."
+    },
+    {
+      "question": "Quelle voie d’administration permet un effet le plus rapide ?",
+      "options": [
+        "Voie orale",
+        "Voie cutanée",
+        "Voie intraveineuse",
+        "Voie rectale"
+      ],
+      "correct": [2],
+      "explanation": "La voie IV permet un passage direct dans la circulation."
+    },
+    {
+      "question": "La biodisponibilité correspond à :",
+      "options": [
+        "La dose prescrite",
+        "La fraction de médicament atteignant la circulation générale",
+        "La durée d’action",
+        "La vitesse d’élimination"
+      ],
+      "correct": [1],
+      "explanation": "La biodisponibilité mesure la quantité réellement disponible dans le sang."
+    },
+    {
+      "question": "Quel phénomène réduit la biodisponibilité orale ?",
+      "options": [
+        "Effet de premier passage hépatique",
+        "Distribution tissulaire",
+        "Fixation aux protéines",
+        "Filtration glomérulaire"
+      ],
+      "correct": [0],
+      "explanation": "Le premier passage hépatique diminue la quantité active."
+    },
+    {
+      "question": "La distribution d’un médicament dépend notamment :",
+      "options": [
+        "De la fixation aux protéines plasmatiques",
+        "De la perfusion des organes",
+        "De la liposolubilité",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Ces facteurs conditionnent l’accès du médicament aux tissus."
+    },
+    {
+      "question": "Un médicament fortement lié à l’albumine est :",
+      "options": [
+        "Plus rapidement éliminé",
+        "Moins diffusible dans les tissus",
+        "Toujours toxique",
+        "Inefficace"
+      ],
+      "correct": [1],
+      "explanation": "Seule la fraction libre est active et diffusible."
+    },
+    {
+      "question": "Le métabolisme des médicaments a lieu principalement :",
+      "options": [
+        "Dans le rein",
+        "Dans le foie",
+        "Dans le poumon",
+        "Dans l’estomac"
+      ],
+      "correct": [1],
+      "explanation": "Le foie est l’organe majeur du métabolisme."
+    },
+    {
+      "question": "Les enzymes hépatiques responsables du métabolisme sont principalement :",
+      "options": [
+        "Cytochromes P450",
+        "Lipases",
+        "Amylases",
+        "Protéases"
+      ],
+      "correct": [0],
+      "explanation": "Les CYP450 transforment les médicaments."
+    },
+    {
+      "question": "Un inducteur enzymatique entraîne :",
+      "options": [
+        "Une augmentation de l’effet du médicament",
+        "Une diminution de l’effet du médicament",
+        "Une toxicité immédiate",
+        "Une absence de métabolisme"
+      ],
+      "correct": [1],
+      "explanation": "L’induction accélère le métabolisme."
+    },
+    {
+      "question": "Un inhibiteur enzymatique provoque :",
+      "options": [
+        "Une diminution de l’effet",
+        "Une accumulation du médicament",
+        "Une élimination plus rapide",
+        "Une perte d’efficacité"
+      ],
+      "correct": [1],
+      "explanation": "L’inhibition ralentit le métabolisme et augmente le risque toxique."
+    },
+    {
+      "question": "L’élimination des médicaments se fait principalement par :",
+      "options": [
+        "Le foie",
+        "Le rein",
+        "La peau",
+        "Le poumon"
+      ],
+      "correct": [1],
+      "explanation": "L’élimination est majoritairement rénale."
+    },
+    {
+      "question": "Chez un patient insuffisant rénal, le risque principal est :",
+      "options": [
+        "Une inefficacité du traitement",
+        "Une accumulation médicamenteuse",
+        "Une allergie",
+        "Une dépendance"
+      ],
+      "correct": [1],
+      "explanation": "La diminution de l’élimination expose au surdosage."
+    },
+    {
+      "question": "La demi-vie d’un médicament correspond à :",
+      "options": [
+        "La durée totale du traitement",
+        "Le temps pour éliminer la moitié du médicament",
+        "La durée de prescription",
+        "Le temps d’absorption"
+      ],
+      "correct": [1],
+      "explanation": "La demi-vie conditionne le rythme d’administration."
+    },
+    {
+      "question": "L’état d’équilibre est atteint généralement après :",
+      "options": [
+        "1 demi-vie",
+        "2 demi-vies",
+        "4 à 5 demi-vies",
+        "10 demi-vies"
+      ],
+      "correct": [2],
+      "explanation": "Il faut environ 4 à 5 demi-vies."
+    },
+    {
+      "question": "Une interaction médicamenteuse correspond à :",
+      "options": [
+        "Une allergie",
+        "Une modification de l’effet d’un médicament par un autre",
+        "Une erreur de prescription",
+        "Une intolérance digestive"
+      ],
+      "correct": [1],
+      "explanation": "Les interactions peuvent majorer ou diminuer les effets."
+    },
+    {
+      "question": "Une interaction pharmacodynamique agit :",
+      "options": [
+        "Sur l’absorption",
+        "Sur le métabolisme",
+        "Sur les récepteurs ou effets",
+        "Sur l’élimination"
+      ],
+      "correct": [2],
+      "explanation": "Elle concerne l’effet du médicament."
+    },
+    {
+      "question": "Une interaction pharmacocinétique peut modifier :",
+      "options": [
+        "L’absorption",
+        "Le métabolisme",
+        "L’élimination",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Elle modifie le devenir du médicament."
+    },
+    {
+      "question": "Une contre-indication correspond à :",
+      "options": [
+        "Une situation nécessitant une surveillance",
+        "Une situation interdisant l’utilisation",
+        "Un effet indésirable",
+        "Une interaction"
+      ],
+      "correct": [1],
+      "explanation": "La contre-indication empêche l’administration."
+    },
+    {
+      "question": "Un effet indésirable est :",
+      "options": [
+        "Toujours grave",
+        "Toujours prévisible",
+        "Une réaction nocive non recherchée",
+        "Une erreur médicamenteuse"
+      ],
+      "correct": [2],
+      "explanation": "Les effets indésirables peuvent être bénins ou graves."
+    },
+    {
+      "question": "La pharmacovigilance a pour objectif de :",
+      "options": [
+        "Créer de nouveaux médicaments",
+        "Surveiller les effets indésirables",
+        "Contrôler les prix",
+        "Former les soignants"
+      ],
+      "correct": [1],
+      "explanation": "Elle vise la sécurité des patients."
+    },
+    {
+      "question": "Un effet indésirable grave doit être :",
+      "options": [
+        "Ignoré",
+        "Notifié",
+        "Auto-traité",
+        "Systématiquement attendu"
+      ],
+      "correct": [1],
+      "explanation": "La déclaration est obligatoire."
+    },
+    {
+      "question": "Un médicament à marge thérapeutique étroite nécessite :",
+      "options": [
+        "Aucune surveillance",
+        "Une surveillance clinique et parfois biologique",
+        "Une augmentation systématique des doses",
+        "Une prise unique"
+      ],
+      "correct": [1],
+      "explanation": "Le risque toxique est proche de l’efficacité."
+    },
+    {
+      "question": "Un générique est :",
+      "options": [
+        "Moins efficace",
+        "Plus dangereux",
+        "Bioéquivalent au princeps",
+        "Différent chimiquement"
+      ],
+      "correct": [2],
+      "explanation": "Le générique a la même efficacité et sécurité."
+    },
+    {
+      "question": "La DCI correspond à :",
+      "options": [
+        "Un nom commercial",
+        "Un nom international du principe actif",
+        "Un nom de laboratoire",
+        "Une posologie"
+      ],
+      "correct": [1],
+      "explanation": "La DCI est universelle."
+    },
+    {
+      "question": "Une spécialité pharmaceutique est :",
+      "options": [
+        "La DCI",
+        "Le médicament commercialisé",
+        "Le principe actif",
+        "La classe thérapeutique"
+      ],
+      "correct": [1],
+      "explanation": "La spécialité correspond au nom commercial."
+    },
+    {
+      "question": "L’observance thérapeutique correspond à :",
+      "options": [
+        "La compréhension du traitement",
+        "Le respect de la prescription",
+        "La surveillance biologique",
+        "La durée d’hospitalisation"
+      ],
+      "correct": [1],
+      "explanation": "Une bonne observance conditionne l’efficacité."
+    },
+    {
+      "question": "Un facteur favorisant la non-observance est :",
+      "options": [
+        "Un traitement simple",
+        "Des effets indésirables",
+        "Une bonne information",
+        "Un suivi régulier"
+      ],
+      "correct": [1],
+      "explanation": "Les effets indésirables diminuent l’adhésion."
+    },
+    {
+      "question": "Chez la personne âgée, le risque médicamenteux est augmenté en raison :",
+      "options": [
+        "Des comorbidités",
+        "De la polymédication",
+        "Des modifications physiologiques",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Le risque iatrogène est plus élevé."
+    },
+    {
+      "question": "La polymédication correspond à :",
+      "options": [
+        "La prise de deux médicaments",
+        "La prise simultanée de plusieurs médicaments",
+        "Une erreur de prescription",
+        "Une automédication"
+      ],
+      "correct": [1],
+      "explanation": "Elle augmente le risque d’interactions."
+    },
+    {
+      "question": "Une voie d’administration locale permet :",
+      "options": [
+        "Un effet systémique rapide",
+        "Un effet ciblé avec moins d’effets généraux",
+        "Une biodisponibilité maximale",
+        "Une élimination rénale directe"
+      ],
+      "correct": [1],
+      "explanation": "Elle limite les effets systémiques."
+    },
+    {
+      "question": "Le rôle infirmier en pharmacologie comprend :",
+      "options": [
+        "La surveillance",
+        "L’éducation du patient",
+        "La prévention des erreurs",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Le rôle infirmier est central dans la sécurité."
+    },
+    {
+      "question": "Une erreur médicamenteuse peut survenir lors de :",
+      "options": [
+        "La prescription",
+        "La préparation",
+        "L’administration",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "La vigilance est nécessaire à chaque étape."
+    },
+    {
+      "question": "La règle des 5B vise à :",
+      "options": [
+        "Calculer les doses",
+        "Sécuriser l’administration",
+        "Choisir la voie",
+        "Surveiller les effets"
+      ],
+      "correct": [1],
+      "explanation": "Bon patient, bon médicament, bonne dose, bonne voie, bon moment."
+    },
+    {
+      "question": "Un médicament périmé doit être :",
+      "options": [
+        "Administré rapidement",
+        "Jeté selon la filière adaptée",
+        "Conservé au froid",
+        "Redosé"
+      ],
+      "correct": [1],
+      "explanation": "Il ne doit jamais être administré."
+    },
+    {
+      "question": "La conservation d’un médicament dépend principalement :",
+      "options": [
+        "De sa classe",
+        "Des recommandations du fabricant",
+        "Du service",
+        "De l’heure d’administration"
+      ],
+      "correct": [1],
+      "explanation": "Les conditions de conservation sont spécifiques."
+    },
+    {
+      "question": "Quel est l’objectif principal de la pharmacologie pour le soignant ?",
+      "options": [
+        "Prescrire",
+        "Administrer en sécurité",
+        "Diagnostiquer",
+        "Remplacer le médecin"
+      ],
+      "correct": [1],
+      "explanation": "La sécurité médicamenteuse est prioritaire."
+    }
+  ]
+}

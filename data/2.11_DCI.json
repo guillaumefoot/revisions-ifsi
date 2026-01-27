@@ -1,0 +1,462 @@
+{
+  "title": "Antibiothérapie – Familles, DCI et suffixes",
+  "subtitle": "UE 2.11 – Classes d’antibiotiques et identification",
+  "questions": [
+    {
+      "question": "Les bêta-lactamines agissent en inhibant la synthèse de la paroi bactérienne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les bêta-lactamines bloquent la synthèse du peptidoglycane, constituant essentiel de la paroi bactérienne."
+    },
+    {
+      "question": "Les pénicillines et les céphalosporines appartiennent à la famille des bêta-lactamines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces deux classes partagent un noyau bêta-lactame et un mécanisme d’action commun."
+    },
+    {
+      "question": "Quel suffixe de DCI oriente vers une fluoroquinolone ?",
+      "options": ["-cycline", "-floxacine", "-mycine", "-cef"],
+      "correct": [1],
+      "explanation": "Les fluoroquinolones se terminent classiquement par le suffixe -floxacine."
+    },
+    {
+      "question": "Une molécule dont la DCI se termine par -cycline appartient à la famille des cyclines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le suffixe -cycline est caractéristique des tétracyclines."
+    },
+    {
+      "question": "Quels suffixes sont associés aux pénicillines ?",
+      "options": ["-cilline", "-cef", "-floxacine", "-mycine"],
+      "correct": [0],
+      "explanation": "Les pénicillines se reconnaissent par le suffixe -cilline."
+    },
+    {
+      "question": "Les céphalosporines sont identifiables par le préfixe ou suffixe -cef.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les DCI des céphalosporines comportent généralement -cef ou -ceph."
+    },
+    {
+      "question": "Quel est le mécanisme d’action principal des aminosides ?",
+      "options": ["Synthèse de la paroi", "Synthèse des protéines (30S)", "Synthèse des acides nucléiques", "Perméabilité membranaire"],
+      "correct": [1],
+      "explanation": "Les aminosides inhibent la synthèse protéique en se fixant sur la sous-unité 30S."
+    },
+    {
+      "question": "Les macrolides agissent sur la sous-unité 50S du ribosome.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les macrolides bloquent la synthèse protéique via la sous-unité 50S."
+    },
+    {
+      "question": "Le suffixe -mycine correspond toujours à un macrolide.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Certaines molécules en -mycine sont des aminosides ou des glycopeptides."
+    },
+    {
+      "question": "Quels antibiotiques appartiennent aux aminosides ?",
+      "options": ["Amikacine", "Gentamicine", "Tobramycine", "Azithromycine"],
+      "correct": [0,1,2],
+      "explanation": "Amikacine, gentamicine et tobramycine sont des aminosides."
+    },
+    {
+      "question": "Les aminosides sont principalement bactériostatiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Les aminosides sont bactéricides."
+    },
+    {
+      "question": "Quel est le mécanisme d’action des fluoroquinolones ?",
+      "options": ["Synthèse de la paroi", "Synthèse des protéines", "Synthèse de l’ADN bactérien", "Synthèse de l’acide folique"],
+      "correct": [2],
+      "explanation": "Les fluoroquinolones inhibent les enzymes de réplication de l’ADN."
+    },
+    {
+      "question": "Les sulfamides associés agissent sur la synthèse de l’acide folique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils bloquent deux étapes successives de la synthèse de l’acide folique."
+    },
+    {
+      "question": "Quel suffixe oriente vers un 5-nitro-imidazolé ?",
+      "options": ["-nidazole", "-cycline", "-floxacine", "-cilline"],
+      "correct": [0],
+      "explanation": "Les 5-nitro-imidazolés comportent le suffixe -nidazole."
+    },
+    {
+      "question": "Les carbapénèmes font partie des bêta-lactamines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils possèdent un noyau bêta-lactame et une activité très large."
+    },
+    {
+      "question": "Les cyclines sont contre-indiquées chez l’enfant de moins de 8 ans.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elles provoquent une coloration irréversible des dents."
+    },
+    {
+      "question": "Les macrolides sont souvent utilisés dans les infections ORL et respiratoires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils sont actifs sur de nombreux germes respiratoires."
+    },
+    {
+      "question": "Quels antibiotiques agissent sur la paroi bactérienne ?",
+      "options": ["Bêta-lactamines", "Glycopeptides", "Fluoroquinolones", "Macrolides"],
+      "correct": [0,1],
+      "explanation": "Les bêta-lactamines et les glycopeptides ciblent la paroi bactérienne."
+    },
+    {
+      "question": "Les glycopeptides sont actifs sur la synthèse de la paroi bactérienne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils empêchent l’assemblage du peptidoglycane."
+    },
+    {
+      "question": "Quel suffixe est caractéristique des sulfamides ?",
+      "options": ["-sulfa", "-mycine", "-floxacine", "-cycline"],
+      "correct": [0],
+      "explanation": "Les sulfamides comportent le préfixe ou suffixe -sulfa."
+    },
+    {
+      "question": "Les fluoroquinolones sont bactéricides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elles entraînent la mort bactérienne par inhibition de l’ADN."
+    },
+    {
+      "question": "Les macrolides sont toujours bactéricides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Ils sont le plus souvent bactériostatiques."
+    },
+    {
+      "question": "Quel est le point commun entre pénicillines et céphalosporines ?",
+      "options": ["Même suffixe", "Même mécanisme d’action", "Même toxicité", "Même spectre strict"],
+      "correct": [1],
+      "explanation": "Elles inhibent toutes deux la synthèse de la paroi bactérienne."
+    },
+    {
+      "question": "Les oxazolidinones agissent sur la synthèse des protéines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elles bloquent l’initiation de la synthèse protéique."
+    },
+    {
+      "question": "Quel suffixe peut faire évoquer une céphalosporine ?",
+      "options": ["-cef", "-floxacine", "-nidazole", "-cycline"],
+      "correct": [0],
+      "explanation": "Le suffixe -cef est typique des céphalosporines."
+    },
+    {
+      "question": "Les nitrofuranes sont utilisés principalement dans les infections urinaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils ont une activité ciblée sur les germes urinaires."
+    },
+    {
+      "question": "Les lipopeptides cycliques agissent sur la membrane bactérienne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils altèrent la perméabilité membranaire."
+    },
+    {
+      "question": "Quel mécanisme est commun aux macrolides et aux cyclines ?",
+      "options": ["Paroi", "Protéines", "ADN", "Membrane"],
+      "correct": [1],
+      "explanation": "Ils inhibent tous deux la synthèse protéique, mais sur des sous-unités différentes."
+    },
+    {
+      "question": "Les quinolones et fluoroquinolones appartiennent à la même grande classe.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les fluoroquinolones sont des quinolones fluorées."
+    },
+    {
+      "question": "Le suffixe -azole est associé aux antifongiques et aux antibiotiques 5-nitro-imidazolés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ce suffixe est partagé par plusieurs familles antimicrobiennes."
+    },
+    {
+      "question": "Les phénicolés agissent sur la synthèse protéique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils inhibent la sous-unité 50S du ribosome."
+    },
+    {
+      "question": "Les associations de sulfamides améliorent l’efficacité par synergie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’association bloque deux étapes successives d’une même voie métabolique."
+    },
+    {
+      "question": "Quel suffixe oriente vers une pénicilline ?",
+      "options": ["-cilline", "-cef", "-mycine", "-cycline"],
+      "correct": [0],
+      "explanation": "Le suffixe -cilline est spécifique des pénicillines."
+    },
+    {
+      "question": "Les aminoglycosides et les macrolides ont le même mécanisme d’action.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Ils agissent tous deux sur la synthèse protéique mais sur des cibles différentes."
+    },
+    {
+      "question": "Les antibiotiques anti-staphylococciques ciblent prioritairement les staphylocoques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils sont conçus pour résister aux pénicillinases staphylococciques."
+    },
+    {
+      "question": "Les cyclines sont généralement bactériostatiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elles inhibent la multiplication bactérienne."
+    },
+    {
+      "question": "Quel mécanisme correspond aux rifamycines ?",
+      "options": ["Synthèse de la paroi", "Synthèse de l’ARN", "Synthèse des protéines", "Membrane"],
+      "correct": [1],
+      "explanation": "Elles inhibent l’ARN polymérase bactérienne."
+    },
+    {
+      "question": "Les macrolides sont identifiables par le suffixe -thromycine ou -mycine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces suffixes sont fréquents chez les macrolides."
+    },
+    {
+      "question": "Les antibiotiques à large spectre appartiennent tous à une seule famille.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Le spectre dépend de la molécule, pas uniquement de la famille."
+    },
+    {
+      "question": "Les glycopeptides sont efficaces contre les bactéries Gram positif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils ont une activité ciblée sur les Gram positif."
+    },
+    {
+      "question": "Les fluoroquinolones se terminent toutes par -floxacine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le suffixe -floxacine est constant dans cette famille."
+    },
+    {
+      "question": "Les carbapénèmes ont un spectre étroit.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Ils ont un spectre très large."
+    },
+    {
+      "question": "Les nitro-imidazolés sont actifs sur les bactéries anaérobies.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils sont particulièrement efficaces sur les germes anaérobies."
+    },
+    {
+      "question": "Les familles d’antibiotiques peuvent être reconnues par leur mécanisme d’action.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Chaque grande famille possède une cible bactérienne spécifique."
+    },
+    {
+      "question": "Les suffixes de DCI permettent d’anticiper la famille et parfois le mécanisme d’action.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils sont un outil clé d’identification pharmacologique."
+    },
+    {
+      "question": "CLAMOXYL® contient de l’amoxicilline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "CLAMOXYL® est la spécialité pharmaceutique de l’amoxicilline."
+    },
+    {
+      "question": "AUGMENTIN® associe une pénicilline à un inhibiteur de bêta-lactamase.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "AUGMENTIN® associe l’amoxicilline à l’acide clavulanique."
+    },
+    {
+      "question": "ORBENINE® appartient aux pénicillines anti-staphylococciques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "ORBENINE® (cloxacilline) est résistante aux pénicillinases des staphylocoques."
+    },
+    {
+      "question": "Quelle spécialité appartient à la famille des céphalosporines de 3e génération ?",
+      "options": ["ROCEPHINE®", "OROKEN®", "FORTUM®", "CLAMOXYL®"],
+      "correct": [0,1,2],
+      "explanation": "ROCEPHINE®, OROKEN® et FORTUM® sont des céphalosporines de 3e génération."
+    },
+    {
+      "question": "ROCEPHINE® contient de la ceftriaxone.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "ROCEPHINE® est la spécialité de la ceftriaxone."
+    },
+    {
+      "question": "FORTUM® est une pénicilline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "FORTUM® est une céphalosporine (ceftazidime)."
+    },
+    {
+      "question": "TIENAM® est un antibiotique de la famille des carbapénèmes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "TIENAM® associe imipénem et cilastatine, appartenant aux carbapénèmes."
+    },
+    {
+      "question": "Quels médicaments sont des aminosides ?",
+      "options": ["AMIKLIN®", "GENTALLINE®", "NEBCINE®", "ZITHROMAX®"],
+      "correct": [0,1,2],
+      "explanation": "AMIKLIN®, GENTALLINE® et NEBCINE® sont des aminosides."
+    },
+    {
+      "question": "Les aminosides sont classés comme médicaments à haut risque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils ont une marge thérapeutique étroite avec risque oto- et néphrotoxique."
+    },
+    {
+      "question": "ZITHROMAX® appartient à la famille des macrolides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "ZITHROMAX® contient de l’azithromycine, un macrolide."
+    },
+    {
+      "question": "RULID® et ROVAMYCINE® appartiennent à la même famille.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "RULID® (roxithromycine) et ROVAMYCINE® (spiramycine) sont des macrolides."
+    },
+    {
+      "question": "FLAGYL® appartient à la famille des 5-nitro-imidazolés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "FLAGYL® contient du métronidazole."
+    },
+    {
+      "question": "Quels antibiotiques sont des fluoroquinolones ?",
+      "options": ["OFLOCET®", "CIFLOX®", "TAVANIC®", "VIBRAMYCINE®"],
+      "correct": [0,1,2],
+      "explanation": "OFLOCET®, CIFLOX® et TAVANIC® sont des fluoroquinolones."
+    },
+    {
+      "question": "VIBRAMYCINE® est une cycline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "VIBRAMYCINE® contient de la doxycycline."
+    },
+    {
+      "question": "BACTRIM® est une association de deux sulfamides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "BACTRIM® associe un sulfamide (sulfaméthoxazole) et du triméthoprime."
+    },
+    {
+      "question": "Quel suffixe oriente vers une fluoroquinolone ?",
+      "options": ["-floxacine", "-cycline", "-cilline", "-mycine"],
+      "correct": [0],
+      "explanation": "Les fluoroquinolones se terminent par -floxacine."
+    },
+    {
+      "question": "Le suffixe -cycline permet d’identifier une tétracycline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il est caractéristique des cyclines."
+    },
+    {
+      "question": "Une DCI se terminant par -cef correspond à une céphalosporine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le suffixe -cef est typique des céphalosporines."
+    },
+    {
+      "question": "Les pénicillines sont reconnaissables par le suffixe -cilline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ce suffixe est commun à l’ensemble des pénicillines."
+    },
+    {
+      "question": "Le suffixe -mycine correspond toujours à un macrolide.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Certaines molécules en -mycine sont des aminosides."
+    },
+    {
+      "question": "Quels antibiotiques sont contre-indiqués chez l’enfant de moins de 8 ans ?",
+      "options": ["Cyclines", "Macrolides", "Fluoroquinolones", "Aminosides"],
+      "correct": [0],
+      "explanation": "Les cyclines entraînent une coloration irréversible des dents."
+    },
+    {
+      "question": "Les fluoroquinolones exposent à un risque de tendinopathie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elles peuvent provoquer des atteintes musculo-squelettiques."
+    },
+    {
+      "question": "Les macrolides peuvent allonger l’espace QT.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un ECG peut être nécessaire avant administration IV."
+    },
+    {
+      "question": "Les glycopeptides sont principalement utilisés contre les bactéries Gram positif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils sont ciblés sur les germes Gram positif résistants."
+    },
+    {
+      "question": "VANCOCINE® appartient à la famille des glycopeptides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "VANCOCINE® contient de la vancomycine."
+    },
+    {
+      "question": "Les carbapénèmes ont un spectre étroit.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Ils ont un spectre très large."
+    },
+    {
+      "question": "Les sulfamides peuvent provoquer des photosensibilisations.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La photosensibilisation est un effet indésirable fréquent."
+    },
+    {
+      "question": "Quel antibiotique est fréquemment prescrit chez les patients VIH ?",
+      "options": ["BACTRIM®", "CLAMOXYL®", "ZITHROMAX®", "FORTUM®"],
+      "correct": [0],
+      "explanation": "BACTRIM® est utilisé notamment pour la prophylaxie des infections opportunistes."
+    },
+    {
+      "question": "Les fluoroquinolones partagent toutes le même suffixe de DCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Toutes les fluoroquinolones se terminent par -floxacine."
+    },
+    {
+      "question": "Les spécialités permettent d’identifier la famille d’un antibiotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une spécialité est rattachée à une DCI et donc à une famille."
+    },
+    {
+      "question": "Les familles d’antibiotiques peuvent être reconnues par les suffixes de DCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les suffixes sont un outil clé pour l’identification pharmacologique."
+    }
+  ]
+}

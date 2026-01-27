@@ -1,0 +1,591 @@
+{
+  "title": "Antibiothérapie – Généralités",
+  "subtitle": "UE 2.11 – Antibiotiques : notions fondamentales",
+  "questions": [
+    {
+      "question": "Un antibiotique bactéricide entraîne la destruction du micro-organisme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un antibiotique bactéricide provoque la mort du micro-organisme."
+    },
+    {
+      "question": "Un antibiotique bactériostatique inhibe la croissance des micro-organismes sans les détruire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’activité bactériostatique correspond à une inhibition de la multiplication bactérienne."
+    },
+    {
+      "question": "Quelle est la définition correcte d’un antibiotique ?",
+      "options": ["Substance active uniquement sur les virus", "Substance capable d’inhiber ou de détruire les micro-organismes", "Substance utilisée uniquement en prophylaxie", "Substance exclusivement synthétique"],
+      "correct": [1],
+      "explanation": "Un antibiotique inhibe la multiplication bactérienne et/ou détruit les bactéries."
+    },
+    {
+      "question": "Un antibiotique peut être d’origine naturelle, hémisynthétique ou synthétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les antibiotiques peuvent être produits par des organismes vivants ou par synthèse."
+    },
+    {
+      "question": "Qu’est-ce qu’un antibiogramme ?",
+      "options": ["Un examen évaluant la toxicité d’un antibiotique", "Un examen permettant d’identifier une bactérie", "Un examen permettant de connaître les antibiotiques actifs sur un germe isolé", "Un dosage plasmatique de l’antibiotique"],
+      "correct": [2],
+      "explanation": "L’antibiogramme teste la sensibilité d’une bactérie aux antibiotiques."
+    },
+    {
+      "question": "L’antibiogramme est réalisé après culture du germe en laboratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La culture bactérienne est indispensable avant la réalisation de l’antibiogramme."
+    },
+    {
+      "question": "La CMI correspond à la plus petite concentration d’antibiotique empêchant la croissance bactérienne in vitro.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La CMI est définie après 18 heures d’incubation en laboratoire."
+    },
+    {
+      "question": "Une bactérie est dite sensible lorsque la CMI est supérieure au seuil toxique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Une bactérie est sensible lorsque la CMI est inférieure au taux plasmatique de l’antibiotique."
+    },
+    {
+      "question": "Une bactérie est dite résistante lorsque la CMI est supérieure au seuil thérapeutique toxique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une CMI élevée empêche l’utilisation efficace et sûre de l’antibiotique."
+    },
+    {
+      "question": "Le spectre d’activité d’un antibiotique correspond à l’ensemble des germes sur lesquels il est actif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le spectre peut être étroit, moyen, large ou très large."
+    },
+    {
+      "question": "Quel est le synonyme de spectre d’activité ?",
+      "options": ["Spectre thérapeutique", "Spectre d’action", "Champ d’efficacité", "Indice antibactérien"],
+      "correct": [1],
+      "explanation": "Le spectre d’activité est aussi appelé spectre d’action."
+    },
+    {
+      "question": "Un antibiotique à spectre large agit sur un nombre important et diversifié de bactéries.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Plus le spectre est large, plus le nombre de germes sensibles est élevé."
+    },
+    {
+      "question": "Quelle est l’indication correcte d’une antibiothérapie prophylactique ?",
+      "options": ["Traitement d’une infection avérée", "Prévention d’une infection", "Traitement d’une infection virale", "Substitution immunitaire"],
+      "correct": [1],
+      "explanation": "La prophylaxie vise à prévenir la survenue d’une infection."
+    },
+    {
+      "question": "L’antibiothérapie curative est utilisée en présence d’une infection bactérienne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le traitement curatif vise à éliminer un germe responsable d’une infection."
+    },
+    {
+      "question": "La résistance bactérienne correspond à la capacité d’une bactérie à supporter des concentrations élevées d’antibiotiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La résistance empêche l’efficacité de l’antibiothérapie aux doses usuelles."
+    },
+    {
+      "question": "Une résistance naturelle signifie que la bactérie était initialement sensible à l’antibiotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "La résistance naturelle est innée et liée à l’espèce bactérienne."
+    },
+    {
+      "question": "Quels mécanismes peuvent être à l’origine d’une résistance acquise ?",
+      "options": ["Mutation chromosomique", "Échange de plasmides", "Absence d’exposition aux antibiotiques", "Sélection de souches résistantes"],
+      "correct": [0, 1, 3],
+      "explanation": "La résistance acquise est liée à des mutations ou à des échanges génétiques."
+    },
+    {
+      "question": "L’utilisation abusive des antibiotiques favorise l’émergence de résistances.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une pression antibiotique excessive sélectionne des souches résistantes."
+    },
+    {
+      "question": "Pourquoi peut-on associer plusieurs antibiotiques ?",
+      "options": ["Pour éviter les résistances", "Pour traiter une infection plurimicrobienne", "Pour obtenir une synergie", "Pour réduire la durée du traitement à une seule prise"],
+      "correct": [0, 1, 2],
+      "explanation": "Les associations peuvent renforcer l’efficacité mais certaines peuvent être antagonistes."
+    },
+    {
+      "question": "Toutes les associations d’antibiotiques sont bénéfiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Certaines associations peuvent être antagonistes et réduire l’efficacité."
+    },
+    {
+      "question": "Quels sont les principaux types d’effets indésirables des antibiotiques ?",
+      "options": ["Accidents d’intolérance", "Accidents toxiques", "Modification de la flore intestinale", "Troubles endocriniens systématiques"],
+      "correct": [0, 1, 2],
+      "explanation": "Les effets endocriniens ne sont pas des effets indésirables généraux des antibiotiques."
+    },
+    {
+      "question": "Les accidents d’intolérance sont généralement d’origine immuno-allergique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils surviennent souvent chez des patients sensibilisés."
+    },
+    {
+      "question": "Le choc anaphylactique fait partie des accidents d’intolérance aux antibiotiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le choc anaphylactique est une urgence vitale allergique."
+    },
+    {
+      "question": "Les accidents toxiques dépendent uniquement de la durée du traitement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Ils dépendent de la dose, de la molécule et du terrain du patient."
+    },
+    {
+      "question": "La modification de la flore intestinale par les antibiotiques peut entraîner une diarrhée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La prolifération de bactéries résistantes peut provoquer des diarrhées."
+    },
+    {
+      "question": "Quelle bactérie peut être responsable d’une colite pseudo-membraneuse après antibiothérapie ?",
+      "options": ["Escherichia coli", "Clostridium difficile", "Staphylococcus aureus", "Salmonella enterica"],
+      "correct": [1],
+      "explanation": "Clostridium difficile prolifère après déséquilibre de la flore intestinale."
+    },
+    {
+      "question": "Quels sont les critères d’efficacité d’une antibiothérapie ?",
+      "options": ["Activité sur le germe", "Diffusion tissulaire suffisante", "Bonne tolérance", "Arrêt précoce dès amélioration"],
+      "correct": [0, 1, 2],
+      "explanation": "La durée doit être suffisante et respectée."
+    },
+    {
+      "question": "La voie d’élimination principale des antibiotiques peut être urinaire ou biliaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’élimination dépend des propriétés pharmacocinétiques de l’antibiotique."
+    },
+    {
+      "question": "Quelles sont les voies possibles d’administration des antibiotiques ?",
+      "options": ["Voie orale", "Voie parentérale", "Voie locale", "Voie inhalée exclusivement"],
+      "correct": [0, 1, 2],
+      "explanation": "Les antibiotiques peuvent être administrés par différentes voies selon l’indication."
+    },
+    {
+      "question": "Un antibiotique est inefficace contre les infections virales.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les antibiotiques agissent uniquement sur les bactéries et non sur les virus."
+    },
+    {
+      "question": "Quelle préparation permet l’obtention d’antibiotiques à partir de micro-organismes vivants ?",
+      "options": ["Synthèse chimique", "Hémisynthèse", "Fermentation biologique", "Extraction plasmatique"],
+      "correct": [2],
+      "explanation": "La fermentation biologique utilise des bactéries ou champignons producteurs d’antibiotiques."
+    },
+    {
+      "question": "La CMI est évaluée in vitro après 18 heures d’incubation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La mesure standard de la CMI est réalisée après 18 heures en laboratoire."
+    },
+    {
+      "question": "Une bactérie dite intermédiaire présente une CMI située entre la sensibilité et la résistance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La CMI intermédiaire se situe entre le taux plasmatique efficace et le seuil toxique."
+    },
+    {
+      "question": "Quel type de spectre concerne un antibiotique actif sur peu de germes ciblés ?",
+      "options": ["Spectre large", "Spectre moyen", "Spectre étroit", "Spectre très large"],
+      "correct": [2],
+      "explanation": "Un spectre étroit concerne un nombre limité de bactéries."
+    },
+    {
+      "question": "L’antibiogramme permet de choisir l’antibiotique le plus efficace sur une souche donnée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il guide le choix thérapeutique en fonction de la sensibilité bactérienne."
+    },
+    {
+      "question": "La résistance acquise est toujours due à une mutation chromosomique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Elle peut aussi résulter d’un échange de plasmides entre bactéries."
+    },
+    {
+      "question": "Quelle situation correspond à une antibiothérapie prophylactique ?",
+      "options": ["Traitement d’une pneumonie bactérienne", "Prévention d’une infection post-opératoire", "Traitement d’une angine virale", "Traitement d’une septicémie"],
+      "correct": [1],
+      "explanation": "La prophylaxie vise à prévenir une infection, notamment en contexte chirurgical."
+    },
+    {
+      "question": "L’association de plusieurs antibiotiques peut être utilisée pour obtenir un effet synergique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La synergie renforce l’efficacité globale du traitement."
+    },
+    {
+      "question": "Une association antibiotique est toujours indiquée en première intention.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Certaines associations peuvent être inutiles ou antagonistes."
+    },
+    {
+      "question": "Les accidents toxiques peuvent dépendre du terrain du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’âge, l’insuffisance rénale ou hépatique influencent la toxicité."
+    },
+    {
+      "question": "Quel effet peut résulter d’une modification de la flore intestinale par les antibiotiques ?",
+      "options": ["Candidose", "Diarrhée", "Prolifération de germes résistants", "Toutes les réponses"],
+      "correct": [3],
+      "explanation": "La perturbation du microbiote favorise ces complications."
+    },
+    {
+      "question": "Le respect de la durée du traitement antibiotique est un facteur clé d’efficacité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un arrêt prématuré favorise l’échec thérapeutique et les résistances."
+    },
+    {
+      "question": "La diffusion tissulaire insuffisante d’un antibiotique peut entraîner un échec thérapeutique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’antibiotique doit atteindre le site infectieux à une concentration efficace."
+    },
+    {
+      "question": "L’évaluation de l’efficacité d’une antibiothérapie repose uniquement sur les examens biologiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Elle repose sur des critères cliniques, biologiques et parfois radiologiques."
+    },
+    {
+      "question": "Un antibiotique est une substance capable d’agir sur les bactéries.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les antibiotiques ont une action spécifique sur les bactéries."
+    },
+    {
+      "question": "Un antibiotique agit en renforçant le système immunitaire du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Un antibiotique agit directement sur le micro-organisme, pas sur l’immunité."
+    },
+    {
+      "question": "Quelle proposition décrit le mieux un antibiotique bactériostatique ?",
+      "options": ["Il détruit les bactéries", "Il empêche leur multiplication", "Il neutralise les toxines", "Il stimule les défenses immunitaires"],
+      "correct": [1],
+      "explanation": "Un antibiotique bactériostatique bloque la croissance bactérienne."
+    },
+    {
+      "question": "Un antibiotique bactéricide est toujours plus efficace qu’un bactériostatique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "L’efficacité dépend du contexte clinique et du germe."
+    },
+    {
+      "question": "La CMI correspond à la concentration maximale tolérée chez le patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "La CMI est la concentration minimale inhibant la croissance bactérienne."
+    },
+    {
+      "question": "La CMI est déterminée en laboratoire sur une bactérie isolée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La CMI est mesurée in vitro après culture bactérienne."
+    },
+    {
+      "question": "Une CMI basse signifie que la bactérie est facilement inhibée par l’antibiotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une faible CMI traduit une bonne sensibilité bactérienne."
+    },
+    {
+      "question": "Une bactérie est dite sensible si la concentration efficace de l’antibiotique est atteignable chez le patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La sensibilité dépend du lien entre CMI et concentrations plasmatiques possibles."
+    },
+    {
+      "question": "La CMI permet d’adapter le choix de l’antibiotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La CMI guide le choix thérapeutique et l’efficacité attendue."
+    },
+    {
+      "question": "La définition d’un antibiotique inclut son origine exclusivement synthétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Les antibiotiques peuvent être naturels, hémisynthétiques ou synthétiques."
+    },
+    {
+      "question": "Un antibiotique bactéricide a pour effet principal de tuer les bactéries.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un antibiotique bactéricide entraîne la destruction du micro-organisme."
+    },
+    {
+      "question": "Un antibiotique bactériostatique empêche la multiplication des bactéries sans les détruire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’effet bactériostatique correspond à une inhibition de la croissance bactérienne."
+    },
+    {
+      "question": "Quelle affirmation définit correctement un antibiotique bactéricide ?",
+      "options": ["Il inhibe la croissance bactérienne", "Il détruit le micro-organisme", "Il agit uniquement sur les virus", "Il renforce l’immunité"],
+      "correct": [1],
+      "explanation": "Un antibiotique bactéricide provoque la mort des bactéries."
+    },
+    {
+      "question": "Quelle proposition correspond à un antibiotique bactériostatique ?",
+      "options": ["Destruction directe des bactéries", "Inhibition de la multiplication bactérienne", "Neutralisation des toxines", "Activation des globules blancs"],
+      "correct": [1],
+      "explanation": "Un bactériostatique bloque la croissance sans tuer la bactérie."
+    },
+    {
+      "question": "Les antibiotiques bactériostatiques sont toujours inefficaces.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Ils peuvent être efficaces si le système immunitaire élimine les bactéries."
+    },
+    {
+      "question": "Un antibiotique peut être bactériostatique ou bactéricide selon la molécule.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’effet dépend de la famille de l’antibiotique."
+    },
+    {
+      "question": "Quelle affirmation est exacte concernant les antibiotiques bactéricides et bactériostatiques ?",
+      "options": ["Ils ont le même mécanisme d’action", "Ils ont des effets opposés sur la bactérie", "Ils n’agissent pas sur les bactéries", "Ils sont réservés aux infections virales"],
+      "correct": [1],
+      "explanation": "Le bactériostatique inhibe la croissance, le bactéricide détruit la bactérie."
+    },
+    {
+      "question": "Un antibiotique bactériostatique empêche la croissance bactérienne mais nécessite l’intervention du système immunitaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le système immunitaire élimine ensuite les bactéries inhibées."
+    },
+    {
+      "question": "Un antibiotique bactéricide agit uniquement en bloquant la multiplication des bactéries.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Il entraîne la destruction directe des bactéries."
+    },
+    {
+      "question": "Associer correctement le terme à sa définition.",
+      "options": ["Bactéricide = inhibition de la croissance", "Bactériostatique = destruction bactérienne", "Bactéricide = destruction bactérienne", "Bactériostatique = action antivirale"],
+      "correct": [2],
+      "explanation": "Le bactéricide tue la bactérie, le bactériostatique bloque sa croissance."
+    },
+        {
+      "question": "Un antibiogramme est un examen permettant de déterminer la sensibilité d’une bactérie aux antibiotiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’antibiogramme teste l’efficacité de différents antibiotiques sur une souche bactérienne isolée."
+    },
+    {
+      "question": "L’antibiogramme est réalisé directement chez le patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "L’antibiogramme est un examen réalisé en laboratoire après culture du germe."
+    },
+    {
+      "question": "Quelle est la finalité principale d’un antibiogramme ?",
+      "options": ["Identifier une bactérie", "Choisir l’antibiotique le plus efficace", "Mesurer la toxicité d’un antibiotique", "Déterminer la durée du traitement"],
+      "correct": [1],
+      "explanation": "L’antibiogramme permet d’orienter le choix de l’antibiotique actif sur un germe donné."
+    },
+    {
+      "question": "La CMI correspond à la plus petite concentration d’un antibiotique empêchant la croissance bactérienne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La CMI est la Concentration Minimale Inhibitrice mesurée en laboratoire."
+    },
+    {
+      "question": "La CMI est évaluée après une incubation de 18 heures.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La mesure standard de la CMI est réalisée après 18 heures de culture."
+    },
+    {
+      "question": "Une bactérie est dite sensible lorsque la CMI est inférieure au taux plasmatique de l’antibiotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une CMI basse signifie que l’antibiotique peut être efficace aux doses usuelles."
+    },
+    {
+      "question": "Une CMI élevée traduit une bonne efficacité de l’antibiotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Une CMI élevée indique une résistance ou une efficacité insuffisante."
+    },
+    {
+      "question": "Quelle proposition décrit correctement une bactérie résistante ?",
+      "options": ["CMI inférieure au taux plasmatique", "CMI supérieure au seuil toxique", "CMI nulle", "Absence de culture bactérienne"],
+      "correct": [1],
+      "explanation": "Une CMI supérieure au seuil toxique empêche l’utilisation efficace de l’antibiotique."
+    },
+    {
+      "question": "L’antibiogramme et la CMI sont complémentaires pour guider l’antibiothérapie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils permettent d’évaluer la sensibilité bactérienne et l’efficacité attendue."
+    },
+    {
+      "question": "La CMI est mesurée in vivo directement dans l’organisme du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "La CMI est une mesure in vitro réalisée en laboratoire."
+    },
+        {
+      "question": "Le spectre d’activité d’un antibiotique correspond à l’ensemble des bactéries sur lesquelles il est actif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le spectre d’activité regroupe tous les germes sensibles à l’antibiotique."
+    },
+    {
+      "question": "Quel est le synonyme du terme spectre d’activité ?",
+      "options": ["Spectre thérapeutique", "Spectre d’action", "Champ pharmacologique", "Indice d’efficacité"],
+      "correct": [1],
+      "explanation": "Le spectre d’activité est aussi appelé spectre d’action."
+    },
+    {
+      "question": "Un antibiotique à spectre étroit agit sur un nombre limité de bactéries.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un spectre étroit cible peu de germes spécifiques."
+    },
+    {
+      "question": "Un antibiotique à spectre large est actif sur de nombreuses bactéries différentes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le spectre large concerne un grand nombre de bactéries sensibles."
+    },
+    {
+      "question": "Quel type de spectre correspond à un antibiotique actif sur un grand nombre de germes variés ?",
+      "options": ["Spectre étroit", "Spectre moyen", "Spectre large", "Spectre nul"],
+      "correct": [2],
+      "explanation": "Le spectre large concerne de nombreux agents infectieux."
+    },
+    {
+      "question": "Un antibiotique à spectre très large agit sur peu de bactéries ciblées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Un spectre très large agit sur un grand nombre de bactéries."
+    },
+    {
+      "question": "Le choix du spectre d’un antibiotique dépend du germe responsable de l’infection.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le spectre doit être adapté à la bactérie en cause."
+    },
+    {
+      "question": "L’utilisation injustifiée d’antibiotiques à large spectre favorise les résistances.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un spectre trop large exerce une pression de sélection excessive."
+    },
+    {
+      "question": "Le spectre d’activité d’un antibiotique est identique pour toutes les bactéries.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Chaque antibiotique a un spectre spécifique."
+    },
+    {
+      "question": "Associer correctement la notion au terme correspondant.",
+      "options": ["Spectre étroit = nombreux germes", "Spectre large = peu de germes", "Spectre d’action = ensemble des germes sensibles", "Spectre nul = antibiotique antiviral"],
+      "correct": [2],
+      "explanation": "Le spectre d’action correspond à l’ensemble des germes sensibles à l’antibiotique."
+    },
+        {
+      "question": "Quels sont les deux principaux effets indésirables des aminosides ?",
+      "options": ["Hépatotoxicité et photosensibilisation", "Néphrotoxicité et ototoxicité", "Allongement du QT et hypoglycémie", "Troubles digestifs et cutanés"],
+      "correct": [1],
+      "explanation": "Les aminosides exposent principalement à une toxicité rénale et auditive."
+    },
+    {
+      "question": "Les aminosides peuvent provoquer une atteinte irréversible de l’audition.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’ototoxicité des aminosides peut toucher l’audition et l’équilibre et être irréversible."
+    },
+    {
+      "question": "Quel organe est principalement concerné par la néphrotoxicité des aminosides ?",
+      "options": ["Le foie", "Le rein", "Le cœur", "Le poumon"],
+      "correct": [1],
+      "explanation": "Les aminosides s’accumulent dans le rein et peuvent altérer la fonction rénale."
+    },
+    {
+      "question": "L’ototoxicité des aminosides concerne la VIIIe paire de nerfs crâniens.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La VIIIe paire est impliquée dans l’audition et l’équilibre."
+    },
+    {
+      "question": "Les effets indésirables des aminosides justifient une surveillance étroite du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le risque oto- et néphrotoxique impose une surveillance clinique et biologique."
+    },
+    {
+      "question": "Concernant le comportement du patient sous traitement antibiotique, quelles propositions sont correctes ?",
+      "options": [
+          "Respecter la durée du traitement antibiotique",
+          "Respecter les modalités de prise (horaires, rapport aux repas)",
+          "Arrêter le traitement dès amélioration des symptômes",
+          "Signaler les effets indésirables à son médecin"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Le patient doit respecter la durée et les modalités de prise du traitement antibiotique et signaler tout effet indésirable. L’arrêt du traitement dès amélioration est une erreur favorisant les résistances et les rechutes."
+    },
+    {
+      "question": "Le patient sous antibiothérapie doit respecter la durée totale du traitement prescrite.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le respect de la durée du traitement est essentiel pour éviter les rechutes et les résistances bactériennes."
+    },
+    {
+      "question": "Quelle attitude est correcte chez un patient traité par antibiotique ?",
+      "options": [
+        "Arrêter le traitement dès disparition de la fièvre",
+        "Adapter seul les horaires de prise",
+        "Respecter les horaires et les conditions de prise",
+        "Doubler la dose en cas d’oubli"
+      ],
+      "correct": [2],
+      "explanation": "Les modalités de prise doivent être strictement respectées pour garantir l’efficacité du traitement."
+    },
+    {
+      "question": "L’arrêt prématuré d’un antibiotique peut favoriser l’apparition de résistances bactériennes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un arrêt trop précoce expose à une sélection de bactéries résistantes."
+    },
+    {
+      "question": "Le patient doit signaler la survenue d’effets indésirables pendant une antibiothérapie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La déclaration des effets indésirables permet d’adapter le traitement et de prévenir les complications."
+    },
+    {
+      "question": "Concernant l’observance du traitement antibiotique, quelles propositions sont exactes ?",
+      "options": [
+        "Le respect des horaires influence l’efficacité",
+        "L’amélioration clinique autorise l’arrêt du traitement",
+        "L’observance limite le risque de résistance",
+        "Les effets indésirables ne doivent pas être signalés"
+      ],
+      "correct": [0, 2],
+      "explanation": "Une bonne observance améliore l’efficacité et limite les résistances. Le traitement ne doit pas être arrêté sans avis médical."
+    }
+  ]
+}

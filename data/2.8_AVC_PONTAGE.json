@@ -1,0 +1,1310 @@
+{
+  "title": "UE 2.8 S3 – Processus obstructifs",
+  "subtitle": "AVC",
+  "questions": [
+    {
+      "question": "Un accident vasculaire cérébral correspond à la survenue brutale d’un déficit neurologique focal.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quelle est la définition correcte d’un accident vasculaire cérébral ?",
+      "options": [
+        "Une atteinte progressive du système nerveux central liée au vieillissement",
+        "La survenue brutale d’un déficit neurologique focal d’origine vasculaire",
+        "Une infection aiguë du tissu cérébral",
+        "Un trouble fonctionnel réversible sans lésion cérébrale"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "Quels sont les deux grands types d’accidents vasculaires cérébraux ? (Cochez les bonnes réponses)",
+      "options": [
+        "AVC ischémique",
+        "AVC hémorragique",
+        "AVC infectieux",
+        "AVC traumatique"
+      ],
+      "correct": [0, 1]
+    },
+    {
+      "question": "La majorité des AVC sont des AVC hémorragiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car environ 80 % des AVC sont ischémiques, tandis que les AVC hémorragiques représentent environ 20 % des cas."
+    },
+    {
+      "question": "Pourquoi l’AVC est-il considéré comme une urgence médicale absolue ?",
+      "options": [
+        "Parce qu’il entraîne toujours un décès rapide",
+        "Parce que le diagnostic est difficile à établir",
+        "Parce qu’une prise en charge rapide conditionne le pronostic neurologique",
+        "Parce qu’il nécessite systématiquement une intervention chirurgicale"
+      ],
+      "correct": [2]
+    },
+        {
+      "question": "L’AVC ischémique est lié à l’occlusion d’une artère cérébrale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quelle est la conséquence immédiate de l’occlusion d’une artère cérébrale lors d’un AVC ischémique ?",
+      "options": [
+        "Une augmentation de l’apport en oxygène cérébral",
+        "Une diminution des apports en oxygène et en glucose",
+        "Une hémorragie intracérébrale",
+        "Une stimulation excessive des neurones"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "La souffrance neuronale observée lors d’un AVC ischémique est principalement due à un manque d’oxygène.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Que se passe-t-il en cas de persistance de l’occlusion artérielle cérébrale ?",
+      "options": [
+        "Une récupération complète des neurones",
+        "Une hyperactivité neuronale",
+        "Une mort neuronale par nécrose",
+        "Une transformation systématique en AVC hémorragique"
+      ],
+      "correct": [2]
+    },
+    {
+      "question": "La reperfusion cérébrale rapide permet une récupération neuronale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "La diminution des apports en glucose lors d’un AVC ischémique contribue à la souffrance neuronale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel enchaînement physiopathologique correspond à un AVC ischémique ?",
+      "options": [
+        "Rupture vasculaire → hémorragie → compression cérébrale",
+        "Occlusion artérielle → diminution oxygène et nutriments → ischémie neuronale",
+        "Infection cérébrale → inflammation → œdème",
+        "Trouble électrique neuronal → crise d’épilepsie"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "En l’absence de reperfusion, les neurones soumis à l’ischémie peuvent évoluer vers une nécrose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Lors d’un AVC ischémique, la récupération neuronale est impossible même si l’artère est recanalisée rapidement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car une recanalisation et une reperfusion précoces peuvent permettre une récupération neuronale avant l'installation de lésions irréversibles."
+    },
+    {
+      "question": "La zone cérébrale en souffrance lors d’un AVC ischémique est directement liée au territoire artériel occlus.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "Tout déficit neurologique focal brutal doit être considéré comme un AVC jusqu’à preuve du contraire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les signes cliniques permettent de distinguer avec certitude un AVC ischémique d’un AVC hémorragique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les signes cliniques ne permettent pas de différencier un AVC ischémique d’un AVC hémorragique, seule l’imagerie cérébrale le permet."
+    },
+    {
+      "question": "Quels signes font partie de l’acronyme VITE utilisé pour repérer un AVC ? (Cochez les bonnes réponses)",
+      "options": [
+        "Visage paralysé",
+        "Inertie d’un membre",
+        "Trouble de la parole",
+        "Température élevée"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "L’acronyme FAST permet de repérer rapidement les signes d’un AVC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une aphasie ou une dysarthrie peuvent être des signes d’alerte d’un AVC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels troubles visuels peuvent être observés lors d’un AVC ? (Cochez les bonnes réponses)",
+      "options": [
+        "Diplopie",
+        "Hémianopsie latérale homonyme",
+        "Myopie aiguë",
+        "Baisse brutale de l’acuité visuelle"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Les troubles de l’équilibre et de la marche peuvent révéler un AVC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une céphalée inhabituelle, brutale et intense peut faire partie des signes d’alerte d’un AVC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une paresthésie ou une perte de sensibilité d’un hémicorps peut être un signe d’AVC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "L’acronyme FAST signifie Face, Arm, Speech, Time.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Dans l’acronyme FAST, le terme Face correspond à la recherche d’une asymétrie ou paralysie faciale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Dans l’acronyme FAST, que signifie Arm ?",
+      "options": [
+        "Douleur brutale du membre supérieur",
+        "Déficit moteur d’un bras ou d’une jambe",
+        "Perte de sensibilité bilatérale",
+        "Spasticité musculaire"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "Le terme Speech dans l’acronyme FAST fait référence aux troubles de la parole ou du langage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Dans l’acronyme FAST, le terme Time souligne l’urgence d’une prise en charge rapide.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’hypertension artérielle est un facteur de risque majeur d’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels facteurs de risque sont modifiables dans la survenue d’un AVC ischémique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Hypertension artérielle",
+        "Tabagisme",
+        "Âge",
+        "Diabète"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "L’âge fait partie des facteurs de risque non modifiables de l’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le sexe masculin est associé à un risque plus élevé d’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La dyslipidémie fait partie des facteurs de risque d’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’association tabac et contraception hormonale augmente le risque d’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels troubles cardiaques constituent un facteur de risque d’AVC ischémique ?",
+      "options": [
+        "Fibrillation auriculaire",
+        "Bradycardie sinusale isolée",
+        "Troubles du rythme",
+        "Insuffisance veineuse chronique"
+      ],
+      "correct": [0, 2]
+    },
+    {
+      "question": "La sédentarité et l’obésité sont des facteurs de risque d’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La consommation de cocaïne ou d’amphétamines peut favoriser la survenue d’un AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les antécédents personnels d’AIT ou d’AVC diminuent le risque de récidive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les antécédents personnels d’AIT ou d’AVC augmentent le risque de récidive d’accident vasculaire cérébral."
+    },
+       {
+      "question": "L’œdème cérébral fait partie des complications possibles de l’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Pourquoi le patient victime d’un AVC ischémique est-il installé en position proclive à 30° ?",
+      "options": [
+        "Pour améliorer la digestion",
+        "Pour diminuer le risque d’œdème cérébral",
+        "Pour prévenir l’hypotension",
+        "Pour faciliter la mobilisation précoce"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "Les troubles de la déglutition exposent le patient à un risque de fausses routes et de pneumopathie d’inhalation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quelles complications thromboemboliques peuvent survenir au décours d’un AVC ischémique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Thrombose veineuse profonde",
+        "Embolie pulmonaire",
+        "Infarctus du myocarde systématique",
+        "Phlébite"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "L’alitement prolongé et l’hémiplégie augmentent le risque d’escarres.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’hémiplégie après un AVC ischémique est toujours spastique dès la phase aiguë.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’hémiplégie peut être initialement flasque, puis évoluer secondairement vers une spasticité."
+    },
+    {
+      "question": "L’épilepsie peut faire partie des complications de l’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quelle affirmation concernant le devenir fonctionnel après un AVC ischémique est correcte ?",
+      "options": [
+        "La majorité des patients récupèrent sans séquelles",
+        "L’AVC est la première cause de handicap non traumatique chez l’adulte",
+        "Les séquelles sont toujours temporaires",
+        "La dépendance est exceptionnelle"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "Les patients ayant présenté un AVC ischémique peuvent développer une souffrance psychologique ou une dépression.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le risque de décès après un AVC ischémique est nul après la phase aiguë.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’AVC reste une cause importante de mortalité, avec un risque de décès significatif dans le mois suivant l’événement."
+    },
+        {
+      "question": "Les troubles de la déglutition après un AVC ischémique n’exposent pas au risque de pneumopathie d’inhalation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les troubles de la déglutition exposent au risque de fausses routes et de pneumopathie d’inhalation."
+    },
+    {
+      "question": "L’hémiplégie après un AVC ischémique est toujours spastique dès les premières heures.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’hémiplégie est souvent flasque dans la phase aiguë puis peut évoluer vers une spasticité secondaire."
+    },
+    {
+      "question": "Un AVC ischémique protège le patient du risque de thrombose veineuse profonde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’alitement, l’hémiplégie et l’immobilisation augmentent le risque de TVP et d’embolie pulmonaire."
+    },
+    {
+      "question": "Les complications psychologiques après un AVC ischémique sont exceptionnelles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car une souffrance psychologique ou une dépression concerne une proportion importante des patients après un AVC."
+    },
+    {
+      "question": "Le risque d’escarre est faible chez un patient hémiplégique correctement surveillé après un AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car malgré la surveillance, le risque d’escarre reste élevé en raison de l’immobilisation et des troubles moteurs."
+    },
+        {
+      "question": "Les troubles urinaires peuvent compliquer l’évolution d’un AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’AVC ischémique peut entraîner des complications infectieuses.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quelle complication orthopédique peut survenir chez un patient hémiplégique après un AVC ischémique ?",
+      "options": [
+        "Spasticité musculaire",
+        "Fonte musculaire",
+        "Luxation systématique des articulations",
+        "Hyperlaxité généralisée"
+      ],
+      "correct": [0, 1]
+    },
+    {
+      "question": "La démence peut être une complication tardive de l’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le risque hémorragique peut apparaître comme complication après un AVC ischémique, notamment en cas de thrombolyse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "La prise en charge d’un AVC ischémique doit être réalisée le plus rapidement possible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’expression \"Time is brain\" signifie que chaque minute de retard augmente les lésions cérébrales.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est l’objectif principal de la prise en charge médicale de l’AVC ischémique ?",
+      "options": [
+        "Diminuer la douleur du patient",
+        "Reperfuser rapidement la zone cérébrale en souffrance",
+        "Normaliser immédiatement la pression artérielle",
+        "Prévenir toute récidive à long terme"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "Lors de la phase aiguë de l’AVC ischémique, le patient doit rester à jeun avant l’évaluation de la déglutition.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La position proclive à 30° est recommandée dans la phase aiguë de l’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une hypertension artérielle modérée est toujours immédiatement corrigée dans l’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car une HTA est tolérée jusqu’à environ 220/120 mmHg en l’absence de thrombolyse afin de maintenir la perfusion cérébrale."
+    },
+    {
+      "question": "Quel examen d’imagerie est réalisé en urgence pour éliminer un AVC hémorragique ?",
+      "options": [
+        "IRM cérébrale",
+        "Scanner cérébral",
+        "Échographie transcrânienne",
+        "Radiographie du crâne"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "L’IRM cérébrale permet de détecter précocement une ischémie cérébrale et d’en localiser le territoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La thrombolyse peut être envisagée uniquement si le délai depuis le début des symptômes est compatible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La thrombolyse est indiquée quel que soit le score NIHSS.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la thrombolyse est envisagée pour des scores NIHSS généralement compris entre 5 et 25, en l’absence de contre-indication."
+    },
+    {
+      "question": "Quel score est utilisé pour évaluer la gravité et l’évolution d’un AVC ?",
+      "options": [
+        "Score de Glasgow uniquement",
+        "Score de NIHSS",
+        "Score APGAR",
+        "Score de CHA2DS2-VASc"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "En cas d’AVC hémorragique, les objectifs tensionnels sont plus élevés que dans l’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car en cas d’AVC hémorragique, les objectifs tensionnels sont plus bas afin de limiter l’aggravation du saignement."
+    },
+    {
+      "question": "Après la phase aiguë, un traitement antiagrégant plaquettaire peut être instauré dans l’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La thrombectomie peut être envisagée dans certains AVC ischémiques touchant un gros tronc artériel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’interrogatoire du patient ou de l’entourage est inutile dans la prise en charge de l’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’interrogatoire permet notamment de préciser l’heure de début des symptômes, essentielle pour les décisions thérapeutiques."
+    },
+    {
+      "question": "Quels sont les objectifs de la prise en charge médicale d’un AVC ischémique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Reperfuser au plus vite la zone cérébrale en souffrance",
+        "Éviter l’aggravation des lésions cérébrales",
+        "Augmenter les chances de récupération fonctionnelle",
+        "Normaliser immédiatement tous les paramètres biologiques"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Concernant l’interprétation du score de Glasgow, quelles affirmations sont exactes ? (Cochez les bonnes réponses)",
+      "options": [
+        "Un score de Glasgow à 15 correspond à un état neurologique normal",
+        "Un score de Glasgow à 13 correspond à une confusion mentale",
+        "Un score de Glasgow compris entre 9 et 10 correspond à une obnubilation",
+        "Un score de Glasgow inférieur à 5 correspond à un coma grave"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "question": "La surveillance neurologique permet de dépister une aggravation de l’AVC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel score est principalement utilisé pour le suivi évolutif d’un AVC ischémique ?",
+      "options": [
+        "Score de Glasgow uniquement",
+        "Score de NIHSS",
+        "Score APGAR",
+        "Score de douleur EVA"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "Un score NIHSS élevé traduit un déficit neurologique plus sévère.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Lors de la surveillance neurologique, l’IDE peut interpréter les capacités potentielles du patient pour ajuster le score.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car lors de la cotation du score NIHSS, il est impératif de coter uniquement ce que le patient réalise effectivement, sans interprétation de ses potentialités."
+    },
+    {
+      "question": "Quels éléments font partie de la surveillance neurologique chez un patient ayant présenté un AVC ? (Cochez les bonnes réponses)",
+      "options": [
+        "État de conscience",
+        "Motricité et sensibilité",
+        "Réaction pupillaire",
+        "Pression artérielle"
+      ],
+      "correct": [0, 1, 2]
+    },
+        {
+      "question": "Dans le cadre de la surveillance neurologique d’un patient AVC avec évaluation par le score de Glasgow, l’observation des yeux et des pupilles est indispensable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels éléments doivent être surveillés au niveau oculaire chez un patient AVC évalué par le score de Glasgow ? (Cochez les bonnes réponses)",
+      "options": [
+        "Déviation du regard",
+        "Réflexe pupillaire",
+        "Symétrie des pupilles",
+        "Acuité auditive"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La présence d’une anisocorie chez un patient AVC peut évoquer une souffrance du tronc cérébral.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels tests permettent d’évaluer la motricité et la sensibilité lors de la surveillance neurologique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Faire sourire ou gonfler les joues",
+        "Faire parler le patient",
+        "Test du lever de bras et de jambe",
+        "Mesure de la pression artérielle"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Chez un patient AVC alité, la position recommandée lors de la surveillance neurologique est la position strictement allongée à plat.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le patient AVC doit être installé en position proclive à 30° afin de limiter le risque d’œdème cérébral."
+    },
+        {
+      "question": "La surveillance hémodynamique chez un patient AVC comprend la mesure régulière de la pression artérielle et de la fréquence cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Dans le cadre d’un AVC ischémique, une hypertension artérielle modérée est toujours une urgence à corriger immédiatement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car une HTA est souvent tolérée dans l’AVC ischémique afin de maintenir une perfusion cérébrale adéquate."
+    },
+    {
+      "question": "La surveillance respiratoire vise notamment à prévenir les complications liées aux fausses routes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels paramètres font partie de la surveillance respiratoire chez un patient AVC ? (Cochez les bonnes réponses)",
+      "options": [
+        "Fréquence respiratoire",
+        "SpO2",
+        "Présence d’une toux ou d’un encombrement",
+        "Pression artérielle"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La surveillance de la température permet de dépister précocement une infection chez le patient AVC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une température à 37,5 °C chez un patient AVC signe systématiquement une infection sévère.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car une température à 37,5 °C correspond à une fébricule et nécessite une surveillance sans conclure à une infection sévère."
+    },
+    {
+      "question": "La surveillance de la glycémie capillaire est essentielle chez le patient AVC afin d’éviter l’aggravation des lésions cérébrales.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’hyperglycémie au cours d’un AVC est sans conséquence sur la souffrance neuronale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’hyperglycémie aggrave la souffrance neuronale et est associée à une ischémie plus sévère."
+    },
+    {
+      "question": "La surveillance de l’élimination urinaire permet de dépister une rétention aiguë chez le patient AVC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels éléments relèvent de la surveillance de l’élimination chez un patient AVC ? (Cochez les bonnes réponses)",
+      "options": [
+        "Diurèse",
+        "Recherche d’un globe vésical",
+        "Transit intestinal",
+        "SpO2"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La surveillance cutanée vise à prévenir la survenue d’escarres chez le patient AVC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels facteurs augmentent le risque d’escarre chez un patient AVC ? (Cochez les bonnes réponses)",
+      "options": [
+        "Immobilité prolongée",
+        "Hémiplégie",
+        "Mobilisation précoce",
+        "Altération de l’état neurologique"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "La surveillance de l’hydratation et de l’alimentation permet de prévenir la dénutrition et la déshydratation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Chez un patient AVC présentant des troubles de la déglutition, l’alimentation orale est toujours autorisée sans adaptation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les troubles de la déglutition nécessitent une adaptation des textures et une réévaluation régulière pour prévenir les fausses routes."
+    },
+    {
+      "question": "Les examens à visée étiologique ont pour objectif de rechercher la cause de l’AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est l’objectif principal de l’échodoppler des troncs supra-aortiques (TSA) ?",
+      "options": [
+        "Rechercher une sténose ou une occlusion artérielle",
+        "Évaluer la fonction ventriculaire",
+        "Mesurer la pression intracrânienne",
+        "Diagnostiquer une infection cérébrale"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "L’échodoppler des TSA permet notamment d’explorer les artères carotides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’ECG et le Holter ECG sont réalisés afin de rechercher une origine cardiaque à l’AVC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le Holter ECG permet de détecter des troubles du rythme cardiaque intermittents.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quelle anomalie cardiaque peut être recherchée par l’ETT ou l’ETO dans le cadre d’un AVC ischémique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Fibrillation auriculaire",
+        "Thrombus intracardiaque",
+        "Foramen ovale perméable",
+        "Insuffisance veineuse chronique"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "L’ETO est moins invasive que l’ETT et ne nécessite pas de précautions particulières.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’ETO est un examen plus invasif que l’ETT et nécessite notamment que le patient soit à jeun."
+    },
+    {
+      "question": "Le bilan sanguin réalisé après un AVC ischémique permet de rechercher des facteurs de risque cardiovasculaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels examens biologiques peuvent faire partie du bilan étiologique d’un AVC ischémique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Cholestérol total",
+        "Triglycérides",
+        "NFS plaquettes",
+        "Ionogramme sanguin"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "question": "Les examens à visée étiologique sont inutiles une fois le diagnostic d’AVC ischémique posé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’identification de la cause de l’AVC conditionne la stratégie thérapeutique et la prévention des récidives."
+    },
+        {
+      "question": "L’Aspégic® est utilisé chez le patient AVC ischémique pour son effet antiagrégant plaquettaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est l’objectif principal du traitement par Lovenox® chez un patient AVC ischémique alité ?",
+      "options": [
+        "Traiter l’AVC ischémique",
+        "Prévenir le risque de thrombose veineuse profonde",
+        "Diminuer l’œdème cérébral",
+        "Corriger l’hypertension artérielle"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "L’association Aspégic® et Lovenox® expose à un risque hémorragique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels signes doivent être surveillés chez un patient traité par Aspégic® et Lovenox® ? (Cochez les bonnes réponses)",
+      "options": [
+        "Épistaxis",
+        "Gingivorragies",
+        "Méléna",
+        "Toux sèche isolée"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Le traitement antihypertenseur est systématiquement interrompu définitivement après un AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le traitement antihypertenseur est adapté à la phase aiguë puis repris afin de contrôler la pression artérielle à distance."
+    },
+    {
+      "question": "Le devenir d’un patient après un AVC ischémique dépend de l’évolution clinique et du niveau d’autonomie récupéré.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels devenirs peuvent être envisagés pour un patient après un AVC ischémique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Retour à domicile avec aides",
+        "Soins de suite et de réadaptation à orientation neurologique",
+        "Institutionnalisation en EHPAD ou structure spécialisée",
+        "Hospitalisation systématique à long terme en soins intensifs"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Le retour à domicile après un AVC ischémique ne nécessite jamais d’aides humaines ou techniques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le retour à domicile peut nécessiter des aides humaines, des soins infirmiers, de la rééducation et une adaptation du logement."
+    },
+    {
+      "question": "Quel professionnel intervient dans l’accompagnement des démarches sociales après un AVC ischémique ?",
+      "options": [
+        "L’assistant(e) social(e)",
+        "Le manipulateur radio",
+        "Le pharmacien hospitalier",
+        "Le brancardier"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "Les dispositifs d’aide tels que l’APA ou la reconnaissance en ALD peuvent être proposés après un AVC ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "Un pontage fémoro-poplité est une intervention visant à contourner une obstruction artérielle pour restaurer la circulation sanguine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Qu’est-ce qu’un pontage fémoro-poplité ?",
+      "options": [
+        "Une ablation veineuse à visée esthétique",
+        "Une intervention chirurgicale visant à contourner une obstruction artérielle à l’aide d’un greffon",
+        "Une angioplastie systématique de l’aorte",
+        "Une fermeture d’une fistule artério-veineuse"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "Le greffon utilisé lors d’un pontage fémoro-poplité peut être une veine ou un matériel synthétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’AOMI est une pathologie chronique liée à l’athérosclérose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Que signifie l’acronyme AOMI ?",
+      "options": [
+        "Accident Occlusif du Membre Inférieur",
+        "Artériopathie Oblitérante des Membres Inférieurs",
+        "Atteinte Obstructive Musculaire Inférieure",
+        "Artérite Organique des Membres Inférieurs"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "Dans la classification de Leriche et Fontaine, le stade 1 de l’AOMI est asymptomatique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Dans la classification de Leriche et Fontaine, le stade 2 correspond à une douleur à la marche.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La douleur de repos correspond au stade 3 de l’AOMI selon Leriche et Fontaine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le stade 4 de l’AOMI se caractérise par des lésions trophiques telles que des ulcères ou une nécrose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’ischémie aiguë du membre inférieur constitue une urgence vasculaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quelle caractéristique distingue l’ischémie aiguë de l’ischémie chronique ?",
+      "options": [
+        "Installation lente avec circulation collatérale",
+        "Installation brutale sans compensation",
+        "Douleur uniquement à l’effort",
+        "Évolution indolore"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "L’ischémie chronique peut s’accompagner d’une circulation collatérale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Dans l’ischémie aiguë, un thrombus peut entraîner une occlusion brutale de l’artère.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Dans l’ischémie aiguë, la douleur est souvent intense et rapidement associée à des troubles sensitifs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel enchaînement temporel correspond à l’ischémie aiguë du membre inférieur ?",
+      "options": [
+        "2h : atteinte nerveuse / 6–8h : atteinte musculaire / 24h : lésions cutanées",
+        "2h : atteinte musculaire / 6–8h : atteinte nerveuse / 24h : récupération",
+        "2h : atteinte osseuse / 6–8h : atteinte cutanée / 24h : douleur",
+        "2h : récupération / 6–8h : douleur / 24h : atteinte nerveuse"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "Le tabagisme fait partie des facteurs de risque majeurs d’AOMI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels sont des facteurs de risque d’AOMI ? (Cochez les bonnes réponses)",
+      "options": [
+        "Diabète",
+        "Hypertension artérielle",
+        "Dyslipidémie",
+        "Surpoids",
+        "Activité physique régulière"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+    {
+      "question": "Les \"6 P\" sont des signes cliniques caractéristiques de l’ischémie aiguë.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Parmi les \"6 P\", lequel correspond à l’absence de pouls ?",
+      "options": [
+        "Pain",
+        "Pallor",
+        "Pulselessness",
+        "Paresthesia"
+      ],
+      "correct": [2]
+    },
+    {
+      "question": "Quels signes font partie des \"6 P\" de l’ischémie aiguë ? (Cochez les bonnes réponses)",
+      "options": [
+        "Pain",
+        "Pallor",
+        "Pulselessness",
+        "Paresthesia",
+        "Paralysis",
+        "Poikilothermia"
+      ],
+      "correct": [0, 1, 2, 3, 4, 5]
+    },
+    {
+      "question": "La poikilothermie correspond à une température anormalement basse du membre ischémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Après un pontage fémoro-poplité, la surveillance des pouls périphériques est indispensable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quelles surveillances sont prioritaires après un pontage fémoro-poplité ? (Cochez les bonnes réponses)",
+      "options": [
+        "Pouls périphériques",
+        "Température et couleur du membre",
+        "Surveillance du pansement",
+        "Signes d’infection",
+        "Signes de phlébite"
+      ],
+      "correct": [0, 1, 2, 3, 4]
+    },
+    {
+      "question": "L’abolition des pouls après pontage évoque une thrombose du pontage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Un hématome au niveau du site opératoire peut traduire un saignement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une hyperthermie post-opératoire peut évoquer une infection.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quelles mesures participent à la prévention des complications thromboemboliques après un pontage ? (Cochez les bonnes réponses)",
+      "options": [
+        "Mobilisation précoce",
+        "Anticoagulation prescrite",
+        "Bas de contention",
+        "Alitement strict prolongé"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "L’alitement strict prolongé est une mesure efficace de prévention des complications thromboemboliques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la prévention repose notamment sur la mobilisation précoce, les anticoagulants prescrits et les bas de contention."
+    },
+    {
+      "question": "Quelles mesures hygiéno-diététiques sont recommandées chez un patient atteint d’AOMI ? (Cochez les bonnes réponses)",
+      "options": [
+        "Arrêt ou diminution du tabac",
+        "Alimentation équilibrée adaptée",
+        "Activité physique adaptée",
+        "Suivi régulier de la glycémie et de la tension artérielle",
+        "Augmentation de la consommation d’alcool"
+      ],
+      "correct": [0, 1, 2, 3]
+    },
+        {
+      "question": "L’AOMI est une pathologie strictement aiguë sans évolution chronique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’AOMI est une maladie chronique liée à l’athérosclérose, pouvant évoluer sur plusieurs années."
+    },
+    {
+      "question": "La claudication intermittente est un signe typique de l’AOMI au stade 2.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Après un pontage fémoro-poplité, une douleur brutale associée à une froideur du membre opéré doit alerter.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quelle affirmation concernant l’ischémie aiguë du membre inférieur est correcte ?",
+      "options": [
+        "Elle peut être indolore dans la majorité des cas",
+        "Elle nécessite une prise en charge rapide pour éviter des lésions irréversibles",
+        "Elle évolue lentement grâce à une circulation collatérale",
+        "Elle ne concerne que les patients diabétiques"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "L’éducation thérapeutique fait partie intégrante de la prise en charge de l’AOMI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "L’aphasie correspond à un trouble du langage affectant l’expression et/ou la compréhension.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’aphasie correspond à une difficulté à articuler les mots sans atteinte de la compréhension.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette définition correspond à la dysarthrie, et non à l’aphasie."
+    },
+    {
+      "question": "Quelle est la définition correcte de la dysarthrie ?",
+      "options": [
+        "Trouble de la compréhension du langage écrit",
+        "Difficulté à articuler les mots",
+        "Perte de la vision d’un hémichamp",
+        "Trouble de la déglutition"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "La dysarthrie correspond à une impossibilité de comprendre le langage oral.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la dysarthrie est un trouble de l’articulation, la compréhension est conservée."
+    },
+    {
+      "question": "L’hémiplégie correspond à une paralysie complète d’un hémicorps.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’hémiplégie correspond à une diminution partielle de la force musculaire d’un côté du corps.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette définition correspond à l’hémiparésie."
+    },
+    {
+      "question": "Quelle est la définition correcte de l’hémiparésie ?",
+      "options": [
+        "Paralysie totale d’un membre",
+        "Déficit partiel de la force musculaire d’un hémicorps",
+        "Trouble de la coordination motrice",
+        "Perte de la sensibilité thermique"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "L’hémianopsie correspond à une perte de la vision dans une moitié du champ visuel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’hémianopsie correspond à une vision double.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la vision double correspond à la diplopie."
+    },
+    {
+      "question": "Quelle est la définition correcte de la diplopie ?",
+      "options": [
+        "Perte d’un hémichamp visuel",
+        "Vision double",
+        "Baisse de l’acuité visuelle progressive",
+        "Cécité transitoire"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "La dysphagie correspond à une difficulté à avaler.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La dysphagie correspond à un trouble de l’articulation des mots.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette définition correspond à la dysarthrie."
+    },
+    {
+      "question": "L’ataxie correspond à un trouble de la coordination des mouvements.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’ataxie correspond à une paralysie complète sans trouble de l’équilibre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’ataxie touche la coordination, l’équilibre et le maintien postural."
+    },
+    {
+      "question": "Quelle est la définition correcte de l’anisocorie ?",
+      "options": [
+        "Paralysie faciale",
+        "Différence de taille entre les deux pupilles",
+        "Dilatatation bilatérale des pupilles",
+        "Absence de réflexe photomoteur"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "L’anisocorie correspond à une dilatation bilatérale des pupilles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’anisocorie correspond à une différence de taille entre les pupilles."
+    },
+    {
+      "question": "Le myosis correspond à un rétrécissement anormal de la pupille.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La mydriase correspond à un rétrécissement anormal de la pupille.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la mydriase correspond à une dilatation de la pupille."
+    },
+    {
+      "question": "Quelle est la définition correcte de la spasticité ?",
+      "options": [
+        "Perte totale de la force musculaire",
+        "Augmentation involontaire du tonus musculaire",
+        "Diminution de la sensibilité",
+        "Trouble de la déglutition"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "La spasticité correspond à une diminution du tonus musculaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la spasticité correspond à une augmentation involontaire du tonus musculaire."
+    },
+        {
+      "question": "L’alexie correspond à une impossibilité de comprendre les idées émises par l’écriture.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’alexie correspond à une difficulté à articuler les mots sans atteinte de la lecture.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette définition correspond à la dysarthrie, tandis que l’alexie concerne la lecture."
+    },
+    {
+      "question": "Un hématome extra-dural est une collection sanguine située entre l’os du crâne et la dure-mère.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Un hématome extra-dural est situé entre la dure-mère et l’encéphale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette localisation correspond à l’hématome sous-dural."
+    },
+    {
+      "question": "Un hématome intra-cérébral correspond à une collection sanguine située à l’intérieur de l’encéphale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Un hématome intra-cérébral est une collection sanguine située entre l’os du crâne et la dure-mère.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette définition correspond à l’hématome extra-dural."
+    },
+    {
+      "question": "Un hématome sous-dural est une collection sanguine située entre la dure-mère et l’encéphale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Un hématome sous-dural correspond à une hémorragie située dans le tissu cérébral.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette définition correspond à l’hématome intra-cérébral."
+    },
+    {
+      "question": "L’hyperesthésie correspond à une exacerbation de la perception des sensations.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’hyperesthésie correspond à une diminution de la sensibilité à la stimulation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette définition correspond à l’hypoesthésie."
+    },
+    {
+      "question": "L’hypoesthésie correspond à une diminution de la sensibilité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’hypoesthésie correspond à une perception exagérée des stimuli.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette définition correspond à l’hyperesthésie."
+    },
+    {
+      "question": "La monoparésie correspond à une paralysie partielle d’un membre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La monoparésie correspond à une paralysie complète d’un membre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la paralysie complète d’un membre correspond à une monoplégie."
+    },
+    {
+      "question": "La monoplégie correspond à une paralysie complète d’un membre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La monoplégie correspond à un déficit partiel de la force musculaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette définition correspond à une parésie."
+    },
+    {
+      "question": "Les myoclonies correspondent à des contractions musculaires brèves et involontaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les myoclonies correspondent à une paralysie progressive des muscles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les myoclonies sont des contractions involontaires, non une paralysie."
+    },
+    {
+      "question": "Le neuropsychologue est un professionnel spécialisé dans l’évaluation des fonctions cognitives.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le neuropsychologue intervient uniquement dans la prise en charge motrice des patients.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le neuropsychologue évalue les fonctions mentales et cognitives."
+    },
+    {
+      "question": "Le ptosis correspond à une chute de la paupière supérieure.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le ptosis correspond à une dilatation anormale de la pupille.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car cette définition correspond à la mydriase."
+    },
+    {
+      "question": "La réadaptation regroupe l’ensemble des actions visant à favoriser la récupération de l’autonomie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La réadaptation correspond uniquement à des exercices physiques réalisés en kinésithérapie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la réadaptation inclut des dimensions physiques, psychologiques et sociales."
+    },
+    {
+      "question": "La rééducation correspond à un programme visant à rétablir l’usage d’une fonction ou d’un membre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La rééducation a pour objectif principal l’adaptation sociale sans récupération fonctionnelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la rééducation vise la récupération fonctionnelle."
+    }
+  ]
+}

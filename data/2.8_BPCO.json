@@ -1,0 +1,311 @@
+{
+  "title": "UE 2.8 S3 – Processus obstructifs",
+  "subtitle": "Bronchopneumopathie Chronique Obstructive (BPCO)",
+  "questions": [
+    {
+      "question": "La BPCO est une maladie respiratoire chronique caractérisée par une obstruction progressive et permanente des voies aériennes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La BPCO est une pathologie respiratoire aiguë et réversible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la BPCO est une maladie chronique, évolutive et non totalement réversible."
+    },
+    {
+      "question": "Le tabagisme est le principal facteur de risque de la BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La BPCO peut être favorisée par des expositions professionnelles à des poussières ou substances chimiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La pollution atmosphérique fait partie des facteurs pouvant contribuer à la BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une prédisposition génétique peut intervenir dans la survenue de la BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La BPCO n’a aucun retentissement sur la qualité de vie du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la BPCO entraîne dyspnée, fatigue et limitation des activités quotidiennes."
+    },
+    {
+      "question": "Une exacerbation de BPCO correspond à une aggravation aiguë des symptômes respiratoires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’augmentation de la dyspnée est un signe fréquent d’exacerbation de BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une toux plus productive peut traduire une exacerbation de BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La fièvre est systématiquement absente lors d’une exacerbation de BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car une fièvre modérée peut être présente, notamment en cas d’infection associée."
+    },
+    {
+      "question": "Une diminution de la saturation en oxygène peut être observée lors d’une exacerbation de BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La fatigue importante fait partie des signes possibles d’une exacerbation de BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les gaz du sang permettent d’évaluer l’oxygénation et la ventilation du patient atteint de BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une PaO2 basse traduit une hypoxémie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une PaCO2 élevée peut traduire une hypoventilation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’hypercapnie est sans conséquence chez un patient atteint de BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’hypercapnie peut entraîner des troubles de la conscience et une détresse respiratoire."
+    },
+    {
+      "question": "La CRP est un marqueur biologique de l’inflammation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une CRP élevée peut évoquer un contexte infectieux associé à une exacerbation de BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels sont des signes cliniques évocateurs d’une exacerbation de BPCO ?",
+      "options": [
+        "Augmentation de la dyspnée",
+        "Toux productive",
+        "Amélioration brutale de l’état respiratoire",
+        "Diminution de la saturation en oxygène"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Quels sont les objectifs de la prise en charge infirmière lors d’une exacerbation de BPCO ?",
+      "options": [
+        "Améliorer l’oxygénation",
+        "Soulager la dyspnée",
+        "Prévenir les complications",
+        "Supprimer définitivement la maladie"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La surveillance de la fréquence respiratoire est prioritaire chez un patient atteint de BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La surveillance de l’état de conscience est importante en raison du risque d’hypercapnie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’observation des expectorations fait partie de la surveillance infirmière en cas de BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les bronchodilatateurs peuvent entraîner des effets secondaires nécessitant une surveillance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’éducation thérapeutique fait partie intégrante de la prise en charge de la BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’apprentissage de la bonne technique d’inhalation est inutile chez un patient atteint de BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car une mauvaise technique d’inhalation diminue l’efficacité du traitement."
+    },
+    {
+      "question": "La prévention des infections respiratoires fait partie des actions éducatives chez le patient BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Reconnaître précocement les signes d’exacerbation permet d’améliorer la prise en charge de la BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "La BPCO est caractérisée par une obstruction des voies aériennes non totalement réversible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La BPCO touche exclusivement les bronches sans atteinte du parenchyme pulmonaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la BPCO associe une atteinte bronchique et une destruction du parenchyme pulmonaire."
+    },
+    {
+      "question": "Le sevrage tabagique permet de ralentir l’évolution de la BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Un ancien fumeur ne présente plus aucun risque lié à la BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les lésions respiratoires liées à la BPCO persistent malgré l’arrêt du tabac."
+    },
+    {
+      "question": "La dyspnée d’effort est un symptôme fréquent de la BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La BPCO est une pathologie uniquement liée à l’âge avancé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’âge est un facteur favorisantgisant mais non exclusif, le tabagisme étant central."
+    },
+    {
+      "question": "Les exacerbations répétées accélèrent le déclin de la fonction respiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une exacerbation de BPCO est toujours d’origine infectieuse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les exacerbations peuvent aussi être liées à la pollution ou à une mauvaise observance."
+    },
+    {
+      "question": "La diminution de la tolérance à l’effort est un retentissement fonctionnel de la BPCO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La BPCO n’entraîne jamais de troubles du sommeil.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la dyspnée nocturne et l’hypercapnie peuvent perturber le sommeil."
+    },
+    {
+      "question": "Quels éléments définissent la BPCO ?",
+      "options": [
+        "Maladie respiratoire chronique",
+        "Obstruction progressive des voies aériennes",
+        "Atteinte totalement réversible",
+        "Retentissement fonctionnel respiratoire"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Quels sont des facteurs de risque reconnus de la BPCO ?",
+      "options": [
+        "Tabagisme",
+        "Exposition professionnelle",
+        "Pollution atmosphérique",
+        "Hypertension artérielle isolée"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Quels signes peuvent traduire une exacerbation de BPCO ?",
+      "options": [
+        "Augmentation de la dyspnée",
+        "Modification des expectorations",
+        "Diminution de la fatigue",
+        "Baisse de la saturation en oxygène"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Quels paramètres doivent être surveillés en priorité chez un patient BPCO ?",
+      "options": [
+        "Fréquence respiratoire",
+        "Saturation en oxygène",
+        "État de conscience",
+        "Acuité visuelle"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Quels objectifs sont visés par la prise en charge infirmière d’une exacerbation de BPCO ?",
+      "options": [
+        "Améliorer la ventilation",
+        "Prévenir la détresse respiratoire",
+        "Assurer le confort du patient",
+        "Guérir définitivement la BPCO"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Quels éléments peuvent être abordés lors de l’éducation thérapeutique d’un patient BPCO ?",
+      "options": [
+        "Reconnaissance des signes d’exacerbation",
+        "Technique d’inhalation",
+        "Prévention des infections",
+        "Arrêt immédiat de toute activité physique"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Quels effets peuvent être surveillés lors de l’administration de bronchodilatateurs ?",
+      "options": [
+        "Tachycardie",
+        "Tremblements",
+        "Hypoglycémie systématique",
+        "Nervosité"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Quels examens peuvent contribuer à l’évaluation d’une exacerbation de BPCO ?",
+      "options": [
+        "Gaz du sang",
+        "Radiographie thoracique",
+        "CRP",
+        "Électroencéphalogramme"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Quels bénéfices sont attendus d’un suivi régulier chez un patient atteint de BPCO ?",
+      "options": [
+        "Réduction des exacerbations",
+        "Amélioration de la qualité de vie",
+        "Prévention des complications",
+        "Disparition complète de la maladie"
+      ],
+      "correct": [0, 1, 2]
+    }
+  ]
+}

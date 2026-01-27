@@ -1,0 +1,402 @@
+{
+  "title": "Anticoagulants et hémostase",
+  "subtitle": "UE 2.11 – Pharmacologie et thérapeutiques",
+  "questions": [
+    {
+      "question": "L’hémostase a pour rôle principal de :",
+      "options": [
+        "Dissoudre les caillots",
+        "Empêcher les infections",
+        "Arrêter le saignement",
+        "Fluidifier le sang"
+      ],
+      "correct": [2],
+      "explanation": "L’hémostase permet de stopper un saignement tout en maintenant la fluidité du sang."
+    },
+    {
+      "question": "Quelles sont les trois grandes étapes de l’hémostase ?",
+      "options": [
+        "Hémostase primaire",
+        "Coagulation",
+        "Fibrinolyse",
+        "Inflammation"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’hémostase comprend l’hémostase primaire, la coagulation et la fibrinolyse."
+    },
+    {
+      "question": "L’hémostase primaire repose principalement sur :",
+      "options": [
+        "Les plaquettes",
+        "Les globules rouges",
+        "Les facteurs de coagulation",
+        "La fibrine"
+      ],
+      "correct": [0],
+      "explanation": "L’hémostase primaire est liée à l’adhésion et l’agrégation plaquettaire."
+    },
+    {
+      "question": "La coagulation aboutit principalement à la formation de :",
+      "options": [
+        "Plaquettes activées",
+        "Fibrinogène",
+        "Fibrine",
+        "Thromboxane"
+      ],
+      "correct": [2],
+      "explanation": "La coagulation permet la transformation du fibrinogène en fibrine."
+    },
+    {
+      "question": "Quel examen explore principalement l’hémostase primaire ?",
+      "options": [
+        "INR",
+        "TCA",
+        "Numération plaquettaire",
+        "Temps de Quick"
+      ],
+      "correct": [2],
+      "explanation": "L’hémostase primaire dépend des plaquettes, évaluées par la NFS."
+    },
+    {
+      "question": "Quel examen biologique explore principalement la voie extrinsèque de la coagulation ?",
+      "options": [
+        "TCA",
+        "INR",
+        "Temps de saignement",
+        "Numération plaquettaire"
+      ],
+      "correct": [1],
+      "explanation": "L’INR explore la voie extrinsèque et les AVK."
+    },
+    {
+      "question": "Quel examen biologique explore principalement la voie intrinsèque de la coagulation ?",
+      "options": [
+        "INR",
+        "Temps de Quick",
+        "TCA",
+        "Numération plaquettaire"
+      ],
+      "correct": [2],
+      "explanation": "Le TCA explore la voie intrinsèque et le traitement par héparine."
+    },
+    {
+      "question": "Les héparines agissent principalement par :",
+      "options": [
+        "Inhibition de la vitamine K",
+        "Activation de l’antithrombine",
+        "Blocage de l’agrégation plaquettaire",
+        "Dissolution du caillot"
+      ],
+      "correct": [1],
+      "explanation": "Les héparines potentialisent l’action de l’antithrombine."
+    },
+    {
+      "question": "Parmi les anticoagulants suivants, lesquels sont des héparines ?",
+      "options": [
+        "Héparine non fractionnée",
+        "Héparines de bas poids moléculaire",
+        "Warfarine",
+        "Rivaroxaban"
+      ],
+      "correct": [0, 1],
+      "explanation": "Les héparines comprennent l’HNF et les HBPM."
+    },
+    {
+      "question": "Quel examen biologique est utilisé pour surveiller une héparine non fractionnée ?",
+      "options": [
+        "INR",
+        "TCA",
+        "Numération plaquettaire",
+        "Temps de saignement"
+      ],
+      "correct": [1],
+      "explanation": "Le TCA est utilisé pour la surveillance de l’HNF."
+    },
+    {
+      "question": "Quel examen biologique est utilisé pour surveiller une HBPM dans certaines situations ?",
+      "options": [
+        "INR",
+        "TCA",
+        "Anti-Xa",
+        "Temps de Quick"
+      ],
+      "correct": [2],
+      "explanation": "L’activité anti-Xa peut être utilisée pour surveiller les HBPM."
+    },
+    {
+      "question": "Les AVK agissent principalement par :",
+      "options": [
+        "Inhibition directe de la thrombine",
+        "Blocage de la vitamine K",
+        "Activation de l’antithrombine",
+        "Blocage du facteur Xa uniquement"
+      ],
+      "correct": [1],
+      "explanation": "Les AVK inhibent la synthèse des facteurs vitamine K dépendants."
+    },
+    {
+      "question": "Quels facteurs de coagulation sont vitamine K dépendants ?",
+      "options": [
+        "II",
+        "VII",
+        "IX",
+        "X"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les facteurs II, VII, IX et X sont dépendants de la vitamine K."
+    },
+    {
+      "question": "Quel examen biologique est utilisé pour surveiller un traitement par AVK ?",
+      "options": [
+        "TCA",
+        "INR",
+        "Anti-Xa",
+        "Numération plaquettaire"
+      ],
+      "correct": [1],
+      "explanation": "L’INR est l’examen de référence pour la surveillance des AVK."
+    },
+    {
+      "question": "Quel est l’objectif principal de la surveillance de l’INR ?",
+      "options": [
+        "Évaluer le risque infectieux",
+        "Évaluer l’efficacité et le risque hémorragique",
+        "Mesurer la glycémie",
+        "Évaluer la fonction rénale"
+      ],
+      "correct": [1],
+      "explanation": "Un INR trop bas expose au risque thrombotique, trop élevé au risque hémorragique."
+    },
+    {
+      "question": "Les anticoagulants oraux directs (AOD) agissent :",
+      "options": [
+        "Sur la vitamine K",
+        "Directement sur le facteur Xa ou la thrombine",
+        "Sur les plaquettes",
+        "Sur la fibrinolyse"
+      ],
+      "correct": [1],
+      "explanation": "Les AOD inhibent directement le facteur Xa ou la thrombine."
+    },
+    {
+      "question": "Parmi les anticoagulants suivants, lesquels sont des AOD ?",
+      "options": [
+        "Rivaroxaban",
+        "Apixaban",
+        "Dabigatran",
+        "Acénocoumarol"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les AOD comprennent les inhibiteurs du facteur Xa et de la thrombine."
+    },
+    {
+      "question": "Quel examen biologique est systématiquement requis pour le suivi des AOD ?",
+      "options": [
+        "INR",
+        "TCA",
+        "Aucun examen systématique",
+        "Anti-Xa"
+      ],
+      "correct": [2],
+      "explanation": "Les AOD ne nécessitent pas de surveillance biologique systématique."
+    },
+    {
+      "question": "Quel est le principal risque commun à tous les anticoagulants ?",
+      "options": [
+        "Risque infectieux",
+        "Risque hémorragique",
+        "Risque allergique systématique",
+        "Risque hypoglycémique"
+      ],
+      "correct": [1],
+      "explanation": "Le principal risque des anticoagulants est le saignement."
+    },
+    {
+      "question": "La thrombopénie induite par l’héparine (TIH) correspond à :",
+      "options": [
+        "Une augmentation des plaquettes",
+        "Une diminution des plaquettes",
+        "Une augmentation de l’INR",
+        "Une hypoglycémie"
+      ],
+      "correct": [1],
+      "explanation": "La TIH est une complication grave liée à une chute des plaquettes."
+    },
+    {
+      "question": "Quel examen permet de dépister une TIH ?",
+      "options": [
+        "INR",
+        "TCA",
+        "Numération plaquettaire",
+        "Anti-Xa"
+      ],
+      "correct": [2],
+      "explanation": "La surveillance de la numération plaquettaire est indispensable sous héparine."
+    },
+    {
+      "question": "Quel antidote est utilisé en cas de surdosage en héparine ?",
+      "options": [
+        "Vitamine K",
+        "Protamine",
+        "Naloxone",
+        "Flumazénil"
+      ],
+      "correct": [1],
+      "explanation": "La protamine neutralise l’héparine."
+    },
+    {
+      "question": "Quel antidote est utilisé en cas de surdosage en AVK ?",
+      "options": [
+        "Protamine",
+        "Vitamine K",
+        "Idarucizumab",
+        "Charbon actif"
+      ],
+      "correct": [1],
+      "explanation": "La vitamine K antagonise l’effet des AVK."
+    },
+    {
+      "question": "Quel est l’antidote spécifique du dabigatran ?",
+      "options": [
+        "Vitamine K",
+        "Protamine",
+        "Idarucizumab",
+        "Andexanet alfa"
+      ],
+      "correct": [2],
+      "explanation": "L’idarucizumab est l’antidote spécifique du dabigatran."
+    },
+    {
+      "question": "Quel est un facteur favorisant le risque hémorragique sous anticoagulant ?",
+      "options": [
+        "Insuffisance rénale",
+        "Âge avancé",
+        "Association médicamenteuse",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Plusieurs facteurs augmentent le risque de saignement."
+    },
+    {
+      "question": "Quelle association médicamenteuse augmente fortement le risque hémorragique ?",
+      "options": [
+        "Anticoagulant + AINS",
+        "Anticoagulant + paracétamol",
+        "Anticoagulant + antibiotique local",
+        "Anticoagulant + sérum physiologique"
+      ],
+      "correct": [0],
+      "explanation": "L’association anticoagulant et AINS majore le risque hémorragique."
+    },
+    {
+      "question": "Quel signe clinique doit alerter chez un patient sous anticoagulant ?",
+      "options": [
+        "Hématome spontané",
+        "Épistaxis",
+        "Hématurie",
+        "Tous les signes précédents"
+      ],
+      "correct": [3],
+      "explanation": "Tout signe de saignement doit être pris en compte."
+    },
+    {
+      "question": "Le relais héparine-AVK est nécessaire car :",
+      "options": [
+        "Les AVK agissent immédiatement",
+        "Les AVK ont un délai d’action",
+        "Les héparines sont inefficaces",
+        "Les AVK sont injectables"
+      ],
+      "correct": [1],
+      "explanation": "Les AVK ont un délai d’action de plusieurs jours."
+    },
+    {
+      "question": "Quel est le rôle infirmier essentiel chez un patient sous anticoagulant ?",
+      "options": [
+        "Surveillance clinique des saignements",
+        "Surveillance biologique",
+        "Éducation du patient",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "La prise en charge infirmière repose sur surveillance et éducation."
+    },
+    {
+      "question": "Quelle précaution doit être donnée à un patient sous AVK ?",
+      "options": [
+        "Éviter les variations alimentaires en vitamine K",
+        "Arrêter le traitement en cas de fièvre",
+        "Augmenter les doses en cas de douleur",
+        "Éviter toute activité physique"
+      ],
+      "correct": [0],
+      "explanation": "Les variations d’apport en vitamine K modifient l’INR."
+    },
+    {
+      "question": "La fibrinolyse a pour rôle de :",
+      "options": [
+        "Former le caillot",
+        "Stabiliser le caillot",
+        "Détruire le caillot",
+        "Activer les plaquettes"
+      ],
+      "correct": [2],
+      "explanation": "La fibrinolyse permet la dissolution du caillot."
+    },
+    {
+      "question": "Quel type de médicament est utilisé en cas de thrombose aiguë ?",
+      "options": [
+        "Anticoagulant",
+        "Antiagrégant plaquettaire",
+        "Antibiotique",
+        "Corticoïde"
+      ],
+      "correct": [0],
+      "explanation": "Les anticoagulants sont utilisés dans le traitement des thromboses."
+    },
+    {
+      "question": "Les anticoagulants agissent principalement sur :",
+      "options": [
+        "L’hémostase primaire",
+        "La coagulation",
+        "La fibrinolyse",
+        "Les globules rouges"
+      ],
+      "correct": [1],
+      "explanation": "Les anticoagulants agissent sur la cascade de coagulation."
+    },
+    {
+      "question": "Quel examen biologique doit être surveillé avant toute anticoagulation ?",
+      "options": [
+        "NFS",
+        "Créatininémie",
+        "Bilan hépatique",
+        "Tous les examens précédents"
+      ],
+      "correct": [3],
+      "explanation": "Une évaluation globale est nécessaire avant anticoagulation."
+    },
+    {
+      "question": "Quelle situation constitue une contre-indication majeure aux anticoagulants ?",
+      "options": [
+        "Saignement actif",
+        "Hypertension contrôlée",
+        "Diabète équilibré",
+        "Asthme"
+      ],
+      "correct": [0],
+      "explanation": "Un saignement actif contre-indique l’anticoagulation."
+    },
+    {
+      "question": "Quel est l’objectif principal d’un traitement anticoagulant ?",
+      "options": [
+        "Dissoudre un caillot existant",
+        "Prévenir l’extension ou la formation de thromboses",
+        "Augmenter l’agrégation plaquettaire",
+        "Réduire l’inflammation"
+      ],
+      "correct": [1],
+      "explanation": "Les anticoagulants préviennent l’extension ou la récidive thrombotique."
+    }
+  ]
+}

@@ -1,0 +1,424 @@
+{
+  "title": "AINS et corticoïdes (AIS)",
+  "subtitle": "UE 2.11 – Pharmacologie et thérapeutiques",
+  "questions": [
+    {
+      "question": "Les anti-inflammatoires non stéroïdiens (AINS) agissent principalement par :",
+      "options": [
+        "Inhibition des cyclo-oxygénases (COX)",
+        "Inhibition de la phospholipase A2",
+        "Blocage des récepteurs de la douleur",
+        "Activation des leucocytes"
+      ],
+      "correct": [0],
+      "explanation": "Les AINS inhibent les COX, diminuant la synthèse des prostaglandines."
+    },
+    {
+      "question": "Les corticoïdes (AIS) agissent principalement par :",
+      "options": [
+        "Inhibition des COX",
+        "Inhibition de la phospholipase A2",
+        "Blocage direct de la fibrine",
+        "Activation plaquettaire"
+      ],
+      "correct": [1],
+      "explanation": "Les corticoïdes bloquent la phospholipase A2, en amont de la cascade inflammatoire."
+    },
+    {
+      "question": "Quelles sont les principales propriétés pharmacologiques des AINS ?",
+      "options": [
+        "Antalgique",
+        "Antipyrétique",
+        "Anti-inflammatoire",
+        "Antibiotique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les AINS sont antalgiques, antipyrétiques et anti-inflammatoires."
+    },
+    {
+      "question": "L’aspirine à faible dose (75–325 mg) est principalement utilisée comme :",
+      "options": [
+        "Anti-inflammatoire",
+        "Antalgique",
+        "Antiagrégant plaquettaire",
+        "Antipyrétique"
+      ],
+      "correct": [2],
+      "explanation": "À faible dose, l’aspirine a un effet antiagrégant plaquettaire."
+    },
+    {
+      "question": "Les prostaglandines jouent un rôle physiologique dans :",
+      "options": [
+        "La protection de la muqueuse gastrique",
+        "La régulation de la fonction rénale",
+        "La médiation de l’inflammation",
+        "La synthèse de l’hémoglobine"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les prostaglandines ont un rôle protecteur et inflammatoire."
+    },
+    {
+      "question": "Quel est un effet indésirable digestif fréquent des AINS ?",
+      "options": [
+        "Constipation",
+        "Ulcère gastro-duodénal",
+        "Iléus paralytique",
+        "Occlusion intestinale systématique"
+      ],
+      "correct": [1],
+      "explanation": "Les AINS augmentent le risque d’ulcères et d’hémorragies digestives."
+    },
+    {
+      "question": "Quel est un facteur de risque majeur de toxicité rénale des AINS ?",
+      "options": [
+        "Sujet âgé",
+        "Déshydratation",
+        "Association avec IEC ou diurétiques",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Ces situations augmentent fortement le risque d’insuffisance rénale."
+    },
+    {
+      "question": "L’association AINS + IEC + diurétiques expose principalement à :",
+      "options": [
+        "Un choc anaphylactique",
+        "Une insuffisance rénale aiguë",
+        "Une hypoglycémie",
+        "Une thrombopénie"
+      ],
+      "correct": [1],
+      "explanation": "Cette triple association est très néphrotoxique."
+    },
+    {
+      "question": "Les AINS peuvent provoquer chez l’asthmatique :",
+      "options": [
+        "Bronchodilatation",
+        "Bronchoconstriction",
+        "Sédation",
+        "Hypotension orthostatique"
+      ],
+      "correct": [1],
+      "explanation": "Les AINS peuvent déclencher un bronchospasme chez certains asthmatiques."
+    },
+    {
+      "question": "Quelle règle doit être respectée lors d’un traitement par AINS ?",
+      "options": [
+        "Associer deux AINS",
+        "Utiliser la dose minimale efficace",
+        "Prolonger systématiquement le traitement",
+        "Éviter toute protection gastrique"
+      ],
+      "correct": [1],
+      "explanation": "La dose minimale efficace limite les effets indésirables."
+    },
+    {
+      "question": "Quelle est une contre-indication formelle aux AINS ?",
+      "options": [
+        "Ulcère gastro-duodénal évolutif",
+        "Hypertension contrôlée",
+        "Diabète équilibré",
+        "Myopie"
+      ],
+      "correct": [0],
+      "explanation": "Les AINS augmentent le risque de saignement digestif."
+    },
+    {
+      "question": "Les COX-2 sélectifs (coxibs) ont principalement pour avantage :",
+      "options": [
+        "Une meilleure tolérance digestive",
+        "Une meilleure tolérance rénale",
+        "Une absence d’effets cardiovasculaires",
+        "Une action antibiotique"
+      ],
+      "correct": [0],
+      "explanation": "Les coxibs réduisent le risque digestif par rapport aux AINS classiques."
+    },
+    {
+      "question": "Les corticoïdes ont un effet métabolique caractérisé par :",
+      "options": [
+        "Effet hyperglycémiant",
+        "Catabolisme protéique",
+        "Rétention hydrosodée",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Les corticoïdes modifient profondément le métabolisme."
+    },
+    {
+      "question": "Une corticothérapie prolongée peut entraîner :",
+      "options": [
+        "Ostéoporose",
+        "Retard de cicatrisation",
+        "Risque infectieux",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Les corticoïdes exposent à de nombreux effets indésirables chroniques."
+    },
+    {
+      "question": "Quel est un signe d’hypercorticisme iatrogène ?",
+      "options": [
+        "Obésité facio-tronculaire",
+        "Hypoglycémie",
+        "Hyperkaliémie",
+        "Amaigrissement marqué"
+      ],
+      "correct": [0],
+      "explanation": "L’hypercorticisme se manifeste notamment par une prise de poids centrale."
+    },
+    {
+      "question": "Les corticoïdes peuvent provoquer une hypokaliémie en raison de :",
+      "options": [
+        "Un effet minéralocorticoïde",
+        "Une inhibition de la vitamine K",
+        "Une perte digestive",
+        "Une diminution de l’aldostérone"
+      ],
+      "correct": [0],
+      "explanation": "L’effet minéralocorticoïde favorise la fuite potassique."
+    },
+    {
+      "question": "Quel régime est conseillé lors d’une corticothérapie prolongée ?",
+      "options": [
+        "Hyperprotidique",
+        "Hypoglucidique",
+        "Hypolipidique",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Ce régime limite les effets métaboliques des corticoïdes."
+    },
+    {
+      "question": "Les corticoïdes sont contre-indiqués en cas de :",
+      "options": [
+        "Infection non contrôlée",
+        "Diabète déséquilibré",
+        "Ulcère gastro-duodénal actif",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Les corticoïdes aggravent ces situations."
+    },
+    {
+      "question": "Pourquoi l’arrêt brutal d’une corticothérapie prolongée est-il dangereux ?",
+      "options": [
+        "Risque d’insuffisance surrénalienne aiguë",
+        "Risque hémorragique",
+        "Risque allergique",
+        "Risque infectieux immédiat"
+      ],
+      "correct": [0],
+      "explanation": "L’arrêt brutal peut entraîner une insuffisance surrénalienne."
+    },
+    {
+      "question": "La corticothérapie à jours alternés consiste à :",
+      "options": [
+        "Administrer la dose quotidienne un jour sur deux",
+        "Administrer la dose double un jour sur deux",
+        "Administrer la demi-dose chaque jour",
+        "Changer de corticoïde chaque jour"
+      ],
+      "correct": [1],
+      "explanation": "La dose de 48 h est donnée en une seule prise."
+    },
+    {
+      "question": "Les corticoïdes agissent sur quelles phases de l’inflammation ?",
+      "options": [
+        "Phase vasculaire",
+        "Phase cellulaire",
+        "Phase tissulaire",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Ils agissent sur l’ensemble des phases inflammatoires."
+    },
+    {
+      "question": "Quel vaccin est contre-indiqué chez un patient sous corticothérapie immunosuppressive ?",
+      "options": [
+        "Vaccin vivant atténué",
+        "Vaccin inactivé",
+        "Vaccin grippal injectable",
+        "Vaccin tétanique"
+      ],
+      "correct": [0],
+      "explanation": "Les vaccins vivants exposent à un risque infectieux."
+    },
+    {
+      "question": "Quel est un effet neuropsychique possible des corticoïdes ?",
+      "options": [
+        "Insomnie",
+        "Irritabilité",
+        "Troubles de l’humeur",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Les corticoïdes peuvent provoquer des troubles neuropsychiques."
+    },
+    {
+      "question": "Les AINS doivent être pris de préférence :",
+      "options": [
+        "À jeun",
+        "Pendant les repas",
+        "Le soir uniquement",
+        "En injection systématique"
+      ],
+      "correct": [1],
+      "explanation": "La prise pendant les repas réduit l’irritation gastrique."
+    },
+    {
+      "question": "Quelle classe d’AINS est réservée à certaines indications rhumatologiques en raison de sa toxicité ?",
+      "options": [
+        "Oxicams",
+        "Paracétamol",
+        "Coxibs",
+        "Salicylés"
+      ],
+      "correct": [0],
+      "explanation": "Les oxicams ont une toxicité plus importante."
+    },
+    {
+      "question": "Les AINS peuvent diminuer l’efficacité de :",
+      "options": [
+        "Certains antihypertenseurs",
+        "Les diurétiques",
+        "Les IEC",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "Les AINS interfèrent avec la fonction rénale et la pression artérielle."
+    },
+    {
+      "question": "Quel effet indésirable cutané grave peut être associé à certains AINS ?",
+      "options": [
+        "Syndrome de Lyell",
+        "Acné",
+        "Urticaire bénigne systématique",
+        "Alopécie"
+      ],
+      "correct": [0],
+      "explanation": "Le syndrome de Lyell est une toxidermie grave."
+    },
+    {
+      "question": "Les AINS peuvent induire un syndrome de Reye principalement chez :",
+      "options": [
+        "L’enfant avec infection virale",
+        "La femme enceinte",
+        "Le sujet âgé",
+        "Le patient diabétique"
+      ],
+      "correct": [0],
+      "explanation": "Ce syndrome est associé à l’aspirine chez l’enfant."
+    },
+    {
+      "question": "Quel est le rôle infirmier prioritaire chez un patient sous AINS ?",
+      "options": [
+        "Surveillance digestive",
+        "Surveillance rénale",
+        "Recherche d’automédication",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "La surveillance vise à prévenir les complications."
+    },
+    {
+      "question": "Quel est le rôle infirmier prioritaire chez un patient sous corticothérapie prolongée ?",
+      "options": [
+        "Surveillance clinique et biologique",
+        "Éducation thérapeutique",
+        "Dépistage des infections",
+        "Toutes les réponses"
+      ],
+      "correct": [3],
+      "explanation": "La prise en charge infirmière est globale."
+    },
+    {
+      "question": "Les corticoïdes sont utilisés en doses massives et de courte durée dans :",
+      "options": [
+        "Les urgences inflammatoires",
+        "Les pathologies chroniques stables",
+        "La prévention vaccinale",
+        "Les infections virales bénignes"
+      ],
+      "correct": [0],
+      "explanation": "Ils sont utilisés en urgence pour leur effet rapide."
+    },
+    {
+      "question": "Quel médicament est un corticoïde de durée d’action intermédiaire ?",
+      "options": [
+        "Prednisone",
+        "Hydrocortisone",
+        "Dexaméthasone",
+        "Bétaméthasone"
+      ],
+      "correct": [0],
+      "explanation": "La prednisone est un corticoïde à durée d’action intermédiaire."
+    },
+    {
+      "question": "Les corticoïdes entraînent une fuite calcique responsable de :",
+      "options": [
+        "Ostéoporose",
+        "Hypercalcémie",
+        "Lithiases rénales systématiques",
+        "Hypoglycémie"
+      ],
+      "correct": [0],
+      "explanation": "La fuite calcique favorise l’ostéoporose."
+    },
+    {
+      "question": "Quel est un objectif majeur de la prescription d’un protecteur gastrique avec un AINS ?",
+      "options": [
+        "Réduire le risque d’ulcère",
+        "Augmenter l’efficacité antalgique",
+        "Prévenir la fièvre",
+        "Améliorer la biodisponibilité rénale"
+      ],
+      "correct": [0],
+      "explanation": "Les protecteurs gastriques diminuent le risque digestif."
+    },
+    {
+      "question": "Quel effet cardiovasculaire peut être associé aux AINS ?",
+      "options": [
+        "Augmentation du risque thrombotique",
+        "Hypotension systématique",
+        "Bradycardie sévère",
+        "Bloc auriculo-ventriculaire"
+      ],
+      "correct": [0],
+      "explanation": "Certains AINS augmentent le risque cardiovasculaire."
+    },
+    {
+      "question": "Pourquoi faut-il éviter l’association AINS et anticoagulants ?",
+      "options": [
+        "Risque infectieux",
+        "Risque hémorragique majoré",
+        "Risque hypoglycémique",
+        "Risque allergique systématique"
+      ],
+      "correct": [1],
+      "explanation": "Cette association augmente fortement le risque de saignement."
+    },
+    {
+      "question": "Les corticoïdes ont-ils un effet antibiotique ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Uniquement à forte dose",
+        "Uniquement en local"
+      ],
+      "correct": [1],
+      "explanation": "Les corticoïdes n’ont aucun effet antibiotique."
+    },
+    {
+      "question": "Quel est l’objectif principal des AINS et des corticoïdes ?",
+      "options": [
+        "Traiter la cause de la maladie",
+        "Traiter le symptôme inflammatoire",
+        "Éradiquer un germe",
+        "Prévenir une thrombose"
+      ],
+      "correct": [1],
+      "explanation": "Ces traitements sont essentiellement symptomatiques."
+    }
+  ]
+}

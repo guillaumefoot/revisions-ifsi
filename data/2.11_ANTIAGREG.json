@@ -1,0 +1,413 @@
+{
+  "title": "Antiagrégants plaquettaires",
+  "subtitle": "UE 2.11 – Pharmacologie et thérapeutiques",
+  "questions": [
+    {
+      "question": "Les antiagrégants plaquettaires agissent principalement sur :",
+      "options": [
+        "La coagulation",
+        "L’agrégation plaquettaire",
+        "La fibrinolyse",
+        "Les globules rouges"
+      ],
+      "correct": [1],
+      "explanation": "Les antiagrégants inhibent l’adhésion et l’agrégation des plaquettes."
+    },
+    {
+      "question": "Les antiagrégants plaquettaires agissent principalement sur quelle phase de l’hémostase ?",
+      "options": [
+        "Hémostase primaire",
+        "Coagulation",
+        "Fibrinolyse",
+        "Inflammation"
+      ],
+      "correct": [0],
+      "explanation": "Ils agissent sur l’hémostase primaire, dépendante des plaquettes."
+    },
+    {
+      "question": "Quel est le principal effet recherché des antiagrégants plaquettaires ?",
+      "options": [
+        "Dissoudre un caillot",
+        "Prévenir la formation de thrombus artériels",
+        "Augmenter la coagulation",
+        "Arrêter un saignement"
+      ],
+      "correct": [1],
+      "explanation": "Ils préviennent les thromboses artérielles."
+    },
+    {
+      "question": "Quel antiagrégant plaquettaire est le plus ancien et le plus utilisé ?",
+      "options": [
+        "Clopidogrel",
+        "Aspirine",
+        "Prasugrel",
+        "Ticagrelor"
+      ],
+      "correct": [1],
+      "explanation": "L’aspirine est l’antiagrégant le plus anciennement utilisé."
+    },
+    {
+      "question": "L’aspirine exerce son effet antiagrégant par :",
+      "options": [
+        "Blocage réversible des COX",
+        "Blocage irréversible des COX",
+        "Activation des plaquettes",
+        "Inhibition directe de la thrombine"
+      ],
+      "correct": [1],
+      "explanation": "L’aspirine inhibe irréversiblement la COX-1 plaquettaire."
+    },
+    {
+      "question": "L’effet antiagrégant de l’aspirine persiste environ :",
+      "options": [
+        "6 heures",
+        "24 heures",
+        "3 jours",
+        "7 à 10 jours"
+      ],
+      "correct": [3],
+      "explanation": "L’effet persiste pendant la durée de vie des plaquettes."
+    },
+    {
+      "question": "Quelle est la dose antiagrégante usuelle de l’aspirine ?",
+      "options": [
+        "1 g",
+        "500 mg",
+        "75 à 325 mg",
+        "2 g"
+      ],
+      "correct": [2],
+      "explanation": "L’effet antiagrégant est obtenu à faible dose."
+    },
+    {
+      "question": "Quel est le principal risque commun à tous les antiagrégants plaquettaires ?",
+      "options": [
+        "Risque infectieux",
+        "Risque hémorragique",
+        "Risque allergique systématique",
+        "Risque hypoglycémique"
+      ],
+      "correct": [1],
+      "explanation": "Le principal risque est le saignement."
+    },
+    {
+      "question": "Quel antiagrégant est un inhibiteur du récepteur P2Y12 ?",
+      "options": [
+        "Aspirine",
+        "Clopidogrel",
+        "Dipyridamole",
+        "Abciximab"
+      ],
+      "correct": [1],
+      "explanation": "Le clopidogrel inhibe le récepteur P2Y12 de l’ADP."
+    },
+    {
+      "question": "Quels médicaments sont des inhibiteurs du récepteur P2Y12 ?",
+      "options": [
+        "Clopidogrel",
+        "Prasugrel",
+        "Ticagrelor",
+        "Aspirine"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces trois molécules inhibent le récepteur P2Y12."
+    },
+    {
+      "question": "Le clopidogrel est principalement utilisé pour :",
+      "options": [
+        "La prévention des thromboses veineuses",
+        "La prévention des accidents thromboemboliques artériels",
+        "Le traitement des hémorragies",
+        "La fibrinolyse"
+      ],
+      "correct": [1],
+      "explanation": "Il est indiqué dans la prévention des événements artériels."
+    },
+    {
+      "question": "Quel est le nom de spécialité du clopidogrel le plus connu ?",
+      "options": [
+        "Plavix®",
+        "Xarelto®",
+        "Eliquis®",
+        "Sintrom®"
+      ],
+      "correct": [0],
+      "explanation": "Plavix® est la spécialité du clopidogrel."
+    },
+    {
+      "question": "Le ticagrelor se distingue du clopidogrel car il est :",
+      "options": [
+        "Un anticoagulant",
+        "Un inhibiteur réversible du P2Y12",
+        "Un AINS",
+        "Un fibrinolytique"
+      ],
+      "correct": [1],
+      "explanation": "Le ticagrelor inhibe de façon réversible le récepteur P2Y12."
+    },
+    {
+      "question": "Le dipyridamole agit en :",
+      "options": [
+        "Inhibant la phosphodiestérase",
+        "Inhibant la vitamine K",
+        "Activant la thrombine",
+        "Dissolvant la fibrine"
+      ],
+      "correct": [0],
+      "explanation": "Le dipyridamole inhibe la phosphodiestérase plaquettaire."
+    },
+    {
+      "question": "Dans quelle situation clinique les antiagrégants sont-ils principalement indiqués ?",
+      "options": [
+        "Thrombose veineuse profonde",
+        "Embolie pulmonaire",
+        "Syndrome coronarien aigu",
+        "Fibrillation auriculaire isolée"
+      ],
+      "correct": [2],
+      "explanation": "Ils sont indiqués dans les pathologies artérielles."
+    },
+    {
+      "question": "Quelle association constitue une double antiagrégation plaquettaire (DAP) classique ?",
+      "options": [
+        "Aspirine + clopidogrel",
+        "Aspirine + AVK",
+        "Clopidogrel + héparine",
+        "Aspirine + AINS"
+      ],
+      "correct": [0],
+      "explanation": "La DAP associe aspirine et inhibiteur du P2Y12."
+    },
+    {
+      "question": "La double antiagrégation plaquettaire est indiquée notamment après :",
+      "options": [
+        "Pose de stent coronaire",
+        "Chirurgie digestive",
+        "Thrombose veineuse",
+        "Infection sévère"
+      ],
+      "correct": [0],
+      "explanation": "La DAP est essentielle après angioplastie avec stent."
+    },
+    {
+      "question": "Quel est un signe clinique évocateur d’un surdosage ou effet excessif d’antiagrégant ?",
+      "options": [
+        "Hématomes spontanés",
+        "Bradycardie",
+        "Hypoglycémie",
+        "Hyperthermie"
+      ],
+      "correct": [0],
+      "explanation": "Les signes hémorragiques doivent alerter."
+    },
+    {
+      "question": "Les antiagrégants nécessitent-ils une surveillance biologique systématique ?",
+      "options": [
+        "Oui, INR",
+        "Oui, TCA",
+        "Oui, anti-Xa",
+        "Non"
+      ],
+      "correct": [3],
+      "explanation": "Il n’existe pas de surveillance biologique systématique."
+    },
+    {
+      "question": "Quel examen biologique permet de surveiller l’hémostase primaire ?",
+      "options": [
+        "INR",
+        "TCA",
+        "Numération plaquettaire",
+        "Anti-Xa"
+      ],
+      "correct": [2],
+      "explanation": "La NFS permet de surveiller le nombre de plaquettes."
+    },
+    {
+      "question": "Quelle est une contre-indication majeure aux antiagrégants plaquettaires ?",
+      "options": [
+        "Saignement actif",
+        "Hypertension contrôlée",
+        "Diabète équilibré",
+        "Asthme stabilisé"
+      ],
+      "correct": [0],
+      "explanation": "Un saignement actif contre-indique leur utilisation."
+    },
+    {
+      "question": "L’association antiagrégant + AINS expose principalement à :",
+      "options": [
+        "Un risque infectieux",
+        "Un risque hémorragique majoré",
+        "Un risque hypoglycémique",
+        "Un risque allergique"
+      ],
+      "correct": [1],
+      "explanation": "Cette association augmente fortement le risque de saignement."
+    },
+    {
+      "question": "L’aspirine est contre-indiquée chez l’enfant en raison du risque de :",
+      "options": [
+        "Syndrome de Reye",
+        "Syndrome malin",
+        "Convulsions",
+        "Hypoglycémie"
+      ],
+      "correct": [0],
+      "explanation": "Le syndrome de Reye est une complication grave."
+    },
+    {
+      "question": "Quel est le rôle infirmier prioritaire chez un patient sous antiagrégant ?",
+      "options": [
+        "Surveillance des signes hémorragiques",
+        "Surveillance de l’INR",
+        "Surveillance de la glycémie",
+        "Surveillance de la température"
+      ],
+      "correct": [0],
+      "explanation": "La surveillance clinique du saignement est essentielle."
+    },
+    {
+      "question": "Quelle information est essentielle à transmettre à un patient sous antiagrégant ?",
+      "options": [
+        "Arrêter le traitement en cas de douleur",
+        "Signaler tout saignement",
+        "Modifier seul les doses",
+        "Éviter toute activité physique"
+      ],
+      "correct": [1],
+      "explanation": "Le patient doit signaler tout signe hémorragique."
+    },
+    {
+      "question": "Les antiagrégants plaquettaires sont principalement prescrits en prévention :",
+      "options": [
+        "Secondaire",
+        "Primaire uniquement",
+        "Curative",
+        "Infectieuse"
+      ],
+      "correct": [0],
+      "explanation": "Ils sont surtout utilisés en prévention secondaire."
+    },
+    {
+      "question": "Quelle différence majeure existe entre antiagrégants et anticoagulants ?",
+      "options": [
+        "La voie d’administration",
+        "La cible dans l’hémostase",
+        "La durée d’action",
+        "Le risque allergique"
+      ],
+      "correct": [1],
+      "explanation": "Ils n’agissent pas sur la même phase de l’hémostase."
+    },
+    {
+      "question": "Les antiagrégants sont particulièrement efficaces dans les thromboses :",
+      "options": [
+        "Veineuses",
+        "Artérielles",
+        "Capillaires",
+        "Lymphatiques"
+      ],
+      "correct": [1],
+      "explanation": "Les thromboses artérielles sont riches en plaquettes."
+    },
+    {
+      "question": "Quel antiagrégant est utilisé par voie IV en milieu spécialisé ?",
+      "options": [
+        "Abciximab",
+        "Aspirine",
+        "Clopidogrel",
+        "Dipyridamole"
+      ],
+      "correct": [0],
+      "explanation": "Abciximab est un anti-GPIIb/IIIa utilisé en cardiologie interventionnelle."
+    },
+    {
+      "question": "Les inhibiteurs GPIIb/IIIa agissent en :",
+      "options": [
+        "Bloquant la fixation du fibrinogène",
+        "Inhibant la vitamine K",
+        "Activant la thrombine",
+        "Inhibant la fibrinolyse"
+      ],
+      "correct": [0],
+      "explanation": "Ils empêchent l’agrégation finale des plaquettes."
+    },
+    {
+      "question": "Quel est le principal avantage de l’aspirine à faible dose ?",
+      "options": [
+        "Effet anti-inflammatoire puissant",
+        "Effet antiagrégant durable",
+        "Absence d’effets indésirables",
+        "Effet anticoagulant"
+      ],
+      "correct": [1],
+      "explanation": "L’effet antiagrégant est durable malgré la faible dose."
+    },
+    {
+      "question": "Chez un patient devant subir une chirurgie, les antiagrégants doivent être :",
+      "options": [
+        "Toujours arrêtés sans avis",
+        "Maintenus systématiquement",
+        "Gérés selon le rapport bénéfice/risque",
+        "Remplacés par un AINS"
+      ],
+      "correct": [2],
+      "explanation": "La décision dépend du risque thrombotique et hémorragique."
+    },
+    {
+      "question": "Quel est l’effet d’une inhibition irréversible des plaquettes ?",
+      "options": [
+        "Effet transitoire",
+        "Effet jusqu’au renouvellement plaquettaire",
+        "Effet immédiat réversible",
+        "Absence d’effet clinique"
+      ],
+      "correct": [1],
+      "explanation": "Les plaquettes sont inhibées jusqu’à leur renouvellement."
+    },
+    {
+      "question": "Quel examen est utile avant instauration d’un antiagrégant ?",
+      "options": [
+        "NFS",
+        "Créatininémie",
+        "INR",
+        "Anti-Xa"
+      ],
+      "correct": [0],
+      "explanation": "La numération plaquettaire est indispensable."
+    },
+    {
+      "question": "Les antiagrégants plaquettaires ont-ils un antidote spécifique ?",
+      "options": [
+        "Oui",
+        "Non",
+        "Uniquement pour l’aspirine",
+        "Uniquement pour le clopidogrel"
+      ],
+      "correct": [1],
+      "explanation": "Il n’existe pas d’antidote spécifique."
+    },
+    {
+      "question": "En cas d’hémorragie grave sous antiagrégant, la prise en charge peut inclure :",
+      "options": [
+        "Transfusion plaquettaire",
+        "Vitamine K",
+        "Protamine",
+        "Anti-Xa"
+      ],
+      "correct": [0],
+      "explanation": "La transfusion plaquettaire peut être indiquée."
+    },
+    {
+      "question": "Quel message clé doit être retenu concernant les antiagrégants plaquettaires ?",
+      "options": [
+        "Ils agissent sur la coagulation",
+        "Ils nécessitent un INR régulier",
+        "Ils préviennent les thromboses artérielles",
+        "Ils sont sans risque"
+      ],
+      "correct": [2],
+      "explanation": "Ils préviennent les événements thrombotiques artériels mais exposent au risque hémorragique."
+    }
+  ]
+}

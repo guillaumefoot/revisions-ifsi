@@ -1,0 +1,306 @@
+{
+  "title": "Antibiotiques – DCI, familles, suffixes et spécialités",
+  "subtitle": "UE 2.11 – Reconnaissance et identification des antibiotiques",
+  "questions": [
+    {
+      "question": "La DCI correspond au nom de la molécule active d’un médicament.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La DCI est la dénomination commune internationale de la substance active."
+    },
+    {
+      "question": "CLAMOXYL® contient comme DCI l’amoxicilline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "CLAMOXYL® est une spécialité à base d’amoxicilline."
+    },
+    {
+      "question": "À quelle famille appartient l’amoxicilline ?",
+      "options": ["Macrolides", "Pénicillines A", "Céphalosporines", "Fluoroquinolones"],
+      "correct": [1],
+      "explanation": "L’amoxicilline est une pénicilline A appartenant aux bêta-lactamines."
+    },
+    {
+      "question": "AUGMENTIN® associe une pénicilline A à un inhibiteur de bêta-lactamase.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L’acide clavulanique inhibe les bêta-lactamases bactériennes."
+    },
+    {
+      "question": "ORBENINE® appartient à la famille des pénicillines M.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La cloxacilline est une pénicilline M anti-staphylococcique."
+    },
+    {
+      "question": "Quelle est la DCI de ROCEPHINE® ?",
+      "options": ["Cefotaxime", "Ceftazidime", "Ceftriaxone", "Céfixime"],
+      "correct": [2],
+      "explanation": "ROCEPHINE® contient de la ceftriaxone."
+    },
+    {
+      "question": "Les céphalosporines de 3e génération appartiennent aux bêta-lactamines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elles partagent le mécanisme d’action sur la synthèse de la paroi."
+    },
+    {
+      "question": "TIENAM® associe l’imipénem à la cilastatine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La cilastatine empêche la dégradation rénale de l’imipénem."
+    },
+    {
+      "question": "Les carbapénèmes font partie des macrolides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Les carbapénèmes sont des bêta-lactamines."
+    },
+    {
+      "question": "Quel suffixe oriente vers une fluoroquinolone ?",
+      "options": ["-cycline", "-floxacine", "-mycine", "-cef"],
+      "correct": [1],
+      "explanation": "Le suffixe -floxacine est caractéristique des fluoroquinolones."
+    },
+    {
+      "question": "OFLOCET®, CIFLOX® et TAVANIC® appartiennent à la même famille d’antibiotiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ce sont toutes des fluoroquinolones."
+    },
+    {
+      "question": "La doxycycline appartient à la famille des cyclines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les cyclines inhibent la synthèse protéique sur la sous-unité 30S."
+    },
+    {
+      "question": "Quel suffixe est évocateur des pénicillines ?",
+      "options": ["-mycine", "-cycline", "-cilline", "-nidazole"],
+      "correct": [2],
+      "explanation": "Les pénicillines portent classiquement le suffixe -cilline."
+    },
+    {
+      "question": "AMIKLIN®, GENTALLINE® et NEBCINE® appartiennent à la famille des aminosides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les aminosides sont oto- et néphrotoxiques."
+    },
+    {
+      "question": "Quel est le principal risque commun aux aminosides ?",
+      "options": ["Hépatotoxicité", "Ototoxicité", "Photosensibilisation", "Allongement du QT"],
+      "correct": [1],
+      "explanation": "L’ototoxicité est un effet indésirable majeur et souvent irréversible."
+    },
+    {
+      "question": "BACTRIM® est une association de sulfaméthoxazole et triméthoprime.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette association agit par synergie sur la synthèse de l’acide folique."
+    },
+    {
+      "question": "Quel suffixe oriente vers les céphalosporines ?",
+      "options": ["-cef", "-cilline", "-mycine", "-azole"],
+      "correct": [0],
+      "explanation": "Les céphalosporines débutent souvent par le préfixe ou suffixe -cef."
+    },
+    {
+      "question": "FLAGYL® appartient à la famille des macrolides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Le métronidazole est un 5-nitro-imidazolé."
+    },
+    {
+      "question": "Les macrolides inhibent la synthèse protéique sur la sous-unité 50S.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils bloquent la traduction bactérienne."
+    },
+    {
+      "question": "Quel antibiotique est un macrolide ?",
+      "options": ["Azithromycine", "Ceftriaxone", "Amoxicilline", "Gentamicine"],
+      "correct": [0],
+      "explanation": "L’azithromycine est un macrolide."
+    },
+    {
+      "question": "RIFADINE® contient de la rifampicine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La rifampicine agit sur la synthèse de l’ARN bactérien."
+    },
+    {
+      "question": "La vancomycine appartient aux glycopeptides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La vancomycine est un antibiotique anti-staphylococcique."
+    },
+    {
+      "question": "Quel suffixe peut prêter à confusion car il n’indique pas toujours un macrolide ?",
+      "options": ["-floxacine", "-cycline", "-mycine", "-cef"],
+      "correct": [2],
+      "explanation": "Le suffixe -mycine peut correspondre aussi à des aminosides ou glycopeptides."
+    },
+    {
+      "question": "Les pénicillines M sont résistantes aux pénicillinases.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elles sont adaptées aux infections à staphylocoques producteurs de pénicillinases."
+    },
+    {
+      "question": "Quelle famille agit principalement sur la synthèse de la paroi bactérienne ?",
+      "options": ["Fluoroquinolones", "Bêta-lactamines", "Macrolides", "Sulfamides"],
+      "correct": [1],
+      "explanation": "Les bêta-lactamines inhibent la synthèse du peptidoglycane."
+    },
+    {
+      "question": "ZITHROMAX®, RULID® et ROVAMYCINE® appartiennent à la même famille.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ce sont des macrolides utilisés notamment en infections ORL."
+    },
+    {
+      "question": "Les cyclines sont contre-indiquées chez l’enfant de moins de 8 ans.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elles provoquent une coloration définitive des dents."
+    },
+    {
+      "question": "Quel suffixe est caractéristique des 5-nitro-imidazolés ?",
+      "options": ["-azole", "-floxacine", "-cilline", "-mycine"],
+      "correct": [0],
+      "explanation": "Le suffixe -nidazole ou -azole oriente vers cette famille."
+    },
+    {
+      "question": "Les fluoroquinolones agissent sur la synthèse de l’ADN bactérien.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elles inhibent les enzymes impliquées dans la réplication de l’ADN."
+    },
+    {
+      "question": "Identifier la bonne association spécialité – DCI – famille.",
+      "options": ["TAVANIC® – Lévofloxacine – Fluoroquinolones", "CLAMOXYL® – Ceftriaxone – Céphalosporines", "GENTALLINE® – Gentamicine – Macrolides", "FLAGYL® – Azithromycine – Macrolides"],
+      "correct": [0],
+      "explanation": "TAVANIC® contient de la lévofloxacine, une fluoroquinolone."
+    },
+        {
+      "question": "ORACILLINE® contient de la phénoxyméthylpénicilline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "ORACILLINE® est une pénicilline V utilisée par voie orale."
+    },
+    {
+      "question": "Les pénicillines G et V sont appelées pénicillines naturelles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les pénicillines naturelles ont un spectre plus étroit que les pénicillines A."
+    },
+    {
+      "question": "Quelle spécialité appartient à la famille des céphalosporines de 3e génération ?",
+      "options": ["CLAFORAN®", "ORBENINE®", "ZITHROMAX®", "AMIKLIN®"],
+      "correct": [0],
+      "explanation": "CLAFORAN® contient du cefotaxime, une céphalosporine de 3e génération."
+    },
+    {
+      "question": "Les céphalosporines agissent sur la synthèse de la paroi bactérienne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Comme toutes les bêta-lactamines, elles inhibent la synthèse du peptidoglycane."
+    },
+    {
+      "question": "Quelle DCI correspond à la spécialité GENTALLINE® ?",
+      "options": ["Gentamicine", "Amikacine", "Tobramycine", "Vancomycine"],
+      "correct": [0],
+      "explanation": "GENTALLINE® est une spécialité à base de gentamicine."
+    },
+    {
+      "question": "Les aminosides agissent sur la sous-unité 50S du ribosome.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "Les aminosides inhibent la synthèse protéique sur la sous-unité 30S."
+    },
+    {
+      "question": "Quel suffixe oriente vers un macrolide ?",
+      "options": ["-floxacine", "-cycline", "-mycine", "-cef"],
+      "correct": [2],
+      "explanation": "Le suffixe -mycine est fréquent chez les macrolides, bien qu’il existe des exceptions."
+    },
+    {
+      "question": "ROVAMYCINE® contient de la spiramycine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La spiramycine est un macrolide utilisé notamment en infections ORL."
+    },
+    {
+      "question": "Quel antibiotique appartient à la famille des sulfamides associés ?",
+      "options": ["BACTRIM®", "FLAGYL®", "TAVANIC®", "VANCOCINE®"],
+      "correct": [0],
+      "explanation": "BACTRIM® associe un sulfamide et le triméthoprime."
+    },
+    {
+      "question": "Les sulfamides associés agissent sur la synthèse de l’acide folique bactérien.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils bloquent deux étapes successives de la synthèse de l’acide folique."
+    },
+        {
+      "question": "Quelle spécialité contient de l’amikacine ?",
+      "options": ["AMIKLIN®", "GENTALLINE®", "NEBCINE®", "ZITHROMAX®"],
+      "correct": [0],
+      "explanation": "AMIKLIN® est une spécialité dont la DCI est l’amikacine."
+    },
+    {
+      "question": "La gentamicine correspond à la spécialité GENTALLINE®.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "GENTALLINE® est une spécialité à base de gentamicine."
+    },
+    {
+      "question": "Quelle DCI est contenue dans la spécialité NEBCINE® ?",
+      "options": ["Amikacine", "Gentamicine", "Tobramycine", "Streptomycine"],
+      "correct": [2],
+      "explanation": "NEBCINE® contient de la tobramycine."
+    },
+    {
+      "question": "AMIKLIN®, GENTALLINE® et NEBCINE® appartiennent à la même famille d’antibiotiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces trois spécialités sont des aminosides."
+    },
+    {
+      "question": "La tobramycine est un antibiotique de la famille des aminosides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La tobramycine fait partie des aminosides."
+    },
+    {
+      "question": "Quelle association spécialité – DCI est correcte ?",
+      "options": ["AMIKLIN® – Amikacine", "AMIKLIN® – Gentamicine", "GENTALLINE® – Tobramycine", "NEBCINE® – Amikacine"],
+      "correct": [0],
+      "explanation": "AMIKLIN® correspond à l’amikacine."
+    },
+    {
+      "question": "La streptomycine est citée comme appartenant à la famille des aminosides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La streptomycine est un aminoside historique."
+    },
+    {
+      "question": "Quelle(s) spécialité(s) font partie des aminosides ?",
+      "options": ["AMIKLIN®", "GENTALLINE®", "NEBCINE®", "AUGMENTIN®"],
+      "correct": [0, 1, 2],
+      "explanation": "AMIKLIN®, GENTALLINE® et NEBCINE® sont des aminosides."
+    },
+    {
+      "question": "La gentamicine et l’amikacine appartiennent à des familles différentes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "La gentamicine et l’amikacine sont toutes deux des aminosides."
+    },
+    {
+      "question": "Quel point commun partagent AMIKLIN®, GENTALLINE® et NEBCINE® ?",
+      "options": ["Même DCI", "Même famille antibiotique", "Même spécialité commerciale", "Même indication virale"],
+      "correct": [1],
+      "explanation": "Ces spécialités appartiennent toutes à la famille des aminosides."
+    }
+  ]
+}

@@ -1,0 +1,456 @@
+{
+  "title": "UE 2.8 S3 – Processus obstructifs",
+  "subtitle": "Asthme – Questions auto-suffisantes",
+  "questions": [
+    {
+      "question": "L’asthme est une maladie inflammatoire chronique des voies aériennes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La crise d’asthme correspond à une obstruction bronchique irréversible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car l’obstruction bronchique de l’asthme est réversible spontanément ou sous traitement."
+    },
+    {
+      "question": "Quels mécanismes participent à l’obstruction bronchique au cours d’une crise d’asthme ? (Cochez les bonnes réponses)",
+      "options": [
+        "Bronchoconstriction",
+        "Œdème de la muqueuse bronchique",
+        "Hypersécrétion de mucus",
+        "Fibrose pulmonaire"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La dyspnée de l’asthme est principalement inspiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car la dyspnée de l’asthme est typiquement expiratoire."
+    },
+    {
+      "question": "Quels signes cliniques peuvent être observés lors d’une crise d’asthme ? (Cochez les bonnes réponses)",
+      "options": [
+        "Sibilants",
+        "Toux sèche",
+        "Oppression thoracique",
+        "Bradycardie"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Une fréquence respiratoire augmentée peut être une conséquence de l’hypoxie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une SpO2 comprise entre 95 % et 100 % est considérée comme normale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une SpO2 à 91 % en air ambiant traduit une hypoxie sévère nécessitant une intubation immédiate.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car une SpO2 à 91 % correspond à une hypoxie modérée nécessitant une oxygénothérapie adaptée, pas systématiquement une intubation."
+    },
+    {
+      "question": "Quel est l’intérêt du débit expiratoire de pointe (DEP) chez l’asthmatique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Évaluer le degré d’obstruction bronchique",
+        "Apprécier la sévérité de l’asthme",
+        "Mesurer la capacité pulmonaire totale",
+        "Suivre l’efficacité du traitement"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Le DEP dépend du sexe, de l’âge et de la taille.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Chez une femme adulte, un DEP théorique est généralement inférieur à 200 L/min.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car le DEP théorique chez une femme adulte est généralement compris entre 400 et 500 L/min."
+    },
+    {
+      "question": "Des sibilants diffus à l’auscultation traduisent un bronchospasme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’absence de cyanose élimine toute hypoxie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car une hypoxie peut être présente sans cyanose visible, notamment si elle est modérée ou corrigée par l’oxygène."
+    },
+    {
+      "question": "La tachycardie au cours d’une crise d’asthme peut être liée à la dyspnée et à l’anxiété.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels facteurs peuvent favoriser ou aggraver l’asthme ? (Cochez les bonnes réponses)",
+      "options": [
+        "Tabagisme",
+        "Facteurs psychologiques",
+        "Bonne observance du traitement",
+        "Allergènes"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Le tabagisme est un facteur protecteur chez le patient asthmatique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car le tabagisme est un facteur aggravant de l’asthme."
+    },
+    {
+      "question": "La radiographie thoracique est systématiquement pathologique lors d’une crise d’asthme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car la radiographie thoracique est souvent normale lors d’une crise d’asthme."
+    },
+    {
+      "question": "Quel est l’objectif principal de la gazométrie artérielle chez un patient en crise d’asthme ? (Cochez les bonnes réponses)",
+      "options": [
+        "Évaluer l’oxygénation",
+        "Évaluer l’élimination du CO2",
+        "Analyser l’équilibre acido-basique",
+        "Mesurer la capacité vitale"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Une hyperventilation peut entraîner une alcalose respiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’hyperventilation améliore toujours la dyspnée chez l’asthmatique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car l’hyperventilation peut aggraver la perception de l’essoufflement."
+    },
+    {
+      "question": "Quels examens biologiques peuvent être utiles dans le bilan d’une crise d’asthme ? (Cochez les bonnes réponses)",
+      "options": [
+        "Numération formule sanguine",
+        "Ionogramme sanguin",
+        "Dosage des éosinophiles",
+        "Bilan hépatique systématique"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Une hypokaliémie peut être favorisée par l’utilisation de bêta-2 mimétiques à forte dose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est le rôle principal des bronchodilatateurs dans la crise d’asthme ? (Cochez les bonnes réponses)",
+      "options": [
+        "Relâcher les muscles lisses bronchiques",
+        "Diminuer l’inflammation bronchique",
+        "Améliorer le passage de l’air",
+        "Traiter l’infection"
+      ],
+      "correct": [0, 2]
+    },
+    {
+      "question": "Les corticoïdes oraux sont utilisés pour réduire l’inflammation bronchique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les bronchodilatateurs ont un effet anti-inflammatoire majeur à long terme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car les bronchodilatateurs ont surtout un effet bronchodilatateur et non anti-inflammatoire."
+    },
+    {
+      "question": "Quels sont les objectifs de l’oxygénothérapie chez l’asthmatique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Corriger l’hypoxie",
+        "Améliorer la SpO2",
+        "Supprimer la cause de l’asthme",
+        "Prévenir la cyanose"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Les lunettes à oxygène sont mieux tolérées que le masque à haute concentration.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le masque à haute concentration délivre une FiO2 faible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car le masque à haute concentration délivre une FiO2 élevée."
+    },
+    {
+      "question": "Quel est l’intérêt de la kinésithérapie respiratoire chez l’asthmatique ? (Cochez les bonnes réponses)",
+      "options": [
+        "Favoriser le drainage des sécrétions",
+        "Améliorer la ventilation",
+        "Remplacer le traitement médicamenteux",
+        "Aider à l’expectoration"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "L’auto-surveillance au peak-flow permet de suivre l’évolution de l’asthme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le meilleur DEP d’un patient est mesuré en période de crise.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car le meilleur DEP est mesuré en période stable."
+    },
+    {
+      "question": "Quels biomarqueurs peuvent être associés à l’asthme sévère ? (Cochez les bonnes réponses)",
+      "options": [
+        "Éosinophiles élevés",
+        "IgE élevées",
+        "IL-5",
+        "Bilirubine élevée"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Les allergènes peuvent déclencher une crise d’asthme par activation des mastocytes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La libération d’histamine entraîne une bronchodilatation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car l’histamine entraîne une bronchoconstriction."
+    },
+    {
+      "question": "L’anxiété peut aggraver une crise d’asthme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une crise d’asthme survient uniquement en journée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car les crises d’asthme surviennent fréquemment la nuit ou au petit matin."
+    },
+    {
+      "question": "L’asthme est une pathologie obstructive des voies aériennes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’obstruction bronchique de l’asthme est liée uniquement à une infection.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car l’asthme est une maladie inflammatoire chronique et non uniquement infectieuse."
+    },
+        {
+      "question": "L’asthme est caractérisé par une hyperréactivité bronchique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’obstruction bronchique au cours de l’asthme concerne principalement les bronches de gros calibre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car l’asthme touche surtout les bronches de petit et moyen calibre."
+    },
+    {
+      "question": "Quels éléments cliniques peuvent orienter vers une crise d’asthme sévère ? (Cochez les bonnes réponses)",
+      "options": [
+        "Augmentation de la fréquence respiratoire",
+        "Diminution du débit expiratoire de pointe",
+        "Bradycardie",
+        "Difficulté à parler en phrases complètes"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Une crise d’asthme est toujours déclenchée par un allergène.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car une crise d’asthme peut être déclenchée par des infections, le stress, l’effort ou des irritants."
+    },
+    {
+      "question": "La toux de l’asthme est le plus souvent sèche.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels facteurs environnementaux peuvent aggraver l’asthme ? (Cochez les bonnes réponses)",
+      "options": [
+        "Pollution atmosphérique",
+        "Fumée de tabac",
+        "Air froid",
+        "Hydratation suffisante"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Une crise d’asthme peut s’accompagner d’une sensation d’oppression thoracique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La présence de sibilants est obligatoire pour poser le diagnostic de crise d’asthme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car une crise d’asthme sévère peut parfois s’accompagner d’un silence auscultatoire."
+    },
+    {
+      "question": "Quels paramètres doivent être surveillés chez un patient en crise d’asthme ? (Cochez les bonnes réponses)",
+      "options": [
+        "Fréquence respiratoire",
+        "Saturation en oxygène",
+        "Débit expiratoire de pointe",
+        "Glycémie capillaire systématique"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Une baisse importante du DEP traduit une augmentation de l’obstruction bronchique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’asthme non contrôlé peut évoluer vers des crises répétées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les corticoïdes utilisés dans l’asthme ont uniquement un effet bronchodilatateur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car les corticoïdes ont un effet anti-inflammatoire et non bronchodilatateur direct."
+    },
+    {
+      "question": "Quels objectifs sont recherchés dans la prise en charge d’une crise d’asthme ? (Cochez les bonnes réponses)",
+      "options": [
+        "Soulager la dyspnée",
+        "Corriger l’hypoxie",
+        "Réduire l’inflammation bronchique",
+        "Supprimer définitivement la maladie"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "L’asthme est une pathologie évoluant par poussées entrecoupées de périodes de rémission.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le stress émotionnel peut jouer un rôle dans le déclenchement d’une crise d’asthme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’hypersécrétion de mucus participe à l’obstruction des voies aériennes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La crise d’asthme est due à une destruction irréversible du tissu pulmonaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car la crise d’asthme est liée à une obstruction réversible des voies aériennes."
+    },
+    {
+      "question": "Quels signes peuvent traduire une mauvaise tolérance de la crise d’asthme ? (Cochez les bonnes réponses)",
+      "options": [
+        "Agitation",
+        "Anxiété",
+        "Cyanose",
+        "Amélioration rapide sans traitement"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Une surveillance clinique régulière est nécessaire chez le patient asthmatique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’asthme est une pathologie exclusivement pédiatrique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux car l’asthme peut toucher l’enfant comme l’adulte."
+    },
+        {
+      "question": "La radiographie thoracique est un examen d’imagerie utilisant les rayons X pour visualiser les champs pulmonaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est l’objectif principal de la radiographie thoracique chez un patient asthmatique ?",
+      "options": [
+        "Rechercher une complication ou un diagnostic différentiel",
+        "Mesurer le débit expiratoire de pointe",
+        "Évaluer la fonction cardiaque",
+        "Diagnostiquer systématiquement l’asthme"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "La numération formule sanguine permet de quantifier les différentes lignées cellulaires du sang.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’ionogramme sanguin est un examen qui permet d’évaluer les concentrations des principaux ions sanguins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La gazométrie artérielle permet de mesurer les gaz du sang et l’équilibre acido-basique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’oxygénothérapie est un traitement consistant à administrer de l’oxygène par voie inhalée afin de corriger une hypoxie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel dispositif délivre une fraction inspirée en oxygène élevée ?",
+      "options": [
+        "Masque à haute concentration",
+        "Lunettes à oxygène",
+        "Canule nasale simple sans débit",
+        "Respiration en air ambiant"
+      ],
+      "correct": [0]
+    },
+    {
+      "question": "La kinésithérapie respiratoire est une technique visant à mobiliser et drainer les sécrétions bronchiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’auto-surveillance au peak-flow permet d’évaluer le degré d’obstruction bronchique chez l’asthmatique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quel est le principal intérêt de l’administration des bronchodilatateurs par aérosol ?",
+      "options": [
+        "Action rapide au site bronchique avec moins d’effets généraux",
+        "Augmenter l’effet sédatif du traitement",
+        "Remplacer l’oxygénothérapie",
+        "Traiter l’inflammation chronique à long terme"
+      ],
+      "correct": [0]
+    }
+  ]
+}
