@@ -346,6 +346,12 @@
                 detail.innerText = "Relis tes fiches.";
             }
         }
+        
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+            navigator.serviceWorker.register("/revisions-ifsi/sw.js");
+            });
+        }
     </script>
 </body>
 </html>
