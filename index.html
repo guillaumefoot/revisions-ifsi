@@ -355,7 +355,7 @@
 
         // --- DÉMARRAGE : Charger la liste des quiz ---
         window.onload = function () {
-            fetch('quizzes.json?v=' + Date.now(), { cache: 'no-store' })
+            fetch('quizzes.json', { cache: 'no-store' })
                 .then(response => {
                     if (!response.ok) throw new Error("Impossible de charger la liste des sujets.");
                     return response.json();
@@ -412,7 +412,7 @@
             const selectedTitle = selectEl.options[selectEl.selectedIndex].textContent;
             const selectedSubtitle = selectEl.options[selectEl.selectedIndex].dataset.subtitle || "";
 
-            fetch(fileUrl + '?v=' + Date.now(), { cache: 'no-store' })
+            fetch(fileUrl, { cache: 'no-store' })
                 .then(response => {
                     if (!response.ok) throw new Error("Erreur lors du chargement du fichier questions.");
                     return response.json();

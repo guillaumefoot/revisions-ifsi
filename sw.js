@@ -1,4 +1,4 @@
-const CACHE_NAME = "ifsi-quiz-v4";
+const CACHE_NAME = "ifsi-quiz-v5";
 const APP_SHELL = [
   "/revisions-ifsi/",
   "/revisions-ifsi/index.html",
@@ -53,7 +53,7 @@ async function cacheFirst(req) {
 async function networkFirst(req) {
   const cache = await caches.open(CACHE_NAME);
   try {
-    const fresh = await fetch(req);
+    const fresh = await fetch(req, { cache: "no-store" });
     cache.put(req, fresh.clone());
     return fresh;
   } catch (e) {
@@ -61,6 +61,3 @@ async function networkFirst(req) {
     return cached || new Response("Offline", { status: 503, statusText: "Offline" });
   }
 }
-
-
-
