@@ -118,15 +118,24 @@ let selectedQuizName = "";
 /* ------------------ INIT ------------------ */
 fetch('quizzes.json?v=' + Date.now(), { cache: 'no-store' })
   .then(r => r.json())
-  .then(data => {
+  .then(list => {
     const select = document.getElementById('quiz-select');
-    data.quizzes.forEach(q => {
+
+    // Nettoie au cas où
+    select.innerHTML = '<option value="">— Choisir un quiz —</option>';
+
+    list.forEach(q => {
       const opt = document.createElement('option');
-      opt.value = q.file;
-      opt.textContent = q.name;
+      opt.value = q.file;       // ex: "data/2.8_ASTHME.json"
+      opt.textContent = q.name; // ex: "UE 2.8 • Quizz Asthme"
       select.appendChild(opt);
     });
+
     document.getElementById('count-select').disabled = false;
+  })
+  .catch(err => {
+    console.error("Erreur chargement quizzes.json:", err);
+    alert("Impossible de charger la liste des quiz. Vérifie quizzes.json");
   });
 
 /* ------------------ LOAD QUIZ ------------------ */
