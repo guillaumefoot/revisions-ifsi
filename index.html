@@ -7,9 +7,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moteur Révisions IFSI - En Ligne</title>
-
     <style>
-        /* --- STYLES (INCHANGÉS) --- */
+        /* --- STYLES --- */
         * {
             box-sizing: border-box;
             -webkit-tap-highlight-color: transparent;
@@ -50,6 +49,7 @@
             padding-bottom: 15px;
         }
 
+        /* Zone Chargement */
         #setup-panel {
             text-align: center;
             padding: 30px;
@@ -59,6 +59,7 @@
             background: #fafafa;
         }
 
+        /* Selecteur de Quiz Stylisé */
         select.quiz-selector {
             width: 100%;
             max-width: 400px;
@@ -95,6 +96,7 @@
             transform: none;
         }
 
+        /* Quiz UI */
         .progress {
             text-align: right;
             color: #3498db;
@@ -142,6 +144,7 @@
             color: #636e72;
             margin-bottom: 15px;
             font-style: italic;
+            display: block;
         }
 
         .options {
@@ -159,34 +162,54 @@
             border-radius: 12px;
             cursor: pointer;
             transition: all 0.2s ease;
+            position: relative;
             font-size: 1rem;
         }
 
-        .options input {
+        .options label:active {
+            transform: scale(0.98);
+            background-color: #f1f2f6;
+        }
+
+        .options input[type="checkbox"],
+        .options input[type="radio"] {
             margin-right: 15px;
             width: 22px;
             height: 22px;
             accent-color: #3498db;
+            flex-shrink: 0;
+            margin-top: 2px;
         }
 
+        .options span {
+            flex: 1;
+            word-wrap: break-word;
+        }
+
+        /* Validation Colors */
         .options label.correct-checked {
             background-color: #d4edda;
             border-color: #27ae60;
+            color: #155724;
         }
 
         .options label.wrong-checked {
             background-color: #f8d7da;
             border-color: #e74c3c;
+            color: #721c24;
         }
 
         .options label.missed-correct {
-            border-style: dashed;
             border-color: #27ae60;
+            background-color: #fff;
+            border-style: dashed;
             color: #27ae60;
         }
 
         .options label.neutral-disabled {
             opacity: 0.6;
+            background-color: #f5f6fa;
+            border-color: #dcdde1;
             pointer-events: none;
         }
 
@@ -201,6 +224,12 @@
             margin-top: 25px;
             width: 100%;
             font-weight: 600;
+            box-shadow: 0 4px 6px rgba(52, 152, 219, 0.2);
+            transition: transform 0.1s;
+        }
+
+        .btn:active {
+            transform: scale(0.98);
         }
 
         .btn-next {
@@ -217,6 +246,7 @@
             font-size: 0.95rem;
             color: #856404;
             display: none;
+            line-height: 1.6;
         }
 
         #result-screen {
@@ -237,23 +267,47 @@
             font-size: 2.5rem;
             font-weight: bold;
             margin: 20px auto;
+            box-shadow: 0 10px 20px rgba(52, 152, 219, 0.3);
+        }
+
+        .time-stat {
+            color: #7f8c8d;
+            font-size: 1rem;
+            margin-top: -15px;
+            margin-bottom: 20px;
+            font-weight: 500;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+                border-radius: 0;
+                box-shadow: none;
+                min-height: 100vh;
+            }
+
+            .options label {
+                flex-wrap: wrap;
+            }
         }
     </style>
 </head>
 
 <body>
-    <div class="container">
 
+    <div class="container">
         <h1 id="main-title">MOTEUR QUIZZ IFSI</h1>
-        <div class="subtitle" id="sub-title">Chargement…</div>
+        <div class="subtitle" id="sub-title">Chargement des sujets...</div>
 
         <div id="setup-panel">
             <h3>Choisis ton sujet de révision</h3>
+            <p style="color:#7f8c8d; margin-bottom:20px;">Sélectionne un module dans la liste ci-dessous</p>
 
             <select id="quiz-select" class="quiz-selector" disabled>
-                <option>Chargement…</option>
+                <option value="">Chargement...</option>
             </select>
 
+            <!-- AJOUT: choix du nombre de questions -->
             <select id="count-select" class="quiz-selector">
                 <option value="5">5 questions</option>
                 <option value="10" selected>10 questions</option>
@@ -261,9 +315,10 @@
                 <option value="all">Toutes les questions</option>
             </select>
 
-            <button id="load-btn" class="start-btn" onclick="loadSelectedQuiz()" disabled>
-                🚀 Lancer le Quiz
-            </button>
+            <br>
+            <button id="load-btn" class="start-btn" onclick="loadSelectedQuiz()" disabled>🚀 Lancer le Quiz</button>
+
+            <div id="error-msg" style="color:#e74c3c; margin-top:15px; display:none; font-weight:bold;"></div>
         </div>
 
         <div class="progress" id="progress" style="display:none;"></div>
@@ -272,17 +327,22 @@
         <div id="result-screen">
             <h2>Session Terminée !</h2>
             <div class="score-circle" id="final-score">0/0</div>
+            <div class="time-stat" id="final-time">⏱ Temps : --</div>
+            <h3 id="comment" style="margin-bottom: 10px;"></h3>
+            <p id="detail-msg" style="color: #666;"></p>
 
-            <button id="continue-btn" class="btn btn-next" style="display:none;" onclick="startSession()">
-                Continuer
-            </button>
+            <!-- AJOUT: continuer -->
+            <button id="continue-btn" class="btn btn-next" style="display:none;"
+                onclick="startSession()">Continuer</button>
 
-            <button class="btn" onclick="location.reload()">Choisir un autre sujet</button>
+            <button class="btn" onclick="startSession()">Recommencer cette série</button>
+            <button class="btn" style="background-color:#95a5a6; margin-top:15px;" onclick="location.reload()">Choisir
+                un autre sujet</button>
         </div>
-
     </div>
 
     <script>
+        // --- VARIABLES GLOBALES (origine + ajouts) ---
         let sessionSize = 10;
         let fullQuestionPool = [];
         let remainingQuestions = [];
@@ -291,55 +351,97 @@
         let score = 0;
         let startTime = 0;
 
-        // INIT LISTE
-        fetch('quizzes.json?v=' + Date.now(), { cache: 'no-store' })
-            .then(r => r.json())
-            .then(list => {
-                const select = document.getElementById('quiz-select');
-                select.innerHTML = '<option value="">-- Sélectionner un sujet --</option>';
-                list.forEach(q => {
-                    const opt = document.createElement('option');
-                    opt.value = q.file;
-                    opt.textContent = q.name;
-                    select.appendChild(opt);
-                });
-                select.disabled = false;
-                document.getElementById('sub-title').innerText = "Prêt à réviser ?";
-                select.addEventListener('change', () => {
-                    document.getElementById('load-btn').disabled = !select.value;
-                });
-            });
-
-        function loadSelectedQuiz() {
-            const select = document.getElementById('quiz-select');
-            const file = select.value;
-            if (!file) return;
-
-            const title = select.options[select.selectedIndex].textContent;
-            const countVal = document.getElementById('count-select').value;
-            sessionSize = countVal === "all" ? Infinity : parseInt(countVal);
-
-            fetch(file + '?v=' + Date.now(), { cache: 'no-store' })
-                .then(r => r.json())
+        // --- DÉMARRAGE : Charger la liste des quiz ---
+        window.onload = function () {
+            fetch('quizzes.json?v=' + Date.now(), { cache: 'no-store' })
+                .then(response => {
+                    if (!response.ok) throw new Error("Impossible de charger la liste des sujets.");
+                    return response.json();
+                })
                 .then(data => {
+                    const select = document.getElementById('quiz-select');
+                    select.innerHTML = '<option value="">-- Sélectionner un sujet --</option>';
+
+                    data.forEach(q => {
+                        const option = document.createElement('option');
+                        option.value = q.file;
+                        option.textContent = q.name;
+                        select.appendChild(option);
+                    });
+
+                    select.disabled = false;
+                    document.getElementById('sub-title').innerText = "Prêt à réviser ?";
+
+                    // Activer le bouton seulement si une sélection est faite
+                    select.addEventListener('change', function () {
+                        document.getElementById('load-btn').disabled = this.value === "";
+                    });
+                })
+                .catch(err => {
+                    document.getElementById('error-msg').style.display = 'block';
+                    document.getElementById('error-msg').innerText = "Erreur : " + err.message;
+                });
+        };
+
+        // --- CHARGEMENT DU JSON SÉLECTIONNÉ ---
+        function loadSelectedQuiz() {
+            const selectEl = document.getElementById('quiz-select');
+            const fileUrl = selectEl.value;
+            if (!fileUrl) return;
+
+            // UI Feedback
+            const btn = document.getElementById('load-btn');
+            const originalText = btn.innerText;
+            btn.innerText = "Téléchargement...";
+            btn.disabled = true;
+
+            // Lire paramètres session
+            const countVal = document.getElementById('count-select').value;
+            sessionSize = (countVal === "all") ? Infinity : parseInt(countVal, 10);
+
+            // Titre cohérent (vient du catalogue)
+            const selectedTitle = selectEl.options[selectEl.selectedIndex].textContent;
+
+            fetch(fileUrl + '?v=' + Date.now(), { cache: 'no-store' })
+                .then(response => {
+                    if (!response.ok) throw new Error("Erreur lors du chargement du fichier questions.");
+                    return response.json();
+                })
+                .then(data => {
+                    if (!data.questions || !Array.isArray(data.questions)) throw new Error("Format JSON invalide");
+
                     fullQuestionPool = data.questions;
+
+                    // Initialiser pool sans répétition
                     remainingQuestions = shuffle([...fullQuestionPool]);
 
-                    document.getElementById('main-title').innerText = title;
-                    document.getElementById('sub-title').innerText =
-                        `Sujet chargé • ${fullQuestionPool.length} questions`;
+                    // Titre et sous-titre (fidèle, mais cohérent)
+                    document.getElementById('main-title').innerText = selectedTitle;
+                    document.getElementById('sub-title').innerText = `Sujet chargé • ${fullQuestionPool.length} questions dispos`;
 
                     document.getElementById('setup-panel').style.display = 'none';
                     startSession();
+                })
+                .catch(err => {
+                    document.getElementById('error-msg').style.display = 'block';
+                    document.getElementById('error-msg').innerText = "Erreur : " + err.message;
+                    btn.innerText = originalText;
+                    btn.disabled = false;
                 });
         }
 
+        // --- MOTEUR QUIZ (fidèle, avec startSession ajustée) ---
+        function shuffle(array) {
+            return array.sort(() => Math.random() - 0.5);
+        }
+
         function startSession() {
-            if (remainingQuestions.length === 0) {
+            if (!remainingQuestions || remainingQuestions.length === 0) {
+                // si on a tout consommé, on repart sur un shuffle complet
                 remainingQuestions = shuffle([...fullQuestionPool]);
             }
 
-            const n = sessionSize === Infinity
+            const n = (sessionSize === Infinity)
                 ? remainingQuestions.length
                 : Math.min(sessionSize, remainingQuestions.length);
 
@@ -353,79 +455,162 @@
             document.getElementById('result-screen').style.display = 'none';
             document.getElementById('quiz-container').innerHTML = '';
             document.getElementById('progress').style.display = 'block';
+            document.getElementById('quiz-container').style.display = 'block';
 
             showQuestion();
         }
 
         function showQuestion() {
             const q = currentSession[currentIndex];
-            document.getElementById('progress').innerText =
-                `Question ${currentIndex + 1} / ${currentSession.length}`;
-
             const container = document.getElementById('quiz-container');
-            const hint = q.correct.length > 1 ? "(Plusieurs réponses possibles)" : "(Une seule réponse)";
+            document.getElementById('progress').innerText = `Question ${currentIndex + 1} / ${currentSession.length}`;
 
-            let options = shuffle(q.options.map((o, i) => ({ o, i })));
+            const isVF = q.options.length === 2 &&
+                q.options.some(o => o.toLowerCase().includes("vrai")) &&
+                q.options.some(o => o.toLowerCase().includes("faux"));
 
-            container.innerHTML = `
-      <div class="question-box active">
-        <div class="question-title">${q.question}</div>
-        <div class="hint-text">${hint}</div>
-        <div class="options">
-          ${options.map(opt => `
-            <label>
-              <input type="checkbox" name="option" value="${opt.i}">
-              <span>${opt.o}</span>
-            </label>`).join('')}
+            let inputType = 'checkbox';
+            let hint = "(Cochez la ou les bonnes réponses)";
+
+            if (isVF) {
+                inputType = 'radio';
+                hint = "(Vrai ou Faux)";
+            }
+
+            let optionsWithIndex = q.options.map((opt, i) => ({ text: opt, originalIndex: i }));
+            if (!isVF) {
+                optionsWithIndex = shuffle(optionsWithIndex);
+            }
+
+            let html = `
+        <div class="question-box active">
+            <div class="question-title">${q.question}</div>
+            <div class="hint-text">${hint}</div>
+            <div class="options">
+                ${optionsWithIndex.map((opt, i) => `
+                    <label id="opt-${i}">
+                        <input type="${inputType}" name="option" value="${opt.originalIndex}">
+                        <span>${opt.text}</span>
+                    </label>
+                `).join('')}
+            </div>
+
+            <button id="validate-btn" class="btn" onclick="validate()">Valider</button>
+            <div class="feedback-text" id="feedback"></div>
         </div>
-        <button class="btn" onclick="validate()">Valider</button>
-        <div class="feedback-text" id="feedback"></div>
-      </div>`;
+        `;
+            container.innerHTML = html;
         }
 
-        function validate() {
+        window.validate = function () {
             const q = currentSession[currentIndex];
-            const checked = [...document.querySelectorAll('input[name="option"]:checked')]
-                .map(i => parseInt(i.value)).sort().toString();
-            const correct = [...q.correct].sort().toString();
+            const allInputs = document.querySelectorAll('input[name="option"]');
+            const checkedInputs = document.querySelectorAll('input[name="option"]:checked');
 
-            if (checked === correct) score++;
+            if (checkedInputs.length === 0) return alert("Choisis au moins une réponse !");
 
+            const btn = document.getElementById('validate-btn');
+            const feedback = document.getElementById('feedback');
+
+            allInputs.forEach(i => i.disabled = true);
+            btn.style.display = 'none';
+
+            const checkedValues = Array.from(checkedInputs).map(cb => parseInt(cb.value));
+            const correctSorted = JSON.stringify(q.correct.sort());
+            const checkedSorted = JSON.stringify(checkedValues.sort());
+            const isCorrect = correctSorted === checkedSorted;
+
+            if (isCorrect) score++;
+
+            allInputs.forEach((input, domIndex) => {
+                const val = parseInt(input.value);
+                const label = document.getElementById(`opt-${domIndex}`);
+                if (!label) return;
+
+                if (q.correct.includes(val)) {
+                    if (input.checked) label.classList.add('correct-checked');
+                    else label.classList.add('missed-correct');
+                } else {
+                    if (input.checked) label.classList.add('wrong-checked');
+                    else label.classList.add('neutral-disabled');
+                }
+            });
+
+            const nextText = currentIndex === currentSession.length - 1 ? "Voir Résultats" : "Suivant";
+
+            let explanationContent = "";
+            if (q.explanation && q.explanation.trim() !== "") {
+                explanationContent = `<br><span style="display:block; margin-top:10px; font-weight:normal; color:#2d3436;">${q.explanation}</span>`;
+            }
+
+            feedback.style.display = 'block';
+            feedback.innerHTML = `
+            <strong>${isCorrect ? "BRAVO ! 🎉" : "DOMMAGE..."}</strong>
+            ${explanationContent}
+            <button class="btn btn-next" onclick="nextQuestion()">${nextText}</button>
+        `;
+            feedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        };
+
+        window.nextQuestion = function () {
             if (currentIndex < currentSession.length - 1) {
                 currentIndex++;
                 showQuestion();
             } else {
                 endQuiz();
             }
-        }
+        };
 
         function endQuiz() {
-            document.getElementById('quiz-container').innerHTML = '';
+            const endTime = new Date();
+            const timeDiff = Math.floor((endTime - startTime) / 1000);
+            const minutes = Math.floor(timeDiff / 60);
+            const seconds = timeDiff % 60;
+            const timeString = `${minutes} min ${seconds} sec`;
+
+            document.getElementById('quiz-container').style.display = 'none';
             document.getElementById('progress').style.display = 'none';
             document.getElementById('result-screen').style.display = 'block';
 
-            document.getElementById('final-score').innerText =
-                `${score}/${currentSession.length}`;
+            const total = currentSession.length;
+            document.getElementById('final-score').innerText = `${score}/${total}`;
+            document.getElementById('final-time').innerText = `⏱ Temps écoulé : ${timeString}`;
 
-            const btn = document.getElementById('continue-btn');
+            const ratio = score / total;
+            const comment = document.getElementById('comment');
+            const detail = document.getElementById('detail-msg');
+
+            if (ratio >= 0.8) {
+                comment.innerText = "Excellent ! 🏆";
+                comment.style.color = "#27ae60";
+                detail.innerText = "Tu maîtrises le sujet.";
+            } else if (ratio >= 0.5) {
+                comment.innerText = "Bien joué ! 👍";
+                comment.style.color = "#f39c12";
+                detail.innerText = "Les bases sont là.";
+            } else {
+                comment.innerText = "Courage ! 💪";
+                comment.style.color = "#c0392b";
+                detail.innerText = "Relis tes fiches.";
+            }
+
+            // AJOUT: gérer le bouton Continuer
+            const contBtn = document.getElementById('continue-btn');
             if (remainingQuestions.length > 0 && sessionSize !== Infinity) {
-                btn.style.display = 'block';
-                btn.innerText =
+                contBtn.style.display = 'block';
+                contBtn.innerText =
                     `Continuer (${Math.min(sessionSize, remainingQuestions.length)} questions restantes : ${remainingQuestions.length})`;
             } else {
-                btn.style.display = 'none';
+                contBtn.style.display = 'none';
             }
         }
 
-        function shuffle(arr) {
-            return arr.sort(() => Math.random() - 0.5);
-        }
-
-        if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/revisions-ifsi/sw.js');
+        if ("serviceWorker" in navigator) {
+            window.addEventListener("load", () => {
+                navigator.serviceWorker.register("/revisions-ifsi/sw.js");
+            });
         }
     </script>
-
 </body>
 
 </html>
