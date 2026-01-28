@@ -368,15 +368,22 @@
                         const option = document.createElement('option');
                         option.value = q.file;
                         option.textContent = q.name;
+                        option.dataset.subtitle = q.subtitle || "";
                         select.appendChild(option);
                     });
 
                     select.disabled = false;
                     document.getElementById('sub-title').innerText = "Prêt à réviser ?";
 
-                    // Activer le bouton seulement si une sélection est faite
                     select.addEventListener('change', function () {
-                        document.getElementById('load-btn').disabled = this.value === "";
+                        const isEmpty = this.value === "";
+                        document.getElementById('load-btn').disabled = isEmpty;
+
+                        const selectedOpt = this.options[this.selectedIndex];
+                        const subtitle = selectedOpt?.dataset?.subtitle || "";
+
+                        document.getElementById('sub-title').innerText =
+                            subtitle ? subtitle : "Prêt à réviser ?";
                     });
                 })
                 .catch(err => {
@@ -403,6 +410,7 @@
 
             // Titre cohérent (vient du catalogue)
             const selectedTitle = selectEl.options[selectEl.selectedIndex].textContent;
+            const selectedSubtitle = selectEl.options[selectEl.selectedIndex].dataset.subtitle || "";
 
             fetch(fileUrl + '?v=' + Date.now(), { cache: 'no-store' })
                 .then(response => {
@@ -419,7 +427,9 @@
 
                     // Titre et sous-titre (fidèle, mais cohérent)
                     document.getElementById('main-title').innerText = selectedTitle;
-                    document.getElementById('sub-title').innerText = `Sujet chargé • ${fullQuestionPool.length} questions dispos`;
+                    document.getElementById('sub-title').innerText =
+                        (selectedSubtitle ? selectedSubtitle + " • " : "") + `${fullQuestionPool.length} questions dispo`;
+
 
                     document.getElementById('setup-panel').style.display = 'none';
                     startSession();

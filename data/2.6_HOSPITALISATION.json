@@ -1,0 +1,340 @@
+{
+    "title": "UE 2.6 – Les modes d’hospitalisation en psychiatrie",
+    "subtitle": "Cadre légal, procédures et rôle des acteurs",
+    "questions": [
+        {
+            "question": "Les soins psychiatriques peuvent être réalisés avec ou sans le consentement du patient.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les soins libres impliquent l’accord du patient pour sa prise en charge.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels modes de soins psychiatriques sans consentement existent ? (Cochez les bonnes réponses)",
+            "options": [
+                "Soins psychiatriques à la demande d’un tiers",
+                "Soins psychiatriques en cas de péril imminent",
+                "Soins psychiatriques sur décision du représentant de l’État",
+                "Soins psychiatriques à la demande du patient"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Les soins psychiatriques sans consentement sont possibles lorsque les troubles mentaux rendent impossible le consentement du patient.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La procédure de soins psychiatriques à la demande d’un tiers nécessite obligatoirement deux certificats médicaux.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "En cas d’urgence, la procédure SPDTU nécessite deux certificats médicaux initiaux.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car en situation d’urgence (SPDTU), un seul certificat médical peut suffire."
+        },
+        {
+            "question": "Quels acteurs peuvent être considérés comme un tiers demandeur ? (Cochez les bonnes réponses)",
+            "options": [
+                "Un membre de la famille",
+                "Un proche ayant des relations antérieures avec le patient",
+                "Un soignant de l’établissement d’accueil",
+                "Une personne agissant dans l’intérêt du patient"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "Les personnels soignants de l’établissement d’accueil peuvent être tiers demandeurs.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les soignants de l’établissement d’accueil sont exclus du rôle de tiers demandeur."
+        },
+        {
+            "question": "La procédure de soins psychiatriques en cas de péril imminent s’applique lorsqu’aucun tiers n’est disponible.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La recherche d’un tiers est obligatoire après la mise en place d’une procédure de péril imminent.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels documents sont requis pour l’admission en soins psychiatriques à la demande d’un tiers ? (Cochez les bonnes réponses)",
+            "options": [
+                "Demande écrite du tiers",
+                "Certificats médicaux circonstanciés",
+                "Décision du juge",
+                "Vérification de l’identité du patient"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "La période d’observation débute systématiquement par une hospitalisation complète.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Dans les 24 heures suivant l’admission, un examen somatique complet doit être réalisé.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels délais encadrent la période d’observation initiale ? (Cochez les bonnes réponses)",
+            "options": [
+                "Certificat médical dans les 24 heures",
+                "Certificat médical dans les 72 heures",
+                "Certificat médical au bout d’un mois",
+                "Certificat médical annuel"
+            ],
+            "correct": [
+                0,
+                1
+            ]
+        },
+        {
+            "question": "Si l’un des certificats médicaux conclut à l’absence de nécessité des soins, la mesure doit être levée immédiatement.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les soins psychiatriques sur décision du représentant de l’État concernent des situations portant atteinte grave à l’ordre public.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels acteurs peuvent être à l’origine d’une admission en soins psychiatriques sur décision du représentant de l’État ? (Cochez les bonnes réponses)",
+            "options": [
+                "Le maire",
+                "Le préfet",
+                "Le juge des libertés et de la détention",
+                "Les autorités judiciaires"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "Le juge des libertés et de la détention intervient pour garantir le respect des droits du patient.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Le juge des libertés et de la détention doit statuer avant le 12e jour d’hospitalisation complète.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels acteurs peuvent saisir le juge des libertés et de la détention ? (Cochez les bonnes réponses)",
+            "options": [
+                "Le patient",
+                "Un proche ou un tiers",
+                "Le directeur de l’établissement",
+                "Tout citoyen sans lien avec le patient"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Le juge peut décider du maintien ou de la levée des soins psychiatriques sans consentement.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Le programme de soins concerne uniquement l’hospitalisation complète.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car le programme de soins peut inclure des soins ambulatoires, des consultations ou des hospitalisations partielles."
+        },
+        {
+            "question": "Quels éléments peuvent faire partie d’un programme de soins ? (Cochez les bonnes réponses)",
+            "options": [
+                "Consultations régulières",
+                "Traitement médicamenteux",
+                "Hospitalisation de jour",
+                "Absence totale de suivi"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Le non-respect du programme de soins peut conduire à une réintégration en hospitalisation complète.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les soins psychiatriques sans consentement constituent une privation de liberté encadrée par la loi.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les soins psychiatriques sans consentement doivent faire l’objet d’une information du patient sur ses droits.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels éléments doivent être portés à la connaissance du patient hospitalisé sans consentement ? (Cochez les bonnes réponses)",
+            "options": [
+                "Les motifs de la mesure",
+                "Les voies de recours possibles",
+                "La durée prévisible de la mesure",
+                "Le diagnostic psychiatrique détaillé obligatoire"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Une admission en soins psychiatriques peut faire suite à une décision d’irresponsabilité pénale.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Dans le cadre d’une admission judiciaire, une lettre de l’autorité préfectorale est requise.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La traçabilité des certificats médicaux et des décisions administratives est une obligation légale.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        }
+    ]
+}

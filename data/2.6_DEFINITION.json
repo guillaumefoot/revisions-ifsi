@@ -1,0 +1,869 @@
+{
+  "title": "UE 2.6 – Termes psychiatriques",
+  "subtitle": "Glossaire – définitions fondamentales",
+  "questions": [
+    {
+      "question": "L’aboulie correspond à une diminution ou une disparition de la volonté.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à l’aboulie ?",
+      "options": [
+        "Diminution ou disparition de la volonté",
+        "Incapacité à éprouver du plaisir",
+        "Absence de conscience des troubles",
+        "Ralentissement du cours de la pensée"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "L’anhédonie correspond à une incapacité à ressentir du plaisir.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à l’anhédonie ?",
+      "options": [
+        "Incapacité à ressentir des émotions positives",
+        "Perte de la faculté de parler",
+        "Manque d’hygiène corporelle",
+        "Ralentissement psychomoteur"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "L’anosognosie correspond à une prise de conscience excessive de la maladie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car l’anosognosie correspond à l’absence ou la diminution de la conscience des troubles."
+    },
+    {
+      "question": "Quelle définition correspond à l’anosognosie ?",
+      "options": [
+        "Absence de conscience des troubles",
+        "Incapacité à initier une action",
+        "Trouble du cours de la pensée",
+        "Désorganisation du discours"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "L’apragmatisme se manifeste par une incapacité à réaliser les actions du quotidien.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à l’apragmatisme ?",
+      "options": [
+        "Incapacité à entreprendre des actions",
+        "Refus de parler",
+        "État de confusion aiguë",
+        "Peur intense et persistante"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "L’alogie correspond à une perte ou pauvreté du langage.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à l’alogie ?",
+      "options": [
+        "Pauvreté du discours",
+        "Débit de parole accéléré",
+        "Répétition automatique des mots",
+        "Altération de la vigilance"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "L’incurie correspond à un manque important d’hygiène et de soins.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à l’incurie ?",
+      "options": [
+        "Négligence de l’hygiène et des soins",
+        "Ralentissement moteur",
+        "Fuite des idées",
+        "Délire structuré"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Le mutisme correspond à un refus de parler sans cause organique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond au mutisme ?",
+      "options": [
+        "Refus de parler sans cause physique",
+        "Débit verbal excessif",
+        "Ralentissement de la pensée",
+        "Trouble de la mémoire"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La logorrhée correspond à une lenteur du discours.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car la logorrhée correspond à un débit de parole très élevé."
+    },
+    {
+      "question": "Quelle définition correspond à la logorrhée ?",
+      "options": [
+        "Débit de parole excessif",
+        "Arrêt brutal de la parole",
+        "Absence de plaisir",
+        "Altération de la vigilance"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La bradypsychie correspond à un ralentissement du cours de la pensée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la bradypsychie ?",
+      "options": [
+        "Ralentissement du cours de la pensée",
+        "Précipitation des idées",
+        "Pensée incohérente",
+        "Absence de motivation"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La tachypsychie correspond à une précipitation des idées.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la tachypsychie ?",
+      "options": [
+        "Précipitation du cours de la pensée",
+        "Ralentissement intellectuel",
+        "Altération de la conscience",
+        "Perte de contact avec la réalité"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "L’écholalie correspond à la répétition involontaire des mots entendus.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à l’écholalie ?",
+      "options": [
+        "Répétition des derniers mots entendus",
+        "Invention de mots nouveaux",
+        "Arrêt soudain du discours",
+        "Paroles imposées au sujet"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Le barrage correspond à une interruption brutale et inexpliquée du discours.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond au barrage ?",
+      "options": [
+        "Interruption brutale du discours",
+        "Débit verbal excessif",
+        "Absence de conscience de soi",
+        "Peur intense et diffuse"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La dépersonnalisation correspond à un sentiment d’étrangeté vis-à-vis de soi-même.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la dépersonnalisation ?",
+      "options": [
+        "Sentiment de perte du sens de soi",
+        "Perte de la volonté",
+        "Trouble de la mémoire",
+        "Délire structuré"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Une hallucination correspond à une perception sans stimulus réel.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à une hallucination ?",
+      "options": [
+        "Perception sans objet réel",
+        "Interprétation erronée d’un stimulus",
+        "Croyance fausse inébranlable",
+        "Altération de la vigilance"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Une illusion correspond à une perception sans objet.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car l’illusion est une perception déformée d’un stimulus réel."
+    },
+    {
+      "question": "Quelle définition correspond à une illusion ?",
+      "options": [
+        "Perception réelle mal interprétée",
+        "Perception sans objet",
+        "Idée délirante",
+        "Trouble de la mémoire"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Le délire correspond à une croyance fausse, inébranlable et non partagée par le groupe.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond au délire ?",
+      "options": [
+        "Croyance fausse inébranlable",
+        "Perception sans objet",
+        "Ralentissement de la pensée",
+        "Peur intense et persistante"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Le raptus correspond à une impulsion soudaine et violente.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond au raptus ?",
+      "options": [
+        "Impulsion soudaine et irrépressible",
+        "Ralentissement moteur",
+        "Peur anticipatoire",
+        "Retrait social progressif"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La sidération correspond à un état d’immobilisme et de stupeur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la sidération ?",
+      "options": [
+        "État de stupeur et d’immobilisme",
+        "Débit verbal excessif",
+        "Fuite des idées",
+        "Altération de la mémoire"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La catatonie se caractérise par une absence de réaction aux stimulations extérieures.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la catatonie ?",
+      "options": [
+        "Syndrome associant immobilité, mutisme et négativisme",
+        "Agitation psychomotrice majeure",
+        "Trouble anxieux aigu",
+        "Altération isolée de la mémoire"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La clinophilie correspond à une tendance pathologique à rester alité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la clinophilie ?",
+      "options": [
+        "Maintien prolongé au lit sans justification somatique",
+        "Incapacité à initier une action",
+        "Refus de s’alimenter",
+        "Évitement social anxieux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Le coq à l’âne correspond à un passage brusque d’une idée à une autre sans lien logique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond au coq à l’âne ?",
+      "options": [
+        "Rupture logique dans l’enchaînement des idées",
+        "Ralentissement du discours",
+        "Arrêt brutal de la pensée",
+        "Répétition involontaire des mots"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La décompensation désigne une rupture de l’équilibre psychique antérieur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la décompensation ?",
+      "options": [
+        "Survenue aiguë de symptômes psychiatriques",
+        "Amélioration durable des troubles",
+        "Phase de rémission complète",
+        "Simple variation émotionnelle"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La bradyphémie correspond à un ralentissement du débit verbal.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la bradyphémie ?",
+      "options": [
+        "Lenteur du rythme de la parole",
+        "Pauvreté du contenu du discours",
+        "Arrêt soudain du discours",
+        "Débit verbal excessif"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "L’obnubilation correspond à un trouble de la vigilance avec obscurcissement de la conscience.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à l’obnubilation ?",
+      "options": [
+        "Baisse de la vigilance et ralentissement de la pensée",
+        "Perte totale de conscience",
+        "Délire aigu",
+        "Fuite des idées"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La dissociation correspond à une perte de cohésion des associations d’idées.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la dissociation ?",
+      "options": [
+        "Incohérence de la pensée et du comportement",
+        "Ralentissement psychomoteur",
+        "Peur intense persistante",
+        "Altération isolée de la mémoire"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La dysphorie correspond à un trouble de l’humeur avec mal-être et irritabilité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la dysphorie ?",
+      "options": [
+        "État affectif désagréable et irritable",
+        "Humeur euphorique",
+        "Absence totale d’émotions",
+        "Perte de contact avec la réalité"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "L’instabilité motrice se traduit par une difficulté à rester immobile.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à l’instabilité motrice ?",
+      "options": [
+        "Agitation avec mouvements incessants",
+        "Inhibition motrice",
+        "Rigidité musculaire",
+        "Absence de mouvement volontaire"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "L’impulsivité correspond à une difficulté à contrôler ses actes.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à l’impulsivité ?",
+      "options": [
+        "Tendance à agir sans réflexion",
+        "Ralentissement moteur",
+        "Anxiété anticipatoire",
+        "Retrait social"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Le parasitage correspond à une dépendance excessive à autrui.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond au parasitage ?",
+      "options": [
+        "Dépendance relationnelle excessive",
+        "Isolement volontaire",
+        "Comportement agressif",
+        "Altération cognitive"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Le passage à l’acte correspond à un acte impulsif souvent violent.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond au passage à l’acte ?",
+      "options": [
+        "Acte soudain sans élaboration psychique",
+        "Message adressé à autrui",
+        "Comportement ritualisé",
+        "Évitement anxieux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Le pica correspond à l’ingestion répétée de substances non alimentaires.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond au pica ?",
+      "options": [
+        "Ingestion de substances non comestibles",
+        "Restriction alimentaire volontaire",
+        "Hyperphagie émotionnelle",
+        "Refus de s’alimenter"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La potomanie correspond à une ingestion excessive de liquides.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la potomanie ?",
+      "options": [
+        "Consommation excessive et incontrôlée de boissons",
+        "Restriction hydrique",
+        "Addiction à l’alcool",
+        "Trouble de la déglutition"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La psychorigidité correspond à une difficulté à s’adapter au changement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la psychorigidité ?",
+      "options": [
+        "Rigidité de pensée et de comportement",
+        "Incohérence intellectuelle",
+        "Altération de la vigilance",
+        "Hyperactivité motrice"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Les rituels sont des actions répétées visant à réduire l’angoisse.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond aux rituels ?",
+      "options": [
+        "Actions répétitives à valeur conjuratoire",
+        "Actes impulsifs violents",
+        "Comportements désorganisés",
+        "Fuite des idées"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La soliloquie correspond au fait de parler seul à voix haute.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle définition correspond à la soliloquie ?",
+      "options": [
+        "Discours adressé à soi-même",
+        "Répétition automatique des mots",
+        "Arrêt du discours",
+        "Débit verbal ralenti"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "L’UNAFAM est une association de familles et de proches de personnes vivant avec des troubles psychiques.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Que signifie le sigle UNAFAM ?",
+      "options": [
+        "Union nationale de familles et amis de personnes malades psychiques",
+        "Unité nationale d’accompagnement des maladies mentales",
+        "Union nationale des infirmiers en santé mentale",
+        "Organisation gouvernementale de santé publique"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Les GEM (Groupes d’Entraide Mutuelle) ont pour objectif de favoriser le lien social et l’autonomie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quel est le rôle principal des GEM ?",
+      "options": [
+        "Favoriser l’entraide et la socialisation",
+        "Assurer une hospitalisation sous contrainte",
+        "Prescrire des traitements médicamenteux",
+        "Remplacer le suivi psychiatrique"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Une EMPP est une équipe mobile intervenant auprès de personnes en situation de précarité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Que signifie le sigle EMPP ?",
+      "options": [
+        "Équipe mobile psychiatrie précarité",
+        "Équipe médicale de prévention psychiatrique",
+        "Établissement médico-psychologique public",
+        "Équipe mobile de post-hospitalisation"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "La stigmatisation des troubles psychiques peut concerner le patient, l’entourage et les soignants.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quels éléments participent à la réduction de la stigmatisation en santé mentale ? (Cochez les bonnes réponses)",
+      "options": [
+        "Information et sensibilisation du public",
+        "Reconnaissance de la souffrance psychique",
+        "Isolement du patient",
+        "Amélioration des connaissances des soignants"
+      ],
+      "correct": [
+        0,
+        1,
+        3
+      ]
+    }
+  ]
+}

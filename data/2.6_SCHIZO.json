@@ -1,0 +1,414 @@
+{
+    "title": "UE 2.6 – Introduction à la schizophrénie",
+    "subtitle": "Bases cliniques, sémiologie, étiologie et prise en charge",
+    "questions": [
+        {
+            "question": "La schizophrénie est définie comme un trouble de l’esprit caractérisé par un fractionnement des fonctions psychiques.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Le terme schizophrénie signifie littéralement \"double personnalité\".",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la schizophrénie correspond à un fractionnement de l’esprit et non à une double personnalité."
+        },
+        {
+            "question": "Quels éléments font partie des symptômes positifs de la schizophrénie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Hallucinations",
+                "Idées délirantes",
+                "Affect émoussé",
+                "Discours désorganisé"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "L’anhédonie correspond à l’incapacité à éprouver du plaisir.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les symptômes négatifs traduisent une exagération des fonctions psychiques normales.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les symptômes négatifs correspondent à une diminution ou une perte des fonctions psychiques normales."
+        },
+        {
+            "question": "Quels symptômes font partie des symptômes négatifs de la schizophrénie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Avolition",
+                "Hallucinations auditives",
+                "Alogie",
+                "Incurie"
+            ],
+            "correct": [
+                0,
+                2,
+                3
+            ]
+        },
+        {
+            "question": "Les hallucinations cénesthésiques concernent des perceptions de transformation ou de possession du corps.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Le délire paranoïaque est généralement polymorphe, incohérent et peu structuré.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car le délire paranoïaque est habituellement structuré, cohérent et souvent monothématique."
+        },
+        {
+            "question": "Quels types de délires peuvent être observés dans la schizophrénie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Délire de persécution",
+                "Délire mystique",
+                "Délire de grandeur",
+                "Délire hypocondriaque"
+            ],
+            "correct": [
+                0,
+                1,
+                2,
+                3
+            ]
+        },
+        {
+            "question": "L’asociabilité se définit par l’incapacité à vivre seul sans aide extérieure.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car l’asociabilité correspond au repli sur soi et à la difficulté à créer des liens sociaux."
+        },
+        {
+            "question": "Quels éléments relèvent des troubles cognitifs associés à la schizophrénie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Troubles de l’attention",
+                "Troubles de la mémoire",
+                "Logorrhée",
+                "Difficultés d’organisation"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "La schizophrénie débute le plus souvent entre 20 et 30 ans.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La prévalence mondiale de la schizophrénie est d’environ 7 %.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la prévalence est estimée à environ 0,7 % de la population mondiale."
+        },
+        {
+            "question": "Quels facteurs étiologiques sont évoqués dans la schizophrénie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Hypothèse génétique",
+                "Hypothèse neurobiochimique",
+                "Hypothèse socio-environnementale",
+                "Cause infectieuse exclusive"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "L’anosognosie correspond à l’absence de conscience de la maladie.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La schizophrénie est une maladie exclusivement présente dans les sociétés occidentales.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la schizophrénie est une maladie ubiquitaire, présente dans toutes les cultures."
+        },
+        {
+            "question": "Quels critères participent au diagnostic de la schizophrénie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Symptômes positifs",
+                "Symptômes négatifs",
+                "Désorganisation de la pensée",
+                "Troubles cognitifs isolés sans autre symptôme"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "La forme paranoïde de la schizophrénie est dominée par les symptômes positifs.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La catatonie se caractérise notamment par le négativisme et la catalepsie.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels traitements peuvent être utilisés dans la prise en charge de la schizophrénie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Antipsychotiques",
+                "Psychothérapie",
+                "Sismothérapie",
+                "Antibiothérapie systématique"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Les symptômes négatifs sont généralement plus sensibles au traitement médicamenteux que les symptômes positifs.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les symptômes négatifs sont souvent moins sensibles aux traitements que les symptômes positifs."
+        },
+        {
+            "question": "Le passage à l’acte se distingue de l’acting out par son caractère de rupture radicale avec la relation à l’autre.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels éléments peuvent être évalués pour mesurer l’impact des traitements dans la schizophrénie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Fonctionnement psychosocial",
+                "Symptômes positifs et négatifs",
+                "Tolérance au traitement",
+                "Niveau d’intelligence prémorbide uniquement"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "L’espérance de vie des personnes atteintes de schizophrénie est en moyenne inférieure à celle de la population générale.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Le risque suicidaire est absent chez les personnes atteintes de schizophrénie stabilisée.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car le risque suicidaire persiste, même chez des patients stabilisés."
+        },
+        {
+            "question": "Les mécanismes de défense fréquemment retrouvés dans la schizophrénie incluent le déni, la dénégation et le clivage.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Le clivage correspond à un mécanisme de défense permettant d’intégrer harmonieusement des perceptions contradictoires.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car le clivage empêche l’intégration des éléments contradictoires et maintient une séparation rigide."
+        },
+        {
+            "question": "Quels phénomènes relèvent de l’automatisme mental ? (Cochez les bonnes réponses)",
+            "options": [
+                "Écho de la pensée",
+                "Vol de la pensée",
+                "Pensée télécommandée",
+                "Illusion perceptive liée à un stimulus réel"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "L’écho de la pensée correspond à une répétition involontaire de la pensée perçue comme venant de l’extérieur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels éléments caractérisent les troubles schizoaffectifs ? (Cochez les bonnes réponses)",
+            "options": [
+                "Association de symptômes schizophréniques et thymiques",
+                "Présence exclusive de symptômes dépressifs",
+                "Épisodes maniaques ou dépressifs associés",
+                "Absence totale de symptômes psychotiques"
+            ],
+            "correct": [
+                0,
+                2
+            ]
+        },
+        {
+            "question": "Les troubles schizoaffectifs associent des symptômes de schizophrénie et des troubles de l’humeur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels objectifs relèvent de la réhabilitation psychosociale dans la schizophrénie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Amélioration de l’autonomie",
+                "Insertion sociale",
+                "Réduction de la stigmatisation",
+                "Guérison complète sans traitement"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "La remédiation cognitive vise à améliorer les capacités attentionnelles, mnésiques et exécutives.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "L’empowerment en santé mentale correspond à une perte de contrôle du patient sur son parcours de soins.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car l’empowerment vise au contraire à renforcer le pouvoir d’agir et l’autonomie du patient."
+        },
+        {
+            "question": "Quels éléments font partie de l’évaluation globale du rétablissement en santé mentale ? (Cochez les bonnes réponses)",
+            "options": [
+                "Qualité de vie",
+                "Fonctionnement psychosocial",
+                "Insight",
+                "Disparition obligatoire de tous les symptômes"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        }
+    ]
+}

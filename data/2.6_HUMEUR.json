@@ -1,0 +1,342 @@
+{
+    "title": "UE 2.6 – Troubles de l’humeur",
+    "subtitle": "Définitions, sémiologie, formes cliniques et prise en charge",
+    "questions": [
+        {
+            "question": "Les troubles de l’humeur regroupent principalement les troubles dépressifs et les troubles bipolaires.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Une humeur dépressive se caractérise uniquement par une tristesse sans autres manifestations associées.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car l’humeur dépressive s’accompagne de symptômes multiples comme l’anhédonie, la fatigue, les troubles du sommeil ou les idées suicidaires."
+        },
+        {
+            "question": "Quels symptômes peuvent être observés lors d’un épisode dépressif ? (Cochez les bonnes réponses)",
+            "options": [
+                "Anhédonie",
+                "Ralentissement psychomoteur",
+                "Idées suicidaires",
+                "Logorrhée"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "L’anhédonie correspond à une incapacité à ressentir du plaisir.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Un épisode maniaque se caractérise par une humeur élevée, expansive ou irritable.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels signes sont caractéristiques d’un épisode maniaque ? (Cochez les bonnes réponses)",
+            "options": [
+                "Réduction du besoin de sommeil",
+                "Fuite des idées",
+                "Agitation psychomotrice",
+                "Inhibition psychomotrice"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "La logorrhée est fréquemment observée lors des épisodes maniaques.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les troubles bipolaires associent des épisodes maniaques ou hypomaniaques et des épisodes dépressifs.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Un trouble bipolaire se manifeste obligatoirement par des épisodes maniaques et dépressifs simultanés.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les épisodes maniaques et dépressifs alternent le plus souvent, même si des états mixtes peuvent exister."
+        },
+        {
+            "question": "Quels symptômes peuvent être communs aux épisodes dépressifs et maniaques ? (Cochez les bonnes réponses)",
+            "options": [
+                "Troubles du sommeil",
+                "Troubles de l’appétit",
+                "Idées délirantes",
+                "Troubles de la concentration"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "La mélancolie délirante associe une détresse psychique profonde et un délire d’indignité ou de persécution.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels signes sont fréquemment retrouvés dans la mélancolie délirante ? (Cochez les bonnes réponses)",
+            "options": [
+                "Anxiété majeure",
+                "Inhibition psychomotrice",
+                "Risque suicidaire",
+                "Euphorie persistante"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Les troubles de l’humeur peuvent être induits par la consommation de substances.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quelles substances peuvent être impliquées dans des troubles de l’humeur induits ? (Cochez les bonnes réponses)",
+            "options": [
+                "Cannabis",
+                "Alcool",
+                "Cocaïne",
+                "Antibiotiques"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Les facteurs génétiques peuvent intervenir dans la survenue des troubles de l’humeur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels facteurs déclencheurs des troubles de l’humeur sont reconnus ? (Cochez les bonnes réponses)",
+            "options": [
+                "Facteurs environnementaux",
+                "Facteurs sociaux",
+                "Douleurs chroniques",
+                "Cause infectieuse unique"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Les troubles de l’humeur n’ont aucun retentissement sur la vie sociale et professionnelle.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les troubles de l’humeur ont souvent un retentissement majeur sur la vie sociale, familiale et professionnelle."
+        },
+        {
+            "question": "Quels traitements peuvent être proposés dans les troubles de l’humeur ? (Cochez les bonnes réponses)",
+            "options": [
+                "Traitements médicamenteux",
+                "Psychothérapie",
+                "Autres thérapies complémentaires",
+                "Absence de suivi"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "La prise en charge des troubles de l’humeur vise aussi la prévention du risque suicidaire.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels éléments peuvent être évalués pour mesurer l’impact du traitement des troubles de l’humeur ? (Cochez les bonnes réponses)",
+            "options": [
+                "Fonctionnement psychosocial",
+                "Symptômes cliniques",
+                "Tolérance au traitement",
+                "Couleur des yeux"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Les troubles de l’humeur concernent uniquement la sphère affective sans atteinte cognitive.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car ils peuvent s’accompagner de troubles cognitifs comme les difficultés de concentration et de jugement."
+        },
+        {
+            "question": "L’évaluation de l’état thymique fait partie intégrante du suivi infirmier des troubles de l’humeur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La psychoéducation peut participer à l’amélioration de l’adhésion au traitement dans les troubles de l’humeur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "L’objectif du traitement des troubles de l’humeur est uniquement la disparition rapide des symptômes sans suivi au long cours.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car l’objectif inclut la stabilisation, la prévention des rechutes et l’amélioration de la qualité de vie."
+        },
+        {
+            "question": "La dysthymie correspond à une perturbation chronique de l’humeur, moins intense qu’un épisode dépressif majeur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La dysthymie se caractérise par des épisodes maniaques répétés.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la dysthymie correspond à une humeur dépressive chronique sans épisode maniaque."
+        },
+        {
+            "question": "Quels éléments différencient la névrose de la psychose ? (Cochez les bonnes réponses)",
+            "options": [
+                "Rapport à la réalité conservé dans la névrose",
+                "Transformation de la réalité dans la psychose",
+                "Présence constante de délire dans la névrose",
+                "Forclusion comme mécanisme de défense dans la psychose"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "Quels éléments composent l’appareil psychique selon le modèle psychanalytique ? (Cochez les bonnes réponses)",
+            "options": [
+                "Moi",
+                "Ça",
+                "Surmoi",
+                "Inconscient collectif"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Des substances comme la caféine ou les benzodiazépines à long terme peuvent induire ou aggraver des troubles de l’humeur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        }
+    ]
+}

@@ -1,0 +1,350 @@
+{
+    "title": "UE 2.6 – Sémiologie en psychiatrie",
+    "subtitle": "Signes, symptômes, syndromes et sémiologie du délire",
+    "questions": [
+        {
+            "question": "La sémiologie en psychiatrie correspond à l’étude des signes, symptômes et syndromes observables dans les troubles mentaux.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Un symptôme correspond exclusivement à une observation objective réalisée par le soignant.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car le symptôme correspond à ce que le patient décrit ou ressent, même s’il peut parfois être observable."
+        },
+        {
+            "question": "Quels éléments relèvent des troubles de la présentation et du comportement ? (Cochez les bonnes réponses)",
+            "options": [
+                "Incurie",
+                "Scarifications",
+                "Logorrhée",
+                "Agitation psychomotrice"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "La logorrhée correspond à une lenteur du débit verbal.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la logorrhée correspond à un débit de paroles très élevé et difficilement interrompable."
+        },
+        {
+            "question": "Quels troubles peuvent affecter le discours et le langage ? (Cochez les bonnes réponses)",
+            "options": [
+                "Mutisme",
+                "Bradyphémie",
+                "Écholalie",
+                "Apragmatisme"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Le mutisme correspond à un refus de parler sans cause organique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels éléments relèvent des troubles de la pensée ? (Cochez les bonnes réponses)",
+            "options": [
+                "Fuite des idées",
+                "Bradypsychie",
+                "Illusions",
+                "Barrage"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "Une illusion correspond à une perception sans objet réel.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car l’illusion est une perception réelle mais déformée d’un stimulus existant."
+        },
+        {
+            "question": "Quels types d’hallucinations peuvent être rencontrés en psychiatrie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Auditives",
+                "Visuelles",
+                "Cénesthésiques",
+                "Illusoires"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "La dépersonnalisation correspond à un trouble de la perception du corps et du sentiment d’identité.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels troubles relèvent de la cognition ? (Cochez les bonnes réponses)",
+            "options": [
+                "Troubles de l’attention",
+                "Troubles de la mémoire",
+                "Désorientation spatiale",
+                "Idées délirantes"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "L’asociabilité correspond à une difficulté ou incapacité à créer des liens sociaux.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels troubles peuvent affecter les affects et l’humeur ? (Cochez les bonnes réponses)",
+            "options": [
+                "Euphorie",
+                "Tristesse",
+                "Ambivalence affective",
+                "Hallucinations auditives"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "L’anhédonie correspond à une incapacité à éprouver du plaisir.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels états relèvent des troubles de l’activité ? (Cochez les bonnes réponses)",
+            "options": [
+                "Agitation psychomotrice",
+                "Stupeur",
+                "Raptus",
+                "Alogie"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Le raptus correspond à une impulsion soudaine, violente et souvent irrépressible.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Un délire est défini comme une croyance inébranlable reposant sur une perception fausse de la réalité.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels éléments font partie des caractéristiques cliniques du délire selon le moyen mnémotechnique TOMATE ? (Cochez les bonnes réponses)",
+            "options": [
+                "Thèmes",
+                "Organisation",
+                "Mécanismes",
+                "Traitement"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Un délire systématisé est généralement incohérent et difficilement compréhensible.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car un délire systématisé est structuré, cohérent et relativement logique."
+        },
+        {
+            "question": "Quels mécanismes délirants peuvent être observés ? (Cochez les bonnes réponses)",
+            "options": [
+                "Interprétation",
+                "Intuition",
+                "Hallucination",
+                "Rationalisation consciente"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "L’adhésion au délire correspond au degré de croyance du patient en son délire.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Un épisode délirant aigu correspond à une ancienneté des troubles supérieure à 6 mois.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car un épisode délirant aigu correspond à une durée inférieure à 6 mois."
+        },
+        {
+            "question": "Quels éléments relèvent de la tonalité affective du délire ? (Cochez les bonnes réponses)",
+            "options": [
+                "Angoisse",
+                "Euphorie",
+                "Affect dépressif",
+                "Orientation temporo-spatiale"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "La présence d’hallucinations associée à un délire peut augmenter le risque de passage à l’acte.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels éléments relèvent des troubles des fonctions instinctuelles ? (Cochez les bonnes réponses)",
+            "options": [
+                "Troubles du sommeil",
+                "Troubles de l’alimentation",
+                "Troubles de la sexualité",
+                "Hallucinations auditives"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "L’obnubilation correspond à un obscurcissement de l’état de conscience avec baisse de la vigilance.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels troubles relèvent des fonctions instrumentales ? (Cochez les bonnes réponses)",
+            "options": [
+                "Troubles des gnosies",
+                "Troubles des praxies",
+                "Difficultés de reconnaissance des objets",
+                "Délire de persécution"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "La fugue correspond à un comportement moteur complexe caractérisé par une errance ou une fuite parfois prolongée.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La claustration correspond à une agitation psychomotrice majeure avec désinhibition.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la claustration correspond à un repli et un enfermement volontaire, à l’opposé de l’agitation."
+        }
+    ]
+}

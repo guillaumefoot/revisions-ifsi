@@ -1,0 +1,384 @@
+{
+    "title": "UE 2.6 – De l’angoisse aux troubles anxieux",
+    "subtitle": "Définitions, classifications, sémiologie et prises en charge",
+    "questions": [
+        {
+            "question": "L’angoisse est un sentiment de peur ressenti en situation de danger.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "On parle de névrose d’angoisse lorsque l’angoisse apparaît exclusivement dans des situations réellement dangereuses.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la névrose d’angoisse correspond à une angoisse invalidante ou apparaissant en l’absence de danger réel."
+        },
+        {
+            "question": "Quels facteurs peuvent intervenir dans l’apparition des troubles anxieux ? (Cochez les bonnes réponses)",
+            "options": [
+                "Facteurs génétiques",
+                "Facteurs environnementaux",
+                "Facteurs sociaux",
+                "Cause infectieuse unique"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "L’anxiété devient un trouble psychiatrique lorsqu’elle provoque une détresse excessive et un dysfonctionnement.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels troubles font partie des troubles anxieux selon les classifications actuelles ? (Cochez les bonnes réponses)",
+            "options": [
+                "Anxiété généralisée",
+                "Attaque de panique",
+                "Trouble anxieux social",
+                "Schizophrénie"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Une attaque de panique correspond à une crise d’angoisse intense apparaissant brutalement et atteignant rapidement un maximum d’intensité.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Une attaque de panique nécessite obligatoirement un facteur déclenchant identifiable.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car une attaque de panique peut survenir de façon inattendue, sans facteur déclenchant évident."
+        },
+        {
+            "question": "Quels symptômes cognitifs peuvent être observés lors d’une attaque de panique ? (Cochez les bonnes réponses)",
+            "options": [
+                "Peur de mourir",
+                "Peur de devenir fou",
+                "Sentiment de dépersonnalisation",
+                "Hallucinations auditives persistantes"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Les symptômes somatiques d’une attaque de panique peuvent inclure des palpitations et des sueurs.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "L’agoraphobie correspond à la peur d’être seul, indépendamment du lieu.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car l’agoraphobie est la peur d’être dans des lieux ou situations dont il serait difficile de s’échapper ou d’obtenir de l’aide."
+        },
+        {
+            "question": "Quels lieux ou situations peuvent être redoutés dans l’agoraphobie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Transports en commun",
+                "Espaces ouverts",
+                "Lieux confinés",
+                "Présence d’un proche rassurant"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "L’agoraphobie peut conduire, dans les formes sévères, à un enfermement au domicile.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Le trouble d’anxiété sociale correspond à une peur disproportionnée des situations sociales ou de performance.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Dans la phobie sociale, la personne reconnaît généralement le caractère excessif de sa peur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels éléments caractérisent les phobies spécifiques ? (Cochez les bonnes réponses)",
+            "options": [
+                "Peurs intenses et persistantes",
+                "Évitement de l’objet ou de la situation",
+                "Absence totale de reconnaissance du caractère excessif",
+                "Anxiété déclenchée par un stimulus précis"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "Les causes des phobies spécifiques sont toujours clairement identifiées.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les causes des phobies spécifiques sont souvent inconnues."
+        },
+        {
+            "question": "Le trouble anxieux généralisé se caractérise par une anxiété excessive présente pendant au moins 6 mois.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels symptômes peuvent être associés au trouble anxieux généralisé ? (Cochez les bonnes réponses)",
+            "options": [
+                "Fatigabilité",
+                "Tension musculaire",
+                "Troubles du sommeil",
+                "Idées délirantes systématisées"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Le trouble anxieux généralisé se manifeste uniquement par des symptômes psychiques sans retentissement somatique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car le trouble anxieux généralisé associe des symptômes psychiques et somatiques."
+        },
+        {
+            "question": "Quels troubles sont regroupés dans la catégorie des troubles liés aux traumatismes et facteurs de stress ? (Cochez les bonnes réponses)",
+            "options": [
+                "Trouble de stress post-traumatique",
+                "Trouble de stress aigu",
+                "Trouble panique",
+                "Trouble obsessionnel compulsif"
+            ],
+            "correct": [
+                0,
+                1
+            ]
+        },
+        {
+            "question": "Le trouble de stress post-traumatique se caractérise par des souvenirs intrusifs et des conduites d’évitement.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les symptômes du trouble de stress post-traumatique apparaissent toujours immédiatement après l’événement traumatique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les symptômes peuvent apparaître de façon différée, parfois plusieurs mois après l’événement."
+        },
+        {
+            "question": "Quels types de prises en charge peuvent être proposés dans les troubles anxieux ? (Cochez les bonnes réponses)",
+            "options": [
+                "Psychothérapie cognitivo-comportementale",
+                "Thérapies d’exposition",
+                "Approches de relaxation",
+                "Absence totale de prise en charge"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Les troubles anxieux peuvent être influencés par des addictions ou des comorbidités somatiques.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "L’objectif principal de la prise en charge des troubles anxieux est uniquement la disparition complète de toute anxiété.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car l’objectif est une réduction de l’anxiété et une amélioration du fonctionnement et de la qualité de vie."
+        },
+        {
+            "question": "Le DSM-5 distingue les troubles anxieux des troubles obsessionnels compulsifs et des troubles liés aux traumatismes.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels troubles sont classés dans les troubles anxieux selon le DSM-5 ? (Cochez les bonnes réponses)",
+            "options": [
+                "Trouble anxieux généralisé",
+                "Anxiété de séparation",
+                "Mutisme sélectif",
+                "Trouble de stress post-traumatique"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "L’anxiété induite par une substance peut être favorisée par certaines addictions.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "L’anxiété de séparation concerne uniquement l’enfant et disparaît toujours à l’adolescence.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car l’anxiété de séparation peut persister ou apparaître à l’âge adulte."
+        },
+        {
+            "question": "Le mutisme sélectif se caractérise par une incapacité à parler dans certaines situations sociales malgré des capacités langagières normales.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels éléments peuvent évoquer un trouble anxieux induit par une substance ? (Cochez les bonnes réponses)",
+            "options": [
+                "Consommation de toxiques",
+                "Sevrage d’une substance",
+                "Symptômes anxieux apparus indépendamment de toute substance",
+                "Lien temporel avec la prise"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "Les thérapies complémentaires comme la sophrologie ou l’hypnose peuvent être proposées en complément des prises en charge classiques.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "L’objectif des prises en charge non médicamenteuses est uniquement d’éviter toute exposition aux situations anxiogènes.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les prises en charge visent aussi l’exposition progressive et l’apprentissage de stratégies d’adaptation."
+        }
+    ]
+}
