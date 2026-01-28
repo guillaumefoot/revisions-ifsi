@@ -1,0 +1,584 @@
+{
+    "title": "UE 2.6 – Traitements en psychiatrie",
+    "subtitle": "Classes thérapeutiques, indications et spécificités",
+    "questions": [
+        {
+            "question": "Les antidépresseurs ISRS agissent principalement sur la recapture de la sérotonine.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les antidépresseurs tricycliques sont aujourd’hui utilisés en première intention en raison de leur excellente tolérance.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les antidépresseurs tricycliques ont une tolérance plus faible et sont associés à davantage d’effets indésirables."
+        },
+        {
+            "question": "Quels médicaments appartiennent à la classe des ISRS ? (Cochez les bonnes réponses)",
+            "options": [
+                "Fluoxétine",
+                "Sertraline",
+                "Venlafaxine",
+                "Paroxétine"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "La venlafaxine est un antidépresseur de la classe des IRSNa.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les IMAO sont des antidépresseurs dépourvus d’interactions médicamenteuses.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les IMAO exposent à de nombreuses interactions médicamenteuses et alimentaires."
+        },
+        {
+            "question": "Quels antidépresseurs sont dits atypiques ? (Cochez les bonnes réponses)",
+            "options": [
+                "Agomélatine",
+                "Mirtazapine",
+                "Amitriptyline",
+                "Tianeptine"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "Les neuroleptiques sont principalement indiqués dans le traitement des troubles psychotiques.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les neuroleptiques atypiques sont dépourvus d’effets indésirables métaboliques.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car certains neuroleptiques atypiques peuvent entraîner une prise de poids et des troubles métaboliques."
+        },
+        {
+            "question": "Quels médicaments appartiennent à la classe des antipsychotiques ? (Cochez les bonnes réponses)",
+            "options": [
+                "Olanzapine",
+                "Halopéridol",
+                "Lithium",
+                "Quetiapine"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "Les antipsychotiques peuvent être utilisés sous forme d’injections retard.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les injections retard d’antipsychotiques se font par voie intraveineuse.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les formes retard d’antipsychotiques sont administrées par voie intramusculaire."
+        },
+        {
+            "question": "Quels médicaments existent sous forme injectable retard ? (Cochez les bonnes réponses)",
+            "options": [
+                "Risperdal Consta",
+                "Xeplion",
+                "Sertraline",
+                "Haldol Decanoas"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "Le lithium est un thymorégulateur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les thymorégulateurs sont utilisés uniquement dans la dépression unipolaire.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les thymorégulateurs sont principalement utilisés dans les troubles bipolaires."
+        },
+        {
+            "question": "Quels médicaments peuvent être utilisés comme thymorégulateurs ? (Cochez les bonnes réponses)",
+            "options": [
+                "Lithium",
+                "Valproate de sodium",
+                "Carbamazépine",
+                "Fluoxétine"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Les anxiolytiques benzodiazépines sont indiqués dans le traitement de l’anxiété.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les benzodiazépines peuvent entraîner une dépendance.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La buspirone est un anxiolytique non benzodiazépinique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les hypnotiques sont indiqués dans la prise en charge des troubles du sommeil.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels médicaments sont classés comme hypnotiques ? (Cochez les bonnes réponses)",
+            "options": [
+                "Zolpidem",
+                "Zopiclone",
+                "Hydroxyzine",
+                "Lithium"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Les antipsychotiques n’ont aucun rôle dans la prévention du passage à l’acte.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les antipsychotiques participent à la réduction des symptômes psychotiques et du risque de passage à l’acte."
+        },
+        {
+            "question": "La clozapine est réservée à certaines formes résistantes de troubles psychotiques.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels objectifs sont visés par les traitements psychotropes ? (Cochez les bonnes réponses)",
+            "options": [
+                "Réduction des symptômes",
+                "Prévention des rechutes",
+                "Amélioration du fonctionnement",
+                "Guérison définitive systématique"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Les traitements psychotropes ne nécessitent aucune surveillance clinique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car une surveillance clinique et biologique est nécessaire pour prévenir les effets indésirables."
+        },
+        {
+            "question": "Les traitements médicamenteux en psychiatrie peuvent être associés à une prise en charge psychothérapeutique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les ISRS sont généralement utilisés en première intention dans le traitement des épisodes dépressifs.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les antidépresseurs peuvent être arrêtés brutalement dès disparition des symptômes.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car l’arrêt brutal des antidépresseurs peut entraîner un syndrome de sevrage et un risque de rechute."
+        },
+        {
+            "question": "Les antidépresseurs peuvent nécessiter plusieurs semaines avant d’être pleinement efficaces.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les antipsychotiques sont indiqués uniquement dans la schizophrénie.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les antipsychotiques sont aussi utilisés dans les troubles bipolaires et certaines situations aiguës."
+        },
+        {
+            "question": "Les antipsychotiques atypiques sont souvent privilégiés pour leur meilleure tolérance neurologique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les injections retard d’antipsychotiques améliorent l’observance thérapeutique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les formes injectables retard sont réservées aux situations d’urgence immédiate.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les formes retard sont surtout utilisées dans le traitement au long cours pour améliorer l’observance."
+        },
+        {
+            "question": "La clozapine est indiquée dans certaines formes résistantes de schizophrénie.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les benzodiazépines sont dépourvues de tout risque de dépendance.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les benzodiazépines exposent à un risque de dépendance et de tolérance."
+        },
+        {
+            "question": "Les hypnotiques doivent être utilisés sur des durées limitées.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les thymorégulateurs jouent un rôle central dans la prévention des rechutes du trouble bipolaire.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Les thymorégulateurs sont inutiles en phase maniaque.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car les thymorégulateurs sont utilisés aussi bien en phase aiguë qu’en prévention."
+        },
+        {
+            "question": "Quels objectifs justifient l’utilisation d’un traitement antipsychotique au long cours ? (Cochez les bonnes réponses)",
+            "options": [
+                "Prévenir les rechutes",
+                "Réduire les symptômes psychotiques",
+                "Améliorer l’observance thérapeutique",
+                "Guérir définitivement la pathologie"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels éléments peuvent orienter le choix d’un antidépresseur ? (Cochez les bonnes réponses)",
+            "options": [
+                "Profil d’effets indésirables",
+                "Antécédents du patient",
+                "Tolérance individuelle",
+                "Couleur du comprimé"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels médicaments peuvent être utilisés comme antipsychotiques ? (Cochez les bonnes réponses)",
+            "options": [
+                "Quetiapine",
+                "Olanzapine",
+                "Lithium",
+                "Halopéridol"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "Quels bénéfices sont attendus d’une association thymorégulateur et antipsychotique ? (Cochez les bonnes réponses)",
+            "options": [
+                "Stabilisation de l’humeur",
+                "Réduction des symptômes psychotiques",
+                "Prévention des rechutes",
+                "Suppression immédiate de tous les symptômes"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels risques doivent être surveillés lors d’un traitement par antipsychotiques ? (Cochez les bonnes réponses)",
+            "options": [
+                "Effets métaboliques",
+                "Troubles neurologiques",
+                "Syndrome extrapyramidal",
+                "Amélioration trop rapide de l’humeur"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels éléments relèvent de la surveillance infirmière sous benzodiazépines ? (Cochez les bonnes réponses)",
+            "options": [
+                "Sédation excessive",
+                "Risque de chute",
+                "Dépendance",
+                "Amélioration définitive de l’anxiété"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels médicaments peuvent être classés comme thymorégulateurs ? (Cochez les bonnes réponses)",
+            "options": [
+                "Lithium",
+                "Valproate de sodium",
+                "Carbamazépine",
+                "Sertraline"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels éléments expliquent l’intérêt des traitements injectables retard ? (Cochez les bonnes réponses)",
+            "options": [
+                "Amélioration de l’observance",
+                "Diminution du risque de rechute",
+                "Administration quotidienne obligatoire",
+                "Meilleure continuité des soins"
+            ],
+            "correct": [
+                0,
+                1,
+                3
+            ]
+        },
+        {
+            "question": "Quels traitements peuvent être associés à une prise en charge psychothérapeutique ? (Cochez les bonnes réponses)",
+            "options": [
+                "Antidépresseurs",
+                "Antipsychotiques",
+                "Thymorégulateurs",
+                "Aucun traitement médicamenteux"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels objectifs relèvent de la stratégie thérapeutique globale en psychiatrie ? (Cochez les bonnes réponses)",
+            "options": [
+                "Réduction des symptômes",
+                "Prévention du passage à l’acte",
+                "Amélioration de la qualité de vie",
+                "Guérison immédiate sans suivi"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels facteurs peuvent conduire à une adaptation du traitement psychotrope ? (Cochez les bonnes réponses)",
+            "options": [
+                "Tolérance insuffisante",
+                "Efficacité partielle",
+                "Évolution clinique",
+                "Stabilité prolongée sans suivi"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels éléments doivent être expliqués au patient lors de l’instauration d’un traitement psychotrope ? (Cochez les bonnes réponses)",
+            "options": [
+                "Objectifs du traitement",
+                "Délai d’action",
+                "Effets indésirables possibles",
+                "Absence totale de surveillance"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        }
+    ]
+}

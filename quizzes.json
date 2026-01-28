@@ -1,32 +1,37 @@
 [
-  {
-    "name": "UE 2.6 – De l’angoisse aux troubles anxieux",
-    "subtitle": "Définitions, classifications, sémiologie et prises en charge",
-    "file": "data/2.6_ANXIETE.json"
-  },
-  {
-    "name": "UE 2.6 – Termes psychiatriques",
-    "subtitle": "Glossaire – définitions fondamentales",
-    "file": "data/2.6_DEFINITION.json"
-  },
-  {
-    "name": "UE 2.6 – Les modes d’hospitalisation en psychiatrie",
-    "subtitle": "Cadre légal, procédures et rôle des acteurs",
-    "file": "data/2.6_HOSPITALISATION.json"
-  },
-  {
-    "name": "UE 2.6 – Troubles de l’humeur",
-    "subtitle": "Définitions, sémiologie, formes cliniques et prise en charge",
-    "file": "data/2.6_HUMEUR.json"
-  },
-  {
-    "name": "UE 2.6 – Introduction à la schizophrénie",
-    "subtitle": "Bases cliniques, sémiologie, étiologie et prise en charge",
-    "file": "data/2.6_SCHIZO.json"
-  },
-  {
-    "name": "UE 2.6 – Sémiologie en psychiatrie",
-    "subtitle": "Signes, symptômes, syndromes et sémiologie du délire",
-    "file": "data/2.6_SEMIOLOGIE.json"
-  }
+    {
+        "name": "UE 2.6 – De l’angoisse aux troubles anxieux",
+        "subtitle": "Définitions, classifications, sémiologie et prises en charge",
+        "file": "data/2.6_ANXIETE.json"
+    },
+    {
+        "name": "UE 2.6 – Termes psychiatriques",
+        "subtitle": "Glossaire – définitions fondamentales",
+        "file": "data/2.6_DEFINITION.json"
+    },
+    {
+        "name": "UE 2.6 – Les modes d’hospitalisation en psychiatrie",
+        "subtitle": "Cadre légal, procédures et rôle des acteurs",
+        "file": "data/2.6_HOSPITALISATION.json"
+    },
+    {
+        "name": "UE 2.6 – Troubles de l’humeur",
+        "subtitle": "Définitions, sémiologie, formes cliniques et prise en charge",
+        "file": "data/2.6_HUMEUR.json"
+    },
+    {
+        "name": "UE 2.6 – Introduction à la schizophrénie",
+        "subtitle": "Bases cliniques, sémiologie, étiologie et prise en charge",
+        "file": "data/2.6_SCHIZO.json"
+    },
+    {
+        "name": "UE 2.6 – Sémiologie en psychiatrie",
+        "subtitle": "Signes, symptômes, syndromes et sémiologie du délire",
+        "file": "data/2.6_SEMIOLOGIE.json"
+    },
+    {
+        "name": "UE 2.6 – Traitements en psychiatrie",
+        "subtitle": "Classes thérapeutiques, stratégies, sécurité et spécificités cliniques",
+        "file": "data/2.6_TRAITEMENT.json"
+    }
 ]
