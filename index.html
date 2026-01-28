@@ -335,7 +335,7 @@
             <button id="continue-btn" class="btn btn-next" style="display:none;"
                 onclick="startSession()">Continuer</button>
 
-            <button class="btn" onclick="startSession()">Recommencer cette série</button>
+            <button class="btn" onclick="restartSameSession()">Recommencer cette série</button>
             <button class="btn" style="background-color:#95a5a6; margin-top:15px;" onclick="location.reload()">Choisir
                 un autre sujet</button>
         </div>
@@ -347,6 +347,8 @@
         let fullQuestionPool = [];
         let remainingQuestions = [];
         let currentSession = [];
+        let lastSession = [];
+        let lastSessionRemainingSnapshot = [];
         let currentIndex = 0;
         let score = 0;
         let startTime = 0;
@@ -447,6 +449,33 @@
 
             currentSession = remainingQuestions.slice(0, n);
             remainingQuestions = remainingQuestions.slice(n);
+
+            // Sauvegarde pour "Recommencer"
+            lastSession = currentSession;
+            lastSessionRemainingSnapshot = remainingQuestions;
+
+            currentIndex = 0;
+            score = 0;
+            startTime = new Date();
+
+            document.getElementById('result-screen').style.display = 'none';
+            document.getElementById('quiz-container').innerHTML = '';
+            document.getElementById('progress').style.display = 'block';
+            document.getElementById('quiz-container').style.display = 'block';
+
+            showQuestion();
+        }
+
+        function restartSameSession() {
+            if (!lastSession || lastSession.length === 0) {
+                // fallback
+                startSession();
+                return;
+            }
+
+            // On restaure le même bloc + le même restant
+            currentSession = lastSession;
+            remainingQuestions = lastSessionRemainingSnapshot;
 
             currentIndex = 0;
             score = 0;
