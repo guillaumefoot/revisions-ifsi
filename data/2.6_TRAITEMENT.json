@@ -579,6 +579,551 @@
                 1,
                 2
             ]
+        },
+        {
+            "question": "Brintellix® correspond à la DCI vortioxétine.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La vortioxétine est commercialisée sous le nom de Brintellix®.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Laroxyl® correspond à l’amitriptyline.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "L’amitriptyline est un neuroleptique utilisé dans les troubles psychotiques.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car l’amitriptyline est un antidépresseur tricyclique et non un neuroleptique."
+        },
+        {
+            "question": "Cymbalta® correspond à la duloxétine.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La duloxétine est un antidépresseur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Norset® correspond à la mirtazapine.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La mirtazapine est un neuroleptique sédatif.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la mirtazapine est un antidépresseur atypique et non un neuroleptique."
+        },
+        {
+            "question": "Deroxat® correspond à la paroxétine.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La paroxétine est un antidépresseur de la classe des ISRS.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Zoloft® correspond à la sertraline.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La sertraline est un neuroleptique utilisé dans la schizophrénie.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la sertraline est un antidépresseur de la classe des ISRS."
+        },
+        {
+            "question": "Quels traitements sont des antidépresseurs ?",
+            "options": [
+                "Brintellix®",
+                "Laroxyl®",
+                "Zoloft®",
+                "Haldol®"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels médicaments correspondent à des antidépresseurs utilisés couramment en service ?",
+            "options": [
+                "Cymbalta®",
+                "Norset®",
+                "Deroxat®",
+                "Risperdal®"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels couples spécialité / DCI sont corrects ?",
+            "options": [
+                "Brintellix® – vortioxétine",
+                "Zoloft® – sertraline",
+                "Deroxat® – paroxétine",
+                "Cymbalta® – fluoxétine"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Zyprexa® correspond à l’olanzapine.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "L’olanzapine est commercialisée sous le nom de Zyprexa®.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Xeroquel® correspond à la quetiapine.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La quetiapine est un antidépresseur utilisé dans les troubles anxieux.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la quetiapine est un neuroleptique (antipsychotique), même si elle peut être utilisée dans certains troubles de l’humeur."
+        },
+        {
+            "question": "Haldol® est un neuroleptique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Loxapac® est un antidépresseur tricyclique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car Loxapac® est un neuroleptique utilisé dans les états d’agitation ou psychotiques."
+        },
+        {
+            "question": "Tiapridal® est un neuroleptique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Tercian® est utilisé comme neuroleptique sédatif.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Abilify® correspond à l’aripiprazole.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Solian® est un neuroleptique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels traitements sont des neuroleptiques ?",
+            "options": [
+                "Zyprexa®",
+                "Xeroquel®",
+                "Haldol®",
+                "Deroxat®"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels médicaments sont des neuroleptiques utilisés couramment en service ?",
+            "options": [
+                "Loxapac®",
+                "Tiapridal®",
+                "Tercian®",
+                "Zoloft®"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels couples spécialité / DCI sont corrects ?",
+            "options": [
+                "Zyprexa® – olanzapine",
+                "Xeroquel® – quetiapine",
+                "Abilify® – aripiprazole",
+                "Solian® – sertraline"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Haldol® peut être confondu avec un antidépresseur en raison de son effet sédatif.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car Haldol® est un neuroleptique, même si son effet sédatif peut prêter à confusion."
+        },
+        {
+            "question": "Xeroquel® et Zyprexa® appartiennent à la classe des neuroleptiques.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Depamide® correspond au valproate de sodium.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Le valproate de sodium est un thymorégulateur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Depakote® est un antidépresseur tricyclique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car Depakote® est un thymorégulateur à base de valproate de sodium."
+        },
+        {
+            "question": "Tegretol® correspond à la carbamazépine.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La carbamazépine peut être utilisée comme thymorégulateur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Xeroquel® correspond à la quetiapine.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La quetiapine est uniquement un antidépresseur.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la quetiapine est un neuroleptique pouvant être utilisé comme thymorégulateur."
+        },
+        {
+            "question": "Abilify® est un thymorégulateur utilisé dans les troubles bipolaires.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Temesta® correspond au lorazépam.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Le lorazépam est un anxiolytique de la famille des benzodiazépines.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Valium® correspond au diazépam.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La buspirone est une benzodiazépine.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                1
+            ],
+            "explanation": "C'est Faux car la buspirone est un anxiolytique non benzodiazépinique."
+        },
+        {
+            "question": "Lexomil® est un anxiolytique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Imovane® correspond à la zopiclone.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "La zopiclone est un hypnotique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Théralène® est utilisé comme hypnotique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Quels traitements sont des thymorégulateurs ?",
+            "options": [
+                "Depamide®",
+                "Tegretol®",
+                "Xeroquel®",
+                "Zoloft®"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels traitements sont des anxiolytiques ?",
+            "options": [
+                "Temesta®",
+                "Valium®",
+                "Lexomil®",
+                "Imovane®"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "Quels traitements sont des hypnotiques ?",
+            "options": [
+                "Imovane®",
+                "Théralène®",
+                "Stilnox®",
+                "Deroxat®"
+            ],
+            "correct": [
+                0,
+                1,
+                2
+            ]
+        },
+        {
+            "question": "La confusion entre anxiolytique et hypnotique est fréquente en pratique clinique.",
+            "options": [
+                "Vrai",
+                "Faux"
+            ],
+            "correct": [
+                0
+            ]
         }
     ]
 }
