@@ -24,7 +24,7 @@
             "explanation": "C'est Faux car l’humeur dépressive s’accompagne de symptômes multiples comme l’anhédonie, la fatigue, les troubles du sommeil ou les idées suicidaires."
         },
         {
-            "question": "Quels symptômes peuvent être observés lors d’un épisode dépressif ? (Cochez les bonnes réponses)",
+            "question": "Quels symptômes peuvent être observés lors d’un épisode dépressif ?",
             "options": [
                 "Anhédonie",
                 "Ralentissement psychomoteur",
@@ -58,7 +58,7 @@
             ]
         },
         {
-            "question": "Quels signes sont caractéristiques d’un épisode maniaque ? (Cochez les bonnes réponses)",
+            "question": "Quels signes sont caractéristiques d’un épisode maniaque ?",
             "options": [
                 "Réduction du besoin de sommeil",
                 "Fuite des idées",
@@ -103,7 +103,7 @@
             "explanation": "C'est Faux car les épisodes maniaques et dépressifs alternent le plus souvent, même si des états mixtes peuvent exister."
         },
         {
-            "question": "Quels symptômes peuvent être communs aux épisodes dépressifs et maniaques ? (Cochez les bonnes réponses)",
+            "question": "Quels symptômes peuvent être communs aux épisodes dépressifs et maniaques ?",
             "options": [
                 "Troubles du sommeil",
                 "Troubles de l’appétit",
@@ -127,7 +127,7 @@
             ]
         },
         {
-            "question": "Quels signes sont fréquemment retrouvés dans la mélancolie délirante ? (Cochez les bonnes réponses)",
+            "question": "Quels signes sont fréquemment retrouvés dans la mélancolie délirante ?",
             "options": [
                 "Anxiété majeure",
                 "Inhibition psychomotrice",
@@ -151,7 +151,7 @@
             ]
         },
         {
-            "question": "Quelles substances peuvent être impliquées dans des troubles de l’humeur induits ? (Cochez les bonnes réponses)",
+            "question": "Quelles substances peuvent être impliquées dans des troubles de l’humeur induits ?",
             "options": [
                 "Cannabis",
                 "Alcool",
@@ -175,7 +175,7 @@
             ]
         },
         {
-            "question": "Quels facteurs déclencheurs des troubles de l’humeur sont reconnus ? (Cochez les bonnes réponses)",
+            "question": "Quels facteurs déclencheurs des troubles de l’humeur sont reconnus ?",
             "options": [
                 "Facteurs environnementaux",
                 "Facteurs sociaux",
@@ -200,7 +200,7 @@
             "explanation": "C'est Faux car les troubles de l’humeur ont souvent un retentissement majeur sur la vie sociale, familiale et professionnelle."
         },
         {
-            "question": "Quels traitements peuvent être proposés dans les troubles de l’humeur ? (Cochez les bonnes réponses)",
+            "question": "Quels traitements peuvent être proposés dans les troubles de l’humeur ?",
             "options": [
                 "Traitements médicamenteux",
                 "Psychothérapie",
@@ -224,7 +224,7 @@
             ]
         },
         {
-            "question": "Quels éléments peuvent être évalués pour mesurer l’impact du traitement des troubles de l’humeur ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments peuvent être évalués pour mesurer l’impact du traitement des troubles de l’humeur ?",
             "options": [
                 "Fonctionnement psychosocial",
                 "Symptômes cliniques",
@@ -301,7 +301,7 @@
             "explanation": "C'est Faux car la dysthymie correspond à une humeur dépressive chronique sans épisode maniaque."
         },
         {
-            "question": "Quels éléments différencient la névrose de la psychose ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments différencient la névrose de la psychose ?",
             "options": [
                 "Rapport à la réalité conservé dans la névrose",
                 "Transformation de la réalité dans la psychose",
@@ -315,7 +315,7 @@
             ]
         },
         {
-            "question": "Quels éléments composent l’appareil psychique selon le modèle psychanalytique ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments composent l’appareil psychique selon le modèle psychanalytique ?",
             "options": [
                 "Moi",
                 "Ça",

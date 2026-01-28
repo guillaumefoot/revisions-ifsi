@@ -24,7 +24,7 @@
             "explanation": "C'est Faux car le symptôme correspond à ce que le patient décrit ou ressent, même s’il peut parfois être observable."
         },
         {
-            "question": "Quels éléments relèvent des troubles de la présentation et du comportement ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments relèvent des troubles de la présentation et du comportement ?",
             "options": [
                 "Incurie",
                 "Scarifications",
@@ -49,7 +49,7 @@
             "explanation": "C'est Faux car la logorrhée correspond à un débit de paroles très élevé et difficilement interrompable."
         },
         {
-            "question": "Quels troubles peuvent affecter le discours et le langage ? (Cochez les bonnes réponses)",
+            "question": "Quels troubles peuvent affecter le discours et le langage ?",
             "options": [
                 "Mutisme",
                 "Bradyphémie",
@@ -73,7 +73,7 @@
             ]
         },
         {
-            "question": "Quels éléments relèvent des troubles de la pensée ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments relèvent des troubles de la pensée ?",
             "options": [
                 "Fuite des idées",
                 "Bradypsychie",
@@ -98,7 +98,7 @@
             "explanation": "C'est Faux car l’illusion est une perception réelle mais déformée d’un stimulus existant."
         },
         {
-            "question": "Quels types d’hallucinations peuvent être rencontrés en psychiatrie ? (Cochez les bonnes réponses)",
+            "question": "Quels types d’hallucinations peuvent être rencontrés en psychiatrie ?",
             "options": [
                 "Auditives",
                 "Visuelles",
@@ -122,7 +122,7 @@
             ]
         },
         {
-            "question": "Quels troubles relèvent de la cognition ? (Cochez les bonnes réponses)",
+            "question": "Quels troubles relèvent de la cognition ?",
             "options": [
                 "Troubles de l’attention",
                 "Troubles de la mémoire",
@@ -146,7 +146,7 @@
             ]
         },
         {
-            "question": "Quels troubles peuvent affecter les affects et l’humeur ? (Cochez les bonnes réponses)",
+            "question": "Quels troubles peuvent affecter les affects et l’humeur ?",
             "options": [
                 "Euphorie",
                 "Tristesse",
@@ -170,7 +170,7 @@
             ]
         },
         {
-            "question": "Quels états relèvent des troubles de l’activité ? (Cochez les bonnes réponses)",
+            "question": "Quels états relèvent des troubles de l’activité ?",
             "options": [
                 "Agitation psychomotrice",
                 "Stupeur",
@@ -204,7 +204,7 @@
             ]
         },
         {
-            "question": "Quels éléments font partie des caractéristiques cliniques du délire selon le moyen mnémotechnique TOMATE ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments font partie des caractéristiques cliniques du délire selon le moyen mnémotechnique TOMATE ?",
             "options": [
                 "Thèmes",
                 "Organisation",
@@ -229,7 +229,7 @@
             "explanation": "C'est Faux car un délire systématisé est structuré, cohérent et relativement logique."
         },
         {
-            "question": "Quels mécanismes délirants peuvent être observés ? (Cochez les bonnes réponses)",
+            "question": "Quels mécanismes délirants peuvent être observés ?",
             "options": [
                 "Interprétation",
                 "Intuition",
@@ -264,7 +264,7 @@
             "explanation": "C'est Faux car un épisode délirant aigu correspond à une durée inférieure à 6 mois."
         },
         {
-            "question": "Quels éléments relèvent de la tonalité affective du délire ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments relèvent de la tonalité affective du délire ?",
             "options": [
                 "Angoisse",
                 "Euphorie",
@@ -288,7 +288,7 @@
             ]
         },
         {
-            "question": "Quels éléments relèvent des troubles des fonctions instinctuelles ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments relèvent des troubles des fonctions instinctuelles ?",
             "options": [
                 "Troubles du sommeil",
                 "Troubles de l’alimentation",
@@ -312,7 +312,7 @@
             ]
         },
         {
-            "question": "Quels troubles relèvent des fonctions instrumentales ? (Cochez les bonnes réponses)",
+            "question": "Quels troubles relèvent des fonctions instrumentales ?",
             "options": [
                 "Troubles des gnosies",
                 "Troubles des praxies",

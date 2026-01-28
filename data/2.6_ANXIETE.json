@@ -24,7 +24,7 @@
             "explanation": "C'est Faux car la névrose d’angoisse correspond à une angoisse invalidante ou apparaissant en l’absence de danger réel."
         },
         {
-            "question": "Quels facteurs peuvent intervenir dans l’apparition des troubles anxieux ? (Cochez les bonnes réponses)",
+            "question": "Quels facteurs peuvent intervenir dans l’apparition des troubles anxieux ?",
             "options": [
                 "Facteurs génétiques",
                 "Facteurs environnementaux",
@@ -48,7 +48,7 @@
             ]
         },
         {
-            "question": "Quels troubles font partie des troubles anxieux selon les classifications actuelles ? (Cochez les bonnes réponses)",
+            "question": "Quels troubles font partie des troubles anxieux selon les classifications actuelles ?",
             "options": [
                 "Anxiété généralisée",
                 "Attaque de panique",
@@ -83,7 +83,7 @@
             "explanation": "C'est Faux car une attaque de panique peut survenir de façon inattendue, sans facteur déclenchant évident."
         },
         {
-            "question": "Quels symptômes cognitifs peuvent être observés lors d’une attaque de panique ? (Cochez les bonnes réponses)",
+            "question": "Quels symptômes cognitifs peuvent être observés lors d’une attaque de panique ?",
             "options": [
                 "Peur de mourir",
                 "Peur de devenir fou",
@@ -118,7 +118,7 @@
             "explanation": "C'est Faux car l’agoraphobie est la peur d’être dans des lieux ou situations dont il serait difficile de s’échapper ou d’obtenir de l’aide."
         },
         {
-            "question": "Quels lieux ou situations peuvent être redoutés dans l’agoraphobie ? (Cochez les bonnes réponses)",
+            "question": "Quels lieux ou situations peuvent être redoutés dans l’agoraphobie ?",
             "options": [
                 "Transports en commun",
                 "Espaces ouverts",
@@ -162,7 +162,7 @@
             ]
         },
         {
-            "question": "Quels éléments caractérisent les phobies spécifiques ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments caractérisent les phobies spécifiques ?",
             "options": [
                 "Peurs intenses et persistantes",
                 "Évitement de l’objet ou de la situation",
@@ -197,7 +197,7 @@
             ]
         },
         {
-            "question": "Quels symptômes peuvent être associés au trouble anxieux généralisé ? (Cochez les bonnes réponses)",
+            "question": "Quels symptômes peuvent être associés au trouble anxieux généralisé ?",
             "options": [
                 "Fatigabilité",
                 "Tension musculaire",
@@ -222,7 +222,7 @@
             "explanation": "C'est Faux car le trouble anxieux généralisé associe des symptômes psychiques et somatiques."
         },
         {
-            "question": "Quels troubles sont regroupés dans la catégorie des troubles liés aux traumatismes et facteurs de stress ? (Cochez les bonnes réponses)",
+            "question": "Quels troubles sont regroupés dans la catégorie des troubles liés aux traumatismes et facteurs de stress ?",
             "options": [
                 "Trouble de stress post-traumatique",
                 "Trouble de stress aigu",
@@ -256,7 +256,7 @@
             "explanation": "C'est Faux car les symptômes peuvent apparaître de façon différée, parfois plusieurs mois après l’événement."
         },
         {
-            "question": "Quels types de prises en charge peuvent être proposés dans les troubles anxieux ? (Cochez les bonnes réponses)",
+            "question": "Quels types de prises en charge peuvent être proposés dans les troubles anxieux ?",
             "options": [
                 "Psychothérapie cognitivo-comportementale",
                 "Thérapies d’exposition",
@@ -301,7 +301,7 @@
             ]
         },
         {
-            "question": "Quels troubles sont classés dans les troubles anxieux selon le DSM-5 ? (Cochez les bonnes réponses)",
+            "question": "Quels troubles sont classés dans les troubles anxieux selon le DSM-5 ?",
             "options": [
                 "Trouble anxieux généralisé",
                 "Anxiété de séparation",
@@ -346,7 +346,7 @@
             ]
         },
         {
-            "question": "Quels éléments peuvent évoquer un trouble anxieux induit par une substance ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments peuvent évoquer un trouble anxieux induit par une substance ?",
             "options": [
                 "Consommation de toxiques",
                 "Sevrage d’une substance",

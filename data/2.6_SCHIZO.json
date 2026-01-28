@@ -24,7 +24,7 @@
             "explanation": "C'est Faux car la schizophrénie correspond à un fractionnement de l’esprit et non à une double personnalité."
         },
         {
-            "question": "Quels éléments font partie des symptômes positifs de la schizophrénie ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments font partie des symptômes positifs de la schizophrénie ?",
             "options": [
                 "Hallucinations",
                 "Idées délirantes",
@@ -59,7 +59,7 @@
             "explanation": "C'est Faux car les symptômes négatifs correspondent à une diminution ou une perte des fonctions psychiques normales."
         },
         {
-            "question": "Quels symptômes font partie des symptômes négatifs de la schizophrénie ? (Cochez les bonnes réponses)",
+            "question": "Quels symptômes font partie des symptômes négatifs de la schizophrénie ?",
             "options": [
                 "Avolition",
                 "Hallucinations auditives",
@@ -94,7 +94,7 @@
             "explanation": "C'est Faux car le délire paranoïaque est habituellement structuré, cohérent et souvent monothématique."
         },
         {
-            "question": "Quels types de délires peuvent être observés dans la schizophrénie ? (Cochez les bonnes réponses)",
+            "question": "Quels types de délires peuvent être observés dans la schizophrénie ?",
             "options": [
                 "Délire de persécution",
                 "Délire mystique",
@@ -120,7 +120,7 @@
             "explanation": "C'est Faux car l’asociabilité correspond au repli sur soi et à la difficulté à créer des liens sociaux."
         },
         {
-            "question": "Quels éléments relèvent des troubles cognitifs associés à la schizophrénie ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments relèvent des troubles cognitifs associés à la schizophrénie ?",
             "options": [
                 "Troubles de l’attention",
                 "Troubles de la mémoire",
@@ -155,7 +155,7 @@
             "explanation": "C'est Faux car la prévalence est estimée à environ 0,7 % de la population mondiale."
         },
         {
-            "question": "Quels facteurs étiologiques sont évoqués dans la schizophrénie ? (Cochez les bonnes réponses)",
+            "question": "Quels facteurs étiologiques sont évoqués dans la schizophrénie ?",
             "options": [
                 "Hypothèse génétique",
                 "Hypothèse neurobiochimique",
@@ -190,7 +190,7 @@
             "explanation": "C'est Faux car la schizophrénie est une maladie ubiquitaire, présente dans toutes les cultures."
         },
         {
-            "question": "Quels critères participent au diagnostic de la schizophrénie ? (Cochez les bonnes réponses)",
+            "question": "Quels critères participent au diagnostic de la schizophrénie ?",
             "options": [
                 "Symptômes positifs",
                 "Symptômes négatifs",
@@ -224,7 +224,7 @@
             ]
         },
         {
-            "question": "Quels traitements peuvent être utilisés dans la prise en charge de la schizophrénie ? (Cochez les bonnes réponses)",
+            "question": "Quels traitements peuvent être utilisés dans la prise en charge de la schizophrénie ?",
             "options": [
                 "Antipsychotiques",
                 "Psychothérapie",
@@ -259,7 +259,7 @@
             ]
         },
         {
-            "question": "Quels éléments peuvent être évalués pour mesurer l’impact des traitements dans la schizophrénie ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments peuvent être évalués pour mesurer l’impact des traitements dans la schizophrénie ?",
             "options": [
                 "Fonctionnement psychosocial",
                 "Symptômes positifs et négatifs",
@@ -315,7 +315,7 @@
             "explanation": "C'est Faux car le clivage empêche l’intégration des éléments contradictoires et maintient une séparation rigide."
         },
         {
-            "question": "Quels phénomènes relèvent de l’automatisme mental ? (Cochez les bonnes réponses)",
+            "question": "Quels phénomènes relèvent de l’automatisme mental ?",
             "options": [
                 "Écho de la pensée",
                 "Vol de la pensée",
@@ -339,7 +339,7 @@
             ]
         },
         {
-            "question": "Quels éléments caractérisent les troubles schizoaffectifs ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments caractérisent les troubles schizoaffectifs ?",
             "options": [
                 "Association de symptômes schizophréniques et thymiques",
                 "Présence exclusive de symptômes dépressifs",
@@ -362,7 +362,7 @@
             ]
         },
         {
-            "question": "Quels objectifs relèvent de la réhabilitation psychosociale dans la schizophrénie ? (Cochez les bonnes réponses)",
+            "question": "Quels objectifs relèvent de la réhabilitation psychosociale dans la schizophrénie ?",
             "options": [
                 "Amélioration de l’autonomie",
                 "Insertion sociale",
@@ -397,7 +397,7 @@
             "explanation": "C'est Faux car l’empowerment vise au contraire à renforcer le pouvoir d’agir et l’autonomie du patient."
         },
         {
-            "question": "Quels éléments font partie de l’évaluation globale du rétablissement en santé mentale ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments font partie de l’évaluation globale du rétablissement en santé mentale ?",
             "options": [
                 "Qualité de vie",
                 "Fonctionnement psychosocial",

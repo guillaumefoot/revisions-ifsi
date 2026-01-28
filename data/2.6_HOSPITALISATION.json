@@ -23,7 +23,7 @@
             ]
         },
         {
-            "question": "Quels modes de soins psychiatriques sans consentement existent ? (Cochez les bonnes réponses)",
+            "question": "Quels modes de soins psychiatriques sans consentement existent ?",
             "options": [
                 "Soins psychiatriques à la demande d’un tiers",
                 "Soins psychiatriques en cas de péril imminent",
@@ -68,7 +68,7 @@
             "explanation": "C'est Faux car en situation d’urgence (SPDTU), un seul certificat médical peut suffire."
         },
         {
-            "question": "Quels acteurs peuvent être considérés comme un tiers demandeur ? (Cochez les bonnes réponses)",
+            "question": "Quels acteurs peuvent être considérés comme un tiers demandeur ?",
             "options": [
                 "Un membre de la famille",
                 "Un proche ayant des relations antérieures avec le patient",
@@ -113,7 +113,7 @@
             ]
         },
         {
-            "question": "Quels documents sont requis pour l’admission en soins psychiatriques à la demande d’un tiers ? (Cochez les bonnes réponses)",
+            "question": "Quels documents sont requis pour l’admission en soins psychiatriques à la demande d’un tiers ?",
             "options": [
                 "Demande écrite du tiers",
                 "Certificats médicaux circonstanciés",
@@ -147,7 +147,7 @@
             ]
         },
         {
-            "question": "Quels délais encadrent la période d’observation initiale ? (Cochez les bonnes réponses)",
+            "question": "Quels délais encadrent la période d’observation initiale ?",
             "options": [
                 "Certificat médical dans les 24 heures",
                 "Certificat médical dans les 72 heures",
@@ -180,7 +180,7 @@
             ]
         },
         {
-            "question": "Quels acteurs peuvent être à l’origine d’une admission en soins psychiatriques sur décision du représentant de l’État ? (Cochez les bonnes réponses)",
+            "question": "Quels acteurs peuvent être à l’origine d’une admission en soins psychiatriques sur décision du représentant de l’État ?",
             "options": [
                 "Le maire",
                 "Le préfet",
@@ -214,7 +214,7 @@
             ]
         },
         {
-            "question": "Quels acteurs peuvent saisir le juge des libertés et de la détention ? (Cochez les bonnes réponses)",
+            "question": "Quels acteurs peuvent saisir le juge des libertés et de la détention ?",
             "options": [
                 "Le patient",
                 "Un proche ou un tiers",
@@ -249,7 +249,7 @@
             "explanation": "C'est Faux car le programme de soins peut inclure des soins ambulatoires, des consultations ou des hospitalisations partielles."
         },
         {
-            "question": "Quels éléments peuvent faire partie d’un programme de soins ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments peuvent faire partie d’un programme de soins ?",
             "options": [
                 "Consultations régulières",
                 "Traitement médicamenteux",
@@ -293,7 +293,7 @@
             ]
         },
         {
-            "question": "Quels éléments doivent être portés à la connaissance du patient hospitalisé sans consentement ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments doivent être portés à la connaissance du patient hospitalisé sans consentement ?",
             "options": [
                 "Les motifs de la mesure",
                 "Les voies de recours possibles",
