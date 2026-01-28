@@ -24,7 +24,7 @@
             "explanation": "C'est Faux car les antidépresseurs tricycliques ont une tolérance plus faible et sont associés à davantage d’effets indésirables."
         },
         {
-            "question": "Quels médicaments appartiennent à la classe des ISRS ? (Cochez les bonnes réponses)",
+            "question": "Quels médicaments appartiennent à la classe des ISRS ?",
             "options": [
                 "Fluoxétine",
                 "Sertraline",
@@ -59,7 +59,7 @@
             "explanation": "C'est Faux car les IMAO exposent à de nombreuses interactions médicamenteuses et alimentaires."
         },
         {
-            "question": "Quels antidépresseurs sont dits atypiques ? (Cochez les bonnes réponses)",
+            "question": "Quels antidépresseurs sont dits atypiques ?",
             "options": [
                 "Agomélatine",
                 "Mirtazapine",
@@ -94,7 +94,7 @@
             "explanation": "C'est Faux car certains neuroleptiques atypiques peuvent entraîner une prise de poids et des troubles métaboliques."
         },
         {
-            "question": "Quels médicaments appartiennent à la classe des antipsychotiques ? (Cochez les bonnes réponses)",
+            "question": "Quels médicaments appartiennent à la classe des antipsychotiques ?",
             "options": [
                 "Olanzapine",
                 "Halopéridol",
@@ -129,7 +129,7 @@
             "explanation": "C'est Faux car les formes retard d’antipsychotiques sont administrées par voie intramusculaire."
         },
         {
-            "question": "Quels médicaments existent sous forme injectable retard ? (Cochez les bonnes réponses)",
+            "question": "Quels médicaments existent sous forme injectable retard ?",
             "options": [
                 "Risperdal Consta",
                 "Xeplion",
@@ -164,7 +164,7 @@
             "explanation": "C'est Faux car les thymorégulateurs sont principalement utilisés dans les troubles bipolaires."
         },
         {
-            "question": "Quels médicaments peuvent être utilisés comme thymorégulateurs ? (Cochez les bonnes réponses)",
+            "question": "Quels médicaments peuvent être utilisés comme thymorégulateurs ?",
             "options": [
                 "Lithium",
                 "Valproate de sodium",
@@ -218,7 +218,7 @@
             ]
         },
         {
-            "question": "Quels médicaments sont classés comme hypnotiques ? (Cochez les bonnes réponses)",
+            "question": "Quels médicaments sont classés comme hypnotiques ?",
             "options": [
                 "Zolpidem",
                 "Zopiclone",
@@ -253,7 +253,7 @@
             ]
         },
         {
-            "question": "Quels objectifs sont visés par les traitements psychotropes ? (Cochez les bonnes réponses)",
+            "question": "Quels objectifs sont visés par les traitements psychotropes ?",
             "options": [
                 "Réduction des symptômes",
                 "Prévention des rechutes",
@@ -413,7 +413,7 @@
             "explanation": "C'est Faux car les thymorégulateurs sont utilisés aussi bien en phase aiguë qu’en prévention."
         },
         {
-            "question": "Quels objectifs justifient l’utilisation d’un traitement antipsychotique au long cours ? (Cochez les bonnes réponses)",
+            "question": "Quels objectifs justifient l’utilisation d’un traitement antipsychotique au long cours ?",
             "options": [
                 "Prévenir les rechutes",
                 "Réduire les symptômes psychotiques",
@@ -427,7 +427,7 @@
             ]
         },
         {
-            "question": "Quels éléments peuvent orienter le choix d’un antidépresseur ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments peuvent orienter le choix d’un antidépresseur ?",
             "options": [
                 "Profil d’effets indésirables",
                 "Antécédents du patient",
@@ -441,7 +441,7 @@
             ]
         },
         {
-            "question": "Quels médicaments peuvent être utilisés comme antipsychotiques ? (Cochez les bonnes réponses)",
+            "question": "Quels médicaments peuvent être utilisés comme antipsychotiques ?",
             "options": [
                 "Quetiapine",
                 "Olanzapine",
@@ -455,7 +455,7 @@
             ]
         },
         {
-            "question": "Quels bénéfices sont attendus d’une association thymorégulateur et antipsychotique ? (Cochez les bonnes réponses)",
+            "question": "Quels bénéfices sont attendus d’une association thymorégulateur et antipsychotique ?",
             "options": [
                 "Stabilisation de l’humeur",
                 "Réduction des symptômes psychotiques",
@@ -469,7 +469,7 @@
             ]
         },
         {
-            "question": "Quels risques doivent être surveillés lors d’un traitement par antipsychotiques ? (Cochez les bonnes réponses)",
+            "question": "Quels risques doivent être surveillés lors d’un traitement par antipsychotiques ?",
             "options": [
                 "Effets métaboliques",
                 "Troubles neurologiques",
@@ -483,7 +483,7 @@
             ]
         },
         {
-            "question": "Quels éléments relèvent de la surveillance infirmière sous benzodiazépines ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments relèvent de la surveillance infirmière sous benzodiazépines ?",
             "options": [
                 "Sédation excessive",
                 "Risque de chute",
@@ -497,7 +497,7 @@
             ]
         },
         {
-            "question": "Quels médicaments peuvent être classés comme thymorégulateurs ? (Cochez les bonnes réponses)",
+            "question": "Quels médicaments peuvent être classés comme thymorégulateurs ?",
             "options": [
                 "Lithium",
                 "Valproate de sodium",
@@ -511,7 +511,7 @@
             ]
         },
         {
-            "question": "Quels éléments expliquent l’intérêt des traitements injectables retard ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments expliquent l’intérêt des traitements injectables retard ?",
             "options": [
                 "Amélioration de l’observance",
                 "Diminution du risque de rechute",
@@ -525,7 +525,7 @@
             ]
         },
         {
-            "question": "Quels traitements peuvent être associés à une prise en charge psychothérapeutique ? (Cochez les bonnes réponses)",
+            "question": "Quels traitements peuvent être associés à une prise en charge psychothérapeutique ?",
             "options": [
                 "Antidépresseurs",
                 "Antipsychotiques",
@@ -539,7 +539,7 @@
             ]
         },
         {
-            "question": "Quels objectifs relèvent de la stratégie thérapeutique globale en psychiatrie ? (Cochez les bonnes réponses)",
+            "question": "Quels objectifs relèvent de la stratégie thérapeutique globale en psychiatrie ?",
             "options": [
                 "Réduction des symptômes",
                 "Prévention du passage à l’acte",
@@ -553,7 +553,7 @@
             ]
         },
         {
-            "question": "Quels facteurs peuvent conduire à une adaptation du traitement psychotrope ? (Cochez les bonnes réponses)",
+            "question": "Quels facteurs peuvent conduire à une adaptation du traitement psychotrope ?",
             "options": [
                 "Tolérance insuffisante",
                 "Efficacité partielle",
@@ -567,7 +567,7 @@
             ]
         },
         {
-            "question": "Quels éléments doivent être expliqués au patient lors de l’instauration d’un traitement psychotrope ? (Cochez les bonnes réponses)",
+            "question": "Quels éléments doivent être expliqués au patient lors de l’instauration d’un traitement psychotrope ?",
             "options": [
                 "Objectifs du traitement",
                 "Délai d’action",
