@@ -53,7 +53,7 @@
         "code": "UE 2.8",
         "name": "L'Asthme & Processus Obstructifs",
         "subtitle": "Physiopathologie, crise, traitements et surveillance",
-        "icon": "🫁"
+        "icon": "🌬️"
     },
     {
         "file": "data/2.8_AVC_PONTAGE.json",
@@ -67,6 +67,6 @@
         "code": "UE 2.8",
         "name": "Infarctus du Myocarde",
         "subtitle": "Sémiologie, ECG, complications et prise en charge",
-        "icon": "🫀"
+        "icon": "💔"
     }
 ]
