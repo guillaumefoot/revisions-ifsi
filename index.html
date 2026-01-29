@@ -24,7 +24,7 @@
 
         .container {
             background-color: white;
-            max-width: 1000px; /* Un peu plus large pour les grandes cartes */
+            max-width: 1000px;
             margin: 0 auto;
             padding: 30px;
             border-radius: 24px;
@@ -82,7 +82,7 @@
 
         /* --- CARROUSEL / SWIMLANES --- */
         .category-section {
-            margin-bottom: 40px; /* Plus d'espace entre les rayons */
+            margin-bottom: 40px;
             animation: fadeInSection 0.3s ease-out;
         }
         
@@ -110,15 +110,12 @@
         /* SCROLL HORIZONTAL */
         .horizontal-scroll {
             display: flex;
-            gap: 20px; /* Plus d'espace entre les cartes */
+            gap: 20px;
             overflow-x: auto;
-            
-            /* Padding pour éviter la coupure au survol */
             padding-top: 10px; 
             padding-bottom: 25px; 
             padding-left: 5px;
             padding-right: 5px;
-            
             scroll-snap-type: x mandatory; 
             -webkit-overflow-scrolling: touch;
         }
@@ -128,22 +125,24 @@
         .horizontal-scroll::-webkit-scrollbar-thumb { background: #bdc3c7; border-radius: 4px; }
         .horizontal-scroll::-webkit-scrollbar-thumb:hover { background: #95a5a6; }
 
-        /* --- GRANDES CARTES --- */
+        /* --- DESIGN WATERMARK (ICONE EN FOND) --- */
         .quiz-card {
             background: #fff;
             border: 1px solid #e2e8f0;
-            border-radius: 20px; /* Arrondis plus doux */
-            padding: 25px;
+            border-radius: 20px;
+            padding: 20px;
             cursor: pointer;
             text-align: left;
             transition: all 0.2s ease;
+            
             display: flex;
             flex-direction: column;
+            position: relative; /* Pour positionner l'icone en absolu */
+            overflow: hidden;   /* Pour couper l'icone si elle dépasse */
             
-            /* NOUVELLES DIMENSIONS */
-            min-width: 300px; /* Plus large */
-            max-width: 300px;
-            height: 240px;    /* Plus haut */
+            min-width: 280px;
+            max-width: 280px;
+            height: 220px;
             
             scroll-snap-align: start;
             flex-shrink: 0;
@@ -161,41 +160,67 @@
             box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
         }
 
-        .card-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            margin-bottom: 12px;
+        /* L'ICONE EN FOND */
+        .card-bg-icon {
+            position: absolute;
+            bottom: -15px;
+            right: -10px;
+            font-size: 6rem; /* Enorme */
+            opacity: 0.08;   /* Très discret (Watermark) */
+            line-height: 1;
+            z-index: 0;      /* Derrière le texte */
+            pointer-events: none;
+            filter: grayscale(100%); /* Optionnel : rend l'icone grise pour pas gêner */
+            transform: rotate(-10deg);
         }
 
-        .card-icon { font-size: 2rem; line-height: 1; }
+        /* LE CONTENU AU PREMIER PLAN */
+        .card-content {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .card-badge {
+            display: inline-block;
+            background-color: #eaf6fd;
+            color: #3498db;
+            font-size: 0.75rem;
+            font-weight: 800;
+            padding: 5px 10px;
+            border-radius: 6px;
+            text-transform: uppercase;
+            align-self: flex-start;
+            margin-bottom: 15px;
+        }
 
         .card-title {
             font-weight: 800;
-            font-size: 1.15rem;
+            font-size: 1.1rem;
             color: #2d3748;
-            line-height: 1.35;
-            margin-bottom: 10px;
+            line-height: 1.3;
+            margin-bottom: 8px;
             
-            /* Max 2 lignes pour le titre */
+            /* On autorise jusqu'à 3 lignes de titre maintenant */
             display: -webkit-box;
-            -webkit-line-clamp: 2;
+            -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
             overflow: hidden;
         }
         
         .card-subtitle { 
-            font-size: 0.95rem; 
+            font-size: 0.9rem; 
             color: #718096; 
-            margin-top: auto; /* Pousse le texte vers le bas s'il y a de la place */
-            line-height: 1.5;
+            line-height: 1.4;
             
-            /* Affiche jusqu'à 4 lignes de description ! */
+            /* On autorise beaucoup de texte maintenant ! */
             display: -webkit-box;
-            -webkit-line-clamp: 4; 
+            -webkit-line-clamp: 5; 
             -webkit-box-orient: vertical;
             overflow: hidden;
-            white-space: normal; /* Autorise le retour à la ligne */
+            white-space: normal;
         }
 
         /* SETUP QUANTITE */
@@ -325,26 +350,40 @@
         }
         .time-stat { color: #a0aec0; font-size: 1rem; margin-top: -15px; margin-bottom: 25px; }
 
+        /* --- OPTIMISATION MOBILE --- */
         @media (max-width: 600px) {
             body { padding: 10px; }
             .container { padding: 20px 15px; border-radius: 16px; box-shadow: none; min-height: auto; }
             h1 { font-size: 1.5rem; }
             .start-btn { margin-bottom: 20px; }
             
-            /* Polices mobile */
+            /* Polices réduites pour le quiz */
             .question-title { font-size: 1.15rem; }
             .options label { padding: 14px; font-size: 0.95rem; }
             
-            /* On masque la barre sur mobile */
+            /* Masquer la scrollbar */
             .horizontal-scroll::-webkit-scrollbar { display: none; }
             .horizontal-scroll { scrollbar-width: none; }
             .filter-container { overflow-x: auto; white-space: nowrap; justify-content: flex-start; padding-bottom: 5px; }
             
-            /* Ajustement taille carte mobile */
+            /* --- CARTES COMPACTES MOBILE --- */
             .quiz-card {
-                min-width: 280px; /* Un peu moins large sur mobile pour voir qu'il y en a d'autres */
-                max-width: 280px;
+                min-width: 260px; /* Plus étroit pour l'effet carrousel */
+                max-width: 260px;
+                height: 200px;
+                padding: 18px;
             }
+            
+            .card-badge { margin-bottom: 10px; }
+            
+            /* Ajustement textes mobile */
+            .card-title { font-size: 1rem; -webkit-line-clamp: 3; }
+            .card-subtitle { font-size: 0.85rem; -webkit-line-clamp: 4; }
+            
+            /* Icône un peu plus petite sur mobile */
+            .card-bg-icon { font-size: 5rem; bottom: -10px; right: -8px; }
+            
+            .category-section { margin-bottom: 30px; }
         }
     </style>
 </head>
@@ -474,7 +513,7 @@
             });
         }
 
-        // --- CARROUSELS ---
+        // --- CARROUSELS WATERMARK ---
         function renderCarousels(data) {
             const container = document.getElementById('carousels-container');
             container.innerHTML = ""; 
@@ -508,12 +547,14 @@
 
                     card.onclick = () => selectQuiz(q.file, card, q.name, q.subtitle, code);
                     
+                    // NOUVELLE STRUCTURE HTML POUR L'EFFET WATERMARK
                     card.innerHTML = `
-                        <div class="card-header">
-                            <span class="card-icon">${icon}</span>
+                        <div class="card-bg-icon">${icon}</div>
+                        <div class="card-content">
+                            <span class="card-badge">${code}</span>
+                            <span class="card-title">${q.name}</span>
+                            <span class="card-subtitle">${q.subtitle || ""}</span>
                         </div>
-                        <span class="card-title">${q.name}</span>
-                        <span class="card-subtitle">${q.subtitle || ""}</span>
                     `;
                     scrollContainer.appendChild(card);
                 });
@@ -523,7 +564,7 @@
             });
         }
 
-        // --- MOTEUR (Standard) ---
+        // --- MOTEUR ---
         function selectQuiz(url, element, name, sub, code) {
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             element.classList.add('selected');
