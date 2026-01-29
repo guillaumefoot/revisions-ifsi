@@ -1,4 +1,4 @@
-const CACHE_NAME = "ifsi-quiz-v1.6";
+const CACHE_NAME = "ifsi-quiz-v1.7";
 const APP_SHELL = [
   "/revisions-ifsi/",
   "/revisions-ifsi/index.html",
@@ -61,6 +61,7 @@ async function networkFirst(req) {
     return cached || new Response("Offline", { status: 503, statusText: "Offline" });
   }
 }
+
 
 
 
