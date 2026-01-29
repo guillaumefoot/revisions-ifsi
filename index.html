@@ -18,18 +18,18 @@
             color: #2d3436;
             margin: 0;
             padding: 15px;
-            line-height: 1.6; /* Meilleure interligne */
-            font-size: 16px; /* Base augmentée */
+            line-height: 1.6;
+            font-size: 16px;
         }
 
         .container {
             background-color: white;
-            max-width: 900px; /* Un peu plus large */
+            max-width: 900px;
             margin: 0 auto;
             padding: 30px;
             border-radius: 24px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
-            min-height: 85vh;
+            min-height: 85vh; /* Hauteur PC */
             display: flex;
             flex-direction: column;
         }
@@ -38,13 +38,13 @@
         h1 {
             color: #2c3e50;
             text-align: center;
-            font-size: 1.8rem; /* Plus gros */
+            font-size: 1.8rem;
             margin: 0 0 25px 0;
             font-weight: 800;
             letter-spacing: -0.5px;
         }
 
-        /* --- FILTRES (TAGS) --- */
+        /* --- FILTRES --- */
         .filter-container {
             display: flex;
             flex-wrap: wrap;
@@ -59,18 +59,15 @@
             background-color: #fff;
             border: 1px solid #dfe6e9;
             color: #636e72;
-            padding: 10px 20px; /* Plus d'espace clickable */
+            padding: 10px 20px;
             border-radius: 25px;
-            font-size: 0.95rem; /* Texte plus gros */
+            font-size: 0.95rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.2s ease;
         }
 
-        .filter-btn:hover {
-            background-color: #f1f2f6;
-            border-color: #b2bec3;
-        }
+        .filter-btn:hover { background-color: #f1f2f6; border-color: #b2bec3; }
 
         .filter-btn.active {
             background-color: #3498db;
@@ -82,7 +79,7 @@
         /* --- GRILLE CARTES --- */
         .quiz-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); /* Cartes plus larges */
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 20px;
             margin-bottom: 40px;
         }
@@ -91,16 +88,14 @@
             background: #fff;
             border: 1px solid #e2e8f0;
             border-radius: 16px;
-            padding: 25px; /* Padding interne augmenté */
+            padding: 25px;
             cursor: pointer;
             text-align: left;
             transition: all 0.2s ease;
-            
-            /* MAGIE DE L'ALIGNEMENT */
             display: flex;
             flex-direction: column; 
-            height: 100%; /* Force la hauteur égale dans la grille */
-            min-height: 160px; /* Hauteur minimale confortable */
+            height: 100%;
+            min-height: 160px;
         }
 
         .quiz-card:hover {
@@ -115,7 +110,6 @@
             box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
         }
 
-        /* En-tête de carte (Badge + Icône) */
         .card-header {
             display: flex;
             justify-content: space-between;
@@ -127,34 +121,25 @@
             display: inline-block;
             background-color: #eaf6fd;
             color: #3498db;
-            font-size: 0.8rem; /* + gros */
+            font-size: 0.8rem;
             font-weight: 800;
             padding: 6px 12px;
             border-radius: 8px;
             text-transform: uppercase;
         }
 
-        .card-icon {
-            font-size: 1.8rem; /* Emoji plus visible */
-            line-height: 1;
-        }
+        .card-icon { font-size: 1.8rem; line-height: 1; }
 
         .card-title {
             font-weight: 700;
-            font-size: 1.25rem; /* Titre bien lisible */
+            font-size: 1.25rem;
             color: #2d3748;
             line-height: 1.3;
             margin-bottom: 10px;
-            
-            /* ALIGNEMENT : Le titre pousse le sous-titre vers le bas */
             flex-grow: 1; 
         }
         
-        .card-subtitle {
-            font-size: 0.95rem; /* Sous-titre lisible */
-            color: #718096;
-            margin-top: auto; /* Sécurité pour coller au bas si besoin */
-        }
+        .card-subtitle { font-size: 0.95rem; color: #718096; margin-top: auto; }
 
         /* SELECTEUR QUANTITE */
         .count-selector-container { text-align: center; margin-bottom: 30px; }
@@ -170,7 +155,7 @@
         .count-pill {
             padding: 10px 24px; background-color: #edf2f7; border-radius: 50px;
             cursor: pointer; font-weight: 600; color: #718096; transition: all 0.2s;
-            border: 2px solid transparent; font-size: 1rem; /* Texte bouton + gros */
+            border: 2px solid transparent; font-size: 1rem;
         }
 
         .count-pill:hover { background-color: #e2e8f0; }
@@ -184,8 +169,7 @@
         .start-btn {
             background-color: #2c3e50; color: white; padding: 18px 40px;
             border-radius: 14px; cursor: pointer; font-weight: 700; border: none;
-            font-size: 1.1rem; /* + gros */
-            transition: all 0.3s; width: 100%; display: block;
+            font-size: 1.1rem; transition: all 0.3s; width: 100%; display: block;
             margin: 0 auto; opacity: 0.5; pointer-events: none;
         }
 
@@ -213,7 +197,7 @@
         @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
 
         .question-title {
-            font-size: 1.3rem; /* Enoncé + gros */
+            font-size: 1.3rem;
             font-weight: 700; margin-bottom: 25px;
             color: #2d3748; line-height: 1.4;
         }
@@ -227,18 +211,17 @@
         .options { display: flex; flex-direction: column; gap: 12px; }
 
         .options label {
-            display: flex; align-items: center; padding: 18px 20px; /* Plus d'espace tactile */
+            display: flex; align-items: center; padding: 18px 20px;
             background-color: #fff; border: 2px solid #edf2f7;
             border-radius: 12px; cursor: pointer; transition: all 0.15s ease;
-            font-size: 1.05rem; /* Options + lisibles */
-            color: #4a5568;
+            font-size: 1.05rem; color: #4a5568;
         }
 
         .options label:hover { border-color: #cbd5e0; }
         .options label:active { transform: scale(0.99); background-color: #f7fafc; }
 
         .options input[type="checkbox"], .options input[type="radio"] {
-            appearance: none; width: 24px; height: 24px; /* Checkbox + grosses */
+            appearance: none; width: 24px; height: 24px;
             border: 2px solid #cbd5e0; border-radius: 6px; margin-right: 18px;
             display: grid; place-content: center; flex-shrink: 0; transition: 0.2s;
         }
@@ -251,13 +234,10 @@
         }
         .options input[type="radio"]:checked::before { clip-path: circle(50%); }
 
-        /* Validation Colors */
         .options label.correct-checked { background-color: #f0fff4; border-color: #48bb78; color: #22543d; }
         .options label.correct-checked input { background-color: #48bb78; border-color: #48bb78; }
-        
         .options label.wrong-checked { background-color: #fff5f5; border-color: #f56565; color: #742a2a; }
         .options label.wrong-checked input { background-color: #f56565; border-color: #f56565; }
-
         .options label.missed-correct { border-color: #48bb78; background-color: #fff; border-style: dashed; }
         .options label.neutral-disabled { opacity: 0.5; pointer-events: none; }
 
@@ -274,7 +254,6 @@
             font-size: 1rem; color: #9c4221; display: none;
         }
 
-        /* Resultats */
         #result-screen { display: none; text-align: center; padding: 20px 0; }
         .score-circle {
             width: 140px; height: 140px; background: white;
@@ -284,13 +263,26 @@
         }
         .time-stat { color: #a0aec0; font-size: 1rem; margin-top: -10px; margin-bottom: 30px; }
 
+        /* --- OPTIMISATION MOBILE --- */
         @media (max-width: 600px) {
-            .container { padding: 20px; border-radius: 0; box-shadow: none; min-height: 100vh; }
+            body { padding: 10px; }
+            
+            .container { 
+                padding: 20px; 
+                border-radius: 16px; 
+                box-shadow: none; 
+                /* CORRECTION SCROLL : On laisse la hauteur auto pour coller au contenu */
+                min-height: auto; 
+            }
+            
             .quiz-grid { grid-template-columns: 1fr; }
             .filter-container { overflow-x: auto; white-space: nowrap; justify-content: flex-start; padding-bottom: 10px; }
-            /* Ajustements mobiles pour ne pas que ce soit énorme */
-            h1 { font-size: 1.4rem; }
-            .quiz-card { min-height: auto; } /* Sur mobile, on laisse la hauteur auto */
+            
+            h1 { font-size: 1.4rem; margin-bottom: 15px; }
+            .quiz-card { min-height: auto; }
+            
+            /* Pour éviter que le bouton soit collé en bas */
+            .start-btn { margin-bottom: 20px; }
         }
     </style>
 </head>
@@ -538,7 +530,10 @@
             document.getElementById('progress').innerText = `${currentIndex + 1} / ${currentSession.length}`;
             const isVF = q.options.length === 2 && q.options.some(o => o.toLowerCase().includes("vrai"));
             let inputType = isVF ? 'radio' : 'checkbox';
-            let hint = isVF ? "Vrai ou Faux" : "Plusieurs réponses possibles";
+            
+            // CORRECTION TEXTE
+            let hint = isVF ? "(Vrai ou Faux)" : "(Cochez la ou les bonnes réponses)";
+            
             let optionsWithIndex = q.options.map((opt, i) => ({ text: opt, originalIndex: i }));
             if (!isVF) optionsWithIndex = shuffle(optionsWithIndex);
 
