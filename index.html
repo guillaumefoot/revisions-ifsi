@@ -56,7 +56,7 @@
             white-space: nowrap;
             padding-bottom: 15px; 
             padding-left: 5px; padding-right: 5px;
-            margin-bottom: 20px;
+            margin-bottom: 10px; /* Réduit pour coller aux cartes */
             border-bottom: 1px solid #f1f2f6;
             scrollbar-width: none; 
             -webkit-overflow-scrolling: touch;
@@ -87,7 +87,7 @@
 
         /* --- CARROUSEL --- */
         .category-section {
-            margin-bottom: 35px;
+            margin-bottom: 25px; /* Espacement entre les lignes */
             animation: fadeInSection 0.3s ease-out;
         }
         @keyframes fadeInSection {
@@ -95,22 +95,7 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        .category-title {
-            font-size: 1.2rem;
-            font-weight: 800;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            padding-left: 5px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .category-pill {
-            background: #eaf6fd; color: #3498db; 
-            padding: 5px 12px; border-radius: 8px; font-size: 0.85rem;
-        }
-
+        /* SCROLL HORIZONTAL */
         .horizontal-scroll {
             display: flex;
             gap: 20px;
@@ -207,7 +192,7 @@
             font-weight: 600;
             padding: 4px 8px;
             border-radius: 6px;
-            opacity: 0; /* Invisible au départ, transition douce */
+            opacity: 0; 
             transition: opacity 0.3s ease;
         }
 
@@ -369,15 +354,12 @@
             h1 { font-size: 1.5rem; }
             .start-btn { margin-bottom: 20px; }
             
-            /* Polices réduites pour le quiz */
             .question-title { font-size: 1.15rem; }
             .options label { padding: 14px; font-size: 0.95rem; }
             
-            /* Masquer la scrollbar */
             .horizontal-scroll::-webkit-scrollbar { display: none; }
             .horizontal-scroll { scrollbar-width: none; }
             
-            /* --- CARTES COMPACTES MOBILE --- */
             .quiz-card {
                 min-width: 260px;
                 max-width: 260px;
@@ -386,12 +368,8 @@
             }
             
             .card-badge { margin-bottom: 10px; }
-            
-            /* Ajustement textes mobile */
             .card-title { font-size: 1rem; -webkit-line-clamp: 3; }
             .card-subtitle { font-size: 0.85rem; -webkit-line-clamp: 4; }
-            
-            /* Icône un peu plus petite sur mobile */
             .card-bg-icon { font-size: 5rem; bottom: -10px; right: -8px; }
             
             .category-section { margin-bottom: 30px; }
@@ -540,12 +518,6 @@
                 section.className = "category-section";
                 section.dataset.code = code;
 
-                section.innerHTML = `
-                    <div class="category-title">
-                        <span class="category-pill">${code}</span>
-                    </div>
-                `;
-
                 const scrollContainer = document.createElement('div');
                 scrollContainer.className = "horizontal-scroll";
 
@@ -575,24 +547,20 @@
                     const badge = card.querySelector('.card-count');
 
                     if (cachedCount) {
-                        // 1. On a déjà l'info en mémoire -> Affichage immédiat
                         badge.innerText = cachedCount + " Q";
                         badge.style.opacity = "1";
                     } else {
-                        // 2. On n'a pas l'info -> On fetch (Network)
                         fetch(q.file)
                             .then(res => res.json())
                             .then(quizData => {
                                 if(quizData.questions) {
                                     const count = quizData.questions.length;
-                                    // On sauvegarde pour la prochaine fois
                                     localStorage.setItem(storageKey, count);
                                     badge.innerText = count + " Q";
                                     badge.style.opacity = "1";
                                 }
                             })
                             .catch(e => {
-                                // 3. Erreur (Offline sans cache) -> On cache le badge
                                 console.log("Offline / Pas de cache pour le compteur");
                                 badge.style.display = "none";
                             });
