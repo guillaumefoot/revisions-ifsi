@@ -4,291 +4,249 @@
 <head>
     <link rel="manifest" href="/revisions-ifsi/manifest.json">
     <meta name="theme-color" content="#3498db">
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moteur Révisions IFSI - En Ligne</title>
+    <title>Moteur Révisions IFSI - Moderne</title>
     <style>
-        /* --- STYLES --- */
-        * {
-            box-sizing: border-box;
-            -webkit-tap-highlight-color: transparent;
-        }
+        /* --- STYLES GLOBAUX --- */
+        * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f0f2f5;
-            color: #2d3436;
+            background-color: #f4f6f9; /* Gris très léger plus moderne */
+            color: #2c3e50;
             margin: 0;
-            padding: 10px;
+            padding: 15px;
             line-height: 1.5;
         }
 
         .container {
             background-color: white;
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
-            padding: 20px;
-            border-radius: 16px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-            min-height: 60vh;
+            padding: 25px;
+            border-radius: 20px; /* Arrondis plus prononcés */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
         }
 
         h1 {
             color: #2c3e50;
             text-align: center;
-            font-size: 1.4rem;
+            font-size: 1.6rem;
             margin: 10px 0 5px 0;
+            font-weight: 800;
+            letter-spacing: -0.5px;
         }
 
         .subtitle {
             text-align: center;
             color: #7f8c8d;
-            font-size: 0.9rem;
-            margin-bottom: 25px;
-            border-bottom: 2px solid #f1f2f6;
-            padding-bottom: 15px;
-        }
-
-        /* Zone Chargement */
-        #setup-panel {
-            text-align: center;
-            padding: 30px;
-            border: 2px dashed #bdc3c7;
-            border-radius: 12px;
-            margin: 20px 0;
-            background: #fafafa;
-        }
-
-        /* Selecteur de Quiz Stylisé */
-        select.quiz-selector {
-            width: 100%;
-            max-width: 400px;
-            padding: 12px;
-            border-radius: 8px;
-            border: 2px solid #3498db;
-            background-color: white;
             font-size: 1rem;
-            color: #2c3e50;
-            margin-bottom: 20px;
-            cursor: pointer;
+            margin-bottom: 30px;
         }
 
-        .start-btn {
+        /* --- NOUVELLE UI DE SÉLECTION (GRID & PILLS) --- */
+        
+        /* 1. Grille de Cartes */
+        .quiz-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive auto */
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+
+        .quiz-card {
+            background: #fff;
+            border: 2px solid #eef2f7;
+            border-radius: 16px;
+            padding: 20px;
+            cursor: pointer;
+            text-align: center;
+            transition: all 0.2s cubic-bezier(0.25, 0.8, 0.25, 1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            min-height: 140px;
+        }
+
+        .quiz-card:hover {
+            transform: translateY(-3px);
+            border-color: #bdc3c7;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+        }
+
+        .quiz-card.selected {
+            border-color: #3498db;
+            background-color: #f0f9ff;
+            box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+        }
+
+        .card-icon { font-size: 2.5rem; margin-bottom: 10px; }
+        .card-title { font-weight: 700; font-size: 1rem; color: #2c3e50; line-height: 1.3; margin-bottom: 5px; }
+        .card-subtitle { font-size: 0.8rem; color: #95a5a6; }
+
+        /* 2. Pills (Boutons quantité) */
+        .count-selector-container { text-align: center; margin-bottom: 30px; }
+        
+        .section-label {
+            font-weight: 700;
+            color: #b2bec3;
+            margin-bottom: 15px;
+            display: block;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 1px;
+        }
+
+        .count-options {
+            display: inline-flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .count-pill {
+            padding: 10px 24px;
+            background-color: #f1f2f6;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            color: #7f8c8d;
+            transition: all 0.2s;
+            border: 2px solid transparent;
+            font-size: 0.95rem;
+        }
+
+        .count-pill:hover { background-color: #e2e6ea; }
+
+        .count-pill.selected {
             background-color: #3498db;
             color: white;
-            padding: 12px 30px;
-            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+            border-color: #3498db;
+        }
+
+        /* Bouton Lancer */
+        .start-btn {
+            background-color: #2c3e50;
+            color: white;
+            padding: 18px 40px;
+            border-radius: 50px;
             cursor: pointer;
             font-weight: bold;
             border: none;
-            font-size: 1rem;
-            transition: 0.2s;
-        }
-
-        .start-btn:hover {
-            background-color: #2980b9;
-            transform: translateY(-2px);
-        }
-
-        .start-btn:disabled {
-            background-color: #bdc3c7;
-            cursor: not-allowed;
-            transform: none;
-        }
-
-        /* Quiz UI */
-        .progress {
-            text-align: right;
-            color: #3498db;
-            font-weight: 700;
-            font-size: 0.85rem;
-            margin-bottom: 15px;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-
-        .question-box {
-            display: none;
-            animation: slideUp 0.3s ease-out;
-        }
-
-        .question-box.active {
+            font-size: 1.1rem;
+            transition: all 0.3s;
+            width: 100%;
+            max-width: 300px;
             display: block;
+            margin: 0 auto;
+            opacity: 0.5;
+            pointer-events: none; /* Désactivé visuellement */
+            transform: scale(0.98);
         }
 
-        @keyframes slideUp {
-            from {
-                opacity: 0;
-                transform: translateY(10px);
-            }
-
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        .start-btn.ready {
+            background-color: #3498db;
+            opacity: 1;
+            pointer-events: auto;
+            transform: scale(1);
+            box-shadow: 0 8px 20px rgba(52, 152, 219, 0.3);
         }
+        
+        .start-btn.ready:hover { transform: translateY(-2px); background-color: #2980b9; }
+
+        /* --- UI DU QUIZ (Classique robuste) --- */
+        .progress {
+            text-align: right; color: #3498db; font-weight: 700;
+            font-size: 0.85rem; margin-bottom: 15px; text-transform: uppercase;
+        }
+
+        .question-box { display: none; animation: fadeIn 0.4s ease-out; }
+        .question-box.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
 
         .question-title {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 20px;
-            color: #2c3e50;
-            background-color: #eaf6fd;
-            padding: 15px;
-            border-radius: 12px;
-            border-left: 5px solid #3498db;
+            font-size: 1.2rem; font-weight: 700; margin-bottom: 20px;
+            color: #2c3e50; line-height: 1.4;
         }
 
         .hint-text {
-            font-size: 0.85rem;
-            color: #636e72;
-            margin-bottom: 15px;
-            font-style: italic;
-            display: block;
+            display: inline-block; background: #eaf6fd; color: #3498db;
+            padding: 4px 10px; border-radius: 6px; font-size: 0.8rem;
+            font-weight: 600; margin-bottom: 20px;
         }
 
-        .options {
-            display: flex;
-            flex-direction: column;
-            gap: 10px;
-        }
+        .options { display: flex; flex-direction: column; gap: 12px; }
 
         .options label {
-            display: flex;
-            align-items: flex-start;
-            padding: 15px;
-            background-color: #fff;
-            border: 2px solid #dfe6e9;
-            border-radius: 12px;
-            cursor: pointer;
-            transition: all 0.2s ease;
-            position: relative;
-            font-size: 1rem;
+            display: flex; align-items: center; padding: 16px;
+            background-color: #fff; border: 2px solid #eef2f7;
+            border-radius: 12px; cursor: pointer; transition: all 0.2s ease;
+            font-size: 1rem; position: relative;
         }
 
-        .options label:active {
-            transform: scale(0.98);
-            background-color: #f1f2f6;
-        }
+        .options label:active { transform: scale(0.99); background-color: #f8f9fa; }
 
-        .options input[type="checkbox"],
-        .options input[type="radio"] {
-            margin-right: 15px;
-            width: 22px;
-            height: 22px;
-            accent-color: #3498db;
-            flex-shrink: 0;
-            margin-top: 2px;
+        /* Custom Checkbox/Radio */
+        .options input[type="checkbox"], .options input[type="radio"] {
+            appearance: none; -webkit-appearance: none; width: 24px; height: 24px;
+            border: 2px solid #bdc3c7; border-radius: 6px; margin-right: 15px;
+            display: grid; place-content: center; flex-shrink: 0; transition: 0.2s;
         }
-
-        .options span {
-            flex: 1;
-            word-wrap: break-word;
+        .options input[type="radio"] { border-radius: 50%; }
+        .options input:checked { border-color: #3498db; background-color: #3498db; }
+        
+        .options input:checked::before {
+            content: ""; width: 10px; height: 10px; background: white;
+            clip-path: polygon(14% 44%, 0 65%, 50% 100%, 100% 16%, 80% 0%, 43% 62%);
         }
+        .options input[type="radio"]:checked::before { clip-path: circle(50%); }
 
         /* Validation Colors */
-        .options label.correct-checked {
-            background-color: #d4edda;
-            border-color: #27ae60;
-            color: #155724;
-        }
+        .options label.correct-checked { background-color: #d4edda; border-color: #27ae60; color: #155724; }
+        .options label.correct-checked input { background-color: #27ae60; border-color: #27ae60; }
+        
+        .options label.wrong-checked { background-color: #f8d7da; border-color: #e74c3c; color: #721c24; }
+        .options label.wrong-checked input { background-color: #e74c3c; border-color: #e74c3c; }
 
-        .options label.wrong-checked {
-            background-color: #f8d7da;
-            border-color: #e74c3c;
-            color: #721c24;
-        }
+        .options label.missed-correct { border-color: #27ae60; background-color: #fff; border-style: dashed; }
+        .options label.neutral-disabled { opacity: 0.6; background-color: #f5f6fa; border-color: #dcdde1; pointer-events: none; }
 
-        .options label.missed-correct {
-            border-color: #27ae60;
-            background-color: #fff;
-            border-style: dashed;
-            color: #27ae60;
-        }
-
-        .options label.neutral-disabled {
-            opacity: 0.6;
-            background-color: #f5f6fa;
-            border-color: #dcdde1;
-            pointer-events: none;
-        }
-
+        /* Boutons Navigation */
         .btn {
-            background-color: #3498db;
-            color: white;
-            border: none;
-            padding: 16px;
-            font-size: 1.1rem;
-            border-radius: 12px;
-            cursor: pointer;
-            margin-top: 25px;
-            width: 100%;
-            font-weight: 600;
-            box-shadow: 0 4px 6px rgba(52, 152, 219, 0.2);
-            transition: transform 0.1s;
+            background-color: #3498db; color: white; border: none; padding: 16px;
+            font-size: 1.1rem; border-radius: 12px; cursor: pointer; margin-top: 25px;
+            width: 100%; font-weight: 700; box-shadow: 0 4px 6px rgba(52, 152, 219, 0.2);
         }
-
-        .btn:active {
-            transform: scale(0.98);
-        }
-
-        .btn-next {
-            background-color: #2c3e50;
-            margin-top: 15px;
-        }
+        .btn-next { background-color: #2c3e50; margin-top: 15px; }
 
         .feedback-text {
-            margin-top: 20px;
-            padding: 20px;
-            background-color: #fff3cd;
-            border-left: 6px solid #f1c40f;
-            border-radius: 8px;
-            font-size: 0.95rem;
-            color: #856404;
-            display: none;
-            line-height: 1.6;
+            margin-top: 20px; padding: 20px; background-color: #fff3cd;
+            border-left: 6px solid #f1c40f; border-radius: 8px;
+            font-size: 0.95rem; color: #856404; display: none;
         }
 
-        #result-screen {
-            display: none;
-            text-align: center;
-            padding: 20px 0;
-        }
-
+        #result-screen { display: none; text-align: center; padding: 20px 0; }
         .score-circle {
-            width: 120px;
-            height: 120px;
-            background: linear-gradient(135deg, #3498db, #2980b9);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-size: 2.5rem;
-            font-weight: bold;
-            margin: 20px auto;
-            box-shadow: 0 10px 20px rgba(52, 152, 219, 0.3);
+            width: 140px; height: 140px; background: linear-gradient(135deg, #3498db, #2980b9);
+            border-radius: 50%; display: flex; align-items: center; justify-content: center;
+            color: white; font-size: 3rem; font-weight: 800; margin: 20px auto;
+            box-shadow: 0 15px 30px rgba(52, 152, 219, 0.3);
         }
-
-        .time-stat {
-            color: #7f8c8d;
-            font-size: 1rem;
-            margin-top: -15px;
-            margin-bottom: 20px;
-            font-weight: 500;
-        }
+        .time-stat { color: #7f8c8d; font-size: 1rem; margin-top: -15px; margin-bottom: 20px; font-weight: 500; }
 
         @media (max-width: 600px) {
-            .container {
-                padding: 15px;
-                border-radius: 0;
-                box-shadow: none;
-                min-height: 100vh;
-            }
-
-            .options label {
-                flex-wrap: wrap;
-            }
+            .container { padding: 15px; border-radius: 0; box-shadow: none; min-height: 100vh; }
+            .quiz-grid { grid-template-columns: 1fr; } /* 1 colonne sur mobile */
+            h1 { font-size: 1.5rem; }
+            .count-pill { padding: 8px 16px; font-size: 0.9rem; } /* Pills plus petits sur mobile */
         }
     </style>
 </head>
@@ -296,33 +254,43 @@
 <body>
 
     <div class="container">
-        <h1 id="main-title">MOTEUR QUIZZ IFSI</h1>
-        <div class="subtitle" id="sub-title">Chargement des sujets...</div>
-
-        <div id="setup-panel">
-            <h3>Choisis ton sujet de révision</h3>
-            <p style="color:#7f8c8d; margin-bottom:20px;">Sélectionne un module dans la liste ci-dessous</p>
-
-            <select id="quiz-select" class="quiz-selector" disabled>
-                <option value="">Chargement...</option>
-            </select>
-
-            <!-- AJOUT: choix du nombre de questions -->
-            <select id="count-select" class="quiz-selector">
-                <option value="5">5 questions</option>
-                <option value="10" selected>10 questions</option>
-                <option value="20">20 questions</option>
-                <option value="all">Toutes les questions</option>
-            </select>
-
-            <br>
-            <button id="load-btn" class="start-btn" onclick="loadSelectedQuiz()" disabled>🚀 Lancer le Quiz</button>
-
-            <div id="error-msg" style="color:#e74c3c; margin-top:15px; display:none; font-weight:bold;"></div>
+        <div id="header-area">
+            <h1 id="main-title">MOTEUR QUIZZ IFSI</h1>
+            <div class="subtitle" id="sub-title">Choisis un module pour t'entraîner</div>
         </div>
 
-        <div class="progress" id="progress" style="display:none;"></div>
-        <div id="quiz-container"></div>
+        <div id="setup-panel">
+            
+            <div id="loading-spinner" style="text-align:center; padding:20px; color:#7f8c8d;">
+                <p>Chargement des modules...</p>
+            </div>
+
+            <div id="grid-section" style="display:none;">
+                <span class="section-label">1. Choisis ton sujet</span>
+                <div id="quiz-grid" class="quiz-grid"></div>
+
+                <div class="count-selector-container">
+                    <span class="section-label">2. Nombre de questions</span>
+                    <div class="count-options">
+                        <div class="count-pill" onclick="selectCount(5, this)">5</div>
+                        <div class="count-pill selected" onclick="selectCount(10, this)">10</div>
+                        <div class="count-pill" onclick="selectCount(20, this)">20</div>
+                        <div class="count-pill" onclick="selectCount('all', this)">Tout</div>
+                    </div>
+                </div>
+
+                <button id="load-btn" class="start-btn" onclick="loadSelectedQuiz()">
+                    C'est parti 🚀
+                </button>
+            </div>
+
+            <div id="error-msg" style="color:#e74c3c; margin-top:20px; text-align:center; display:none; font-weight:bold;"></div>
+        </div>
+
+        <div id="quiz-interface" style="display:none;">
+            <div class="progress" id="progress"></div>
+            <div id="quiz-container"></div>
+        </div>
 
         <div id="result-screen">
             <h2>Session Terminée !</h2>
@@ -331,19 +299,17 @@
             <h3 id="comment" style="margin-bottom: 10px;"></h3>
             <p id="detail-msg" style="color: #666;"></p>
 
-            <!-- AJOUT: continuer -->
-            <button id="continue-btn" class="btn btn-next" style="display:none;"
-                onclick="startSession()">Continuer</button>
-
+            <button id="continue-btn" class="btn btn-next" style="display:none;" onclick="startSession()">Continuer</button>
             <button class="btn" onclick="restartSameSession()">Recommencer cette série</button>
-            <button class="btn" style="background-color:#95a5a6; margin-top:15px;" onclick="location.reload()">Choisir
-                un autre sujet</button>
+            <button class="btn" style="background-color:#95a5a6; margin-top:15px;" onclick="location.reload()">Retour au menu</button>
         </div>
     </div>
 
     <script>
-        // --- VARIABLES GLOBALES (origine + ajouts) ---
+        // --- VARIABLES ---
         let sessionSize = 10;
+        let selectedQuizUrl = null; 
+
         let fullQuestionPool = [];
         let remainingQuestions = [];
         let currentSession = [];
@@ -353,7 +319,7 @@
         let score = 0;
         let startTime = 0;
 
-        // --- DÉMARRAGE : Charger la liste des quiz ---
+        // --- 1. CHARGEMENT INITIAL (Génération de la Grille) ---
         window.onload = function () {
             fetch('quizzes.json', { cache: 'no-store' })
                 .then(response => {
@@ -361,106 +327,121 @@
                     return response.json();
                 })
                 .then(data => {
-                    const select = document.getElementById('quiz-select');
-                    select.innerHTML = '<option value="">-- Sélectionner un sujet --</option>';
+                    document.getElementById('loading-spinner').style.display = 'none';
+                    document.getElementById('grid-section').style.display = 'block';
+                    const grid = document.getElementById('quiz-grid');
 
                     data.forEach(q => {
-                        const option = document.createElement('option');
-                        option.value = q.file;
-                        option.textContent = q.name;
-                        option.dataset.subtitle = q.subtitle || "";
-                        select.appendChild(option);
-                    });
+                        // Création d'une "Carte" pour chaque quiz
+                        const card = document.createElement('div');
+                        card.className = 'quiz-card';
+                        card.onclick = () => selectQuiz(q.file, card, q.name, q.subtitle);
+                        
+                        // Icone : soit celle du JSON, soit une par défaut
+                        const icon = q.icon ? q.icon : "📚"; 
+                        // Sous-titre : soit du JSON, soit vide
+                        const sub = q.subtitle ? q.subtitle : "";
 
-                    select.disabled = false;
-                    document.getElementById('sub-title').innerText = "Prêt à réviser ?";
-
-                    select.addEventListener('change', function () {
-                        const isEmpty = this.value === "";
-                        document.getElementById('load-btn').disabled = isEmpty;
-
-                        const selectedOpt = this.options[this.selectedIndex];
-                        const subtitle = selectedOpt?.dataset?.subtitle || "";
-
-                        document.getElementById('sub-title').innerText =
-                            subtitle ? subtitle : "Prêt à réviser ?";
+                        card.innerHTML = `
+                            <div class="card-icon">${icon}</div>
+                            <div class="card-title">${q.name}</div>
+                            <div class="card-subtitle">${sub}</div>
+                        `;
+                        grid.appendChild(card);
                     });
                 })
                 .catch(err => {
+                    document.getElementById('loading-spinner').style.display = 'none';
                     document.getElementById('error-msg').style.display = 'block';
                     document.getElementById('error-msg').innerText = "Erreur : " + err.message;
                 });
         };
 
-        // --- CHARGEMENT DU JSON SÉLECTIONNÉ ---
-        function loadSelectedQuiz() {
-            const selectEl = document.getElementById('quiz-select');
-            const fileUrl = selectEl.value;
-            if (!fileUrl) return;
+        // --- 2. LOGIQUE DE SÉLECTION (UX) ---
+        
+        function selectQuiz(url, element, title, subtitle) {
+            // 1. Visuel : Reset et Active
+            document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
+            element.classList.add('selected');
 
-            // UI Feedback
+            // 2. Data
+            selectedQuizUrl = url;
+            
+            // UI : Mise à jour du header
+            document.getElementById('sub-title').innerText = subtitle ? `${title} • ${subtitle}` : title;
+
+            // 3. Bouton Ready
+            checkReadyState();
+        }
+
+        function selectCount(value, element) {
+            // 1. Visuel
+            document.querySelectorAll('.count-pill').forEach(el => el.classList.remove('selected'));
+            element.classList.add('selected');
+
+            // 2. Data
+            sessionSize = (value === "all") ? Infinity : parseInt(value, 10);
+        }
+
+        function checkReadyState() {
             const btn = document.getElementById('load-btn');
-            const originalText = btn.innerText;
-            btn.innerText = "Téléchargement...";
-            btn.disabled = true;
+            if (selectedQuizUrl) {
+                btn.classList.add('ready');
+            } else {
+                btn.classList.remove('ready');
+            }
+        }
 
-            // Lire paramètres session
-            const countVal = document.getElementById('count-select').value;
-            sessionSize = (countVal === "all") ? Infinity : parseInt(countVal, 10);
+        // --- 3. CHARGEMENT ET LANCEMENT (Logic) ---
 
-            // Titre cohérent (vient du catalogue)
-            const selectedTitle = selectEl.options[selectEl.selectedIndex].textContent;
-            const selectedSubtitle = selectEl.options[selectEl.selectedIndex].dataset.subtitle || "";
+        function loadSelectedQuiz() {
+            if (!selectedQuizUrl) return; 
 
-            fetch(fileUrl, { cache: 'no-store' })
+            const btn = document.getElementById('load-btn');
+            btn.innerText = "Chargement...";
+            
+            fetch(selectedQuizUrl, { cache: 'no-store' })
                 .then(response => {
-                    if (!response.ok) throw new Error("Erreur lors du chargement du fichier questions.");
+                    if (!response.ok) throw new Error("Erreur chargement fichier.");
                     return response.json();
                 })
                 .then(data => {
                     if (!data.questions || !Array.isArray(data.questions)) throw new Error("Format JSON invalide");
 
                     fullQuestionPool = data.questions;
-
-                    // Initialiser pool sans répétition
                     remainingQuestions = shuffle([...fullQuestionPool]);
 
-                    // Titre et sous-titre (fidèle, mais cohérent)
-                    document.getElementById('main-title').innerText = selectedTitle;
-                    document.getElementById('sub-title').innerText =
-                        (selectedSubtitle ? selectedSubtitle + " • " : "") + `${fullQuestionPool.length} questions dispo`;
+                    // Titres si présents dans le JSON (écrasent ceux du menu si besoin)
+                    if(data.title) document.getElementById('main-title').innerText = data.title;
 
-
+                    // Transition UI
                     document.getElementById('setup-panel').style.display = 'none';
+                    document.getElementById('header-area').style.display = 'none'; 
+                    document.getElementById('quiz-interface').style.display = 'block';
+                    
                     startSession();
                 })
                 .catch(err => {
                     document.getElementById('error-msg').style.display = 'block';
                     document.getElementById('error-msg').innerText = "Erreur : " + err.message;
-                    btn.innerText = originalText;
-                    btn.disabled = false;
+                    btn.innerText = "C'est parti 🚀";
                 });
         }
 
-        // --- MOTEUR QUIZ (fidèle, avec startSession ajustée) ---
-        function shuffle(array) {
-            return array.sort(() => Math.random() - 0.5);
-        }
+        // --- 4. MOTEUR DE JEU (Standard robuste) ---
+        function shuffle(array) { return array.sort(() => Math.random() - 0.5); }
 
         function startSession() {
             if (!remainingQuestions || remainingQuestions.length === 0) {
-                // si on a tout consommé, on repart sur un shuffle complet
                 remainingQuestions = shuffle([...fullQuestionPool]);
             }
 
-            const n = (sessionSize === Infinity)
-                ? remainingQuestions.length
-                : Math.min(sessionSize, remainingQuestions.length);
-
+            const n = (sessionSize === Infinity) ? remainingQuestions.length : Math.min(sessionSize, remainingQuestions.length);
+            
             currentSession = remainingQuestions.slice(0, n);
             remainingQuestions = remainingQuestions.slice(n);
 
-            // Sauvegarde pour "Recommencer"
+            // Snapshot pour le restart
             lastSession = currentSession;
             lastSessionRemainingSnapshot = remainingQuestions;
 
@@ -471,31 +452,21 @@
             document.getElementById('result-screen').style.display = 'none';
             document.getElementById('quiz-container').innerHTML = '';
             document.getElementById('progress').style.display = 'block';
-            document.getElementById('quiz-container').style.display = 'block';
-
+            
             showQuestion();
         }
 
         function restartSameSession() {
-            if (!lastSession || lastSession.length === 0) {
-                // fallback
-                startSession();
-                return;
-            }
-
-            // On restaure le même bloc + le même restant
+            if (!lastSession || lastSession.length === 0) { startSession(); return; }
+            
             currentSession = lastSession;
             remainingQuestions = lastSessionRemainingSnapshot;
-
             currentIndex = 0;
             score = 0;
             startTime = new Date();
 
             document.getElementById('result-screen').style.display = 'none';
             document.getElementById('quiz-container').innerHTML = '';
-            document.getElementById('progress').style.display = 'block';
-            document.getElementById('quiz-container').style.display = 'block';
-
             showQuestion();
         }
 
@@ -504,40 +475,31 @@
             const container = document.getElementById('quiz-container');
             document.getElementById('progress').innerText = `Question ${currentIndex + 1} / ${currentSession.length}`;
 
-            const isVF = q.options.length === 2 &&
-                q.options.some(o => o.toLowerCase().includes("vrai")) &&
-                q.options.some(o => o.toLowerCase().includes("faux"));
+            const isVF = q.options.length === 2 && 
+                         q.options.some(o => o.toLowerCase().includes("vrai")) && 
+                         q.options.some(o => o.toLowerCase().includes("faux"));
 
-            let inputType = 'checkbox';
-            let hint = "(Cochez la ou les bonnes réponses)";
-
-            if (isVF) {
-                inputType = 'radio';
-                hint = "(Vrai ou Faux)";
-            }
+            let inputType = isVF ? 'radio' : 'checkbox';
+            let hint = isVF ? "(Vrai ou Faux)" : "(Cochez la ou les bonnes réponses)";
 
             let optionsWithIndex = q.options.map((opt, i) => ({ text: opt, originalIndex: i }));
-            if (!isVF) {
-                optionsWithIndex = shuffle(optionsWithIndex);
-            }
+            if (!isVF) optionsWithIndex = shuffle(optionsWithIndex);
 
             let html = `
-        <div class="question-box active">
-            <div class="question-title">${q.question}</div>
-            <div class="hint-text">${hint}</div>
-            <div class="options">
-                ${optionsWithIndex.map((opt, i) => `
-                    <label id="opt-${i}">
-                        <input type="${inputType}" name="option" value="${opt.originalIndex}">
-                        <span>${opt.text}</span>
-                    </label>
-                `).join('')}
-            </div>
-
-            <button id="validate-btn" class="btn" onclick="validate()">Valider</button>
-            <div class="feedback-text" id="feedback"></div>
-        </div>
-        `;
+            <div class="question-box active">
+                <div class="question-title">${q.question}</div>
+                <div class="hint-text">${hint}</div>
+                <div class="options">
+                    ${optionsWithIndex.map((opt, i) => `
+                        <label id="opt-${i}">
+                            <input type="${inputType}" name="option" value="${opt.originalIndex}">
+                            <span>${opt.text}</span>
+                        </label>
+                    `).join('')}
+                </div>
+                <button id="validate-btn" class="btn" onclick="validate()">Valider</button>
+                <div class="feedback-text" id="feedback"></div>
+            </div>`;
             container.innerHTML = html;
         }
 
@@ -545,105 +507,72 @@
             const q = currentSession[currentIndex];
             const allInputs = document.querySelectorAll('input[name="option"]');
             const checkedInputs = document.querySelectorAll('input[name="option"]:checked');
-
+            
             if (checkedInputs.length === 0) return alert("Choisis au moins une réponse !");
 
             const btn = document.getElementById('validate-btn');
             const feedback = document.getElementById('feedback');
-
             allInputs.forEach(i => i.disabled = true);
             btn.style.display = 'none';
 
             const checkedValues = Array.from(checkedInputs).map(cb => parseInt(cb.value));
-            const correctSorted = JSON.stringify(q.correct.sort());
-            const checkedSorted = JSON.stringify(checkedValues.sort());
-            const isCorrect = correctSorted === checkedSorted;
-
+            const isCorrect = JSON.stringify(q.correct.sort()) === JSON.stringify(checkedValues.sort());
             if (isCorrect) score++;
 
             allInputs.forEach((input, domIndex) => {
                 const val = parseInt(input.value);
                 const label = document.getElementById(`opt-${domIndex}`);
                 if (!label) return;
-
+                
                 if (q.correct.includes(val)) {
-                    if (input.checked) label.classList.add('correct-checked');
-                    else label.classList.add('missed-correct');
+                    input.checked ? label.classList.add('correct-checked') : label.classList.add('missed-correct');
                 } else {
-                    if (input.checked) label.classList.add('wrong-checked');
-                    else label.classList.add('neutral-disabled');
+                    input.checked ? label.classList.add('wrong-checked') : label.classList.add('neutral-disabled');
                 }
             });
 
             const nextText = currentIndex === currentSession.length - 1 ? "Voir Résultats" : "Suivant";
-
-            let explanationContent = "";
-            if (q.explanation && q.explanation.trim() !== "") {
-                explanationContent = `<br><span style="display:block; margin-top:10px; font-weight:normal; color:#2d3436;">${q.explanation}</span>`;
-            }
+            let explanation = (q.explanation && q.explanation.trim() !== "") 
+                ? `<br><span style="display:block; margin-top:10px; font-weight:normal; color:#2d3436;">${q.explanation}</span>` 
+                : "";
 
             feedback.style.display = 'block';
-            feedback.innerHTML = `
-            <strong>${isCorrect ? "BRAVO ! 🎉" : "DOMMAGE..."}</strong>
-            ${explanationContent}
-            <button class="btn btn-next" onclick="nextQuestion()">${nextText}</button>
-        `;
+            feedback.innerHTML = `<strong>${isCorrect ? "BRAVO ! 🎉" : "DOMMAGE..."}</strong>${explanation}<button class="btn btn-next" onclick="nextQuestion()">${nextText}</button>`;
             feedback.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         };
 
         window.nextQuestion = function () {
-            if (currentIndex < currentSession.length - 1) {
-                currentIndex++;
-                showQuestion();
-            } else {
-                endQuiz();
-            }
+            if (currentIndex < currentSession.length - 1) { currentIndex++; showQuestion(); } else { endQuiz(); }
         };
 
         function endQuiz() {
-            const endTime = new Date();
-            const timeDiff = Math.floor((endTime - startTime) / 1000);
+            const timeDiff = Math.floor((new Date() - startTime) / 1000);
             const minutes = Math.floor(timeDiff / 60);
             const seconds = timeDiff % 60;
-            const timeString = `${minutes} min ${seconds} sec`;
 
-            document.getElementById('quiz-container').style.display = 'none';
-            document.getElementById('progress').style.display = 'none';
+            document.getElementById('quiz-interface').style.display = 'none';
             document.getElementById('result-screen').style.display = 'block';
-
-            const total = currentSession.length;
-            document.getElementById('final-score').innerText = `${score}/${total}`;
-            document.getElementById('final-time').innerText = `⏱ Temps écoulé : ${timeString}`;
-
-            const ratio = score / total;
+            
+            document.getElementById('final-score').innerText = `${score}/${currentSession.length}`;
+            document.getElementById('final-time').innerText = `⏱ Temps : ${minutes} min ${seconds} s`;
+            
+            const ratio = score / currentSession.length;
             const comment = document.getElementById('comment');
-            const detail = document.getElementById('detail-msg');
+            if (ratio >= 0.8) { comment.innerText = "Excellent ! 🏆"; comment.style.color = "#27ae60"; }
+            else if (ratio >= 0.5) { comment.innerText = "Bien joué ! 👍"; comment.style.color = "#f39c12"; }
+            else { comment.innerText = "Courage ! 💪"; comment.style.color = "#c0392b"; }
 
-            if (ratio >= 0.8) {
-                comment.innerText = "Excellent ! 🏆";
-                comment.style.color = "#27ae60";
-                detail.innerText = "Tu maîtrises le sujet.";
-            } else if (ratio >= 0.5) {
-                comment.innerText = "Bien joué ! 👍";
-                comment.style.color = "#f39c12";
-                detail.innerText = "Les bases sont là.";
-            } else {
-                comment.innerText = "Courage ! 💪";
-                comment.style.color = "#c0392b";
-                detail.innerText = "Relis tes fiches.";
-            }
-
-            // AJOUT: gérer le bouton Continuer
+            // Gestion bouton Continuer
             const contBtn = document.getElementById('continue-btn');
             if (remainingQuestions.length > 0 && sessionSize !== Infinity) {
                 contBtn.style.display = 'block';
-                contBtn.innerText =
-                    `Continuer (${Math.min(sessionSize, remainingQuestions.length)} questions restantes : ${remainingQuestions.length})`;
+                contBtn.innerText = `Continuer (${Math.min(sessionSize, remainingQuestions.length)} questions suivantes)`;
             } else {
                 contBtn.style.display = 'none';
             }
         }
 
+        // Service Worker (si présent chez toi)
         if ("serviceWorker" in navigator) {
             window.addEventListener("load", () => {
                 navigator.serviceWorker.register("/revisions-ifsi/sw.js");
@@ -651,5 +580,4 @@
         }
     </script>
 </body>
-
 </html>
