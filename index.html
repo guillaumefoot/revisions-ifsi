@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Moteur Révisions IFSI</title>
     <style>
-        /* --- STYLES GLOBAUX (Desktop first) --- */
+        /* --- STYLES GLOBAUX --- */
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
 
         body {
@@ -29,79 +29,87 @@
             padding: 30px;
             border-radius: 24px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
-            min-height: 85vh; /* Hauteur confortable sur PC */
+            min-height: 85vh;
             display: flex;
             flex-direction: column;
+            overflow: hidden; /* Empêche le débordement global */
         }
 
-        /* Header */
         h1 {
             color: #2c3e50;
             text-align: center;
             font-size: 1.8rem;
-            margin: 0 0 20px 0;
+            margin: 0 0 10px 0;
             font-weight: 800;
             letter-spacing: -0.5px;
         }
 
-        /* --- FILTRES --- */
-        .filter-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
+        .subtitle-main {
+            text-align: center; color: #a0aec0; margin-bottom: 30px; font-size: 0.95rem;
+        }
+
+        /* --- CARROUSEL / SWIMLANES --- */
+        .category-section {
             margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #f1f2f6;
         }
 
-        .filter-btn {
-            background-color: #fff;
-            border: 1px solid #dfe6e9;
-            color: #636e72;
-            padding: 8px 16px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.2s ease;
+        .category-title {
+            font-size: 1.1rem;
+            font-weight: 800;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            padding-left: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
         }
 
-        .filter-btn:hover { background-color: #f1f2f6; border-color: #b2bec3; }
-
-        .filter-btn.active {
-            background-color: #3498db;
-            color: white;
-            border-color: #3498db;
-            box-shadow: 0 4px 10px rgba(52, 152, 219, 0.25);
+        .category-pill {
+            background: #eaf6fd; color: #3498db; 
+            padding: 4px 10px; border-radius: 8px; font-size: 0.8rem;
         }
 
-        /* --- GRILLE CARTES --- */
-        .quiz-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-            gap: 20px;
-            margin-bottom: 40px;
+        /* Le conteneur qui scrolle horizontalement */
+        .horizontal-scroll {
+            display: flex;
+            gap: 15px;
+            overflow-x: auto;
+            padding-bottom: 20px; /* Espace pour l'ombre */
+            padding-left: 5px;
+            padding-right: 5px;
+            
+            /* Pour un scroll fluide et "magnétique" */
+            scroll-snap-type: x mandatory; 
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none; /* Firefox */
         }
+        
+        .horizontal-scroll::-webkit-scrollbar { display: none; } /* Chrome/Safari */
 
         .quiz-card {
             background: #fff;
             border: 1px solid #e2e8f0;
             border-radius: 16px;
-            padding: 25px;
+            padding: 20px;
             cursor: pointer;
             text-align: left;
             transition: all 0.2s ease;
             display: flex;
-            flex-direction: column; 
-            height: 100%;
-            min-height: 150px;
+            flex-direction: column;
+            
+            /* TAILLE FIXE POUR CARROUSEL */
+            min-width: 260px;
+            max-width: 260px;
+            height: 180px; /* Hauteur fixe pour uniformité */
+            
+            scroll-snap-align: start; /* Magnétisme */
+            flex-shrink: 0; /* Empêche l'écrasement */
         }
 
         .quiz-card:hover {
             transform: translateY(-4px);
             border-color: #cbd5e0;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.06);
         }
 
         .quiz-card.selected {
@@ -114,35 +122,33 @@
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin-bottom: 12px;
+            margin-bottom: 10px;
         }
 
-        .card-badge {
-            display: inline-block;
-            background-color: #eaf6fd;
-            color: #3498db;
-            font-size: 0.75rem;
-            font-weight: 800;
-            padding: 5px 10px;
-            border-radius: 6px;
-            text-transform: uppercase;
-        }
-
-        .card-icon { font-size: 1.6rem; line-height: 1; }
+        .card-icon { font-size: 1.8rem; line-height: 1; }
 
         .card-title {
             font-weight: 700;
-            font-size: 1.15rem;
+            font-size: 1.1rem;
             color: #2d3748;
             line-height: 1.3;
             margin-bottom: 8px;
-            flex-grow: 1; 
+            
+            /* Coupe le texte s'il est trop long (3 lignes max) */
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            flex-grow: 1;
         }
         
-        .card-subtitle { font-size: 0.9rem; color: #718096; margin-top: auto; }
+        .card-subtitle { 
+            font-size: 0.85rem; color: #718096; margin-top: auto;
+            white-space: nowrap; overflow: hidden; text-overflow: ellipsis; 
+        }
 
         /* SETUP QUANTITE */
-        .count-selector-container { text-align: center; margin-bottom: 30px; }
+        .count-selector-container { text-align: center; margin-bottom: 30px; margin-top: 20px; }
         
         .section-label {
             font-weight: 700; color: #b2bec3; margin-bottom: 15px;
@@ -197,8 +203,7 @@
         @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
 
         .question-title {
-            font-size: 1.3rem; /* Gros sur PC */
-            font-weight: 700; margin-bottom: 20px;
+            font-size: 1.15rem; font-weight: 700; margin-bottom: 20px;
             color: #2d3748; line-height: 1.4;
         }
 
@@ -211,14 +216,13 @@
         .options { display: flex; flex-direction: column; gap: 10px; }
 
         .options label {
-            display: flex; align-items: flex-start; /* Align top pour questions longues */
-            padding: 16px;
+            display: flex; align-items: flex-start; padding: 16px;
             background-color: #fff; border: 2px solid #edf2f7;
             border-radius: 12px; cursor: pointer; transition: all 0.15s ease;
-            font-size: 1.05rem; color: #4a5568;
+            font-size: 1rem; color: #4a5568;
         }
 
-        .options label span { margin-top: 1px; } /* Petit ajustement visuel */
+        .options label span { margin-top: 1px; }
 
         .options label:hover { border-color: #cbd5e0; }
         .options label:active { transform: scale(0.99); background-color: #f7fafc; }
@@ -227,7 +231,7 @@
             appearance: none; width: 22px; height: 22px;
             border: 2px solid #cbd5e0; border-radius: 6px; margin-right: 15px;
             display: grid; place-content: center; flex-shrink: 0; transition: 0.2s;
-            margin-top: 3px; /* Alignement avec le texte */
+            margin-top: 3px;
         }
         .options input[type="radio"] { border-radius: 50%; }
         .options input:checked { border-color: #3498db; background-color: #3498db; }
@@ -261,52 +265,18 @@
         /* Resultats */
         #result-screen { display: none; text-align: center; padding: 10px 0; }
         .score-circle {
-            width: 140px; height: 140px; background: white;
-            border: 8px solid #3498db;
+            width: 110px; height: 110px; background: white;
+            border: 6px solid #3498db;
             border-radius: 50%; display: flex; align-items: center; justify-content: center;
-            color: #3498db; font-size: 3rem; font-weight: 800; margin: 30px auto;
+            color: #3498db; font-size: 2.2rem; font-weight: 800; margin: 20px auto;
         }
         .time-stat { color: #a0aec0; font-size: 1rem; margin-top: -15px; margin-bottom: 25px; }
 
-        /* --- OPTIMISATION MOBILE (Media Queries) --- */
         @media (max-width: 600px) {
             body { padding: 10px; }
-            
-            .container { 
-                padding: 20px 15px; /* Moins de padding latéral */
-                border-radius: 16px; 
-                box-shadow: none; 
-                min-height: auto; /* IMPORTANT : Enlève le scroll vide */
-            }
-            
-            h1 { font-size: 1.5rem; margin-bottom: 15px; }
-            
-            .quiz-grid { grid-template-columns: 1fr; }
-            .filter-container { overflow-x: auto; white-space: nowrap; justify-content: flex-start; padding-bottom: 5px; }
-            
-            .quiz-card { min-height: auto; }
-            
-            /* -- POLICES RÉDUITES SUR MOBILE -- */
-            .question-title { 
-                font-size: 1.15rem; /* Plus petit que 1.3 */
-                margin-bottom: 15px;
-            }
-            
-            .options label {
-                padding: 14px;
-                font-size: 0.95rem; /* Plus petit que 1.05 */
-            }
-            
-            /* Score compact */
-            .score-circle {
-                width: 110px; height: 110px; /* Cercle plus petit */
-                font-size: 2.2rem;
-                border-width: 6px;
-                margin: 20px auto; /* Moins de marge verticale */
-            }
-            
-            .btn { margin-top: 20px; padding: 14px; font-size: 1rem; }
-            .start-btn { margin-bottom: 10px; }
+            .container { padding: 20px 15px; border-radius: 16px; box-shadow: none; min-height: auto; }
+            h1 { font-size: 1.5rem; }
+            .start-btn { margin-bottom: 20px; }
         }
     </style>
 </head>
@@ -316,6 +286,7 @@
     <div class="container">
         <div id="header-area">
             <h1 id="app-title">🎓 RÉVISIONS IFSI</h1>
+            <div class="subtitle-main">Choisis un module pour t'entraîner</div>
         </div>
 
         <div id="setup-panel">
@@ -325,9 +296,7 @@
 
             <div id="grid-section" style="display:none;">
                 
-                <div id="filters" class="filter-container"></div>
-
-                <div id="quiz-grid" class="quiz-grid"></div>
+                <div id="carousels-container"></div>
 
                 <div class="count-selector-container">
                     <span class="section-label">Nombre de questions</span>
@@ -371,13 +340,10 @@
     </div>
 
     <script>
-        // --- VARIABLES ---
         let sessionSize = 10;
         let selectedQuizUrl = null; 
-        
         let currentQuizName = "";
         let currentQuizSub = "";
-
         let fullQuestionPool = [];
         let remainingQuestions = [];
         let currentSession = [];
@@ -387,15 +353,13 @@
         let score = 0;
         let startTime = 0;
 
-        // --- CHARGEMENT ---
         window.onload = function () {
             fetch('quizzes.json', { cache: 'no-store' })
                 .then(res => res.json())
                 .then(data => {
                     document.getElementById('loading-spinner').style.display = 'none';
                     document.getElementById('grid-section').style.display = 'block';
-                    generateFilters(data);
-                    renderGrid(data);
+                    renderCarousels(data);
                 })
                 .catch(err => {
                     document.getElementById('loading-spinner').style.display = 'none';
@@ -404,70 +368,64 @@
                 });
         };
 
-        // --- GESTION FILTRES ---
-        function generateFilters(data) {
-            const filterContainer = document.getElementById('filters');
-            const codes = [...new Set(data.map(q => q.code || "AUTRE"))].sort();
-            
-            let allBtn = document.createElement('div');
-            allBtn.className = "filter-btn active";
-            allBtn.innerText = "TOUT";
-            allBtn.onclick = () => filterGrid('ALL', allBtn);
-            filterContainer.appendChild(allBtn);
+        // --- NOUVEAU RENDU : CARROUSELS ---
+        function renderCarousels(data) {
+            const container = document.getElementById('carousels-container');
+            container.innerHTML = ""; 
 
-            codes.forEach(code => {
-                let btn = document.createElement('div');
-                btn.className = "filter-btn";
-                btn.innerText = code;
-                btn.onclick = () => filterGrid(code, btn);
-                filterContainer.appendChild(btn);
-            });
-        }
-
-        function filterGrid(category, clickedBtn) {
-            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-            clickedBtn.classList.add('active');
-
-            const cards = document.querySelectorAll('.quiz-card');
-            cards.forEach(card => {
-                const cardCode = card.dataset.code || "AUTRE";
-                if (category === 'ALL' || cardCode === category) {
-                    card.style.display = 'flex';
-                } else {
-                    card.style.display = 'none';
-                }
-            });
-        }
-
-        // --- RENDU GRILLE ---
-        function renderGrid(data) {
-            const grid = document.getElementById('quiz-grid');
-            grid.innerHTML = ""; 
-
+            // 1. Grouper par code (UE)
+            const groups = {};
             data.forEach(q => {
-                const card = document.createElement('div');
-                card.className = 'quiz-card';
-                const codeUE = q.code ? q.code : "AUTRE";
-                const icon = q.icon ? q.icon : ""; 
+                const code = q.code || "AUTRES";
+                if (!groups[code]) groups[code] = [];
+                groups[code].push(q);
+            });
 
-                card.dataset.code = codeUE;
+            // 2. Créer une section pour chaque groupe
+            // On trie les clés pour avoir UE 2.6 avant UE 2.8
+            Object.keys(groups).sort().forEach(code => {
+                const items = groups[code];
 
-                card.onclick = () => selectQuiz(q.file, card, q.name, q.subtitle, codeUE);
-                
-                card.innerHTML = `
-                    <div class="card-header">
-                        <span class="card-badge">${codeUE}</span>
-                        <span class="card-icon">${icon}</span>
+                // Conteneur de section
+                const section = document.createElement('div');
+                section.className = "category-section";
+
+                // Titre de la section
+                section.innerHTML = `
+                    <div class="category-title">
+                        <span class="category-pill">${code}</span>
                     </div>
-                    <span class="card-title">${q.name}</span>
-                    <span class="card-subtitle">${q.subtitle || ""}</span>
                 `;
-                grid.appendChild(card);
+
+                // Zone de scroll horizontal
+                const scrollContainer = document.createElement('div');
+                scrollContainer.className = "horizontal-scroll";
+
+                // Ajout des cartes
+                items.forEach(q => {
+                    const card = document.createElement('div');
+                    card.className = 'quiz-card';
+                    const icon = q.icon ? q.icon : ""; 
+
+                    card.onclick = () => selectQuiz(q.file, card, q.name, q.subtitle, code);
+                    
+                    card.innerHTML = `
+                        <div class="card-header">
+                            <span class="card-icon">${icon}</span>
+                        </div>
+                        <span class="card-title">${q.name}</span>
+                        <span class="card-subtitle">${q.subtitle || ""}</span>
+                    `;
+                    scrollContainer.appendChild(card);
+                });
+
+                section.appendChild(scrollContainer);
+                container.appendChild(section);
             });
         }
 
-        // --- SELECTION & JEU ---
         function selectQuiz(url, element, name, sub, code) {
+            // Désélectionner partout
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             element.classList.add('selected');
             selectedQuizUrl = url;
@@ -515,7 +473,7 @@
                 });
         }
 
-        // --- MOTEUR ---
+        // --- MOTEUR (Inchangé) ---
         function shuffle(array) { return array.sort(() => Math.random() - 0.5); }
 
         function startSession() {
@@ -555,7 +513,6 @@
             const isVF = q.options.length === 2 && q.options.some(o => o.toLowerCase().includes("vrai"));
             let inputType = isVF ? 'radio' : 'checkbox';
             
-            // CORRECTION TEXTE HINT
             let hint = isVF ? "(Vrai ou Faux)" : "(Cochez la ou les bonnes réponses)";
             
             let optionsWithIndex = q.options.map((opt, i) => ({ text: opt, originalIndex: i }));
