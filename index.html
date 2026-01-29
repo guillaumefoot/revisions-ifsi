@@ -45,30 +45,39 @@
         }
 
         .subtitle-main {
-            text-align: center; color: #a0aec0; margin-bottom: 20px; font-size: 0.95rem;
+            text-align: center; color: #a0aec0; margin-bottom: 25px; font-size: 0.95rem;
         }
 
-        /* --- FILTRES --- */
+        /* --- FILTRES SCROLLABLES (Style YouTube/Insta) --- */
         .filter-container {
             display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            justify-content: center;
-            margin-bottom: 25px;
-            padding-bottom: 15px;
+            gap: 12px; /* Espace entre les boutons */
+            overflow-x: auto; /* Scroll horizontal */
+            white-space: nowrap; /* Force une seule ligne */
+            
+            /* Esthétique du scroll */
+            padding-bottom: 15px; 
+            padding-left: 5px; padding-right: 5px; /* Marge de sécurité */
+            margin-bottom: 20px;
             border-bottom: 1px solid #f1f2f6;
+            
+            /* Cache la barre de scroll moche */
+            scrollbar-width: none; /* Firefox */
+            -webkit-overflow-scrolling: touch;
         }
+        .filter-container::-webkit-scrollbar { display: none; } /* Chrome/Safari */
 
         .filter-btn {
             background-color: #fff;
             border: 1px solid #dfe6e9;
             color: #636e72;
-            padding: 8px 18px;
-            border-radius: 20px;
-            font-size: 0.95rem;
+            padding: 8px 20px;
+            border-radius: 50px; /* Pillule très arrondie */
+            font-size: 0.9rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.2s ease;
+            flex-shrink: 0; /* Empêche le bouton de s'écraser */
         }
 
         .filter-btn:hover { background-color: #f1f2f6; border-color: #b2bec3; }
@@ -82,7 +91,7 @@
 
         /* --- CARROUSEL / SWIMLANES --- */
         .category-section {
-            margin-bottom: 40px;
+            margin-bottom: 20px; /* Espace entre les lignes de quiz */
             animation: fadeInSection 0.3s ease-out;
         }
         
@@ -91,23 +100,7 @@
             to { opacity: 1; transform: translateY(0); }
         }
 
-        .category-title {
-            font-size: 1.2rem;
-            font-weight: 800;
-            color: #2c3e50;
-            margin-bottom: 10px;
-            padding-left: 5px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .category-pill {
-            background: #eaf6fd; color: #3498db; 
-            padding: 5px 12px; border-radius: 8px; font-size: 0.85rem;
-        }
-
-        /* SCROLL HORIZONTAL */
+        /* SCROLL HORIZONTAL CARTES */
         .horizontal-scroll {
             display: flex;
             gap: 20px;
@@ -137,8 +130,8 @@
             
             display: flex;
             flex-direction: column;
-            position: relative; /* Pour positionner l'icone en absolu */
-            overflow: hidden;   /* Pour couper l'icone si elle dépasse */
+            position: relative; 
+            overflow: hidden;   
             
             min-width: 280px;
             max-width: 280px;
@@ -165,12 +158,12 @@
             position: absolute;
             bottom: -15px;
             right: -10px;
-            font-size: 6rem; /* Enorme */
-            opacity: 0.08;   /* Très discret (Watermark) */
+            font-size: 6rem; 
+            opacity: 0.08;   
             line-height: 1;
-            z-index: 0;      /* Derrière le texte */
+            z-index: 0;      
             pointer-events: none;
-            filter: grayscale(100%); /* Optionnel : rend l'icone grise pour pas gêner */
+            filter: grayscale(100%); 
             transform: rotate(-10deg);
         }
 
@@ -202,8 +195,6 @@
             color: #2d3748;
             line-height: 1.3;
             margin-bottom: 8px;
-            
-            /* On autorise jusqu'à 3 lignes de titre maintenant */
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
@@ -214,17 +205,16 @@
             font-size: 0.9rem; 
             color: #718096; 
             line-height: 1.4;
-            
-            /* On autorise beaucoup de texte maintenant ! */
             display: -webkit-box;
             -webkit-line-clamp: 5; 
             -webkit-box-orient: vertical;
             overflow: hidden;
             white-space: normal;
+            margin-top: auto; /* Colle au bas si possible */
         }
 
         /* SETUP QUANTITE */
-        .count-selector-container { text-align: center; margin-bottom: 30px; margin-top: 20px; }
+        .count-selector-container { text-align: center; margin-bottom: 30px; margin-top: 10px; }
         
         .section-label {
             font-weight: 700; color: #b2bec3; margin-bottom: 15px;
@@ -364,11 +354,10 @@
             /* Masquer la scrollbar */
             .horizontal-scroll::-webkit-scrollbar { display: none; }
             .horizontal-scroll { scrollbar-width: none; }
-            .filter-container { overflow-x: auto; white-space: nowrap; justify-content: flex-start; padding-bottom: 5px; }
             
             /* --- CARTES COMPACTES MOBILE --- */
             .quiz-card {
-                min-width: 260px; /* Plus étroit pour l'effet carrousel */
+                min-width: 260px;
                 max-width: 260px;
                 height: 200px;
                 padding: 18px;
@@ -531,12 +520,8 @@
                 section.className = "category-section";
                 section.dataset.code = code;
 
-                section.innerHTML = `
-                    <div class="category-title">
-                        <span class="category-pill">${code}</span>
-                    </div>
-                `;
-
+                // SUPPRESSION DU TITRE ICI
+                // On met juste la zone de scroll
                 const scrollContainer = document.createElement('div');
                 scrollContainer.className = "horizontal-scroll";
 
@@ -547,7 +532,6 @@
 
                     card.onclick = () => selectQuiz(q.file, card, q.name, q.subtitle, code);
                     
-                    // NOUVELLE STRUCTURE HTML POUR L'EFFET WATERMARK
                     card.innerHTML = `
                         <div class="card-bg-icon">${icon}</div>
                         <div class="card-content">
