@@ -32,7 +32,7 @@
             min-height: 85vh;
             display: flex;
             flex-direction: column;
-            overflow: hidden; /* Empêche le débordement global */
+            overflow: hidden;
         }
 
         h1 {
@@ -57,7 +57,7 @@
             font-size: 1.1rem;
             font-weight: 800;
             color: #2c3e50;
-            margin-bottom: 15px;
+            margin-bottom: 5px; /* Réduit pour coller au scroll */
             padding-left: 5px;
             display: flex;
             align-items: center;
@@ -69,22 +69,38 @@
             padding: 4px 10px; border-radius: 8px; font-size: 0.8rem;
         }
 
-        /* Le conteneur qui scrolle horizontalement */
+        /* SCROLL HORIZONTAL CORRIGÉ */
         .horizontal-scroll {
             display: flex;
             gap: 15px;
             overflow-x: auto;
-            padding-bottom: 20px; /* Espace pour l'ombre */
+            
+            /* PADDING AJOUTÉ ICI POUR EVITER LA COUPURE AU SURVOL */
+            padding-top: 10px; 
+            padding-bottom: 20px; 
             padding-left: 5px;
             padding-right: 5px;
             
-            /* Pour un scroll fluide et "magnétique" */
             scroll-snap-type: x mandatory; 
             -webkit-overflow-scrolling: touch;
-            scrollbar-width: none; /* Firefox */
         }
         
-        .horizontal-scroll::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+        /* Design de la scrollbar (PC uniquement) */
+        .horizontal-scroll::-webkit-scrollbar {
+            height: 8px;
+        }
+        .horizontal-scroll::-webkit-scrollbar-track {
+            background: #f1f2f6; 
+            border-radius: 4px;
+            margin-left: 10px; margin-right: 10px;
+        }
+        .horizontal-scroll::-webkit-scrollbar-thumb {
+            background: #bdc3c7; 
+            border-radius: 4px;
+        }
+        .horizontal-scroll::-webkit-scrollbar-thumb:hover {
+            background: #95a5a6; 
+        }
 
         .quiz-card {
             background: #fff;
@@ -97,17 +113,17 @@
             display: flex;
             flex-direction: column;
             
-            /* TAILLE FIXE POUR CARROUSEL */
+            /* TAILLE FIXE */
             min-width: 260px;
             max-width: 260px;
-            height: 180px; /* Hauteur fixe pour uniformité */
+            height: 180px; 
             
-            scroll-snap-align: start; /* Magnétisme */
-            flex-shrink: 0; /* Empêche l'écrasement */
+            scroll-snap-align: start;
+            flex-shrink: 0;
         }
 
         .quiz-card:hover {
-            transform: translateY(-4px);
+            transform: translateY(-4px); /* Monte de 4px */
             border-color: #cbd5e0;
             box-shadow: 0 10px 20px rgba(0,0,0,0.06);
         }
@@ -133,8 +149,6 @@
             color: #2d3748;
             line-height: 1.3;
             margin-bottom: 8px;
-            
-            /* Coupe le texte s'il est trop long (3 lignes max) */
             display: -webkit-box;
             -webkit-line-clamp: 3;
             -webkit-box-orient: vertical;
@@ -203,7 +217,8 @@
         @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
 
         .question-title {
-            font-size: 1.15rem; font-weight: 700; margin-bottom: 20px;
+            font-size: 1.3rem; /* Gros sur PC */
+            font-weight: 700; margin-bottom: 20px;
             color: #2d3748; line-height: 1.4;
         }
 
@@ -216,7 +231,8 @@
         .options { display: flex; flex-direction: column; gap: 10px; }
 
         .options label {
-            display: flex; align-items: flex-start; padding: 16px;
+            display: flex; align-items: flex-start;
+            padding: 16px;
             background-color: #fff; border: 2px solid #edf2f7;
             border-radius: 12px; cursor: pointer; transition: all 0.15s ease;
             font-size: 1rem; color: #4a5568;
@@ -277,6 +293,14 @@
             .container { padding: 20px 15px; border-radius: 16px; box-shadow: none; min-height: auto; }
             h1 { font-size: 1.5rem; }
             .start-btn { margin-bottom: 20px; }
+            
+            /* Polices mobile */
+            .question-title { font-size: 1.15rem; }
+            .options label { padding: 14px; font-size: 0.95rem; }
+            
+            /* On masque la barre sur mobile pour le look App */
+            .horizontal-scroll::-webkit-scrollbar { display: none; }
+            .horizontal-scroll { scrollbar-width: none; }
         }
     </style>
 </head>
@@ -295,7 +319,6 @@
             </div>
 
             <div id="grid-section" style="display:none;">
-                
                 <div id="carousels-container"></div>
 
                 <div class="count-selector-container">
@@ -368,12 +391,10 @@
                 });
         };
 
-        // --- NOUVEAU RENDU : CARROUSELS ---
         function renderCarousels(data) {
             const container = document.getElementById('carousels-container');
             container.innerHTML = ""; 
 
-            // 1. Grouper par code (UE)
             const groups = {};
             data.forEach(q => {
                 const code = q.code || "AUTRES";
@@ -381,27 +402,20 @@
                 groups[code].push(q);
             });
 
-            // 2. Créer une section pour chaque groupe
-            // On trie les clés pour avoir UE 2.6 avant UE 2.8
             Object.keys(groups).sort().forEach(code => {
                 const items = groups[code];
-
-                // Conteneur de section
                 const section = document.createElement('div');
                 section.className = "category-section";
 
-                // Titre de la section
                 section.innerHTML = `
                     <div class="category-title">
                         <span class="category-pill">${code}</span>
                     </div>
                 `;
 
-                // Zone de scroll horizontal
                 const scrollContainer = document.createElement('div');
                 scrollContainer.className = "horizontal-scroll";
 
-                // Ajout des cartes
                 items.forEach(q => {
                     const card = document.createElement('div');
                     card.className = 'quiz-card';
@@ -425,7 +439,6 @@
         }
 
         function selectQuiz(url, element, name, sub, code) {
-            // Désélectionner partout
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             element.classList.add('selected');
             selectedQuizUrl = url;
@@ -473,7 +486,7 @@
                 });
         }
 
-        // --- MOTEUR (Inchangé) ---
+        // --- MOTEUR (Identique) ---
         function shuffle(array) { return array.sort(() => Math.random() - 0.5); }
 
         function startSession() {
