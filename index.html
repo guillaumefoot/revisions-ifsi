@@ -56,7 +56,7 @@
             white-space: nowrap;
             padding-bottom: 15px; 
             padding-left: 5px; padding-right: 5px;
-            margin-bottom: 10px;
+            margin-bottom: 20px; /* Espace avant les cartes */
             border-bottom: 1px solid #f1f2f6;
             scrollbar-width: none; 
             -webkit-overflow-scrolling: touch;
@@ -87,7 +87,7 @@
 
         /* --- CARROUSEL --- */
         .category-section {
-            margin-bottom: 25px;
+            margin-bottom: 20px; /* Espace entre les lignes de carrousels */
             animation: fadeInSection 0.3s ease-out;
         }
         @keyframes fadeInSection {
@@ -166,10 +166,10 @@
             height: 100%;
         }
 
-        /* --- LIGNE DES BADGES (Alignement strict) --- */
+        /* --- LIGNE DES BADGES --- */
         .card-top-row {
             display: flex;
-            align-items: center; /* Centre verticalement */
+            align-items: center;
             gap: 8px;
             margin-bottom: 12px;
             min-height: 24px;
@@ -447,7 +447,6 @@
     </div>
 
     <script>
-        // --- VARIABLES ---
         let sessionSize = 10;
         let selectedQuizUrl = null; 
         let currentQuizName = "";
@@ -461,10 +460,9 @@
         let score = 0;
         let startTime = 0;
 
-        // --- CHARGEMENT (CORRIGÉ : PLUS DE NO-STORE) ---
         window.onload = function () {
-            // On laisse le Service Worker décider (Network First)
-            fetch('quizzes.json') 
+            // On laisse le Service Worker gérer le cache/réseau
+            fetch('quizzes.json')
                 .then(res => res.json())
                 .then(data => {
                     document.getElementById('loading-spinner').style.display = 'none';
@@ -479,14 +477,12 @@
                 });
         };
 
-        // --- ENREGISTREMENT PWA ---
         if ("serviceWorker" in navigator) {
             window.addEventListener("load", () => {
                 navigator.serviceWorker.register("/revisions-ifsi/sw.js");
             });
         }
 
-        // --- FILTRES ---
         function generateFilters(data) {
             const filterContainer = document.getElementById('filters');
             const codes = [...new Set(data.map(q => q.code || "AUTRE"))].sort();
@@ -521,7 +517,6 @@
             });
         }
 
-        // --- RENDU CARROUSELS (CORRIGÉ : PLUS DE NO-STORE) ---
         function renderCarousels(data) {
             const container = document.getElementById('carousels-container');
             container.innerHTML = ""; 
@@ -539,12 +534,7 @@
                 section.className = "category-section";
                 section.dataset.code = code;
 
-                section.innerHTML = `
-                    <div class="category-title">
-                        <span class="category-pill">${code}</span>
-                    </div>
-                `;
-
+                // PLUS DE TITRE ICI (CORRIGÉ)
                 const scrollContainer = document.createElement('div');
                 scrollContainer.className = "horizontal-scroll";
 
@@ -567,7 +557,6 @@
                         </div>
                     `;
                     
-                    // SMART CACHING COMPTEUR (Fetch simple, sans no-store)
                     const storageKey = 'quiz_count_v1_' + q.file;
                     const cachedCount = localStorage.getItem(storageKey);
                     const badge = card.querySelector('.card-count');
@@ -576,7 +565,8 @@
                         badge.innerText = cachedCount + " Questions";
                         badge.style.opacity = "1";
                     } else {
-                        fetch(q.file) // <-- Correction ici aussi
+                        // Pas de cache: 'no-store' ici, le SW gère le offline
+                        fetch(q.file)
                             .then(res => res.json())
                             .then(quizData => {
                                 if(quizData.questions) {
@@ -587,7 +577,6 @@
                                 }
                             })
                             .catch(e => {
-                                // Silencieux en offline si pas de cache
                                 badge.style.display = "none";
                             });
                     }
@@ -600,7 +589,7 @@
             });
         }
 
-        // --- SELECTION (CORRIGÉ : PLUS DE NO-STORE) ---
+        // --- MOTEUR ---
         function selectQuiz(url, element, name, sub, code) {
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             element.classList.add('selected');
@@ -627,8 +616,8 @@
             const btn = document.getElementById('load-btn');
             btn.innerText = "Chargement...";
             
-            // Correction ici : on laisse le SW gérer le cache/réseau
-            fetch(selectedQuizUrl) 
+            // Pas de cache: 'no-store' ici non plus
+            fetch(selectedQuizUrl)
                 .then(res => res.json())
                 .then(data => {
                     if (!data.questions) throw new Error("JSON invalide");
@@ -645,12 +634,11 @@
                 })
                 .catch(err => {
                     document.getElementById('error-msg').style.display = 'block';
-                    document.getElementById('error-msg').innerText = "Erreur chargement (Vérifiez connexion) : " + err.message;
+                    document.getElementById('error-msg').innerText = "Erreur chargement : " + err.message;
                     btn.innerText = "Commencer";
                 });
         }
 
-        // --- MOTEUR QUIZ (Reste inchangé) ---
         function shuffle(array) { return array.sort(() => Math.random() - 0.5); }
 
         function startSession() {
