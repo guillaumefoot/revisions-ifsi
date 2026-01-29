@@ -24,7 +24,7 @@
 
         .container {
             background-color: white;
-            max-width: 900px;
+            max-width: 1000px; /* Un peu plus large pour les grandes cartes */
             margin: 0 auto;
             padding: 30px;
             border-radius: 24px;
@@ -45,19 +45,57 @@
         }
 
         .subtitle-main {
-            text-align: center; color: #a0aec0; margin-bottom: 30px; font-size: 0.95rem;
+            text-align: center; color: #a0aec0; margin-bottom: 20px; font-size: 0.95rem;
+        }
+
+        /* --- FILTRES --- */
+        .filter-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            justify-content: center;
+            margin-bottom: 25px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #f1f2f6;
+        }
+
+        .filter-btn {
+            background-color: #fff;
+            border: 1px solid #dfe6e9;
+            color: #636e72;
+            padding: 8px 18px;
+            border-radius: 20px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover { background-color: #f1f2f6; border-color: #b2bec3; }
+
+        .filter-btn.active {
+            background-color: #3498db;
+            color: white;
+            border-color: #3498db;
+            box-shadow: 0 4px 10px rgba(52, 152, 219, 0.25);
         }
 
         /* --- CARROUSEL / SWIMLANES --- */
         .category-section {
-            margin-bottom: 30px;
+            margin-bottom: 40px; /* Plus d'espace entre les rayons */
+            animation: fadeInSection 0.3s ease-out;
+        }
+        
+        @keyframes fadeInSection {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
         .category-title {
-            font-size: 1.1rem;
+            font-size: 1.2rem;
             font-weight: 800;
             color: #2c3e50;
-            margin-bottom: 5px; /* Réduit pour coller au scroll */
+            margin-bottom: 10px;
             padding-left: 5px;
             display: flex;
             align-items: center;
@@ -66,18 +104,18 @@
 
         .category-pill {
             background: #eaf6fd; color: #3498db; 
-            padding: 4px 10px; border-radius: 8px; font-size: 0.8rem;
+            padding: 5px 12px; border-radius: 8px; font-size: 0.85rem;
         }
 
-        /* SCROLL HORIZONTAL CORRIGÉ */
+        /* SCROLL HORIZONTAL */
         .horizontal-scroll {
             display: flex;
-            gap: 15px;
+            gap: 20px; /* Plus d'espace entre les cartes */
             overflow-x: auto;
             
-            /* PADDING AJOUTÉ ICI POUR EVITER LA COUPURE AU SURVOL */
+            /* Padding pour éviter la coupure au survol */
             padding-top: 10px; 
-            padding-bottom: 20px; 
+            padding-bottom: 25px; 
             padding-left: 5px;
             padding-right: 5px;
             
@@ -85,47 +123,36 @@
             -webkit-overflow-scrolling: touch;
         }
         
-        /* Design de la scrollbar (PC uniquement) */
-        .horizontal-scroll::-webkit-scrollbar {
-            height: 8px;
-        }
-        .horizontal-scroll::-webkit-scrollbar-track {
-            background: #f1f2f6; 
-            border-radius: 4px;
-            margin-left: 10px; margin-right: 10px;
-        }
-        .horizontal-scroll::-webkit-scrollbar-thumb {
-            background: #bdc3c7; 
-            border-radius: 4px;
-        }
-        .horizontal-scroll::-webkit-scrollbar-thumb:hover {
-            background: #95a5a6; 
-        }
+        .horizontal-scroll::-webkit-scrollbar { height: 8px; }
+        .horizontal-scroll::-webkit-scrollbar-track { background: #f1f2f6; border-radius: 4px; margin: 0 10px; }
+        .horizontal-scroll::-webkit-scrollbar-thumb { background: #bdc3c7; border-radius: 4px; }
+        .horizontal-scroll::-webkit-scrollbar-thumb:hover { background: #95a5a6; }
 
+        /* --- GRANDES CARTES --- */
         .quiz-card {
             background: #fff;
             border: 1px solid #e2e8f0;
-            border-radius: 16px;
-            padding: 20px;
+            border-radius: 20px; /* Arrondis plus doux */
+            padding: 25px;
             cursor: pointer;
             text-align: left;
             transition: all 0.2s ease;
             display: flex;
             flex-direction: column;
             
-            /* TAILLE FIXE */
-            min-width: 260px;
-            max-width: 260px;
-            height: 180px; 
+            /* NOUVELLES DIMENSIONS */
+            min-width: 300px; /* Plus large */
+            max-width: 300px;
+            height: 240px;    /* Plus haut */
             
             scroll-snap-align: start;
             flex-shrink: 0;
         }
 
         .quiz-card:hover {
-            transform: translateY(-4px); /* Monte de 4px */
+            transform: translateY(-5px);
             border-color: #cbd5e0;
-            box-shadow: 0 10px 20px rgba(0,0,0,0.06);
+            box-shadow: 0 12px 25px rgba(0,0,0,0.08);
         }
 
         .quiz-card.selected {
@@ -138,27 +165,37 @@
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
-            margin-bottom: 10px;
+            margin-bottom: 12px;
         }
 
-        .card-icon { font-size: 1.8rem; line-height: 1; }
+        .card-icon { font-size: 2rem; line-height: 1; }
 
         .card-title {
-            font-weight: 700;
-            font-size: 1.1rem;
+            font-weight: 800;
+            font-size: 1.15rem;
             color: #2d3748;
-            line-height: 1.3;
-            margin-bottom: 8px;
+            line-height: 1.35;
+            margin-bottom: 10px;
+            
+            /* Max 2 lignes pour le titre */
             display: -webkit-box;
-            -webkit-line-clamp: 3;
+            -webkit-line-clamp: 2;
             -webkit-box-orient: vertical;
             overflow: hidden;
-            flex-grow: 1;
         }
         
         .card-subtitle { 
-            font-size: 0.85rem; color: #718096; margin-top: auto;
-            white-space: nowrap; overflow: hidden; text-overflow: ellipsis; 
+            font-size: 0.95rem; 
+            color: #718096; 
+            margin-top: auto; /* Pousse le texte vers le bas s'il y a de la place */
+            line-height: 1.5;
+            
+            /* Affiche jusqu'à 4 lignes de description ! */
+            display: -webkit-box;
+            -webkit-line-clamp: 4; 
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            white-space: normal; /* Autorise le retour à la ligne */
         }
 
         /* SETUP QUANTITE */
@@ -217,7 +254,7 @@
         @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
 
         .question-title {
-            font-size: 1.3rem; /* Gros sur PC */
+            font-size: 1.3rem; 
             font-weight: 700; margin-bottom: 20px;
             color: #2d3748; line-height: 1.4;
         }
@@ -298,9 +335,16 @@
             .question-title { font-size: 1.15rem; }
             .options label { padding: 14px; font-size: 0.95rem; }
             
-            /* On masque la barre sur mobile pour le look App */
+            /* On masque la barre sur mobile */
             .horizontal-scroll::-webkit-scrollbar { display: none; }
             .horizontal-scroll { scrollbar-width: none; }
+            .filter-container { overflow-x: auto; white-space: nowrap; justify-content: flex-start; padding-bottom: 5px; }
+            
+            /* Ajustement taille carte mobile */
+            .quiz-card {
+                min-width: 280px; /* Un peu moins large sur mobile pour voir qu'il y en a d'autres */
+                max-width: 280px;
+            }
         }
     </style>
 </head>
@@ -319,6 +363,9 @@
             </div>
 
             <div id="grid-section" style="display:none;">
+                
+                <div id="filters" class="filter-container"></div>
+
                 <div id="carousels-container"></div>
 
                 <div class="count-selector-container">
@@ -382,6 +429,7 @@
                 .then(data => {
                     document.getElementById('loading-spinner').style.display = 'none';
                     document.getElementById('grid-section').style.display = 'block';
+                    generateFilters(data);
                     renderCarousels(data);
                 })
                 .catch(err => {
@@ -391,6 +439,42 @@
                 });
         };
 
+        // --- FILTRES ---
+        function generateFilters(data) {
+            const filterContainer = document.getElementById('filters');
+            const codes = [...new Set(data.map(q => q.code || "AUTRE"))].sort();
+            
+            let allBtn = document.createElement('div');
+            allBtn.className = "filter-btn active";
+            allBtn.innerText = "TOUT";
+            allBtn.onclick = () => filterCarousels('ALL', allBtn);
+            filterContainer.appendChild(allBtn);
+
+            codes.forEach(code => {
+                let btn = document.createElement('div');
+                btn.className = "filter-btn";
+                btn.innerText = code;
+                btn.onclick = () => filterCarousels(code, btn);
+                filterContainer.appendChild(btn);
+            });
+        }
+
+        function filterCarousels(category, clickedBtn) {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+            clickedBtn.classList.add('active');
+
+            const sections = document.querySelectorAll('.category-section');
+            sections.forEach(sec => {
+                const secCode = sec.dataset.code || "AUTRE";
+                if (category === 'ALL' || secCode === category) {
+                    sec.style.display = 'block';
+                } else {
+                    sec.style.display = 'none';
+                }
+            });
+        }
+
+        // --- CARROUSELS ---
         function renderCarousels(data) {
             const container = document.getElementById('carousels-container');
             container.innerHTML = ""; 
@@ -406,6 +490,7 @@
                 const items = groups[code];
                 const section = document.createElement('div');
                 section.className = "category-section";
+                section.dataset.code = code;
 
                 section.innerHTML = `
                     <div class="category-title">
@@ -438,6 +523,7 @@
             });
         }
 
+        // --- MOTEUR (Standard) ---
         function selectQuiz(url, element, name, sub, code) {
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             element.classList.add('selected');
@@ -486,7 +572,6 @@
                 });
         }
 
-        // --- MOTEUR (Identique) ---
         function shuffle(array) { return array.sort(() => Math.random() - 0.5); }
 
         function startSession() {
