@@ -48,36 +48,32 @@
             text-align: center; color: #a0aec0; margin-bottom: 25px; font-size: 0.95rem;
         }
 
-        /* --- FILTRES SCROLLABLES (Style YouTube/Insta) --- */
+        /* --- FILTRES --- */
         .filter-container {
             display: flex;
-            gap: 12px; /* Espace entre les boutons */
-            overflow-x: auto; /* Scroll horizontal */
-            white-space: nowrap; /* Force une seule ligne */
-            
-            /* Esthétique du scroll */
+            gap: 12px;
+            overflow-x: auto;
+            white-space: nowrap;
             padding-bottom: 15px; 
-            padding-left: 5px; padding-right: 5px; /* Marge de sécurité */
+            padding-left: 5px; padding-right: 5px;
             margin-bottom: 20px;
             border-bottom: 1px solid #f1f2f6;
-            
-            /* Cache la barre de scroll moche */
-            scrollbar-width: none; /* Firefox */
+            scrollbar-width: none; 
             -webkit-overflow-scrolling: touch;
         }
-        .filter-container::-webkit-scrollbar { display: none; } /* Chrome/Safari */
+        .filter-container::-webkit-scrollbar { display: none; }
 
         .filter-btn {
             background-color: #fff;
             border: 1px solid #dfe6e9;
             color: #636e72;
             padding: 8px 20px;
-            border-radius: 50px; /* Pillule très arrondie */
+            border-radius: 50px;
             font-size: 0.9rem;
             font-weight: 600;
             cursor: pointer;
             transition: all 0.2s ease;
-            flex-shrink: 0; /* Empêche le bouton de s'écraser */
+            flex-shrink: 0;
         }
 
         .filter-btn:hover { background-color: #f1f2f6; border-color: #b2bec3; }
@@ -89,18 +85,32 @@
             box-shadow: 0 4px 10px rgba(52, 152, 219, 0.25);
         }
 
-        /* --- CARROUSEL / SWIMLANES --- */
+        /* --- CARROUSEL --- */
         .category-section {
-            margin-bottom: 20px; /* Espace entre les lignes de quiz */
+            margin-bottom: 35px;
             animation: fadeInSection 0.3s ease-out;
         }
-        
         @keyframes fadeInSection {
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
         }
 
-        /* SCROLL HORIZONTAL CARTES */
+        .category-title {
+            font-size: 1.2rem;
+            font-weight: 800;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            padding-left: 5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .category-pill {
+            background: #eaf6fd; color: #3498db; 
+            padding: 5px 12px; border-radius: 8px; font-size: 0.85rem;
+        }
+
         .horizontal-scroll {
             display: flex;
             gap: 20px;
@@ -118,7 +128,7 @@
         .horizontal-scroll::-webkit-scrollbar-thumb { background: #bdc3c7; border-radius: 4px; }
         .horizontal-scroll::-webkit-scrollbar-thumb:hover { background: #95a5a6; }
 
-        /* --- DESIGN WATERMARK (ICONE EN FOND) --- */
+        /* --- CARTE DESIGN --- */
         .quiz-card {
             background: #fff;
             border: 1px solid #e2e8f0;
@@ -127,16 +137,13 @@
             cursor: pointer;
             text-align: left;
             transition: all 0.2s ease;
-            
             display: flex;
             flex-direction: column;
             position: relative; 
             overflow: hidden;   
-            
             min-width: 280px;
             max-width: 280px;
             height: 220px;
-            
             scroll-snap-align: start;
             flex-shrink: 0;
         }
@@ -153,7 +160,6 @@
             box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
         }
 
-        /* L'ICONE EN FOND */
         .card-bg-icon {
             position: absolute;
             bottom: -15px;
@@ -167,7 +173,6 @@
             transform: rotate(-10deg);
         }
 
-        /* LE CONTENU AU PREMIER PLAN */
         .card-content {
             position: relative;
             z-index: 1;
@@ -176,8 +181,15 @@
             height: 100%;
         }
 
+        /* --- LIGNE DES BADGES --- */
+        .card-top-row {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
         .card-badge {
-            display: inline-block;
             background-color: #eaf6fd;
             color: #3498db;
             font-size: 0.75rem;
@@ -185,8 +197,18 @@
             padding: 5px 10px;
             border-radius: 6px;
             text-transform: uppercase;
-            align-self: flex-start;
-            margin-bottom: 15px;
+        }
+
+        .card-count {
+            background-color: #f7fafc;
+            color: #95a5a6;
+            border: 1px solid #edf2f7;
+            font-size: 0.75rem;
+            font-weight: 600;
+            padding: 4px 8px;
+            border-radius: 6px;
+            opacity: 0; /* Invisible au départ, transition douce */
+            transition: opacity 0.3s ease;
         }
 
         .card-title {
@@ -210,7 +232,7 @@
             -webkit-box-orient: vertical;
             overflow: hidden;
             white-space: normal;
-            margin-top: auto; /* Colle au bas si possible */
+            margin-top: auto;
         }
 
         /* SETUP QUANTITE */
@@ -467,7 +489,6 @@
                 });
         };
 
-        // --- FILTRES ---
         function generateFilters(data) {
             const filterContainer = document.getElementById('filters');
             const codes = [...new Set(data.map(q => q.code || "AUTRE"))].sort();
@@ -502,7 +523,6 @@
             });
         }
 
-        // --- CARROUSELS WATERMARK ---
         function renderCarousels(data) {
             const container = document.getElementById('carousels-container');
             container.innerHTML = ""; 
@@ -520,8 +540,12 @@
                 section.className = "category-section";
                 section.dataset.code = code;
 
-                // SUPPRESSION DU TITRE ICI
-                // On met juste la zone de scroll
+                section.innerHTML = `
+                    <div class="category-title">
+                        <span class="category-pill">${code}</span>
+                    </div>
+                `;
+
                 const scrollContainer = document.createElement('div');
                 scrollContainer.className = "horizontal-scroll";
 
@@ -532,14 +556,48 @@
 
                     card.onclick = () => selectQuiz(q.file, card, q.name, q.subtitle, code);
                     
+                    // STRUCTURE AVEC COMPTEUR
                     card.innerHTML = `
                         <div class="card-bg-icon">${icon}</div>
                         <div class="card-content">
-                            <span class="card-badge">${code}</span>
+                            <div class="card-top-row">
+                                <span class="card-badge">${code}</span>
+                                <span class="card-count" id="count-${q.file.replace(/\W/g,'')}">...</span>
+                            </div>
                             <span class="card-title">${q.name}</span>
                             <span class="card-subtitle">${q.subtitle || ""}</span>
                         </div>
                     `;
+                    
+                    // --- STRATÉGIE SMART CACHING (LocalStorage + Network) ---
+                    const storageKey = 'quiz_count_v1_' + q.file;
+                    const cachedCount = localStorage.getItem(storageKey);
+                    const badge = card.querySelector('.card-count');
+
+                    if (cachedCount) {
+                        // 1. On a déjà l'info en mémoire -> Affichage immédiat
+                        badge.innerText = cachedCount + " Q";
+                        badge.style.opacity = "1";
+                    } else {
+                        // 2. On n'a pas l'info -> On fetch (Network)
+                        fetch(q.file)
+                            .then(res => res.json())
+                            .then(quizData => {
+                                if(quizData.questions) {
+                                    const count = quizData.questions.length;
+                                    // On sauvegarde pour la prochaine fois
+                                    localStorage.setItem(storageKey, count);
+                                    badge.innerText = count + " Q";
+                                    badge.style.opacity = "1";
+                                }
+                            })
+                            .catch(e => {
+                                // 3. Erreur (Offline sans cache) -> On cache le badge
+                                console.log("Offline / Pas de cache pour le compteur");
+                                badge.style.display = "none";
+                            });
+                    }
+
                     scrollContainer.appendChild(card);
                 });
 
