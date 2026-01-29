@@ -7,7 +7,7 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moteur Révisions IFSI - App</title>
+    <title>Moteur Révisions IFSI</title>
     <style>
         /* --- STYLES GLOBAUX --- */
         * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
@@ -42,7 +42,7 @@
             letter-spacing: -0.5px;
         }
 
-        /* --- NOUVEAU : BARRE DE FILTRES --- */
+        /* --- FILTRES --- */
         .filter-container {
             display: flex;
             flex-wrap: wrap;
@@ -65,10 +65,7 @@
             transition: all 0.2s ease;
         }
 
-        .filter-btn:hover {
-            background-color: #f1f2f6;
-            border-color: #b2bec3;
-        }
+        .filter-btn:hover { background-color: #f1f2f6; border-color: #b2bec3; }
 
         .filter-btn.active {
             background-color: #3498db;
@@ -97,7 +94,7 @@
             flex-direction: column;
             justify-content: space-between;
             height: 100%;
-            min-height: 110px;
+            min-height: 120px; /* Un peu plus haut pour l'icône */
             position: relative;
         }
 
@@ -113,7 +110,14 @@
             box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
         }
 
-        /* Badge UE */
+        /* En-tête de carte (Badge + Icône) */
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 12px;
+        }
+
         .card-badge {
             display: inline-block;
             background-color: #eaf6fd;
@@ -122,9 +126,12 @@
             font-weight: 800;
             padding: 4px 10px;
             border-radius: 6px;
-            margin-bottom: 10px;
-            width: fit-content;
             text-transform: uppercase;
+        }
+
+        .card-icon {
+            font-size: 1.5rem; /* Taille de l'emoji */
+            line-height: 1;
         }
 
         .card-title {
@@ -134,78 +141,48 @@
             line-height: 1.3;
         }
         
-        .card-subtitle {
-            font-size: 0.85rem;
-            color: #a0aec0;
-            margin-top: 5px;
-        }
+        .card-subtitle { font-size: 0.85rem; color: #a0aec0; margin-top: 5px; }
 
         /* SELECTEUR QUANTITE */
         .count-selector-container { text-align: center; margin-bottom: 30px; }
         
         .section-label {
-            font-weight: 700;
-            color: #cbd5e0;
-            margin-bottom: 12px;
-            display: block;
-            text-transform: uppercase;
-            font-size: 0.7rem;
-            letter-spacing: 1px;
-            text-align: center;
+            font-weight: 700; color: #cbd5e0; margin-bottom: 12px;
+            display: block; text-transform: uppercase; font-size: 0.7rem;
+            letter-spacing: 1px; text-align: center;
         }
 
         .count-options { display: inline-flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
 
         .count-pill {
-            padding: 8px 20px;
-            background-color: #edf2f7;
-            border-radius: 50px;
-            cursor: pointer;
-            font-weight: 600;
-            color: #718096;
-            transition: all 0.2s;
-            border: 1px solid transparent;
-            font-size: 0.9rem;
+            padding: 8px 20px; background-color: #edf2f7; border-radius: 50px;
+            cursor: pointer; font-weight: 600; color: #718096; transition: all 0.2s;
+            border: 1px solid transparent; font-size: 0.9rem;
         }
 
         .count-pill:hover { background-color: #e2e8f0; }
         .count-pill.selected {
-            background-color: #3498db;
-            color: white;
+            background-color: #3498db; color: white;
             box-shadow: 0 2px 5px rgba(52, 152, 219, 0.3);
         }
 
         /* BOUTON LANCER */
         .start-btn {
-            background-color: #2c3e50;
-            color: white;
-            padding: 16px 40px;
-            border-radius: 12px;
-            cursor: pointer;
-            font-weight: 700;
-            border: none;
-            font-size: 1rem;
-            transition: all 0.3s;
-            width: 100%;
-            display: block;
-            margin: 0 auto;
-            opacity: 0.4;
-            pointer-events: none;
+            background-color: #2c3e50; color: white; padding: 16px 40px;
+            border-radius: 12px; cursor: pointer; font-weight: 700; border: none;
+            font-size: 1rem; transition: all 0.3s; width: 100%; display: block;
+            margin: 0 auto; opacity: 0.4; pointer-events: none;
         }
 
         .start-btn.ready {
-            background-color: #3498db;
-            opacity: 1;
-            pointer-events: auto;
+            background-color: #3498db; opacity: 1; pointer-events: auto;
             box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
         }
         .start-btn.ready:hover { transform: translateY(-1px); background-color: #2980b9; }
 
         /* --- UI QUIZ --- */
         .quiz-context-header {
-            text-align: center;
-            margin-bottom: 20px;
-            padding-bottom: 15px;
+            text-align: center; margin-bottom: 20px; padding-bottom: 15px;
             border-bottom: 1px solid #edf2f7;
         }
         .context-title { font-weight: 800; color: #3498db; font-size: 0.9rem; text-transform: uppercase; }
@@ -257,11 +234,13 @@
         }
         .options input[type="radio"]:checked::before { clip-path: circle(50%); }
 
-        /* Validation */
+        /* Validation Colors */
         .options label.correct-checked { background-color: #f0fff4; border-color: #48bb78; color: #22543d; }
         .options label.correct-checked input { background-color: #48bb78; border-color: #48bb78; }
+        
         .options label.wrong-checked { background-color: #fff5f5; border-color: #f56565; color: #742a2a; }
         .options label.wrong-checked input { background-color: #f56565; border-color: #f56565; }
+
         .options label.missed-correct { border-color: #48bb78; background-color: #fff; border-style: dashed; }
         .options label.neutral-disabled { opacity: 0.5; pointer-events: none; }
 
@@ -278,6 +257,7 @@
             font-size: 0.9rem; color: #9c4221; display: none;
         }
 
+        /* Resultats */
         #result-screen { display: none; text-align: center; padding: 20px 0; }
         .score-circle {
             width: 120px; height: 120px; background: white;
@@ -290,7 +270,7 @@
         @media (max-width: 600px) {
             .container { padding: 20px; border-radius: 0; box-shadow: none; min-height: 100vh; }
             .quiz-grid { grid-template-columns: 1fr; }
-            .filter-container { overflow-x: auto; white-space: nowrap; justify-content: flex-start; padding-bottom: 5px; } /* Scroll horizontal sur mobile */
+            .filter-container { overflow-x: auto; white-space: nowrap; justify-content: flex-start; padding-bottom: 5px; }
         }
     </style>
 </head>
@@ -309,8 +289,7 @@
 
             <div id="grid-section" style="display:none;">
                 
-                <div id="filters" class="filter-container">
-                    </div>
+                <div id="filters" class="filter-container"></div>
 
                 <div id="quiz-grid" class="quiz-grid"></div>
 
@@ -379,9 +358,8 @@
                 .then(data => {
                     document.getElementById('loading-spinner').style.display = 'none';
                     document.getElementById('grid-section').style.display = 'block';
-                    
-                    generateFilters(data); // Génère les boutons de filtre
-                    renderGrid(data);      // Affiche toutes les cartes
+                    generateFilters(data);
+                    renderGrid(data);
                 })
                 .catch(err => {
                     document.getElementById('loading-spinner').style.display = 'none';
@@ -393,18 +371,14 @@
         // --- GESTION FILTRES ---
         function generateFilters(data) {
             const filterContainer = document.getElementById('filters');
-            
-            // Récupérer les codes UE uniques
             const codes = [...new Set(data.map(q => q.code || "AUTRE"))].sort();
             
-            // Bouton "TOUT"
             let allBtn = document.createElement('div');
             allBtn.className = "filter-btn active";
             allBtn.innerText = "TOUT";
             allBtn.onclick = () => filterGrid('ALL', allBtn);
             filterContainer.appendChild(allBtn);
 
-            // Boutons pour chaque UE
             codes.forEach(code => {
                 let btn = document.createElement('div');
                 btn.className = "filter-btn";
@@ -415,11 +389,9 @@
         }
 
         function filterGrid(category, clickedBtn) {
-            // 1. Gestion visuelle boutons
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             clickedBtn.classList.add('active');
 
-            // 2. Filtrage Cartes
             const cards = document.querySelectorAll('.quiz-card');
             cards.forEach(card => {
                 const cardCode = card.dataset.code || "AUTRE";
@@ -434,20 +406,24 @@
         // --- RENDU GRILLE ---
         function renderGrid(data) {
             const grid = document.getElementById('quiz-grid');
-            grid.innerHTML = ""; // Clean
+            grid.innerHTML = ""; 
 
             data.forEach(q => {
                 const card = document.createElement('div');
                 card.className = 'quiz-card';
-                
-                // IMPORTANT : On stocke le code dans le dataset pour le filtrage
                 const codeUE = q.code ? q.code : "AUTRE";
+                const icon = q.icon ? q.icon : ""; // On récupère l'icône, ou rien
+
                 card.dataset.code = codeUE;
 
                 card.onclick = () => selectQuiz(q.file, card, q.name, q.subtitle, codeUE);
                 
+                // Nouvelle structure HTML de la carte avec l'icône
                 card.innerHTML = `
-                    <span class="card-badge">${codeUE}</span>
+                    <div class="card-header">
+                        <span class="card-badge">${codeUE}</span>
+                        <span class="card-icon">${icon}</span>
+                    </div>
                     <span class="card-title">${q.name}</span>
                     <span class="card-subtitle">${q.subtitle || ""}</span>
                 `;
@@ -455,7 +431,7 @@
             });
         }
 
-        // --- SELECTION & JEU (Standard) ---
+        // --- SELECTION & JEU ---
         function selectQuiz(url, element, name, sub, code) {
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             element.classList.add('selected');
@@ -488,11 +464,13 @@
                     if (!data.questions) throw new Error("JSON invalide");
                     fullQuestionPool = data.questions;
                     remainingQuestions = shuffle([...fullQuestionPool]);
+                    
                     document.getElementById('setup-panel').style.display = 'none';
                     document.getElementById('header-area').style.display = 'none';
                     document.getElementById('quiz-interface').style.display = 'block';
                     document.getElementById('ctx-title').innerText = currentQuizName;
                     document.getElementById('ctx-sub').innerText = currentQuizSub;
+                    
                     startSession();
                 })
                 .catch(err => {
@@ -502,29 +480,37 @@
                 });
         }
 
-        // Moteur de jeu
+        // --- MOTEUR ---
         function shuffle(array) { return array.sort(() => Math.random() - 0.5); }
 
         function startSession() {
+            // CORRECTION BUG REFAIRE : On affiche l'interface
+            document.getElementById('quiz-interface').style.display = 'block';
+            document.getElementById('result-screen').style.display = 'none';
+
             if (!remainingQuestions || remainingQuestions.length === 0) remainingQuestions = shuffle([...fullQuestionPool]);
             const n = (sessionSize === Infinity) ? remainingQuestions.length : Math.min(sessionSize, remainingQuestions.length);
+            
             currentSession = remainingQuestions.slice(0, n);
             remainingQuestions = remainingQuestions.slice(n);
             lastSession = currentSession;
             lastSessionRemainingSnapshot = remainingQuestions;
             currentIndex = 0; score = 0; startTime = new Date();
 
-            document.getElementById('result-screen').style.display = 'none';
             document.getElementById('quiz-container').innerHTML = '';
             showQuestion();
         }
 
         function restartSameSession() {
+            // CORRECTION BUG REFAIRE
+            document.getElementById('quiz-interface').style.display = 'block';
+            document.getElementById('result-screen').style.display = 'none';
+
             if (!lastSession.length) { startSession(); return; }
             currentSession = lastSession;
             remainingQuestions = lastSessionRemainingSnapshot;
             currentIndex = 0; score = 0; startTime = new Date();
-            document.getElementById('result-screen').style.display = 'none';
+            
             document.getElementById('quiz-container').innerHTML = '';
             showQuestion();
         }
@@ -602,6 +588,7 @@
             if (ratio >= 0.8) { comment.innerText = "Excellent ! 🏆"; comment.style.color = "#48bb78"; }
             else if (ratio >= 0.5) { comment.innerText = "Bien joué ! 👍"; comment.style.color = "#ed8936"; }
             else { comment.innerText = "Courage ! 💪"; comment.style.color = "#e53e3e"; }
+            
             const contBtn = document.getElementById('continue-btn');
             if (remainingQuestions.length > 0 && sessionSize !== Infinity) {
                 contBtn.style.display = 'block';
