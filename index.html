@@ -56,7 +56,7 @@
             white-space: nowrap;
             padding-bottom: 15px; 
             padding-left: 5px; padding-right: 5px;
-            margin-bottom: 10px; /* Réduit pour coller aux cartes */
+            margin-bottom: 10px;
             border-bottom: 1px solid #f1f2f6;
             scrollbar-width: none; 
             -webkit-overflow-scrolling: touch;
@@ -87,7 +87,7 @@
 
         /* --- CARROUSEL --- */
         .category-section {
-            margin-bottom: 25px; /* Espacement entre les lignes */
+            margin-bottom: 25px;
             animation: fadeInSection 0.3s ease-out;
         }
         @keyframes fadeInSection {
@@ -169,9 +169,10 @@
         /* --- LIGNE DES BADGES --- */
         .card-top-row {
             display: flex;
-            align-items: center;
+            align-items: center; /* ALIGNEMENT VERTICAL STRICT */
             gap: 8px;
             margin-bottom: 12px;
+            min-height: 24px; /* Hauteur min pour stabiliser */
         }
 
         .card-badge {
@@ -182,6 +183,10 @@
             padding: 5px 10px;
             border-radius: 6px;
             text-transform: uppercase;
+            margin: 0; /* Zéro marge pour éviter le décalage */
+            line-height: 1.2; /* Normalisation hauteur ligne */
+            display: inline-flex;
+            align-items: center;
         }
 
         .card-count {
@@ -190,10 +195,14 @@
             border: 1px solid #edf2f7;
             font-size: 0.75rem;
             font-weight: 600;
-            padding: 4px 8px;
+            padding: 5px 10px; /* Même padding que le badge */
             border-radius: 6px;
             opacity: 0; 
             transition: opacity 0.3s ease;
+            margin: 0;
+            line-height: 1.2;
+            display: inline-flex;
+            align-items: center;
         }
 
         .card-title {
@@ -367,7 +376,7 @@
                 padding: 18px;
             }
             
-            .card-badge { margin-bottom: 10px; }
+            .card-badge { margin: 0; } /* Sécurité : 0 marge */
             .card-title { font-size: 1rem; -webkit-line-clamp: 3; }
             .card-subtitle { font-size: 0.85rem; -webkit-line-clamp: 4; }
             .card-bg-icon { font-size: 5rem; bottom: -10px; right: -8px; }
@@ -541,13 +550,13 @@
                         </div>
                     `;
                     
-                    // --- STRATÉGIE SMART CACHING (LocalStorage + Network) ---
+                    // SMART CACHING
                     const storageKey = 'quiz_count_v1_' + q.file;
                     const cachedCount = localStorage.getItem(storageKey);
                     const badge = card.querySelector('.card-count');
 
                     if (cachedCount) {
-                        badge.innerText = cachedCount + " Q";
+                        badge.innerText = cachedCount + " Questions";
                         badge.style.opacity = "1";
                     } else {
                         fetch(q.file)
@@ -556,7 +565,7 @@
                                 if(quizData.questions) {
                                     const count = quizData.questions.length;
                                     localStorage.setItem(storageKey, count);
-                                    badge.innerText = count + " Q";
+                                    badge.innerText = count + " Questions";
                                     badge.style.opacity = "1";
                                 }
                             })
