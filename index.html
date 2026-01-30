@@ -56,7 +56,7 @@
             white-space: nowrap;
             padding-bottom: 15px; 
             padding-left: 5px; padding-right: 5px;
-            margin-bottom: 20px; /* Espace avant les cartes */
+            margin-bottom: 10px;
             border-bottom: 1px solid #f1f2f6;
             scrollbar-width: none; 
             -webkit-overflow-scrolling: touch;
@@ -87,7 +87,7 @@
 
         /* --- CARROUSEL --- */
         .category-section {
-            margin-bottom: 20px; /* Espace entre les lignes de carrousels */
+            margin-bottom: 25px;
             animation: fadeInSection 0.3s ease-out;
         }
         @keyframes fadeInSection {
@@ -345,6 +345,14 @@
             border-left: 5px solid #ed8936; border-radius: 8px;
             font-size: 0.95rem; color: #9c4221; display: none;
         }
+        
+        /* LIEN MASQUER */
+        .ban-link {
+            display: block; text-align: center; margin-top: 25px; 
+            color: #bdc3c7; font-size: 0.8rem; text-decoration: underline; 
+            cursor: pointer; background: none; border: none; width: 100%;
+        }
+        .ban-link:hover { color: #e74c3c; }
 
         /* Resultats */
         #result-screen { display: none; text-align: center; padding: 10px 0; }
@@ -355,6 +363,15 @@
             color: #3498db; font-size: 2.2rem; font-weight: 800; margin: 20px auto;
         }
         .time-stat { color: #a0aec0; font-size: 1rem; margin-top: -15px; margin-bottom: 25px; }
+
+        /* FOOTER RESET */
+        .footer-reset {
+            margin-top: 40px; text-align: center;
+            border-top: 1px solid #f1f2f6; padding-top: 20px;
+        }
+        .reset-link {
+            color: #cbd5e0; font-size: 0.8rem; text-decoration: none; cursor: pointer;
+        }
 
         /* --- OPTIMISATION MOBILE --- */
         @media (max-width: 600px) {
@@ -418,6 +435,10 @@
                 <button id="load-btn" class="start-btn" onclick="loadSelectedQuiz()">
                     Commencer
                 </button>
+                
+                <div class="footer-reset">
+                    <span class="reset-link" onclick="resetBannedQuestions()">Réinitialiser les questions masquées</span>
+                </div>
             </div>
 
             <div id="error-msg" style="color:#e53e3e; margin-top:20px; text-align:center; display:none; font-weight:bold;"></div>
@@ -461,7 +482,7 @@
         let startTime = 0;
 
         window.onload = function () {
-            // On laisse le Service Worker gérer le cache/réseau
+            // Service Worker : Network First
             fetch('quizzes.json')
                 .then(res => res.json())
                 .then(data => {
@@ -481,6 +502,16 @@
             window.addEventListener("load", () => {
                 navigator.serviceWorker.register("/revisions-ifsi/sw.js");
             });
+        }
+
+        function shuffle(array) {
+            let currentIndex = array.length, randomIndex;
+            while (currentIndex != 0) {
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex--;
+                [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+            }
+            return array;
         }
 
         function generateFilters(data) {
@@ -506,6 +537,10 @@
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             clickedBtn.classList.add('active');
 
+            document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
+            selectedQuizUrl = null;
+            checkReadyState();
+
             const sections = document.querySelectorAll('.category-section');
             sections.forEach(sec => {
                 const secCode = sec.dataset.code || "AUTRE";
@@ -521,6 +556,9 @@
             const container = document.getElementById('carousels-container');
             container.innerHTML = ""; 
 
+            // Récupère la liste noire globale
+            const banned = JSON.parse(localStorage.getItem('banned_questions_v1') || "[]");
+
             const groups = {};
             data.forEach(q => {
                 const code = q.code || "AUTRES";
@@ -534,7 +572,6 @@
                 section.className = "category-section";
                 section.dataset.code = code;
 
-                // PLUS DE TITRE ICI (CORRIGÉ)
                 const scrollContainer = document.createElement('div');
                 scrollContainer.className = "horizontal-scroll";
 
@@ -558,28 +595,25 @@
                     `;
                     
                     const storageKey = 'quiz_count_v1_' + q.file;
-                    const cachedCount = localStorage.getItem(storageKey);
-                    const badge = card.querySelector('.card-count');
-
-                    if (cachedCount) {
-                        badge.innerText = cachedCount + " Questions";
-                        badge.style.opacity = "1";
-                    } else {
-                        // Pas de cache: 'no-store' ici, le SW gère le offline
-                        fetch(q.file)
-                            .then(res => res.json())
-                            .then(quizData => {
-                                if(quizData.questions) {
-                                    const count = quizData.questions.length;
-                                    localStorage.setItem(storageKey, count);
-                                    badge.innerText = count + " Questions";
-                                    badge.style.opacity = "1";
-                                }
-                            })
-                            .catch(e => {
-                                badge.style.display = "none";
-                            });
-                    }
+                    
+                    fetch(q.file)
+                        .then(res => res.json())
+                        .then(quizData => {
+                            if(quizData.questions) {
+                                // 1. Dédoublonnage
+                                const uniqueQ = quizData.questions.filter((v,i,a)=>a.findIndex(t=>(t.question===v.question))===i);
+                                // 2. Filtrage des bannis
+                                const activeQ = uniqueQ.filter(item => !banned.includes(item.question));
+                                
+                                const count = activeQ.length;
+                                const badge = card.querySelector('.card-count');
+                                badge.innerText = count + " Questions";
+                                badge.style.opacity = "1";
+                            }
+                        })
+                        .catch(e => {
+                            card.querySelector('.card-count').style.display = "none";
+                        });
 
                     scrollContainer.appendChild(card);
                 });
@@ -589,7 +623,6 @@
             });
         }
 
-        // --- MOTEUR ---
         function selectQuiz(url, element, name, sub, code) {
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             element.classList.add('selected');
@@ -616,12 +649,21 @@
             const btn = document.getElementById('load-btn');
             btn.innerText = "Chargement...";
             
-            // Pas de cache: 'no-store' ici non plus
             fetch(selectedQuizUrl)
                 .then(res => res.json())
                 .then(data => {
                     if (!data.questions) throw new Error("JSON invalide");
-                    fullQuestionPool = data.questions;
+                    
+                    // 1. Anti-Doublons
+                    const uniqueQuestions = data.questions.filter((q, index, self) =>
+                        index === self.findIndex((t) => t.question === q.question)
+                    );
+                    
+                    // 2. Filtrage Bannis
+                    const banned = JSON.parse(localStorage.getItem('banned_questions_v1') || "[]");
+                    const cleanQuestions = uniqueQuestions.filter(q => !banned.includes(q.question));
+                    
+                    fullQuestionPool = cleanQuestions;
                     remainingQuestions = shuffle([...fullQuestionPool]);
                     
                     document.getElementById('setup-panel').style.display = 'none';
@@ -634,24 +676,33 @@
                 })
                 .catch(err => {
                     document.getElementById('error-msg').style.display = 'block';
-                    document.getElementById('error-msg').innerText = "Erreur chargement : " + err.message;
+                    document.getElementById('error-msg').innerText = "Erreur : " + err.message;
                     btn.innerText = "Commencer";
                 });
         }
-
-        function shuffle(array) { return array.sort(() => Math.random() - 0.5); }
 
         function startSession() {
             document.getElementById('quiz-interface').style.display = 'block';
             document.getElementById('result-screen').style.display = 'none';
 
-            if (!remainingQuestions || remainingQuestions.length === 0) remainingQuestions = shuffle([...fullQuestionPool]);
+            if (!remainingQuestions || remainingQuestions.length === 0) {
+                remainingQuestions = shuffle([...fullQuestionPool]);
+            }
+            
+            // Sécurité si tout est banni
+            if (remainingQuestions.length === 0) {
+                alert("Toutes les questions de ce quiz ont été masquées !");
+                location.reload();
+                return;
+            }
+
             const n = (sessionSize === Infinity) ? remainingQuestions.length : Math.min(sessionSize, remainingQuestions.length);
             
             currentSession = remainingQuestions.slice(0, n);
             remainingQuestions = remainingQuestions.slice(n);
             lastSession = currentSession;
             lastSessionRemainingSnapshot = remainingQuestions;
+            
             currentIndex = 0; score = 0; startTime = new Date();
 
             document.getElementById('quiz-container').innerHTML = '';
@@ -664,9 +715,7 @@
 
             if (!lastSession.length) { startSession(); return; }
             currentSession = lastSession;
-            remainingQuestions = lastSessionRemainingSnapshot;
             currentIndex = 0; score = 0; startTime = new Date();
-            
             document.getElementById('quiz-container').innerHTML = '';
             showQuestion();
         }
@@ -675,9 +724,11 @@
             const q = currentSession[currentIndex];
             const container = document.getElementById('quiz-container');
             document.getElementById('progress').innerText = `${currentIndex + 1} / ${currentSession.length}`;
-            const isVF = q.options.length === 2 && q.options.some(o => o.toLowerCase().includes("vrai"));
-            let inputType = isVF ? 'radio' : 'checkbox';
             
+            const lowerOpts = q.options.map(o => o.toLowerCase().trim());
+            const isVF = q.options.length === 2 && lowerOpts.includes("vrai") && lowerOpts.includes("faux");
+            
+            let inputType = isVF ? 'radio' : 'checkbox';
             let hint = isVF ? "(Vrai ou Faux)" : "(Cochez la ou les bonnes réponses)";
             
             let optionsWithIndex = q.options.map((opt, i) => ({ text: opt, originalIndex: i }));
@@ -697,8 +748,52 @@
                 </div>
                 <button id="validate-btn" class="btn" onclick="validate()">Valider</button>
                 <div class="feedback-text" id="feedback"></div>
+                
+                <button class="ban-link" onclick="banQuestion()">
+                    🚫 Masquer cette question (erreur/doublon)
+                </button>
             </div>`;
             container.innerHTML = html;
+        }
+
+        // --- FONCTION BANNIR (LOCALE) ---
+        function banQuestion() {
+            const q = currentSession[currentIndex];
+            
+            if(!confirm("Masquer définitivement cette question ?")) return;
+
+            // 1. Ajouter à la liste noire locale
+            let banned = JSON.parse(localStorage.getItem('banned_questions_v1') || "[]");
+            banned.push(q.question);
+            localStorage.setItem('banned_questions_v1', JSON.stringify(banned));
+
+            // 2. Retirer de la session en cours (ce qui met à jour la taille du tableau)
+            currentSession.splice(currentIndex, 1);
+            
+            // 3. Gestion de la navigation
+            if(currentSession.length === 0) {
+                 alert("Session terminée.");
+                 endQuiz();
+                 return;
+            }
+
+            // Si on était sur la dernière, le splice fait que currentIndex est maintenant hors limites
+            // Ou si on a supprimé l'élément X, l'élément X+1 devient le nouvel élément X.
+            // Donc on réaffiche juste showQuestion() à la même position (qui contient la nouvelle question)
+            if (currentIndex >= currentSession.length) {
+                endQuiz();
+            } else {
+                showQuestion(); 
+            }
+        }
+
+        // --- FONCTION RESET (FAT FINGER) ---
+        function resetBannedQuestions() {
+            if(confirm("Voulez-vous réintégrer toutes les questions que vous avez masquées ?")) {
+                localStorage.removeItem('banned_questions_v1');
+                alert("Les questions masquées ont été réinitialisées.");
+                location.reload();
+            }
         }
 
         window.validate = function () {
@@ -707,6 +802,9 @@
             const checkedInputs = document.querySelectorAll('input[name="option"]:checked');
             if (checkedInputs.length === 0) return alert("Une réponse est requise");
             document.getElementById('validate-btn').style.display = 'none';
+            // On cache aussi le bouton bannir
+            document.querySelector('.ban-link').style.display = 'none';
+            
             allInputs.forEach(i => i.disabled = true);
             const checkedValues = Array.from(checkedInputs).map(cb => parseInt(cb.value));
             const isCorrect = JSON.stringify(q.correct.sort()) === JSON.stringify(checkedValues.sort());
@@ -741,7 +839,10 @@
             document.getElementById('result-screen').style.display = 'block';
             document.getElementById('final-score').innerText = `${score}/${currentSession.length}`;
             document.getElementById('final-time').innerText = `${minutes}m ${seconds}s`;
-            const ratio = score / currentSession.length;
+            
+            // Sécurité division par zéro
+            const ratio = currentSession.length > 0 ? score / currentSession.length : 0;
+            
             const comment = document.getElementById('comment');
             if (ratio >= 0.8) { comment.innerText = "Excellent ! 🏆"; comment.style.color = "#48bb78"; }
             else if (ratio >= 0.5) { comment.innerText = "Bien joué ! 👍"; comment.style.color = "#ed8936"; }
@@ -751,7 +852,12 @@
             if (remainingQuestions.length > 0 && sessionSize !== Infinity) {
                 contBtn.style.display = 'block';
                 contBtn.innerText = `Continuer (${Math.min(sessionSize, remainingQuestions.length)} questions)`;
-            } else { contBtn.style.display = 'none'; }
+            } else if (sessionSize !== Infinity) {
+                 contBtn.style.display = 'block';
+                 contBtn.innerText = `Recommencer une série`;
+            } else { 
+                contBtn.style.display = 'none'; 
+            }
         }
     </script>
 </body>
