@@ -56,7 +56,7 @@
             white-space: nowrap;
             padding-bottom: 15px; 
             padding-left: 5px; padding-right: 5px;
-            margin-bottom: 10px;
+            margin-bottom: 20px;
             border-bottom: 1px solid #f1f2f6;
             scrollbar-width: none; 
             -webkit-overflow-scrolling: touch;
@@ -87,7 +87,7 @@
 
         /* --- CARROUSEL --- */
         .category-section {
-            margin-bottom: 25px;
+            margin-bottom: 20px;
             animation: fadeInSection 0.3s ease-out;
         }
         @keyframes fadeInSection {
@@ -346,13 +346,28 @@
             font-size: 0.95rem; color: #9c4221; display: none;
         }
         
-        /* LIEN MASQUER */
-        .ban-link {
-            display: block; text-align: center; margin-top: 25px; 
-            color: #bdc3c7; font-size: 0.8rem; text-decoration: underline; 
-            cursor: pointer; background: none; border: none; width: 100%;
+        /* STYLE BOUTON MASQUER (NOUVEAU) */
+        .ban-btn {
+            display: block; margin: 25px auto 0 auto;
+            background-color: transparent;
+            border: 1px solid #bdc3c7;
+            color: #95a5a6;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            width: auto;
         }
-        .ban-link:hover { color: #e74c3c; }
+        .ban-btn:hover { border-color: #7f8c8d; color: #7f8c8d; background-color: #f8f9fa; }
+
+        /* FOOTER RESET (NOUVEAU) */
+        .footer-reset {
+            margin-top: 30px; text-align: center;
+            border-top: 1px solid #f1f2f6; padding-top: 15px;
+        }
+        .reset-link { color: #b2bec3; font-size: 0.8rem; text-decoration: none; cursor: pointer; }
+        .reset-link:hover { text-decoration: underline; color: #636e72; }
 
         /* Resultats */
         #result-screen { display: none; text-align: center; padding: 10px 0; }
@@ -363,15 +378,8 @@
             color: #3498db; font-size: 2.2rem; font-weight: 800; margin: 20px auto;
         }
         .time-stat { color: #a0aec0; font-size: 1rem; margin-top: -15px; margin-bottom: 25px; }
-
-        /* FOOTER RESET */
-        .footer-reset {
-            margin-top: 40px; text-align: center;
-            border-top: 1px solid #f1f2f6; padding-top: 20px;
-        }
-        .reset-link {
-            color: #cbd5e0; font-size: 0.8rem; text-decoration: none; cursor: pointer;
-        }
+        
+        #detail-msg { font-size: 0.95rem; color: #7f8c8d; margin-bottom: 20px; font-weight: 500; }
 
         /* --- OPTIMISATION MOBILE --- */
         @media (max-width: 600px) {
@@ -419,7 +427,6 @@
             <div id="grid-section" style="display:none;">
                 
                 <div id="filters" class="filter-container"></div>
-
                 <div id="carousels-container"></div>
 
                 <div class="count-selector-container">
@@ -437,7 +444,7 @@
                 </button>
                 
                 <div class="footer-reset">
-                    <span class="reset-link" onclick="resetBannedQuestions()">Réinitialiser les questions masquées</span>
+                    <span class="reset-link" onclick="resetBannedQuestions()">Réintégrer les questions masquées</span>
                 </div>
             </div>
 
@@ -459,7 +466,8 @@
             <div class="score-circle" id="final-score">0/0</div>
             <div class="time-stat" id="final-time">-- min -- s</div>
             <h3 id="comment" style="margin-bottom: 10px;"></h3>
-            <p id="detail-msg" style="color: #718096; margin-bottom:25px; font-size:1rem;"></p>
+            
+            <p id="detail-msg"></p>
 
             <button id="continue-btn" class="btn btn-next" style="display:none;" onclick="startSession()">Continuer la suite</button>
             <button class="btn" onclick="restartSameSession()">Refaire cette série</button>
@@ -482,7 +490,7 @@
         let startTime = 0;
 
         window.onload = function () {
-            // Service Worker : Network First
+            // Service Worker : Network First (Laisse le SW gérer)
             fetch('quizzes.json')
                 .then(res => res.json())
                 .then(data => {
@@ -502,16 +510,6 @@
             window.addEventListener("load", () => {
                 navigator.serviceWorker.register("/revisions-ifsi/sw.js");
             });
-        }
-
-        function shuffle(array) {
-            let currentIndex = array.length, randomIndex;
-            while (currentIndex != 0) {
-                randomIndex = Math.floor(Math.random() * currentIndex);
-                currentIndex--;
-                [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
-            }
-            return array;
         }
 
         function generateFilters(data) {
@@ -537,6 +535,7 @@
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             clickedBtn.classList.add('active');
 
+            // Reset sélection fantôme
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             selectedQuizUrl = null;
             checkReadyState();
@@ -556,7 +555,7 @@
             const container = document.getElementById('carousels-container');
             container.innerHTML = ""; 
 
-            // Récupère la liste noire globale
+            // RECUPERATION BANNIS
             const banned = JSON.parse(localStorage.getItem('banned_questions_v1') || "[]");
 
             const groups = {};
@@ -602,9 +601,9 @@
                             if(quizData.questions) {
                                 // 1. Dédoublonnage
                                 const uniqueQ = quizData.questions.filter((v,i,a)=>a.findIndex(t=>(t.question===v.question))===i);
-                                // 2. Filtrage des bannis
-                                const activeQ = uniqueQ.filter(item => !banned.includes(item.question));
-                                
+                                // 2. Filtrage (Active = Unique - Banned)
+                                const activeQ = uniqueQ.filter(q => !banned.includes(q.question));
+
                                 const count = activeQ.length;
                                 const badge = card.querySelector('.card-count');
                                 badge.innerText = count + " Questions";
@@ -644,6 +643,17 @@
             else btn.classList.remove('ready');
         }
 
+        // --- MELANGEUR ROBUSTE (Fisher-Yates) ---
+        function shuffle(array) {
+            let currentIndex = array.length, randomIndex;
+            while (currentIndex != 0) {
+                randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex--;
+                [array[currentIndex], array[randomIndex]] = [array[randomIndex], array[currentIndex]];
+            }
+            return array;
+        }
+
         function loadSelectedQuiz() {
             if (!selectedQuizUrl) return; 
             const btn = document.getElementById('load-btn');
@@ -654,12 +664,12 @@
                 .then(data => {
                     if (!data.questions) throw new Error("JSON invalide");
                     
-                    // 1. Anti-Doublons
+                    // 1. Anti-doublons
                     const uniqueQuestions = data.questions.filter((q, index, self) =>
                         index === self.findIndex((t) => t.question === q.question)
                     );
                     
-                    // 2. Filtrage Bannis
+                    // 2. Filtre Bannis
                     const banned = JSON.parse(localStorage.getItem('banned_questions_v1') || "[]");
                     const cleanQuestions = uniqueQuestions.filter(q => !banned.includes(q.question));
                     
@@ -688,20 +698,20 @@
             if (!remainingQuestions || remainingQuestions.length === 0) {
                 remainingQuestions = shuffle([...fullQuestionPool]);
             }
-            
-            // Sécurité si tout est banni
+
+            // Cas où tout est masqué
             if (remainingQuestions.length === 0) {
-                alert("Toutes les questions de ce quiz ont été masquées !");
+                alert("Toutes les questions de ce module ont été masquées !");
                 location.reload();
                 return;
             }
-
+            
             const n = (sessionSize === Infinity) ? remainingQuestions.length : Math.min(sessionSize, remainingQuestions.length);
             
             currentSession = remainingQuestions.slice(0, n);
             remainingQuestions = remainingQuestions.slice(n);
             lastSession = currentSession;
-            lastSessionRemainingSnapshot = remainingQuestions;
+            lastSessionRemainingSnapshot = remainingQuestions; // Important pour "Refaire"
             
             currentIndex = 0; score = 0; startTime = new Date();
 
@@ -749,37 +759,34 @@
                 <button id="validate-btn" class="btn" onclick="validate()">Valider</button>
                 <div class="feedback-text" id="feedback"></div>
                 
-                <button class="ban-link" onclick="banQuestion()">
-                    🚫 Masquer cette question (erreur/doublon)
+                <button class="ban-btn" onclick="banQuestion()">
+                    👁️ Masquer définitivement cette question
                 </button>
             </div>`;
             container.innerHTML = html;
         }
 
-        // --- FONCTION BANNIR (LOCALE) ---
+        // --- FONCTION MASQUER ---
         function banQuestion() {
             const q = currentSession[currentIndex];
             
-            if(!confirm("Masquer définitivement cette question ?")) return;
+            if(!confirm("Voulez-vous masquer cette question définitivement ? (Erreur ou Doublon)")) return;
 
-            // 1. Ajouter à la liste noire locale
+            // 1. Storage
             let banned = JSON.parse(localStorage.getItem('banned_questions_v1') || "[]");
             banned.push(q.question);
             localStorage.setItem('banned_questions_v1', JSON.stringify(banned));
 
-            // 2. Retirer de la session en cours (ce qui met à jour la taille du tableau)
+            // 2. Retire de la session
             currentSession.splice(currentIndex, 1);
             
-            // 3. Gestion de la navigation
+            // 3. Navigation
             if(currentSession.length === 0) {
-                 alert("Session terminée.");
+                 alert("Session terminée (toutes questions masquées).");
                  endQuiz();
                  return;
             }
 
-            // Si on était sur la dernière, le splice fait que currentIndex est maintenant hors limites
-            // Ou si on a supprimé l'élément X, l'élément X+1 devient le nouvel élément X.
-            // Donc on réaffiche juste showQuestion() à la même position (qui contient la nouvelle question)
             if (currentIndex >= currentSession.length) {
                 endQuiz();
             } else {
@@ -787,11 +794,11 @@
             }
         }
 
-        // --- FONCTION RESET (FAT FINGER) ---
+        // --- FONCTION RESET (Footer) ---
         function resetBannedQuestions() {
-            if(confirm("Voulez-vous réintégrer toutes les questions que vous avez masquées ?")) {
+            if(confirm("Voulez-vous réintégrer toutes les questions masquées ?")) {
                 localStorage.removeItem('banned_questions_v1');
-                alert("Les questions masquées ont été réinitialisées.");
+                alert("Questions réintégrées.");
                 location.reload();
             }
         }
@@ -802,8 +809,7 @@
             const checkedInputs = document.querySelectorAll('input[name="option"]:checked');
             if (checkedInputs.length === 0) return alert("Une réponse est requise");
             document.getElementById('validate-btn').style.display = 'none';
-            // On cache aussi le bouton bannir
-            document.querySelector('.ban-link').style.display = 'none';
+            document.querySelector('.ban-btn').style.display = 'none';
             
             allInputs.forEach(i => i.disabled = true);
             const checkedValues = Array.from(checkedInputs).map(cb => parseInt(cb.value));
@@ -840,7 +846,6 @@
             document.getElementById('final-score').innerText = `${score}/${currentSession.length}`;
             document.getElementById('final-time').innerText = `${minutes}m ${seconds}s`;
             
-            // Sécurité division par zéro
             const ratio = currentSession.length > 0 ? score / currentSession.length : 0;
             
             const comment = document.getElementById('comment');
@@ -849,14 +854,18 @@
             else { comment.innerText = "Courage ! 💪"; comment.style.color = "#e53e3e"; }
             
             const contBtn = document.getElementById('continue-btn');
+            const msg = document.getElementById('detail-msg');
+
+            // --- LOGIQUE ORIGINALE ---
             if (remainingQuestions.length > 0 && sessionSize !== Infinity) {
+                // Il reste des questions inédites
                 contBtn.style.display = 'block';
-                contBtn.innerText = `Continuer (${Math.min(sessionSize, remainingQuestions.length)} questions)`;
-            } else if (sessionSize !== Infinity) {
-                 contBtn.style.display = 'block';
-                 contBtn.innerText = `Recommencer une série`;
-            } else { 
-                contBtn.style.display = 'none'; 
+                contBtn.innerText = `Continuer la suite`;
+                msg.innerText = `📦 Il reste encore ${remainingQuestions.length} questions inédites dans ce module.`;
+            } else {
+                // Tout est fini ou mode infini
+                contBtn.style.display = 'none';
+                msg.innerText = `🎉 Vous avez fait le tour de toutes les questions disponibles !`;
             }
         }
     </script>
