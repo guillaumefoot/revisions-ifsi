@@ -346,7 +346,7 @@
             font-size: 0.95rem; color: #9c4221; display: none;
         }
         
-        /* STYLE BOUTON MASQUER (NOUVEAU) */
+        /* STYLE BOUTON MASQUER */
         .ban-btn {
             display: block; margin: 25px auto 0 auto;
             background-color: transparent;
@@ -361,7 +361,7 @@
         }
         .ban-btn:hover { border-color: #7f8c8d; color: #7f8c8d; background-color: #f8f9fa; }
 
-        /* FOOTER RESET (NOUVEAU) */
+        /* FOOTER RESET */
         .footer-reset {
             margin-top: 30px; text-align: center;
             border-top: 1px solid #f1f2f6; padding-top: 15px;
@@ -478,6 +478,7 @@
     <script>
         let sessionSize = 10;
         let selectedQuizUrl = null; 
+        let currentQuizFile = null;
         let currentQuizName = "";
         let currentQuizSub = "";
         let fullQuestionPool = [];
@@ -490,7 +491,6 @@
         let startTime = 0;
 
         window.onload = function () {
-            // Service Worker : Network First (Laisse le SW gérer)
             fetch('quizzes.json')
                 .then(res => res.json())
                 .then(data => {
@@ -538,6 +538,7 @@
             // Reset sélection fantôme
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             selectedQuizUrl = null;
+            currentQuizFile = null;
             checkReadyState();
 
             const sections = document.querySelectorAll('.category-section');
@@ -555,12 +556,11 @@
             const container = document.getElementById('carousels-container');
             container.innerHTML = ""; 
 
-            // RECUPERATION BANNIS
             const banned = JSON.parse(localStorage.getItem('banned_questions_v1') || "[]");
 
             const groups = {};
             data.forEach(q => {
-                const code = q.code || "AUTRES";
+                const code = q.code || "AUTRE";
                 if (!groups[code]) groups[code] = [];
                 groups[code].push(q);
             });
@@ -594,25 +594,30 @@
                     `;
                     
                     const storageKey = 'quiz_count_v1_' + q.file;
-                    
-                    fetch(q.file)
-                        .then(res => res.json())
-                        .then(quizData => {
-                            if(quizData.questions) {
-                                // 1. Dédoublonnage
-                                const uniqueQ = quizData.questions.filter((v,i,a)=>a.findIndex(t=>(t.question===v.question))===i);
-                                // 2. Filtrage (Active = Unique - Banned)
-                                const activeQ = uniqueQ.filter(q => !banned.includes(q.question));
+                    const cachedCount = localStorage.getItem(storageKey);
+                    const badge = card.querySelector('.card-count');
 
-                                const count = activeQ.length;
-                                const badge = card.querySelector('.card-count');
-                                badge.innerText = count + " Questions";
-                                badge.style.opacity = "1";
-                            }
-                        })
-                        .catch(e => {
-                            card.querySelector('.card-count').style.display = "none";
-                        });
+                    if (cachedCount) {
+                        badge.innerText = cachedCount + " Questions";
+                        badge.style.opacity = "1";
+                    } else {
+                        fetch(q.file)
+                            .then(res => res.json())
+                            .then(quizData => {
+                                if(quizData.questions) {
+                                    const uniqueQ = quizData.questions.filter((v,i,a)=>a.findIndex(t=>(t.question===v.question))===i);
+                                    const activeQ = uniqueQ.filter(item => !banned.includes(item.question));
+                                    
+                                    const count = activeQ.length;
+                                    localStorage.setItem(storageKey, count);
+                                    badge.innerText = count + " Questions";
+                                    badge.style.opacity = "1";
+                                }
+                            })
+                            .catch(e => {
+                                badge.style.display = "none";
+                            });
+                    }
 
                     scrollContainer.appendChild(card);
                 });
@@ -626,6 +631,7 @@
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             element.classList.add('selected');
             selectedQuizUrl = url;
+            currentQuizFile = url;
             currentQuizName = (code && code !== "AUTRE" ? code + " • " : "") + name;
             currentQuizSub = sub || "";
             checkReadyState();
@@ -643,7 +649,6 @@
             else btn.classList.remove('ready');
         }
 
-        // --- MELANGEUR ROBUSTE (Fisher-Yates) ---
         function shuffle(array) {
             let currentIndex = array.length, randomIndex;
             while (currentIndex != 0) {
@@ -664,12 +669,10 @@
                 .then(data => {
                     if (!data.questions) throw new Error("JSON invalide");
                     
-                    // 1. Anti-doublons
                     const uniqueQuestions = data.questions.filter((q, index, self) =>
                         index === self.findIndex((t) => t.question === q.question)
                     );
                     
-                    // 2. Filtre Bannis
                     const banned = JSON.parse(localStorage.getItem('banned_questions_v1') || "[]");
                     const cleanQuestions = uniqueQuestions.filter(q => !banned.includes(q.question));
                     
@@ -699,7 +702,6 @@
                 remainingQuestions = shuffle([...fullQuestionPool]);
             }
 
-            // Cas où tout est masqué
             if (remainingQuestions.length === 0) {
                 alert("Toutes les questions de ce module ont été masquées !");
                 location.reload();
@@ -710,8 +712,8 @@
             
             currentSession = remainingQuestions.slice(0, n);
             remainingQuestions = remainingQuestions.slice(n);
-            lastSession = currentSession;
-            lastSessionRemainingSnapshot = remainingQuestions; // Important pour "Refaire"
+            lastSession = currentSession.slice();
+            lastSessionRemainingSnapshot = remainingQuestions;
             
             currentIndex = 0; score = 0; startTime = new Date();
 
@@ -724,7 +726,7 @@
             document.getElementById('result-screen').style.display = 'none';
 
             if (!lastSession.length) { startSession(); return; }
-            currentSession = lastSession;
+            currentSession = lastSession.slice();
             currentIndex = 0; score = 0; startTime = new Date();
             document.getElementById('quiz-container').innerHTML = '';
             showQuestion();
@@ -766,23 +768,25 @@
             container.innerHTML = html;
         }
 
-        // --- FONCTION MASQUER ---
         function banQuestion() {
             const q = currentSession[currentIndex];
             
-            if(!confirm("Voulez-vous masquer cette question définitivement ? (Erreur ou Doublon)")) return;
+            if(!confirm("Masquer définitivement cette question ?")) return;
 
-            // 1. Storage
             let banned = JSON.parse(localStorage.getItem('banned_questions_v1') || "[]");
-            banned.push(q.question);
-            localStorage.setItem('banned_questions_v1', JSON.stringify(banned));
+            if (!banned.includes(q.question)) {
+                banned.push(q.question);
+                localStorage.setItem('banned_questions_v1', JSON.stringify(banned));
+            }
 
-            // 2. Retire de la session
+            if(currentQuizFile) {
+                localStorage.removeItem('quiz_count_v1_' + currentQuizFile);
+            }
+
             currentSession.splice(currentIndex, 1);
             
-            // 3. Navigation
             if(currentSession.length === 0) {
-                 alert("Session terminée (toutes questions masquées).");
+                 alert("Session terminée.");
                  endQuiz();
                  return;
             }
@@ -794,11 +798,13 @@
             }
         }
 
-        // --- FONCTION RESET (Footer) ---
         function resetBannedQuestions() {
-            if(confirm("Voulez-vous réintégrer toutes les questions masquées ?")) {
+            if(confirm("Voulez-vous réintégrer toutes les questions que vous avez masquées ?")) {
                 localStorage.removeItem('banned_questions_v1');
-                alert("Questions réintégrées.");
+                Object.keys(localStorage).forEach(key => {
+                    if(key.startsWith('quiz_count_v1_')) localStorage.removeItem(key);
+                });
+                alert("Les questions masquées ont été réinitialisées.");
                 location.reload();
             }
         }
@@ -812,8 +818,12 @@
             document.querySelector('.ban-btn').style.display = 'none';
             
             allInputs.forEach(i => i.disabled = true);
-            const checkedValues = Array.from(checkedInputs).map(cb => parseInt(cb.value));
-            const isCorrect = JSON.stringify(q.correct.sort()) === JSON.stringify(checkedValues.sort());
+            
+            const checkedValues = Array.from(checkedInputs).map(cb => parseInt(cb.value, 10));
+            const a = q.correct.slice().sort((x,y)=>x-y);
+            const b = checkedValues.slice().sort((x,y)=>x-y);
+            const isCorrect = JSON.stringify(a) === JSON.stringify(b);
+            
             if (isCorrect) score++;
 
             allInputs.forEach((input, domIndex) => {
@@ -856,14 +866,11 @@
             const contBtn = document.getElementById('continue-btn');
             const msg = document.getElementById('detail-msg');
 
-            // --- LOGIQUE ORIGINALE ---
             if (remainingQuestions.length > 0 && sessionSize !== Infinity) {
-                // Il reste des questions inédites
                 contBtn.style.display = 'block';
                 contBtn.innerText = `Continuer la suite`;
                 msg.innerText = `📦 Il reste encore ${remainingQuestions.length} questions inédites dans ce module.`;
             } else {
-                // Tout est fini ou mode infini
                 contBtn.style.display = 'none';
                 msg.innerText = `🎉 Vous avez fait le tour de toutes les questions disponibles !`;
             }
