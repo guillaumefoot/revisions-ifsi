@@ -249,7 +249,7 @@
         .count-pill:hover { background-color: #e2e8f0; }
         .count-pill.selected {
             background-color: #3498db; color: white;
-            box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+            box-shadow: 0 4px 10px rgba(52, 152, 219, 0.25);
             border-color: #3498db;
         }
 
@@ -365,9 +365,14 @@
         .footer-reset {
             margin-top: 30px; text-align: center;
             border-top: 1px solid #f1f2f6; padding-top: 15px;
+            display: flex; flex-direction: column; gap: 10px;
         }
         .reset-link { color: #b2bec3; font-size: 0.8rem; text-decoration: none; cursor: pointer; }
         .reset-link:hover { text-decoration: underline; color: #636e72; }
+        
+        /* Lien Force Update */
+        .force-update { color: #e53e3e; opacity: 0.7; }
+        .force-update:hover { opacity: 1; }
 
         /* Resultats */
         #result-screen { display: none; text-align: center; padding: 10px 0; }
@@ -445,6 +450,7 @@
                 
                 <div class="footer-reset">
                     <span class="reset-link" onclick="resetBannedQuestions()">Réintégrer les questions masquées</span>
+                    <span class="reset-link force-update" onclick="fullAppReset()">🔄 Forcer la mise à jour (Bug ?)</span>
                 </div>
             </div>
 
@@ -538,7 +544,7 @@
             // Reset sélection fantôme
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             selectedQuizUrl = null;
-            currentQuizFile = null;
+            currentQuizFile = null; 
             checkReadyState();
 
             const sections = document.querySelectorAll('.category-section');
@@ -631,7 +637,7 @@
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             element.classList.add('selected');
             selectedQuizUrl = url;
-            currentQuizFile = url;
+            currentQuizFile = url; 
             currentQuizName = (code && code !== "AUTRE" ? code + " • " : "") + name;
             currentQuizSub = sub || "";
             checkReadyState();
@@ -712,7 +718,7 @@
             
             currentSession = remainingQuestions.slice(0, n);
             remainingQuestions = remainingQuestions.slice(n);
-            lastSession = currentSession.slice();
+            lastSession = currentSession.slice(); 
             lastSessionRemainingSnapshot = remainingQuestions;
             
             currentIndex = 0; score = 0; startTime = new Date();
@@ -721,12 +727,25 @@
             showQuestion();
         }
 
+        // --- CORRECTION BUG REFAIRE + BANNIS ---
         function restartSameSession() {
             document.getElementById('quiz-interface').style.display = 'block';
             document.getElementById('result-screen').style.display = 'none';
 
             if (!lastSession.length) { startSession(); return; }
-            currentSession = lastSession.slice();
+            
+            // 1. Charger liste noire
+            const banned = JSON.parse(localStorage.getItem('banned_questions_v1') || "[]");
+            
+            // 2. Filtrer la sauvegarde
+            currentSession = lastSession.filter(q => !banned.includes(q.question));
+            
+            if (currentSession.length === 0) {
+                alert("Vous avez masqué toutes les questions de cette série !");
+                startSession(); // On repart sur du neuf
+                return;
+            }
+
             currentIndex = 0; score = 0; startTime = new Date();
             document.getElementById('quiz-container').innerHTML = '';
             showQuestion();
@@ -807,6 +826,26 @@
                 alert("Les questions masquées ont été réinitialisées.");
                 location.reload();
             }
+        }
+
+        // --- HARD RESET PWA ---
+        async function fullAppReset() {
+            if(!confirm("Ceci va effacer les données locales, réintégrer les questions masquées et forcer la mise à jour de l'application. Continuer ? A ne surtout pas faire si vous ne disposez pas de connexion Internet !")) return;
+
+            if ('caches' in window) {
+                const names = await caches.keys();
+                await Promise.all(names.map(name => caches.delete(name)));
+            }
+
+            if ('serviceWorker' in navigator) {
+                const registrations = await navigator.serviceWorker.getRegistrations();
+                for (const registration of registrations) {
+                    await registration.unregister();
+                }
+            }
+
+            localStorage.clear();
+            window.location.reload(true);
         }
 
         window.validate = function () {
