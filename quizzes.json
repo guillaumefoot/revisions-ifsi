@@ -68,5 +68,12 @@
         "name": "Infarctus du Myocarde",
         "subtitle": "Sémiologie, ECG, complications et prise en charge",
         "icon": "💔"
+    },
+    {
+        "file": "data/2.6_RESUME.json",
+        "code": "UE 2.6",
+        "name": "Santé Mentale (Synthèse)",
+        "subtitle": "Bases, sémiologie, troubles psychiques et traitements",
+        "icon": "🧠"
     }
 ]
