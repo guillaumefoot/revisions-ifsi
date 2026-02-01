@@ -1,0 +1,696 @@
+{
+  "title": "UE 2.6 – Santé mentale",
+  "subtitle": "Bases, sémiologie, troubles psychiques et traitements",
+  "questions": [
+    {
+      "question": "La santé mentale est définie comme un état de bon fonctionnement du psychisme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La santé mentale se limite à l'absence de troubles psychiatriques diagnostiqués.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la santé mentale inclut le bien-être, la capacité d’agir et l’adaptation aux difficultés, et ne se résume pas à l'absence de maladie."
+    },
+    {
+      "question": "Quelles dimensions font partie de la santé mentale ?",
+      "options": [
+        "La santé mentale positive",
+        "La détresse psychologique et réactionnelle",
+        "Les troubles psychiatriques",
+        "Les maladies infectieuses"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La sémiologie en psychiatrie correspond à l’étude des signes, symptômes et syndromes des troubles mentaux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La stigmatisation implique toujours une volonté intentionnelle de nuire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la stigmatisation peut exister sans volonté de nuire, par dévalorisation ou mise à l’écart liée aux normes sociales."
+    },
+    {
+      "question": "Quelles peuvent être des conséquences de la stigmatisation ?",
+      "options": [
+        "Retard d’accès aux soins",
+        "Amélioration de l’estime de soi",
+        "Difficultés d’accès à l’emploi",
+        "Altération des relations sociales"
+      ],
+      "correct": [0, 2, 3]
+    },
+    {
+      "question": "L’auto-stigmatisation correspond au fait que la personne s’applique à elle-même les stéréotypes liés aux troubles mentaux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La discrimination se définit comme une opinion négative sans conséquence concrète.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la discrimination implique une action défavorable envers une personne en raison d’un critère comme l’âge, le sexe ou le handicap."
+    },
+    {
+      "question": "Quelles caractéristiques définissent le délire ?",
+      "options": [
+        "Croyance inébranlable",
+        "Perception fausse de la réalité",
+        "Conviction partagée par la majorité",
+        "Absence totale de conviction"
+      ],
+      "correct": [0, 1]
+    },
+    {
+      "question": "Le moyen mnémotechnique T.O.M.A.T.E. permet d’analyser les caractéristiques cliniques du délire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une bouffée délirante aiguë est classée parmi les psychoses chroniques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la bouffée délirante aiguë est un épisode délirant aigu de durée courte."
+    },
+    {
+      "question": "Quels troubles font partie des troubles psychiques ?",
+      "options": [
+        "Troubles anxieux",
+        "Troubles dépressifs",
+        "Troubles addictifs",
+        "Maladies cardiovasculaires"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La névrose correspond à une rupture avec la réalité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la rupture avec la réalité caractérise la psychose, alors que la névrose conserve un contact avec la réalité."
+    },
+    {
+      "question": "Quels mécanismes sont associés à la psychose ?",
+      "options": [
+        "Projection",
+        "Rupture avec la réalité",
+        "Refoulement",
+        "Construction d’une nouvelle réalité subjective"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "L’angoisse est un sentiment subjectif pouvant se manifester par des signes somatiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les troubles anxieux peuvent être favorisés par des facteurs génétiques, environnementaux et sociaux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le trouble dépressif se caractérise uniquement par une humeur triste sans retentissement somatique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le trouble dépressif associe des symptômes psychiques et somatiques comme la fatigue, les troubles du sommeil et de l’appétit."
+    },
+    {
+      "question": "Quels signes peuvent être retrouvés lors d’un épisode maniaque ?",
+      "options": [
+        "Humeur élevée ou irritable",
+        "Réduction du besoin de sommeil",
+        "Ralentissement psychomoteur",
+        "Logorrhée"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "La schizophrénie associe des symptômes positifs et négatifs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les neuroleptiques sont uniquement utilisés pour traiter les troubles anxieux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les neuroleptiques sont principalement indiqués pour traiter l’agitation et la symptomatologie délirante."
+    },
+        {
+      "question": "La détresse psychologique réactionnelle peut survenir à la suite d’un deuil ou d’un échec scolaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les facteurs déterminants de la santé mentale sont exclusivement biologiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la santé mentale est influencée par des facteurs biologiques, économiques, environnementaux, sociaux et psychologiques."
+    },
+    {
+      "question": "Quels sont les axes d’intervention pour améliorer la santé mentale ?",
+      "options": [
+        "Promouvoir le bien-être mental",
+        "Prévenir et repérer précocement la souffrance psychique",
+        "Garantir des parcours de soins coordonnés",
+        "Limiter l’accès aux soins spécialisés"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La stigmatisation relève d’une dévalorisation de la personne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’auto-stigmatisation peut conduire à une limitation volontaire des interactions sociales.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le délire est une croyance partageable et modulable par l’argumentation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le délire est une croyance irréductible et inébranlable, non accessible au raisonnement."
+    },
+    {
+      "question": "Quels éléments sont analysés dans le délire selon le moyen mnémotechnique T.O.M.A.T.E. ?",
+      "options": [
+        "Les thèmes",
+        "Les mécanismes",
+        "L’adhésion du patient",
+        "La durée du traitement"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Une psychose se caractérise par une rupture avec la réalité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels troubles appartiennent aux troubles anxieux ?",
+      "options": [
+        "Anxiété généralisée",
+        "Phobie sociale",
+        "Agoraphobie",
+        "Schizophrénie"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "L’attaque de panique correspond à une peur intense d’installation progressive sur plusieurs semaines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’attaque de panique est une apparition soudaine et brutale d’une peur intense."
+    },
+    {
+      "question": "Un trouble dépressif nécessite la présence d’au moins cinq symptômes pendant une durée minimale de deux semaines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’anhédonie correspond à une augmentation du plaisir.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’anhédonie correspond à une perte de plaisir et de désir."
+    },
+    {
+      "question": "Quels signes peuvent être observés lors d’un épisode dépressif ?",
+      "options": [
+        "Anhédonie",
+        "Idéation suicidaire",
+        "Hyperactivité permanente",
+        "Ralentissement psychomoteur"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Les troubles bipolaires associent des phases maniaques ou hypomaniaques et des phases dépressives.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le trouble bipolaire de type 2 est caractérisé par au moins un épisode maniaque franc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le trouble bipolaire de type 2 associe des épisodes dépressifs et des épisodes hypomaniaques."
+    },
+    {
+      "question": "Quels symptômes font partie des symptômes négatifs de la schizophrénie ?",
+      "options": [
+        "Aboulie",
+        "Retrait social",
+        "Hallucinations",
+        "Incurie"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "La schizophrénie évolue classiquement en trois phases : prodromique, aiguë et résiduelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels traitements font partie des psychotropes ?",
+      "options": [
+        "Antidépresseurs",
+        "Anxiolytiques",
+        "Neuroleptiques",
+        "Antibiotiques"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Les benzodiazépines peuvent entraîner un risque de dépendance et un syndrome de sevrage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le syndrome malin des neuroleptiques est un effet indésirable bénin ne nécessitant pas de prise en charge urgente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le syndrome malin des neuroleptiques est une urgence vitale engageant le pronostic vital."
+    },
+        {
+      "question": "Le Ça correspond au réservoir pulsionnel de la personnalité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Le Surmoi représente les pulsions inconscientes liées aux désirs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le Surmoi correspond aux règles, interdits et exigences morales intériorisées."
+    },
+    {
+      "question": "Quels éléments caractérisent la névrose ?",
+      "options": [
+        "Conservation du contact avec la réalité",
+        "Refoulement comme mécanisme de défense",
+        "Rupture avec la réalité",
+        "Conflit psychique inconscient"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "La psychose se caractérise par une altération du jugement et une rupture avec la réalité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels mécanismes de défense sont retrouvés dans la psychose ?",
+      "options": [
+        "Projection",
+        "Clivage",
+        "Refoulement",
+        "Construction d’une réalité subjective"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Les états limites se caractérisent par une dépendance massive et vitale à l’autre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les troubles addictifs peuvent faire partie des troubles psychiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels troubles peuvent être associés aux états limites ?",
+      "options": [
+        "Trouble borderline",
+        "Dépression chronique",
+        "Addictions",
+        "Maladie d’Alzheimer"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Les états psychopathiques sont caractérisés par une forte culpabilité après le passage à l’acte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les états psychopathiques se caractérisent par l’impulsivité, l’agressivité et une absence de culpabilité."
+    },
+    {
+      "question": "Quels sont des facteurs déclencheurs possibles des troubles anxieux ?",
+      "options": [
+        "Facteurs génétiques",
+        "Addictions",
+        "Douleur chronique",
+        "Exposition solaire"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "L’anxiété devient pathologique lorsqu’elle entraîne une détresse excessive et un dysfonctionnement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’agoraphobie correspond à la peur d’être dans des situations où l’aide pourrait ne pas être disponible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels effets indésirables peuvent être observés avec les hypnotiques ?",
+      "options": [
+        "Sédation",
+        "Troubles mnésiques",
+        "Dépression respiratoire",
+        "Effet antidépresseur"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Les antidépresseurs ont un effet immédiat dès les premiers jours de traitement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’efficacité des antidépresseurs apparaît généralement après 15 à 20 jours."
+    },
+    {
+      "question": "Quels risques doivent être surveillés lors de l’introduction d’un antidépresseur ?",
+      "options": [
+        "Virage maniaque",
+        "Rebond anxieux initial",
+        "Passage à l’acte suicidaire",
+        "Insuffisance rénale aiguë immédiate"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Les benzodiazépines nécessitent un arrêt brutal pour éviter la dépendance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’arrêt des benzodiazépines doit être progressif pour éviter un syndrome de sevrage."
+    },
+    {
+      "question": "Quel est l’antidote des benzodiazépines ?",
+      "options": [
+        "Naloxone",
+        "Flumazénil",
+        "Atropine",
+        "Vitamine K"
+      ],
+      "correct": [1]
+    },
+    {
+      "question": "Quels risques sont associés aux neuroleptiques ?",
+      "options": [
+        "Syndrome malin des neuroleptiques",
+        "Allongement du QT",
+        "Photosensibilisation",
+        "Hypoglycémie systématique"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Le syndrome malin des neuroleptiques nécessite l’arrêt immédiat du traitement et une prise en charge urgente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La surveillance de la lithiémie est nécessaire chez les patients traités par thymorégulateurs à base de lithium.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "La santé mentale positive correspond au bien-être et à la capacité d’agir.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La détresse psychologique réactionnelle correspond toujours à un trouble psychiatrique chronique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la détresse psychologique est réactionnelle à des événements de vie et n’est pas nécessairement chronique."
+    },
+    {
+      "question": "Quels éléments relèvent de la sémiologie psychiatrique ?",
+      "options": [
+        "Signes cliniques observables",
+        "Symptômes rapportés par le patient",
+        "Syndromes psychiatriques",
+        "Résultats biologiques isolés"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Le délire peut être remis en question par le patient lorsqu’il est confronté à des preuves objectives.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le délire est une croyance inébranlable non accessible au raisonnement logique."
+    },
+    {
+      "question": "Quels thèmes peuvent être retrouvés dans un délire ?",
+      "options": [
+        "Persécution",
+        "Grandeur",
+        "Culpabilité",
+        "Fatigue musculaire"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La temporalité du délire permet de distinguer les formes aiguës des formes chroniques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une psychose hallucinatoire chronique est classée parmi les psychoses chroniques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels troubles relèvent des troubles des conduites alimentaires ?",
+      "options": [
+        "Anorexie mentale",
+        "Boulimie",
+        "Hyperphagie",
+        "Schizophrénie"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La névrose obsessionnelle se manifeste par des rituels visant à diminuer l’angoisse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La conversion hystérique correspond à l’expression corporelle d’un conflit psychique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels symptômes font partie des symptômes positifs de la schizophrénie ?",
+      "options": [
+        "Hallucinations",
+        "Idées délirantes",
+        "Aboulie",
+        "Discours désorganisé"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Les symptômes négatifs de la schizophrénie sont souvent plus sensibles aux traitements que les symptômes positifs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les symptômes négatifs sont généralement moins sensibles aux traitements que les symptômes positifs."
+    },
+    {
+      "question": "Quels facteurs peuvent intervenir dans l’étiologie de la schizophrénie ?",
+      "options": [
+        "Facteurs génétiques",
+        "Facteurs neurodéveloppementaux",
+        "Facteurs socio-environnementaux",
+        "Carence en vitamines uniquement"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Une anxiété devient maladaptative lorsqu’elle est excessive et entraîne une souffrance importante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels effets indésirables peuvent être associés aux anxiolytiques de type benzodiazépines ?",
+      "options": [
+        "Somnolence",
+        "Troubles de la mémoire",
+        "Effets paradoxaux",
+        "Amélioration durable de la concentration"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Les neuroleptiques peuvent entraîner un allongement du QT nécessitant une surveillance ECG.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La photosensibilisation est un effet indésirable possible de certains neuroleptiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels signes peuvent évoquer un syndrome malin des neuroleptiques ?",
+      "options": [
+        "Hyperthermie",
+        "Rigidité musculaire",
+        "Altération de la conscience",
+        "Bradycardie isolée sans autre signe"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Les thymorégulateurs permettent de réduire la fréquence et l’intensité des épisodes thymiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Un patient traité par lithium nécessite une surveillance biologique et cardiovasculaire régulière.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+        {
+      "question": "La santé mentale inclut la capacité à faire face aux frustrations et aux conflits de la vie en société.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La santé mentale positive correspond uniquement à l’absence de symptômes psychiatriques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la santé mentale positive inclut le bien-être, la capacité d’agir et l’adaptation aux situations de vie."
+    },
+    {
+      "question": "Quelles situations peuvent relever de la détresse psychologique réactionnelle ?",
+      "options": [
+        "Deuil",
+        "Accident de la vie",
+        "Échec scolaire",
+        "Schizophrénie chronique"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "La stigmatisation peut retarder l’accès aux soins psychiatriques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "L’auto-stigmatisation peut conduire à une perte d’estime de soi.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "La discrimination correspond à une mise à l’écart sans action concrète.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car la discrimination implique une action défavorable envers une personne sur la base d’un critère."
+    },
+    {
+      "question": "Quels éléments définissent le délire ?",
+      "options": [
+        "Croyance inébranlable",
+        "Perception fausse de la réalité",
+        "Conviction partagée par la majorité",
+        "Absence de remise en question"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Le délire est toujours associé à une atteinte organique du cerveau.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car le délire peut être d’origine psychiatrique sans atteinte organique identifiée."
+    },
+    {
+      "question": "La psychose se caractérise par une rupture avec la réalité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels mécanismes de défense sont retrouvés dans la névrose ?",
+      "options": [
+        "Refoulement",
+        "Projection",
+        "Clivage",
+        "Conservation du contact avec la réalité"
+      ],
+      "correct": [0, 3]
+    },
+    {
+      "question": "L’angoisse peut se manifester par des signes somatiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Une attaque de panique est une installation progressive de l’anxiété sur plusieurs mois.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car l’attaque de panique correspond à une survenue brutale et soudaine d’une anxiété intense."
+    },
+    {
+      "question": "Quels symptômes peuvent être retrouvés dans un trouble dépressif ?",
+      "options": [
+        "Anhédonie",
+        "Ralentissement psychomoteur",
+        "Idéation suicidaire",
+        "Humeur constamment expansive"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "L’anhédonie correspond à une perte de plaisir et de désir.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Un épisode maniaque peut s’accompagner d’une réduction du besoin de sommeil.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Les troubles bipolaires comportent des phases d’euthymie entre les épisodes thymiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    },
+    {
+      "question": "Quels symptômes font partie des symptômes négatifs de la schizophrénie ?",
+      "options": [
+        "Retrait social",
+        "Aboulie",
+        "Hallucinations",
+        "Incurie"
+      ],
+      "correct": [0, 1, 3]
+    },
+    {
+      "question": "Les benzodiazépines sont dépourvues de risque de dépendance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux car les benzodiazépines exposent à un risque de dépendance et de syndrome de sevrage."
+    },
+    {
+      "question": "Quels risques sont associés aux neuroleptiques ?",
+      "options": [
+        "Syndrome malin des neuroleptiques",
+        "Photosensibilisation",
+        "Allongement du QT",
+        "Effet antalgique majeur"
+      ],
+      "correct": [0, 1, 2]
+    },
+    {
+      "question": "Les thymorégulateurs permettent de stabiliser l’humeur chez les patients bipolaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0]
+    }
+  ]
+}
