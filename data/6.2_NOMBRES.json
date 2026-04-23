@@ -1,0 +1,546 @@
+{
+  "title": "UE 6.2 - Anglais Médical",
+  "subtitle": "Nombres & formation des nombres",
+  "questions": [
+    {
+      "question": "Choisir la bonne traduction : one",
+      "options": ["un","deux","trois","dix"],
+      "correct": [0],
+      "explanation": "Base des nombres : 1 à 10 sont irréguliers et doivent être mémorisés."
+    },
+    {
+      "question": "Choisir la bonne traduction : fifteen",
+      "options": ["quinze","cinquante","cinq","dix-huit"],
+      "correct": [0],
+      "explanation": "Les nombres 13 à 19 finissent en '-teen' (thirteen, fourteen, fifteen...)."
+    },
+    {
+      "question": "Choisir la bonne traduction : nineteen",
+      "options": ["dix-neuf","neuf","quatre-vingt-dix","dix-huit"],
+      "correct": [0],
+      "explanation": "Attention à ne pas confondre '-teen' (19) avec '-ty' (90 → ninety)."
+    },
+    {
+      "question": "Choisir la bonne traduction : twenty",
+      "options": ["vingt","douze","trente","dix"],
+      "correct": [0],
+      "explanation": "Les dizaines (20, 30, 40…) se terminent en '-ty'."
+    },
+    {
+      "question": "Comment forme-t-on 21 en anglais ?",
+      "options": ["twenty-one","twenty one","twentyone","twenty-and-one"],
+      "correct": [0],
+      "explanation": "Structure : dizaine + unité avec un tiret (twenty-one, thirty-two...)."
+    },
+    {
+      "question": "Choisir la bonne traduction : thirty",
+      "options": ["trente","treize","trois","vingt"],
+      "correct": [0],
+      "explanation": "Attention : thirty (30) ≠ thirteen (13). Piège fréquent."
+    },
+    {
+      "question": "Choisir la bonne traduction : forty",
+      "options": ["quarante","quatorze","quatre","cinquante"],
+      "correct": [0],
+      "explanation": "'Forty' est irrégulier (pas de 'u' contrairement à 'four')."
+    },
+    {
+      "question": "Choisir la bonne traduction : fifty",
+      "options": ["cinquante","quinze","cinq","soixante"],
+      "correct": [0],
+      "explanation": "Certaines dizaines modifient la racine : five → fifty."
+    },
+    {
+      "question": "Choisir la bonne traduction : sixty",
+      "options": ["soixante","six","seize","soixante-dix"],
+      "correct": [0],
+      "explanation": "Structure régulière : six → sixty (on ajoute -ty)."
+    },
+    {
+      "question": "Choisir la bonne traduction : seventy",
+      "options": ["soixante-dix","sept","dix-sept","soixante"],
+      "correct": [0],
+      "explanation": "Contrairement au français, 70 n’est pas basé sur 60+10 mais un mot unique."
+    },
+    {
+      "question": "Choisir la bonne traduction : eighty",
+      "options": ["quatre-vingts","huit","dix-huit","quatre-vingt-dix"],
+      "correct": [0],
+      "explanation": "'Eighty' perd le 't' de 'eight' → forme irrégulière."
+    },
+    {
+      "question": "Choisir la bonne traduction : ninety",
+      "options": ["quatre-vingt-dix","neuf","dix-neuf","quatre-vingts"],
+      "correct": [0],
+      "explanation": "Même logique que fifty : nine → ninety (modification)."
+    },
+    {
+      "question": "Comment écrit-on 45 en anglais ?",
+      "options": ["forty-five","fourty-five","forty five","fourty five"],
+      "correct": [0],
+      "explanation": "Toujours tiret entre dizaine et unité + orthographe exacte de 'forty'."
+    },
+    {
+      "question": "Choisir la bonne traduction : one hundred",
+      "options": ["cent","mille","dix","milliard"],
+      "correct": [0],
+      "explanation": "Structure : nombre + 'hundred' (ex : two hundred = 200)."
+    },
+    {
+      "question": "Comment écrit-on 120 en anglais ?",
+      "options": ["one hundred twenty","one hundred and twenty","hundred twenty","one hundred twenty-one"],
+      "correct": [0,1],
+      "explanation": "'And' est utilisé en anglais britannique entre hundred et dizaines."
+    },
+    {
+      "question": "Choisir la bonne traduction : one thousand",
+      "options": ["mille","cent","million","milliard"],
+      "correct": [0],
+      "explanation": "Structure identique : number + thousand (ex : two thousand)."
+    },
+    {
+      "question": "Choisir la bonne traduction : one million",
+      "options": ["un million","mille","un milliard","cent"],
+      "correct": [0],
+      "explanation": "Même logique : number + million (pas de pluriel en anglais)."
+    },
+    {
+      "question": "Choisir la bonne traduction : one billion",
+      "options": ["un milliard","un million","mille","cent"],
+      "correct": [0],
+      "explanation": "Attention : billion (EN) = milliard (FR). Faux ami classique."
+    },
+    {
+      "question": "Choisir la bonne traduction : one trillion",
+      "options": ["mille milliards","un milliard","un million","mille"],
+      "correct": [0],
+      "explanation": "Progression ×1000 : thousand → million → billion → trillion."
+    },
+    {
+      "question": "Comment écrit-on 1 000 000 en anglais ?",
+      "options": ["one million","one thousand","one billion","one hundred thousand"],
+      "correct": [0],
+      "explanation": "Les grands nombres suivent une logique simple par blocs de 1000."
+    },
+    {
+    "question": "Choisir la bonne traduction : eleven",
+    "options": ["onze","dix","douze","vingt"],
+    "correct": [0],
+    "explanation": "Les nombres 11 et 12 sont irréguliers → eleven, twelve."
+  },
+  {
+    "question": "Choisir la bonne traduction : twelve",
+    "options": ["douze","vingt","dix","treize"],
+    "correct": [0],
+    "explanation": "À mémoriser : twelve ne suit pas la logique '-teen'."
+  },
+  {
+    "question": "Choisir la bonne traduction : thirteen",
+    "options": ["treize","trente","trois","quinze"],
+    "correct": [0],
+    "explanation": "Attention à la différence de prononciation avec 'thirty'."
+  },
+  {
+    "question": "Comment écrit-on 32 en anglais ?",
+    "options": ["thirty-two","thirty two","thirtytwo","thirty-and-two"],
+    "correct": [0],
+    "explanation": "Toujours tiret entre dizaine et unité."
+  },
+  {
+    "question": "Comment écrit-on 58 en anglais ?",
+    "options": ["fifty-eight","fifty eight","fiftyeight","fifty-and-eight"],
+    "correct": [0],
+    "explanation": "Structure identique : dizaine + unité avec tiret."
+  },
+  {
+    "question": "Choisir la bonne traduction : one hundred fifty",
+    "options": ["cent cinquante","mille cinquante","cent cinq","cinquante et un"],
+    "correct": [0],
+    "explanation": "Ordre fixe : hundred puis dizaines."
+  },
+  {
+    "question": "Comment écrit-on 305 en anglais ?",
+    "options": ["three hundred five","three hundred and five","three hundred fifty","three hundred fifteen"],
+    "correct": [0,1],
+    "explanation": "'And' facultatif (UK), pas de dizaine ici."
+  },
+  {
+    "question": "Choisir la bonne traduction : two hundred",
+    "options": ["deux cents","deux mille","cent deux","vingt"],
+    "correct": [0],
+    "explanation": "Pas de 's' à hundred même au pluriel."
+  },
+  {
+    "question": "Comment écrit-on 999 en anglais ?",
+    "options": ["nine hundred ninety-nine","nine hundred and ninety-nine","nine hundred nine-nine","nine hundred ninety nine"],
+    "correct": [0,1],
+    "explanation": "Structure complète : hundred + dizaine + unité."
+  },
+  {
+    "question": "Choisir la bonne traduction : three thousand",
+    "options": ["trois mille","trois cents","trois millions","trois milliards"],
+    "correct": [0],
+    "explanation": "Même règle : number + thousand."
+  },
+  {
+    "question": "Comment écrit-on 2 500 en anglais ?",
+    "options": ["two thousand five hundred","two thousand and five hundred","two thousand five hundreds","two thousand fifty"],
+    "correct": [0,1],
+    "explanation": "Hundred ne prend jamais de 's'."
+  },
+  {
+    "question": "Choisir la bonne traduction : ten thousand",
+    "options": ["dix mille","cent mille","mille","dix"],
+    "correct": [0],
+    "explanation": "10 000 = ten thousand."
+  },
+  {
+    "question": "Comment écrit-on 75 000 en anglais ?",
+    "options": ["seventy-five thousand","seventy five thousand","seventy-five thousands","seventy five thousands"],
+    "correct": [0,1],
+    "explanation": "Pas de 's' à thousand, même au pluriel."
+  },
+  {
+    "question": "Choisir la bonne traduction : one hundred thousand",
+    "options": ["cent mille","mille","un million","cent"],
+    "correct": [0],
+    "explanation": "Combinaison : hundred + thousand."
+  },
+  {
+    "question": "Comment écrit-on 1 200 000 en anglais ?",
+    "options": ["one million two hundred thousand","one million two hundreds thousand","one million two hundred thousands","one million two hundred"],
+    "correct": [0],
+    "explanation": "Structure par blocs : million + thousand."
+  },
+  {
+    "question": "Choisir la bonne traduction : two million",
+    "options": ["deux millions","deux mille","deux cents","deux milliards"],
+    "correct": [0],
+    "explanation": "Pas de pluriel en anglais : 'two million' (pas 'millions')."
+  },
+  {
+    "question": "Comment écrit-on 3 000 000 en anglais ?",
+    "options": ["three million","three millions","three thousands","three hundred thousand"],
+    "correct": [0],
+    "explanation": "Million reste invariable en anglais."
+  },
+  {
+    "question": "Choisir la bonne traduction : ten million",
+    "options": ["dix millions","dix mille","dix milliards","cent millions"],
+    "correct": [0],
+    "explanation": "Toujours sans 's' → million."
+  },
+  {
+    "question": "Comment écrit-on 1 000 000 000 en anglais ?",
+    "options": ["one billion","one million","one trillion","one thousand million"],
+    "correct": [0],
+    "explanation": "Billion = milliard (attention au faux ami)."
+  },
+  {
+    "question": "Comment écrit-on 2 000 000 000 en anglais ?",
+    "options": ["two billion","two billions","two million","two thousand million"],
+    "correct": [0],
+    "explanation": "Même règle : pas de 's' → two billion."
+  },
+   {
+    "question": "Traduire en français : Take two tablets a day.",
+    "options": ["Prenez deux comprimés par jour","Prenez douze comprimés par jour","Prenez deux comprimés par semaine","Prenez vingt comprimés par jour"],
+    "correct": [0],
+    "explanation": "'Two tablets a day' = posologie classique (2/jour)."
+  },
+  {
+    "question": "Traduire en français : Take one tablet every 8 hours.",
+    "options": ["Prenez un comprimé toutes les 8 heures","Prenez huit comprimés par heure","Prenez un comprimé par jour","Prenez un comprimé toutes les 2 heures"],
+    "correct": [0],
+    "explanation": "'Every 8 hours' = fréquence (toutes les 8 heures)."
+  },
+  {
+    "question": "Traduire en français : The patient is 12 years old.",
+    "options": ["Le patient a 12 ans","Le patient est 12 ans","Le patient a 20 ans","Le patient a 2 ans"],
+    "correct": [0],
+    "explanation": "En anglais : 'is 12 years old' → en français : 'a 12 ans'."
+  },
+  {
+    "question": "Traduire en français : Give 5 ml of medication.",
+    "options": ["Donnez 5 ml de médicament","Donnez 50 ml de médicament","Donnez 5 mg de médicament","Donnez 15 ml de médicament"],
+    "correct": [0],
+    "explanation": "Attention aux unités : ml (volume) ≠ mg (dosage)."
+  },
+  {
+    "question": "Traduire en français : The patient has a temperature of 38.5°C.",
+    "options": ["Le patient a une température de 38,5°C","Le patient a une température de 35,8°C","Le patient a une température de 40°C","Le patient a une température de 38°C"],
+    "correct": [0],
+    "explanation": "En français on utilise la virgule : 38.5 → 38,5."
+  },
+  {
+    "question": "Traduire en français : The patient weighs 70 kg.",
+    "options": ["Le patient pèse 70 kg","Le patient mesure 70 kg","Le patient a 70 ans","Le patient prend 70 kg"],
+    "correct": [0],
+    "explanation": "'Weighs' = poids, ne pas confondre avec taille ou âge."
+  },
+  {
+    "question": "Traduire en français : Take three tablets twice a day.",
+    "options": ["Prenez trois comprimés deux fois par jour","Prenez deux comprimés trois fois par jour","Prenez trois comprimés par semaine","Prenez trois comprimés une fois par jour"],
+    "correct": [0],
+    "explanation": "'Twice a day' = deux fois par jour."
+  },
+  {
+    "question": "Traduire en français : The patient has been in pain for 3 days.",
+    "options": ["Le patient a mal depuis 3 jours","Le patient a mal pendant 3 jours","Le patient aura mal dans 3 jours","Le patient a mal depuis 30 jours"],
+    "correct": [0],
+    "explanation": "'For 3 days' → durée → 'depuis 3 jours'."
+  },
+  {
+    "question": "Traduire en français : Take one tablet before meals.",
+    "options": ["Prenez un comprimé avant les repas","Prenez un comprimé après les repas","Prenez deux comprimés avant les repas","Prenez un comprimé pendant les repas"],
+    "correct": [0],
+    "explanation": "'Before meals' = avant les repas."
+  },
+  {
+    "question": "Traduire en français : The patient is 5 years old.",
+    "options": ["Le patient a 5 ans","Le patient est 5 ans","Le patient a 50 ans","Le patient a 15 ans"],
+    "correct": [0],
+    "explanation": "Même structure que tous les âges en anglais."
+  },
+  {
+    "question": "Traduire en français : Inject 10 mg of the drug.",
+    "options": ["Injectez 10 mg du médicament","Injectez 100 mg du médicament","Injectez 10 ml du médicament","Injectez 1 mg du médicament"],
+    "correct": [0],
+    "explanation": "Attention : mg = dosage, très important en soins."
+  },
+  {
+    "question": "Traduire en français : The patient stayed in hospital for 2 weeks.",
+    "options": ["Le patient est resté à l’hôpital pendant 2 semaines","Le patient est resté 2 jours","Le patient est resté 2 mois","Le patient restera 2 semaines"],
+    "correct": [0],
+    "explanation": "'For 2 weeks' = durée."
+  },
+  {
+    "question": "Traduire en français : The patient has a blood pressure of 120/80.",
+    "options": ["Le patient a une tension de 12/8","Le patient a une tension de 120/80","Le patient a une tension de 80/120","Le patient a une tension de 10/6"],
+    "correct": [0],
+    "explanation": "En français médical : 120/80 → 12/8."
+  },
+  {
+    "question": "Traduire en français : Take one tablet every morning.",
+    "options": ["Prenez un comprimé chaque matin","Prenez un comprimé chaque soir","Prenez deux comprimés chaque matin","Prenez un comprimé chaque semaine"],
+    "correct": [0],
+    "explanation": "'Every morning' = chaque matin."
+  },
+  {
+    "question": "Traduire en français : The patient lost 3 kg.",
+    "options": ["Le patient a perdu 3 kg","Le patient a pris 3 kg","Le patient pèse 3 kg","Le patient a 3 kg"],
+    "correct": [0],
+    "explanation": "'Lost' = perte de poids."
+  },
+  {
+    "question": "Traduire en français : Take two tablets after meals.",
+    "options": ["Prenez deux comprimés après les repas","Prenez deux comprimés avant les repas","Prenez deux comprimés pendant les repas","Prenez un comprimé après les repas"],
+    "correct": [0],
+    "explanation": "'After meals' = après les repas."
+  },
+  {
+    "question": "Traduire en français : The patient has been hospitalized for 10 days.",
+    "options": ["Le patient est hospitalisé depuis 10 jours","Le patient sera hospitalisé 10 jours","Le patient est hospitalisé 1 jour","Le patient est hospitalisé 100 jours"],
+    "correct": [0],
+    "explanation": "'For 10 days' → durée."
+  },
+  {
+    "question": "Traduire en français : Give 2 injections per day.",
+    "options": ["Donnez 2 injections par jour","Donnez 2 injections par semaine","Donnez 1 injection par jour","Donnez 20 injections par jour"],
+    "correct": [0],
+    "explanation": "'Per day' = par jour."
+  },
+  {
+    "question": "Traduire en français : The patient drank 1.5 liters of water.",
+    "options": ["Le patient a bu 1,5 litre d’eau","Le patient a bu 15 litres","Le patient a bu 0,5 litre","Le patient a bu 2 litres"],
+    "correct": [0],
+    "explanation": "En français : point → virgule (1.5 → 1,5)."
+  },
+  {
+    "question": "Traduire en français : Take one tablet every 12 hours.",
+    "options": ["Prenez un comprimé toutes les 12 heures","Prenez 12 comprimés par heure","Prenez un comprimé toutes les 2 heures","Prenez un comprimé chaque jour"],
+    "correct": [0],
+    "explanation": "'Every 12 hours' = fréquence régulière."
+  },
+  {
+    "question": "Choisir la bonne traduction : first",
+    "options": ["premier","deuxième","troisième","quatrième"],
+    "correct": [0],
+    "explanation": "Forme irrégulière à mémoriser : first (1st)."
+  },
+  {
+    "question": "Choisir la bonne traduction : second",
+    "options": ["deuxième","premier","troisième","cinquième"],
+    "correct": [0],
+    "explanation": "Forme irrégulière : second (2nd)."
+  },
+  {
+    "question": "Choisir la bonne traduction : third",
+    "options": ["troisième","deuxième","premier","quatrième"],
+    "correct": [0],
+    "explanation": "Forme irrégulière : third (3rd)."
+  },
+  {
+    "question": "Choisir la bonne traduction : fourth",
+    "options": ["quatrième","troisième","cinquième","sixième"],
+    "correct": [0],
+    "explanation": "À partir de 4 → règle générale : nombre + th."
+  },
+  {
+    "question": "Choisir la bonne traduction : fifth",
+    "options": ["cinquième","cinq","quinzième","quatrième"],
+    "correct": [0],
+    "explanation": "Attention : five → fifth (changement d’orthographe)."
+  },
+  {
+    "question": "Choisir la bonne traduction : eighth",
+    "options": ["huitième","huit","dix-huit","neuvième"],
+    "correct": [0],
+    "explanation": "On ajoute -th à eight → eighth."
+  },
+  {
+    "question": "Choisir la bonne traduction : ninth",
+    "options": ["neuvième","neuf","dix-neuvième","huitième"],
+    "correct": [0],
+    "explanation": "Nine → ninth (perte du 'e')."
+  },
+  {
+    "question": "Choisir la bonne traduction : twelfth",
+    "options": ["douzième","douze","vingtième","onzième"],
+    "correct": [0],
+    "explanation": "Forme irrégulière : twelve → twelfth."
+  },
+  {
+    "question": "Choisir la bonne traduction : twentieth",
+    "options": ["vingtième","vingt","dixième","vingt-et-un"],
+    "correct": [0],
+    "explanation": "Les dizaines en -y deviennent -ieth (twenty → twentieth)."
+  },
+  {
+    "question": "Comment écrit-on 21e en anglais ?",
+    "options": ["twenty-first","twenty-oneth","twenty-firstly","twenty-one"],
+    "correct": [0],
+    "explanation": "Structure : dizaine + ordinal de l’unité."
+  },
+  {
+    "question": "Comment écrit-on 32e en anglais ?",
+    "options": ["thirty-second","thirty-twoth","thirty-secondth","thirty-two"],
+    "correct": [0],
+    "explanation": "On garde la dizaine + second (ordinal)."
+  },
+  {
+    "question": "Traduire en français : Take the first dose now.",
+    "options": ["Prenez la première dose maintenant","Prenez la deuxième dose maintenant","Prenez une dose maintenant","Prenez la dose demain"],
+    "correct": [0],
+    "explanation": "'First dose' = première dose."
+  },
+  {
+    "question": "Traduire en français : This is the second injection.",
+    "options": ["C’est la deuxième injection","C’est la première injection","C’est une injection","C’est la troisième injection"],
+    "correct": [0],
+    "explanation": "'Second' = deuxième."
+  },
+  {
+    "question": "Traduire en français : This is the third day of treatment.",
+    "options": ["C’est le troisième jour de traitement","C’est le deuxième jour","C’est le premier jour","C’est le quatrième jour"],
+    "correct": [0],
+    "explanation": "'Third day' = troisième jour."
+  },
+  {
+    "question": "Traduire en français : The patient is in the fourth room.",
+    "options": ["Le patient est dans la quatrième chambre","Le patient est dans la troisième chambre","Le patient est dans la première chambre","Le patient est dans la cinquième chambre"],
+    "correct": [0],
+    "explanation": "'Fourth room' = quatrième."
+  },
+  {
+    "question": "Traduire en français : This is the fifth time.",
+    "options": ["C’est la cinquième fois","C’est la première fois","C’est la troisième fois","C’est la dixième fois"],
+    "correct": [0],
+    "explanation": "'Fifth' = cinquième."
+  },
+  {
+    "question": "Compléter : This is the ___ day.",
+    "options": ["second","two","twice","twenty"],
+    "correct": [0],
+    "explanation": "Après 'the', on utilise un ordinal (second, third...)."
+  },
+  {
+    "question": "Compléter : This is the ___ injection.",
+    "options": ["third","three","thrice","thirty"],
+    "correct": [0],
+    "explanation": "Ordinal obligatoire pour indiquer une position."
+  },
+  {
+    "question": "\"Third\" signifie \"trois\".",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : 'third' = troisième (ordinal)."
+  },
+  {
+    "question": "\"Fourth\" suit la règle générale des ordinaux.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "Oui : number + th."
+  },
+  {
+    "question": "Choisir la bonne traduction : tenth",
+    "options": ["dixième","dix","onzième","neuvième"],
+    "correct": [0],
+    "explanation": "Ten → tenth (ajout de -th)."
+  },
+  {
+    "question": "Choisir la bonne traduction : eleventh",
+    "options": ["onzième","onze","douzième","dixième"],
+    "correct": [0],
+    "explanation": "Eleven → eleventh."
+  },
+  {
+    "question": "Choisir la bonne traduction : thirteenth",
+    "options": ["treizième","trente","treize","quatorzième"],
+    "correct": [0],
+    "explanation": "Thirteen → thirteenth."
+  },
+  {
+    "question": "Choisir la bonne traduction : fifteenth",
+    "options": ["quinzième","cinquante","quinze","cinquième"],
+    "correct": [0],
+    "explanation": "Même transformation que 'fifth'."
+  },
+  {
+    "question": "Choisir la bonne traduction : eighteenth",
+    "options": ["dix-huitième","huitième","dix-huit","vingtième"],
+    "correct": [0],
+    "explanation": "Eighteen → eighteenth."
+  },
+  {
+    "question": "Choisir la bonne traduction : nineteenth",
+    "options": ["dix-neuvième","dix-neuf","vingtième","neuvième"],
+    "correct": [0],
+    "explanation": "Nineteen → nineteenth."
+  },
+  {
+    "question": "Comment écrit-on 40e en anglais ?",
+    "options": ["fortieth","fourtieth","fortyth","forty"],
+    "correct": [0],
+    "explanation": "Forty → fortieth (y → ieth)."
+  },
+  {
+    "question": "Comment écrit-on 50e en anglais ?",
+    "options": ["fiftieth","fiftyth","fiftyeth","fivetieth"],
+    "correct": [0],
+    "explanation": "Même règle : fifty → fiftieth."
+  },
+  {
+    "question": "Traduire en français : This is the twentieth patient.",
+    "options": ["C’est le vingtième patient","C’est le vingt patient","C’est le dixième patient","C’est le trentième patient"],
+    "correct": [0],
+    "explanation": "Twenty → twentieth."
+  },
+  {
+    "question": "Traduire en français : This is the twenty-first day.",
+    "options": ["C’est le vingt-et-unième jour","C’est le vingtième jour","C’est le vingt-deuxième jour","C’est le vingt-et-deuxième jour"],
+    "correct": [0],
+    "explanation": "Structure mixte : twenty + first."
+  }
+  ]
+}
