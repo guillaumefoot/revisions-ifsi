@@ -1,4 +1,7 @@
-[
+{
+  "title": "UE 6.2 - Anglais Médical",
+  "subtitle": "Négations & interrogations",
+  "questions": [
   {
     "question": "Choisir la bonne question : ___ you have pain ?",
     "options": ["Do","Does","Did","Are"],
@@ -420,3 +423,4 @@
     "explanation": "Present continuous négatif → situation urgente."
   }
 ]
+}
