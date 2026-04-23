@@ -1,0 +1,2202 @@
+{
+  "title": "UE 6.2 - Anglais Médical",
+  "subtitle": "Quiz Vocabulaire médical",
+  "questions": [
+    {
+      "question": "Traduire en français : The patient complains of chest pain.",
+      "options": [
+        "Le patient se plaint de douleurs thoraciques",
+        "Le patient a mal au ventre",
+        "Le patient présente une douleur musculaire",
+        "Le patient a une douleur à la tête"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has difficulty breathing.",
+      "options": [
+        "Il a des difficultés à respirer",
+        "Il a mal à avaler",
+        "Il a une douleur abdominale",
+        "Il a des vertiges"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : Loss of consciousness is a serious symptom.",
+      "options": [
+        "La perte de conscience est un symptôme grave",
+        "La perte de mémoire est un symptôme grave",
+        "La perte d’appétit est un symptôme grave",
+        "La perte de poids est un symptôme grave"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The patient has a high fever.",
+      "options": [
+        "Le patient a une forte fièvre",
+        "Le patient a une douleur intense",
+        "Le patient a une infection légère",
+        "Le patient a une tension basse"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He is suffering from severe abdominal pain.",
+      "options": [
+        "Il souffre de douleurs abdominales sévères",
+        "Il souffre de douleurs thoraciques",
+        "Il souffre de douleurs musculaires",
+        "Il souffre de maux de tête"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The patient was taken to the emergency room.",
+      "options": [
+        "Le patient a été emmené aux urgences",
+        "Le patient est resté à domicile",
+        "Le patient a été transféré en consultation",
+        "Le patient est sorti de l’hôpital"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : She feels dizzy and weak.",
+      "options": [
+        "Elle se sent étourdie et faible",
+        "Elle se sent forte et énergique",
+        "Elle se sent en colère",
+        "Elle se sent stressée"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has heavy blood loss.",
+      "options": [
+        "Il a une perte de sang importante",
+        "Il a une petite blessure",
+        "Il a une infection",
+        "Il a une douleur musculaire"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The nurse checks the patient’s blood pressure.",
+      "options": [
+        "L’infirmier vérifie la tension artérielle du patient",
+        "L’infirmier vérifie la température du patient",
+        "L’infirmier donne un médicament",
+        "L’infirmier observe la respiration"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He might have an infection.",
+      "options": [
+        "Il pourrait avoir une infection",
+        "Il a sûrement une infection",
+        "Il n’a pas d’infection",
+        "Il a déjà été guéri"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Chest pain\" se traduit par \"douleur thoracique\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Dizziness\" signifie \"douleur\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car dizziness signifie vertige."
+    },
+    {
+      "question": "\"Nausea\" signifie \"nausée\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Fever\" signifie \"fièvre\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Cough\" signifie \"toux\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Sore throat\" signifie \"mal de gorge\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"To bleed\" signifie \"respirer\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car to bleed signifie saigner."
+    },
+    {
+      "question": "\"Unconscious\" signifie \"inconscient\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Weak\" signifie \"faible\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Severe\" signifie \"léger\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car severe signifie grave."
+    },
+    {
+      "question": "Traduire en anglais : douleur thoracique",
+      "options": [
+        "chest pain",
+        "headache",
+        "back pain",
+        "infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : mal de tête",
+      "options": [
+        "headache",
+        "stomach ache",
+        "chest pain",
+        "infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : nausée",
+      "options": [
+        "nausea",
+        "pain",
+        "fever",
+        "injury"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : toux",
+      "options": [
+        "cough",
+        "fever",
+        "pain",
+        "vomit"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : fièvre",
+      "options": [
+        "fever",
+        "pain",
+        "injury",
+        "weakness"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The patient is unconscious.",
+      "options": [
+        "Le patient est inconscient",
+        "Le patient est réveillé",
+        "Le patient est stable",
+        "Le patient est guéri"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : She is vomiting.",
+      "options": [
+        "Elle vomit",
+        "Elle mange",
+        "Elle dort",
+        "Elle marche"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has a suspected fracture.",
+      "options": [
+        "Il a une fracture suspectée",
+        "Il a une infection",
+        "Il a une douleur",
+        "Il est guéri"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The patient needs immediate treatment.",
+      "options": [
+        "Le patient a besoin d’un traitement immédiat",
+        "Le patient peut attendre",
+        "Le patient est guéri",
+        "Le patient refuse"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle est la traduction correcte de \"lungs\" ?",
+      "options": [
+        "Poumons",
+        "Foie",
+        "Cœur",
+        "Reins"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle est la traduction correcte de \"heart\" ?",
+      "options": [
+        "Cœur",
+        "Foie",
+        "Poumons",
+        "Reins"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle est la traduction correcte de \"liver\" ?",
+      "options": [
+        "Foie",
+        "Cœur",
+        "Poumons",
+        "Reins"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Quelle est la traduction correcte de \"kidneys\" ?",
+      "options": [
+        "Reins",
+        "Cœur",
+        "Foie",
+        "Poumons"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Blood pressure\" signifie \"fréquence cardiaque\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car cela signifie tension artérielle."
+    },
+    {
+      "question": "\"Nurse\" signifie \"médecin\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car nurse signifie infirmier."
+    },
+    {
+      "question": "\"Doctor\" signifie \"médecin\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Disease\" signifie \"maladie\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Symptom\" signifie \"symptôme\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : infirmier",
+      "options": [
+        "nurse",
+        "doctor",
+        "patient",
+        "surgeon"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : médecin",
+      "options": [
+        "doctor",
+        "nurse",
+        "patient",
+        "caregiver"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : patient",
+      "options": [
+        "patient",
+        "doctor",
+        "nurse",
+        "ill"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has a cough.",
+      "options": [
+        "Il tousse",
+        "Il mange",
+        "Il dort",
+        "Il marche"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : She has a sore throat.",
+      "options": [
+        "Elle a mal à la gorge",
+        "Elle a mal au dos",
+        "Elle a mal au ventre",
+        "Elle a mal aux jambes"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He feels weak.",
+      "options": [
+        "Il se sent faible",
+        "Il se sent fort",
+        "Il est en colère",
+        "Il est stressé"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Weak\" signifie \"fort\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car weak signifie faible."
+    },
+    {
+      "question": "\"Pain\" signifie \"douleur\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : douleur abdominale",
+      "options": [
+        "abdominal pain",
+        "chest pain",
+        "headache",
+        "infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : douleur dorsale",
+      "options": [
+        "back pain",
+        "chest pain",
+        "headache",
+        "injury"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Emergency room\" signifie \"urgences\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Treatment\" signifie \"traitement\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"To treat\" signifie \"soigner\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"To give medication\" signifie \"administrer un médicament\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"To take medication\" signifie \"prendre un médicament\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The patient is in critical condition.",
+      "options": [
+        "Le patient est dans un état critique",
+        "Le patient est stable",
+        "Le patient est guéri",
+        "Le patient est en consultation"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : She has a skin rash.",
+      "options": [
+        "Elle a une éruption cutanée",
+        "Elle a une fracture",
+        "Elle a une infection pulmonaire",
+        "Elle a une douleur musculaire"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He is recovering from surgery.",
+      "options": [
+        "Il se remet d’une opération",
+        "Il va être opéré",
+        "Il refuse l’opération",
+        "Il n’a pas été opéré"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The patient is dehydrated.",
+      "options": [
+        "Le patient est déshydraté",
+        "Le patient est hydraté",
+        "Le patient est fatigué",
+        "Le patient est blessé"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has a heart attack.",
+      "options": [
+        "Il fait une crise cardiaque",
+        "Il a mal au ventre",
+        "Il a une infection",
+        "Il est en bonne santé"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Rash\" signifie \"éruption cutanée\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Dehydrated\" signifie \"fatigué\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car dehydrated signifie déshydraté."
+    },
+    {
+      "question": "\"Surgery\" signifie \"chirurgie\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Critical condition\" signifie \"état stable\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car cela signifie état critique."
+    },
+    {
+      "question": "\"Heart attack\" signifie \"crise cardiaque\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : éruption cutanée",
+      "options": [
+        "rash",
+        "fracture",
+        "infection",
+        "pain"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : déshydraté",
+      "options": [
+        "dehydrated",
+        "tired",
+        "weak",
+        "injured"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : chirurgie",
+      "options": [
+        "surgery",
+        "treatment",
+        "infection",
+        "operation room"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : état critique",
+      "options": [
+        "critical condition",
+        "stable condition",
+        "good condition",
+        "normal state"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : crise cardiaque",
+      "options": [
+        "heart attack",
+        "chest pain",
+        "infection",
+        "cardiac rhythm"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The patient is stable.",
+      "options": [
+        "Le patient est stable",
+        "Le patient est en danger",
+        "Le patient est inconscient",
+        "Le patient est mort"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has a wound.",
+      "options": [
+        "Il a une plaie",
+        "Il a une infection",
+        "Il a une fracture",
+        "Il a une douleur"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Wound\" signifie \"fracture\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car wound signifie plaie."
+    },
+    {
+      "question": "\"Stable\" signifie \"stable\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"To recover\" signifie \"rechuter\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car to recover signifie se rétablir."
+    },
+    {
+      "question": "Traduire en français : The patient has a fever and chills.",
+      "options": [
+        "Le patient a de la fièvre et des frissons",
+        "Le patient a mal au ventre",
+        "Le patient est fatigué",
+        "Le patient a une fracture"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has a wound on his arm.",
+      "options": [
+        "Il a une plaie au bras",
+        "Il a une fracture au bras",
+        "Il a une infection pulmonaire",
+        "Il a une douleur abdominale"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : She has an infection.",
+      "options": [
+        "Elle a une infection",
+        "Elle a une fracture",
+        "Elle a une douleur",
+        "Elle est guérie"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The patient is stable now.",
+      "options": [
+        "Le patient est stable maintenant",
+        "Le patient est en danger",
+        "Le patient est inconscient",
+        "Le patient est mort"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He feels pain in his leg.",
+      "options": [
+        "Il ressent une douleur à la jambe",
+        "Il a mal au bras",
+        "Il est fatigué",
+        "Il a une infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Chills\" signifie \"frissons\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Wound\" signifie \"plaie\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Stable\" signifie \"instable\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car stable signifie stable."
+    },
+    {
+      "question": "\"Pain\" signifie \"douleur\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Leg\" signifie \"jambe\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : frissons",
+      "options": [
+        "chills",
+        "fever",
+        "pain",
+        "injury"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : plaie",
+      "options": [
+        "wound",
+        "fracture",
+        "infection",
+        "pain"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : jambe",
+      "options": [
+        "leg",
+        "arm",
+        "head",
+        "back"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : douleur",
+      "options": [
+        "pain",
+        "fever",
+        "injury",
+        "infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : stable",
+      "options": [
+        "stable",
+        "critical",
+        "weak",
+        "severe"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has a fever.",
+      "options": [
+        "Il a de la fièvre",
+        "Il a une douleur",
+        "Il a une infection",
+        "Il est fatigué"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : She has pain in her back.",
+      "options": [
+        "Elle a mal au dos",
+        "Elle a mal au ventre",
+        "Elle a mal à la tête",
+        "Elle a mal à la jambe"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He is injured.",
+      "options": [
+        "Il est blessé",
+        "Il est malade",
+        "Il est guéri",
+        "Il est stable"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Injured\" signifie \"guéri\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car injured signifie blessé."
+    },
+    {
+      "question": "\"Fever\" signifie \"rhume\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car fever signifie fièvre."
+    },
+    {
+      "question": "\"Back\" signifie \"dos\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Arm\" signifie \"jambe\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car arm signifie bras."
+    },
+    {
+      "question": "Traduire en anglais : bras",
+      "options": [
+        "arm",
+        "leg",
+        "head",
+        "back"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : dos",
+      "options": [
+        "back",
+        "arm",
+        "leg",
+        "head"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : blessé",
+      "options": [
+        "injured",
+        "healed",
+        "stable",
+        "weak"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : fièvre",
+      "options": [
+        "fever",
+        "pain",
+        "injury",
+        "infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has an injury.",
+      "options": [
+        "Il a une blessure",
+        "Il a une infection",
+        "Il a une douleur",
+        "Il est guéri"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : She is weak.",
+      "options": [
+        "Elle est faible",
+        "Elle est forte",
+        "Elle est malade",
+        "Elle est stable"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Weak\" signifie \"faible\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Strong\" signifie \"faible\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car strong signifie fort."
+    },
+    {
+      "question": "Traduire en français : The patient has a high blood pressure.",
+      "options": [
+        "Le patient a une tension artérielle élevée",
+        "Le patient a une tension basse",
+        "Le patient a une infection",
+        "Le patient est stable"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has low blood pressure.",
+      "options": [
+        "Il a une tension artérielle basse",
+        "Il a une tension élevée",
+        "Il a une infection",
+        "Il est guéri"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : She has a broken arm.",
+      "options": [
+        "Elle a un bras cassé",
+        "Elle a une douleur au bras",
+        "Elle a une infection",
+        "Elle a une plaie"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The patient is breathing normally.",
+      "options": [
+        "Le patient respire normalement",
+        "Le patient ne respire pas",
+        "Le patient est inconscient",
+        "Le patient est en danger"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has chest tightness.",
+      "options": [
+        "Il a une oppression thoracique",
+        "Il a mal au dos",
+        "Il a une fracture",
+        "Il a une infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"High blood pressure\" signifie \"hypertension\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Low blood pressure\" signifie \"hypotension\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Broken arm\" signifie \"bras cassé\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Breathing\" signifie \"digestion\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car breathing signifie respiration."
+    },
+    {
+      "question": "\"Chest tightness\" signifie \"oppression thoracique\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : tension artérielle élevée",
+      "options": [
+        "high blood pressure",
+        "low blood pressure",
+        "heart rate",
+        "breathing"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : tension artérielle basse",
+      "options": [
+        "low blood pressure",
+        "high blood pressure",
+        "infection",
+        "injury"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : bras cassé",
+      "options": [
+        "broken arm",
+        "arm pain",
+        "arm injury",
+        "arm infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : respiration",
+      "options": [
+        "breathing",
+        "digestion",
+        "circulation",
+        "infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : oppression thoracique",
+      "options": [
+        "chest tightness",
+        "chest pain",
+        "back pain",
+        "headache"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has a rapid heart rate.",
+      "options": [
+        "Il a un rythme cardiaque rapide",
+        "Il a une tension basse",
+        "Il a une infection",
+        "Il est stable"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : She has a slow heart rate.",
+      "options": [
+        "Elle a un rythme cardiaque lent",
+        "Elle a un rythme rapide",
+        "Elle est guérie",
+        "Elle a une infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The patient has a pulse.",
+      "options": [
+        "Le patient a un pouls",
+        "Le patient est mort",
+        "Le patient est inconscient",
+        "Le patient est stable"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Heart rate\" signifie \"rythme cardiaque\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Pulse\" signifie \"pouls\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Rapid\" signifie \"lent\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car rapid signifie rapide."
+    },
+    {
+      "question": "\"Slow\" signifie \"rapide\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car slow signifie lent."
+    },
+    {
+      "question": "Traduire en anglais : rythme cardiaque",
+      "options": [
+        "heart rate",
+        "blood pressure",
+        "pulse",
+        "breathing"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : pouls",
+      "options": [
+        "pulse",
+        "heart",
+        "blood",
+        "pressure"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : rapide",
+      "options": [
+        "rapid",
+        "slow",
+        "weak",
+        "strong"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : lent",
+      "options": [
+        "slow",
+        "rapid",
+        "strong",
+        "weak"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : He has no pulse.",
+      "options": [
+        "Il n’a pas de pouls",
+        "Il a un pouls rapide",
+        "Il a une infection",
+        "Il est stable"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : The patient is breathing slowly.",
+      "options": [
+        "Le patient respire lentement",
+        "Le patient respire rapidement",
+        "Le patient ne respire pas",
+        "Le patient est guéri"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"No pulse\" signifie \"pouls normal\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car cela signifie absence de pouls."
+    },
+    {
+      "question": "\"Breathing slowly\" signifie \"respirer lentement\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : arm",
+      "options": [
+        "bras",
+        "jambe",
+        "main",
+        "épaule"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : leg",
+      "options": [
+        "jambe",
+        "bras",
+        "dos",
+        "tête"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : hand",
+      "options": [
+        "main",
+        "pied",
+        "bras",
+        "doigt"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : foot",
+      "options": [
+        "pied",
+        "main",
+        "jambe",
+        "orteil"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : head",
+      "options": [
+        "tête",
+        "cou",
+        "dos",
+        "visage"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Shoulder\" signifie \"épaule\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Knee\" signifie \"coude\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car knee signifie genou."
+    },
+    {
+      "question": "\"Elbow\" signifie \"coude\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Ankle\" signifie \"poignet\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car ankle signifie cheville."
+    },
+    {
+      "question": "\"Wrist\" signifie \"poignet\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : bras",
+      "options": [
+        "arm",
+        "leg",
+        "hand",
+        "foot"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : jambe",
+      "options": [
+        "leg",
+        "arm",
+        "back",
+        "head"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : main",
+      "options": [
+        "hand",
+        "foot",
+        "arm",
+        "finger"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : pied",
+      "options": [
+        "foot",
+        "hand",
+        "leg",
+        "toe"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : tête",
+      "options": [
+        "head",
+        "neck",
+        "face",
+        "back"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : heart",
+      "options": [
+        "cœur",
+        "foie",
+        "poumons",
+        "reins"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : lungs",
+      "options": [
+        "poumons",
+        "cœur",
+        "foie",
+        "reins"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : liver",
+      "options": [
+        "foie",
+        "cœur",
+        "poumons",
+        "reins"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : stomach",
+      "options": [
+        "estomac",
+        "foie",
+        "intestin",
+        "rein"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : brain",
+      "options": [
+        "cerveau",
+        "cœur",
+        "poumon",
+        "foie"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Kidneys\" signifie \"reins\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Liver\" signifie \"poumon\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car liver signifie foie."
+    },
+    {
+      "question": "\"Brain\" signifie \"cerveau\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Stomach\" signifie \"cœur\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car stomach signifie estomac."
+    },
+    {
+      "question": "\"Lungs\" signifie \"poumons\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : cœur",
+      "options": [
+        "heart",
+        "lungs",
+        "liver",
+        "brain"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : poumons",
+      "options": [
+        "lungs",
+        "heart",
+        "liver",
+        "kidneys"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : foie",
+      "options": [
+        "liver",
+        "heart",
+        "lungs",
+        "brain"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : estomac",
+      "options": [
+        "stomach",
+        "liver",
+        "intestine",
+        "kidney"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : cerveau",
+      "options": [
+        "brain",
+        "heart",
+        "lungs",
+        "liver"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : flu",
+      "options": [
+        "grippe",
+        "rhume",
+        "infection",
+        "fièvre"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : cold",
+      "options": [
+        "rhume",
+        "grippe",
+        "infection",
+        "toux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : diabetes",
+      "options": [
+        "diabète",
+        "hypertension",
+        "infection",
+        "cancer"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : hypertension",
+      "options": [
+        "hypertension",
+        "hypotension",
+        "infection",
+        "fièvre"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : infection",
+      "options": [
+        "infection",
+        "fracture",
+        "douleur",
+        "fièvre"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Flu\" signifie \"grippe\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Cold\" signifie \"chaud\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car cold signifie rhume en contexte médical."
+    },
+    {
+      "question": "\"Diabetes\" signifie \"diabète\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Hypertension\" signifie \"hypotension\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car hypertension signifie tension élevée."
+    },
+    {
+      "question": "\"Infection\" signifie \"infection\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : grippe",
+      "options": [
+        "flu",
+        "cold",
+        "fever",
+        "infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : rhume",
+      "options": [
+        "cold",
+        "flu",
+        "infection",
+        "cough"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : diabète",
+      "options": [
+        "diabetes",
+        "infection",
+        "cancer",
+        "hypertension"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : hypertension",
+      "options": [
+        "hypertension",
+        "hypotension",
+        "infection",
+        "fever"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : infection",
+      "options": [
+        "infection",
+        "fracture",
+        "pain",
+        "fever"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : cancer",
+      "options": [
+        "cancer",
+        "infection",
+        "douleur",
+        "fièvre"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : asthma",
+      "options": [
+        "asthme",
+        "infection",
+        "grippe",
+        "rhume"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : allergy",
+      "options": [
+        "allergie",
+        "infection",
+        "douleur",
+        "fièvre"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : pneumonia",
+      "options": [
+        "pneumonie",
+        "grippe",
+        "rhume",
+        "infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en français : migraine",
+      "options": [
+        "migraine",
+        "fièvre",
+        "infection",
+        "douleur"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Asthma\" signifie \"asthme\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Allergy\" signifie \"infection\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux car allergy signifie allergie."
+    },
+    {
+      "question": "\"Pneumonia\" signifie \"pneumonie\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Migraine\" signifie \"mal de tête sévère\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : asthme",
+      "options": [
+        "asthma",
+        "allergy",
+        "infection",
+        "flu"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : allergie",
+      "options": [
+        "allergy",
+        "infection",
+        "pain",
+        "fever"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : pneumonie",
+      "options": [
+        "pneumonia",
+        "flu",
+        "cold",
+        "infection"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "Traduire en anglais : migraine",
+      "options": [
+        "migraine",
+        "headache",
+        "pain",
+        "fever"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Cancer\" signifie \"cancer\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    },
+    {
+      "question": "\"Disease\" signifie \"maladie\".",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ]
+    }
+  ]
+}
