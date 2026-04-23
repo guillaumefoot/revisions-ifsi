@@ -12,5 +12,19 @@
         "name": "Anglais : Conjugaison",
         "subtitle": "Temps, verbes irréguliers et traduction",
         "icon": "⏳"
+    },
+    {
+        "file": "data/6.2_MOT_OUTILS.json",
+        "code": "UE 6.2",
+        "name": "Anglais : Mots Outils",
+        "subtitle": "Marqueurs temporels (yet, already, for, since...)",
+        "icon": "⏱️"
+    },
+    {
+        "file": "data/6.2_QUESTIONS_NEGATIONS.json",
+        "code": "UE 6.2",
+        "name": "Anglais : Questions & Négations",
+        "subtitle": "Construire des phrases (Do, Does, Did, Wh- words)",
+        "icon": "❓"
     }
 ]
