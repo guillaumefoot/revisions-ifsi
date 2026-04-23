@@ -1,0 +1,307 @@
+{
+  "title": "UE 6.2 - Anglais Médical",
+  "subtitle": "Mots outils & marqueurs temporels",
+  "questions": 
+[
+  {
+    "question": "Traduire en français : He has just taken his medication.",
+    "options": ["Il vient de prendre son traitement","Il prendra son traitement","Il prend son traitement","Il prenait son traitement"],
+    "correct": [0],
+    "explanation": "'Just' en present perfect = action très récente → 'venir de'."
+  },
+  {
+    "question": "Traduire en français : She has already eaten.",
+    "options": ["Elle a déjà mangé","Elle va manger","Elle mange","Elle mangeait"],
+    "correct": [0],
+    "explanation": "'Already' = déjà, souvent en phrase affirmative."
+  },
+  {
+    "question": "Traduire en français : He hasn’t arrived yet.",
+    "options": ["Il n’est pas encore arrivé","Il est déjà arrivé","Il arrive maintenant","Il arrivera"],
+    "correct": [0],
+    "explanation": "'Yet' en négatif = pas encore."
+  },
+  {
+    "question": "Compléter : Have you seen the doctor ___ ?",
+    "options": ["yet","already","still","for"],
+    "correct": [0,1],
+    "explanation": "'Yet' est le plus courant dans les questions neutres. 'Already' est aussi possible mais ajoute une nuance de surprise."
+  },
+  {
+    "question": "Compléter : He has ___ seen the doctor.",
+    "options": ["already","yet","still","since"],
+    "correct": [0],
+    "explanation": "'Already' en phrase affirmative."
+  },
+  {
+    "question": "Compléter : He hasn’t seen the doctor ___.",
+    "options": ["yet","already","still","since"],
+    "correct": [0],
+    "explanation": "'Yet' en fin de phrase négative."
+  },
+  {
+    "question": "Compléter : He is ___ waiting for the results.",
+    "options": ["still","already","yet","for"],
+    "correct": [0],
+    "explanation": "'Still' = action qui continue."
+  },
+  {
+    "question": "Traduire en français : He is still waiting.",
+    "options": ["Il attend encore","Il n’attend plus","Il a déjà attendu","Il attendra"],
+    "correct": [0],
+    "explanation": "'Still' = encore (situation continue)."
+  },
+  {
+    "question": "Traduire en français : She is no longer sick.",
+    "options": ["Elle n’est plus malade","Elle est encore malade","Elle sera malade","Elle était malade"],
+    "correct": [0],
+    "explanation": "'No longer' = ne... plus."
+  },
+  {
+    "question": "Compléter : He has been sick ___ two days.",
+    "options": ["for","since","yet","already"],
+    "correct": [0],
+    "explanation": "'For' + durée."
+  },
+  {
+    "question": "Compléter : He has been sick ___ Monday.",
+    "options": ["since","for","yet","already"],
+    "correct": [0],
+    "explanation": "'Since' + point de départ."
+  },
+  {
+    "question": "\"Yet\" s’utilise principalement dans les phrases négatives et interrogatives.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'Yet' est utilisé en négatif et en question."
+  },
+  {
+    "question": "\"Already\" s’utilise uniquement dans les phrases négatives.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : 'already' s’utilise surtout en affirmatif mais peut apparaître en question."
+  },
+  {
+    "question": "Traduire en français : He has already been treated.",
+    "options": ["Il a déjà été traité","Il sera traité","Il n’a pas été traité","Il est en traitement"],
+    "correct": [0],
+    "explanation": "'Already' = déjà."
+  },
+  {
+    "question": "Traduire en français : She hasn’t taken her medication yet.",
+    "options": ["Elle n’a pas encore pris son traitement","Elle a déjà pris son traitement","Elle prendra son traitement","Elle prend son traitement"],
+    "correct": [0],
+    "explanation": "'Yet' = pas encore."
+  },
+  {
+    "question": "Compléter : She has ___ taken her medication.",
+    "options": ["already","yet","for","since"],
+    "correct": [0],
+    "explanation": "'Already' en phrase affirmative."
+  },
+  {
+    "question": "Compléter : She hasn’t taken her medication ___.",
+    "options": ["yet","already","for","since"],
+    "correct": [0],
+    "explanation": "'Yet' en négatif."
+  },
+  {
+    "question": "Compléter : He has ___ finished his treatment.",
+    "options": ["just","yet","for","since"],
+    "correct": [0],
+    "explanation": "'Just' = action récente."
+  },
+  {
+    "question": "Traduire en français : He has just arrived.",
+    "options": ["Il vient d’arriver","Il arrivera","Il arrive","Il arrivait"],
+    "correct": [0],
+    "explanation": "'Just' = venir de."
+  },
+  {
+    "question": "Choisir la bonne traduction : always",
+    "options": ["toujours","souvent","parfois","jamais"],
+    "correct": [0],
+    "explanation": "'Always' = toujours."
+  },
+  {
+    "question": "Choisir la bonne traduction : never",
+    "options": ["jamais","toujours","souvent","parfois"],
+    "correct": [0],
+    "explanation": "'Never' = jamais."
+  },
+  {
+    "question": "\"For\" est utilisé avec une durée.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'For' exprime une durée."
+  },
+  {
+    "question": "\"Since\" est utilisé avec un point de départ.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'Since' exprime un point de départ."
+  },
+  {
+    "question": "Traduire en français : He has worked here for 5 years.",
+    "options": ["Il travaille ici depuis 5 ans","Il a travaillé ici hier","Il travaillera ici","Il travaille parfois ici"],
+    "correct": [0],
+    "explanation": "'For 5 years' → durée."
+  },
+  {
+    "question": "Traduire en français : He has worked here since 2020.",
+    "options": ["Il travaille ici depuis 2020","Il travaille ici pendant 2020","Il a travaillé en 2020","Il travaillera en 2020"],
+    "correct": [0],
+    "explanation": "'Since' + date."
+  },
+  {
+    "question": "Compléter : He is ___ feeling pain.",
+    "options": ["still","already","yet","since"],
+    "correct": [0],
+    "explanation": "'Still' = encore."
+  },
+  {
+    "question": "Compléter : He has ___ finished.",
+    "options": ["already","still","yet","for"],
+    "correct": [0],
+    "explanation": "'Already' en affirmation."
+  },
+  {
+    "question": "Compléter : He hasn’t finished ___.",
+    "options": ["yet","already","still","since"],
+    "correct": [0],
+    "explanation": "'Yet' en négatif."
+  },
+  {
+    "question": "Traduire en français : She often feels tired.",
+    "options": ["Elle se sent souvent fatiguée","Elle ne se sent jamais fatiguée","Elle se sent toujours fatiguée","Elle se sent parfois fatiguée"],
+    "correct": [0],
+    "explanation": "'Often' = souvent."
+  },
+  {
+    "question": "Traduire en français : He sometimes has pain.",
+    "options": ["Il a parfois mal","Il a toujours mal","Il n’a jamais mal","Il a souvent mal"],
+    "correct": [0],
+    "explanation": "'Sometimes' = parfois."
+  },
+  {
+    "question": "Traduire en français : He has just left.",
+    "options": ["Il vient de partir","Il part","Il partira","Il partait"],
+    "correct": [0],
+    "explanation": "'Just' en present perfect = action très récente."
+  },
+  {
+    "question": "Traduire en français : She has already called the nurse.",
+    "options": ["Elle a déjà appelé l’infirmier","Elle appellera l’infirmier","Elle appelle l’infirmier","Elle appelait l’infirmier"],
+    "correct": [0],
+    "explanation": "'Already' = déjà."
+  },
+  {
+    "question": "Traduire en français : He hasn’t finished yet.",
+    "options": ["Il n’a pas encore fini","Il a déjà fini","Il finit","Il finira"],
+    "correct": [0],
+    "explanation": "'Yet' en négatif = pas encore."
+  },
+  {
+    "question": "Compléter : Have you taken your medication ___ ?",
+    "options": ["yet","already","still","since"],
+    "correct": [0,1],
+    "explanation": "'Yet' est le plus courant dans les questions. 'Already' est possible avec une nuance d'attente ou de surprise."
+  },
+  {
+    "question": "Compléter : She has ___ finished her work.",
+    "options": ["already","yet","still","for"],
+    "correct": [0],
+    "explanation": "'Already' en phrase affirmative."
+  },
+  {
+    "question": "Compléter : She is ___ feeling pain.",
+    "options": ["still","already","yet","since"],
+    "correct": [0],
+    "explanation": "'Still' = encore (situation qui continue)."
+  },
+  {
+    "question": "Traduire en français : He is still in hospital.",
+    "options": ["Il est encore à l’hôpital","Il n’est plus à l’hôpital","Il était à l’hôpital","Il sera à l’hôpital"],
+    "correct": [0],
+    "explanation": "'Still' = encore."
+  },
+  {
+    "question": "Traduire en français : He is no longer in hospital.",
+    "options": ["Il n’est plus à l’hôpital","Il est encore à l’hôpital","Il sera à l’hôpital","Il était à l’hôpital"],
+    "correct": [0],
+    "explanation": "'No longer' = ne... plus."
+  },
+  {
+    "question": "Compléter : He has lived here ___ 10 years.",
+    "options": ["for","since","yet","already"],
+    "correct": [0],
+    "explanation": "'For' + durée."
+  },
+  {
+    "question": "Compléter : He has lived here ___ 2010.",
+    "options": ["since","for","yet","already"],
+    "correct": [0],
+    "explanation": "'Since' + point de départ."
+  },
+  {
+    "question": "\"Already\" peut être utilisé dans une question.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "Oui, mais avec une nuance de surprise ou d’attente."
+  },
+  {
+    "question": "\"Yet\" peut être utilisé dans une phrase affirmative.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : 'yet' est utilisé en négatif et en question."
+  },
+  {
+    "question": "Traduire en français : He has already finished his treatment.",
+    "options": ["Il a déjà terminé son traitement","Il terminera son traitement","Il termine son traitement","Il terminait son traitement"],
+    "correct": [0],
+    "explanation": "'Already' = déjà."
+  },
+  {
+    "question": "Traduire en français : She hasn’t called yet.",
+    "options": ["Elle n’a pas encore appelé","Elle a déjà appelé","Elle appelle","Elle appellera"],
+    "correct": [0],
+    "explanation": "'Yet' = pas encore."
+  },
+  {
+    "question": "Compléter : He has ___ just arrived.",
+    "options": ["just","already","yet","still"],
+    "correct": [0],
+    "explanation": "'Just' se place avant le participe passé."
+  },
+  {
+    "question": "Compléter : He hasn’t ___ finished.",
+    "options": ["yet","already","still","since"],
+    "correct": [0],
+    "explanation": "'Yet' se place en fin de phrase négative."
+  },
+  {
+    "question": "Choisir la bonne traduction : usually",
+    "options": ["habituellement","toujours","parfois","jamais"],
+    "correct": [0],
+    "explanation": "'Usually' = habituellement."
+  },
+  {
+    "question": "Choisir la bonne traduction : rarely",
+    "options": ["rarement","souvent","toujours","jamais"],
+    "correct": [0],
+    "explanation": "'Rarely' = rarement."
+  },
+  {
+    "question": "Traduire en français : He usually takes his medication.",
+    "options": ["Il prend habituellement son traitement","Il prend parfois son traitement","Il ne prend jamais son traitement","Il a pris son traitement"],
+    "correct": [0],
+    "explanation": "'Usually' = habitude."
+  },
+  {
+    "question": "Traduire en français : She rarely feels pain.",
+    "options": ["Elle ressent rarement de la douleur","Elle ressent toujours de la douleur","Elle ne ressent jamais de douleur","Elle ressent souvent de la douleur"],
+    "correct": [0],
+    "explanation": "'Rarely' = rarement."
+  }
+]
+}

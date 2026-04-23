@@ -1,0 +1,422 @@
+[
+  {
+    "question": "Choisir la bonne question : ___ you have pain ?",
+    "options": ["Do","Does","Did","Are"],
+    "correct": [0],
+    "explanation": "Avec 'you', on utilise 'Do' au présent simple."
+  },
+  {
+    "question": "Choisir la bonne question : ___ he have a fever ?",
+    "options": ["Does","Do","Did","Is"],
+    "correct": [0],
+    "explanation": "Avec 'he', on utilise 'Does' au présent simple."
+  },
+  {
+    "question": "Compléter : He ___ not have a fever.",
+    "options": ["does","do","did","is"],
+    "correct": [0],
+    "explanation": "Négation au présent simple : does not + base verbale."
+  },
+  {
+    "question": "Compléter : They ___ not take medication.",
+    "options": ["do","does","did","are"],
+    "correct": [0],
+    "explanation": "Avec 'they', on utilise 'do not'."
+  },
+  {
+    "question": "Choisir la bonne question : ___ did the pain start ?",
+    "options": ["When","Where","What","How"],
+    "correct": [0],
+    "explanation": "'When' pour demander le moment."
+  },
+  {
+    "question": "Choisir la bonne question : ___ does it hurt ?",
+    "options": ["Where","When","What","Why"],
+    "correct": [0],
+    "explanation": "'Where' pour localiser la douleur."
+  },
+  {
+    "question": "Choisir la bonne question : ___ is your name ?",
+    "options": ["What","Where","When","Why"],
+    "correct": [0],
+    "explanation": "'What' pour demander une information."
+  },
+  {
+    "question": "Compléter : He ___ not take his medication yesterday.",
+    "options": ["did","does","do","is"],
+    "correct": [0],
+    "explanation": "Past simple négatif : did not + base verbale."
+  },
+  {
+    "question": "Choisir la bonne question : ___ you take your medication yesterday ?",
+    "options": ["Did","Do","Does","Are"],
+    "correct": [0],
+    "explanation": "Past simple interrogatif : Did + sujet + base verbale."
+  },
+  {
+    "question": "\"He doesn't has a fever\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : après 'doesn't', on utilise la base → have."
+  },
+  {
+    "question": "Choisir la bonne question : ___ are you feeling ?",
+    "options": ["How","Where","When","What"],
+    "correct": [0],
+    "explanation": "'How' pour demander un état."
+  },
+  {
+    "question": "Compléter : She ___ not feel well.",
+    "options": ["does","do","did","is"],
+    "correct": [0],
+    "explanation": "Présent simple : does not + base verbale."
+  },
+  {
+    "question": "Choisir la bonne question : ___ long have you had this pain ?",
+    "options": ["How","What","Where","When"],
+    "correct": [0],
+    "explanation": "'How long' pour demander une durée."
+  },
+  {
+    "question": "Compléter : I ___ not understand.",
+    "options": ["do","does","did","am"],
+    "correct": [0],
+    "explanation": "Avec 'I', on utilise 'do not'."
+  },
+  {
+    "question": "Choisir la bonne question : ___ you been sick recently ?",
+    "options": ["Have","Do","Did","Are"],
+    "correct": [0],
+    "explanation": "Present perfect : Have + sujet + participe passé."
+  },
+  {
+    "question": "Compléter : He has ___ taken his medication.",
+    "options": ["not","no","does","did"],
+    "correct": [0],
+    "explanation": "Négation en present perfect : has not."
+  },
+  {
+    "question": "\"Did he took medication ?\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : après 'did', on utilise la base → take."
+  },
+  {
+    "question": "Choisir la bonne question : ___ did you go ?",
+    "options": ["Where","When","What","How"],
+    "correct": [0],
+    "explanation": "'Where' pour un lieu."
+  },
+  {
+    "question": "Compléter : She ___ not go to the hospital.",
+    "options": ["did","does","do","is"],
+    "correct": [0],
+    "explanation": "Past simple négatif : did not + base."
+  },
+  {
+    "question": "Choisir la bonne question : ___ is the problem ?",
+    "options": ["What","Where","When","Why"],
+    "correct": [0],
+    "explanation": "'What' pour identifier le problème."
+  },
+  {
+    "question": "Compléter : We ___ not understand the diagnosis.",
+    "options": ["do","does","did","are"],
+    "correct": [0],
+    "explanation": "Avec 'we', on utilise 'do not'."
+  },
+  {
+    "question": "Choisir la bonne question : ___ does the patient live ?",
+    "options": ["Where","When","What","Why"],
+    "correct": [0],
+    "explanation": "'Where' pour le lieu."
+  },
+  {
+    "question": "Compléter : He ___ not feel pain.",
+    "options": ["does","do","did","is"],
+    "correct": [0],
+    "explanation": "Présent simple avec 'he' → does not."
+  },
+  {
+    "question": "Choisir la bonne question : ___ are you here ?",
+    "options": ["Why","Where","When","What"],
+    "correct": [0],
+    "explanation": "'Why' pour la raison."
+  },
+  {
+    "question": "\"Do he have pain ?\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : avec 'he' → Does he have pain ?"
+  },
+  {
+    "question": "Compléter : They ___ not arrive yesterday.",
+    "options": ["did","do","does","are"],
+    "correct": [0],
+    "explanation": "Past simple négatif → did not."
+  },
+  {
+    "question": "Choisir la bonne question : ___ did you take medication ?",
+    "options": ["When","Where","What","How"],
+    "correct": [0],
+    "explanation": "'When' pour le moment."
+  },
+  {
+    "question": "Compléter : She ___ not understand the instructions.",
+    "options": ["does","do","did","is"],
+    "correct": [0],
+    "explanation": "Présent simple → does not."
+  },
+  {
+    "question": "Choisir la bonne question : ___ are your symptoms ?",
+    "options": ["What","Where","When","Why"],
+    "correct": [0],
+    "explanation": "'What' pour demander une liste d'éléments."
+  },
+  {
+    "question": "Compléter : He ___ not been treated yet.",
+    "options": ["has","have","did","does"],
+    "correct": [0],
+    "explanation": "Present perfect négatif → has not + participe passé."
+  },
+  {
+    "question": "Compléter : He ___ have a fever.",
+    "options": ["does not","doesn't","do not","don't"],
+    "correct": [0,1],
+    "explanation": "Avec 'he', on utilise 'does not' ou 'doesn't'. 'Do not' / 'don't' sont incorrects avec 'he'."
+  },
+  {
+    "question": "Compléter : They ___ understand the instructions.",
+    "options": ["do not","don't","does not","doesn't"],
+    "correct": [0,1],
+    "explanation": "Avec 'they', on utilise 'do not' ou 'don't'."
+  },
+  {
+    "question": "Compléter : She ___ take her medication yesterday.",
+    "options": ["did not","didn't","does not","doesn't"],
+    "correct": [0,1],
+    "explanation": "Past simple négatif : 'did not' ou 'didn't' + base verbale."
+  },
+  {
+    "question": "Choisir la bonne question : ___ he have a fever ?",
+    "options": ["Does","Do","Did","Is"],
+    "correct": [0],
+    "explanation": "Présent simple avec 'he' → Does he have...?"
+  },
+  {
+    "question": "Choisir la bonne question : ___ you take your medication yesterday ?",
+    "options": ["Did","Do","Does","Are"],
+    "correct": [0],
+    "explanation": "Past simple interrogatif → Did + sujet + base."
+  },
+  {
+    "question": "Compléter : He ___ feeling well.",
+    "options": ["is not","isn't","does not","doesn't"],
+    "correct": [0,1],
+    "explanation": "Avec 'be', on utilise 'is not' ou 'isn't'."
+  },
+  {
+    "question": "Compléter : We ___ seen the doctor yet.",
+    "options": ["have not","haven't","has not","hasn't"],
+    "correct": [0,1],
+    "explanation": "Avec 'we', present perfect → have not / haven't."
+  },
+  {
+    "question": "Compléter : He ___ been treated yet.",
+    "options": ["has not","hasn't","have not","haven't"],
+    "correct": [0,1],
+    "explanation": "Avec 'he', → has not / hasn't."
+  },
+  {
+    "question": "Choisir la bonne question : ___ you been sick recently ?",
+    "options": ["Have","Do","Did","Are"],
+    "correct": [0],
+    "explanation": "Present perfect interrogatif → Have you been...?"
+  },
+  {
+    "question": "Choisir la bonne question : ___ are you feeling today ?",
+    "options": ["How","Where","When","What"],
+    "correct": [0],
+    "explanation": "'How' pour demander un état."
+  },
+  {
+    "question": "\"He don't feel well\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : avec 'he', on utilise 'doesn't feel'."
+  },
+  {
+    "question": "\"She is not taking medication\" et \"She isn't taking medication\" sont correctes.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "Forme longue et contractée correctes."
+  },
+  {
+    "question": "Compléter : I ___ feeling well.",
+    "options": ["am not","I'm not","amn't","is not"],
+    "correct": [0,1],
+    "explanation": "'am not' et 'I'm not' sont corrects. 'amn't' n'existe pas."
+  },
+  {
+    "question": "Compléter : He ___ going to the hospital.",
+    "options": ["is not","isn't","does not","doesn't"],
+    "correct": [0,1],
+    "explanation": "Présent continu → is not / isn't."
+  },
+  {
+    "question": "Choisir la bonne question : ___ did the symptoms start ?",
+    "options": ["When","Where","What","How"],
+    "correct": [0],
+    "explanation": "'When' pour le moment."
+  },
+  {
+    "question": "Compléter : They ___ arrived yet.",
+    "options": ["have not","haven't","has not","hasn't"],
+    "correct": [0,1],
+    "explanation": "Avec 'they' → have not / haven't."
+  },
+  {
+    "question": "\"Did she went to the hospital ?\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : après 'did', base verbale → go."
+  },
+  {
+    "question": "Choisir la bonne question : ___ does it hurt ?",
+    "options": ["Where","When","What","Why"],
+    "correct": [0],
+    "explanation": "'Where' pour localiser."
+  },
+  {
+    "question": "Compléter : He ___ understand the diagnosis.",
+    "options": ["does not","doesn't","do not","don't"],
+    "correct": [0,1],
+    "explanation": "Avec 'he' → does not / doesn't."
+  },
+  {
+    "question": "Choisir la bonne question : ___ are your symptoms ?",
+    "options": ["What","Where","When","Why"],
+    "correct": [0],
+    "explanation": "'What' pour demander des informations."
+  },
+  {
+    "question": "Traduire en français : Do you have any pain ?",
+    "options": ["Avez-vous des douleurs ?","As-tu mal hier ?","Avez-vous pris un médicament ?","As-tu une douleur demain ?"],
+    "correct": [0],
+    "explanation": "Question au présent simple avec 'do' → 'Avez-vous... ?'"
+  },
+  {
+    "question": "Traduire en français : Where does it hurt ?",
+    "options": ["Où avez-vous mal ?","Quand avez-vous mal ?","Pourquoi avez-vous mal ?","Comment avez-vous mal ?"],
+    "correct": [0],
+    "explanation": "'Where' = lieu → 'où'."
+  },
+  {
+    "question": "Traduire en français : How long have you had this pain ?",
+    "options": ["Depuis combien de temps avez-vous cette douleur ?","Quand avez-vous eu cette douleur ?","Pourquoi avez-vous cette douleur ?","Avez-vous cette douleur ?"],
+    "correct": [0],
+    "explanation": "Present perfect + 'how long' → durée depuis le passé."
+  },
+  {
+    "question": "Traduire en français : The patient has taken his medication.",
+    "options": ["Le patient a pris son traitement","Le patient prend son traitement","Le patient prendra son traitement","Le patient prenait son traitement"],
+    "correct": [0],
+    "explanation": "Present perfect → action passée avec effet présent."
+  },
+  {
+    "question": "Traduire en français : The patient is taking medication.",
+    "options": ["Le patient est en train de prendre un traitement","Le patient a pris un traitement","Le patient prendra un traitement","Le patient prend toujours un traitement"],
+    "correct": [0],
+    "explanation": "Present continuous → action en cours."
+  },
+  {
+    "question": "Traduire en français : He did not take his medication.",
+    "options": ["Il n’a pas pris son traitement","Il ne prend pas son traitement","Il prendra son traitement","Il a pris son traitement"],
+    "correct": [0],
+    "explanation": "Past simple négatif → did not + base."
+  },
+  {
+    "question": "Traduire en français : She doesn’t feel well.",
+    "options": ["Elle ne se sent pas bien","Elle s’est sentie bien","Elle se sentira bien","Elle se sent bien"],
+    "correct": [0],
+    "explanation": "Présent simple négatif avec contraction."
+  },
+  {
+    "question": "Traduire en français : Have you taken your medication ?",
+    "options": ["Avez-vous pris votre traitement ?","Prenez-vous votre traitement ?","Avez-vous un traitement ?","Preniez-vous votre traitement ?"],
+    "correct": [0],
+    "explanation": "Present perfect interrogatif."
+  },
+  {
+    "question": "Traduire en français : The patient will need treatment.",
+    "options": ["Le patient aura besoin d’un traitement","Le patient a besoin d’un traitement","Le patient avait besoin d’un traitement","Le patient n’a pas besoin de traitement"],
+    "correct": [0],
+    "explanation": "Future simple avec 'will'."
+  },
+  {
+    "question": "Traduire en français : The patient is going to recover.",
+    "options": ["Le patient va se rétablir","Le patient s’est rétabli","Le patient se rétablit","Le patient se rétablissait"],
+    "correct": [0],
+    "explanation": "'Going to' → futur proche."
+  },
+  {
+    "question": "Traduire en français : He hasn’t been treated yet.",
+    "options": ["Il n’a pas encore été traité","Il a déjà été traité","Il sera traité","Il est traité"],
+    "correct": [0],
+    "explanation": "Present perfect passif négatif avec 'yet'."
+  },
+  {
+    "question": "Traduire en français : The nurse is checking the patient.",
+    "options": ["L’infirmier est en train d’examiner le patient","L’infirmier a examiné le patient","L’infirmier examinera le patient","L’infirmier examine toujours le patient"],
+    "correct": [0],
+    "explanation": "Present continuous → action en cours."
+  },
+  {
+    "question": "Traduire en français : The patient doesn’t have a fever.",
+    "options": ["Le patient n’a pas de fièvre","Le patient a de la fièvre","Le patient avait de la fièvre","Le patient aura de la fièvre"],
+    "correct": [0],
+    "explanation": "Présent simple négatif."
+  },
+  {
+    "question": "Traduire en français : When did the symptoms start ?",
+    "options": ["Quand les symptômes ont-ils commencé ?","Pourquoi les symptômes ont commencé ?","Où les symptômes ont commencé ?","Comment les symptômes ont commencé ?"],
+    "correct": [0],
+    "explanation": "Past simple interrogatif avec 'did'."
+  },
+  {
+    "question": "Traduire en français : He has been coughing for two days.",
+    "options": ["Il tousse depuis deux jours","Il a toussé hier","Il toussera demain","Il tousse parfois"],
+    "correct": [0],
+    "explanation": "Present perfect continuous → durée."
+  },
+  {
+    "question": "Traduire en français : The patient felt better yesterday.",
+    "options": ["Le patient s’est senti mieux hier","Le patient se sent mieux","Le patient se sentira mieux","Le patient se sentait mieux"],
+    "correct": [0],
+    "explanation": "Past simple avec repère temporel."
+  },
+  {
+    "question": "Traduire en français : She is not feeling well.",
+    "options": ["Elle ne se sent pas bien","Elle se sent bien","Elle s’est sentie bien","Elle se sentira bien"],
+    "correct": [0],
+    "explanation": "Present continuous négatif."
+  },
+  {
+    "question": "Traduire en français : What are your symptoms ?",
+    "options": ["Quels sont vos symptômes ?","Où sont vos symptômes ?","Quand sont vos symptômes ?","Pourquoi vos symptômes ?"],
+    "correct": [0],
+    "explanation": "'What' pour demander une liste."
+  },
+  {
+    "question": "Traduire en français : The doctor saw the patient.",
+    "options": ["Le médecin a vu le patient","Le médecin voit le patient","Le médecin verra le patient","Le médecin voyait le patient"],
+    "correct": [0],
+    "explanation": "Past simple → action terminée."
+  },
+  {
+    "question": "Traduire en français : The patient is not breathing.",
+    "options": ["Le patient ne respire pas","Le patient respire","Le patient respirait","Le patient respirera"],
+    "correct": [0],
+    "explanation": "Present continuous négatif → situation urgente."
+  }
+]
