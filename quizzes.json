@@ -33,5 +33,12 @@
         "name": "Anglais : Mots de liaison",
         "subtitle": "Connecteurs logiques et traduction",
         "icon": "🔗"
+    },
+    {
+        "file": "data/6.2_NOMBRES.json",
+        "code": "UE 6.2",
+        "name": "Anglais : Nombres & Chiffres",
+        "subtitle": "Formation, ordinaux et vocabulaire mathématique",
+        "icon": "🔢"
     }
 ]
