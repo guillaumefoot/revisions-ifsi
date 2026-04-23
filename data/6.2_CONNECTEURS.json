@@ -1,0 +1,786 @@
+{
+  "title": "UE 6.2 - Anglais Médical",
+  "subtitle": "Connecteurs logiques & mots de liaison",
+  "questions": [
+    {
+      "question": "Traduire en français : He is tired because he didn’t sleep.",
+      "options": ["Il est fatigué parce qu’il n’a pas dormi","Il est fatigué donc il dort","Il est fatigué mais il dort","Il est fatigué et il dort"],
+      "correct": [0],
+      "explanation": "'Because' introduit une cause."
+    },
+    {
+      "question": "Choisir la bonne traduction : because",
+      "options": ["parce que","donc","mais","si"],
+      "correct": [0],
+      "explanation": "'Because' = cause."
+    },
+    {
+      "question": "Traduire en français : He has a fever, so he needs treatment.",
+      "options": ["Il a de la fièvre donc il a besoin d’un traitement","Il a de la fièvre parce qu’il a un traitement","Il a de la fièvre mais il travaille","Il a de la fièvre et il dort"],
+      "correct": [0],
+      "explanation": "'So' exprime une conséquence."
+    },
+    {
+      "question": "Choisir la bonne traduction : so",
+      "options": ["donc","parce que","mais","si"],
+      "correct": [0],
+      "explanation": "'So' = conséquence."
+    },
+    {
+      "question": "Traduire en français : He is sick but he is working.",
+      "options": ["Il est malade mais il travaille","Il est malade donc il travaille","Il est malade parce qu’il travaille","Il est malade et il travaille"],
+      "correct": [0],
+      "explanation": "'But' exprime une opposition."
+    },
+    {
+      "question": "Choisir la bonne traduction : but",
+      "options": ["mais","donc","parce que","si"],
+      "correct": [0],
+      "explanation": "'But' = opposition."
+    },
+    {
+      "question": "Traduire en français : Although he is sick, he works.",
+      "options": ["Bien qu’il soit malade, il travaille","Parce qu’il est malade, il travaille","Il est malade donc il travaille","Il est malade et il travaille"],
+      "correct": [0],
+      "explanation": "'Although' = opposition plus formelle."
+    },
+    {
+      "question": "Choisir la bonne traduction : although",
+      "options": ["bien que","parce que","donc","si"],
+      "correct": [0],
+      "explanation": "'Although' = concession."
+    },
+    {
+      "question": "Traduire en français : He is tired and he has pain.",
+      "options": ["Il est fatigué et il a mal","Il est fatigué mais il a mal","Il est fatigué donc il a mal","Il est fatigué parce qu’il a mal"],
+      "correct": [0],
+      "explanation": "'And' = addition."
+    },
+    {
+      "question": "Choisir la bonne traduction : and",
+      "options": ["et","mais","donc","parce que"],
+      "correct": [0],
+      "explanation": "'And' = addition."
+    },
+    {
+      "question": "Traduire en français : If you feel pain, call the nurse.",
+      "options": ["Si vous avez mal, appelez l’infirmier","Vous avez mal donc appelez","Vous avez mal parce que vous appelez","Appelez si vous avez mal"],
+      "correct": [0],
+      "explanation": "'If' introduit une condition."
+    },
+    {
+      "question": "Choisir la bonne traduction : if",
+      "options": ["si","mais","donc","parce que"],
+      "correct": [0],
+      "explanation": "'If' = condition."
+    },
+    {
+      "question": "Traduire en français : He will recover if he takes his medication.",
+      "options": ["Il se rétablira s’il prend son traitement","Il se rétablit parce qu’il prend son traitement","Il se rétablit mais il prend son traitement","Il se rétablit donc il prend son traitement"],
+      "correct": [0],
+      "explanation": "'If' = condition."
+    },
+    {
+      "question": "\"Because\" exprime une conséquence.",
+      "options": ["Vrai","Faux"],
+      "correct": [1],
+      "explanation": "Faux : 'because' exprime une cause."
+    },
+    {
+      "question": "\"So\" exprime une conséquence.",
+      "options": ["Vrai","Faux"],
+      "correct": [0],
+      "explanation": "'So' = conséquence."
+    },
+    {
+      "question": "\"But\" exprime une opposition.",
+      "options": ["Vrai","Faux"],
+      "correct": [0],
+      "explanation": "'But' = opposition."
+    },
+    {
+      "question": "\"If\" exprime une cause.",
+      "options": ["Vrai","Faux"],
+      "correct": [1],
+      "explanation": "Faux : 'if' exprime une condition."
+    },
+    {
+      "question": "Traduire en français : He is tired, so he rests.",
+      "options": ["Il est fatigué donc il se repose","Il est fatigué parce qu’il se repose","Il est fatigué mais il se repose","Il est fatigué et il se repose"],
+      "correct": [0],
+      "explanation": "'So' = conséquence."
+    },
+    {
+      "question": "Traduire en français : She is sick because she didn’t eat.",
+      "options": ["Elle est malade parce qu’elle n’a pas mangé","Elle est malade donc elle mange","Elle est malade mais elle mange","Elle est malade et elle mange"],
+      "correct": [0],
+      "explanation": "'Because' = cause."
+    },
+    {
+      "question": "Traduire en français : He is working although he is sick.",
+      "options": ["Il travaille bien qu’il soit malade","Il travaille parce qu’il est malade","Il travaille donc il est malade","Il travaille et il est malade"],
+      "correct": [0],
+      "explanation": "'Although' = opposition."
+    },
+    {
+      "question": "Choisir la bonne traduction : however",
+      "options": ["cependant","parce que","donc","si"],
+      "correct": [0],
+      "explanation": "'However' = opposition formelle."
+    },
+    {
+      "question": "Traduire en français : He is sick. However, he works.",
+      "options": ["Il est malade. Cependant, il travaille.","Il est malade parce qu’il travaille","Il est malade donc il travaille","Il est malade et il travaille"],
+      "correct": [0],
+      "explanation": "'However' = opposition."
+    },
+    {
+      "question": "Choisir la bonne traduction : therefore",
+      "options": ["par conséquent","mais","si","parce que"],
+      "correct": [0],
+      "explanation": "'Therefore' = conséquence formelle."
+    },
+    {
+      "question": "Traduire en français : He has a fever, therefore he needs treatment.",
+      "options": ["Il a de la fièvre, par conséquent il a besoin d’un traitement","Il a de la fièvre mais il a besoin d’un traitement","Il a de la fièvre parce qu’il a un traitement","Il a de la fièvre et il a besoin d’un traitement"],
+      "correct": [0],
+      "explanation": "'Therefore' = conséquence."
+    },
+    {
+      "question": "Choisir la bonne traduction : also",
+      "options": ["aussi","mais","donc","si"],
+      "correct": [0],
+      "explanation": "'Also' = addition."
+    },
+    {
+      "question": "Traduire en français : He is tired and also has pain.",
+      "options": ["Il est fatigué et a aussi mal","Il est fatigué mais a mal","Il est fatigué donc a mal","Il est fatigué parce qu’il a mal"],
+      "correct": [0],
+      "explanation": "'Also' = ajout."
+    },
+    {
+      "question": "Choisir la bonne traduction : unless",
+      "options": ["sauf si","si","mais","donc"],
+      "correct": [0],
+      "explanation": "'Unless' = condition négative."
+    },
+    {
+      "question": "Traduire en français : You will recover unless you stop treatment.",
+      "options": ["Vous vous rétablirez sauf si vous arrêtez le traitement","Vous vous rétablirez si vous arrêtez le traitement","Vous vous rétablirez parce que vous arrêtez le traitement","Vous vous rétablirez donc vous arrêtez le traitement"],
+      "correct": [0],
+      "explanation": "'Unless' = sauf si."
+    },
+    {
+      "question": "\"However\" exprime une cause.",
+      "options": ["Vrai","Faux"],
+      "correct": [1],
+      "explanation": "Faux : 'however' exprime une opposition."
+    },
+    {
+      "question": "\"Therefore\" exprime une conséquence.",
+      "options": ["Vrai","Faux"],
+      "correct": [0],
+      "explanation": "'Therefore' = conséquence."
+    },
+    {
+    "question": "Choisir la bonne traduction : as",
+    "options": ["comme / puisque","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'As' peut exprimer une cause (comme/puisque)."
+  },
+  {
+    "question": "Traduire en français : As he was tired, he went to bed.",
+    "options": ["Comme il était fatigué, il est allé se coucher","Il était fatigué mais il s’est couché","Il était fatigué donc il travaille","Il était fatigué et il travaille"],
+    "correct": [0],
+    "explanation": "'As' introduit une cause."
+  },
+  {
+    "question": "Choisir la bonne traduction : since (cause)",
+    "options": ["puisque","depuis","mais","donc"],
+    "correct": [0],
+    "explanation": "'Since' peut exprimer une cause (puisque)."
+  },
+  {
+    "question": "Traduire en français : Since he is sick, he stays home.",
+    "options": ["Puisqu’il est malade, il reste à la maison","Depuis qu’il est malade, il travaille","Il est malade donc il sort","Il est malade mais il reste"],
+    "correct": [0],
+    "explanation": "'Since' = cause ici (puisque)."
+  },
+  {
+    "question": "Choisir la bonne traduction : in addition",
+    "options": ["en plus","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'In addition' = ajout."
+  },
+  {
+    "question": "Traduire en français : He is tired. In addition, he has pain.",
+    "options": ["Il est fatigué. En plus, il a mal.","Il est fatigué donc il a mal","Il est fatigué mais il a mal","Il est fatigué parce qu’il a mal"],
+    "correct": [0],
+    "explanation": "'In addition' = ajout d'information."
+  },
+  {
+    "question": "Choisir la bonne traduction : besides",
+    "options": ["en plus / d’ailleurs","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'Besides' = ajout, souvent argumentatif."
+  },
+  {
+    "question": "Traduire en français : He is tired. Besides, he didn’t sleep.",
+    "options": ["Il est fatigué. En plus, il n’a pas dormi.","Il est fatigué donc il dort","Il est fatigué mais il dort","Il est fatigué et il dort"],
+    "correct": [0],
+    "explanation": "'Besides' = ajout."
+  },
+  {
+    "question": "Choisir la bonne traduction : even though",
+    "options": ["même si / bien que","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'Even though' = opposition forte."
+  },
+  {
+    "question": "Traduire en français : Even though he is sick, he works.",
+    "options": ["Même s’il est malade, il travaille","Parce qu’il est malade, il travaille","Il est malade donc il travaille","Il est malade et il travaille"],
+    "correct": [0],
+    "explanation": "'Even though' = opposition."
+  },
+  {
+    "question": "Choisir la bonne traduction : while",
+    "options": ["alors que","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'While' peut exprimer une opposition ou simultanéité."
+  },
+  {
+    "question": "Traduire en français : He is resting while she is working.",
+    "options": ["Il se repose alors qu’elle travaille","Il se repose parce qu’elle travaille","Il se repose donc elle travaille","Il se repose et elle travaille"],
+    "correct": [0],
+    "explanation": "'While' = simultanéité / contraste."
+  },
+  {
+    "question": "Choisir la bonne traduction : whereas",
+    "options": ["alors que (opposition)","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'Whereas' = opposition formelle."
+  },
+  {
+    "question": "Traduire en français : He is sick whereas she is healthy.",
+    "options": ["Il est malade alors qu’elle est en bonne santé","Il est malade donc elle est en bonne santé","Il est malade parce qu’elle est en bonne santé","Il est malade et elle est en bonne santé"],
+    "correct": [0],
+    "explanation": "'Whereas' = opposition."
+  },
+  {
+    "question": "Choisir la bonne traduction : in order to",
+    "options": ["afin de","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'In order to' exprime un but."
+  },
+  {
+    "question": "Traduire en français : He takes medication in order to recover.",
+    "options": ["Il prend un traitement afin de se rétablir","Il prend un traitement donc il se rétablit","Il prend un traitement mais il ne se rétablit pas","Il prend un traitement et il se rétablit"],
+    "correct": [0],
+    "explanation": "'In order to' = but."
+  },
+  {
+    "question": "Choisir la bonne traduction : so that",
+    "options": ["afin que","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'So that' exprime un objectif avec sujet."
+  },
+  {
+    "question": "Traduire en français : He rests so that he can recover.",
+    "options": ["Il se repose afin de pouvoir se rétablir","Il se repose donc il se rétablit","Il se repose mais il ne se rétablit pas","Il se repose et il se rétablit"],
+    "correct": [0],
+    "explanation": "'So that' = but."
+  },
+  {
+    "question": "\"Even though\" exprime une conséquence.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : 'even though' exprime une opposition."
+  },
+  {
+    "question": "\"In order to\" exprime un but.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'In order to' = objectif."
+  },
+  {
+    "question": "Choisir la bonne traduction : otherwise",
+    "options": ["sinon","parce que","donc","mais"],
+    "correct": [0],
+    "explanation": "'Otherwise' = sinon (conséquence négative)."
+  },
+  {
+    "question": "Traduire en français : Take your medication, otherwise you will not recover.",
+    "options": ["Prenez votre traitement, sinon vous ne vous rétablirez pas","Prenez votre traitement parce que vous ne vous rétablirez pas","Prenez votre traitement donc vous vous rétablirez","Prenez votre traitement mais vous ne vous rétablirez pas"],
+    "correct": [0],
+    "explanation": "'Otherwise' = sinon."
+  },
+  {
+    "question": "Choisir la bonne traduction : even if",
+    "options": ["même si","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'Even if' = condition + opposition."
+  },
+  {
+    "question": "Traduire en français : Even if he is tired, he will work.",
+    "options": ["Même s’il est fatigué, il travaillera","Parce qu’il est fatigué, il travaillera","Il est fatigué donc il travaille","Il est fatigué et il travaille"],
+    "correct": [0],
+    "explanation": "'Even if' = condition hypothétique."
+  },
+  {
+    "question": "Choisir la bonne traduction : as well as",
+    "options": ["ainsi que","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'As well as' = ajout."
+  },
+  {
+    "question": "Traduire en français : He has a fever as well as a cough.",
+    "options": ["Il a de la fièvre ainsi qu’une toux","Il a de la fièvre mais une toux","Il a de la fièvre donc une toux","Il a de la fièvre parce qu’une toux"],
+    "correct": [0],
+    "explanation": "'As well as' = addition."
+  },
+  {
+    "question": "Choisir la bonne traduction : due to",
+    "options": ["en raison de","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'Due to' = cause formelle."
+  },
+  {
+    "question": "Traduire en français : The delay is due to an emergency.",
+    "options": ["Le retard est dû à une urgence","Le retard est donc une urgence","Le retard est mais une urgence","Le retard est si une urgence"],
+    "correct": [0],
+    "explanation": "'Due to' = cause."
+  },
+  {
+    "question": "Choisir la bonne traduction : because of",
+    "options": ["à cause de","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'Because of' = cause (suivi d’un nom)."
+  },
+  {
+    "question": "Traduire en français : He stayed home because of the pain.",
+    "options": ["Il est resté à la maison à cause de la douleur","Il est resté à la maison donc la douleur","Il est resté à la maison mais la douleur","Il est resté à la maison si la douleur"],
+    "correct": [0],
+    "explanation": "'Because of' + nom."
+  },
+  {
+    "question": "Choisir la bonne traduction : despite",
+    "options": ["malgré","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'Despite' = opposition."
+  },
+  {
+    "question": "Traduire en français : Despite the pain, he works.",
+    "options": ["Malgré la douleur, il travaille","Parce que la douleur, il travaille","Donc la douleur, il travaille","Si la douleur, il travaille"],
+    "correct": [0],
+    "explanation": "'Despite' = opposition avec nom."
+  },
+  {
+    "question": "Choisir la bonne traduction : even so",
+    "options": ["malgré cela","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'Even so' = opposition (malgré cela)."
+  },
+  {
+    "question": "Traduire en français : He is sick. Even so, he works.",
+    "options": ["Il est malade. Malgré cela, il travaille.","Il est malade parce qu’il travaille","Il est malade donc il travaille","Il est malade et il travaille"],
+    "correct": [0],
+    "explanation": "'Even so' = opposition."
+  },
+  {
+    "question": "Choisir la bonne traduction : as a result",
+    "options": ["par conséquent","mais","si","parce que"],
+    "correct": [0],
+    "explanation": "'As a result' = conséquence."
+  },
+  {
+    "question": "Traduire en français : He didn’t sleep. As a result, he is tired.",
+    "options": ["Il n’a pas dormi. Par conséquent, il est fatigué.","Il n’a pas dormi mais il est fatigué","Il n’a pas dormi parce qu’il est fatigué","Il n’a pas dormi et il est fatigué"],
+    "correct": [0],
+    "explanation": "'As a result' = conséquence."
+  },
+  {
+    "question": "\"Because of\" est suivi d’un verbe conjugué.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : 'because of' est suivi d’un nom."
+  },
+  {
+    "question": "\"Due to\" exprime une cause.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'Due to' = cause."
+  },
+  {
+    "question": "\"Despite\" exprime une opposition.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'Despite' = opposition."
+  },
+  {
+    "question": "\"Otherwise\" exprime une conséquence négative.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'Otherwise' = sinon → conséquence."
+  },
+  {
+    "question": "Choisir la bonne traduction : meanwhile",
+    "options": ["pendant ce temps","parce que","donc","mais"],
+    "correct": [0],
+    "explanation": "'Meanwhile' = pendant ce temps (simultanéité)."
+  },
+  {
+    "question": "Traduire en français : He is resting. Meanwhile, the doctor is preparing treatment.",
+    "options": ["Il se repose. Pendant ce temps, le médecin prépare le traitement.","Il se repose donc le médecin prépare le traitement","Il se repose mais le médecin prépare le traitement","Il se repose parce que le médecin prépare le traitement"],
+    "correct": [0],
+    "explanation": "'Meanwhile' introduit une action simultanée."
+  },
+  {
+    "question": "Choisir la bonne traduction : then",
+    "options": ["ensuite","mais","donc","parce que"],
+    "correct": [0],
+    "explanation": "'Then' = succession dans le temps."
+  },
+  {
+    "question": "Traduire en français : He took his medication, then he went to bed.",
+    "options": ["Il a pris son traitement, puis il est allé se coucher","Il a pris son traitement mais il est allé se coucher","Il a pris son traitement donc il est allé se coucher","Il a pris son traitement parce qu’il est allé se coucher"],
+    "correct": [0],
+    "explanation": "'Then' = action suivante."
+  },
+  {
+    "question": "Choisir la bonne traduction : first",
+    "options": ["d’abord","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'First' = première étape."
+  },
+  {
+    "question": "Traduire en français : First, check the patient.",
+    "options": ["D’abord, examinez le patient","Ensuite, examinez le patient","Parce que, examinez le patient","Donc, examinez le patient"],
+    "correct": [0],
+    "explanation": "'First' = première étape."
+  },
+  {
+    "question": "Choisir la bonne traduction : finally",
+    "options": ["finalement","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'Finally' = dernière étape."
+  },
+  {
+    "question": "Traduire en français : Finally, he recovered.",
+    "options": ["Finalement, il s’est rétabli","Il s’est rétabli ensuite","Il s’est rétabli parce que","Il s’est rétabli mais"],
+    "correct": [0],
+    "explanation": "'Finally' = conclusion."
+  },
+  {
+    "question": "Choisir la bonne traduction : before",
+    "options": ["avant","après","pendant","donc"],
+    "correct": [0],
+    "explanation": "'Before' = antériorité."
+  },
+  {
+    "question": "Traduire en français : He washed his hands before the procedure.",
+    "options": ["Il s’est lavé les mains avant la procédure","Il s’est lavé les mains après la procédure","Il se lave les mains pendant la procédure","Il se lave les mains donc la procédure"],
+    "correct": [0],
+    "explanation": "'Before' = avant."
+  },
+  {
+    "question": "Choisir la bonne traduction : after",
+    "options": ["après","avant","pendant","mais"],
+    "correct": [0],
+    "explanation": "'After' = postériorité."
+  },
+  {
+    "question": "Traduire en français : He rested after the treatment.",
+    "options": ["Il s’est reposé après le traitement","Il s’est reposé avant le traitement","Il se repose pendant le traitement","Il se repose donc le traitement"],
+    "correct": [0],
+    "explanation": "'After' = après."
+  },
+  {
+    "question": "Choisir la bonne traduction : during",
+    "options": ["pendant","avant","après","donc"],
+    "correct": [0],
+    "explanation": "'During' = pendant une période."
+  },
+  {
+    "question": "Traduire en français : He felt pain during the night.",
+    "options": ["Il a ressenti de la douleur pendant la nuit","Il a ressenti de la douleur avant la nuit","Il a ressenti de la douleur après la nuit","Il a ressenti de la douleur donc la nuit"],
+    "correct": [0],
+    "explanation": "'During' = pendant."
+  },
+  {
+    "question": "Choisir la bonne traduction : until",
+    "options": ["jusqu’à","avant","après","mais"],
+    "correct": [0],
+    "explanation": "'Until' = limite dans le temps."
+  },
+  {
+    "question": "Traduire en français : He stayed in hospital until Monday.",
+    "options": ["Il est resté à l’hôpital jusqu’à lundi","Il est resté à l’hôpital avant lundi","Il est resté à l’hôpital après lundi","Il est resté à l’hôpital donc lundi"],
+    "correct": [0],
+    "explanation": "'Until' = jusqu’à."
+  },
+  {
+    "question": "\"Then\" exprime une cause.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : 'then' exprime une succession."
+  },
+  {
+    "question": "\"Meanwhile\" exprime une simultanéité.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'Meanwhile' = en même temps."
+  },
+  {
+    "question": "\"Before\" et \"after\" expriment le temps.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "Ils expriment l’ordre temporel."
+  },
+  {
+    "question": "\"During\" est suivi d’un nom.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'During' est suivi d’un groupe nominal."
+  },
+  {
+    "question": "Choisir la bonne traduction : instead of",
+    "options": ["au lieu de","parce que","donc","mais"],
+    "correct": [0],
+    "explanation": "'Instead of' = remplacement."
+  },
+  {
+    "question": "Traduire en français : He took rest instead of working.",
+    "options": ["Il s’est reposé au lieu de travailler","Il s’est reposé parce qu’il travaille","Il s’est reposé donc il travaille","Il s’est reposé mais il travaille"],
+    "correct": [0],
+    "explanation": "'Instead of' = au lieu de."
+  },
+  {
+    "question": "Choisir la bonne traduction : rather than",
+    "options": ["plutôt que","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'Rather than' = préférence / alternative."
+  },
+  {
+    "question": "Traduire en français : He stayed home rather than going out.",
+    "options": ["Il est resté chez lui plutôt que de sortir","Il est resté chez lui parce qu’il sort","Il est resté chez lui donc il sort","Il est resté chez lui et il sort"],
+    "correct": [0],
+    "explanation": "'Rather than' = plutôt que."
+  },
+  {
+    "question": "Choisir la bonne traduction : even though",
+    "options": ["même si / bien que","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'Even though' = opposition (rappel)."
+  },
+  {
+    "question": "Choisir la bonne traduction : provided that",
+    "options": ["à condition que","parce que","donc","mais"],
+    "correct": [0],
+    "explanation": "'Provided that' = condition."
+  },
+  {
+    "question": "Traduire en français : You can leave provided that you feel better.",
+    "options": ["Vous pouvez partir à condition de vous sentir mieux","Vous pouvez partir parce que vous vous sentez mieux","Vous pouvez partir donc vous vous sentez mieux","Vous pouvez partir mais vous vous sentez mieux"],
+    "correct": [0],
+    "explanation": "'Provided that' = condition."
+  },
+  {
+    "question": "Choisir la bonne traduction : as long as",
+    "options": ["tant que / à condition que","parce que","donc","mais"],
+    "correct": [0],
+    "explanation": "'As long as' = condition ou durée."
+  },
+  {
+    "question": "Traduire en français : You will recover as long as you take your treatment.",
+    "options": ["Vous vous rétablirez tant que vous prenez votre traitement","Vous vous rétablirez parce que vous prenez votre traitement","Vous vous rétablirez donc vous prenez votre traitement","Vous vous rétablirez mais vous prenez votre traitement"],
+    "correct": [0],
+    "explanation": "'As long as' = condition."
+  },
+  {
+    "question": "Choisir la bonne traduction : in case",
+    "options": ["au cas où","parce que","donc","mais"],
+    "correct": [0],
+    "explanation": "'In case' = précaution."
+  },
+  {
+    "question": "Traduire en français : Take this medication in case you feel pain.",
+    "options": ["Prenez ce médicament au cas où vous auriez mal","Prenez ce médicament parce que vous avez mal","Prenez ce médicament donc vous avez mal","Prenez ce médicament mais vous avez mal"],
+    "correct": [0],
+    "explanation": "'In case' = précaution."
+  },
+  {
+    "question": "Choisir la bonne traduction : whether",
+    "options": ["si (choix)","parce que","donc","mais"],
+    "correct": [0],
+    "explanation": "'Whether' = alternative (si oui/non)."
+  },
+  {
+    "question": "Traduire en français : We don’t know whether he is sick.",
+    "options": ["Nous ne savons pas s’il est malade","Nous savons qu’il est malade","Nous savons pourquoi il est malade","Nous savons donc qu’il est malade"],
+    "correct": [0],
+    "explanation": "'Whether' = incertitude."
+  },
+  {
+    "question": "Choisir la bonne traduction : either...or",
+    "options": ["soit... soit","parce que","donc","mais"],
+    "correct": [0],
+    "explanation": "'Either...or' = choix."
+  },
+  {
+    "question": "Traduire en français : You can take either this medication or that one.",
+    "options": ["Vous pouvez prendre soit ce médicament soit celui-là","Vous devez prendre ce médicament","Vous prenez ce médicament parce que","Vous prenez ce médicament mais"],
+    "correct": [0],
+    "explanation": "'Either...or' = choix."
+  },
+  {
+    "question": "Choisir la bonne traduction : neither...nor",
+    "options": ["ni... ni","soit... soit","parce que","donc"],
+    "correct": [0],
+    "explanation": "'Neither...nor' = double négation."
+  },
+  {
+    "question": "Traduire en français : He takes neither medication nor rest.",
+    "options": ["Il ne prend ni traitement ni repos","Il prend soit traitement soit repos","Il prend un traitement","Il prend du repos"],
+    "correct": [0],
+    "explanation": "'Neither...nor' = ni... ni."
+  },
+  {
+    "question": "\"In case\" exprime une conséquence.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : 'in case' exprime une précaution."
+  },
+  {
+    "question": "\"As long as\" peut exprimer une condition.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'As long as' = condition."
+  },
+  {
+    "question": "\"Provided that\" exprime une condition.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'Provided that' = condition."
+  },
+  {
+    "question": "Choisir la bonne traduction : whereas",
+    "options": ["alors que","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'Whereas' = opposition formelle."
+  },
+  {
+    "question": "Choisir la bonne traduction : moreover",
+    "options": ["de plus","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'Moreover' = ajout formel."
+  },
+  {
+    "question": "Traduire en français : He is tired. Moreover, he has a fever.",
+    "options": ["Il est fatigué. De plus, il a de la fièvre.","Il est fatigué mais il a de la fièvre","Il est fatigué donc il a de la fièvre","Il est fatigué parce qu’il a de la fièvre"],
+    "correct": [0],
+    "explanation": "'Moreover' = ajout."
+  },
+  {
+    "question": "Choisir la bonne traduction : furthermore",
+    "options": ["en outre","mais","donc","si"],
+    "correct": [0],
+    "explanation": "'Furthermore' = ajout formel."
+  },
+  {
+    "question": "Traduire en français : He is sick. Furthermore, he is weak.",
+    "options": ["Il est malade. En outre, il est faible.","Il est malade mais il est faible","Il est malade donc il est faible","Il est malade parce qu’il est faible"],
+    "correct": [0],
+    "explanation": "'Furthermore' = ajout."
+  },
+  {
+    "question": "Choisir la bonne traduction : consequently",
+    "options": ["par conséquent","mais","si","parce que"],
+    "correct": [0],
+    "explanation": "'Consequently' = conséquence."
+  },
+  {
+    "question": "Traduire en français : He didn’t sleep. Consequently, he is tired.",
+    "options": ["Il n’a pas dormi. Par conséquent, il est fatigué.","Il n’a pas dormi mais il est fatigué","Il n’a pas dormi parce qu’il est fatigué","Il n’a pas dormi et il est fatigué"],
+    "correct": [0],
+    "explanation": "'Consequently' = conséquence."
+  },
+  {
+    "question": "Choisir la bonne traduction : nevertheless",
+    "options": ["néanmoins","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'Nevertheless' = opposition formelle."
+  },
+  {
+    "question": "Traduire en français : He is sick. Nevertheless, he works.",
+    "options": ["Il est malade. Néanmoins, il travaille.","Il est malade donc il travaille","Il est malade parce qu’il travaille","Il est malade et il travaille"],
+    "correct": [0],
+    "explanation": "'Nevertheless' = opposition."
+  },
+  {
+    "question": "Choisir la bonne traduction : nonetheless",
+    "options": ["cependant / néanmoins","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'Nonetheless' = opposition."
+  },
+  {
+    "question": "Traduire en français : He is tired. Nonetheless, he continues.",
+    "options": ["Il est fatigué. Cependant, il continue.","Il est fatigué donc il continue","Il est fatigué parce qu’il continue","Il est fatigué et il continue"],
+    "correct": [0],
+    "explanation": "'Nonetheless' = opposition."
+  },
+  {
+    "question": "Choisir la bonne traduction : as soon as",
+    "options": ["dès que","avant","après","pendant"],
+    "correct": [0],
+    "explanation": "'As soon as' = immédiateté."
+  },
+  {
+    "question": "Traduire en français : Call the doctor as soon as possible.",
+    "options": ["Appelez le médecin dès que possible","Appelez le médecin après possible","Appelez le médecin pendant possible","Appelez le médecin avant possible"],
+    "correct": [0],
+    "explanation": "'As soon as possible' = dès que possible."
+  },
+  {
+    "question": "Choisir la bonne traduction : as far as",
+    "options": ["dans la mesure où / en ce qui concerne","parce que","donc","si"],
+    "correct": [0],
+    "explanation": "'As far as' = limite ou point de vue."
+  },
+  {
+    "question": "Traduire en français : As far as I know, he is stable.",
+    "options": ["À ma connaissance, il est stable","Parce que je sais, il est stable","Donc je sais, il est stable","Si je sais, il est stable"],
+    "correct": [0],
+    "explanation": "'As far as I know' = à ma connaissance."
+  },
+  {
+    "question": "\"Moreover\" exprime une opposition.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : 'moreover' exprime un ajout."
+  },
+  {
+    "question": "\"Consequently\" exprime une conséquence.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'Consequently' = conséquence."
+  },
+  {
+    "question": "\"Nevertheless\" exprime une opposition.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'Nevertheless' = opposition."
+  },
+  {
+    "question": "\"As soon as\" exprime une condition.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : exprime un moment immédiat."
+  },
+  {
+    "question": "\"As far as\" peut exprimer une limite de connaissance.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "'As far as I know' = limite de connaissance."
+  }
+  ]
+}
