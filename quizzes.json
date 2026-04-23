@@ -1,79 +1,9 @@
 [
     {
-        "file": "data/2.6_ANXIETE.json",
-        "code": "UE 2.6",
-        "name": "De l’angoisse aux troubles anxieux",
-        "subtitle": "Définitions, classifications, sémiologie et prises en charge",
-        "icon": "😰"
-    },
-    {
-        "file": "data/2.6_DEFINITION.json",
-        "code": "UE 2.6",
-        "name": "Termes psychiatriques",
-        "subtitle": "Glossaire – définitions fondamentales",
-        "icon": "📖"
-    },
-    {
-        "file": "data/2.6_HOSPITALISATION.json",
-        "code": "UE 2.6",
-        "name": "Les modes d’hospitalisation en psychiatrie",
-        "subtitle": "Cadre légal, procédures et rôle des acteurs",
-        "icon": "🏥"
-    },
-    {
-        "file": "data/2.6_HUMEUR.json",
-        "code": "UE 2.6",
-        "name": "Troubles de l’humeur",
-        "subtitle": "Définitions, sémiologie, formes cliniques et prise en charge",
-        "icon": "🎭"
-    },
-    {
-        "file": "data/2.6_SCHIZO.json",
-        "code": "UE 2.6",
-        "name": "Introduction à la schizophrénie",
-        "subtitle": "Bases cliniques, sémiologie, étiologie et prise en charge",
-        "icon": "🧩"
-    },
-    {
-        "file": "data/2.6_SEMIOLOGIE.json",
-        "code": "UE 2.6",
-        "name": "Sémiologie en psychiatrie",
-        "subtitle": "Signes, symptômes, syndromes et sémiologie du délire",
-        "icon": "🔍"
-    },
-    {
-        "file": "data/2.6_TRAITEMENT.json",
-        "code": "UE 2.6",
-        "name": "Traitements en psychiatrie",
-        "subtitle": "Classes thérapeutiques, stratégies, sécurité et spécificités cliniques",
-        "icon": "💊"
-    },
-    {
-        "file": "data/2.8_ASTHME.json",
-        "code": "UE 2.8",
-        "name": "L'Asthme & Processus Obstructifs",
-        "subtitle": "Physiopathologie, crise, traitements et surveillance",
-        "icon": "🌬️"
-    },
-    {
-        "file": "data/2.8_AVC_PONTAGE.json",
-        "code": "UE 2.8",
-        "name": "AVC & Chirurgie Vasculaire",
-        "subtitle": "Neurologie vasculaire, ischémie et pontages",
-        "icon": "🧠"
-    },
-    {
-        "file": "data/2.8_INFARCTUS.json",
-        "code": "UE 2.8",
-        "name": "Infarctus du Myocarde",
-        "subtitle": "Sémiologie, ECG, complications et prise en charge",
-        "icon": "💔"
-    },
-    {
-        "file": "data/2.6_RESUME.json",
-        "code": "UE 2.6",
-        "name": "Santé Mentale (Synthèse)",
-        "subtitle": "Bases, sémiologie, troubles psychiques et traitements",
-        "icon": "🧠"
+        "file": "data/6.2_VOCABULAIRE.json",
+        "code": "UE 6.2",
+        "name": "Anglais Médical",
+        "subtitle": "Vocabulaire médical",
+        "icon": "💬"
     }
 ]
