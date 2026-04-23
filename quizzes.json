@@ -26,5 +26,12 @@
         "name": "Anglais : Questions & Négations",
         "subtitle": "Construire des phrases (Do, Does, Did, Wh- words)",
         "icon": "❓"
+    },
+    {
+        "file": "data/6.2_CONNECTEURS.json",
+        "code": "UE 6.2",
+        "name": "Anglais : Mots de liaison",
+        "subtitle": "Connecteurs logiques et traduction",
+        "icon": "🔗"
     }
 ]
