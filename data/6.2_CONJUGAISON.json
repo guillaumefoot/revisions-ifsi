@@ -1,0 +1,847 @@
+{
+  "title": "UE 6.2 - Anglais Médical",
+  "subtitle": "Quiz Conjugaison (temps, verbes irréguliers, traduction)",
+  "questions": [
+    {
+      "question": "Traduire en français : The patient takes medication every day.",
+      "options": ["Le patient prend un médicament tous les jours","Le patient a pris un médicament","Le patient prendra un médicament","Le patient prenait un médicament"],
+      "correct": [0],
+      "explanation": "Present simple utilisé pour une habitude régulière."
+    },
+    {
+      "question": "Traduire en français : The patient is taking medication.",
+      "options": ["Le patient est en train de prendre un médicament","Le patient prend un médicament tous les jours","Le patient a pris un médicament","Le patient prendra un médicament"],
+      "correct": [0],
+      "explanation": "Present continuous : action en cours au moment présent."
+    },
+    {
+      "question": "Traduire en français : The patient has taken medication.",
+      "options": ["Le patient a pris un médicament","Le patient prend un médicament","Le patient prendra un médicament","Le patient prenait un médicament"],
+      "correct": [0],
+      "explanation": "Present perfect : action passée avec lien au présent."
+    },
+    {
+      "question": "Traduire en français : The patient took medication yesterday.",
+      "options": ["Le patient a pris un médicament hier","Le patient prend un médicament","Le patient prendra un médicament","Le patient prend un médicament tous les jours"],
+      "correct": [0],
+      "explanation": "Past simple : action terminée dans le passé avec repère temporel."
+    },
+    {
+      "question": "Choisir la bonne forme : He ___ (take) medication yesterday.",
+      "options": ["took","taken","takes","taking"],
+      "correct": [0],
+      "explanation": "Past simple de 'take' = took."
+    },
+    {
+      "question": "Choisir la bonne forme : He has ___ medication.",
+      "options": ["taken","took","take","taking"],
+      "correct": [0],
+      "explanation": "Present perfect = has + participe passé (taken)."
+    },
+    {
+      "question": "Choisir la bonne forme : She ___ (feel) better now.",
+      "options": ["feels","felt","feeling","feel"],
+      "correct": [0],
+      "explanation": "Present simple car état actuel."
+    },
+    {
+      "question": "Choisir la bonne forme : She ___ (feel) sick yesterday.",
+      "options": ["felt","feels","feeling","feel"],
+      "correct": [0],
+      "explanation": "Past simple de feel = felt."
+    },
+    {
+      "question": "\"He has took medication\" est correct.",
+      "options": ["Vrai","Faux"],
+      "correct": [1],
+      "explanation": "Faux : après 'has', on utilise le participe passé → taken."
+    },
+    {
+      "question": "Traduire en français : She has been coughing for two days.",
+      "options": ["Elle tousse depuis deux jours","Elle a toussé hier","Elle toussera demain","Elle tousse parfois"],
+      "correct": [0],
+      "explanation": "Present perfect continuous : action commencée dans le passé et toujours en cours."
+    },
+
+    {
+      "question": "Choisir la bonne forme : He ___ (be) sick for two days.",
+      "options": ["has been","is","was","be"],
+      "correct": [0],
+      "explanation": "Present perfect avec 'for' → has been."
+    },
+    {
+      "question": "Choisir la bonne forme : He ___ (be) sick yesterday.",
+      "options": ["was","is","has been","be"],
+      "correct": [0],
+      "explanation": "Past simple avec indication de temps passé."
+    },
+    {
+      "question": "Traduire en français : The patient is feeling better.",
+      "options": ["Le patient se sent mieux","Le patient s’est senti mieux","Le patient se sentira mieux","Le patient se sentait mieux"],
+      "correct": [0],
+      "explanation": "Present continuous pour état en évolution."
+    },
+    {
+      "question": "Traduire en français : The patient felt better.",
+      "options": ["Le patient s’est senti mieux","Le patient se sent mieux","Le patient se sentira mieux","Le patient se sentait mieux"],
+      "correct": [0],
+      "explanation": "Past simple → action terminée."
+    },
+    {
+      "question": "Choisir la bonne forme : She ___ (give) medication.",
+      "options": ["gives","gave","given","giving"],
+      "correct": [0],
+      "explanation": "Present simple : action habituelle."
+    },
+    {
+      "question": "Choisir la bonne forme : She ___ (give) medication yesterday.",
+      "options": ["gave","gives","given","giving"],
+      "correct": [0],
+      "explanation": "Past simple de give = gave."
+    },
+    {
+      "question": "Choisir la bonne forme : She has ___ medication.",
+      "options": ["given","gave","gives","giving"],
+      "correct": [0],
+      "explanation": "Participe passé de give = given."
+    },
+    {
+      "question": "\"He is take medication\" est correct.",
+      "options": ["Vrai","Faux"],
+      "correct": [1],
+      "explanation": "Faux : present continuous → is taking."
+    },
+    {
+      "question": "Traduire en français : He is taking medication.",
+      "options": ["Il est en train de prendre un médicament","Il prend un médicament tous les jours","Il a pris un médicament","Il prendra un médicament"],
+      "correct": [0],
+      "explanation": "Present continuous = action en cours."
+    },
+    {
+      "question": "Traduire en français : He has taken medication.",
+      "options": ["Il a pris un médicament","Il prend un médicament","Il prendra un médicament","Il prenait un médicament"],
+      "correct": [0],
+      "explanation": "Present perfect = résultat présent."
+    },
+    {
+    "question": "Choisir la bonne forme : He ___ (run) every morning.",
+    "options": ["runs","ran","running","run"],
+    "correct": [0],
+    "explanation": "Present simple : habitude → runs."
+  },
+  {
+    "question": "Choisir la bonne forme : He ___ (run) yesterday.",
+    "options": ["ran","runs","running","run"],
+    "correct": [0],
+    "explanation": "Past simple de run = ran."
+  },
+  {
+    "question": "Choisir la bonne forme : He has ___ (run).",
+    "options": ["run","ran","running","runs"],
+    "correct": [0],
+    "explanation": "Participe passé de run = run."
+  },
+  {
+    "question": "Traduire en français : He has run for two hours.",
+    "options": ["Il court depuis deux heures","Il a couru hier","Il courra demain","Il court tous les jours"],
+    "correct": [0],
+    "explanation": "Present perfect avec 'for' : durée toujours en cours."
+  },
+  {
+    "question": "\"He has ran\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : participe passé de run = run, pas ran."
+  },
+  {
+    "question": "Choisir la bonne forme : She ___ (fall) down yesterday.",
+    "options": ["fell","fall","fallen","falls"],
+    "correct": [0],
+    "explanation": "Past simple de fall = fell."
+  },
+  {
+    "question": "Choisir la bonne forme : She has ___ (fall).",
+    "options": ["fallen","fell","fall","falls"],
+    "correct": [0],
+    "explanation": "Participe passé de fall = fallen."
+  },
+  {
+    "question": "Traduire en français : She has fallen.",
+    "options": ["Elle est tombée","Elle tombe","Elle tombera","Elle tombait"],
+    "correct": [0],
+    "explanation": "Present perfect → action récente avec résultat."
+  },
+  {
+    "question": "\"She has fell\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : participe passé = fallen."
+  },
+  {
+    "question": "Choisir la bonne forme : He ___ (grow) up here.",
+    "options": ["grew","grow","grown","grows"],
+    "correct": [0],
+    "explanation": "Past simple de grow = grew."
+  },
+  {
+    "question": "Choisir la bonne forme : He has ___ (grow).",
+    "options": ["grown","grew","grow","grows"],
+    "correct": [0],
+    "explanation": "Participe passé de grow = grown."
+  },
+  {
+    "question": "Traduire en français : He has grown.",
+    "options": ["Il a grandi","Il grandit","Il grandira","Il grandissait"],
+    "correct": [0],
+    "explanation": "Present perfect : changement constaté."
+  },
+  {
+    "question": "\"He has grew\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : participe passé = grown."
+  },
+  {
+    "question": "Choisir la bonne forme : She ___ (go) to the hospital yesterday.",
+    "options": ["went","go","gone","goes"],
+    "correct": [0],
+    "explanation": "Past simple de go = went."
+  },
+  {
+    "question": "Choisir la bonne forme : She has ___ (go) to the hospital.",
+    "options": ["gone","went","go","goes"],
+    "correct": [0],
+    "explanation": "Participe passé de go = gone."
+  },
+  {
+    "question": "Traduire en français : She has gone to the hospital.",
+    "options": ["Elle est allée à l’hôpital","Elle va à l’hôpital","Elle ira à l’hôpital","Elle allait à l’hôpital"],
+    "correct": [0],
+    "explanation": "Present perfect : action avec conséquence actuelle."
+  },
+  {
+    "question": "\"She has went\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : participe passé = gone."
+  },
+  {
+    "question": "Choisir la bonne forme : He ___ (see) the doctor yesterday.",
+    "options": ["saw","see","seen","sees"],
+    "correct": [0],
+    "explanation": "Past simple de see = saw."
+  },
+  {
+    "question": "Choisir la bonne forme : He has ___ (see) the doctor.",
+    "options": ["seen","saw","see","sees"],
+    "correct": [0],
+    "explanation": "Participe passé de see = seen."
+  },
+  {
+    "question": "Traduire en français : He has seen the doctor.",
+    "options": ["Il a vu le médecin","Il voit le médecin","Il verra le médecin","Il voyait le médecin"],
+    "correct": [0],
+    "explanation": "Present perfect : action passée avec impact présent."
+  },
+  {
+    "question": "\"He has saw\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : participe passé = seen."
+  },
+  {
+    "question": "Choisir la bonne forme : She ___ (make) a decision yesterday.",
+    "options": ["made","make","made","making"],
+    "correct": [0],
+    "explanation": "Past simple de make = made."
+  },
+  {
+    "question": "Choisir la bonne forme : She has ___ (make) a decision.",
+    "options": ["made","make","making","makes"],
+    "correct": [0],
+    "explanation": "Participe passé de make = made."
+  },
+  {
+    "question": "Traduire en français : She has made a decision.",
+    "options": ["Elle a pris une décision","Elle prend une décision","Elle prendra une décision","Elle prenait une décision"],
+    "correct": [0],
+    "explanation": "Present perfect : décision prise récemment."
+  },
+  {
+    "question": "\"She has maked\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : forme correcte = made."
+  },
+  {
+    "question": "Choisir la bonne forme : He ___ (have) a fever yesterday.",
+    "options": ["had","has","have","having"],
+    "correct": [0],
+    "explanation": "Past simple de have = had."
+  },
+  {
+    "question": "Choisir la bonne forme : He has ___ (have) a fever.",
+    "options": ["had","has","have","having"],
+    "correct": [0],
+    "explanation": "Participe passé de have = had."
+  },
+  {
+    "question": "Traduire en français : He has had a fever.",
+    "options": ["Il a eu de la fièvre","Il a de la fièvre","Il aura de la fièvre","Il avait de la fièvre"],
+    "correct": [0],
+    "explanation": "Present perfect : expérience récente."
+  },
+  {
+    "question": "\"He has have\" est correct.",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : participe passé = had."
+  },
+  {
+    "question": "Choisir la bonne forme : She ___ (do) her work yesterday.",
+    "options": ["did","do","done","does"],
+    "correct": [0],
+    "explanation": "Past simple de do = did."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient takes medication every day.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [0],
+    "explanation": "Present simple utilisé pour exprimer une habitude régulière."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient is taking medication.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [1],
+    "explanation": "Present continuous utilisé pour une action en cours."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient has taken medication.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [2],
+    "explanation": "Present perfect = has + participe passé."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient took medication yesterday.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [3],
+    "explanation": "Past simple utilisé avec un repère passé (yesterday)."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : She is feeling better.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [1],
+    "explanation": "Present continuous pour une amélioration en cours."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : She feels better.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [0],
+    "explanation": "Present simple pour un état général."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : She felt better yesterday.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [3],
+    "explanation": "Past simple avec indication de temps passé."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He has been coughing for two days.",
+    "options": ["Present simple","Present continuous","Present perfect continuous","Past simple"],
+    "correct": [2],
+    "explanation": "Present perfect continuous = has been + V-ing, action continue depuis le passé."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He has a fever.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [0],
+    "explanation": "Present simple pour décrire un état actuel."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He had a fever yesterday.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [3],
+    "explanation": "Past simple avec 'yesterday'."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The nurse is checking the patient.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [1],
+    "explanation": "Present continuous : action en cours."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The nurse checks the patient every hour.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [0],
+    "explanation": "Present simple : action répétée."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The nurse checked the patient.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [3],
+    "explanation": "Past simple : action terminée."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The nurse has checked the patient.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [2],
+    "explanation": "Present perfect : action récente avec lien au présent."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient is breathing slowly.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [1],
+    "explanation": "Present continuous : action en cours."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient breathes normally.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [0],
+    "explanation": "Present simple : état général."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient has been breathing slowly.",
+    "options": ["Present simple","Present continuous","Present perfect continuous","Past simple"],
+    "correct": [2],
+    "explanation": "Present perfect continuous : action commencée dans le passé et toujours en cours."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient breathed slowly.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [3],
+    "explanation": "Past simple : action terminée."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He is recovering.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [1],
+    "explanation": "Present continuous : processus en cours."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He has recovered.",
+    "options": ["Present simple","Present continuous","Present perfect","Past simple"],
+    "correct": [2],
+    "explanation": "Present perfect : résultat actuel."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient will take medication.",
+    "options": ["Present simple","Future simple","Present continuous","Past simple"],
+    "correct": [1],
+    "explanation": "Future simple avec 'will' pour exprimer une action future."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient is going to take medication.",
+    "options": ["Present simple","Future simple","Be going to","Past simple"],
+    "correct": [2],
+    "explanation": "'Be going to' exprime un futur planifié ou une intention."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : She will feel better.",
+    "options": ["Present simple","Future simple","Present perfect","Past simple"],
+    "correct": [1],
+    "explanation": "Future simple utilisé pour une prédiction ou un futur."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : She is going to feel better.",
+    "options": ["Present simple","Future simple","Be going to","Past simple"],
+    "correct": [2],
+    "explanation": "'Going to' exprime une prévision ou intention."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He will be fine.",
+    "options": ["Present simple","Future simple","Present continuous","Past simple"],
+    "correct": [1],
+    "explanation": "Future simple pour exprimer un état futur."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He is going to recover.",
+    "options": ["Present simple","Future simple","Be going to","Past simple"],
+    "correct": [2],
+    "explanation": "'Going to' pour un futur probable ou prévu."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The doctor will see the patient.",
+    "options": ["Present simple","Future simple","Present perfect","Past simple"],
+    "correct": [1],
+    "explanation": "Future simple avec 'will' pour une action future."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The doctor is going to see the patient.",
+    "options": ["Present simple","Future simple","Be going to","Past simple"],
+    "correct": [2],
+    "explanation": "'Going to' pour un plan déjà décidé."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He will have surgery.",
+    "options": ["Present simple","Future simple","Present perfect","Past simple"],
+    "correct": [1],
+    "explanation": "Future simple pour un événement futur."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He is going to have surgery.",
+    "options": ["Present simple","Future simple","Be going to","Past simple"],
+    "correct": [2],
+    "explanation": "'Going to' pour une décision déjà prise."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient will stay in hospital.",
+    "options": ["Present simple","Future simple","Present continuous","Past simple"],
+    "correct": [1],
+    "explanation": "Future simple pour exprimer le futur."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient is going to stay in hospital.",
+    "options": ["Present simple","Future simple","Be going to","Past simple"],
+    "correct": [2],
+    "explanation": "'Going to' pour une intention future."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : She will take her medication later.",
+    "options": ["Present simple","Future simple","Present continuous","Past simple"],
+    "correct": [1],
+    "explanation": "Future simple avec 'will' pour le futur."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : She is going to take her medication later.",
+    "options": ["Present simple","Future simple","Be going to","Past simple"],
+    "correct": [2],
+    "explanation": "'Going to' pour une action planifiée."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He will need treatment.",
+    "options": ["Present simple","Future simple","Present perfect","Past simple"],
+    "correct": [1],
+    "explanation": "Future simple pour une nécessité future."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He is going to need treatment.",
+    "options": ["Present simple","Future simple","Be going to","Past simple"],
+    "correct": [2],
+    "explanation": "'Going to' pour une prévision."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient will recover soon.",
+    "options": ["Present simple","Future simple","Present perfect","Past simple"],
+    "correct": [1],
+    "explanation": "Future simple pour une prédiction."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : The patient is going to recover soon.",
+    "options": ["Present simple","Future simple","Be going to","Past simple"],
+    "correct": [2],
+    "explanation": "'Going to' pour une forte probabilité."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He will come tomorrow.",
+    "options": ["Present simple","Future simple","Present continuous","Past simple"],
+    "correct": [1],
+    "explanation": "Future simple avec indication de futur."
+  },
+  {
+    "question": "Quel temps est utilisé dans la phrase : He is going to come tomorrow.",
+    "options": ["Present simple","Future simple","Be going to","Past simple"],
+    "correct": [2],
+    "explanation": "'Going to' pour une action déjà prévue."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to take\" au past simple ?",
+    "options": ["took","taken","take","taking"],
+    "correct": [0],
+    "explanation": "Le past simple de 'take' est 'took'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to take\" au participe passé ?",
+    "options": ["taken","took","take","taking"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'take' est 'taken'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to give\" au past simple ?",
+    "options": ["gave","given","give","giving"],
+    "correct": [0],
+    "explanation": "Le past simple de 'give' est 'gave'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to give\" au participe passé ?",
+    "options": ["given","gave","give","giving"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'give' est 'given'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to feel\" au past simple ?",
+    "options": ["felt","feel","feeling","feels"],
+    "correct": [0],
+    "explanation": "Le past simple de 'feel' est 'felt'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to feel\" au participe passé ?",
+    "options": ["felt","feel","feeling","feels"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'feel' est aussi 'felt'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to run\" au past simple ?",
+    "options": ["ran","run","running","runs"],
+    "correct": [0],
+    "explanation": "Le past simple de 'run' est 'ran'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to run\" au participe passé ?",
+    "options": ["run","ran","running","runs"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'run' est 'run'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to fall\" au past simple ?",
+    "options": ["fell","fallen","fall","falls"],
+    "correct": [0],
+    "explanation": "Le past simple de 'fall' est 'fell'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to fall\" au participe passé ?",
+    "options": ["fallen","fell","fall","falls"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'fall' est 'fallen'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to grow\" au past simple ?",
+    "options": ["grew","grown","grow","grows"],
+    "correct": [0],
+    "explanation": "Le past simple de 'grow' est 'grew'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to grow\" au participe passé ?",
+    "options": ["grown","grew","grow","grows"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'grow' est 'grown'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to go\" au past simple ?",
+    "options": ["went","gone","go","goes"],
+    "correct": [0],
+    "explanation": "Le past simple de 'go' est 'went'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to go\" au participe passé ?",
+    "options": ["gone","went","go","goes"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'go' est 'gone'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to see\" au past simple ?",
+    "options": ["saw","seen","see","sees"],
+    "correct": [0],
+    "explanation": "Le past simple de 'see' est 'saw'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to see\" au participe passé ?",
+    "options": ["seen","saw","see","sees"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'see' est 'seen'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to make\" au past simple ?",
+    "options": ["made","make","making","makes"],
+    "correct": [0],
+    "explanation": "Le past simple de 'make' est 'made'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to make\" au participe passé ?",
+    "options": ["made","make","making","makes"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'make' est 'made'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to have\" au past simple ?",
+    "options": ["had","has","have","having"],
+    "correct": [0],
+    "explanation": "Le past simple de 'have' est 'had'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to have\" au participe passé ?",
+    "options": ["had","has","have","having"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'have' est 'had'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to do\" au past simple ?",
+    "options": ["did","done","do","does"],
+    "correct": [0],
+    "explanation": "Le past simple de 'do' est 'did'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to do\" au participe passé ?",
+    "options": ["done","did","do","does"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'do' est 'done'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to come\" au past simple ?",
+    "options": ["came","come","coming","comes"],
+    "correct": [0],
+    "explanation": "Le past simple de 'come' est 'came'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to come\" au participe passé ?",
+    "options": ["come","came","coming","comes"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'come' est 'come'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to begin\" au past simple ?",
+    "options": ["began","begun","begin","begins"],
+    "correct": [0],
+    "explanation": "Le past simple de 'begin' est 'began'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to begin\" au participe passé ?",
+    "options": ["begun","began","begin","begins"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'begin' est 'begun'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to break\" au past simple ?",
+    "options": ["broke","broken","break","breaks"],
+    "correct": [0],
+    "explanation": "Le past simple de 'break' est 'broke'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to break\" au participe passé ?",
+    "options": ["broken","broke","break","breaks"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'break' est 'broken'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to choose\" au past simple ?",
+    "options": ["chose","chosen","choose","chooses"],
+    "correct": [0],
+    "explanation": "Le past simple de 'choose' est 'chose'."
+  },
+  {
+    "question": "Quelle est la forme correcte du verbe \"to choose\" au participe passé ?",
+    "options": ["chosen","chose","choose","chooses"],
+    "correct": [0],
+    "explanation": "Le participe passé de 'choose' est 'chosen'."
+  },
+  {
+    "question": "Compléter : He ___ (eat) before taking medication.",
+    "options": ["eats","ate","eaten","eating"],
+    "correct": [0],
+    "explanation": "Present simple pour une habitude → eats."
+  },
+  {
+    "question": "Compléter : He ___ (eat) too much yesterday.",
+    "options": ["ate","eats","eaten","eating"],
+    "correct": [0],
+    "explanation": "Past simple de eat = ate."
+  },
+  {
+    "question": "Compléter : He has ___ (eat).",
+    "options": ["eaten","ate","eats","eating"],
+    "correct": [0],
+    "explanation": "Participe passé de eat = eaten."
+  },
+  {
+    "question": "Compléter : She ___ (drink) water regularly.",
+    "options": ["drinks","drank","drunk","drinking"],
+    "correct": [0],
+    "explanation": "Present simple → drinks."
+  },
+  {
+    "question": "Compléter : She ___ (drink) water yesterday.",
+    "options": ["drank","drinks","drunk","drinking"],
+    "correct": [0],
+    "explanation": "Past simple de drink = drank."
+  },
+  {
+    "question": "Compléter : She has ___ (drink) water.",
+    "options": ["drunk","drank","drinks","drinking"],
+    "correct": [0],
+    "explanation": "Participe passé de drink = drunk."
+  },
+  {
+    "question": "Compléter : He ___ (write) a report every day.",
+    "options": ["writes","wrote","written","writing"],
+    "correct": [0],
+    "explanation": "Present simple → writes."
+  },
+  {
+    "question": "Compléter : He ___ (write) the report yesterday.",
+    "options": ["wrote","writes","written","writing"],
+    "correct": [0],
+    "explanation": "Past simple de write = wrote."
+  },
+  {
+    "question": "Compléter : He has ___ (write) the report.",
+    "options": ["written","wrote","writes","writing"],
+    "correct": [0],
+    "explanation": "Participe passé de write = written."
+  },
+  {
+    "question": "Compléter : She ___ (sleep) well every night.",
+    "options": ["sleeps","slept","sleeping","sleep"],
+    "correct": [0],
+    "explanation": "Present simple → sleeps."
+  },
+  {
+    "question": "Compléter : She ___ (sleep) poorly yesterday.",
+    "options": ["slept","sleeps","sleeping","sleep"],
+    "correct": [0],
+    "explanation": "Past simple de sleep = slept."
+  },
+  {
+    "question": "Compléter : She has ___ (sleep) well.",
+    "options": ["slept","sleep","sleeping","sleeps"],
+    "correct": [0],
+    "explanation": "Participe passé de sleep = slept."
+  },
+  {
+    "question": "Compléter : He ___ (drive) to the hospital every day.",
+    "options": ["drives","drove","driven","driving"],
+    "correct": [0],
+    "explanation": "Present simple → drives."
+  },
+  {
+    "question": "Compléter : He ___ (drive) to the hospital yesterday.",
+    "options": ["drove","drives","driven","driving"],
+    "correct": [0],
+    "explanation": "Past simple de drive = drove."
+  },
+  {
+    "question": "Compléter : He has ___ (drive) to the hospital.",
+    "options": ["driven","drove","drives","driving"],
+    "correct": [0],
+    "explanation": "Participe passé de drive = driven."
+  },
+  {
+    "question": "Compléter : She ___ (speak) to the doctor every day.",
+    "options": ["speaks","spoke","spoken","speaking"],
+    "correct": [0],
+    "explanation": "Present simple → speaks."
+  },
+  {
+    "question": "Compléter : She ___ (speak) to the doctor yesterday.",
+    "options": ["spoke","speaks","spoken","speaking"],
+    "correct": [0],
+    "explanation": "Past simple de speak = spoke."
+  },
+  {
+    "question": "Compléter : She has ___ (speak) to the doctor.",
+    "options": ["spoken","spoke","speaks","speaking"],
+    "correct": [0],
+    "explanation": "Participe passé de speak = spoken."
+  },
+  {
+    "question": "Compléter : He ___ (read) medical articles every day.",
+    "options": ["reads","read","reading","readed"],
+    "correct": [0],
+    "explanation": "Present simple → reads."
+  },
+  {
+    "question": "Compléter : He ___ (read) the article yesterday.",
+    "options": ["read","reads","reading","readed"],
+    "correct": [0],
+    "explanation": "Past simple de read = read (même orthographe, prononciation différente)."
+  }
+  ]
+}
