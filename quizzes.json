@@ -5,5 +5,12 @@
         "name": "Anglais Médical",
         "subtitle": "Vocabulaire médical",
         "icon": "💬"
+    },
+    {
+        "file": "data/6.2_CONJUGAISON.json",
+        "code": "UE 6.2",
+        "name": "Anglais : Conjugaison",
+        "subtitle": "Temps, verbes irréguliers et traduction",
+        "icon": "⏳"
     }
 ]
