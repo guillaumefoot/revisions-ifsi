@@ -1,0 +1,849 @@
+{
+  "title": "UE 6.2 - Anglais Médical",
+  "subtitle": "Verbes – traduction & usage",
+  "questions": [
+    {
+      "question": "Quelle est la traduction de \"to take\" ?",
+      "options": ["prendre","donner","aller","faire"],
+      "correct": [0],
+      "explanation": "to take = prendre\nVerbe irrégulier : take / took / taken\nEx : He takes medication → Il prend un traitement"
+    },
+    {
+      "question": "Quel verbe signifie \"donner\" ?",
+      "options": ["to give","to take","to get","to make"],
+      "correct": [0],
+      "explanation": "to give = donner\nVerbe irrégulier : give / gave / given\nEx : The nurse gives medication → L’infirmier donne le traitement"
+    },
+    {
+      "question": "Quelle est la traduction de \"to get\" ?",
+      "options": ["obtenir / devenir","aller","faire","voir"],
+      "correct": [0],
+      "explanation": "to get = obtenir / devenir\nVerbe irrégulier : get / got / gotten\nEx : He gets better → Il va mieux"
+    },
+    {
+      "question": "Quel verbe signifie \"faire\" ?",
+      "options": ["to do","to make","to go","to take"],
+      "correct": [0],
+      "explanation": "to do = faire (action)\nVerbe irrégulier : do / did / done\nEx : He does exercises → Il fait des exercices"
+    },
+    {
+      "question": "Quelle est la traduction de \"to make\" ?",
+      "options": ["fabriquer / faire","prendre","donner","voir"],
+      "correct": [0],
+      "explanation": "to make = fabriquer / faire (résultat)\nVerbe irrégulier : make / made / made\nEx : He makes a decision → Il prend une décision"
+    },
+    {
+      "question": "Quel verbe signifie \"aller\" ?",
+      "options": ["to go","to come","to get","to leave"],
+      "correct": [0],
+      "explanation": "to go = aller\nVerbe irrégulier : go / went / gone\nEx : He goes to the hospital → Il va à l’hôpital"
+    },
+    {
+      "question": "Quelle est la traduction de \"to come\" ?",
+      "options": ["venir","aller","rester","partir"],
+      "correct": [0],
+      "explanation": "to come = venir\nVerbe irrégulier : come / came / come\nEx : He comes back → Il revient"
+    },
+    {
+      "question": "Quelle est la traduction de \"to leave\" ?",
+      "options": ["partir / quitter","arriver","venir","rester"],
+      "correct": [0],
+      "explanation": "to leave = partir\nVerbe irrégulier : leave / left / left\nEx : He leaves the hospital → Il quitte l’hôpital"
+    },
+    {
+      "question": "Quel verbe signifie \"rester\" ?",
+      "options": ["to stay","to go","to leave","to live"],
+      "correct": [0],
+      "explanation": "to stay = rester\nVerbe régulier\nEx : He stays in hospital → Il reste à l’hôpital"
+    },
+    {
+      "question": "Quelle est la traduction de \"to feel\" ?",
+      "options": ["ressentir","voir","penser","croire"],
+      "correct": [0],
+      "explanation": "to feel = ressentir\nVerbe irrégulier : feel / felt / felt\nEx : He feels pain → Il ressent une douleur"
+    },
+
+    {
+      "question": "Quelle est la traduction de \"to run\" ?",
+      "options": ["courir / faire fonctionner","marcher","aller","faire"],
+      "correct": [0],
+      "explanation": "to run = courir / faire fonctionner\nVerbe irrégulier : run / ran / run\nEx : They run tests → Ils font des tests"
+    },
+    {
+      "question": "Quel verbe signifie \"traiter\" ?",
+      "options": ["to treat","to cure","to help","to use"],
+      "correct": [0],
+      "explanation": "to treat = traiter\nVerbe régulier\nEx : The doctor treats the patient → Le médecin traite le patient"
+    },
+    {
+      "question": "Quelle est la traduction de \"to use\" ?",
+      "options": ["utiliser","donner","faire","prendre"],
+      "correct": [0],
+      "explanation": "to use = utiliser\nVerbe régulier\nEx : He uses medication → Il utilise un traitement"
+    },
+    {
+      "question": "Quel verbe signifie \"essayer\" ?",
+      "options": ["to try","to test","to use","to attempt"],
+      "correct": [0],
+      "explanation": "to try = essayer\nVerbe régulier\nEx : He tries to walk → Il essaie de marcher"
+    },
+    {
+      "question": "Quelle est la traduction de \"to understand\" ?",
+      "options": ["comprendre","voir","savoir","penser"],
+      "correct": [0],
+      "explanation": "to understand = comprendre\nVerbe irrégulier : understand / understood / understood\nEx : He understands the situation → Il comprend la situation"
+    },
+    {
+      "question": "Quel verbe signifie \"penser\" ?",
+      "options": ["to think","to believe","to know","to say"],
+      "correct": [0],
+      "explanation": "to think = penser\nVerbe irrégulier : think / thought / thought\nEx : I think he is sick → Je pense qu’il est malade"
+    },
+    {
+      "question": "Quelle est la traduction de \"to believe\" ?",
+      "options": ["croire","penser","dire","savoir"],
+      "correct": [0],
+      "explanation": "to believe = croire\nVerbe régulier\nEx : I believe you → Je te crois"
+    },
+    {
+      "question": "Quel verbe signifie \"dire\" ?",
+      "options": ["to say","to tell","to speak","to talk"],
+      "correct": [0],
+      "explanation": "to say = dire\nVerbe irrégulier : say / said / said\nEx : He says he is tired → Il dit qu’il est fatigué"
+    },
+    {
+      "question": "Quelle est la traduction de \"to tell\" ?",
+      "options": ["dire (à quelqu’un)","parler","expliquer","demander"],
+      "correct": [0],
+      "explanation": "to tell = dire à quelqu’un\nVerbe irrégulier : tell / told / told\nEx : He tells the nurse → Il parle à l’infirmier"
+    },
+    {
+      "question": "Quel verbe signifie \"demander\" ?",
+      "options": ["to ask","to say","to tell","to speak"],
+      "correct": [0],
+      "explanation": "to ask = demander\nVerbe régulier\nEx : He asks a question → Il pose une question"
+    },
+
+    {
+      "question": "Quelle est la traduction de \"to give\" ?",
+      "options": ["donner","prendre","envoyer","recevoir"],
+      "correct": [0],
+      "explanation": "to give = donner\nVerbe irrégulier : give / gave / given\nEx : She gives an injection → Elle fait une injection"
+    },
+    {
+      "question": "Quelle est la traduction de \"to send\" ?",
+      "options": ["envoyer","donner","recevoir","aller"],
+      "correct": [0],
+      "explanation": "to send = envoyer\nVerbe irrégulier : send / sent / sent\nEx : He sends a letter → Il envoie une lettre"
+    },
+    {
+      "question": "Quel verbe signifie \"recevoir\" ?",
+      "options": ["to receive","to get","to take","to give"],
+      "correct": [0],
+      "explanation": "to receive = recevoir\nVerbe régulier\nEx : He receives treatment → Il reçoit un traitement"
+    },
+    {
+      "question": "Quelle est la traduction de \"to check\" ?",
+      "options": ["vérifier","contrôler","examiner","mesurer"],
+      "correct": [0],
+      "explanation": "to check = vérifier\nVerbe régulier\nEx : She checks blood pressure → Elle vérifie la tension"
+    },
+    {
+      "question": "Quel verbe signifie \"examiner\" ?",
+      "options": ["to examine","to check","to look","to see"],
+      "correct": [0],
+      "explanation": "to examine = examiner\nVerbe régulier\nEx : The doctor examines the patient → Le médecin examine le patient"
+    },
+    {
+      "question": "Quelle est la traduction de \"to diagnose\" ?",
+      "options": ["diagnostiquer","traiter","soigner","guérir"],
+      "correct": [0],
+      "explanation": "to diagnose = diagnostiquer\nVerbe régulier\nEx : He diagnoses a disease → Il diagnostique une maladie"
+    },
+    {
+      "question": "Quel verbe signifie \"soigner\" ?",
+      "options": ["to treat","to cure","to heal","to care"],
+      "correct": [0],
+      "explanation": "to treat = soigner / traiter\nVerbe régulier\nEx : He treats the patient → Il soigne le patient"
+    },
+    {
+      "question": "Quelle est la traduction de \"to recover\" ?",
+      "options": ["se rétablir","tomber malade","souffrir","guérir"],
+      "correct": [0],
+      "explanation": "to recover = se rétablir\nVerbe régulier\nEx : He recovers quickly → Il se rétablit rapidement"
+    },
+    {
+      "question": "Quel verbe signifie \"souffrir\" ?",
+      "options": ["to suffer","to feel","to complain","to hurt"],
+      "correct": [0],
+      "explanation": "to suffer = souffrir\nVerbe régulier\nEx : He suffers from pain → Il souffre de douleur"
+    },
+    {
+      "question": "Quelle est la traduction de \"to complain\" ?",
+      "options": ["se plaindre","demander","dire","crier"],
+      "correct": [0],
+      "explanation": "to complain = se plaindre\nVerbe régulier\nEx : He complains of pain → Il se plaint de douleur"
+    },
+
+    {
+      "question": "Quelle est la traduction de \"to breathe\" ?",
+      "options": ["respirer","tousser","parler","souffler"],
+      "correct": [0],
+      "explanation": "to breathe = respirer\nVerbe régulier\nEx : He breathes with difficulty → Il respire difficilement"
+    },
+    {
+      "question": "Quel verbe signifie \"tousser\" ?",
+      "options": ["to cough","to sneeze","to breathe","to choke"],
+      "correct": [0],
+      "explanation": "to cough = tousser\nVerbe régulier\nEx : He coughs a lot → Il tousse beaucoup"
+    },
+    {
+      "question": "Quelle est la traduction de \"to sneeze\" ?",
+      "options": ["éternuer","tousser","respirer","vomir"],
+      "correct": [0],
+      "explanation": "to sneeze = éternuer\nVerbe régulier\nEx : He sneezes → Il éternue"
+    },
+    {
+      "question": "Quel verbe signifie \"vomir\" ?",
+      "options": ["to vomit","to cough","to feel","to suffer"],
+      "correct": [0],
+      "explanation": "to vomit = vomir\nVerbe régulier\nEx : He vomits → Il vomit"
+    },
+    {
+      "question": "Quelle est la traduction de \"to eat\" ?",
+      "options": ["manger","boire","prendre","avaler"],
+      "correct": [0],
+      "explanation": "to eat = manger\nVerbe irrégulier : eat / ate / eaten\nEx : He eats → Il mange"
+    },
+    {
+      "question": "Quel verbe signifie \"boire\" ?",
+      "options": ["to drink","to eat","to take","to swallow"],
+      "correct": [0],
+      "explanation": "to drink = boire\nVerbe irrégulier : drink / drank / drunk\nEx : He drinks water → Il boit de l’eau"
+    },
+    {
+      "question": "Quelle est la traduction de \"to rest\" ?",
+      "options": ["se reposer","dormir","attendre","rester"],
+      "correct": [0],
+      "explanation": "to rest = se reposer\nVerbe régulier\nEx : He rests → Il se repose"
+    },
+    {
+      "question": "Quel verbe signifie \"appeler\" ?",
+      "options": ["to call","to phone","to speak","to say"],
+      "correct": [0],
+      "explanation": "to call = appeler\nVerbe régulier\nEx : Call the doctor → Appelez le médecin"
+    },
+    {
+      "question": "Quelle est la traduction de \"to follow\" ?",
+      "options": ["suivre","aller","continuer","observer"],
+      "correct": [0],
+      "explanation": "to follow = suivre\nVerbe régulier\nEx : Follow instructions → Suivez les consignes"
+    },
+    {
+      "question": "Quel verbe signifie \"grandir / pousser\" ?",
+      "options": ["to grow","to increase","to develop","to raise"],
+      "correct": [0],
+      "explanation": "to grow = grandir / pousser\nVerbe irrégulier : grow / grew / grown\nEx : The tumor grows → La tumeur grossit"
+    },
+    {
+    "question": "Quelle est la traduction de \"to see\" ?",
+    "options": ["voir","regarder","observer","examiner"],
+    "correct": [0],
+    "explanation": "to see = voir\nVerbe irrégulier : see / saw / seen\nEx : I see the patient → Je vois le patient"
+  },
+  {
+    "question": "Quel verbe signifie \"savoir\" ?",
+    "options": ["to know","to learn","to understand","to think"],
+    "correct": [0],
+    "explanation": "to know = savoir\nVerbe irrégulier : know / knew / known\nEx : I know the diagnosis → Je connais le diagnostic"
+  },
+  {
+    "question": "Quelle est la traduction de \"to learn\" ?",
+    "options": ["apprendre","savoir","comprendre","enseigner"],
+    "correct": [0],
+    "explanation": "to learn = apprendre\nVerbe irrégulier : learn / learnt / learnt (ou learned)\nEx : He learns quickly → Il apprend vite"
+  },
+  {
+    "question": "Quel verbe signifie \"enseigner\" ?",
+    "options": ["to teach","to learn","to train","to explain"],
+    "correct": [0],
+    "explanation": "to teach = enseigner\nVerbe irrégulier : teach / taught / taught\nEx : She teaches students → Elle enseigne"
+  },
+  {
+    "question": "Quelle est la traduction de \"to explain\" ?",
+    "options": ["expliquer","dire","parler","montrer"],
+    "correct": [0],
+    "explanation": "to explain = expliquer\nVerbe régulier\nEx : He explains the treatment → Il explique le traitement"
+  },
+  {
+    "question": "Quel verbe signifie \"montrer\" ?",
+    "options": ["to show","to explain","to tell","to present"],
+    "correct": [0],
+    "explanation": "to show = montrer\nVerbe irrégulier : show / showed / shown\nEx : He shows the result → Il montre le résultat"
+  },
+  {
+    "question": "Quelle est la traduction de \"to find\" ?",
+    "options": ["trouver","chercher","voir","obtenir"],
+    "correct": [0],
+    "explanation": "to find = trouver\nVerbe irrégulier : find / found / found\nEx : They find a solution → Ils trouvent une solution"
+  },
+  {
+    "question": "Quel verbe signifie \"perdre\" ?",
+    "options": ["to lose","to miss","to drop","to leave"],
+    "correct": [0],
+    "explanation": "to lose = perdre\nVerbe irrégulier : lose / lost / lost\nEx : He loses weight → Il perd du poids"
+  },
+  {
+    "question": "Quelle est la traduction de \"to bring\" ?",
+    "options": ["apporter","amener","prendre","donner"],
+    "correct": [0],
+    "explanation": "to bring = apporter\nVerbe irrégulier : bring / brought / brought\nEx : Bring the file → Apportez le dossier"
+  },
+  {
+    "question": "Quel verbe signifie \"apporter (vers soi)\" ?",
+    "options": ["to bring","to take","to carry","to send"],
+    "correct": [0],
+    "explanation": "to bring = vers le locuteur\nVerbe irrégulier : bring / brought / brought\nEx : Bring it here → Apportez-le ici"
+  },
+  {
+    "question": "Quelle est la traduction de \"to carry\" ?",
+    "options": ["porter","apporter","tenir","soulever"],
+    "correct": [0],
+    "explanation": "to carry = porter\nVerbe régulier\nEx : He carries the patient → Il porte le patient"
+  },
+  {
+    "question": "Quel verbe signifie \"tenir\" ?",
+    "options": ["to hold","to keep","to take","to stay"],
+    "correct": [0],
+    "explanation": "to hold = tenir\nVerbe irrégulier : hold / held / held\nEx : Hold this → Tenez ceci"
+  },
+  {
+    "question": "Quelle est la traduction de \"to keep\" ?",
+    "options": ["garder","tenir","laisser","conserver"],
+    "correct": [0],
+    "explanation": "to keep = garder\nVerbe irrégulier : keep / kept / kept\nEx : Keep calm → Restez calme"
+  },
+  {
+    "question": "Quel verbe signifie \"laisser\" ?",
+    "options": ["to let","to leave","to allow","to give"],
+    "correct": [0],
+    "explanation": "to let = laisser\nVerbe irrégulier : let / let / let\nEx : Let him rest → Laissez-le se reposer"
+  },
+  {
+    "question": "Quelle est la traduction de \"to allow\" ?",
+    "options": ["permettre","laisser","autoriser","donner"],
+    "correct": [0],
+    "explanation": "to allow = permettre\nVerbe régulier\nEx : It allows recovery → Cela permet la guérison"
+  },
+  {
+    "question": "Quel verbe signifie \"ouvrir\" ?",
+    "options": ["to open","to start","to begin","to unlock"],
+    "correct": [0],
+    "explanation": "to open = ouvrir\nVerbe régulier\nEx : Open the door → Ouvrez la porte"
+  },
+  {
+    "question": "Quelle est la traduction de \"to close\" ?",
+    "options": ["fermer","ouvrir","arrêter","finir"],
+    "correct": [0],
+    "explanation": "to close = fermer\nVerbe régulier\nEx : Close the door → Fermez la porte"
+  },
+  {
+    "question": "Quel verbe signifie \"commencer\" ?",
+    "options": ["to begin","to start","to open","to launch"],
+    "correct": [0],
+    "explanation": "to begin = commencer\nVerbe irrégulier : begin / began / begun\nEx : The treatment begins → Le traitement commence"
+  },
+  {
+    "question": "Quelle est la traduction de \"to start\" ?",
+    "options": ["commencer","finir","arrêter","ouvrir"],
+    "correct": [0],
+    "explanation": "to start = commencer\nVerbe régulier\nEx : Start treatment → Commencez le traitement"
+  },
+  {
+    "question": "Quel verbe signifie \"finir\" ?",
+    "options": ["to finish","to end","to stop","to close"],
+    "correct": [0],
+    "explanation": "to finish = finir\nVerbe régulier\nEx : He finishes treatment → Il finit le traitement"
+  },
+  {
+    "question": "Quelle est la traduction de \"to end\" ?",
+    "options": ["terminer","finir","arrêter","cesser"],
+    "correct": [0],
+    "explanation": "to end = se terminer\nVerbe régulier\nEx : The session ends → La séance se termine"
+  },
+  {
+    "question": "Quel verbe signifie \"arrêter\" ?",
+    "options": ["to stop","to end","to finish","to close"],
+    "correct": [0],
+    "explanation": "to stop = arrêter\nVerbe régulier\nEx : Stop the medication → Arrêtez le traitement"
+  },
+  {
+    "question": "Quelle est la traduction de \"to continue\" ?",
+    "options": ["continuer","commencer","arrêter","rester"],
+    "correct": [0],
+    "explanation": "to continue = continuer\nVerbe régulier\nEx : Continue treatment → Continuez le traitement"
+  },
+  {
+    "question": "Quel verbe signifie \"attendre\" ?",
+    "options": ["to wait","to stay","to remain","to expect"],
+    "correct": [0],
+    "explanation": "to wait = attendre\nVerbe régulier\nEx : Wait here → Attendez ici"
+  },
+  {
+    "question": "Quelle est la traduction de \"to remain\" ?",
+    "options": ["rester","attendre","continuer","demeurer"],
+    "correct": [0],
+    "explanation": "to remain = rester\nVerbe régulier\nEx : He remains stable → Il reste stable"
+  },
+  {
+    "question": "Quel verbe signifie \"changer\" ?",
+    "options": ["to change","to modify","to transform","to move"],
+    "correct": [0],
+    "explanation": "to change = changer\nVerbe régulier\nEx : The situation changes → La situation change"
+  },
+  {
+    "question": "Quelle est la traduction de \"to increase\" ?",
+    "options": ["augmenter","diminuer","changer","monter"],
+    "correct": [0],
+    "explanation": "to increase = augmenter\nVerbe régulier\nEx : The temperature increases → La température augmente"
+  },
+  {
+    "question": "Quel verbe signifie \"diminuer\" ?",
+    "options": ["to decrease","to reduce","to drop","to lower"],
+    "correct": [0],
+    "explanation": "to decrease = diminuer\nVerbe régulier\nEx : Pain decreases → La douleur diminue"
+  },
+  {
+    "question": "Quelle est la traduction de \"to reduce\" ?",
+    "options": ["réduire","diminuer","enlever","retirer"],
+    "correct": [0],
+    "explanation": "to reduce = réduire\nVerbe régulier\nEx : Reduce pain → Réduire la douleur"
+  },
+  {
+    "question": "Quel verbe signifie \"augmenter (monter)\" ?",
+    "options": ["to rise","to increase","to grow","to go up"],
+    "correct": [0],
+    "explanation": "to rise = monter\nVerbe irrégulier : rise / rose / risen\nEx : Temperature rises → La température monte"
+  },
+  {
+    "question": "Quelle est la traduction de \"to measure\" ?",
+    "options": ["mesurer","évaluer","tester","vérifier"],
+    "correct": [0],
+    "explanation": "to measure = mesurer\nVerbe régulier\nEx : Measure blood pressure → Mesurer la tension"
+  },
+  {
+    "question": "Quel verbe signifie \"tester\" ?",
+    "options": ["to test","to try","to check","to examine"],
+    "correct": [0],
+    "explanation": "to test = tester\nVerbe régulier\nEx : They test blood → Ils testent le sang"
+  },
+  {
+    "question": "Quelle est la traduction de \"to record\" ?",
+    "options": ["enregistrer","noter","écrire","dire"],
+    "correct": [0],
+    "explanation": "to record = enregistrer\nVerbe régulier\nEx : Record the data → Enregistrer les données"
+  },
+  {
+    "question": "Quel verbe signifie \"noter\" ?",
+    "options": ["to note","to write","to record","to mark"],
+    "correct": [0],
+    "explanation": "to note = noter\nVerbe régulier\nEx : Note the symptoms → Noter les symptômes"
+  },
+  {
+    "question": "Quelle est la traduction de \"to write\" ?",
+    "options": ["écrire","noter","lire","dire"],
+    "correct": [0],
+    "explanation": "to write = écrire\nVerbe irrégulier : write / wrote / written\nEx : Write a report → Écrire un rapport"
+  },
+  {
+    "question": "Quel verbe signifie \"lire\" ?",
+    "options": ["to read","to write","to see","to check"],
+    "correct": [0],
+    "explanation": "to read = lire\nVerbe irrégulier : read / read / read\nEx : Read the file → Lire le dossier"
+  },
+  {
+    "question": "Quelle est la traduction de \"to listen\" ?",
+    "options": ["écouter","entendre","comprendre","parler"],
+    "correct": [0],
+    "explanation": "to listen = écouter\nVerbe régulier\nEx : Listen carefully → Écoutez attentivement"
+  },
+  {
+    "question": "Quel verbe signifie \"entendre\" ?",
+    "options": ["to hear","to listen","to understand","to feel"],
+    "correct": [0],
+    "explanation": "to hear = entendre\nVerbe irrégulier : hear / heard / heard\nEx : I hear a sound → J’entends un bruit"
+  },
+  {
+    "question": "Quelle est la traduction de \"to speak\" ?",
+    "options": ["parler","dire","discuter","expliquer"],
+    "correct": [0],
+    "explanation": "to speak = parler\nVerbe irrégulier : speak / spoke / spoken\nEx : Speak to the patient → Parler au patient"
+  },
+  {
+    "question": "Quel verbe signifie \"parler (conversation)\" ?",
+    "options": ["to talk","to speak","to say","to tell"],
+    "correct": [0],
+    "explanation": "to talk = parler (conversation)\nVerbe régulier\nEx : Talk to him → Parlez-lui"
+  },
+  {
+    "question": "Quelle est la traduction de \"to answer\" ?",
+    "options": ["répondre","demander","dire","expliquer"],
+    "correct": [0],
+    "explanation": "to answer = répondre\nVerbe régulier\nEx : Answer the question → Répondez à la question"
+  },
+  {
+    "question": "Quel verbe signifie \"expliquer\" ?",
+    "options": ["to explain","to answer","to say","to show"],
+    "correct": [0],
+    "explanation": "to explain = expliquer\nVerbe régulier\nEx : Explain the treatment → Expliquer le traitement"
+  },
+  {
+    "question": "Quelle est la traduction de \"to decide\" ?",
+    "options": ["décider","choisir","penser","agir"],
+    "correct": [0],
+    "explanation": "to decide = décider\nVerbe régulier\nEx : Decide quickly → Décider rapidement"
+  },
+  {
+    "question": "Quel verbe signifie \"choisir\" ?",
+    "options": ["to choose","to decide","to select","to pick"],
+    "correct": [0],
+    "explanation": "to choose = choisir\nVerbe irrégulier : choose / chose / chosen\nEx : Choose a treatment → Choisir un traitement"
+  },
+  {
+    "question": "Quelle est la traduction de \"to pick\" ?",
+    "options": ["choisir","prendre","sélectionner","ramasser"],
+    "correct": [0],
+    "explanation": "to pick = choisir\nVerbe régulier\nEx : Pick one option → Choisir une option"
+  },
+  {
+    "question": "Quel verbe signifie \"agir\" ?",
+    "options": ["to act","to do","to behave","to move"],
+    "correct": [0],
+    "explanation": "to act = agir\nVerbe régulier\nEx : Act quickly → Agir rapidement"
+  },
+  {
+    "question": "Quelle est la traduction de \"to behave\" ?",
+    "options": ["se comporter","agir","bouger","réagir"],
+    "correct": [0],
+    "explanation": "to behave = se comporter\nVerbe régulier\nEx : He behaves well → Il se comporte bien"
+  },
+  {
+    "question": "Quel verbe signifie \"réagir\" ?",
+    "options": ["to react","to respond","to answer","to behave"],
+    "correct": [0],
+    "explanation": "to react = réagir\nVerbe régulier\nEx : He reacts quickly → Il réagit rapidement"
+  },
+  {
+    "question": "Quelle est la traduction de \"to respond\" ?",
+    "options": ["répondre","réagir","parler","agir"],
+    "correct": [0],
+    "explanation": "to respond = répondre\nVerbe régulier\nEx : Respond to treatment → Répondre au traitement"
+  },
+  {
+    "question": "Quel verbe signifie \"aider\" ?",
+    "options": ["to help","to assist","to support","to treat"],
+    "correct": [0],
+    "explanation": "to help = aider\nVerbe régulier\nEx : Help the patient → Aider le patient"
+  },
+  {
+    "question": "Quelle est la traduction de \"to assist\" ?",
+    "options": ["assister / aider","observer","suivre","regarder"],
+    "correct": [0],
+    "explanation": "to assist = aider (formel)\nVerbe régulier\nEx : Assist the doctor → Assister le médecin"
+  },
+  {
+    "question": "Quel verbe signifie \"soutenir\" ?",
+    "options": ["to support","to help","to hold","to assist"],
+    "correct": [0],
+    "explanation": "to support = soutenir\nVerbe régulier\nEx : Support the patient → Soutenir le patient"
+  },
+  {
+    "question": "Quelle est la traduction de \"to remove\" ?",
+    "options": ["enlever","retirer","supprimer","sortir"],
+    "correct": [0],
+    "explanation": "to remove = enlever\nVerbe régulier\nEx : Remove the bandage → Enlever le pansement"
+  },
+  {
+    "question": "Quel verbe signifie \"retirer\" ?",
+    "options": ["to remove","to take off","to withdraw","to pull"],
+    "correct": [0],
+    "explanation": "to remove = retirer\nVerbe régulier\nEx : Remove the tube → Retirer le tube"
+  },
+  {
+    "question": "Quelle est la traduction de \"to pull\" ?",
+    "options": ["tirer","pousser","enlever","porter"],
+    "correct": [0],
+    "explanation": "to pull = tirer\nVerbe régulier\nEx : Pull the door → Tirer la porte"
+  },
+  {
+    "question": "Quel verbe signifie \"pousser\" ?",
+    "options": ["to push","to pull","to move","to carry"],
+    "correct": [0],
+    "explanation": "to push = pousser\nVerbe régulier\nEx : Push the bed → Pousser le lit"
+  },
+  {
+    "question": "Quelle est la traduction de \"to lift\" ?",
+    "options": ["soulever","porter","tirer","pousser"],
+    "correct": [0],
+    "explanation": "to lift = soulever\nVerbe régulier\nEx : Lift the patient → Soulever le patient"
+  },
+  {
+    "question": "Quel verbe signifie \"porter (transport)\" ?",
+    "options": ["to carry","to wear","to hold","to take"],
+    "correct": [0],
+    "explanation": "to carry = porter (transport)\nVerbe régulier\nEx : Carry equipment → Porter le matériel"
+  },
+  {
+    "question": "Quelle est la traduction de \"to wear\" ?",
+    "options": ["porter (vêtement)","tenir","porter","mettre"],
+    "correct": [0],
+    "explanation": "to wear = porter (vêtement)\nVerbe irrégulier : wear / wore / worn\nEx : Wear gloves → Porter des gants"
+  },
+  {
+    "question": "Quel verbe signifie \"mettre\" ?",
+    "options": ["to put","to wear","to take","to set"],
+    "correct": [0],
+    "explanation": "to put = mettre\nVerbe irrégulier : put / put / put\nEx : Put on gloves → Mettre des gants"
+  },
+  {
+    "question": "Quelle est la traduction de \"to get\" dans : He gets better ?",
+    "options": ["devenir","obtenir","recevoir","aller"],
+    "correct": [0],
+    "explanation": "to get = devenir\nVerbe irrégulier : get / got / gotten\nEx : He gets better → Il va mieux"
+  },
+  {
+    "question": "Quelle est la traduction de \"to get\" dans : He gets a letter ?",
+    "options": ["recevoir","devenir","aller","prendre"],
+    "correct": [0],
+    "explanation": "to get = recevoir\nVerbe irrégulier : get / got / gotten\nEx : He gets a letter → Il reçoit une lettre"
+  },
+  {
+    "question": "Quelle est la traduction de \"to run\" dans : He runs every day ?",
+    "options": ["courir","gérer","fonctionner","effectuer"],
+    "correct": [0],
+    "explanation": "to run = courir\nVerbe irrégulier : run / ran / run\nEx : He runs every day → Il court tous les jours"
+  },
+  {
+    "question": "Quelle est la traduction de \"to run\" dans : They run tests ?",
+    "options": ["effectuer","courir","fonctionner","diriger"],
+    "correct": [0],
+    "explanation": "to run = effectuer\nVerbe irrégulier : run / ran / run\nEx : They run tests → Ils effectuent des tests"
+  },
+  {
+    "question": "Quelle est la traduction de \"to take\" dans : He takes medication ?",
+    "options": ["prendre","emmener","porter","tenir"],
+    "correct": [0],
+    "explanation": "to take = prendre\nVerbe irrégulier : take / took / taken\nEx : He takes medication → Il prend un traitement"
+  },
+  {
+    "question": "Quelle est la traduction de \"to take\" dans : Take the patient to the room ?",
+    "options": ["emmener","prendre","tenir","recevoir"],
+    "correct": [0],
+    "explanation": "to take = emmener\nVerbe irrégulier : take / took / taken\nEx : Take the patient → Emmenez le patient"
+  },
+  {
+    "question": "Quelle est la traduction de \"to make\" dans : He makes a decision ?",
+    "options": ["prendre","fabriquer","créer","faire"],
+    "correct": [0],
+    "explanation": "to make = prendre (décision)\nVerbe irrégulier : make / made / made\nEx : Make a decision → Prendre une décision"
+  },
+  {
+    "question": "Quelle est la traduction de \"to have\" dans : He has lunch ?",
+    "options": ["prendre","avoir","faire","manger"],
+    "correct": [0],
+    "explanation": "to have = prendre (repas)\nVerbe irrégulier : have / had / had\nEx : Have lunch → Prendre un repas"
+  },
+  {
+    "question": "Quelle est la traduction de \"to have\" dans : He has a car ?",
+    "options": ["avoir","prendre","posséder","utiliser"],
+    "correct": [0],
+    "explanation": "to have = avoir\nVerbe irrégulier : have / had / had\nEx : He has a car → Il a une voiture"
+  },
+  {
+    "question": "Quelle est la traduction de \"to go\" dans : He goes home ?",
+    "options": ["aller","partir","venir","retourner"],
+    "correct": [0],
+    "explanation": "to go = aller\nVerbe irrégulier : go / went / gone\nEx : He goes home → Il rentre chez lui"
+  },
+  {
+    "question": "Quelle est la traduction de \"to go\" dans : The pain goes away ?",
+    "options": ["disparaître","aller","partir","finir"],
+    "correct": [0],
+    "explanation": "to go away = disparaître\nVerbe irrégulier : go / went / gone\nEx : Pain goes away → La douleur disparaît"
+  },
+  {
+    "question": "Quelle est la traduction de \"to take\" dans : It takes 2 hours ?",
+    "options": ["prendre (temps)","emmener","recevoir","donner"],
+    "correct": [0],
+    "explanation": "to take = durer\nVerbe irrégulier : take / took / taken\nEx : It takes 2 hours → Cela prend 2 heures"
+  },
+  {
+    "question": "Quelle est la traduction de \"to feel\" dans : He feels tired ?",
+    "options": ["se sentir","ressentir","penser","croire"],
+    "correct": [0],
+    "explanation": "to feel = se sentir\nVerbe irrégulier : feel / felt / felt\nEx : He feels tired → Il se sent fatigué"
+  },
+  {
+    "question": "Quelle est la traduction de \"to see\" dans : I see what you mean ?",
+    "options": ["comprendre","voir","observer","regarder"],
+    "correct": [0],
+    "explanation": "to see = comprendre\nVerbe irrégulier : see / saw / seen\nEx : I see → Je comprends"
+  },
+  {
+    "question": "Quelle est la traduction de \"to run\" dans : The machine runs well ?",
+    "options": ["fonctionner","courir","marcher","travailler"],
+    "correct": [0],
+    "explanation": "to run = fonctionner\nVerbe irrégulier : run / ran / run\nEx : The machine runs → La machine fonctionne"
+  },
+  {
+    "question": "Quelle est la traduction de \"to make\" dans : He makes a cake ?",
+    "options": ["fabriquer","prendre","faire","créer"],
+    "correct": [0],
+    "explanation": "to make = fabriquer\nVerbe irrégulier : make / made / made\nEx : Make a cake → Faire un gâteau"
+  },
+  {
+    "question": "Quelle est la traduction de \"to get\" dans : He gets home ?",
+    "options": ["arriver","obtenir","devenir","aller"],
+    "correct": [0],
+    "explanation": "to get = arriver\nVerbe irrégulier : get / got / gotten\nEx : He gets home → Il arrive chez lui"
+  },
+  {
+    "question": "Quelle est la traduction de \"to have\" dans : He has a shower ?",
+    "options": ["prendre","avoir","faire","donner"],
+    "correct": [0],
+    "explanation": "to have = prendre (activité)\nVerbe irrégulier : have / had / had\nEx : Have a shower → Prendre une douche"
+  },
+  {
+    "question": "Quelle est la traduction de \"to go\" dans : Go ahead ?",
+    "options": ["allez-y","aller","continuer","avancer"],
+    "correct": [0],
+    "explanation": "to go = expression idiomatique\nVerbe irrégulier : go / went / gone\nEx : Go ahead → Allez-y"
+  },
+  {
+    "question": "Quelle est la traduction de \"to take\" dans : Take care ?",
+    "options": ["faire attention","prendre","soigner","garder"],
+    "correct": [0],
+    "explanation": "to take care = faire attention\nVerbe irrégulier : take / took / taken\nEx : Take care → Faites attention"
+  },
+   {
+    "question": "Quelle est la traduction de \"to get back\" ?",
+    "options": ["revenir","partir","aller","retourner"],
+    "correct": [0],
+    "explanation": "to get back = revenir\nVerbe irrégulier : get / got / gotten\nEx : He gets back home → Il rentre chez lui"
+  },
+  {
+    "question": "Quelle est la traduction de \"to get up\" ?",
+    "options": ["se lever","se coucher","s’asseoir","marcher"],
+    "correct": [0],
+    "explanation": "to get up = se lever\nVerbe irrégulier\nEx : He gets up early → Il se lève tôt"
+  },
+  {
+    "question": "Quelle est la traduction de \"to take off\" ?",
+    "options": ["enlever","mettre","prendre","retirer"],
+    "correct": [0],
+    "explanation": "to take off = enlever\nVerbe irrégulier\nEx : Take off your coat → Enlevez votre manteau"
+  },
+  {
+    "question": "Quelle est la traduction de \"to put on\" ?",
+    "options": ["mettre","enlever","porter","tenir"],
+    "correct": [0],
+    "explanation": "to put on = mettre\nVerbe irrégulier : put / put / put\nEx : Put on gloves → Mettez des gants"
+  },
+  {
+    "question": "Quelle est la traduction de \"to look after\" ?",
+    "options": ["s’occuper de","regarder","chercher","aider"],
+    "correct": [0],
+    "explanation": "to look after = s’occuper de\nVerbe régulier\nEx : Look after the patient → S’occuper du patient"
+  },
+  {
+    "question": "Quelle est la traduction de \"to run out\" ?",
+    "options": ["manquer","courir","sortir","terminer"],
+    "correct": [0],
+    "explanation": "to run out = manquer\nVerbe irrégulier\nEx : We run out of medication → Nous manquons de médicaments"
+  },
+  {
+    "question": "Quelle est la traduction de \"to go back\" ?",
+    "options": ["retourner","aller","revenir","partir"],
+    "correct": [0],
+    "explanation": "to go back = retourner\nVerbe irrégulier\nEx : Go back home → Retourner chez soi"
+  },
+  {
+    "question": "Quelle est la traduction de \"to come back\" ?",
+    "options": ["revenir","aller","partir","retourner"],
+    "correct": [0],
+    "explanation": "to come back = revenir\nVerbe irrégulier\nEx : Come back later → Revenez plus tard"
+  },
+  {
+    "question": "Quelle est la traduction de \"to sit down\" ?",
+    "options": ["s’asseoir","se lever","marcher","s’allonger"],
+    "correct": [0],
+    "explanation": "to sit down = s’asseoir\nVerbe irrégulier : sit / sat / sat\nEx : Sit down → Asseyez-vous"
+  },
+  {
+    "question": "Quelle est la traduction de \"to stand up\" ?",
+    "options": ["se lever","s’asseoir","marcher","rester"],
+    "correct": [0],
+    "explanation": "to stand up = se lever\nVerbe irrégulier : stand / stood / stood\nEx : Stand up → Levez-vous"
+  },
+  {
+    "question": "Quelle est la traduction de \"to lie down\" ?",
+    "options": ["s’allonger","se lever","marcher","rester"],
+    "correct": [0],
+    "explanation": "to lie down = s’allonger\nVerbe irrégulier : lie / lay / lain\nEx : Lie down → Allongez-vous"
+  },
+  {
+    "question": "Quelle est la traduction de \"to wake up\" ?",
+    "options": ["se réveiller","s’endormir","se lever","dormir"],
+    "correct": [0],
+    "explanation": "to wake up = se réveiller\nVerbe irrégulier : wake / woke / woken\nEx : He wakes up → Il se réveille"
+  },
+  {
+    "question": "Quelle est la traduction de \"to fall down\" ?",
+    "options": ["tomber","se lever","marcher","glisser"],
+    "correct": [0],
+    "explanation": "to fall down = tomber\nVerbe irrégulier : fall / fell / fallen\nEx : He falls down → Il tombe"
+  },
+  {
+    "question": "Quelle est la traduction de \"to slow down\" ?",
+    "options": ["ralentir","accélérer","arrêter","continuer"],
+    "correct": [0],
+    "explanation": "to slow down = ralentir\nVerbe régulier\nEx : Slow down → Ralentissez"
+  },
+  {
+    "question": "Quelle est la traduction de \"to calm down\" ?",
+    "options": ["se calmer","s’énerver","s’agiter","se lever"],
+    "correct": [0],
+    "explanation": "to calm down = se calmer\nVerbe régulier\nEx : Calm down → Calmez-vous"
+  },
+  {
+    "question": "Quelle est la traduction de \"to check up\" ?",
+    "options": ["faire un contrôle","vérifier","examiner","tester"],
+    "correct": [0],
+    "explanation": "to check up = contrôler\nVerbe régulier\nEx : Check up the patient → Faire un contrôle"
+  },
+  {
+    "question": "Quelle est la traduction de \"to fill out\" ?",
+    "options": ["remplir","vider","écrire","noter"],
+    "correct": [0],
+    "explanation": "to fill out = remplir\nVerbe régulier\nEx : Fill out the form → Remplir le formulaire"
+  },
+  {
+    "question": "Quelle est la traduction de \"to carry on\" ?",
+    "options": ["continuer","arrêter","commencer","terminer"],
+    "correct": [0],
+    "explanation": "to carry on = continuer\nVerbe régulier\nEx : Carry on treatment → Continuer le traitement"
+  },
+  {
+    "question": "Quelle est la traduction de \"to bring back\" ?",
+    "options": ["ramener","apporter","donner","envoyer"],
+    "correct": [0],
+    "explanation": "to bring back = ramener\nVerbe irrégulier : bring / brought / brought\nEx : Bring him back → Ramenez-le"
+  },
+  {
+    "question": "Quelle est la traduction de \"to take care of\" ?",
+    "options": ["s’occuper de","soigner","aider","surveiller"],
+    "correct": [0],
+    "explanation": "to take care of = s’occuper de\nVerbe irrégulier\nEx : Take care of the patient → S’occuper du patient"
+  }
+  ]
+}
