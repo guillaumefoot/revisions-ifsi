@@ -1,44 +1,58 @@
 [
     {
+        "file": "data/6.2_NOMBRES.json",
+        "code": "UE 6.2",
+        "name": "Nombres & Chiffres",
+        "subtitle": "Formation, ordinaux et vocabulaire mathématique",
+        "icon": "🔢"
+    },
+    {
         "file": "data/6.2_VOCABULAIRE.json",
         "code": "UE 6.2",
-        "name": "Anglais Médical",
-        "subtitle": "Vocabulaire médical",
+        "name": "Vocabulaire Médical",
+        "subtitle": "Vocabulaire médical courant",
         "icon": "💬"
     },
     {
-        "file": "data/6.2_CONJUGAISON.json",
+        "file": "data/6.2_VERBES.json",
         "code": "UE 6.2",
-        "name": "Anglais : Conjugaison",
-        "subtitle": "Temps, verbes irréguliers et traduction",
-        "icon": "⏳"
+        "name": "Verbes d'action",
+        "subtitle": "Traduction et usage des verbes courants",
+        "icon": "🏃"
     },
     {
-        "file": "data/6.2_MOT_OUTILS.json",
+        "file": "data/6.2_BASE_CONJUGAISON.json",
         "code": "UE 6.2",
-        "name": "Anglais : Mots Outils",
-        "subtitle": "Marqueurs temporels (yet, already, for, since...)",
-        "icon": "⏱️"
+        "name": "Bases de Conjugaison",
+        "subtitle": "Grammaire et construction des temps",
+        "icon": "📚"
     },
     {
         "file": "data/6.2_QUESTIONS_NEGATIONS.json",
         "code": "UE 6.2",
-        "name": "Anglais : Questions & Négations",
+        "name": "Questions & Négations",
         "subtitle": "Construire des phrases (Do, Does, Did, Wh- words)",
         "icon": "❓"
     },
     {
-        "file": "data/6.2_CONNECTEURS.json",
+        "file": "data/6.2_MOT_OUTILS.json",
         "code": "UE 6.2",
-        "name": "Anglais : Mots de liaison",
-        "subtitle": "Connecteurs logiques et traduction",
-        "icon": "🔗"
+        "name": "Mots Outils",
+        "subtitle": "Marqueurs temporels (yet, already, for, since...)",
+        "icon": "⏱️"
     },
     {
-        "file": "data/6.2_NOMBRES.json",
+        "file": "data/6.2_CONJUGAISON.json",
         "code": "UE 6.2",
-        "name": "Anglais : Nombres & Chiffres",
-        "subtitle": "Formation, ordinaux et vocabulaire mathématique",
-        "icon": "🔢"
+        "name": "Conjugaison",
+        "subtitle": "Temps, verbes irréguliers et traduction",
+        "icon": "⏳"
+    },
+    {
+        "file": "data/6.2_CONNECTEURS.json",
+        "code": "UE 6.2",
+        "name": "Mots de liaison",
+        "subtitle": "Connecteurs logiques et traduction",
+        "icon": "🔗"
     }
 ]
