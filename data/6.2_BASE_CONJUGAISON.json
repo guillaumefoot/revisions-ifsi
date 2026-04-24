@@ -1,0 +1,426 @@
+{
+  "title": "UE 6.2 - Anglais Médical",
+  "subtitle": "Grammaire – Construction et usage des temps",
+  "questions": [
+    {
+      "question": "Comment forme-t-on le present simple (forme affirmative) ?",
+      "options": ["base verbale (+ -s à la 3e personne)","be + ing","have + participe passé","did + base verbale"],
+      "correct": [0],
+      "explanation": "Le present simple utilise la base verbale. Seule la 3e personne du singulier marque la personne avec -s (he works). Il sert à exprimer habitudes, faits généraux ou vérités permanentes."
+    },
+    {
+      "question": "Que se passe-t-il à la 3e personne du singulier au présent ?",
+      "options": ["on ajoute -s ou -es au verbe","on ajoute -ed","on ajoute -ing","on ne change rien"],
+      "correct": [0],
+      "explanation": "He/she/it → verbe + -s. Certains verbes prennent -es (go → goes, do → does). Cela marque la personne, contrairement au français."
+    },
+    {
+      "question": "Quand utilise-t-on le present simple ?",
+      "options": ["habitudes, vérités générales","action en cours","action passée datée","intention future"],
+      "correct": [0],
+      "explanation": "Le present simple exprime une valeur générale : habitudes (He works every day), vérités scientifiques (Water boils at 100°C), faits permanents."
+    },
+    {
+      "question": "Comment forme-t-on le present continuous ?",
+      "options": ["be + verbe en -ing","have + participe passé","did + base verbale","will + base verbale"],
+      "correct": [0],
+      "explanation": "Structure : be (am/is/are) + V-ing. Cela correspond à l’aspect progressif : on met en scène l’action en cours."
+    },
+    {
+      "question": "Quand utilise-t-on le present continuous ?",
+      "options": ["action en cours ou temporaire","habitude permanente","action passée","fait scientifique"],
+      "correct": [0],
+      "explanation": "Le present continuous décrit une action en train de se dérouler (He is working) ou une situation temporaire, souvent liée au moment présent."
+    },
+    {
+      "question": "Comment forme-t-on le past simple (verbes réguliers) ?",
+      "options": ["verbe + -ed","be + ing","have + participe passé","will + verbe"],
+      "correct": [0],
+      "explanation": "Les verbes réguliers prennent -ed au passé (worked). Cette forme correspond aussi au participe passé."
+    },
+    {
+      "question": "Comment forme-t-on le past simple (verbes irréguliers) ?",
+      "options": ["forme irrégulière à mémoriser","verbe + -ed","be + ing","have + participe passé"],
+      "correct": [0],
+      "explanation": "Les verbes irréguliers changent de forme (go → went, take → took). Ils doivent être appris par cœur."
+    },
+    {
+      "question": "Quand utilise-t-on le past simple ?",
+      "options": ["action terminée et située dans le passé","action liée au présent","action en cours","habitude actuelle"],
+      "correct": [0],
+      "explanation": "Le past simple exprime une rupture avec le présent. Il est utilisé avec des repères temporels passés (yesterday, in 2008)."
+    },
+    {
+      "question": "Comment forme-t-on le present perfect ?",
+      "options": ["have/has + participe passé","be + ing","did + verbe","will + verbe"],
+      "correct": [0],
+      "explanation": "Structure : have/has + participe passé. Il exprime un bilan ou un lien entre passé et présent (aspect perfect)."
+    },
+    {
+      "question": "Quand utilise-t-on le present perfect ?",
+      "options": ["action passée avec lien au présent","action datée dans le passé","action en cours","action future"],
+      "correct": [0],
+      "explanation": "Le present perfect met l’accent sur le résultat actuel. Ex : I have lost my keys (je ne les ai toujours pas)."
+    },
+    {
+      "question": "Quelle est la bonne forme : He ___ (work) every day.",
+      "options": ["works","work","working","worked"],
+      "correct": [0],
+      "explanation": "Present simple → habitude. À la 3e personne, on ajoute -s : works."
+    },
+    {
+      "question": "Quelle est la bonne forme : He is ___ (work).",
+      "options": ["working","work","works","worked"],
+      "correct": [0],
+      "explanation": "Present continuous → be + V-ing : is working."
+    },
+    {
+      "question": "Quelle est la bonne forme : He ___ (go) yesterday.",
+      "options": ["went","go","gone","going"],
+      "correct": [0],
+      "explanation": "Indicateur passé (yesterday) → past simple obligatoire : went."
+    },
+    {
+      "question": "Quelle est la bonne forme : He has ___ (eat).",
+      "options": ["eaten","ate","eat","eating"],
+      "correct": [0],
+      "explanation": "Present perfect → participe passé : eat → eaten."
+    },
+    {
+      "question": "Comment forme-t-on le futur avec \"will\" ?",
+      "options": ["will + base verbale","be + ing","have + participe passé","did + verbe"],
+      "correct": [0],
+      "explanation": "Will + base verbale. Sert pour décision spontanée ou prédiction (I will go)."
+    },
+    {
+      "question": "Quand utilise-t-on \"will\" ?",
+      "options": ["décision immédiate / prédiction","plan déjà organisé","habitude","action passée"],
+      "correct": [0],
+      "explanation": "Will est utilisé pour une décision prise au moment de parler ou une prédiction (It will rain)."
+    },
+    {
+      "question": "Comment forme-t-on \"be going to\" ?",
+      "options": ["be + going to + base verbale","will + verbe","have + verbe","did + verbe"],
+      "correct": [0],
+      "explanation": "Structure : be + going to + verbe. Sert à exprimer une intention ou un projet."
+    },
+    {
+      "question": "Quand utilise-t-on \"be going to\" ?",
+      "options": ["intention ou projet","décision spontanée","habitude","passé"],
+      "correct": [0],
+      "explanation": "Be going to exprime un futur déjà envisagé (I am going to leave)."
+    },
+    {
+      "question": "Le present continuous peut exprimer le futur.",
+      "options": ["Vrai","Faux"],
+      "correct": [0],
+      "explanation": "Vrai : utilisé pour un futur planifié (I am meeting the doctor tomorrow)."
+    },
+    {
+      "question": "Le present perfect peut être utilisé avec un repère temporel précis (yesterday, in 2020).",
+      "options": ["Vrai","Faux"],
+      "correct": [1],
+      "explanation": "Faux : un repère passé précis impose le past simple. Ex : I saw him yesterday (et non *have seen)."
+    },
+    {
+    "question": "Comment forme-t-on la négation au present simple ?",
+    "options": ["do/does + not + base verbale","be + not + ing","have + not + participe passé","did + not + verbe"],
+    "correct": [0],
+    "explanation": "Present simple négatif = do/does not + base verbale. Ex : He does not work. L’auxiliaire porte la négation."
+  },
+  {
+    "question": "Comment forme-t-on une question au present simple ?",
+    "options": ["Do/Does + sujet + base verbale","Sujet + be + ing","Have + sujet + participe passé","Did + sujet + verbe"],
+    "correct": [0],
+    "explanation": "Question = auxiliaire do/does + sujet + verbe. Ex : Do you work ?"
+  },
+  {
+    "question": "Pourquoi utilise-t-on l’auxiliaire \"do\" ?",
+    "options": ["former négations et questions","exprimer le futur","former le participe","marquer le passé"],
+    "correct": [0],
+    "explanation": "Do est un auxiliaire vide utilisé pour construire les formes négatives et interrogatives au present simple."
+  },
+  {
+    "question": "Comment forme-t-on la négation au present continuous ?",
+    "options": ["be + not + V-ing","do not + verbe","have not + participe","did not + verbe"],
+    "correct": [0],
+    "explanation": "Négation = be + not + V-ing. Ex : He is not working."
+  },
+  {
+    "question": "Comment forme-t-on une question au present continuous ?",
+    "options": ["be + sujet + V-ing","do + sujet + verbe","have + sujet + participe","will + sujet + verbe"],
+    "correct": [0],
+    "explanation": "On inverse be et le sujet : Is he working ?"
+  },
+  {
+    "question": "Quelle est la différence principale entre present simple et present continuous ?",
+    "options": ["habitude vs action en cours","passé vs présent","futur vs présent","action terminée vs action en cours"],
+    "correct": [0],
+    "explanation": "Present simple = général/habitude. Present continuous = action en cours ou temporaire."
+  },
+  {
+    "question": "Comment forme-t-on la négation au past simple ?",
+    "options": ["did not + base verbale","verbe + not","be not + ing","have not + participe"],
+    "correct": [0],
+    "explanation": "Past simple négatif = did not + base verbale. Ex : He did not go."
+  },
+  {
+    "question": "Comment forme-t-on une question au past simple ?",
+    "options": ["Did + sujet + base verbale","Sujet + verbe passé","Have + sujet + participe","Was + sujet + ing"],
+    "correct": [0],
+    "explanation": "Did + sujet + verbe. Ex : Did you go ?"
+  },
+  {
+    "question": "Pourquoi le verbe revient-il à sa base après \"did\" ?",
+    "options": ["l’auxiliaire porte le temps","c’est une règle aléatoire","pour simplifier la phrase","pour éviter -ed"],
+    "correct": [0],
+    "explanation": "Did marque déjà le passé, donc le verbe reste à la base : did go (et non went)."
+  },
+  {
+    "question": "Comment forme-t-on la négation au present perfect ?",
+    "options": ["have/has + not + participe passé","do not + verbe","be not + ing","did not + verbe"],
+    "correct": [0],
+    "explanation": "Ex : He has not worked. L’auxiliaire have porte la négation."
+  },
+  {
+    "question": "Comment forme-t-on une question au present perfect ?",
+    "options": ["Have/Has + sujet + participe passé","Did + sujet + verbe","Do + sujet + verbe","Be + sujet + ing"],
+    "correct": [0],
+    "explanation": "Ex : Have you finished ?"
+  },
+  {
+    "question": "Quelle est la différence entre past simple et present perfect ?",
+    "options": ["rupture passé vs lien avec le présent","présent vs futur","habitude vs action en cours","durée vs instant"],
+    "correct": [0],
+    "explanation": "Past simple = action terminée dans le passé. Present perfect = résultat ou lien avec le présent."
+  },
+  {
+    "question": "Quelle phrase est correcte ?",
+    "options": ["I saw him yesterday","I have seen him yesterday","I have saw him yesterday","I see him yesterday"],
+    "correct": [0],
+    "explanation": "Un repère passé précis (yesterday) impose le past simple."
+  },
+  {
+    "question": "Quelle est la valeur principale du present perfect ?",
+    "options": ["bilan / résultat","action datée","habitude","futur planifié"],
+    "correct": [0],
+    "explanation": "Le present perfect met l’accent sur le résultat actuel : I have lost my keys."
+  },
+  {
+    "question": "Comment exprime-t-on une action en cours dans le passé ?",
+    "options": ["was/were + V-ing","did + verbe","have + participe","will + verbe"],
+    "correct": [0],
+    "explanation": "Past continuous : be au passé + V-ing. Ex : He was working."
+  },
+  {
+    "question": "Quelle est la valeur du past continuous ?",
+    "options": ["action en cours dans le passé","action terminée","habitude actuelle","futur"],
+    "correct": [0],
+    "explanation": "Décrit une action en cours à un moment du passé."
+  },
+  {
+    "question": "Quelle phrase est correcte ?",
+    "options": ["He was working when I arrived","He worked when I was arriving","He is working when I arrived","He worked when I arrive"],
+    "correct": [0],
+    "explanation": "Past continuous pour l’action en cours + past simple pour l’événement."
+  },
+  {
+    "question": "Quelle est la différence entre \"will\" et \"be going to\" ?",
+    "options": ["décision spontanée vs intention","passé vs présent","habitude vs futur","résultat vs action"],
+    "correct": [0],
+    "explanation": "Will = décision immédiate. Going to = intention ou projet déjà envisagé."
+  },
+  {
+    "question": "Quelle phrase correspond à une décision spontanée ?",
+    "options": ["I will help you","I am going to help you","I help you","I am helping you"],
+    "correct": [0],
+    "explanation": "Will = décision prise au moment de parler."
+  },
+  {
+    "question": "Quelle phrase correspond à un projet ?",
+    "options": ["I am going to study","I will study","I study","I studied"],
+    "correct": [0],
+    "explanation": "Going to = intention planifiée."
+  },
+  {
+    "question": "Quel auxiliaire est utilisé pour construire les temps continus ?",
+    "options": ["be","have","do","will"],
+    "correct": [0],
+    "explanation": "Be + V-ing = aspect progressif."
+  },
+  {
+    "question": "Quel auxiliaire est utilisé pour construire les temps perfect ?",
+    "options": ["have","be","do","will"],
+    "correct": [0],
+    "explanation": "Have + participe passé = aspect bilan."
+  },
+  {
+    "question": "Que signifie l’aspect progressif ?",
+    "options": ["action en cours","action terminée","habitude","futur"],
+    "correct": [0],
+    "explanation": "Be + ing met en scène l’action en train de se dérouler."
+  },
+  {
+    "question": "Que signifie l’aspect perfect ?",
+    "options": ["résultat ou conséquence","action en cours","habitude","futur"],
+    "correct": [0],
+    "explanation": "Have + participe passé met l’accent sur le résultat."
+  },
+  {
+    "question": "Quelle est la bonne forme : She ___ (study) now.",
+    "options": ["is studying","studies","studied","has studied"],
+    "correct": [0],
+    "explanation": "Indice \"now\" → action en cours → present continuous."
+  },
+  {
+    "question": "Quelle est la bonne forme : She ___ (study) every day.",
+    "options": ["studies","is studying","studied","has studied"],
+    "correct": [0],
+    "explanation": "Habitude → present simple avec -s."
+  },
+  {
+    "question": "Quelle est la bonne forme : She ___ (study) yesterday.",
+    "options": ["studied","studies","is studying","has studied"],
+    "correct": [0],
+    "explanation": "Indicateur passé → past simple."
+  },
+  {
+    "question": "Quelle est la bonne forme : She has ___ (study).",
+    "options": ["studied","study","studies","studying"],
+    "correct": [0],
+    "explanation": "Present perfect → participe passé."
+  },
+  {
+    "question": "Quelle phrase est correcte ?",
+    "options": ["I am meeting him tomorrow","I meet him tomorrow (moins courant)","I will meeting him","I am meet him"],
+    "correct": [0],
+    "explanation": "Present continuous peut exprimer un futur planifié."
+  },
+  {
+    "question": "Le present simple peut exprimer un futur planifié (horaires).",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "Vrai : The train leaves at 5 p.m."
+  },
+  {
+    "question": "Quel est l’équivalent français le plus courant du present simple ?",
+    "options": ["présent de l’indicatif","passé composé","imparfait","futur simple"],
+    "correct": [0],
+    "explanation": "Le present simple correspond généralement au présent français : He works → Il travaille. Il exprime habitudes ou vérités générales."
+  },
+  {
+    "question": "Quel est l’équivalent français du present continuous ?",
+    "options": ["être en train de + verbe","présent simple","passé composé","futur proche"],
+    "correct": [0],
+    "explanation": "Le present continuous insiste sur l’action en cours : He is working → Il est en train de travailler."
+  },
+  {
+    "question": "Quel est l’équivalent français le plus courant du past simple ?",
+    "options": ["passé composé","présent","futur","conditionnel"],
+    "correct": [0],
+    "explanation": "Le past simple correspond souvent au passé composé à l’oral : He went → Il est allé."
+  },
+  {
+    "question": "Le past simple peut aussi correspondre à quel temps français ?",
+    "options": ["imparfait","présent","futur","subjonctif"],
+    "correct": [0],
+    "explanation": "Il peut traduire l’imparfait pour des descriptions ou habitudes passées : He lived there → Il vivait là."
+  },
+  {
+    "question": "Quel est l’équivalent français du present perfect ?",
+    "options": ["passé composé","imparfait","présent","plus-que-parfait"],
+    "correct": [0],
+    "explanation": "Souvent traduit par le passé composé mais avec une nuance : lien avec le présent. I have lost my keys → J’ai perdu mes clés (et je ne les ai toujours pas)."
+  },
+  {
+    "question": "Pourquoi le present perfect ne correspond pas toujours au passé composé français ?",
+    "options": ["car il insiste sur le résultat présent","car il est plus ancien","car il est plus simple","car il exprime le futur"],
+    "correct": [0],
+    "explanation": "Le present perfect exprime un bilan ou un lien avec le présent, contrairement au passé composé français qui est plus large."
+  },
+  {
+    "question": "Quelle traduction est correcte : I have seen him ?",
+    "options": ["Je l’ai vu","Je le voyais","Je le vois","Je le verrai"],
+    "correct": [0],
+    "explanation": "Present perfect → passé composé avec idée de résultat."
+  },
+  {
+    "question": "Quelle traduction est correcte : I saw him yesterday ?",
+    "options": ["Je l’ai vu hier","Je l’ai vu","Je le vois","Je le verrai"],
+    "correct": [0],
+    "explanation": "Présence de 'yesterday' → past simple obligatoire → passé composé en français."
+  },
+  {
+    "question": "Quelle traduction est correcte : I am working ?",
+    "options": ["Je suis en train de travailler","Je travaille (habituellement)","J’ai travaillé","Je travaillerai"],
+    "correct": [0],
+    "explanation": "Be + ing → action en cours → 'être en train de'."
+  },
+  {
+    "question": "Quelle traduction est correcte : I work every day ?",
+    "options": ["Je travaille tous les jours","Je suis en train de travailler","J’ai travaillé","Je travaillerai"],
+    "correct": [0],
+    "explanation": "Habitude → présent simple → présent français."
+  },
+  {
+    "question": "Quelle traduction est correcte : He was working ?",
+    "options": ["Il était en train de travailler","Il a travaillé","Il travaille","Il travaillera"],
+    "correct": [0],
+    "explanation": "Past continuous → imparfait + idée de déroulement."
+  },
+  {
+    "question": "Quelle traduction est correcte : He worked ?",
+    "options": ["Il a travaillé","Il travaille","Il travaillera","Il travaille toujours"],
+    "correct": [0],
+    "explanation": "Past simple → action terminée → passé composé."
+  },
+  {
+    "question": "Quelle traduction est correcte : He has worked ?",
+    "options": ["Il a travaillé (résultat présent)","Il travaillait","Il travaille","Il travaillera"],
+    "correct": [0],
+    "explanation": "Present perfect → bilan, conséquence actuelle."
+  },
+  {
+    "question": "Quelle est la traduction de \"will\" ?",
+    "options": ["futur simple","présent","passé","conditionnel"],
+    "correct": [0],
+    "explanation": "Will correspond généralement au futur simple : I will go → J’irai."
+  },
+  {
+    "question": "Quelle traduction est correcte : I will go ?",
+    "options": ["J’irai","Je vais","J’allais","J’irais"],
+    "correct": [0],
+    "explanation": "Will = futur simple ou décision spontanée."
+  },
+  {
+    "question": "Quelle traduction est correcte : I am going to go ?",
+    "options": ["Je vais aller","J’irai","J’allais","J’irais"],
+    "correct": [0],
+    "explanation": "Be going to = futur proche / intention."
+  },
+  {
+    "question": "Quelle traduction est correcte : The train leaves at 5 ?",
+    "options": ["Le train part à 5h","Le train partira à 5h","Le train est parti","Le train partait"],
+    "correct": [0],
+    "explanation": "Présent simple utilisé pour horaires → présent en français."
+  },
+  {
+    "question": "Quelle traduction est correcte : I have lived here for 2 years ?",
+    "options": ["Je vis ici depuis 2 ans","J’ai vécu ici","Je vivais ici","Je vivrai ici"],
+    "correct": [0],
+    "explanation": "Present perfect avec 'for' → action commencée dans le passé et toujours valable → présent français."
+  },
+  {
+    "question": "Quelle traduction est correcte : I have just eaten ?",
+    "options": ["Je viens de manger","Je mange","Je mangeais","Je mangerai"],
+    "correct": [0],
+    "explanation": "Present perfect avec 'just' → action récente → 'venir de'."
+  },
+  {
+    "question": "Quel est le piège classique pour les francophones ?",
+    "options": ["utiliser present perfect avec un temps passé précis","confondre futur et présent","ne pas utiliser -ing","oublier le verbe"],
+    "correct": [0],
+    "explanation": "Erreur fréquente : *I have seen him yesterday → incorrect. Il faut : I saw him yesterday."
+  }
+  ]
+}
