@@ -1,0 +1,899 @@
+{
+  "title": "Quiz UE 4.3 ",
+  "subtitle": "Généralités des situations d'urgence",
+  "questions": [
+    {
+      "question": "Une situation d’urgence nécessite une prise en charge rapide et adaptée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une urgence engage potentiellement le pronostic vital ou fonctionnel et nécessite une intervention rapide."
+    },
+    {
+      "question": "L’urgence se définit uniquement par la gravité de la pathologie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’urgence dépend aussi du contexte, de l’évolution et du risque vital."
+    },
+    {
+      "question": "Quels éléments permettent d’évaluer une situation d’urgence ?",
+      "options": ["Signes cliniques", "Constantes vitales", "Contexte", "Couleur des yeux"],
+      "correct": [0, 1, 2],
+      "explanation": "L’évaluation repose sur les signes cliniques, les constantes et le contexte du patient."
+    },
+    {
+      "question": "La priorité est toujours de traiter la cause avant les fonctions vitales.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La priorité est d’assurer les fonctions vitales selon l’approche ABC."
+    },
+    {
+      "question": "Quels sont les éléments de l’approche ABC ?",
+      "options": ["Airway", "Breathing", "Circulation", "Digestion"],
+      "correct": [0, 1, 2],
+      "explanation": "ABC correspond aux voies aériennes, à la respiration et à la circulation."
+    },
+    {
+      "question": "L’Airway correspond à la circulation sanguine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Airway correspond aux voies aériennes."
+    },
+    {
+      "question": "La surveillance des constantes vitales est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les constantes permettent de détecter rapidement une aggravation."
+    },
+    {
+      "question": "Quels paramètres font partie des constantes vitales ?",
+      "options": ["Tension artérielle", "Fréquence cardiaque", "Fréquence respiratoire", "Taille du patient"],
+      "correct": [0, 1, 2],
+      "explanation": "Les constantes vitales incluent TA, FC et FR, mais pas la taille."
+    },
+    {
+      "question": "Une fréquence respiratoire élevée peut être un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une tachypnée est un signe d’alerte fréquent."
+    },
+    {
+      "question": "Une SpO2 normale exclut toute détresse respiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une détresse peut exister malgré une saturation normale au début."
+    },
+    {
+      "question": "Quels signes neurologiques doivent alerter ?",
+      "options": ["Confusion", "Coma", "Agitation", "Sommeil normal"],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une atteinte neurologique potentiellement grave."
+    },
+    {
+      "question": "La conscience doit être évaluée en situation d’urgence.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évaluation neurologique est essentielle."
+    },
+    {
+      "question": "Quels signes respiratoires de gravité ?",
+      "options": ["Polypnée", "Cyanose", "Tirage", "Respiration calme"],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une détresse respiratoire."
+    },
+    {
+      "question": "La cyanose traduit une hypoxémie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle correspond à une mauvaise oxygénation."
+    },
+    {
+      "question": "Quels signes cardiovasculaires de gravité ?",
+      "options": ["Hypotension", "Tachycardie", "Marbrures", "Tension normale"],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une mauvaise perfusion."
+    },
+    {
+      "question": "Une hypotension est toujours bénigne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle peut traduire un état de choc."
+    },
+    {
+      "question": "Quels signes cutanés doivent alerter ?",
+      "options": ["Pâleur", "Sueurs", "Marbrures", "Peau normale"],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une mauvaise perfusion ou une détresse."
+    },
+    {
+      "question": "Les marbrures traduisent une mauvaise perfusion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles indiquent une hypoperfusion cutanée."
+    },
+    {
+      "question": "La surveillance doit être rapprochée en situation critique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’état peut évoluer rapidement."
+    },
+    {
+      "question": "Quels objectifs en situation d’urgence ?",
+      "options": ["Maintenir fonctions vitales", "Identifier la cause", "Prévenir aggravation", "Attendre"],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est active et immédiate."
+    },
+    {
+      "question": "L’oxygène peut être administré en cas de détresse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il améliore l’oxygénation tissulaire."
+    },
+    {
+      "question": "Les signes digestifs sont toujours bénins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Ils peuvent accompagner des urgences graves."
+    },
+    {
+      "question": "Quels rôles IDE en urgence ?",
+      "options": ["Surveillance", "Alerte", "Mise en sécurité", "Diagnostic médical"],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE participe à la prise en charge mais ne pose pas de diagnostic médical."
+    },
+    {
+      "question": "L’IDE peut poser un diagnostic médical.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le diagnostic médical est réservé au médecin."
+    },
+    {
+      "question": "La position du patient peut influencer son état.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Certaines positions améliorent la ventilation ou la perfusion."
+    },
+    {
+      "question": "L’oligurie peut être un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit une hypoperfusion rénale."
+    },
+    {
+      "question": "Une bonne tolérance exclut une urgence.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une urgence peut être trompeuse au début."
+    },
+    {
+      "question": "La transmission des informations est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle garantit la continuité des soins."
+    },
+    {
+      "question": "La prise en charge doit être rapide.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le délai impacte le pronostic."
+    },
+    {
+      "question": "Une urgence peut évoluer rapidement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évolution peut être brutale."
+    },
+    {
+      "question": "La prise en charge doit être individualisée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle dépend du patient et du contexte."
+    },
+    {
+      "question": "Le tri infirmier permet d’identifier les patients en urgence vitale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le tri vise à repérer rapidement les patients les plus graves."
+    },
+    {
+      "question": "Le tri repose uniquement sur les plaintes du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il repose sur les signes cliniques, les constantes et l’évaluation globale."
+    },
+    {
+      "question": "Quels sont les objectifs du tri infirmier ?",
+      "options": [
+        "Prioriser les patients",
+        "Identifier les urgences vitales",
+        "Orienter les patients",
+        "Retarder la prise en charge"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le tri permet d’organiser la prise en charge selon la gravité."
+    },
+    {
+      "question": "Le tri doit être rapide et reproductible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il doit être efficace et standardisé."
+    },
+    {
+      "question": "Une douleur intense peut être un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une douleur intense peut révéler une pathologie grave."
+    },
+    {
+      "question": "La douleur ne doit pas être évaluée en priorité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle fait partie de l’évaluation initiale."
+    },
+    {
+      "question": "Quels outils permettent d’évaluer la douleur ?",
+      "options": [
+        "EVA",
+        "EN",
+        "EVS",
+        "Score Glasgow"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les échelles EVA, EN et EVS évaluent la douleur, pas le Glasgow."
+    },
+    {
+      "question": "Une douleur thoracique est toujours bénigne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle peut être le signe d’un infarctus ou d’une embolie pulmonaire."
+    },
+    {
+      "question": "Quels signes doivent faire suspecter une urgence vitale ?",
+      "options": [
+        "Altération de la conscience",
+        "Détresse respiratoire",
+        "Instabilité hémodynamique",
+        "Appétit normal"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une atteinte des fonctions vitales."
+    },
+    {
+      "question": "La détresse respiratoire est une priorité absolue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle met rapidement en jeu le pronostic vital."
+    },
+    {
+      "question": "Quels signes peuvent indiquer une hypoxie ?",
+      "options": [
+        "Cyanose",
+        "Agitation",
+        "Confusion",
+        "Peau rosée normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent un manque d’oxygène."
+    },
+    {
+      "question": "Une agitation peut être un signe de détresse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut traduire une hypoxie ou une souffrance cérébrale."
+    },
+    {
+      "question": "Quels éléments permettent d’évaluer la circulation ?",
+      "options": [
+        "Pouls",
+        "Tension artérielle",
+        "Coloration cutanée",
+        "Taille du patient"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces éléments reflètent la perfusion circulatoire."
+    },
+    {
+      "question": "Un pouls filant est un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il traduit une mauvaise perfusion."
+    },
+    {
+      "question": "Quels signes peuvent évoquer un état de choc ?",
+      "options": [
+        "Hypotension",
+        "Tachycardie",
+        "Marbrures",
+        "Tension normale stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une insuffisance circulatoire."
+    },
+    {
+      "question": "Un état de choc est toujours immédiatement visible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il peut être initialement compensé."
+    },
+    {
+      "question": "Quels facteurs aggravent une situation d’urgence ?",
+      "options": [
+        "Age avancé",
+        "Comorbidités",
+        "Retard de prise en charge",
+        "Bonne hydratation"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs augmentent le risque de complications."
+    },
+    {
+      "question": "Le terrain du patient influence la gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’âge et les pathologies associées modifient le pronostic."
+    },
+    {
+      "question": "Quels rôles IDE en situation d’urgence ?",
+      "options": [
+        "Surveillance",
+        "Alerte",
+        "Transmission",
+        "Prescription"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE assure surveillance et coordination mais ne prescrit pas."
+    },
+    {
+      "question": "La communication en équipe est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle garantit une prise en charge efficace."
+    },
+    {
+      "question": "Quels éléments doivent être surveillés en continu ?",
+      "options": [
+        "Constantes vitales",
+        "Conscience",
+        "Respiration",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces éléments permettent d’évaluer l’évolution."
+    },
+    {
+      "question": "Une amélioration initiale exclut toute aggravation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une surveillance reste indispensable."
+    },
+    {
+      "question": "Quels objectifs de prise en charge ?",
+      "options": [
+        "Stabiliser le patient",
+        "Maintenir fonctions vitales",
+        "Prévenir complications",
+        "Ignorer les symptômes"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge vise la stabilisation rapide."
+    },
+    {
+      "question": "La prévention des complications est un objectif majeur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle limite l’aggravation."
+    },
+    {
+      "question": "Quels signes nécessitent une surveillance rapprochée ?",
+      "options": [
+        "Instabilité hémodynamique",
+        "Altération neurologique",
+        "Détresse respiratoire",
+        "Etat stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes nécessitent une vigilance accrue."
+    },
+    {
+      "question": "La surveillance rapprochée permet d’anticiper les complications.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet d’agir précocement."
+    },
+    {
+      "question": "Quels éléments participent à la sécurité du patient ?",
+      "options": [
+        "Position adaptée",
+        "Surveillance",
+        "Environnement sécurisé",
+        "Isolement sans surveillance"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La sécurité repose sur des mesures adaptées."
+    },
+    {
+      "question": "La prise en charge doit être globale et coordonnée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle implique plusieurs acteurs."
+    },
+    {
+      "question": "Une urgence nécessite une adaptation constante de la prise en charge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’état du patient peut évoluer rapidement."
+    },
+    {
+      "question": "Le délai de prise en charge influence directement le pronostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Plus la prise en charge est rapide, meilleur est le pronostic."
+    },
+    {
+      "question": "Une situation d’urgence peut rester stable sans surveillance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une urgence peut évoluer rapidement, d’où la nécessité d’une surveillance continue."
+    },
+    {
+      "question": "Quels éléments permettent de détecter une aggravation ?",
+      "options": [
+        "Variation des constantes",
+        "Altération de la conscience",
+        "Modification de la respiration",
+        "Couleur des cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces éléments traduisent une évolution de l’état du patient."
+    },
+    {
+      "question": "Une altération de la conscience est un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit une atteinte neurologique potentiellement grave."
+    },
+    {
+      "question": "Quels signes de détresse respiratoire sévère ?",
+      "options": [
+        "Silence auscultatoire",
+        "Cyanose",
+        "Tirage",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une détresse respiratoire majeure."
+    },
+    {
+      "question": "Le silence auscultatoire est un signe rassurant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il s’agit d’un signe de gravité extrême."
+    },
+    {
+      "question": "Quels éléments permettent d’évaluer la perfusion ?",
+      "options": [
+        "Temps de recoloration cutanée",
+        "Marbrures",
+        "Température cutanée",
+        "Taille du patient"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces éléments reflètent la perfusion périphérique."
+    },
+    {
+      "question": "Un temps de recoloration cutanée allongé est un signe de mauvaise perfusion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il traduit une hypoperfusion."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une hypoperfusion ?",
+      "options": [
+        "Pâleur",
+        "Marbrures",
+        "Extrémités froides",
+        "Peau chaude et rosée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une mauvaise perfusion."
+    },
+    {
+      "question": "Les extrémités froides sont un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles indiquent une vasoconstriction périphérique."
+    },
+    {
+      "question": "Quels signes neurologiques sévères ?",
+      "options": [
+        "Coma",
+        "Troubles de la vigilance",
+        "Absence de réponse",
+        "Conscience normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une atteinte neurologique sévère."
+    },
+    {
+      "question": "Le coma est une urgence vitale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il nécessite une prise en charge immédiate."
+    },
+    {
+      "question": "Quels éléments doivent être priorisés en premier ?",
+      "options": [
+        "Voies aériennes",
+        "Respiration",
+        "Circulation",
+        "Douleur uniquement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’approche ABC prime sur les autres éléments."
+    },
+    {
+      "question": "La douleur est la priorité absolue avant l’ABC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les fonctions vitales priment."
+    },
+    {
+      "question": "Quels dispositifs peuvent être utilisés en urgence ?",
+      "options": [
+        "Oxygène",
+        "Scope",
+        "Voie veineuse",
+        "Balance"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces dispositifs permettent la surveillance et le traitement."
+    },
+    {
+      "question": "La mise en place d’une voie veineuse est souvent nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet l’administration de traitements."
+    },
+    {
+      "question": "Quels éléments doivent être anticipés ?",
+      "options": [
+        "Aggravation",
+        "Complications",
+        "Besoins en matériel",
+        "Amélioration certaine"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’anticipation est essentielle en urgence."
+    },
+    {
+      "question": "L’anticipation permet une meilleure prise en charge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle réduit les délais d’intervention."
+    },
+    {
+      "question": "Quels rôles IDE dans l’anticipation ?",
+      "options": [
+        "Préparer matériel",
+        "Surveiller",
+        "Alerter",
+        "Prescrire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne prescrit pas mais prépare et surveille."
+    },
+    {
+      "question": "La préparation du matériel fait partie du rôle IDE.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une prise en charge rapide."
+    },
+    {
+      "question": "Quels éléments influencent la prise de décision ?",
+      "options": [
+        "Gravité",
+        "Evolution",
+        "Terrain",
+        "Couleur des cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces éléments orientent les décisions."
+    },
+    {
+      "question": "La prise de décision doit être rapide et adaptée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle conditionne le pronostic."
+    },
+    {
+      "question": "Quels signes imposent une alerte immédiate ?",
+      "options": [
+        "Arrêt respiratoire",
+        "Perte de connaissance",
+        "Choc",
+        "Etat stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes nécessitent une intervention urgente."
+    },
+    {
+      "question": "L’arrêt respiratoire est une urgence absolue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il engage immédiatement le pronostic vital."
+    },
+    {
+      "question": "Quels objectifs globaux en urgence ?",
+      "options": [
+        "Stabiliser",
+        "Surveiller",
+        "Traiter",
+        "Attendre"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est active et dynamique."
+    },
+    {
+      "question": "La surveillance permet d’adapter la prise en charge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle guide les décisions thérapeutiques."
+    },
+    {
+      "question": "Quels éléments de coordination ?",
+      "options": [
+        "Communication",
+        "Transmission",
+        "Travail en équipe",
+        "Isolement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La coordination est essentielle en urgence."
+    },
+    {
+      "question": "Le travail en équipe est indispensable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il améliore la qualité des soins."
+    },
+    {
+      "question": "Une approche globale et systématique est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de ne rien oublier."
+    },
+    {
+      "question": "Une détresse vitale engage immédiatement le pronostic vital.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une détresse vitale nécessite une prise en charge immédiate."
+    },
+    {
+      "question": "La prise en charge peut attendre en cas de doute diagnostique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. En urgence, on agit avant même d’avoir un diagnostic précis."
+    },
+    {
+      "question": "Quels signes traduisent une détresse vitale ?",
+      "options": [
+        "Arrêt respiratoire",
+        "Arrêt cardiaque",
+        "Coma",
+        "Appétit conservé"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une atteinte des fonctions vitales."
+    },
+    {
+      "question": "La reconnaissance précoce d’une détresse améliore le pronostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une prise en charge rapide limite les complications."
+    },
+    {
+      "question": "Quels éléments doivent être évalués en priorité ?",
+      "options": [
+        "Voies aériennes",
+        "Respiration",
+        "Circulation",
+        "Alimentation"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’approche ABC est prioritaire en urgence."
+    },
+    {
+      "question": "La circulation est évaluée avant la respiration.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’ordre ABC commence par Airway puis Breathing."
+    },
+    {
+      "question": "Quels signes indiquent une obstruction des voies aériennes ?",
+      "options": [
+        "Stridor",
+        "Difficulté à parler",
+        "Agitation",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une obstruction des voies aériennes."
+    },
+    {
+      "question": "Une obstruction des voies aériennes est une urgence absolue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut entraîner un arrêt respiratoire rapide."
+    },
+    {
+      "question": "Quels signes indiquent une détresse circulatoire ?",
+      "options": [
+        "Hypotension",
+        "Tachycardie",
+        "Marbrures",
+        "Bonne perfusion"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une mauvaise perfusion."
+    },
+    {
+      "question": "Une tension normale exclut un état de choc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Un choc peut être compensé au début."
+    },
+    {
+      "question": "Quels signes respiratoires doivent alerter ?",
+      "options": [
+        "Polypnée",
+        "Apnée",
+        "Cyanose",
+        "Respiration calme"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une détresse respiratoire."
+    },
+    {
+      "question": "L’apnée est une urgence vitale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle nécessite une intervention immédiate."
+    },
+    {
+      "question": "Quels éléments permettent d’évaluer la gravité ?",
+      "options": [
+        "Constantes vitales",
+        "Etat de conscience",
+        "Signes cliniques",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces éléments permettent une évaluation globale."
+    },
+    {
+      "question": "L’évaluation doit être répétée régulièrement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’état du patient peut évoluer rapidement."
+    },
+    {
+      "question": "Quels signes d’aggravation rapide ?",
+      "options": [
+        "Chute tension",
+        "Altération conscience",
+        "Détresse respiratoire",
+        "Amélioration"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes nécessitent une intervention urgente."
+    },
+    {
+      "question": "Une amélioration exclut tout risque d’aggravation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une surveillance reste indispensable."
+    },
+    {
+      "question": "Quels rôles IDE en urgence ?",
+      "options": [
+        "Surveiller",
+        "Alerter",
+        "Mettre en sécurité",
+        "Prescrire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne prescrit pas mais assure la prise en charge initiale."
+    },
+    {
+      "question": "La mise en sécurité du patient est prioritaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle évite les complications."
+    },
+    {
+      "question": "Quels éléments participent à la prise en charge ?",
+      "options": [
+        "Oxygène",
+        "Surveillance",
+        "Position adaptée",
+        "Absence d’intervention"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces mesures sont essentielles en urgence."
+    },
+    {
+      "question": "La position du patient peut améliorer son état.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Certaines positions facilitent la respiration ou la circulation."
+    },
+    {
+      "question": "Quels éléments doivent être anticipés ?",
+      "options": [
+        "Aggravation",
+        "Complications",
+        "Besoins en matériel",
+        "Guérison immédiate"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’anticipation permet une meilleure prise en charge."
+    },
+    {
+      "question": "L’anticipation améliore la qualité des soins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de réagir rapidement."
+    },
+    {
+      "question": "Quels éléments influencent le pronostic ?",
+      "options": [
+        "Délai de prise en charge",
+        "Terrain",
+        "Gravité initiale",
+        "Couleur des cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs influencent l’évolution du patient."
+    },
+    {
+      "question": "Le délai de prise en charge est déterminant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un retard augmente le risque de complications."
+    },
+    {
+      "question": "Quels éléments permettent la coordination des soins ?",
+      "options": [
+        "Transmission",
+        "Communication",
+        "Travail en équipe",
+        "Isolement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La coordination repose sur une bonne communication."
+    },
+    {
+      "question": "La communication est essentielle en situation d’urgence.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une prise en charge efficace."
+    },
+    {
+      "question": "Une prise en charge globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de prendre en compte tous les aspects du patient."
+    },
+    {
+      "question": "La prise en charge est identique pour tous les patients.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle doit être adaptée à chaque situation."
+    },
+    {
+      "question": "Une approche systématique permet d’éviter les oublis.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle structure la prise en charge."
+    }
+  ]
+}

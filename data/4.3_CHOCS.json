@@ -1,0 +1,1137 @@
+{
+  "title": "Quiz UE 4.3 ",
+  "subtitle": "États de choc",
+  "questions": [
+    {
+      "question": "Un état de choc correspond à une défaillance circulatoire aiguë.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le choc correspond à une inadéquation entre les besoins et les apports en oxygène des tissus."
+    },
+    {
+      "question": "Un état de choc entraîne une bonne perfusion tissulaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il entraîne une hypoperfusion des organes."
+    },
+    {
+      "question": "Quels sont les principaux types de choc ?",
+      "options": [
+        "Hypovolémique",
+        "Cardiogénique",
+        "Distributif",
+        "Digestif"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les chocs sont classés selon leur mécanisme."
+    },
+    {
+      "question": "Le choc hypovolémique est lié à une perte de volume sanguin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est causé par une hémorragie ou une déshydratation."
+    },
+    {
+      "question": "Le choc cardiogénique est dû à une défaillance du cœur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le cœur n’assure plus un débit suffisant."
+    },
+    {
+      "question": "Le choc distributif correspond à une vasoconstriction généralisée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il correspond à une vasodilatation excessive."
+    },
+    {
+      "question": "Quels exemples de choc distributif ?",
+      "options": [
+        "Choc septique",
+        "Choc anaphylactique",
+        "Choc neurogénique",
+        "Choc mécanique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces chocs impliquent une vasodilatation."
+    },
+    {
+      "question": "Le choc septique est d’origine infectieuse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est lié à une infection sévère."
+    },
+    {
+      "question": "Quels signes évoquent un état de choc ?",
+      "options": [
+        "Hypotension",
+        "Tachycardie",
+        "Marbrures",
+        "Tension normale stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une mauvaise perfusion."
+    },
+    {
+      "question": "Une hypotension est un signe tardif de choc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le choc peut être compensé au début."
+    },
+    {
+      "question": "Quels signes cutanés peuvent apparaître ?",
+      "options": [
+        "Pâleur",
+        "Sueurs",
+        "Marbrures",
+        "Peau chaude normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une hypoperfusion."
+    },
+    {
+      "question": "Les marbrures traduisent une mauvaise perfusion périphérique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles sont un signe de gravité."
+    },
+    {
+      "question": "Quels signes neurologiques peuvent apparaître ?",
+      "options": [
+        "Confusion",
+        "Agitation",
+        "Somnolence",
+        "Conscience normale stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une souffrance cérébrale."
+    },
+    {
+      "question": "Une confusion peut être liée à une hypoperfusion cérébrale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le cerveau est sensible à l’hypoxie."
+    },
+    {
+      "question": "Quels signes urinaires peuvent apparaître ?",
+      "options": [
+        "Oligurie",
+        "Anurie",
+        "Diurèse normale",
+        "Polyurie"
+      ],
+      "correct": [0, 1],
+      "explanation": "La baisse de diurèse traduit une hypoperfusion rénale."
+    },
+    {
+      "question": "L’oligurie est un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit une insuffisance circulatoire."
+    },
+    {
+      "question": "Quels paramètres surveiller en priorité ?",
+      "options": [
+        "TA",
+        "FC",
+        "FR",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces constantes permettent d’évaluer l’état hémodynamique."
+    },
+    {
+      "question": "Une tachycardie peut être un mécanisme compensateur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de maintenir le débit cardiaque."
+    },
+    {
+      "question": "Quels objectifs de prise en charge ?",
+      "options": [
+        "Restaurer perfusion",
+        "Identifier cause",
+        "Stabiliser patient",
+        "Attendre"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est rapide et active."
+    },
+    {
+      "question": "Le remplissage vasculaire peut être nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est indiqué dans les chocs hypovolémiques."
+    },
+    {
+      "question": "Quels traitements peuvent être utilisés ?",
+      "options": [
+        "Remplissage",
+        "Vasopresseurs",
+        "Oxygène",
+        "Absence de traitement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le traitement dépend du type de choc."
+    },
+    {
+      "question": "Les vasopresseurs augmentent la pression artérielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils provoquent une vasoconstriction."
+    },
+    {
+      "question": "Quels rôles IDE en état de choc ?",
+      "options": [
+        "Surveillance",
+        "Alerte",
+        "Mise en place traitements",
+        "Diagnostic médical"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne pose pas de diagnostic médical."
+    },
+    {
+      "question": "La surveillance doit être rapprochée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évolution peut être rapide."
+    },
+    {
+      "question": "Quels signes de gravité immédiate ?",
+      "options": [
+        "Hypotension",
+        "Altération conscience",
+        "Oligurie",
+        "Etat stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes nécessitent une prise en charge urgente."
+    },
+    {
+      "question": "Un état de choc est une urgence vitale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il engage le pronostic vital."
+    },
+    {
+      "question": "Une prise en charge rapide améliore le pronostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le délai est un facteur clé."
+    },
+    {
+      "question": "Le choc est toujours immédiatement évident.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il peut être compensé au début."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
+    },
+    {
+      "question": "Le choc hypovolémique peut être causé par une hémorragie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une perte sanguine importante diminue le volume circulant."
+    },
+    {
+      "question": "Une déshydratation sévère peut entraîner un choc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle entraîne une hypovolémie."
+    },
+    {
+      "question": "Quels signes évoquent un choc hypovolémique ?",
+      "options": [
+        "Hypotension",
+        "Tachycardie",
+        "Pâleur",
+        "Peau chaude et rouge"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une perte de volume et une vasoconstriction."
+    },
+    {
+      "question": "La peau chaude est typique du choc hypovolémique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La peau est froide et pâle."
+    },
+    {
+      "question": "Le choc cardiogénique est souvent lié à un infarctus.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’infarctus altère la fonction cardiaque."
+    },
+    {
+      "question": "Quels signes évoquent un choc cardiogénique ?",
+      "options": [
+        "Dyspnée",
+        "Œdèmes",
+        "Râles crépitants",
+        "Diurèse normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une insuffisance cardiaque."
+    },
+    {
+      "question": "Le choc cardiogénique entraîne une baisse du débit cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le cœur ne pompe plus efficacement."
+    },
+    {
+      "question": "Quels signes évoquent un choc septique ?",
+      "options": [
+        "Fièvre",
+        "Hypotension",
+        "Tachycardie",
+        "Peau normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le choc septique associe infection et défaillance circulatoire."
+    },
+    {
+      "question": "Le choc septique peut s’accompagner d’une peau chaude au début.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il existe une phase chaude avec vasodilatation."
+    },
+    {
+      "question": "Quels signes évoquent un choc anaphylactique ?",
+      "options": [
+        "Urticaire",
+        "Œdème",
+        "Dyspnée",
+        "Tension normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une réaction allergique sévère."
+    },
+    {
+      "question": "Le choc anaphylactique est une urgence vitale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il peut entraîner un arrêt respiratoire."
+    },
+    {
+      "question": "Quels signes respiratoires peuvent apparaître ?",
+      "options": [
+        "Dyspnée",
+        "Polypnée",
+        "Cyanose",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une détresse respiratoire associée."
+    },
+    {
+      "question": "La cyanose est un signe d’hypoxie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle indique un manque d’oxygène."
+    },
+    {
+      "question": "Quels signes neurologiques peuvent apparaître ?",
+      "options": [
+        "Confusion",
+        "Agitation",
+        "Coma",
+        "Conscience normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une souffrance cérébrale."
+    },
+    {
+      "question": "Le coma est un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il engage le pronostic vital."
+    },
+    {
+      "question": "Quels paramètres doivent être surveillés ?",
+      "options": [
+        "TA",
+        "FC",
+        "FR",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces constantes sont essentielles en état de choc."
+    },
+    {
+      "question": "Une tachycardie est un signe d’adaptation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle compense la baisse du débit."
+    },
+    {
+      "question": "Quels objectifs de prise en charge ?",
+      "options": [
+        "Restaurer perfusion",
+        "Apporter oxygène",
+        "Traiter cause",
+        "Attendre"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est immédiate et active."
+    },
+    {
+      "question": "L’oxygène est souvent nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il améliore l’oxygénation tissulaire."
+    },
+    {
+      "question": "Quels traitements peuvent être utilisés ?",
+      "options": [
+        "Remplissage",
+        "Vasopresseurs",
+        "Oxygène",
+        "Absence traitement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le traitement dépend du type de choc."
+    },
+    {
+      "question": "Le remplissage est indiqué dans tous les chocs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il est surtout indiqué dans les chocs hypovolémiques."
+    },
+    {
+      "question": "Quels rôles IDE ?",
+      "options": [
+        "Surveillance",
+        "Alerte",
+        "Administration traitement",
+        "Diagnostic"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne pose pas de diagnostic médical."
+    },
+    {
+      "question": "La surveillance doit être continue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évolution peut être rapide."
+    },
+    {
+      "question": "Quels signes d’aggravation ?",
+      "options": [
+        "Hypotension",
+        "Altération conscience",
+        "Oligurie",
+        "Amélioration"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une dégradation."
+    },
+    {
+      "question": "Une amélioration exclut une surveillance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une surveillance reste nécessaire."
+    },
+    {
+      "question": "Quels facteurs influencent le pronostic ?",
+      "options": [
+        "Age",
+        "Terrain",
+        "Délai prise en charge",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs sont déterminants."
+    },
+    {
+      "question": "Le délai de prise en charge influence le pronostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une prise en charge rapide améliore le pronostic."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
+    },
+    {
+      "question": "Le choc correspond à une inadéquation entre apports et besoins en oxygène.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le choc entraîne une hypoxie tissulaire."
+    },
+    {
+      "question": "Le choc est toujours accompagné d’une hypotension initiale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le choc peut être compensé au début avec une tension normale."
+    },
+    {
+      "question": "Quels mécanismes compensateurs peuvent apparaître ?",
+      "options": [
+        "Tachycardie",
+        "Vasoconstriction",
+        "Augmentation FR",
+        "Bradycardie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces mécanismes visent à maintenir la perfusion."
+    },
+    {
+      "question": "La tachycardie est un mécanisme compensateur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle augmente le débit cardiaque."
+    },
+    {
+      "question": "Quels signes évoquent une hypoperfusion ?",
+      "options": [
+        "Marbrures",
+        "Pâleur",
+        "Extrémités froides",
+        "Peau chaude rosée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une mauvaise perfusion périphérique."
+    },
+    {
+      "question": "Les extrémités froides sont un signe de choc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles traduisent une vasoconstriction."
+    },
+    {
+      "question": "Quels signes urinaires peuvent être présents ?",
+      "options": [
+        "Oligurie",
+        "Anurie",
+        "Diurèse normale",
+        "Polyurie"
+      ],
+      "correct": [0, 1],
+      "explanation": "La baisse de diurèse est un signe de gravité."
+    },
+    {
+      "question": "La diurèse est un bon indicateur de perfusion rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une baisse indique une hypoperfusion."
+    },
+    {
+      "question": "Quels signes respiratoires peuvent accompagner un choc ?",
+      "options": [
+        "Polypnée",
+        "Dyspnée",
+        "Cyanose",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une souffrance tissulaire."
+    },
+    {
+      "question": "Une polypnée peut être un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit une compensation."
+    },
+    {
+      "question": "Quels signes neurologiques sont associés au choc ?",
+      "options": [
+        "Confusion",
+        "Agitation",
+        "Somnolence",
+        "Conscience normale stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une hypoperfusion cérébrale."
+    },
+    {
+      "question": "Une agitation peut être un signe d’hypoxie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut traduire une souffrance cérébrale."
+    },
+    {
+      "question": "Quels paramètres surveiller en priorité ?",
+      "options": [
+        "TA",
+        "FC",
+        "FR",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres évaluent l’état hémodynamique."
+    },
+    {
+      "question": "Une hypotension est un signe tardif de choc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle apparaît après les mécanismes compensateurs."
+    },
+    {
+      "question": "Quels examens peuvent être utiles ?",
+      "options": [
+        "Gaz du sang",
+        "Lactates",
+        "Bilan sanguin",
+        "Test auditif"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens évaluent la gravité et la cause."
+    },
+    {
+      "question": "Les lactates élevés traduisent une hypoxie tissulaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils indiquent une souffrance cellulaire."
+    },
+    {
+      "question": "Quels objectifs de prise en charge ?",
+      "options": [
+        "Restaurer perfusion",
+        "Apporter oxygène",
+        "Traiter cause",
+        "Attendre"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge doit être immédiate."
+    },
+    {
+      "question": "Le remplissage vasculaire est toujours indiqué.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il dépend du type de choc."
+    },
+    {
+      "question": "Quels traitements peuvent être utilisés ?",
+      "options": [
+        "Remplissage",
+        "Vasopresseurs",
+        "Oxygène",
+        "Absence de traitement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le traitement dépend de la cause."
+    },
+    {
+      "question": "Les vasopresseurs augmentent la pression artérielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils provoquent une vasoconstriction."
+    },
+    {
+      "question": "Quels rôles IDE en état de choc ?",
+      "options": [
+        "Surveillance",
+        "Alerte",
+        "Administration traitement",
+        "Diagnostic"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE participe activement à la prise en charge."
+    },
+    {
+      "question": "La surveillance doit être continue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’état peut évoluer rapidement."
+    },
+    {
+      "question": "Quels signes d’aggravation ?",
+      "options": [
+        "Hypotension",
+        "Altération conscience",
+        "Oligurie",
+        "Amélioration"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une dégradation."
+    },
+    {
+      "question": "Une amélioration exclut une surveillance rapprochée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une surveillance reste indispensable."
+    },
+    {
+      "question": "Quels facteurs influencent le pronostic ?",
+      "options": [
+        "Age",
+        "Terrain",
+        "Délai prise en charge",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs sont déterminants."
+    },
+    {
+      "question": "Le délai de prise en charge influence le pronostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une prise en charge rapide améliore l’issue."
+    },
+    {
+      "question": "Le choc est une urgence vitale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il engage rapidement le pronostic vital."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
+    },
+    {
+      "question": "Le choc hypovolémique entraîne une diminution du retour veineux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La perte de volume diminue le retour veineux et donc le débit cardiaque."
+    },
+    {
+      "question": "Le choc cardiogénique est lié à une augmentation du débit cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il est lié à une défaillance du cœur avec diminution du débit."
+    },
+    {
+      "question": "Quels signes évoquent une mauvaise perfusion périphérique ?",
+      "options": [
+        "Marbrures",
+        "Extrémités froides",
+        "Temps de recoloration allongé",
+        "Peau chaude rosée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une hypoperfusion périphérique."
+    },
+    {
+      "question": "Un temps de recoloration cutanée allongé est un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il indique une mauvaise perfusion."
+    },
+    {
+      "question": "Quels mécanismes sont impliqués dans le choc septique ?",
+      "options": [
+        "Vasodilatation",
+        "Inflammation",
+        "Augmentation perméabilité vasculaire",
+        "Vasoconstriction intense"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le choc septique est caractérisé par une vasodilatation et une fuite capillaire."
+    },
+    {
+      "question": "Le choc septique entraîne une vasodilatation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle provoque une chute de la pression artérielle."
+    },
+    {
+      "question": "Quels signes biologiques peuvent être présents ?",
+      "options": [
+        "Augmentation lactates",
+        "Acidose",
+        "Troubles ioniques",
+        "Valeurs toujours normales"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces anomalies traduisent une hypoxie cellulaire."
+    },
+    {
+      "question": "Une acidose peut être observée dans un état de choc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est liée à l’accumulation de lactates."
+    },
+    {
+      "question": "Quels signes respiratoires peuvent aggraver un choc ?",
+      "options": [
+        "Hypoxie",
+        "Polypnée",
+        "Détresse respiratoire",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Une atteinte respiratoire aggrave l’hypoxie tissulaire."
+    },
+    {
+      "question": "Une hypoxie aggrave un état de choc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle augmente la souffrance des organes."
+    },
+    {
+      "question": "Quels organes sont particulièrement sensibles au choc ?",
+      "options": [
+        "Cerveau",
+        "Reins",
+        "Cœur",
+        "Peau uniquement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces organes sont très sensibles à l’hypoperfusion."
+    },
+    {
+      "question": "Le cerveau est sensible à l’hypoxie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est très vulnérable au manque d’oxygène."
+    },
+    {
+      "question": "Quels signes d’atteinte rénale ?",
+      "options": [
+        "Oligurie",
+        "Anurie",
+        "Créatinine élevée",
+        "Diurèse augmentée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une insuffisance rénale."
+    },
+    {
+      "question": "Une augmentation de la créatinine est un signe de défaillance rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle reflète une altération de la fonction rénale."
+    },
+    {
+      "question": "Quels objectifs du traitement ?",
+      "options": [
+        "Maintenir perfusion",
+        "Maintenir oxygénation",
+        "Corriger cause",
+        "Attendre évolution"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est immédiate et active."
+    },
+    {
+      "question": "Le traitement doit être adapté au type de choc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Chaque choc a une prise en charge spécifique."
+    },
+    {
+      "question": "Quels traitements spécifiques peuvent être utilisés ?",
+      "options": [
+        "Antibiotiques",
+        "Adrénaline",
+        "Remplissage",
+        "Absence de traitement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les traitements varient selon l’étiologie."
+    },
+    {
+      "question": "Les antibiotiques sont utilisés dans le choc septique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils traitent l’infection responsable."
+    },
+    {
+      "question": "Quels rôles IDE dans la prise en charge ?",
+      "options": [
+        "Surveillance",
+        "Administration traitements",
+        "Alerte",
+        "Diagnostic médical"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE participe activement sans poser de diagnostic médical."
+    },
+    {
+      "question": "La surveillance des constantes est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de suivre l’évolution."
+    },
+    {
+      "question": "Quels signes d’aggravation ?",
+      "options": [
+        "Baisse TA",
+        "Altération conscience",
+        "Oligurie",
+        "Amélioration"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une dégradation."
+    },
+    {
+      "question": "Une amélioration clinique permet d’arrêter la surveillance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La surveillance doit être maintenue."
+    },
+    {
+      "question": "Quels facteurs influencent la gravité ?",
+      "options": [
+        "Terrain",
+        "Age",
+        "Comorbidités",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs influencent le pronostic."
+    },
+    {
+      "question": "Le terrain du patient influence l’évolution.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il modifie la tolérance au choc."
+    },
+    {
+      "question": "Un état de choc peut évoluer vers une défaillance multiviscérale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’hypoperfusion prolongée entraîne des défaillances multiples."
+    },
+    {
+      "question": "Le choc est toujours réversible sans traitement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Sans traitement, il peut être fatal."
+    },
+    {
+      "question": "Une prise en charge rapide améliore le pronostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le délai est déterminant."
+    },
+    {
+      "question": "Une approche globale et coordonnée est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle implique plusieurs professionnels."
+    },
+    {
+      "question": "Le choc obstructif est lié à un obstacle au retour ou à l’éjection du sang.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est causé par un obstacle mécanique (EP, tamponnade, pneumothorax compressif)."
+    },
+    {
+      "question": "Le choc obstructif est un type de choc distributif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. C’est une catégorie distincte liée à un obstacle mécanique."
+    },
+    {
+      "question": "Quels exemples de choc obstructif ?",
+      "options": [
+        "Embolie pulmonaire massive",
+        "Tamponnade",
+        "Pneumothorax compressif",
+        "Choc septique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces situations empêchent le remplissage ou l’éjection cardiaque."
+    },
+    {
+      "question": "La tamponnade correspond à une compression du cœur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’accumulation de liquide péricardique gêne le remplissage cardiaque."
+    },
+    {
+      "question": "Quels signes évoquent un choc obstructif ?",
+      "options": [
+        "Hypotension",
+        "Dyspnée",
+        "Tachycardie",
+        "Etat stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une défaillance circulatoire aiguë."
+    },
+    {
+      "question": "Le pneumothorax compressif peut entraîner un choc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il comprime les structures thoraciques et diminue le retour veineux."
+    },
+    {
+      "question": "Quels signes de gravité respiratoire associés ?",
+      "options": [
+        "Polypnée",
+        "Cyanose",
+        "Détresse respiratoire",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une atteinte respiratoire associée."
+    },
+    {
+      "question": "Une détresse respiratoire peut aggraver un choc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle diminue l’apport en oxygène."
+    },
+    {
+      "question": "Quels signes de mauvaise perfusion centrale ?",
+      "options": [
+        "Hypotension",
+        "Tachycardie",
+        "Altération conscience",
+        "Etat stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une atteinte des organes vitaux."
+    },
+    {
+      "question": "Une altération de la conscience est un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit une hypoperfusion cérébrale."
+    },
+    {
+      "question": "Quels paramètres permettent de suivre l’évolution ?",
+      "options": [
+        "TA",
+        "FC",
+        "Diurèse",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres permettent d’évaluer la perfusion."
+    },
+    {
+      "question": "La diurèse est un indicateur de perfusion rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une baisse est un signe de gravité."
+    },
+    {
+      "question": "Quels signes biologiques de gravité ?",
+      "options": [
+        "Lactates élevés",
+        "Acidose",
+        "Hyperkaliémie possible",
+        "Valeurs normales constantes"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces anomalies traduisent une souffrance cellulaire."
+    },
+    {
+      "question": "Les lactates élevés traduisent une hypoperfusion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils sont un marqueur de gravité."
+    },
+    {
+      "question": "Quels objectifs thérapeutiques ?",
+      "options": [
+        "Maintenir pression artérielle",
+        "Maintenir oxygénation",
+        "Corriger cause",
+        "Attendre"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge doit être rapide et ciblée."
+    },
+    {
+      "question": "Le traitement doit être étiologique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il faut traiter la cause du choc."
+    },
+    {
+      "question": "Quels traitements peuvent être utilisés ?",
+      "options": [
+        "Remplissage",
+        "Vasopresseurs",
+        "Oxygène",
+        "Absence de traitement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces traitements sont utilisés selon la situation."
+    },
+    {
+      "question": "Les vasopresseurs augmentent la pression artérielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils provoquent une vasoconstriction."
+    },
+    {
+      "question": "Quels rôles IDE ?",
+      "options": [
+        "Surveillance",
+        "Alerte",
+        "Préparation matériel",
+        "Diagnostic médical"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE participe activement à la prise en charge."
+    },
+    {
+      "question": "La préparation du matériel est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une intervention rapide."
+    },
+    {
+      "question": "Quels signes d’aggravation ?",
+      "options": [
+        "Hypotension",
+        "Altération conscience",
+        "Oligurie",
+        "Amélioration"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une aggravation."
+    },
+    {
+      "question": "Une amélioration exclut toute complication.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une surveillance reste indispensable."
+    },
+    {
+      "question": "Quels facteurs aggravants ?",
+      "options": [
+        "Age",
+        "Comorbidités",
+        "Retard prise en charge",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs influencent le pronostic."
+    },
+    {
+      "question": "Le retard de prise en charge aggrave le pronostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le délai est un facteur clé."
+    },
+    {
+      "question": "Un choc peut évoluer vers un arrêt cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Sans traitement, il peut être fatal."
+    },
+    {
+      "question": "Le choc est toujours réversible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il peut entraîner des lésions irréversibles."
+    },
+    {
+      "question": "Une prise en charge rapide améliore le pronostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle limite les complications."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
+    }
+  ]
+}

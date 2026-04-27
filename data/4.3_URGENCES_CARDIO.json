@@ -1,0 +1,1414 @@
+{
+  "title": "Quiz UE 4.3 ",
+  "subtitle": "Urgences cardio-respiratoires",
+  "questions": [
+    {
+      "question": "Une douleur thoracique doit toujours être considérée comme une urgence potentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Toute douleur thoracique doit faire évoquer une cause grave comme un SCA ou une embolie pulmonaire."
+    },
+    {
+      "question": "Une douleur thoracique élimine une cause respiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une douleur thoracique peut être d’origine respiratoire (ex : embolie pulmonaire)."
+    },
+    {
+      "question": "Quels diagnostics doivent être évoqués devant une douleur thoracique ?",
+      "options": [
+        "Syndrome coronarien aigu",
+        "Embolie pulmonaire",
+        "Dissection aortique",
+        "Appendicite"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces pathologies sont des urgences vitales à éliminer en priorité."
+    },
+    {
+      "question": "La douleur du SCA est souvent oppressante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est typiquement décrite comme une oppression thoracique."
+    },
+    {
+      "question": "La douleur du SCA est toujours localisée et brève.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle est souvent diffuse et prolongée."
+    },
+    {
+      "question": "Quels signes accompagnent un SCA ?",
+      "options": [
+        "Sueurs",
+        "Dyspnée",
+        "Nausées",
+        "Appétit augmenté"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes végétatifs sont fréquents."
+    },
+    {
+      "question": "Une dyspnée peut être un signe cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut traduire une insuffisance cardiaque ou un OAP."
+    },
+    {
+      "question": "Quels signes évoquent une embolie pulmonaire ?",
+      "options": [
+        "Dyspnée brutale",
+        "Douleur thoracique",
+        "Tachycardie",
+        "Vision normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes sont typiques d’une EP."
+    },
+    {
+      "question": "L’embolie pulmonaire peut entraîner une détresse respiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut être rapidement grave."
+    },
+    {
+      "question": "Quels signes évoquent un œdème aigu pulmonaire ?",
+      "options": [
+        "Dyspnée",
+        "Râles crépitants",
+        "Orthopnée",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une surcharge pulmonaire."
+    },
+    {
+      "question": "L’OAP est une urgence respiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il nécessite une prise en charge rapide."
+    },
+    {
+      "question": "Quels signes de gravité respiratoire ?",
+      "options": [
+        "Polypnée",
+        "Cyanose",
+        "Tirage",
+        "Respiration calme"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une détresse respiratoire."
+    },
+    {
+      "question": "Une cyanose est un signe d’hypoxie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit un manque d’oxygène."
+    },
+    {
+      "question": "Quels éléments permettent d’évaluer la respiration ?",
+      "options": [
+        "Fréquence respiratoire",
+        "SpO2",
+        "Amplitude",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces éléments évaluent la fonction respiratoire."
+    },
+    {
+      "question": "Une SpO2 basse est un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle indique une hypoxémie."
+    },
+    {
+      "question": "Quels signes cardiovasculaires de gravité ?",
+      "options": [
+        "Hypotension",
+        "Tachycardie",
+        "Marbrures",
+        "Tension stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une mauvaise perfusion."
+    },
+    {
+      "question": "Une tachycardie peut être un signe de détresse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut traduire une compensation."
+    },
+    {
+      "question": "Quels examens sont réalisés en urgence ?",
+      "options": [
+        "ECG",
+        "Gaz du sang",
+        "Radiographie",
+        "Test de vision"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens orientent le diagnostic."
+    },
+    {
+      "question": "L’ECG est essentiel en cas de douleur thoracique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il permet de diagnostiquer un SCA."
+    },
+    {
+      "question": "Quels objectifs en urgence cardio-respiratoire ?",
+      "options": [
+        "Maintenir oxygénation",
+        "Maintenir perfusion",
+        "Identifier cause",
+        "Attendre"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est immédiate et active."
+    },
+    {
+      "question": "L’oxygène est un traitement fréquent.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il corrige l’hypoxie."
+    },
+    {
+      "question": "Quels rôles IDE ?",
+      "options": [
+        "Surveillance",
+        "Alerte",
+        "Mise en place O2",
+        "Diagnostic médical"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE assure la prise en charge initiale."
+    },
+    {
+      "question": "La surveillance doit être rapprochée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’état peut évoluer rapidement."
+    },
+    {
+      "question": "Quels signes nécessitent une alerte immédiate ?",
+      "options": [
+        "Détresse respiratoire",
+        "Douleur thoracique intense",
+        "Perte de connaissance",
+        "Etat stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une urgence vitale."
+    },
+    {
+      "question": "La perte de connaissance est un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle nécessite une prise en charge immédiate."
+    },
+    {
+      "question": "Quels éléments influencent la gravité ?",
+      "options": [
+        "Terrain",
+        "Age",
+        "Pathologie",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs modifient le pronostic."
+    },
+    {
+      "question": "La prise en charge doit être rapide.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le délai est crucial."
+    },
+    {
+      "question": "Une douleur thoracique peut être d’origine bénigne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Mais une cause grave doit toujours être éliminée."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
+    },
+    {
+      "question": "Une douleur thoracique irradiant au bras gauche est évocatrice d’un SCA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’irradiation au bras gauche est typique d’un syndrome coronarien aigu."
+    },
+    {
+      "question": "Une douleur thoracique qui varie avec la respiration évoque plutôt une cause cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une douleur influencée par la respiration évoque plutôt une origine pleuro-pulmonaire."
+    },
+    {
+      "question": "Quels signes orientent vers une origine cardiaque de la douleur ?",
+      "options": [
+        "Oppression thoracique",
+        "Irradiation bras/mâchoire",
+        "Douleur prolongée",
+        "Douleur augmentée à la palpation"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La douleur mécanique à la palpation évoque plutôt une cause musculosquelettique."
+    },
+    {
+      "question": "La douleur reproductible à la palpation évoque une origine cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle oriente vers une origine pariétale."
+    },
+    {
+      "question": "Quels signes évoquent une embolie pulmonaire grave ?",
+      "options": [
+        "Dyspnée brutale",
+        "Tachycardie",
+        "Hypotension",
+        "Appétit conservé"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une atteinte cardio-respiratoire aiguë."
+    },
+    {
+      "question": "Une hypotension dans une EP est un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle évoque une EP massive."
+    },
+    {
+      "question": "Quels signes évoquent une insuffisance cardiaque aiguë ?",
+      "options": [
+        "Dyspnée",
+        "Œdèmes",
+        "Râles crépitants",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une surcharge hydrique."
+    },
+    {
+      "question": "L’orthopnée correspond à une dyspnée en position couchée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le patient doit se redresser pour respirer."
+    },
+    {
+      "question": "Quels signes évoquent une détresse respiratoire aiguë ?",
+      "options": [
+        "Polypnée",
+        "Tirage",
+        "Cyanose",
+        "Respiration calme"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une insuffisance respiratoire."
+    },
+    {
+      "question": "Une respiration rapide est toujours normale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle peut traduire une détresse respiratoire."
+    },
+    {
+      "question": "Quels signes doivent alerter en priorité ?",
+      "options": [
+        "Altération conscience",
+        "Hypotension",
+        "Détresse respiratoire",
+        "Etat stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une urgence vitale."
+    },
+    {
+      "question": "La surveillance de la SpO2 est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet d’évaluer l’oxygénation."
+    },
+    {
+      "question": "Quels éléments surveiller en priorité ?",
+      "options": [
+        "FR",
+        "FC",
+        "TA",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces constantes sont essentielles."
+    },
+    {
+      "question": "Une chute de tension est un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit une instabilité hémodynamique."
+    },
+    {
+      "question": "Quels examens complémentaires sont prioritaires ?",
+      "options": [
+        "ECG",
+        "Gaz du sang",
+        "Radio thorax",
+        "Test auditif"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens orientent rapidement le diagnostic."
+    },
+    {
+      "question": "Le gaz du sang permet d’évaluer les échanges gazeux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il mesure O2, CO2 et pH."
+    },
+    {
+      "question": "Quels objectifs de prise en charge ?",
+      "options": [
+        "Oxygéner",
+        "Stabiliser",
+        "Diagnostiquer",
+        "Attendre"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est active et immédiate."
+    },
+    {
+      "question": "L’oxygénothérapie peut améliorer l’état du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle corrige l’hypoxémie."
+    },
+    {
+      "question": "Quels dispositifs peuvent être utilisés ?",
+      "options": [
+        "Lunettes à oxygène",
+        "Masque",
+        "Scope",
+        "Balance"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces dispositifs permettent traitement et surveillance."
+    },
+    {
+      "question": "La mise en place d’un scope permet une surveillance continue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il surveille FC, rythme et parfois SpO2."
+    },
+    {
+      "question": "Quels rôles IDE en urgence cardio-respiratoire ?",
+      "options": [
+        "Surveiller",
+        "Alerter",
+        "Installer patient",
+        "Diagnostiquer"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne pose pas de diagnostic médical."
+    },
+    {
+      "question": "L’installation du patient peut améliorer la respiration.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La position demi-assise est souvent utilisée."
+    },
+    {
+      "question": "Quels signes indiquent une aggravation ?",
+      "options": [
+        "Baisse SpO2",
+        "Augmentation FR",
+        "Altération conscience",
+        "Amélioration"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une détérioration."
+    },
+    {
+      "question": "Une amélioration initiale exclut une aggravation secondaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une surveillance reste indispensable."
+    },
+    {
+      "question": "Quels facteurs aggravants ?",
+      "options": [
+        "Age",
+        "Comorbidités",
+        "Retard prise en charge",
+        "Hydratation normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs augmentent le risque."
+    },
+    {
+      "question": "Le retard de prise en charge aggrave le pronostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le temps est un facteur clé."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de ne rien négliger."
+    },
+    {
+      "question": "La prise en charge est identique pour tous les patients.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle doit être individualisée."
+    },
+    {
+      "question": "Une douleur thoracique constrictive évoque en priorité un SCA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La douleur constrictive est typique du syndrome coronarien aigu."
+    },
+    {
+      "question": "Une douleur thoracique brève et fugace élimine un SCA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Même une douleur atypique ne permet pas d’exclure un SCA."
+    },
+    {
+      "question": "Quels signes peuvent accompagner une douleur thoracique grave ?",
+      "options": [
+        "Sueurs",
+        "Pâleur",
+        "Nausées",
+        "Appétit augmenté"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes végétatifs sont fréquents dans les urgences cardiaques."
+    },
+    {
+      "question": "Une douleur thoracique avec dyspnée est rassurante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’association douleur + dyspnée est un signe de gravité."
+    },
+    {
+      "question": "Quels signes évoquent une dissection aortique ?",
+      "options": [
+        "Douleur brutale",
+        "Douleur transfixiante",
+        "Irradiation dorsale",
+        "Douleur à la palpation"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La douleur est intense, brutale et souvent irradiée dans le dos."
+    },
+    {
+      "question": "La dissection aortique est une urgence vitale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle engage rapidement le pronostic vital."
+    },
+    {
+      "question": "Quels signes respiratoires graves ?",
+      "options": [
+        "Apnée",
+        "Cyanose",
+        "Tirage",
+        "Respiration régulière"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une détresse respiratoire."
+    },
+    {
+      "question": "Une apnée est une urgence absolue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle nécessite une prise en charge immédiate."
+    },
+    {
+      "question": "Quels signes peuvent évoquer un asthme aigu grave ?",
+      "options": [
+        "Dyspnée",
+        "Sifflements",
+        "Silence auscultatoire",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le silence auscultatoire est un signe de gravité."
+    },
+    {
+      "question": "Le silence auscultatoire est rassurant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il indique une obstruction sévère."
+    },
+    {
+      "question": "Quels signes de gravité cardiovasculaire ?",
+      "options": [
+        "Hypotension",
+        "Tachycardie",
+        "Marbrures",
+        "Tension normale stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une mauvaise perfusion."
+    },
+    {
+      "question": "Une tachycardie est toujours bénigne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle peut traduire une détresse."
+    },
+    {
+      "question": "Quels signes d’hypoxie ?",
+      "options": [
+        "Cyanose",
+        "Agitation",
+        "Confusion",
+        "Peau rosée normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent un manque d’oxygène."
+    },
+    {
+      "question": "La confusion peut être liée à une hypoxie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le cerveau est sensible au manque d’oxygène."
+    },
+    {
+      "question": "Quels paramètres doivent être surveillés en priorité ?",
+      "options": [
+        "SpO2",
+        "FR",
+        "FC",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres reflètent l’état cardio-respiratoire."
+    },
+    {
+      "question": "Une baisse de SpO2 est un signe d’aggravation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle indique une hypoxémie."
+    },
+    {
+      "question": "Quels examens permettent d’évaluer une dyspnée ?",
+      "options": [
+        "Gaz du sang",
+        "Radiographie",
+        "ECG",
+        "Test visuel"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens aident au diagnostic."
+    },
+    {
+      "question": "Le gaz du sang évalue l’équilibre acido-basique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il analyse pH, O2 et CO2."
+    },
+    {
+      "question": "Quels objectifs de prise en charge immédiate ?",
+      "options": [
+        "Oxygéner",
+        "Stabiliser",
+        "Surveiller",
+        "Attendre"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est active."
+    },
+    {
+      "question": "L’oxygène doit être administré sans surveillance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il doit être surveillé (SpO2)."
+    },
+    {
+      "question": "Quels dispositifs peuvent être utilisés ?",
+      "options": [
+        "Masque O2",
+        "Lunettes",
+        "Scope",
+        "Balance"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces dispositifs sont utiles en urgence."
+    },
+    {
+      "question": "Le scope permet une surveillance continue du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il surveille les constantes en continu."
+    },
+    {
+      "question": "Quels rôles IDE ?",
+      "options": [
+        "Surveillance",
+        "Alerte",
+        "Installation",
+        "Prescription"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne prescrit pas mais participe activement aux soins."
+    },
+    {
+      "question": "La position demi-assise améliore la respiration.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle facilite la ventilation."
+    },
+    {
+      "question": "Quels signes d’aggravation respiratoire ?",
+      "options": [
+        "Augmentation FR",
+        "Baisse SpO2",
+        "Tirage",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une détérioration."
+    },
+    {
+      "question": "Une amélioration initiale exclut une aggravation secondaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une surveillance reste nécessaire."
+    },
+    {
+      "question": "Quels facteurs influencent le pronostic ?",
+      "options": [
+        "Terrain",
+        "Age",
+        "Délai de prise en charge",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs sont déterminants."
+    },
+    {
+      "question": "Le délai de prise en charge est un facteur clé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Plus la prise en charge est rapide, meilleur est le pronostic."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
+    },
+    {
+      "question": "Une douleur thoracique augmentée à l’effort évoque une origine cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une douleur déclenchée à l’effort est typique d’une origine coronarienne."
+    },
+    {
+      "question": "Une douleur thoracique soulagée par le repos élimine un SCA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Un SCA peut être soulagé partiellement mais reste une urgence."
+    },
+    {
+      "question": "Quels signes évoquent une origine respiratoire ?",
+      "options": [
+        "Douleur augmentée à l’inspiration",
+        "Dyspnée",
+        "Toux",
+        "Douleur fixe non influencée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes orientent vers une origine pulmonaire."
+    },
+    {
+      "question": "Une douleur augmentée à la palpation évoque une origine pulmonaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle évoque plutôt une origine pariétale."
+    },
+    {
+      "question": "Quels signes évoquent une embolie pulmonaire ?",
+      "options": [
+        "Dyspnée brutale",
+        "Douleur thoracique",
+        "Tachycardie",
+        "Appétit conservé"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes sont typiques d’une embolie pulmonaire."
+    },
+    {
+      "question": "Une tachycardie isolée exclut une embolie pulmonaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La tachycardie est fréquente dans l’EP."
+    },
+    {
+      "question": "Quels signes évoquent un OAP ?",
+      "options": [
+        "Dyspnée",
+        "Orthopnée",
+        "Râles crépitants",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent un œdème pulmonaire."
+    },
+    {
+      "question": "L’OAP est lié à une insuffisance cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il résulte d’une défaillance du cœur gauche."
+    },
+    {
+      "question": "Quels signes de gravité respiratoire ?",
+      "options": [
+        "Polypnée",
+        "Cyanose",
+        "Tirage",
+        "Respiration lente et efficace"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une détresse respiratoire."
+    },
+    {
+      "question": "Une cyanose traduit une bonne oxygénation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle traduit une hypoxémie."
+    },
+    {
+      "question": "Quels signes de gravité cardiovasculaire ?",
+      "options": [
+        "Hypotension",
+        "Tachycardie",
+        "Marbrures",
+        "Tension stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une mauvaise perfusion."
+    },
+    {
+      "question": "Une hypotension est toujours sans gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle peut indiquer un état de choc."
+    },
+    {
+      "question": "Quels signes neurologiques associés ?",
+      "options": [
+        "Confusion",
+        "Agitation",
+        "Somnolence",
+        "Conscience normale stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une souffrance cérébrale."
+    },
+    {
+      "question": "Une confusion peut être liée à une hypoxie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le cerveau est sensible au manque d’oxygène."
+    },
+    {
+      "question": "Quels paramètres doivent être surveillés ?",
+      "options": [
+        "SpO2",
+        "FR",
+        "FC",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres reflètent l’état cardio-respiratoire."
+    },
+    {
+      "question": "Une augmentation de la FR est toujours normale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle peut traduire une détresse."
+    },
+    {
+      "question": "Quels examens sont prioritaires ?",
+      "options": [
+        "ECG",
+        "Gaz du sang",
+        "Radiographie thorax",
+        "Test auditif"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens permettent une orientation rapide."
+    },
+    {
+      "question": "L’ECG permet de détecter un SCA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est indispensable en cas de douleur thoracique."
+    },
+    {
+      "question": "Quels objectifs de prise en charge ?",
+      "options": [
+        "Oxygéner",
+        "Stabiliser",
+        "Surveiller",
+        "Attendre"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est active et immédiate."
+    },
+    {
+      "question": "L’oxygène peut être administré sans contrôle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il doit être adapté et surveillé."
+    },
+    {
+      "question": "Quels dispositifs peuvent être utilisés ?",
+      "options": [
+        "Masque O2",
+        "Lunettes",
+        "Scope",
+        "Balance"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces dispositifs sont utilisés en urgence."
+    },
+    {
+      "question": "Le scope permet de surveiller le rythme cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il permet une surveillance continue."
+    },
+    {
+      "question": "Quels rôles IDE ?",
+      "options": [
+        "Surveillance",
+        "Alerte",
+        "Installation",
+        "Diagnostic"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE participe à la prise en charge sans poser de diagnostic médical."
+    },
+    {
+      "question": "La position demi-assise est adaptée en dyspnée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle facilite la respiration."
+    },
+    {
+      "question": "Quels signes d’aggravation ?",
+      "options": [
+        "Baisse SpO2",
+        "Augmentation FR",
+        "Altération conscience",
+        "Amélioration"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une dégradation."
+    },
+    {
+      "question": "Une amélioration exclut toute complication.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une surveillance reste nécessaire."
+    },
+    {
+      "question": "Quels facteurs aggravants ?",
+      "options": [
+        "Age",
+        "Comorbidités",
+        "Retard prise en charge",
+        "Hydratation normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs influencent le pronostic."
+    },
+    {
+      "question": "Le délai de prise en charge influence le pronostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une prise en charge rapide améliore l’issue."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
+    },
+    {
+      "question": "Une douleur thoracique en coup de poignard évoque plutôt une origine respiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une douleur brutale en coup de poignard est souvent d’origine pleuro-pulmonaire (ex : EP)."
+    },
+    {
+      "question": "Une douleur thoracique diffuse exclut une cause grave.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une douleur diffuse peut correspondre à un SCA."
+    },
+    {
+      "question": "Quels signes orientent vers une dissection aortique ?",
+      "options": [
+        "Douleur brutale",
+        "Irradiation dorsale",
+        "Douleur transfixiante",
+        "Douleur reproductible"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La douleur de dissection est brutale, intense et irradiée dans le dos."
+    },
+    {
+      "question": "La dissection aortique peut entraîner un état de choc.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut provoquer une hémorragie interne massive."
+    },
+    {
+      "question": "Quels signes évoquent un asthme aigu grave ?",
+      "options": [
+        "Dyspnée",
+        "Sifflements",
+        "Silence auscultatoire",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le silence auscultatoire est un signe de gravité extrême."
+    },
+    {
+      "question": "Un asthme aigu grave peut évoluer vers un arrêt respiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. C’est une urgence vitale."
+    },
+    {
+      "question": "Quels signes de détresse respiratoire sévère ?",
+      "options": [
+        "Apnée",
+        "Cyanose",
+        "Tirage",
+        "Respiration calme"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une détresse majeure."
+    },
+    {
+      "question": "Une respiration lente est toujours rassurante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle peut précéder un arrêt respiratoire."
+    },
+    {
+      "question": "Quels signes évoquent une hypoxie ?",
+      "options": [
+        "Agitation",
+        "Confusion",
+        "Cyanose",
+        "Peau normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent un manque d’oxygène."
+    },
+    {
+      "question": "Une agitation peut être un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut traduire une hypoxie."
+    },
+    {
+      "question": "Quels paramètres doivent être surveillés ?",
+      "options": [
+        "SpO2",
+        "FR",
+        "FC",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres sont essentiels en urgence."
+    },
+    {
+      "question": "Une baisse de SpO2 est un signe d’amélioration.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle indique une aggravation."
+    },
+    {
+      "question": "Quels signes évoquent une insuffisance circulatoire ?",
+      "options": [
+        "Hypotension",
+        "Tachycardie",
+        "Marbrures",
+        "Tension normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une mauvaise perfusion."
+    },
+    {
+      "question": "Les marbrures sont un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles indiquent une hypoperfusion."
+    },
+    {
+      "question": "Quels examens sont utiles en urgence ?",
+      "options": [
+        "ECG",
+        "Gaz du sang",
+        "Radiographie",
+        "Test auditif"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens permettent d’orienter le diagnostic."
+    },
+    {
+      "question": "Le gaz du sang permet d’évaluer l’oxygénation et la ventilation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il mesure O2, CO2 et pH."
+    },
+    {
+      "question": "Quels objectifs en urgence cardio-respiratoire ?",
+      "options": [
+        "Oxygéner",
+        "Stabiliser",
+        "Surveiller",
+        "Attendre"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge doit être immédiate et active."
+    },
+    {
+      "question": "L’oxygène peut être administré sans surveillance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il doit être adapté et surveillé."
+    },
+    {
+      "question": "Quels dispositifs peuvent être utilisés ?",
+      "options": [
+        "Masque O2",
+        "Lunettes",
+        "Scope",
+        "Balance"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces dispositifs sont utilisés en urgence."
+    },
+    {
+      "question": "Le scope permet une surveillance continue du rythme cardiaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il permet une surveillance en temps réel."
+    },
+    {
+      "question": "Quels rôles IDE ?",
+      "options": [
+        "Surveillance",
+        "Alerte",
+        "Installation",
+        "Diagnostic"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE participe à la prise en charge sans poser de diagnostic médical."
+    },
+    {
+      "question": "La position assise peut améliorer une dyspnée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle facilite la ventilation."
+    },
+    {
+      "question": "Quels signes d’aggravation ?",
+      "options": [
+        "Augmentation FR",
+        "Baisse SpO2",
+        "Altération conscience",
+        "Amélioration"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une détérioration."
+    },
+    {
+      "question": "Une amélioration exclut toute surveillance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une surveillance reste indispensable."
+    },
+    {
+      "question": "Quels facteurs influencent le pronostic ?",
+      "options": [
+        "Age",
+        "Terrain",
+        "Délai prise en charge",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs sont déterminants."
+    },
+    {
+      "question": "Le délai de prise en charge influence le pronostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Plus la prise en charge est rapide, meilleur est le pronostic."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
+    },
+    {
+      "question": "La prise en charge est identique pour tous les patients.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle doit être adaptée à chaque situation."
+    },
+    {
+      "question": "Une surveillance rapprochée est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de détecter toute aggravation."
+    },
+    {
+      "question": "Une douleur thoracique irradiant dans la mâchoire évoque un SCA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’irradiation à la mâchoire est typique d’une origine coronarienne."
+    },
+    {
+      "question": "Une douleur thoracique liée aux mouvements exclut toute urgence.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une douleur mécanique est souvent bénigne mais une cause grave doit toujours être éliminée."
+    },
+    {
+      "question": "Quels signes évoquent une origine pleurale ?",
+      "options": [
+        "Douleur à l’inspiration",
+        "Douleur en coup de poignard",
+        "Dyspnée",
+        "Douleur indépendante de la respiration"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes orientent vers une atteinte pleuro-pulmonaire."
+    },
+    {
+      "question": "Une douleur thoracique indépendante de la respiration évoque une origine pulmonaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle évoque plutôt une origine cardiaque."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une embolie pulmonaire massive ?",
+      "options": [
+        "Hypotension",
+        "Tachycardie",
+        "Syncope",
+        "Appétit normal"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une atteinte sévère."
+    },
+    {
+      "question": "Une syncope peut être un signe d’embolie pulmonaire grave.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit une chute brutale du débit cardiaque."
+    },
+    {
+      "question": "Quels signes évoquent un pneumothorax ?",
+      "options": [
+        "Douleur thoracique brutale",
+        "Dyspnée",
+        "Diminution murmure vésiculaire",
+        "Respiration normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes sont typiques d’un pneumothorax."
+    },
+    {
+      "question": "Le pneumothorax peut évoluer vers une détresse respiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il peut devenir compressif."
+    },
+    {
+      "question": "Quels signes de gravité respiratoire ?",
+      "options": [
+        "Polypnée",
+        "Tirage",
+        "Cyanose",
+        "Respiration calme"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une détresse respiratoire."
+    },
+    {
+      "question": "Une respiration calme élimine toute détresse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une détresse peut être silencieuse."
+    },
+    {
+      "question": "Quels signes évoquent une hypoxémie ?",
+      "options": [
+        "Cyanose",
+        "Confusion",
+        "Agitation",
+        "Peau chaude et rosée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent un manque d’oxygène."
+    },
+    {
+      "question": "La confusion peut être un signe de gravité respiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut traduire une hypoxie."
+    },
+    {
+      "question": "Quels paramètres surveiller ?",
+      "options": [
+        "SpO2",
+        "FR",
+        "FC",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres sont essentiels en urgence."
+    },
+    {
+      "question": "Une SpO2 normale exclut toute pathologie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une pathologie peut être présente malgré une SpO2 normale."
+    },
+    {
+      "question": "Quels examens permettent de confirmer un diagnostic ?",
+      "options": [
+        "ECG",
+        "Gaz du sang",
+        "Radiographie thorax",
+        "Test auditif"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens orientent le diagnostic."
+    },
+    {
+      "question": "L’ECG est systématique en douleur thoracique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est indispensable pour rechercher un SCA."
+    },
+    {
+      "question": "Quels objectifs de prise en charge ?",
+      "options": [
+        "Oxygéner",
+        "Stabiliser",
+        "Surveiller",
+        "Attendre"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est immédiate."
+    },
+    {
+      "question": "L’oxygénothérapie doit être adaptée au patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle doit être titrée selon la SpO2."
+    },
+    {
+      "question": "Quels dispositifs peuvent être utilisés ?",
+      "options": [
+        "Masque O2",
+        "Lunettes",
+        "Scope",
+        "Balance"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces dispositifs sont utilisés en urgence."
+    },
+    {
+      "question": "Le scope permet une surveillance continue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il surveille les constantes en continu."
+    },
+    {
+      "question": "Quels rôles IDE ?",
+      "options": [
+        "Surveiller",
+        "Alerter",
+        "Installer",
+        "Diagnostiquer"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne pose pas de diagnostic médical."
+    },
+    {
+      "question": "La position demi-assise est recommandée en dyspnée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle améliore la ventilation."
+    },
+    {
+      "question": "Quels signes d’aggravation ?",
+      "options": [
+        "Baisse SpO2",
+        "Augmentation FR",
+        "Altération conscience",
+        "Amélioration"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une détérioration."
+    },
+    {
+      "question": "Une amélioration exclut une surveillance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une surveillance reste nécessaire."
+    },
+    {
+      "question": "Quels facteurs aggravants ?",
+      "options": [
+        "Age",
+        "Comorbidités",
+        "Retard prise en charge",
+        "Hydratation normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs influencent le pronostic."
+    },
+    {
+      "question": "Le délai de prise en charge est déterminant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il influence le pronostic."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
+    },
+    {
+      "question": "La prise en charge est identique pour tous.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle doit être adaptée à chaque patient."
+    },
+    {
+      "question": "Une surveillance rapprochée est indispensable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de détecter toute aggravation."
+    }
+  ]
+}
