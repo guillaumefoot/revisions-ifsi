@@ -1,0 +1,767 @@
+{
+  "title": "Quiz UE 2.7 ",
+  "subtitle": "DFG et exploration de la fonction rénale",
+  "questions": [
+    {
+      "question": "Le DFG correspond au débit de filtration glomérulaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le DFG mesure la capacité du rein à filtrer le plasma."
+    },
+    {
+      "question": "Le DFG s’exprime en mL/min.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est exprimé en millilitres par minute."
+    },
+    {
+      "question": "Un DFG normal est supérieur à 90 mL/min.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un DFG ≥ 90 mL/min est considéré comme normal."
+    },
+    {
+      "question": "Un DFG bas indique une bonne fonction rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Un DFG bas indique une insuffisance rénale."
+    },
+    {
+      "question": "Quels facteurs influencent le DFG ?",
+      "options": [
+        "Age",
+        "Sexe",
+        "Masse musculaire",
+        "Couleur des yeux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs influencent l’estimation du DFG."
+    },
+    {
+      "question": "La créatinine est utilisée pour estimer le DFG.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est un marqueur clé de la fonction rénale."
+    },
+    {
+      "question": "Une créatinine élevée traduit une insuffisance rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle reflète une diminution du DFG."
+    },
+    {
+      "question": "Quels examens permettent d’évaluer la fonction rénale ?",
+      "options": [
+        "Créatinine",
+        "Urée",
+        "DFG",
+        "ECG uniquement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens permettent l’évaluation rénale."
+    },
+    {
+      "question": "L’urée est un déchet du métabolisme des protéines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est éliminée par le rein."
+    },
+    {
+      "question": "Quels stades d’insuffisance rénale chronique existent ?",
+      "options": [
+        "Stade 1",
+        "Stade 2",
+        "Stade 3",
+        "Stade 10"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les stades vont de 1 à 5."
+    },
+    {
+      "question": "Le stade 5 correspond à une insuffisance rénale terminale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il correspond à un DFG très bas."
+    },
+    {
+      "question": "Quels signes d’insuffisance rénale avancée ?",
+      "options": [
+        "Fatigue",
+        "Œdèmes",
+        "HTA",
+        "Hyperactivité"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes sont fréquents."
+    },
+    {
+      "question": "Le DFG diminue avec l’âge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il diminue physiologiquement."
+    },
+    {
+      "question": "Quels signes biologiques associés ?",
+      "options": [
+        "Hyperkaliémie",
+        "Acidose",
+        "Anémie",
+        "Vision améliorée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces anomalies sont fréquentes."
+    },
+    {
+      "question": "L’anémie est liée à une baisse de l’EPO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le rein produit l’EPO."
+    },
+    {
+      "question": "Quels examens urinaires ?",
+      "options": [
+        "ECBU",
+        "Protéinurie",
+        "Bandelette urinaire",
+        "Scanner cérébral"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens explorent les urines."
+    },
+    {
+      "question": "La protéinurie est un signe d’atteinte rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit une atteinte glomérulaire."
+    },
+    {
+      "question": "Quels facteurs aggravent la fonction rénale ?",
+      "options": [
+        "Déshydratation",
+        "Médicaments",
+        "Infections",
+        "Hydratation correcte"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs aggravent la fonction rénale."
+    },
+    {
+      "question": "Les médicaments néphrotoxiques doivent être surveillés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils peuvent altérer le rein."
+    },
+    {
+      "question": "Quels rôles IDE ?",
+      "options": [
+        "Surveillance",
+        "Education",
+        "Prévention",
+        "Prescription"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne prescrit pas."
+    },
+    {
+      "question": "La surveillance du DFG est importante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de suivre l’évolution."
+    },
+    {
+      "question": "Quels paramètres surveiller ?",
+      "options": [
+        "Créatinine",
+        "Diurèse",
+        "Poids",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres évaluent la fonction rénale."
+    },
+    {
+      "question": "La diurèse reflète la fonction rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est un indicateur important."
+    },
+    {
+      "question": "Quels signes d’aggravation ?",
+      "options": [
+        "Augmentation créatinine",
+        "Oligurie",
+        "Œdèmes",
+        "Amélioration spontanée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une aggravation."
+    },
+    {
+      "question": "La prévention des complications est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle améliore le pronostic."
+    },
+    {
+      "question": "Quels conseils au patient ?",
+      "options": [
+        "Hydratation adaptée",
+        "Suivi médical",
+        "Respect traitement",
+        "Arrêt traitement seul"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le patient doit être accompagné."
+    },
+    {
+      "question": "Le suivi doit être régulier.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La surveillance est essentielle."
+    },
+    {
+      "question": "La fonction rénale peut se dégrader rapidement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Notamment en cas d’IRA."
+    },
+    {
+      "question": "L’insuffisance rénale chronique est réversible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle est irréversible."
+    },
+    {
+      "question": "Quels signes d’IRA ?",
+      "options": [
+        "Oligurie",
+        "Anurie",
+        "Augmentation créatinine",
+        "Guérison immédiate"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes sont typiques."
+    },
+    {
+      "question": "L’IRA peut être une urgence.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle nécessite une prise en charge rapide."
+    },
+    {
+      "question": "Quels traitements possibles ?",
+      "options": [
+        "Hydratation",
+        "Dialyse",
+        "Adaptation traitement",
+        "Absence de traitement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les traitements sont adaptés à la cause."
+    },
+    {
+      "question": "La dialyse peut être nécessaire en cas de DFG très bas.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle remplace la fonction rénale."
+    },
+    {
+      "question": "La prise en charge est multidisciplinaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Plusieurs professionnels interviennent."
+    },
+    {
+      "question": "Le patient doit être acteur de sa prise en charge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’éducation est essentielle."
+    },
+    {
+      "question": "Le DFG est le seul paramètre à surveiller.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. D’autres paramètres sont essentiels."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La prise en charge doit être globale."
+    },
+    {
+      "question": "Le DFG peut être estimé à partir de formules comme MDRD ou CKD-EPI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces formules utilisent la créatinine et des variables comme l’âge et le sexe."
+    },
+    {
+      "question": "Le DFG est mesuré directement en routine clinique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il est le plus souvent estimé et non mesuré directement."
+    },
+    {
+      "question": "Quels paramètres sont utilisés dans le calcul du DFG ?",
+      "options": [
+        "Créatinine",
+        "Age",
+        "Sexe",
+        "Couleur des yeux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres sont pris en compte dans les formules d’estimation."
+    },
+    {
+      "question": "Une augmentation de la créatinine entraîne une diminution du DFG.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La relation est inverse."
+    },
+    {
+      "question": "Quels facteurs peuvent fausser l’estimation du DFG ?",
+      "options": [
+        "Masse musculaire faible",
+        "Dénutrition",
+        "Sujet âgé",
+        "Température extérieure"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs modifient la production de créatinine."
+    },
+    {
+      "question": "Un patient dénutri peut avoir une créatinine faussement basse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cela peut masquer une insuffisance rénale."
+    },
+    {
+      "question": "Quels stades du DFG existent en IRC ?",
+      "options": [
+        "Stade 1",
+        "Stade 2",
+        "Stade 3",
+        "Stade 6"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les stades vont de 1 à 5."
+    },
+    {
+      "question": "Le stade 3 correspond à une insuffisance rénale modérée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il correspond à un DFG entre 30 et 59."
+    },
+    {
+      "question": "Quels signes biologiques d’aggravation ?",
+      "options": [
+        "Augmentation créatinine",
+        "Diminution DFG",
+        "Hyperkaliémie",
+        "Vision améliorée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une aggravation."
+    },
+    {
+      "question": "Le suivi du DFG permet d’évaluer l’évolution de la maladie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est essentiel pour le suivi."
+    },
+    {
+      "question": "Quels signes cliniques peuvent apparaître en cas de DFG bas ?",
+      "options": [
+        "Fatigue",
+        "Œdèmes",
+        "HTA",
+        "Hyperactivité"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes sont fréquents."
+    },
+    {
+      "question": "Un DFG < 15 mL/min correspond à une insuffisance rénale terminale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. C’est le stade terminal."
+    },
+    {
+      "question": "Quels signes nécessitent une prise en charge urgente ?",
+      "options": [
+        "Hyperkaliémie",
+        "Oligurie",
+        "Anurie",
+        "Bonne hydratation"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces situations sont graves."
+    },
+    {
+      "question": "La surveillance IDE inclut le suivi des bilans biologiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet d’anticiper les complications."
+    },
+    {
+      "question": "Quels éléments surveiller chez un patient insuffisant rénal ?",
+      "options": [
+        "Poids",
+        "Diurèse",
+        "Tension",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres sont essentiels."
+    },
+    {
+      "question": "La prise de poids rapide peut indiquer une rétention hydrique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle doit alerter."
+    },
+    {
+      "question": "Quels signes de surcharge hydrique ?",
+      "options": [
+        "Œdèmes",
+        "Dyspnée",
+        "Prise de poids",
+        "Amaigrissement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une surcharge."
+    },
+    {
+      "question": "La dyspnée peut être liée à une surcharge hydrique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut être due à un œdème pulmonaire."
+    },
+    {
+      "question": "Quels conseils diététiques peuvent être donnés ?",
+      "options": [
+        "Limiter sel",
+        "Adapter protéines",
+        "Hydratation adaptée",
+        "Consommer sel en excès"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le régime est adapté à la pathologie."
+    },
+    {
+      "question": "Un régime hyposodé peut être recommandé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il limite la rétention hydrique."
+    },
+    {
+      "question": "Quels risques liés à l’insuffisance rénale ?",
+      "options": [
+        "Troubles cardiaques",
+        "Dénutrition",
+        "Infections",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les complications sont nombreuses."
+    },
+    {
+      "question": "Le suivi régulier permet de prévenir les complications.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est essentiel."
+    },
+    {
+      "question": "Quels traitements peuvent ralentir l’évolution ?",
+      "options": [
+        "Contrôle HTA",
+        "Contrôle diabète",
+        "Suivi médical",
+        "Absence de suivi"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le contrôle des facteurs de risque est essentiel."
+    },
+    {
+      "question": "Le contrôle de la tension est important.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il ralentit la progression."
+    },
+    {
+      "question": "Quels rôles IDE ?",
+      "options": [
+        "Surveillance",
+        "Education",
+        "Prévention",
+        "Prescription"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne prescrit pas."
+    },
+    {
+      "question": "La prévention des complications est un objectif majeur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle améliore le pronostic."
+    },
+    {
+      "question": "La prise en charge doit être globale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle inclut plusieurs aspects."
+    },
+    {
+      "question": "Le patient doit être informé de sa maladie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’éducation est essentielle."
+    },
+    {
+      "question": "Le DFG peut s’améliorer spontanément en IRC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’IRC est irréversible."
+    },
+    {
+      "question": "Une surveillance rapprochée est nécessaire en cas de DFG bas.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le risque de complications est élevé."
+    },
+    {
+      "question": "Le DFG diminue en cas de diminution du nombre de néphrons fonctionnels.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La perte de néphrons réduit la capacité de filtration."
+    },
+    {
+      "question": "Le DFG augmente en cas d’insuffisance rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il diminue en cas d’insuffisance rénale."
+    },
+    {
+      "question": "Quels éléments peuvent provoquer une baisse du DFG ?",
+      "options": [
+        "Déshydratation",
+        "Hypotension",
+        "Obstruction urinaire",
+        "Hydratation normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces situations diminuent la perfusion rénale ou l’évacuation."
+    },
+    {
+      "question": "Une hypotension peut entraîner une baisse du DFG.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle diminue la perfusion rénale."
+    },
+    {
+      "question": "Quels types d’insuffisance rénale aiguë existent ?",
+      "options": [
+        "Prérénale",
+        "Rénale",
+        "Post-rénale",
+        "Pulmonaire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les trois types sont reconnus."
+    },
+    {
+      "question": "L’insuffisance rénale prérénale est liée à un défaut de perfusion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est liée à une baisse du débit sanguin rénal."
+    },
+    {
+      "question": "L’insuffisance rénale post-rénale est liée à une obstruction.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est due à un obstacle à l’écoulement des urines."
+    },
+    {
+      "question": "Quels exemples d’obstruction ?",
+      "options": [
+        "Calcul",
+        "Tumeur",
+        "Hypertrophie prostate",
+        "Hydratation"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces causes bloquent l’écoulement urinaire."
+    },
+    {
+      "question": "Une obstruction peut entraîner une anurie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’urine ne peut plus s’évacuer."
+    },
+    {
+      "question": "Quels signes d’IRA prérénale ?",
+      "options": [
+        "Oligurie",
+        "Hypotension",
+        "Déshydratation",
+        "Œdèmes massifs initiaux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les œdèmes ne sont pas initiaux."
+    },
+    {
+      "question": "La réhydratation peut corriger une IRA prérénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle restaure la perfusion."
+    },
+    {
+      "question": "Quels signes d’IRA post-rénale ?",
+      "options": [
+        "Anurie",
+        "Douleur",
+        "Distension vésicale",
+        "Hyperactivité"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes évoquent une obstruction."
+    },
+    {
+      "question": "La levée de l’obstacle peut restaurer la fonction rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Si prise en charge rapide."
+    },
+    {
+      "question": "Quels signes de gravité à surveiller ?",
+      "options": [
+        "Hyperkaliémie",
+        "Anurie",
+        "Œdème pulmonaire",
+        "Bonne hydratation"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes nécessitent une urgence."
+    },
+    {
+      "question": "L’œdème pulmonaire peut être lié à une surcharge hydrique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il s’agit d’une complication grave."
+    },
+    {
+      "question": "Quels examens complémentaires ?",
+      "options": [
+        "Echographie",
+        "Scanner",
+        "Bilan sanguin",
+        "Radiographie dentaire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens sont utiles."
+    },
+    {
+      "question": "L’échographie permet de rechercher une obstruction.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle visualise les voies urinaires."
+    },
+    {
+      "question": "Quels paramètres surveiller en urgence ?",
+      "options": [
+        "Diurèse",
+        "Créatinine",
+        "Potassium",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres sont essentiels."
+    },
+    {
+      "question": "Le potassium est un paramètre vital.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il peut provoquer des troubles cardiaques."
+    },
+    {
+      "question": "Quels signes ECG en hyperkaliémie ?",
+      "options": [
+        "Troubles rythme",
+        "Onde T pointue",
+        "Bradycardie",
+        "ECG normal obligatoire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’ECG est modifié en hyperkaliémie."
+    },
+    {
+      "question": "L’hyperkaliémie nécessite une prise en charge urgente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut être mortelle."
+    },
+    {
+      "question": "Quels traitements d’urgence possibles ?",
+      "options": [
+        "Dialyse",
+        "Traitement hyperkaliémie",
+        "Remplissage",
+        "Absence traitement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le traitement dépend de la cause."
+    },
+    {
+      "question": "La dialyse est indiquée en cas d’insuffisance sévère.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle remplace la fonction rénale."
+    },
+    {
+      "question": "Quels rôles IDE en urgence ?",
+      "options": [
+        "Surveillance",
+        "Alerte",
+        "Préparation matériel",
+        "Prescription"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne prescrit pas."
+    },
+    {
+      "question": "La surveillance doit être rapprochée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évolution peut être rapide."
+    },
+    {
+      "question": "Quels objectifs de prise en charge ?",
+      "options": [
+        "Corriger cause",
+        "Prévenir complications",
+        "Maintenir fonction",
+        "Guérison systématique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les objectifs sont multiples."
+    },
+    {
+      "question": "La prévention repose sur la surveillance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet d’éviter l’aggravation."
+    },
+    {
+      "question": "Le suivi régulier du DFG est indispensable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il permet d’adapter la prise en charge."
+    },
+    {
+      "question": "Une approche globale est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle inclut plusieurs paramètres."
+    }
+  ]
+}
