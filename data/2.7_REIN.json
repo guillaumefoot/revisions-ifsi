@@ -1,0 +1,907 @@
+{
+  "title": "Quiz UE 2.7 ",
+  "subtitle": "Rein - Anatomie et sémiologie",
+  "questions": [
+    {
+      "question": "Le rein est un organe pair.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les reins sont deux organes situés de part et d’autre de la colonne vertébrale."
+    },
+    {
+      "question": "Les reins sont situés dans la cavité thoracique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Ils sont situés dans la région lombaire, dans l’abdomen."
+    },
+    {
+      "question": "Quels sont les rôles du rein ?",
+      "options": [
+        "Filtration du sang",
+        "Elimination des déchets",
+        "Régulation hydrique",
+        "Production d’insuline"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le rein filtre le sang, élimine les déchets et régule l’équilibre hydrique. Il ne produit pas d’insuline."
+    },
+    {
+      "question": "Le rein participe à l’équilibre hydro-électrolytique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il régule les ions et l’eau."
+    },
+    {
+      "question": "Le néphron est l’unité fonctionnelle du rein.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Chaque rein contient des millions de néphrons."
+    },
+    {
+      "question": "Quels éléments composent le néphron ?",
+      "options": [
+        "Glomérule",
+        "Tubule",
+        "Uretère",
+        "Capsule de Bowman"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Le néphron comprend le glomérule, la capsule et le tubule."
+    },
+    {
+      "question": "La filtration glomérulaire permet de filtrer le plasma.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle correspond à la première étape de formation de l’urine."
+    },
+    {
+      "question": "Le DFG correspond au débit de filtration glomérulaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il mesure la fonction rénale."
+    },
+    {
+      "question": "Quels éléments sont éliminés par le rein ?",
+      "options": [
+        "Urée",
+        "Créatinine",
+        "Toxines",
+        "Globules rouges"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les globules rouges ne sont pas éliminés normalement."
+    },
+    {
+      "question": "Le rein produit de l’érythropoïétine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle stimule la production de globules rouges."
+    },
+    {
+      "question": "Quels rôles hormonaux du rein ?",
+      "options": [
+        "EPO",
+        "Régulation tension",
+        "Activation vitamine D",
+        "Production insuline"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le rein joue un rôle endocrinien important."
+    },
+    {
+      "question": "La diurèse correspond à la quantité d’urine produite.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est un indicateur de la fonction rénale."
+    },
+    {
+      "question": "Une oligurie correspond à une diurèse augmentée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’oligurie correspond à une diminution des urines."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une atteinte rénale ?",
+      "options": [
+        "Œdèmes",
+        "HTA",
+        "Fatigue",
+        "Vision améliorée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes sont fréquents en pathologie rénale."
+    },
+    {
+      "question": "Les œdèmes sont liés à une rétention hydrosodée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils sont liés à une accumulation de liquide."
+    },
+    {
+      "question": "Quels types de diurèse existent ?",
+      "options": [
+        "Oligurie",
+        "Anurie",
+        "Polyurie",
+        "Hyperthermie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces termes décrivent les variations de la diurèse."
+    },
+    {
+      "question": "L’anurie correspond à l’absence d’urine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est une urgence."
+    },
+    {
+      "question": "Quels paramètres surveiller en cas de pathologie rénale ?",
+      "options": [
+        "Diurèse",
+        "Poids",
+        "Tension",
+        "Couleur cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres reflètent l’état hydrique."
+    },
+    {
+      "question": "La créatinine est un marqueur de la fonction rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle augmente en cas d’insuffisance rénale."
+    },
+    {
+      "question": "Une augmentation de la créatinine est normale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle traduit une altération rénale."
+    },
+    {
+      "question": "Quels examens permettent d’évaluer le rein ?",
+      "options": [
+        "Bilan sanguin",
+        "ECBU",
+        "Imagerie",
+        "ECG uniquement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens évaluent la fonction rénale."
+    },
+    {
+      "question": "L’ECBU analyse les urines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il recherche infection et anomalies."
+    },
+    {
+      "question": "Quels signes urinaires anormaux ?",
+      "options": [
+        "Hématurie",
+        "Protéinurie",
+        "Oligurie",
+        "Urines claires normales"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une anomalie."
+    },
+    {
+      "question": "La protéinurie correspond à la présence de protéines dans les urines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle indique une atteinte glomérulaire."
+    },
+    {
+      "question": "Quels rôles IDE en pathologie rénale ?",
+      "options": [
+        "Surveillance",
+        "Education",
+        "Prévention complications",
+        "Chirurgie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE assure la surveillance et l’éducation."
+    },
+    {
+      "question": "La surveillance de la diurèse est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet d’évaluer la fonction rénale."
+    },
+    {
+      "question": "La prise en charge doit être globale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle inclut plusieurs paramètres."
+    },
+    {
+      "question": "Les reins sont situés en position rétro-péritonéale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les reins sont situés en arrière du péritoine."
+    },
+    {
+      "question": "Le rein droit est généralement plus haut que le rein gauche.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le rein droit est plus bas en raison du foie."
+    },
+    {
+      "question": "Quels éléments composent l’appareil urinaire ?",
+      "options": [
+        "Reins",
+        "Uretères",
+        "Vessie",
+        "Poumons"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les poumons ne font pas partie de l’appareil urinaire."
+    },
+    {
+      "question": "Les uretères transportent l’urine vers la vessie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils assurent le transport de l’urine."
+    },
+    {
+      "question": "Quels sont les rôles du glomérule ?",
+      "options": [
+        "Filtration du sang",
+        "Production d’urine primitive",
+        "Stockage urine",
+        "Sécrétion insuline"
+      ],
+      "correct": [0, 1],
+      "explanation": "Le glomérule filtre le plasma pour former l’urine primitive."
+    },
+    {
+      "question": "La réabsorption tubulaire permet de récupérer des substances utiles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle récupère eau et électrolytes."
+    },
+    {
+      "question": "Quels éléments sont réabsorbés ?",
+      "options": [
+        "Eau",
+        "Sodium",
+        "Glucose",
+        "Toxines"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les toxines sont éliminées."
+    },
+    {
+      "question": "Le rein participe à la régulation du pH sanguin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il régule l’équilibre acido-basique."
+    },
+    {
+      "question": "Quels signes d’insuffisance rénale ?",
+      "options": [
+        "Fatigue",
+        "Œdèmes",
+        "HTA",
+        "Hyperactivité"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes sont fréquents."
+    },
+    {
+      "question": "La polyurie correspond à une augmentation de la diurèse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle correspond à une diurèse élevée."
+    },
+    {
+      "question": "Quels troubles électrolytiques peuvent apparaître ?",
+      "options": [
+        "Hyperkaliémie",
+        "Hyponatrémie",
+        "Hypocalcémie",
+        "Vision trouble"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles électrolytiques sont fréquents."
+    },
+    {
+      "question": "L’hyperkaliémie est une complication grave.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut entraîner des troubles cardiaques."
+    },
+    {
+      "question": "Quels signes de surcharge hydrique ?",
+      "options": [
+        "Œdèmes",
+        "Prise de poids",
+        "Dyspnée",
+        "Amaigrissement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une surcharge."
+    },
+    {
+      "question": "La prise de poids rapide peut indiquer une rétention hydrique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle doit être surveillée."
+    },
+    {
+      "question": "Quels signes urinaires peuvent être observés ?",
+      "options": [
+        "Hématurie",
+        "Protéinurie",
+        "Leucocyturie",
+        "Urines normales"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces anomalies sont pathologiques."
+    },
+    {
+      "question": "La leucocyturie traduit souvent une infection.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle indique une inflammation ou infection."
+    },
+    {
+      "question": "Quels examens biologiques importants ?",
+      "options": [
+        "Créatinine",
+        "Urée",
+        "Ionogramme",
+        "Glycémie uniquement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens évaluent la fonction rénale."
+    },
+    {
+      "question": "L’urée est un déchet éliminé par le rein.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est issue du métabolisme des protéines."
+    },
+    {
+      "question": "Quels rôles IDE dans la surveillance ?",
+      "options": [
+        "Suivi diurèse",
+        "Surveillance poids",
+        "Suivi tension",
+        "Prescription traitement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne prescrit pas."
+    },
+    {
+      "question": "La surveillance du poids permet d’évaluer l’état hydrique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une variation rapide est significative."
+    },
+    {
+      "question": "Quels signes d’hypovolémie ?",
+      "options": [
+        "Hypotension",
+        "Tachycardie",
+        "Oligurie",
+        "Œdèmes"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les œdèmes sont liés à une hypervolémie."
+    },
+    {
+      "question": "L’oligurie peut être un signe de gravité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut traduire une insuffisance rénale."
+    },
+    {
+      "question": "Quels facteurs peuvent altérer la fonction rénale ?",
+      "options": [
+        "Déshydratation",
+        "Médicaments",
+        "Infections",
+        "Hydratation correcte"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs peuvent altérer la fonction rénale."
+    },
+    {
+      "question": "Certains médicaments sont néphrotoxiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils peuvent endommager le rein."
+    },
+    {
+      "question": "Quels conseils IDE ?",
+      "options": [
+        "Hydratation adaptée",
+        "Surveillance diurèse",
+        "Education patient",
+        "Arrêt traitement sans avis"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les traitements ne doivent pas être arrêtés sans avis médical."
+    },
+    {
+      "question": "La prévention des complications est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle améliore le pronostic."
+    },
+    {
+      "question": "La prise en charge doit être individualisée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Chaque patient est différent."
+    },
+    {
+      "question": "Le cortex rénal est la partie externe du rein.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le cortex est la zone périphérique du rein."
+    },
+    {
+      "question": "La médullaire rénale contient les pyramides de Malpighi.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La médullaire est constituée de pyramides."
+    },
+    {
+      "question": "Quels éléments composent le bassinet ?",
+      "options": [
+        "Calices",
+        "Pelvis rénal",
+        "Uretère proximal",
+        "Alvéoles pulmonaires"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le bassinet collecte l’urine avant les uretères."
+    },
+    {
+      "question": "Le bassinet collecte l’urine produite par le rein.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il recueille l’urine avant son passage dans les uretères."
+    },
+    {
+      "question": "Quels rôles du tubule rénal ?",
+      "options": [
+        "Réabsorption",
+        "Sécrétion",
+        "Filtration",
+        "Stockage"
+      ],
+      "correct": [0, 1],
+      "explanation": "La filtration se fait au glomérule."
+    },
+    {
+      "question": "La filtration se fait dans le tubule.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle se fait au niveau du glomérule."
+    },
+    {
+      "question": "Quels signes biologiques d’insuffisance rénale ?",
+      "options": [
+        "Augmentation créatinine",
+        "Augmentation urée",
+        "Troubles ioniques",
+        "Diminution glycémie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces anomalies sont fréquentes."
+    },
+    {
+      "question": "Une baisse du DFG traduit une insuffisance rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le DFG reflète la fonction rénale."
+    },
+    {
+      "question": "Quels signes cliniques d’urémie ?",
+      "options": [
+        "Nausées",
+        "Vomissements",
+        "Fatigue",
+        "Vision parfaite"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent l’accumulation de toxines."
+    },
+    {
+      "question": "L’urémie correspond à l’accumulation de déchets azotés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit une insuffisance rénale avancée."
+    },
+    {
+      "question": "Quels signes cutanés peuvent apparaître ?",
+      "options": [
+        "Prurit",
+        "Peau sèche",
+        "Pâleur",
+        "Bronzage intense"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles cutanés sont fréquents."
+    },
+    {
+      "question": "Le prurit est fréquent en insuffisance rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est lié aux toxines."
+    },
+    {
+      "question": "Quels signes neurologiques ?",
+      "options": [
+        "Troubles conscience",
+        "Confusion",
+        "Fatigue",
+        "Hyperactivité"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les toxines affectent le système nerveux."
+    },
+    {
+      "question": "La confusion peut être un signe d’insuffisance rénale avancée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit une atteinte neurologique."
+    },
+    {
+      "question": "Quels signes digestifs ?",
+      "options": [
+        "Nausées",
+        "Vomissements",
+        "Anorexie",
+        "Hyperphagie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles digestifs sont fréquents."
+    },
+    {
+      "question": "L’anorexie peut être présente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle participe à la dénutrition."
+    },
+    {
+      "question": "Quels signes cardiovasculaires ?",
+      "options": [
+        "HTA",
+        "Œdèmes",
+        "Insuffisance cardiaque",
+        "Hypotension constante"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les complications cardiovasculaires sont fréquentes."
+    },
+    {
+      "question": "L’HTA est fréquente en pathologie rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est souvent associée."
+    },
+    {
+      "question": "Quels examens d’imagerie ?",
+      "options": [
+        "Echographie",
+        "Scanner",
+        "IRM",
+        "Radiographie pulmonaire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens explorent le rein."
+    },
+    {
+      "question": "L’échographie est un examen de première intention.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est non invasive."
+    },
+    {
+      "question": "Quels objectifs IDE en insuffisance rénale ?",
+      "options": [
+        "Surveillance",
+        "Prévention complications",
+        "Education",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les soins sont préventifs et éducatifs."
+    },
+    {
+      "question": "La surveillance de l’équilibre hydrique est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet d’éviter les complications."
+    },
+    {
+      "question": "Quels paramètres surveiller ?",
+      "options": [
+        "Entrées/sorties",
+        "Poids",
+        "Tension",
+        "Couleur yeux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres évaluent l’équilibre hydrique."
+    },
+    {
+      "question": "Les entrées/sorties permettent d’évaluer l’état hydrique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles sont essentielles."
+    },
+    {
+      "question": "Quels conseils au patient ?",
+      "options": [
+        "Hydratation adaptée",
+        "Suivi médical",
+        "Respect traitement",
+        "Arrêt traitement seul"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le patient doit être accompagné."
+    },
+    {
+      "question": "La prise en charge est multidisciplinaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Plusieurs professionnels interviennent."
+    },
+    {
+      "question": "La pathologie rénale peut évoluer vers l’insuffisance chronique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évolution peut être progressive."
+    },
+    {
+      "question": "Le hile rénal correspond à la zone d’entrée et de sortie des vaisseaux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le hile est la zone où passent artère, veine et uretère."
+    },
+    {
+      "question": "L’artère rénale apporte le sang filtré au rein.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle apporte du sang non filtré à épurer."
+    },
+    {
+      "question": "Quels éléments passent par le hile rénal ?",
+      "options": [
+        "Artère rénale",
+        "Veine rénale",
+        "Uretère",
+        "Trachée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La trachée n’a aucun lien avec le rein."
+    },
+    {
+      "question": "La veine rénale draine le sang filtré vers la circulation générale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle renvoie le sang vers la veine cave inférieure."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une atteinte glomérulaire ?",
+      "options": [
+        "Protéinurie",
+        "Hématurie",
+        "Œdèmes",
+        "Vision améliorée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes sont typiques d’une atteinte glomérulaire."
+    },
+    {
+      "question": "L’hématurie correspond à la présence de sang dans les urines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut être macroscopique ou microscopique."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une atteinte tubulaire ?",
+      "options": [
+        "Troubles électrolytiques",
+        "Polyurie",
+        "Acidose",
+        "Hyperglycémie systématique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le tubule régule les électrolytes et le pH."
+    },
+    {
+      "question": "Une acidose peut être liée à une atteinte rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le rein régule l’équilibre acido-basique."
+    },
+    {
+      "question": "Quels facteurs de risque d’insuffisance rénale ?",
+      "options": [
+        "Diabète",
+        "HTA",
+        "Médicaments néphrotoxiques",
+        "Hydratation adaptée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs favorisent l’atteinte rénale."
+    },
+    {
+      "question": "Le diabète est une cause fréquente d’insuffisance rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est une cause majeure."
+    },
+    {
+      "question": "Quels signes biologiques d’hyperkaliémie ?",
+      "options": [
+        "Troubles rythme cardiaque",
+        "Faiblesse musculaire",
+        "Fatigue",
+        "Vision améliorée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’hyperkaliémie est une urgence."
+    },
+    {
+      "question": "L’hyperkaliémie peut être mortelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut entraîner des troubles du rythme graves."
+    },
+    {
+      "question": "Quels signes d’insuffisance rénale aiguë ?",
+      "options": [
+        "Oligurie",
+        "Anurie",
+        "Augmentation créatinine",
+        "Amélioration spontanée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une défaillance rapide."
+    },
+    {
+      "question": "L’insuffisance rénale aiguë est réversible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut être réversible si traitée rapidement."
+    },
+    {
+      "question": "Quels signes d’insuffisance rénale chronique ?",
+      "options": [
+        "Evolution progressive",
+        "Fatigue",
+        "Anémie",
+        "Guérison rapide"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IRC évolue lentement."
+    },
+    {
+      "question": "L’anémie est fréquente en insuffisance rénale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est liée au déficit en EPO."
+    },
+    {
+      "question": "Quels rôles de l’EPO ?",
+      "options": [
+        "Production globules rouges",
+        "Transport oxygène",
+        "Régulation tension",
+        "Digestion"
+      ],
+      "correct": [0],
+      "explanation": "L’EPO stimule la production de globules rouges."
+    },
+    {
+      "question": "Le déficit en EPO entraîne une anémie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il réduit la production de globules rouges."
+    },
+    {
+      "question": "Quels signes de surcharge en potassium ?",
+      "options": [
+        "Troubles rythme",
+        "Faiblesse",
+        "Paralysie",
+        "Hyperactivité"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’hyperkaliémie affecte les muscles et le cœur."
+    },
+    {
+      "question": "La surveillance du potassium est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il peut entraîner des complications graves."
+    },
+    {
+      "question": "Quels traitements peuvent être nécessaires ?",
+      "options": [
+        "Hydratation",
+        "Adaptation médicaments",
+        "Dialyse",
+        "Arrêt soins"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La dialyse peut être nécessaire."
+    },
+    {
+      "question": "La dialyse remplace la fonction du rein.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle épure le sang."
+    },
+    {
+      "question": "Quels types de dialyse ?",
+      "options": [
+        "Hémodialyse",
+        "Dialyse péritonéale",
+        "Dialyse pulmonaire",
+        "Dialyse cardiaque"
+      ],
+      "correct": [0, 1],
+      "explanation": "Seules les deux premières existent."
+    },
+    {
+      "question": "L’hémodialyse nécessite un accès vasculaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle nécessite une fistule ou cathéter."
+    },
+    {
+      "question": "Quels rôles IDE en dialyse ?",
+      "options": [
+        "Surveillance",
+        "Prévention complications",
+        "Education",
+        "Prescription"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne prescrit pas."
+    },
+    {
+      "question": "La surveillance des signes vitaux est essentielle en dialyse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de détecter les complications."
+    },
+    {
+      "question": "Quels risques liés à la dialyse ?",
+      "options": [
+        "Hypotension",
+        "Infection",
+        "Crampes",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces complications sont fréquentes."
+    },
+    {
+      "question": "La prévention des infections est importante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les accès vasculaires sont à risque."
+    },
+    {
+      "question": "La prise en charge rénale nécessite une éducation du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle favorise l’adhésion."
+    },
+    {
+      "question": "La pathologie rénale est toujours asymptomatique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle peut être silencieuse au début mais symptomatique ensuite."
+    }
+  ]
+}

@@ -1,0 +1,654 @@
+{
+  "title": "Quiz UE 2.7 ",
+  "subtitle": "Sclérose Latérale Amyotrophique (SLA)",
+  "questions": [
+    {
+      "question": "La SLA est une maladie neurodégénérative.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La SLA est une maladie neurodégénérative progressive touchant les motoneurones."
+    },
+    {
+      "question": "La SLA atteint les motoneurones.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle touche les motoneurones centraux et périphériques."
+    },
+    {
+      "question": "Quels types de motoneurones sont atteints ?",
+      "options": [
+        "Motoneurones centraux",
+        "Motoneurones périphériques",
+        "Neurones sensitifs",
+        "Neurones auditifs"
+      ],
+      "correct": [0, 1],
+      "explanation": "La SLA atteint les motoneurones centraux et périphériques."
+    },
+    {
+      "question": "La SLA est une maladie curable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il n’existe pas de traitement curatif."
+    },
+    {
+      "question": "Quels sont les signes liés à l’atteinte du motoneurone périphérique ?",
+      "options": [
+        "Amyotrophie",
+        "Fasciculations",
+        "Hypotonie",
+        "Hypertonie spastique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les signes périphériques incluent amyotrophie, fasciculations et hypotonie."
+    },
+    {
+      "question": "Quels sont les signes liés à l’atteinte du motoneurone central ?",
+      "options": [
+        "Hypertonie",
+        "Spasticité",
+        "Hyperréflexie",
+        "Paralysie flasque"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les signes centraux incluent spasticité et hyperréflexie."
+    },
+    {
+      "question": "La SLA débute souvent par des troubles moteurs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le début est souvent moteur (faiblesse, maladresse)."
+    },
+    {
+      "question": "Quels signes initiaux peuvent apparaître ?",
+      "options": [
+        "Faiblesse musculaire",
+        "Chutes",
+        "Difficulté à marcher",
+        "Perte de vision"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les signes initiaux sont moteurs."
+    },
+    {
+      "question": "La SLA atteint les fonctions sensitives.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les fonctions sensitives sont généralement respectées."
+    },
+    {
+      "question": "Quels troubles de la parole peuvent apparaître ?",
+      "options": [
+        "Dysarthrie",
+        "Voix faible",
+        "Troubles articulation",
+        "Voix normale constante"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles bulbaire affectent la parole."
+    },
+    {
+      "question": "La dysphagie est fréquente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle expose au risque de fausse route."
+    },
+    {
+      "question": "Quels risques liés à la dysphagie ?",
+      "options": [
+        "Fausse route",
+        "Pneumopathie",
+        "Dénutrition",
+        "Hydratation parfaite"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La dysphagie entraîne ces complications."
+    },
+    {
+      "question": "La respiration peut être atteinte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’atteinte des muscles respiratoires est fréquente."
+    },
+    {
+      "question": "Quels signes respiratoires peuvent apparaître ?",
+      "options": [
+        "Dyspnée",
+        "Orthopnée",
+        "Fatigue",
+        "Respiration normale constante"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles respiratoires sont fréquents."
+    },
+    {
+      "question": "La SLA évolue rapidement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évolution est progressive mais souvent rapide."
+    },
+    {
+      "question": "Quels signes d’évolution ?",
+      "options": [
+        "Perte autonomie",
+        "Aggravation motrice",
+        "Dépendance",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La maladie entraîne une perte progressive d’autonomie."
+    },
+    {
+      "question": "Le diagnostic repose uniquement sur un examen biologique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le diagnostic est clinique."
+    },
+    {
+      "question": "Quels examens peuvent aider au diagnostic ?",
+      "options": [
+        "EMG",
+        "IRM",
+        "Bilan biologique",
+        "Radiographie dentaire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens aident à éliminer d’autres causes."
+    },
+    {
+      "question": "Il existe un traitement curatif de la SLA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les traitements sont symptomatiques."
+    },
+    {
+      "question": "Quels sont les objectifs du traitement ?",
+      "options": [
+        "Ralentir évolution",
+        "Améliorer confort",
+        "Maintenir autonomie",
+        "Guérir"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les traitements visent le confort et la qualité de vie."
+    },
+    {
+      "question": "La prise en charge est multidisciplinaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle implique plusieurs professionnels."
+    },
+    {
+      "question": "Quels professionnels interviennent ?",
+      "options": [
+        "IDE",
+        "Kinésithérapeute",
+        "Orthophoniste",
+        "Architecte"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est pluridisciplinaire."
+    },
+    {
+      "question": "La kinésithérapie permet de maintenir la mobilité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est importante pour limiter les complications."
+    },
+    {
+      "question": "Quels rôles IDE ?",
+      "options": [
+        "Surveillance",
+        "Education",
+        "Prévention complications",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE participe à la prise en charge globale."
+    },
+    {
+      "question": "La prévention des complications est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle améliore la qualité de vie."
+    },
+    {
+      "question": "La SLA peut débuter par une forme spinale ou bulbaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le début peut être spinal (membres) ou bulbaire (parole, déglutition)."
+    },
+    {
+      "question": "La forme bulbaire touche principalement la parole et la déglutition.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle entraîne dysarthrie et dysphagie."
+    },
+    {
+      "question": "Quels signes caractérisent une atteinte bulbaire ?",
+      "options": [
+        "Dysarthrie",
+        "Dysphagie",
+        "Troubles de la voix",
+        "Troubles visuels"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles bulbaires concernent la parole et la déglutition."
+    },
+    {
+      "question": "La forme spinale débute souvent par les membres.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle commence souvent par une faiblesse d’un membre."
+    },
+    {
+      "question": "Quels signes évoquent une atteinte périphérique ?",
+      "options": [
+        "Amyotrophie",
+        "Fasciculations",
+        "Hypotonie",
+        "Hyperréflexie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’hyperréflexie est un signe central."
+    },
+    {
+      "question": "Quels signes évoquent une atteinte centrale ?",
+      "options": [
+        "Spasticité",
+        "Hyperréflexie",
+        "Hypertonie",
+        "Hypotonie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’hypotonie est périphérique."
+    },
+    {
+      "question": "La SLA associe souvent signes centraux et périphériques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. C’est une caractéristique importante."
+    },
+    {
+      "question": "Quels muscles sont touchés dans la SLA ?",
+      "options": [
+        "Muscles volontaires",
+        "Muscles respiratoires",
+        "Muscles phonatoires",
+        "Muscles cardiaques"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le muscle cardiaque n’est pas atteint."
+    },
+    {
+      "question": "Les muscles respiratoires peuvent être atteints tardivement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cela entraîne une insuffisance respiratoire."
+    },
+    {
+      "question": "Quels signes d’insuffisance respiratoire ?",
+      "options": [
+        "Dyspnée",
+        "Orthopnée",
+        "Somnolence",
+        "Energie élevée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes évoquent une insuffisance respiratoire."
+    },
+    {
+      "question": "La VNI peut être utilisée dans la SLA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle aide à la ventilation."
+    },
+    {
+      "question": "Quels objectifs de la VNI ?",
+      "options": [
+        "Améliorer ventilation",
+        "Diminuer fatigue",
+        "Améliorer qualité de vie",
+        "Guérir"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La VNI est symptomatique."
+    },
+    {
+      "question": "La surveillance respiratoire est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet d’anticiper les complications."
+    },
+    {
+      "question": "Quels paramètres surveiller ?",
+      "options": [
+        "Saturation",
+        "Fréquence respiratoire",
+        "Signes de fatigue",
+        "Couleur des yeux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces paramètres évaluent la fonction respiratoire."
+    },
+    {
+      "question": "La dénutrition est fréquente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est liée à la dysphagie."
+    },
+    {
+      "question": "Quels facteurs favorisent la dénutrition ?",
+      "options": [
+        "Dysphagie",
+        "Fatigue",
+        "Apports diminués",
+        "Appétit augmenté"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs diminuent les apports."
+    },
+    {
+      "question": "La PEG peut être proposée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet l’alimentation entérale."
+    },
+    {
+      "question": "Quels objectifs de la PEG ?",
+      "options": [
+        "Maintenir nutrition",
+        "Eviter fausses routes",
+        "Améliorer confort",
+        "Guérir"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Elle améliore la qualité de vie."
+    },
+    {
+      "question": "La communication peut être altérée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les troubles de la parole sont fréquents."
+    },
+    {
+      "question": "Quels moyens de communication alternatifs ?",
+      "options": [
+        "Tablette",
+        "Synthèse vocale",
+        "Tableau communication",
+        "Silence obligatoire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces outils compensent la perte de parole."
+    },
+    {
+      "question": "Les soins palliatifs peuvent être nécessaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La maladie est grave et évolutive."
+    },
+    {
+      "question": "Quels objectifs des soins palliatifs ?",
+      "options": [
+        "Confort",
+        "Soulagement symptômes",
+        "Accompagnement",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ils visent la qualité de vie."
+    },
+    {
+      "question": "La douleur peut être présente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est liée aux contractures."
+    },
+    {
+      "question": "Quels facteurs de douleur ?",
+      "options": [
+        "Spasticité",
+        "Immobilité",
+        "Raideur",
+        "Mobilité parfaite"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs provoquent des douleurs."
+    },
+    {
+      "question": "La prévention des escarres est importante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’immobilité augmente le risque."
+    },
+    {
+      "question": "Quels moyens de prévention ?",
+      "options": [
+        "Changement position",
+        "Matelas adapté",
+        "Hydratation",
+        "Immobilité prolongée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces mesures préviennent les escarres."
+    },
+    {
+      "question": "La dépendance augmente avec l’évolution.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La perte d’autonomie est progressive."
+    },
+    {
+      "question": "Quels objectifs IDE ?",
+      "options": [
+        "Surveillance",
+        "Education",
+        "Coordination",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le rôle IDE est global."
+    },
+    {
+      "question": "Le soutien aux aidants est essentiel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les aidants sont fortement sollicités."
+    },
+    {
+      "question": "La maladie impacte fortement la qualité de vie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’impact est majeur."
+    },
+    {
+      "question": "Quels impacts psychologiques ?",
+      "options": [
+        "Anxiété",
+        "Dépression",
+        "Isolement",
+        "Bien-être constant"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles psychiques sont fréquents."
+    },
+    {
+      "question": "La communication avec le patient est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle améliore la prise en charge."
+    },
+    {
+      "question": "Les soins doivent être adaptés à chaque patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La prise en charge est individualisée."
+    },
+    {
+      "question": "La SLA respecte généralement les fonctions cognitives au début de la maladie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les fonctions cognitives sont souvent préservées au début, même si des troubles peuvent apparaître secondairement."
+    },
+    {
+      "question": "La SLA entraîne une paralysie progressive des muscles volontaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’atteinte des motoneurones provoque une paralysie progressive."
+    },
+    {
+      "question": "Quels éléments caractérisent l’évolution de la SLA ?",
+      "options": [
+        "Progressive",
+        "Irréversible",
+        "Aggravation continue",
+        "Guérison spontanée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La SLA est une maladie progressive et irréversible."
+    },
+    {
+      "question": "La SLA peut évoluer sur plusieurs années.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évolution est variable mais souvent sur quelques années."
+    },
+    {
+      "question": "Quels signes peuvent indiquer une aggravation respiratoire ?",
+      "options": [
+        "Dyspnée au repos",
+        "Orthopnée",
+        "Somnolence diurne",
+        "Amélioration respiratoire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une insuffisance respiratoire."
+    },
+    {
+      "question": "La somnolence diurne peut être liée à une hypoventilation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’hypoventilation nocturne entraîne une somnolence en journée."
+    },
+    {
+      "question": "Quels signes de fatigue respiratoire ?",
+      "options": [
+        "Utilisation muscles accessoires",
+        "Respiration rapide",
+        "Essoufflement",
+        "Respiration calme"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes traduisent une détresse respiratoire."
+    },
+    {
+      "question": "La surveillance de la déglutition est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de prévenir les fausses routes."
+    },
+    {
+      "question": "Quels signes doivent alerter sur une dysphagie ?",
+      "options": [
+        "Toux lors des repas",
+        "Voix mouillée",
+        "Difficulté à avaler",
+        "Appétit normal"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent un trouble de la déglutition."
+    },
+    {
+      "question": "La perte de poids est fréquente dans la SLA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est liée à la dénutrition et aux troubles de déglutition."
+    },
+    {
+      "question": "Quels facteurs aggravent la perte de poids ?",
+      "options": [
+        "Dysphagie",
+        "Fatigue",
+        "Apports insuffisants",
+        "Alimentation adaptée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs réduisent les apports nutritionnels."
+    },
+    {
+      "question": "L’installation d’une PEG doit être anticipée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est plus efficace lorsqu’elle est mise en place avant la dénutrition sévère."
+    },
+    {
+      "question": "Quels éléments doivent être surveillés après pose de PEG ?",
+      "options": [
+        "Etat du site",
+        "Tolérance alimentation",
+        "Risque infection",
+        "Couleur des cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La surveillance est locale et générale."
+    },
+    {
+      "question": "La communication non verbale est importante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de maintenir le lien avec le patient."
+    },
+    {
+      "question": "Quels moyens de communication peuvent être utilisés ?",
+      "options": [
+        "Clavier adapté",
+        "Synthèse vocale",
+        "Regard (eye tracking)",
+        "Silence total"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces outils compensent la perte de parole."
+    },
+    {
+      "question": "La prise en charge doit inclure le projet de soins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il doit être discuté avec le patient."
+    },
+    {
+      "question": "Quels éléments font partie du projet de soins ?",
+      "options": [
+        "Directives anticipées",
+        "Choix thérapeutiques",
+        "Accompagnement",
+        "Guérison obligatoire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le projet de soins inclut les choix du patient."
+    },
+    {
+      "question": "La fin de vie doit être anticipée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’anticipation permet un meilleur accompagnement."
+    },
+    {
+      "question": "Quels rôles IDE en fin de vie ?",
+      "options": [
+        "Confort",
+        "Soulagement",
+        "Soutien famille",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’objectif est le confort et l’accompagnement."
+    },
+    {
+      "question": "La SLA nécessite une prise en charge globale et continue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle implique un suivi multidisciplinaire."
+    }
+  ]
+}

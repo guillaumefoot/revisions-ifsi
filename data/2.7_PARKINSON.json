@@ -1,0 +1,1331 @@
+{
+  "title": "Quiz UE 2.7",
+  "subtitle": "Maladie de Parkinson",
+  "questions": [
+    {
+      "question": "La maladie de Parkinson est une maladie neurodégénérative.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La maladie de Parkinson est une pathologie neurodégénérative caractérisée par la perte progressive de neurones."
+    },
+    {
+      "question": "La maladie de Parkinson est liée à une diminution de la dopamine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La maladie est due à une dégénérescence des neurones dopaminergiques entraînant un déficit en dopamine."
+    },
+    {
+      "question": "Quels sont les trois signes cardinaux de la maladie de Parkinson ?",
+      "options": [
+        "Tremblement de repos",
+        "Rigidité",
+        "Akinésie",
+        "Hyperactivité"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La triade parkinsonienne comprend tremblement de repos, rigidité et akinésie."
+    },
+    {
+      "question": "Le tremblement de Parkinson est un tremblement d’action.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il s’agit d’un tremblement de repos, typiquement diminuant lors du mouvement."
+    },
+    {
+      "question": "L’akinésie correspond à une lenteur des mouvements.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’akinésie correspond à une difficulté à initier et exécuter les mouvements."
+    },
+    {
+      "question": "Quels signes peuvent être associés à la rigidité ?",
+      "options": [
+        "Hypertonie",
+        "Raideur musculaire",
+        "Souplesse accrue",
+        "Résistance au mouvement"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "La rigidité entraîne une hypertonie avec résistance au mouvement."
+    },
+    {
+      "question": "La maladie de Parkinson débute souvent de manière brutale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le début est progressif."
+    },
+    {
+      "question": "Quels sont les signes non moteurs possibles ?",
+      "options": [
+        "Troubles du sommeil",
+        "Constipation",
+        "Dépression",
+        "Paralysie brutale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les signes non moteurs incluent troubles digestifs, du sommeil et psychiques."
+    },
+    {
+      "question": "La marche parkinsonienne est caractérisée par de petits pas.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est typiquement à petits pas avec réduction du balancement des bras."
+    },
+    {
+      "question": "La perte du balancement des bras est fréquente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. C’est un signe précoce fréquent."
+    },
+    {
+      "question": "Quels troubles de la parole peuvent être observés ?",
+      "options": [
+        "Voix faible",
+        "Dysarthrie",
+        "Voix forte constante",
+        "Monotonie"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "La parole devient monotone, faible et parfois difficile."
+    },
+    {
+      "question": "La maladie de Parkinson touche uniquement les fonctions motrices.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle comporte aussi des signes non moteurs."
+    },
+    {
+      "question": "Quels éléments caractérisent le faciès parkinsonien ?",
+      "options": [
+        "Hypomimie",
+        "Visage figé",
+        "Expression réduite",
+        "Hyperexpressivité"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le faciès est figé avec peu d’expressions."
+    },
+    {
+      "question": "La micrographie correspond à une écriture de petite taille.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est caractéristique de la maladie."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une atteinte avancée ?",
+      "options": [
+        "Troubles de l’équilibre",
+        "Chutes",
+        "Dépendance",
+        "Guérison spontanée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les stades avancés entraînent perte d’autonomie."
+    },
+    {
+      "question": "La dopamine est un neurotransmetteur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle joue un rôle clé dans le contrôle du mouvement."
+    },
+    {
+      "question": "La maladie de Parkinson est guérissable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les traitements sont symptomatiques."
+    },
+    {
+      "question": "Quels traitements peuvent être utilisés ?",
+      "options": [
+        "L-Dopa",
+        "Agonistes dopaminergiques",
+        "Antibiotiques",
+        "Inhibiteurs enzymatiques"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Les traitements visent à compenser le déficit dopaminergique."
+    },
+    {
+      "question": "La L-Dopa permet de restaurer la dopamine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est transformée en dopamine dans le cerveau."
+    },
+    {
+      "question": "Quels effets secondaires peuvent apparaître avec le traitement ?",
+      "options": [
+        "Dyskinésies",
+        "Fluctuations motrices",
+        "Amélioration permanente",
+        "Hallucinations"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Les traitements peuvent entraîner des complications motrices et psychiques."
+    },
+    {
+      "question": "La prise en charge est uniquement médicamenteuse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle est multidisciplinaire (kiné, orthophonie…)."
+    },
+    {
+      "question": "Quels professionnels interviennent dans la prise en charge ?",
+      "options": [
+        "Kinésithérapeute",
+        "Orthophoniste",
+        "IDE",
+        "Architecte"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est pluridisciplinaire."
+    },
+    {
+      "question": "La kinésithérapie aide à maintenir la mobilité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est essentielle dans la prise en charge."
+    },
+    {
+      "question": "Quels objectifs vise la prise en charge IDE ?",
+      "options": [
+        "Surveillance",
+        "Education",
+        "Prévention des complications",
+        "Guérison définitive"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE participe à la surveillance et à l’éducation du patient."
+    },
+    {
+      "question": "La maladie évolue de façon progressive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évolution est lente et progressive."
+    },
+    {
+      "question": "La maladie de Parkinson est liée à une atteinte des noyaux gris centraux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La maladie de Parkinson touche les noyaux gris centraux, en particulier la substance noire."
+    },
+    {
+      "question": "La substance noire produit de la dopamine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La substance noire est riche en neurones dopaminergiques."
+    },
+    {
+      "question": "Quels sont les facteurs favorisant la maladie de Parkinson ?",
+      "options": [
+        "Age avancé",
+        "Facteurs génétiques",
+        "Exposition toxique",
+        "Vaccination"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’âge, les facteurs génétiques et certaines expositions sont impliqués."
+    },
+    {
+      "question": "La maladie de Parkinson est plus fréquente chez les sujets jeunes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle survient majoritairement après 60 ans."
+    },
+    {
+      "question": "Quels troubles cognitifs peuvent apparaître ?",
+      "options": [
+        "Troubles de la mémoire",
+        "Démence",
+        "Troubles de l’attention",
+        "Amélioration cognitive"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Des troubles cognitifs peuvent apparaître dans les stades avancés."
+    },
+    {
+      "question": "La dépression est fréquente dans la maladie de Parkinson.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les troubles de l’humeur sont fréquents."
+    },
+    {
+      "question": "Quels troubles du sommeil peuvent être observés ?",
+      "options": [
+        "Insomnie",
+        "Somnolence diurne",
+        "Troubles du comportement en sommeil paradoxal",
+        "Sommeil parfait"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles du sommeil sont fréquents dans la maladie."
+    },
+    {
+      "question": "La constipation peut précéder les signes moteurs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle fait partie des signes précoces."
+    },
+    {
+      "question": "Quels signes végétatifs peuvent être présents ?",
+      "options": [
+        "Hypotension orthostatique",
+        "Troubles digestifs",
+        "Hypersudation",
+        "Vision parfaite"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles autonomes sont fréquents."
+    },
+    {
+      "question": "Le diagnostic repose uniquement sur un examen biologique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le diagnostic est clinique."
+    },
+    {
+      "question": "Quels éléments orientent le diagnostic ?",
+      "options": [
+        "Triade motrice",
+        "Evolution progressive",
+        "Réponse à la L-Dopa",
+        "Radiographie pulmonaire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le diagnostic est clinique avec réponse au traitement."
+    },
+    {
+      "question": "La L-Dopa est inefficace dans la maladie de Parkinson.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle est le traitement de référence."
+    },
+    {
+      "question": "Quels sont les effets des agonistes dopaminergiques ?",
+      "options": [
+        "Stimuler les récepteurs dopaminergiques",
+        "Remplacer la dopamine",
+        "Guérir la maladie",
+        "Améliorer les symptômes"
+      ],
+      "correct": [0, 3],
+      "explanation": "Ils stimulent les récepteurs et améliorent les symptômes."
+    },
+    {
+      "question": "Les fluctuations motrices apparaissent après plusieurs années de traitement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles sont liées à l’évolution et au traitement."
+    },
+    {
+      "question": "Quels phénomènes peuvent apparaître avec la L-Dopa ?",
+      "options": [
+        "Effet ON/OFF",
+        "Dyskinésies",
+        "Guérison",
+        "Fluctuations"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Ces complications sont fréquentes."
+    },
+    {
+      "question": "La stimulation cérébrale profonde peut être proposée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est indiquée dans certains cas."
+    },
+    {
+      "question": "Quels sont les objectifs de la prise en charge ?",
+      "options": [
+        "Améliorer la qualité de vie",
+        "Maintenir l’autonomie",
+        "Prévenir les complications",
+        "Guérir définitivement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est symptomatique."
+    },
+    {
+      "question": "La maladie de Parkinson peut entraîner des chutes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les troubles de l’équilibre augmentent le risque."
+    },
+    {
+      "question": "Quels facteurs augmentent le risque de chute ?",
+      "options": [
+        "Troubles de l’équilibre",
+        "Rigidité",
+        "Akinésie",
+        "Bonne mobilité"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles moteurs favorisent les chutes."
+    },
+    {
+      "question": "La prévention des chutes fait partie du rôle IDE.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’IDE participe à la sécurité du patient."
+    },
+    {
+      "question": "Quels soins IDE sont importants ?",
+      "options": [
+        "Surveillance du traitement",
+        "Education",
+        "Prévention des complications",
+        "Chirurgie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE n’effectue pas de chirurgie."
+    },
+    {
+      "question": "Les troubles de la déglutition peuvent apparaître.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils exposent au risque de fausse route."
+    },
+    {
+      "question": "Quels risques sont liés aux troubles de la déglutition ?",
+      "options": [
+        "Fausse route",
+        "Pneumopathie",
+        "Dénutrition",
+        "Amélioration nutritionnelle"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces complications sont fréquentes."
+    },
+    {
+      "question": "La prise en charge nutritionnelle peut être nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de prévenir la dénutrition."
+    },
+    {
+      "question": "La maladie de Parkinson n’impacte pas la vie sociale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle a un impact majeur sur la vie quotidienne et sociale."
+    },
+    {
+      "question": "Quels impacts psychosociaux peuvent être observés ?",
+      "options": [
+        "Isolement",
+        "Perte d’autonomie",
+        "Anxiété",
+        "Bien-être constant"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les conséquences psychosociales sont importantes."
+    },
+    {
+      "question": "La coordination des soins est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle améliore la prise en charge globale."
+    },
+    {
+      "question": "La maladie de Parkinson est une pathologie aiguë.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. C’est une maladie chronique évolutive."
+    },
+    {
+      "question": "Le suivi du patient est nécessaire tout au long de la vie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La maladie nécessite un suivi prolongé."
+    },
+    {
+      "question": "Les soins doivent être adaptés au stade de la maladie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La prise en charge évolue avec la maladie."
+    },
+    {
+      "question": "La perte des neurones dopaminergiques se situe principalement dans la substance noire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La dégénérescence de la substance noire est responsable du déficit en dopamine."
+    },
+    {
+      "question": "La dopamine facilite le contrôle des mouvements volontaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle joue un rôle essentiel dans la régulation motrice."
+    },
+    {
+      "question": "Quels sont les signes moteurs typiques ?",
+      "options": [
+        "Bradykinésie",
+        "Rigidité",
+        "Tremblement de repos",
+        "Hyperactivité"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La triade motrice comprend ces trois éléments."
+    },
+    {
+      "question": "La bradykinésie correspond à une augmentation de la vitesse des mouvements.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il s’agit d’un ralentissement des mouvements."
+    },
+    {
+      "question": "Le tremblement parkinsonien disparaît souvent pendant le sommeil.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est typiquement présent au repos et disparaît au sommeil."
+    },
+    {
+      "question": "Quels signes de la marche sont caractéristiques ?",
+      "options": [
+        "Petits pas",
+        "Marche festinante",
+        "Diminution du balancement des bras",
+        "Course rapide"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La marche est typiquement à petits pas avec accélération involontaire."
+    },
+    {
+      "question": "La marche festinante correspond à une accélération involontaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le patient a tendance à accélérer pour ne pas tomber."
+    },
+    {
+      "question": "Quels troubles posturaux peuvent apparaître ?",
+      "options": [
+        "Instabilité",
+        "Chutes",
+        "Troubles de l’équilibre",
+        "Equilibre parfait"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles posturaux augmentent le risque de chute."
+    },
+    {
+      "question": "La posture du patient peut être penchée en avant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La posture fléchie est fréquente."
+    },
+    {
+      "question": "Quels signes digestifs sont fréquents ?",
+      "options": [
+        "Constipation",
+        "Dysphagie",
+        "Amaigrissement",
+        "Hyperphagie systématique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles digestifs sont fréquents."
+    },
+    {
+      "question": "La dysphagie expose au risque de fausse route.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut entraîner des complications respiratoires."
+    },
+    {
+      "question": "Quels troubles urinaires peuvent apparaître ?",
+      "options": [
+        "Urgences mictionnelles",
+        "Pollakiurie",
+        "Rétention",
+        "Fonction normale constante"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles urinaires sont fréquents."
+    },
+    {
+      "question": "L’hypotension orthostatique peut être observée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est liée aux troubles autonomes."
+    },
+    {
+      "question": "Quels troubles psychiques peuvent être présents ?",
+      "options": [
+        "Dépression",
+        "Anxiété",
+        "Hallucinations",
+        "Euphorie constante"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles psychiques sont fréquents."
+    },
+    {
+      "question": "Les hallucinations peuvent être liées au traitement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles sont souvent induites par les traitements dopaminergiques."
+    },
+    {
+      "question": "Quels facteurs influencent la réponse au traitement ?",
+      "options": [
+        "Durée de la maladie",
+        "Age",
+        "Dose de traitement",
+        "Couleur des yeux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La réponse dépend de plusieurs facteurs cliniques."
+    },
+    {
+      "question": "La réponse à la L-Dopa diminue avec le temps.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’efficacité diminue avec l’évolution."
+    },
+    {
+      "question": "Quels sont les effets secondaires possibles des traitements ?",
+      "options": [
+        "Nausées",
+        "Hypotension",
+        "Hallucinations",
+        "Immunité accrue"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les traitements ont des effets secondaires fréquents."
+    },
+    {
+      "question": "La prise régulière du traitement est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le respect des horaires est crucial."
+    },
+    {
+      "question": "Quels risques en cas d’oubli de traitement ?",
+      "options": [
+        "Aggravation des symptômes",
+        "Blocage moteur",
+        "Rigidité",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’oubli entraîne une aggravation rapide."
+    },
+    {
+      "question": "L’éducation thérapeutique est importante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle améliore l’adhésion au traitement."
+    },
+    {
+      "question": "Quels objectifs de la kinésithérapie ?",
+      "options": [
+        "Maintenir mobilité",
+        "Prévenir chutes",
+        "Améliorer posture",
+        "Supprimer maladie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La kiné vise le maintien fonctionnel."
+    },
+    {
+      "question": "L’orthophonie peut aider les troubles de la parole.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle améliore la communication."
+    },
+    {
+      "question": "Quels soins IDE sont essentiels ?",
+      "options": [
+        "Surveillance",
+        "Education",
+        "Prévention complications",
+        "Prescription"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne prescrit pas."
+    },
+    {
+      "question": "Les chutes doivent être systématiquement recherchées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles sont fréquentes."
+    },
+    {
+      "question": "Quels facteurs aggravent les chutes ?",
+      "options": [
+        "Rigidité",
+        "Troubles équilibre",
+        "Fatigue",
+        "Bonne coordination"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs augmentent le risque."
+    },
+    {
+      "question": "La maladie impacte la qualité de vie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle affecte de nombreux aspects."
+    },
+    {
+      "question": "Quels impacts sociaux peuvent exister ?",
+      "options": [
+        "Isolement",
+        "Perte autonomie",
+        "Dépendance",
+        "Vie normale sans impact"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les impacts sociaux sont importants."
+    },
+    {
+      "question": "La coordination des soins est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle améliore la prise en charge."
+    },
+    {
+      "question": "Le suivi doit être régulier.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La maladie est évolutive."
+    },
+    {
+      "question": "Les soins doivent être individualisés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Chaque patient est différent."
+    },
+    {
+      "question": "La maladie évolue par stades.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évolution est progressive."
+    },
+    {
+      "question": "Les troubles cognitifs apparaissent toujours au début.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Ils apparaissent souvent plus tard."
+    },
+    {
+      "question": "Quels objectifs du traitement ?",
+      "options": [
+        "Réduire symptômes",
+        "Maintenir autonomie",
+        "Améliorer qualité vie",
+        "Guérir"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les traitements sont symptomatiques."
+    },
+    {
+      "question": "La maladie nécessite une prise en charge à long terme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est chronique."
+    },
+    {
+      "question": "Les aidants ont un rôle important.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils participent à la prise en charge."
+    },
+    {
+      "question": "La fatigue est fréquente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est fréquente."
+    },
+    {
+      "question": "Les troubles de l’odorat peuvent être précoces.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils font partie des signes précoces."
+    },
+    {
+      "question": "La maladie n’impacte pas l’autonomie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle entraîne une perte d’autonomie."
+    },
+    {
+      "question": "Le patient doit être acteur de sa prise en charge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’éducation est essentielle."
+    },
+    {
+      "question": "La maladie de Parkinson débute le plus souvent de manière asymétrique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les symptômes débutent généralement d’un seul côté du corps."
+    },
+    {
+      "question": "Le tremblement parkinsonien est généralement symétrique dès le début.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il est le plus souvent asymétrique au début."
+    },
+    {
+      "question": "Quels types de rigidité peuvent être observés ?",
+      "options": [
+        "Roue dentée",
+        "Plastique",
+        "Flasque",
+        "Spastique"
+      ],
+      "correct": [0, 1],
+      "explanation": "La rigidité parkinsonienne est de type plastique ou en roue dentée."
+    },
+    {
+      "question": "La rigidité en roue dentée correspond à une résistance saccadée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle donne une impression de blocage intermittent."
+    },
+    {
+      "question": "Quels signes précoces peuvent apparaître ?",
+      "options": [
+        "Perte de l’odorat",
+        "Constipation",
+        "Troubles du sommeil",
+        "Paralysie brutale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes peuvent précéder les symptômes moteurs."
+    },
+    {
+      "question": "Le stade 1 de Hoehn et Yahr correspond à une atteinte bilatérale sévère.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le stade 1 correspond à une atteinte unilatérale."
+    },
+    {
+      "question": "Quels éléments caractérisent les stades avancés ?",
+      "options": [
+        "Troubles de l’équilibre",
+        "Dépendance",
+        "Chutes fréquentes",
+        "Autonomie complète"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les stades avancés entraînent une perte d’autonomie."
+    },
+    {
+      "question": "La classification de Hoehn et Yahr évalue la sévérité de la maladie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de classer les stades évolutifs."
+    },
+    {
+      "question": "Quels facteurs peuvent aggraver les symptômes ?",
+      "options": [
+        "Stress",
+        "Fatigue",
+        "Oubli de traitement",
+        "Repos"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces facteurs peuvent aggraver les symptômes."
+    },
+    {
+      "question": "La prise de L-Dopa doit respecter des horaires stricts.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le respect des horaires est essentiel pour éviter les fluctuations."
+    },
+    {
+      "question": "Quels éléments peuvent interférer avec la L-Dopa ?",
+      "options": [
+        "Repas riches en protéines",
+        "Mauvaise observance",
+        "Retard de prise",
+        "Hydratation"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les protéines et les erreurs de prise diminuent l’efficacité."
+    },
+    {
+      "question": "La L-Dopa doit être prise avec des repas riches en protéines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les protéines diminuent son absorption."
+    },
+    {
+      "question": "Quels signes d’un épisode OFF ?",
+      "options": [
+        "Blocage moteur",
+        "Rigidité",
+        "Difficulté à bouger",
+        "Mobilité normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le patient est bloqué avec aggravation des symptômes."
+    },
+    {
+      "question": "L’épisode ON correspond à une bonne efficacité du traitement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les symptômes sont améliorés."
+    },
+    {
+      "question": "Quels signes peuvent apparaître en phase ON ?",
+      "options": [
+        "Dyskinésies",
+        "Mouvements involontaires",
+        "Amélioration motrice",
+        "Paralysie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les dyskinésies sont fréquentes en phase ON."
+    },
+    {
+      "question": "Les dyskinésies sont des mouvements involontaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles sont liées au traitement."
+    },
+    {
+      "question": "Quels risques en cas de retard de traitement ?",
+      "options": [
+        "Blocage moteur",
+        "Chute",
+        "Rigidité",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le retard aggrave les symptômes."
+    },
+    {
+      "question": "La gestion médicamenteuse est une priorité IDE.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le respect du traitement est crucial."
+    },
+    {
+      "question": "Quels signes de déglutition doivent être surveillés ?",
+      "options": [
+        "Toux lors des repas",
+        "Fausse route",
+        "Difficulté à avaler",
+        "Appétit normal"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent un trouble de déglutition."
+    },
+    {
+      "question": "La prévention des fausses routes est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle évite les complications respiratoires."
+    },
+    {
+      "question": "Quels aménagements peuvent être proposés ?",
+      "options": [
+        "Adaptation alimentation",
+        "Position assise",
+        "Fractionnement des repas",
+        "Alimentation rapide"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces mesures réduisent les risques."
+    },
+    {
+      "question": "La prévention des chutes inclut l’aménagement de l’environnement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle améliore la sécurité."
+    },
+    {
+      "question": "Quels éléments de prévention des chutes ?",
+      "options": [
+        "Chaussures adaptées",
+        "Suppression obstacles",
+        "Aides techniques",
+        "Sol glissant"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces mesures réduisent le risque."
+    },
+    {
+      "question": "Les aides techniques peuvent améliorer l’autonomie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles facilitent la mobilité."
+    },
+    {
+      "question": "Quels troubles cognitifs avancés peuvent apparaître ?",
+      "options": [
+        "Démence",
+        "Confusion",
+        "Troubles attention",
+        "Mémoire parfaite"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles cognitifs apparaissent tardivement."
+    },
+    {
+      "question": "La démence parkinsonienne peut survenir.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle apparaît à un stade avancé."
+    },
+    {
+      "question": "Quels troubles autonomes sévères peuvent apparaître ?",
+      "options": [
+        "Hypotension",
+        "Troubles urinaires",
+        "Troubles digestifs",
+        "Fonction normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles autonomes sont fréquents."
+    },
+    {
+      "question": "La surveillance IDE inclut l’évaluation globale du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle doit être globale."
+    },
+    {
+      "question": "Quels objectifs IDE en phase avancée ?",
+      "options": [
+        "Maintenir confort",
+        "Prévenir complications",
+        "Soutenir aidants",
+        "Guérir"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est palliative et globale."
+    },
+    {
+      "question": "La coordination avec les aidants est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les aidants jouent un rôle clé."
+    },
+    {
+      "question": "Le patient peut présenter des fluctuations de l’état moteur dans la journée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. C’est caractéristique."
+    },
+    {
+      "question": "Les fluctuations sont prévisibles et stables.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elles sont variables."
+    },
+    {
+      "question": "Quels signes indiquent une aggravation ?",
+      "options": [
+        "Augmentation chutes",
+        "Dépendance",
+        "Troubles cognitifs",
+        "Amélioration spontanée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes montrent une progression."
+    },
+    {
+      "question": "La prise en charge doit être réévaluée régulièrement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle évolue avec la maladie."
+    },
+    {
+      "question": "Le patient doit être informé de sa maladie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’information améliore l’adhésion."
+    },
+    {
+      "question": "L’accompagnement psychologique est inutile.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il est essentiel."
+    },
+    {
+      "question": "Quels objectifs globaux de la prise en charge ?",
+      "options": [
+        "Qualité de vie",
+        "Autonomie",
+        "Prévention",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les objectifs sont symptomatiques."
+    },
+    {
+      "question": "La maladie nécessite un suivi multidisciplinaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Plusieurs professionnels interviennent."
+    },
+    {
+      "question": "Le rôle IDE inclut la coordination des soins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’IDE coordonne les intervenants."
+    },
+    {
+      "question": "Le tremblement parkinsonien est souvent décrit comme un tremblement de « comptage de monnaie ».",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le tremblement de repos est typiquement décrit comme un mouvement de comptage de pièces."
+    },
+    {
+      "question": "Le tremblement est toujours présent chez tous les patients.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Certains patients ne présentent pas de tremblement."
+    },
+    {
+      "question": "Quels éléments caractérisent la bradykinésie ?",
+      "options": [
+        "Lenteur des mouvements",
+        "Diminution de l’amplitude",
+        "Fatigabilité",
+        "Hyperactivité"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La bradykinésie inclut lenteur, réduction d’amplitude et fatigabilité."
+    },
+    {
+      "question": "La bradykinésie est indispensable au diagnostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est nécessaire au diagnostic clinique."
+    },
+    {
+      "question": "Quels signes faciaux sont typiques ?",
+      "options": [
+        "Hypomimie",
+        "Diminution clignement",
+        "Visage figé",
+        "Sourire permanent"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le faciès est figé avec peu d’expressions."
+    },
+    {
+      "question": "Le clignement des yeux est augmenté.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il est diminué."
+    },
+    {
+      "question": "Quels troubles de l’écriture sont présents ?",
+      "options": [
+        "Micrographie",
+        "Ecriture serrée",
+        "Diminution taille lettres",
+        "Ecriture agrandie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’écriture devient petite et serrée."
+    },
+    {
+      "question": "La micrographie peut être un signe précoce.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut apparaître précocement."
+    },
+    {
+      "question": "Quels troubles moteurs fins peuvent apparaître ?",
+      "options": [
+        "Difficulté boutonner",
+        "Difficulté écrire",
+        "Difficulté manipuler objets",
+        "Amélioration motricité fine"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La motricité fine est altérée."
+    },
+    {
+      "question": "La rigidité est indépendante du mouvement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est constante, contrairement à la spasticité."
+    },
+    {
+      "question": "Quels signes respiratoires peuvent apparaître ?",
+      "options": [
+        "Troubles respiratoires",
+        "Diminution amplitude thoracique",
+        "Risque encombrement",
+        "Respiration parfaite"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La rigidité peut affecter la respiration."
+    },
+    {
+      "question": "La maladie n’affecte pas la respiration.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle peut entraîner des troubles respiratoires."
+    },
+    {
+      "question": "Quels signes cardiovasculaires peuvent apparaître ?",
+      "options": [
+        "Hypotension orthostatique",
+        "Vertiges",
+        "Malaises",
+        "Hypertension constante"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles autonomes entraînent ces signes."
+    },
+    {
+      "question": "L’hypotension orthostatique augmente le risque de chute.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle peut provoquer des malaises."
+    },
+    {
+      "question": "Quels troubles cutanés peuvent être observés ?",
+      "options": [
+        "Hypersudation",
+        "Peau grasse",
+        "Séborrhée",
+        "Peau sèche constante"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles cutanés sont liés au système autonome."
+    },
+    {
+      "question": "La séborrhée est fréquente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est caractéristique."
+    },
+    {
+      "question": "Quels signes liés à la fatigue ?",
+      "options": [
+        "Fatigabilité",
+        "Epuisement",
+        "Diminution endurance",
+        "Energie constante"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La fatigue est fréquente."
+    },
+    {
+      "question": "La fatigue n’est pas un symptôme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle est fréquente."
+    },
+    {
+      "question": "Quels troubles émotionnels peuvent apparaître ?",
+      "options": [
+        "Dépression",
+        "Anxiété",
+        "Apathie",
+        "Joie constante"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles émotionnels sont fréquents."
+    },
+    {
+      "question": "L’apathie correspond à une perte de motivation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est fréquente."
+    },
+    {
+      "question": "Quels troubles du comportement peuvent apparaître ?",
+      "options": [
+        "Impulsivité",
+        "Addictions",
+        "Troubles contrôle impulsions",
+        "Comportement stable"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ils peuvent être liés aux traitements."
+    },
+    {
+      "question": "Les troubles du contrôle des impulsions peuvent être liés aux traitements dopaminergiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils sont des effets secondaires connus."
+    },
+    {
+      "question": "Quels signes liés au sommeil ?",
+      "options": [
+        "Somnolence diurne",
+        "Insomnie",
+        "Rêves agités",
+        "Sommeil parfait"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles du sommeil sont fréquents."
+    },
+    {
+      "question": "La somnolence peut être liée au traitement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Certains traitements induisent somnolence."
+    },
+    {
+      "question": "Quels signes bucco-dentaires ?",
+      "options": [
+        "Hypersalivation",
+        "Difficulté mastication",
+        "Troubles déglutition",
+        "Fonction normale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces troubles sont fréquents."
+    },
+    {
+      "question": "L’hypersalivation peut être présente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est fréquente."
+    },
+    {
+      "question": "Quels objectifs de la rééducation ?",
+      "options": [
+        "Maintenir autonomie",
+        "Améliorer mobilité",
+        "Prévenir complications",
+        "Guérir"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La rééducation vise à maintenir les fonctions."
+    },
+    {
+      "question": "La rééducation est inutile.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle est essentielle."
+    },
+    {
+      "question": "Quels signes indiquent une aggravation motrice ?",
+      "options": [
+        "Augmentation rigidité",
+        "Blocages fréquents",
+        "Chutes",
+        "Amélioration"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes indiquent une progression."
+    },
+    {
+      "question": "La maladie peut entraîner une perte d’autonomie progressive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle évolue progressivement."
+    },
+    {
+      "question": "Quels objectifs globaux IDE ?",
+      "options": [
+        "Surveillance",
+        "Education",
+        "Coordination",
+        "Guérison"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les soins sont centrés sur le maintien de la qualité de vie."
+    }
+  ]
+}
