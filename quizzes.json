@@ -54,5 +54,33 @@
         "name": "Mots de liaison",
         "subtitle": "Connecteurs logiques et traduction",
         "icon": "🔗"
+    },
+    {
+        "file": "data/4.4_TRANSFUSION.json",
+        "code": "UE 4.4",
+        "name": "Transfusion & Hémovigilance",
+        "subtitle": "Bases, anémies et règles de compatibilité",
+        "icon": "🩸"
+    },
+    {
+        "file": "data/4.4_SECU_TRANSFUSION.json",
+        "code": "UE 4.4",
+        "name": "Sécurité Transfusionnelle",
+        "subtitle": "Bonnes pratiques, contrôles et processus",
+        "icon": "🛡️"
+    },
+    {
+        "file": "data/4.4_STOMATHERAPIE.json",
+        "code": "UE 4.4",
+        "name": "Stomathérapie",
+        "subtitle": "Soins de stomie, appareillage et éducation",
+        "icon": "🔄"
+    },
+    {
+        "file": "data/4.4_PLAIES.json",
+        "code": "UE 4.4",
+        "name": "Plaies & Cicatrisation",
+        "subtitle": "Processus, pansements et soins spécifiques",
+        "icon": "🩹"
     }
 ]
