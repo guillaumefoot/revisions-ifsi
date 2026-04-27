@@ -110,5 +110,26 @@
         "name": "Sclérose Latérale Amyotrophique (SLA)",
         "subtitle": "Neurodégénérescence, symptômes et soins",
         "icon": "🧬"
+    },
+    {
+        "file": "data/4.3_BASES_URGENCES.json",
+        "code": "UE 4.3",
+        "name": "Bases des Urgences",
+        "subtitle": "Évaluation ABC, triage et rôle IDE",
+        "icon": "🚨"
+    },
+    {
+        "file": "data/4.3_CHOCS.json",
+        "code": "UE 4.3",
+        "name": "États de Choc",
+        "subtitle": "Types de chocs, sémiologie et prise en charge",
+        "icon": "⚡"
+    },
+    {
+        "file": "data/4.3_URGENCES_CARDIO.json",
+        "code": "UE 4.3",
+        "name": "Urgences Cardio-respiratoires",
+        "subtitle": "Douleur thoracique, détresse respiratoire et signes",
+        "icon": "❤️‍🔥"
     }
 ]
