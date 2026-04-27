@@ -82,5 +82,33 @@
         "name": "Plaies & Cicatrisation",
         "subtitle": "Processus, pansements et soins spécifiques",
         "icon": "🩹"
+    },
+    {
+        "file": "data/2.7_DFG.json",
+        "code": "UE 2.7",
+        "name": "DFG & Exploration rénale",
+        "subtitle": "Fonction rénale, marqueurs et insuffisance",
+        "icon": "🧪"
+    },
+    {
+        "file": "data/2.7_REIN.json",
+        "code": "UE 2.7",
+        "name": "Anatomie & Sémiologie du Rein",
+        "subtitle": "Structure, pathologie et rôle infirmier",
+        "icon": "🩺"
+    },
+    {
+        "file": "data/2.7_PARKINSON.json",
+        "code": "UE 2.7",
+        "name": "Maladie de Parkinson",
+        "subtitle": "Sémiologie, traitements et prise en charge",
+        "icon": "🧠"
+    },
+    {
+        "file": "data/2.7_SLA.json",
+        "code": "UE 2.7",
+        "name": "Sclérose Latérale Amyotrophique (SLA)",
+        "subtitle": "Neurodégénérescence, symptômes et soins",
+        "icon": "🧬"
     }
 ]
