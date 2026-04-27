@@ -1,0 +1,396 @@
+{
+  "title": "Quiz 3 - Stomathérapie",
+  "subtitle": "IFSI - Soins de stomie",
+  "questions": [
+    {
+      "question": "Une stomie correspond à l’abouchement d’un organe creux à la peau.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La stomie est définie comme l’abouchement d’un organe creux à la peau."
+    },
+    {
+      "question": "La stomathérapeute est une infirmière spécialisée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est spécialisée dans la prise en charge des patients porteurs de stomie."
+    },
+    {
+      "question": "Quels sont les rôles de la stomathérapeute avant l’intervention ?",
+      "options": [
+        "Information du patient",
+        "Repérage du site de stomie",
+        "Prescription médicale",
+        "Education"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Avant l’intervention, elle informe, éduque et repère le site. Elle ne prescrit pas."
+    },
+    {
+      "question": "Après l’intervention, la stomathérapeute participe à l’éducation du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle apprend au patient à réaliser ses soins."
+    },
+    {
+      "question": "Quels impacts une stomie peut-elle avoir sur le patient ?",
+      "options": [
+        "Atteinte de l’image corporelle",
+        "Isolement social",
+        "Amélioration systématique de la qualité de vie",
+        "Troubles de la sexualité"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "La stomie peut avoir un impact psychologique et social important."
+    },
+    {
+      "question": "Une stomie digestive peut être temporaire ou définitive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Certaines stomies sont réversibles, d’autres définitives."
+    },
+    {
+      "question": "Quels types de stomies digestives existent ?",
+      "options": [
+        "Iléostomie",
+        "Colostomie",
+        "Néphrostomie",
+        "Urétérostomie"
+      ],
+      "correct": [0, 1],
+      "explanation": "Les stomies digestives incluent iléostomie et colostomie."
+    },
+    {
+      "question": "L’iléostomie donne des selles liquides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’iléon n’absorbe pas l’eau comme le côlon."
+    },
+    {
+      "question": "Une colostomie gauche donne des selles moulées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Plus on est distal dans le côlon, plus les selles sont formées."
+    },
+    {
+      "question": "Quels sont les rôles du côlon ?",
+      "options": [
+        "Réabsorption de l’eau",
+        "Stockage des selles",
+        "Production d’insuline",
+        "Formation des selles"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Le côlon réabsorbe l’eau et forme les selles. Il ne produit pas d’insuline."
+    },
+    {
+      "question": "Quels sont les risques liés à une iléostomie ?",
+      "options": [
+        "Déshydratation",
+        "Hyponatrémie",
+        "Hypokaliémie",
+        "Hyperglycémie systématique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les pertes digestives importantes entraînent des troubles hydro-électrolytiques."
+    },
+    {
+      "question": "La surveillance IDE d’un patient iléostomisé inclut la diurèse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de détecter une déshydratation."
+    },
+    {
+      "question": "Quels paramètres doivent être surveillés chez un patient stomisé ?",
+      "options": [
+        "Etat cutané péristomial",
+        "Ionogramme",
+        "Diurèse",
+        "Couleur des cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La surveillance est clinique et biologique."
+    },
+    {
+      "question": "Une néphrostomie permet de dériver les urines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle draine les urines directement depuis le rein."
+    },
+    {
+      "question": "Quels sont les types de stomies urinaires ?",
+      "options": [
+        "Néphrostomie",
+        "Urétérostomie",
+        "Bricker",
+        "Colostomie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les stomies urinaires incluent ces trois types."
+    },
+    {
+      "question": "Le Bricker consiste à aboucher les uretères à un segment intestinal.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il utilise un segment d’intestin pour dériver les urines."
+    },
+    {
+      "question": "Les soins de stomie relèvent uniquement du rôle propre infirmier.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Certains actes sont sur prescription médicale."
+    },
+    {
+      "question": "Quels soins relèvent de la stomathérapie ?",
+      "options": [
+        "Appareillage",
+        "Surveillance",
+        "Education",
+        "Chirurgie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La stomathérapeute n’effectue pas de chirurgie."
+    },
+    {
+      "question": "Un appareillage de stomie peut être en une ou deux pièces.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les systèmes varient selon les besoins."
+    },
+    {
+      "question": "Le socle doit être découpé au plus près de la stomie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cela évite les fuites et protège la peau."
+    },
+    {
+      "question": "Quels éléments sont importants lors de la pose de l’appareillage ?",
+      "options": [
+        "Tendre la peau",
+        "Adapter la découpe",
+        "Vérifier l’étanchéité",
+        "Appliquer sur peau sale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La pose doit être rigoureuse pour éviter complications."
+    },
+    {
+      "question": "Les selles d’une colostomie droite sont généralement liquides.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles sont encore peu formées."
+    },
+    {
+      "question": "Les complications précoces incluent les fuites et les nécroses.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles doivent être surveillées dès le post-opératoire."
+    },
+    {
+      "question": "Quels sont les objectifs du suivi à long terme ?",
+      "options": [
+        "Adapter l’appareillage",
+        "Surveiller les complications",
+        "Accompagner le patient",
+        "Supprimer les soins"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le suivi vise à améliorer la qualité de vie."
+    },
+    {
+      "question": "La stomathérapie inclut une prise en charge pluridisciplinaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle implique différents professionnels de santé."
+    },
+    {
+      "question": "Le repérage préopératoire du site de stomie vise à améliorer la qualité de vie du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un bon positionnement facilite l’appareillage et limite les complications."
+    },
+    {
+      "question": "Le site de stomie est choisi uniquement par le chirurgien sans intervention de l’IDE.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La stomathérapeute participe activement au repérage préopératoire."
+    },
+    {
+      "question": "Quels critères influencent le choix du site de stomie ?",
+      "options": [
+        "Morphologie du patient",
+        "Habitudes de vie",
+        "Plis cutanés",
+        "Couleur des yeux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le site doit être adapté à la morphologie et au mode de vie du patient."
+    },
+    {
+      "question": "Une stomie doit être visible par le patient pour favoriser l’autonomie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cela facilite l’apprentissage des soins."
+    },
+    {
+      "question": "La peau péristomiale doit être propre et sèche avant la pose du dispositif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une peau propre et sèche assure une bonne adhérence."
+    },
+    {
+      "question": "Quels sont les signes d’une complication cutanée péristomiale ?",
+      "options": [
+        "Rougeur",
+        "Douleur",
+        "Suintement",
+        "Peau intacte"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes évoquent une irritation ou infection cutanée."
+    },
+    {
+      "question": "Une fuite de selles sous le support peut entraîner des lésions cutanées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les selles sont irritantes pour la peau."
+    },
+    {
+      "question": "Quels types de dispositifs de stomie existent ?",
+      "options": [
+        "1 pièce",
+        "2 pièces",
+        "3 pièces",
+        "Aucun dispositif"
+      ],
+      "correct": [0, 1],
+      "explanation": "Les systèmes sont généralement en 1 ou 2 pièces."
+    },
+    {
+      "question": "Un système 2 pièces permet de changer la poche sans retirer le support.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cela protège la peau en limitant les manipulations."
+    },
+    {
+      "question": "La fréquence de changement de l’appareillage dépend du type de stomie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle dépend du débit, du type de selles et du dispositif."
+    },
+    {
+      "question": "Quels éléments influencent le choix du matériel ?",
+      "options": [
+        "Type de stomie",
+        "Aspect de la peau",
+        "Débit des effluents",
+        "Couleur des cheveux"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le choix est personnalisé selon les caractéristiques du patient."
+    },
+    {
+      "question": "Une stomie doit être rouge vif et humide.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. C’est un signe de bonne vascularisation."
+    },
+    {
+      "question": "Une stomie noire peut être un signe de nécrose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cela nécessite une prise en charge urgente."
+    },
+    {
+      "question": "Quels signes doivent alerter sur une complication de stomie ?",
+      "options": [
+        "Changement de couleur",
+        "Douleur",
+        "Saignement important",
+        "Aspect habituel"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces signes peuvent traduire une complication."
+    },
+    {
+      "question": "Le débit d’une iléostomie est généralement plus important que celui d’une colostomie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les selles sont plus liquides et abondantes."
+    },
+    {
+      "question": "Quels conseils alimentaires peuvent être donnés à un patient stomisé ?",
+      "options": [
+        "Hydratation suffisante",
+        "Alimentation équilibrée",
+        "Introduction progressive des aliments",
+        "Jeûne prolongé systématique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les conseils visent à éviter les complications digestives."
+    },
+    {
+      "question": "Les odeurs peuvent être une source de gêne pour les patients stomisés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cela peut avoir un impact psychologique."
+    },
+    {
+      "question": "L’accompagnement psychologique fait partie de la prise en charge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est essentiel pour l’acceptation de la stomie."
+    },
+    {
+      "question": "Quels professionnels peuvent intervenir dans la prise en charge ?",
+      "options": [
+        "IDE",
+        "Médecin",
+        "Stomathérapeute",
+        "Coiffeur"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est pluridisciplinaire."
+    },
+    {
+      "question": "L’éducation thérapeutique vise l’autonomie du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le patient doit pouvoir gérer sa stomie seul."
+    },
+    {
+      "question": "Un patient stomisé ne peut plus avoir d’activité physique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une activité adaptée est possible et recommandée."
+    },
+    {
+      "question": "Quels objectifs vise l’éducation du patient ?",
+      "options": [
+        "Autonomie",
+        "Compréhension des soins",
+        "Prévention des complications",
+        "Dépendance au soignant"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’objectif est de rendre le patient autonome et informé."
+    },
+    {
+      "question": "Une mauvaise découpe du support peut entraîner des fuites.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une découpe inadaptée favorise les complications."
+    },
+    {
+      "question": "Le changement d’appareillage doit être planifié et anticipé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une organisation adaptée améliore la qualité de vie."
+    },
+    {
+      "question": "La prise en charge d’un patient stomisé s’arrête à la sortie de l’hôpital.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Un suivi à long terme est nécessaire."
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "title": "Quiz 1 - Transfusion et Hémovigilance",
+  "subtitle": "IFSI - UE 4.4 - Cours Dr Kouchit",
+  "questions": [
+    {
+      "question": "La découverte des groupes sanguins ABO date de 1900.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les groupes sanguins ABO ont été découverts en 1900, ce qui a permis de sécuriser les transfusions."
+    },
+    {
+      "question": "La transfusion de CGR est indiquée en cas d’anémie sévère ou mal tolérée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le cours précise que les CGR sont transfusés en cas d’anémie sévère ou mal tolérée."
+    },
+    {
+      "question": "Le plasma contient principalement des globules rouges.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le plasma contient surtout des protéines, notamment les facteurs de coagulation, et non des globules rouges."
+    },
+    {
+      "question": "Quels sont les éléments nécessaires avant une transfusion de CGR ?",
+      "options": [
+        "Groupage ABO-Rh",
+        "Recherche d’agglutinines irrégulières (RAI)",
+        "Radiographie thoracique systématique",
+        "Surveillance des constantes"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Avant transfusion, il faut un groupage ABO-Rh, une RAI et une surveillance clinique. La radiographie thoracique n’est pas systématique."
+    },
+    {
+      "question": "Une thrombopénie est définie par un taux de plaquettes inférieur à 150 G/L.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le cours définit la thrombopénie comme une diminution des plaquettes < 150 G/L."
+    },
+    {
+      "question": "Quels sont les signes du syndrome anémique ?",
+      "options": [
+        "Fatigue",
+        "Dyspnée",
+        "Vertiges",
+        "Hypertension"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les signes d’anémie incluent fatigue, dyspnée et vertiges. L’hypertension n’est pas un signe typique."
+    },
+    {
+      "question": "Une RAI négative signifie qu’il n’y a aucun risque transfusionnel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une RAI négative ne supprime pas totalement le risque d’allo-immunisation."
+    },
+    {
+      "question": "Quels sont les seuils transfusionnels de l’hémoglobine ?",
+      "options": [
+        "7 g/dL",
+        "8 g/dL en cas de comorbidité cardiaque",
+        "10 g/dL systématique",
+        "Choc hémorragique"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Les seuils sont 7 g/dL, 8 g/dL si comorbidités cardiaques, et en cas de choc hémorragique."
+    },
+    {
+      "question": "Les anticorps se dirigent contre les antigènes que nous possédons.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les anticorps sont dirigés contre les antigènes que nous ne possédons pas (principe du soi)."
+    },
+    {
+      "question": "Quels éléments doivent être vérifiés avant la transfusion au lit du patient ?",
+      "options": [
+        "Identité du patient",
+        "Concordance poche/patient",
+        "Date de péremption",
+        "Groupe ABO"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Tous ces éléments font partie du contrôle ultime avant transfusion."
+    },
+    {
+      "question": "La surveillance des 15 premières minutes de transfusion est essentielle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les premières minutes sont critiques pour détecter une réaction transfusionnelle."
+    },
+    {
+      "question": "Un TRALI correspond à une surcharge circulatoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le TRALI est un œdème pulmonaire aigu d’origine immunologique, différent du TACO qui est une surcharge."
+    },
+    {
+      "question": "Quels sont les signes d’un accident hémolytique aigu ?",
+      "options": [
+        "Fièvre",
+        "Douleur lombaire",
+        "Hypotension",
+        "Bradycardie isolée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les signes sont fièvre, douleur lombaire et hypotension. La bradycardie isolée n’est pas typique."
+    },
+    {
+      "question": "Le test ultime au lit du patient permet de vérifier la compatibilité ABO.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le test ultime (Beth-Vincent) vérifie la compatibilité ABO entre patient et produit."
+    },
+    {
+      "question": "Quels produits sanguins labiles peuvent être transfusés ?",
+      "options": [
+        "CGR",
+        "Plasma frais congelé",
+        "Concentré de plaquettes",
+        "Albumine"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les PSL incluent CGR, plasma et plaquettes. L’albumine n’est pas un PSL."
+    },
+    {
+      "question": "Une réaction allergique transfusionnelle peut provoquer un urticaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les réactions allergiques donnent souvent urticaire et prurit."
+    },
+    {
+      "question": "Le débit initial de transfusion doit être rapide dès le début.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le débit doit être lent au début pour surveiller la tolérance."
+    },
+    {
+      "question": "Quels sont les objectifs de l’hémovigilance ?",
+      "options": [
+        "Surveiller les incidents transfusionnels",
+        "Améliorer la sécurité",
+        "Tracer les produits sanguins",
+        "Augmenter le nombre de transfusions"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’hémovigilance vise la sécurité, la traçabilité et la surveillance des incidents, pas l’augmentation des transfusions."
+    },
+    {
+      "question": "Les poches de sang doivent être conservées 4 heures après transfusion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les poches sont conservées 4 heures pour permettre une analyse en cas d’incident."
+    },
+    {
+      "question": "Une incompatibilité ABO peut entraîner un accident transfusionnel grave.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une incompatibilité ABO peut provoquer un accident hémolytique aigu potentiellement mortel."
+    },
+    {
+      "question": "Une anémie microcytaire correspond à un VGM inférieur à 80 fL.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une anémie microcytaire est définie par un VGM < 80 fL, souvent liée à une carence martiale ou une inflammation."
+    },
+    {
+      "question": "Une anémie macrocytaire est généralement liée à une carence en vitamine B9 ou B12.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les anémies macrocytaires (VGM > 100 fL) sont souvent dues à des carences en vitamine B9 ou B12."
+    },
+    {
+      "question": "Quels mécanismes peuvent être à l’origine d’une anémie périphérique ?",
+      "options": [
+        "Hémorragie",
+        "Hémolyse",
+        "Carence martiale",
+        "Envahissement médullaire"
+      ],
+      "correct": [0, 1],
+      "explanation": "Les causes périphériques incluent les hémorragies et les hémolyses. Les carences et envahissements médullaires sont des causes centrales."
+    },
+    {
+      "question": "Une RAI doit être réalisée dans les 72 heures précédant une transfusion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La RAI doit être récente (<72h) pour garantir la sécurité transfusionnelle."
+    },
+    {
+      "question": "Quels contextes favorisent l’allo-immunisation ?",
+      "options": [
+        "Grossesse",
+        "Transfusion",
+        "Infection virale",
+        "Traumatisme simple"
+      ],
+      "correct": [0, 1],
+      "explanation": "L’allo-immunisation survient principalement lors de transfusions ou de grossesse."
+    },
+    {
+      "question": "Une urgence vitale immédiate nécessite une transfusion sans groupage ni RAI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. En urgence vitale immédiate, la transfusion est réalisée sans attendre les résultats."
+    },
+    {
+      "question": "Quels sont les niveaux d’urgence transfusionnelle ?",
+      "options": [
+        "Urgence vitale immédiate",
+        "Urgence vitale",
+        "Urgence relative",
+        "Urgence différée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les trois niveaux sont UVI, UV et urgence relative. L’urgence différée n’existe pas."
+    },
+    {
+      "question": "En urgence vitale, un CGR O négatif est privilégié chez la femme en âge de procréer.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le O négatif évite les risques d’allo-immunisation Rh chez les femmes en âge de procréer."
+    },
+    {
+      "question": "Le contrôle ultime doit être réalisé pour chaque CGR transfusé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il est obligatoire pour chaque unité afin de vérifier la compatibilité ABO."
+    },
+    {
+      "question": "Quels éléments sont vérifiés lors du contrôle ultime ?",
+      "options": [
+        "Identité du patient",
+        "Compatibilité ABO",
+        "Numéro de la poche",
+        "Taille du patient"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le contrôle ultime vérifie identité, compatibilité et traçabilité. La taille du patient n’est pas concernée."
+    },
+    {
+      "question": "Une réaction fébrile non hémolytique survient souvent dans les 15 premières minutes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle se manifeste par fièvre et frissons précocement après le début de la transfusion."
+    },
+    {
+      "question": "Le TACO correspond à un œdème pulmonaire par surcharge circulatoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le TACO est une complication liée à une surcharge volumique."
+    },
+    {
+      "question": "Quels signes peuvent évoquer un TRALI ?",
+      "options": [
+        "Détresse respiratoire",
+        "Hypoxie",
+        "Infiltrats pulmonaires",
+        "Bradycardie isolée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Le TRALI se manifeste par une détresse respiratoire avec hypoxie et infiltrats pulmonaires."
+    },
+    {
+      "question": "Une réaction allergique transfusionnelle est liée aux protéines plasmatiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est due à une réaction aux protéines du plasma transfusé."
+    },
+    {
+      "question": "Quels signes doivent alerter pendant une transfusion ?",
+      "options": [
+        "Fièvre",
+        "Frissons",
+        "Douleur lombaire",
+        "Bien-être immédiat"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Fièvre, frissons et douleur lombaire sont des signes d’alerte d’un accident transfusionnel."
+    },
+    {
+      "question": "La surveillance des constantes doit être réalisée avant, pendant et après la transfusion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une surveillance complète est essentielle à chaque étape."
+    },
+    {
+      "question": "Quels paramètres doivent être surveillés ?",
+      "options": [
+        "Température",
+        "Fréquence cardiaque",
+        "Pression artérielle",
+        "Glycémie systématique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les constantes vitales incluent T°, FC et TA. La glycémie n’est pas systématique."
+    },
+    {
+      "question": "Le débit de transfusion d’un CGR est généralement d’environ 1h30.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un CGR est généralement transfusé en 1h30 environ."
+    },
+    {
+      "question": "Après la transfusion, une surveillance de 2 heures est recommandée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une surveillance post-transfusionnelle est nécessaire pour détecter des complications tardives."
+    },
+    {
+      "question": "Quels documents participent à l’hémovigilance ?",
+      "options": [
+        "Fiche de délivrance",
+        "Dossier patient",
+        "Ordonnance",
+        "Carte vitale uniquement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces documents assurent la traçabilité. La carte vitale seule est insuffisante."
+    },
+    {
+      "question": "Un PSL non transfusé doit être détruit ou retourné selon les procédures.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les PSL non utilisés doivent être gérés selon des protocoles stricts."
+    },
+    {
+      "question": "Quels sont les risques transfusionnels possibles ?",
+      "options": [
+        "Infection",
+        "Réaction allergique",
+        "Accident hémolytique",
+        "Appendicite"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les risques incluent infection, allergie et hémolyse. L’appendicite n’a aucun lien."
+    },
+    {
+      "question": "La compatibilité ABO est essentielle pour éviter les accidents graves.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une incompatibilité ABO peut entraîner un accident hémolytique sévère."
+    },
+    {
+      "question": "Le système Rh est moins important que le système ABO en transfusion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le système Rh est également très important, notamment pour prévenir l’allo-immunisation."
+    },
+    {
+      "question": "Quels éléments composent le plasma ?",
+      "options": [
+        "Facteurs de coagulation",
+        "Protéines",
+        "Globules rouges",
+        "Albumine"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Le plasma contient des protéines dont les facteurs de coagulation et l’albumine, mais pas de globules rouges."
+    },
+    {
+      "question": "Le principe du soi signifie que l’on ne fabrique pas d’anticorps contre ses propres antigènes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le système immunitaire tolère ses propres antigènes."
+    },
+    {
+      "question": "Une incompatibilité peut entraîner une hémolyse des globules rouges transfusés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une incompatibilité immunologique provoque la destruction des globules rouges."
+    },
+    {
+      "question": "Quels sont les signes d’une réaction allergique ?",
+      "options": [
+        "Urticaire",
+        "Prurit",
+        "Rougeur",
+        "Coma immédiat"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les réactions allergiques donnent des signes cutanés. Le coma n’est pas typique."
+    },
+    {
+      "question": "La transfusion est un acte médical délégué à l’infirmier.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’infirmier réalise la transfusion sur prescription médicale."
+    },
+    {
+      "question": "La sécurité transfusionnelle repose uniquement sur les examens biologiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle repose aussi sur les contrôles, la surveillance et la traçabilité."
+    },
+    {
+      "question": "Une anémie normocytaire peut être d’origine centrale ou périphérique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les anémies normocytaires (VGM 80-100 fL) peuvent être d’origine centrale (médullaire) ou périphérique (hémorragie, hémolyse)."
+    },
+    {
+      "question": "Quels éléments orientent vers une origine centrale d’une anémie ?",
+      "options": [
+        "Carence en fer",
+        "Envahissement médullaire",
+        "Hémorragie aiguë",
+        "Carence en vitamine B12"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Les causes centrales incluent carences (fer, B12) et envahissement médullaire. L’hémorragie est une cause périphérique."
+    },
+    {
+      "question": "Une thrombopénie peut entraîner un syndrome hémorragique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une diminution des plaquettes expose à un risque de saignement."
+    },
+    {
+      "question": "Quels sont les éléments indispensables avant une transfusion (checklist IDE) ?",
+      "options": [
+        "Consentement du patient",
+        "Deux groupages sanguins",
+        "RAI récente",
+        "Présence d’une voie veineuse fonctionnelle"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La sécurité transfusionnelle repose sur ces éléments indispensables avant toute transfusion."
+    },
+    {
+      "question": "Le test AB (type AB Test Card) détecte la présence d’antigènes A et B par réaction antigène-anticorps.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le test repose sur une réaction d’hémagglutination entre antigènes des hématies et anticorps du test."
+    },
+    {
+      "question": "Une réaction positive au test AB signifie qu’il n’y a pas d’antigène sur les globules rouges.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une réaction positive signifie que l’antigène est présent et qu’il y a interaction avec les anticorps."
+    },
+    {
+      "question": "Quels éléments composent la surveillance per-transfusionnelle IDE ?",
+      "options": [
+        "Surveillance des constantes",
+        "Observation clinique du patient",
+        "Détection de signes d’intolérance",
+        "Réalisation d’un ECG systématique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La surveillance repose sur constantes, clinique et signes d’alerte. L’ECG n’est pas systématique."
+    },
+    {
+      "question": "Quels signes peuvent évoquer un syndrome thrombopénique ?",
+      "options": [
+        "Saignements cutanéo-muqueux",
+        "Ecchymoses",
+        "Hémorragies",
+        "Hypertension isolée"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les signes incluent purpura, ecchymoses et hémorragies. L’hypertension n’est pas caractéristique."
+    },
+    {
+      "question": "Une incompatibilité immunologique peut entraîner une activation du système immunitaire et une hémolyse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La rencontre antigène-anticorps déclenche une réponse immunitaire avec destruction des globules rouges."
+    },
+    {
+      "question": "La traçabilité transfusionnelle permet uniquement de suivre les produits, mais pas le patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La traçabilité relie le produit sanguin au receveur, assurant un suivi complet patient-produit."
+    }
+  ]
+}

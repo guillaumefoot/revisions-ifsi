@@ -1,0 +1,396 @@
+{
+  "title": "Quiz 4 - Plaies et Cicatrisation",
+  "subtitle": "IFSI - Bases fondamentales",
+  "questions": [
+    {
+      "question": "La peau est composée de trois couches principales.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La peau comprend l’épiderme, le derme et l’hypoderme."
+    },
+    {
+      "question": "L’épiderme est vascularisé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’épiderme est innervé mais non vascularisé."
+    },
+    {
+      "question": "Quels sont les rôles de la peau ?",
+      "options": [
+        "Protection",
+        "Régulation thermique",
+        "Absorption",
+        "Production d’insuline"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La peau protège, régule la température et permet certains échanges. Elle ne produit pas d’insuline."
+    },
+    {
+      "question": "Le derme contient des fibres de collagène et d’élastine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le collagène assure la solidité et l’élastine l’élasticité."
+    },
+    {
+      "question": "Une plaie est une interruption de la continuité des tissus.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. C’est la définition donnée dans le cours."
+    },
+    {
+      "question": "Quelles sont les plaies aiguës ?",
+      "options": [
+        "Brûlures",
+        "Plaies post-opératoires",
+        "Escarres",
+        "Ulcères"
+      ],
+      "correct": [0, 1],
+      "explanation": "Les plaies aiguës incluent brûlures et plaies opératoires. Les escarres et ulcères sont chroniques."
+    },
+    {
+      "question": "Les escarres sont des plaies chroniques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles évoluent sur le long terme."
+    },
+    {
+      "question": "Quels types de plaies chroniques existent ?",
+      "options": [
+        "Ulcères",
+        "Escarres",
+        "Plaies cancéreuses",
+        "Plaies post-opératoires"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les plaies post-opératoires sont aiguës."
+    },
+    {
+      "question": "La cicatrisation est un processus complexe de régénération.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle correspond à une régénération tissulaire."
+    },
+    {
+      "question": "Combien de phases comporte la cicatrisation ?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "correct": [2],
+      "explanation": "La cicatrisation comporte 4 phases."
+    },
+    {
+      "question": "Quelles sont les phases de cicatrisation ?",
+      "options": [
+        "Phase vasculaire",
+        "Phase inflammatoire",
+        "Phase de prolifération",
+        "Phase de remodelage"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ce sont les 4 phases décrites dans le cours."
+    },
+    {
+      "question": "La phase vasculaire dure plusieurs semaines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle dure 24 à 48 heures."
+    },
+    {
+      "question": "Quels sont les signes de la phase inflammatoire ?",
+      "options": [
+        "Rougeur",
+        "Chaleur",
+        "Œdème",
+        "Bradycardie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les signes inflammatoires classiques sont présents."
+    },
+    {
+      "question": "La phase de prolifération correspond à la reconstruction tissulaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet la formation du tissu de réparation."
+    },
+    {
+      "question": "La phase de remodelage peut durer jusqu’à 2 ans.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle correspond à la maturation de la cicatrice."
+    },
+    {
+      "question": "Quels sont les types de cicatrisation ?",
+      "options": [
+        "Primaire",
+        "Secondaire",
+        "Tertiaire",
+        "Quaternaire"
+      ],
+      "correct": [0, 1],
+      "explanation": "Le cours mentionne cicatrisation primaire et secondaire."
+    },
+    {
+      "question": "La cicatrisation dirigée est indiquée en cas de perte de substance non suturable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est utilisée lorsque la plaie ne peut être fermée."
+    },
+    {
+      "question": "Quels sont les types de pansements ?",
+      "options": [
+        "Pansement primaire",
+        "Pansement secondaire",
+        "Pansement tertiaire",
+        "Pansement quaternaire"
+      ],
+      "correct": [0, 1],
+      "explanation": "Le pansement primaire est en contact avec la plaie, le secondaire sert à fixer."
+    },
+    {
+      "question": "Un pansement idéal doit être occlusif et maintenir l’humidité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’humidité favorise la cicatrisation."
+    },
+    {
+      "question": "Quels sont les critères d’un pansement idéal ?",
+      "options": [
+        "Non adhérent",
+        "Perméable",
+        "Confortable",
+        "Rigide"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Un pansement ne doit pas être rigide."
+    },
+    {
+      "question": "La thérapie par pression négative favorise la cicatrisation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle crée un milieu favorable et élimine les exsudats."
+    },
+    {
+      "question": "La TPN est indiquée pour toutes les plaies infectées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle est contre-indiquée dans les plaies infectées non contrôlées."
+    },
+    {
+      "question": "Quels sont les rôles IDE dans la prise en charge des plaies ?",
+      "options": [
+        "Surveillance",
+        "Communication",
+        "Formation",
+        "Prescription chirurgicale"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L’IDE ne prescrit pas de chirurgie."
+    },
+    {
+      "question": "La surveillance IDE inclut l’évaluation locale et générale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle concerne la plaie et l’état du patient."
+    },
+    {
+      "question": "La prise en charge des plaies doit être planifiée et anticipée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le soin peut être long et complexe."
+    },
+    {
+      "question": "L’hypoderme est principalement constitué de tissu adipeux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’hypoderme est composé majoritairement de tissu graisseux."
+    },
+    {
+      "question": "L’épiderme se renouvelle environ tous les 28 jours.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le renouvellement cellulaire de l’épiderme est d’environ 28 jours."
+    },
+    {
+      "question": "Quels types de plaies nécessitent une identification de leur origine ?",
+      "options": [
+        "Ulcères",
+        "Escarres",
+        "Plaies chroniques",
+        "Plaies aiguës simples"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les plaies chroniques nécessitent une analyse étiologique pour adapter le traitement."
+    },
+    {
+      "question": "Une plaie artérielle doit être traitée sans tenir compte de sa cause.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le traitement doit toujours inclure la prise en charge de la cause."
+    },
+    {
+      "question": "Quels facteurs compliquent les plaies du pied diabétique ?",
+      "options": [
+        "Hyperglycémie",
+        "Perte de sensibilité",
+        "Bonne vascularisation",
+        "Troubles immunitaires"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Le pied diabétique est aggravé par neuropathie, hyperglycémie et immunodépression."
+    },
+    {
+      "question": "La phase inflammatoire a un rôle anti-infectieux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de lutter contre les agents pathogènes."
+    },
+    {
+      "question": "La phase de prolifération correspond à la formation du tissu de granulation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle correspond à la reconstruction tissulaire."
+    },
+    {
+      "question": "La cicatrisation primaire correspond à une fermeture rapide avec suture.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle concerne les plaies propres et suturées."
+    },
+    {
+      "question": "La cicatrisation secondaire se fait sans fermeture chirurgicale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle se fait par bourgeonnement progressif."
+    },
+    {
+      "question": "Quels sont les types de tissus observés dans les plaies ?",
+      "options": [
+        "Nécrotique",
+        "Fibrineux",
+        "Bourgeonnant",
+        "Osseux normal"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les tissus décrits dans les plaies sont nécrose, fibrine et bourgeonnement."
+    },
+    {
+      "question": "Une plaie nécrotique nécessite une détersion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La détersion élimine les tissus morts."
+    },
+    {
+      "question": "Quels traitements peuvent être utilisés pour une plaie fibrineuse ?",
+      "options": [
+        "Hydrogel",
+        "Hydro-détersif",
+        "Détersion mécanique",
+        "Suture immédiate"
+      ],
+      "correct": [1, 2],
+      "explanation": "La fibrine nécessite une détersion adaptée, pas une suture."
+    },
+    {
+      "question": "Une plaie bourgeonnante peut nécessiter un pansement gras.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il protège le tissu de granulation."
+    },
+    {
+      "question": "Quels pansements sont utilisés en cas de plaie suintante ?",
+      "options": [
+        "Alginate",
+        "Hydrocellulaire",
+        "Compresse sèche seule",
+        "Pansement gras uniquement"
+      ],
+      "correct": [0, 1],
+      "explanation": "Ces pansements absorbent les exsudats."
+    },
+    {
+      "question": "Une plaie infectée peut nécessiter un pansement à l’argent.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’argent a une action antibactérienne."
+    },
+    {
+      "question": "La TPN doit être totalement hermétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’étanchéité est indispensable à son efficacité."
+    },
+    {
+      "question": "Quels sont les objectifs de la TPN ?",
+      "options": [
+        "Maintenir un milieu humide",
+        "Éliminer les exsudats",
+        "Favoriser la cicatrisation",
+        "Assécher complètement la plaie"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La TPN favorise un environnement optimal, non desséché."
+    },
+    {
+      "question": "Le caisson hyperbare augmente la concentration en oxygène dans les tissus.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il améliore l’oxygénation tissulaire."
+    },
+    {
+      "question": "La greffe de peau est indiquée lorsque la cicatrisation dirigée est impossible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est utilisée en cas de perte de substance importante."
+    },
+    {
+      "question": "Quels types de greffes de peau existent ?",
+      "options": [
+        "Greffe mince",
+        "Greffe totale",
+        "Greffe osseuse",
+        "Derme artificiel"
+      ],
+      "correct": [0, 1, 3],
+      "explanation": "Les greffes cutanées incluent ces types, pas la greffe osseuse."
+    },
+    {
+      "question": "Les lambeaux sont des tissus vascularisés transférés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils permettent la reconstruction de structures complexes."
+    },
+    {
+      "question": "Quels types de lambeaux existent ?",
+      "options": [
+        "Pédiculés",
+        "Libres",
+        "Contralatéraux",
+        "Aériens"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Les lambeaux sont classés selon leur vascularisation."
+    },
+    {
+      "question": "La larvothérapie est utilisée pour traiter la nécrose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les larves permettent la détersion biologique."
+    },
+    {
+      "question": "Le miel peut être utilisé comme traitement des plaies.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il possède des propriétés cicatrisantes et antiseptiques."
+    },
+    {
+      "question": "La surveillance IDE inclut la communication avec le patient et l’équipe.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La communication fait partie du rôle IDE."
+    }
+  ]
+}
