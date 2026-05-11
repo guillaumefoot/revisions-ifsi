@@ -1,0 +1,912 @@
+{
+  "title": "Quiz UE 2.2 ",
+  "subtitle": "Ophtalmologie",
+  "questions": [
+    {
+      "question": "L’œil comprend un segment antérieur et un segment postérieur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette distinction permet de situer les structures de l’œil : en avant la cornée, l’iris, le cristallin et l’humeur aqueuse ; en arrière la rétine, la choroïde, le corps vitré et le nerf optique."
+    },
+    {
+      "question": "Quels éléments appartiennent au segment antérieur de l’œil ?",
+      "options": ["Cornée", "Iris", "Cristallin", "Nerf optique"],
+      "correct": [0, 1, 2],
+      "explanation": "La cornée, l’iris et le cristallin appartiennent au segment antérieur. Le nerf optique appartient au segment postérieur et transmet l’information visuelle vers le cerveau."
+    },
+    {
+      "question": "La sclère correspond au blanc de l’œil.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La sclère est l’enveloppe fibreuse externe du globe oculaire et joue un rôle de protection."
+    },
+    {
+      "question": "La cornée est opaque et empêche l’entrée de la lumière.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La cornée est transparente ; elle constitue le hublot de l’œil et permet l’entrée de la lumière."
+    },
+    {
+      "question": "Quels rôles sont associés à la cornée ?",
+      "options": ["Permettre l’entrée de la lumière", "Être très innervée", "Prolonger la sclère en avant", "Produire l’humeur aqueuse"],
+      "correct": [0, 1, 2],
+      "explanation": "La cornée est transparente, très innervée et prolonge la sclère en avant. La production de l’humeur aqueuse dépend des corps ciliaires."
+    },
+    {
+      "question": "La choroïde assure une fonction de vascularisation de l’œil.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La choroïde est une tunique vascularisée qui participe à l’apport sanguin des structures oculaires."
+    },
+    {
+      "question": "L’iris participe à la régulation de la quantité de lumière qui atteint la rétine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’iris agit comme un diaphragme circulaire grâce à un muscle sphincter et un muscle dilatateur."
+    },
+    {
+      "question": "Quels éléments prolongent la choroïde en avant ?",
+      "options": ["Corps ciliaires", "Iris", "Cristallin", "Nerf optique"],
+      "correct": [0, 1],
+      "explanation": "La choroïde se prolonge en avant par les corps ciliaires et l’iris. Le cristallin est une lentille transparente, et le nerf optique transmet l’information visuelle."
+    },
+    {
+      "question": "Les corps ciliaires produisent l’humeur aqueuse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’humeur aqueuse est produite par les corps ciliaires et circule dans le segment antérieur de l’œil."
+    },
+    {
+      "question": "La rétine contient des photorécepteurs appelés cônes et bâtonnets.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les cônes et les bâtonnets transforment l’énergie lumineuse en influx nerveux."
+    },
+    {
+      "question": "Les cônes et les bâtonnets transmettent directement l’influx nerveux au cerveau sans relais rétinien.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’information passe aussi par les cellules bipolaires, les cellules ganglionnaires, les fibres optiques puis le nerf optique."
+    },
+    {
+      "question": "Que permet la phototransduction ?",
+      "options": ["Convertir l’énergie lumineuse en influx nerveux", "Produire l’humeur aqueuse", "Diminuer la pression intraoculaire", "Modifier la forme de la paupière"],
+      "correct": [0],
+      "explanation": "La phototransduction correspond à la transformation de la lumière en message nerveux par les photorécepteurs rétiniens."
+    },
+    {
+      "question": "L’épithélium pigmentaire rétinien empêche la diffusion de la lumière.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il limite la diffusion parasite de la lumière et participe à la qualité de l’image formée sur la rétine."
+    },
+    {
+      "question": "Quels éléments participent à la transmission de l’influx nerveux de la rétine vers le cerveau ?",
+      "options": ["Cellules bipolaires", "Cellules ganglionnaires", "Fibres optiques et nerf optique", "Corps ciliaires"],
+      "correct": [0, 1, 2],
+      "explanation": "Les cellules bipolaires, ganglionnaires, leurs fibres et le nerf optique participent à la transmission visuelle. Les corps ciliaires produisent l’humeur aqueuse."
+    },
+    {
+      "question": "Le cristallin est une lentille biconvexe.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette lentille transparente participe à la réfraction et à l’accommodation."
+    },
+    {
+      "question": "Le cristallin participe uniquement à la vision de loin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il participe à la vision et à l’accommodation, notamment pour la vision de près."
+    },
+    {
+      "question": "Quels sont les trois milieux transparents de l’œil ?",
+      "options": ["Cristallin", "Humeur aqueuse", "Humeur vitrée", "Sclère"],
+      "correct": [0, 1, 2],
+      "explanation": "Les milieux transparents sont le cristallin, l’humeur aqueuse et l’humeur vitrée. La sclère est une enveloppe protectrice opaque."
+    },
+    {
+      "question": "La chambre antérieure est remplie d’humeur vitrée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La chambre antérieure contient l’humeur aqueuse ; l’humeur vitrée occupe la chambre postérieure."
+    },
+    {
+      "question": "La perte de transparence du cristallin correspond à la cataracte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Lorsque le cristallin devient opaque, la lumière atteint moins bien la rétine, ce qui provoque une baisse visuelle."
+    },
+    {
+      "question": "L’œil est un prolongement du système nerveux central.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les voies optiques relient directement la rétine au cerveau via le nerf optique, le chiasma optique et les radiations optiques."
+    },
+    {
+      "question": "Quels éléments appartiennent aux voies optiques ?",
+      "options": ["Rétine", "Nerf optique", "Chiasma optique", "Trabéculum"],
+      "correct": [0, 1, 2],
+      "explanation": "La rétine, le nerf optique et le chiasma optique participent aux voies visuelles. Le trabéculum intervient dans l’évacuation de l’humeur aqueuse."
+    },
+    {
+      "question": "Un œil emmétrope est un œil normal sur le plan optique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Dans l’emmétropie, l’image se forme correctement sur la rétine."
+    },
+    {
+      "question": "La puissance réfractive de l’œil emmétrope associe environ 40D pour la cornée et 20D pour le cristallin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La cornée représente la plus grande partie de la puissance réfractive, complétée par le cristallin."
+    },
+    {
+      "question": "La longueur axiale normale de l’œil est d’environ 12 à 16 mm.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La longueur axiale normale est d’environ 22 à 26 mm."
+    },
+    {
+      "question": "Quels éléments caractérisent une myopie forte ?",
+      "options": ["Œil long et fort", "Longueur axiale supérieure à 26 mm", "Puissance réfractive supérieure à 60D", "Correction par verres convexes positifs"],
+      "correct": [0, 1, 2],
+      "explanation": "La myopie forte correspond à un œil trop long et trop puissant. Elle se corrige par des verres concaves négatifs."
+    },
+    {
+      "question": "La myopie se corrige par des verres concaves négatifs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les verres concaves négatifs corrigent l’excès de puissance ou de longueur de l’œil myope."
+    },
+    {
+      "question": "L’hypermétropie correspond à un œil court et faible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’œil hypermétrope manque de puissance ou présente une longueur axiale insuffisante."
+    },
+    {
+      "question": "L’hypermétropie se corrige par des verres concaves négatifs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’hypermétropie se corrige par des verres convexes positifs."
+    },
+    {
+      "question": "Quels éléments sont associés à l’hypermétropie ?",
+      "options": ["Œil court et faible", "Puissance réfractive inférieure à 60D", "Correction par verres convexes positifs", "Correction par verres concaves négatifs"],
+      "correct": [0, 1, 2],
+      "explanation": "L’hypermétropie correspond à un œil court et faible, avec une correction par verres convexes positifs."
+    },
+    {
+      "question": "La taille de la pupille varie selon l’éclairage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La pupille se modifie pour réguler la quantité de lumière arrivant sur la rétine."
+    },
+    {
+      "question": "Le réflexe photomoteur implique une voie afférente et une voie efférente parasympathique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La voie afférente transmet l’information lumineuse et la voie efférente parasympathique entraîne la réponse pupillaire."
+    },
+    {
+      "question": "L’interrogatoire ophtalmologique recherche uniquement le motif de consultation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il recherche aussi les antécédents ophtalmologiques, généraux et familiaux, les traitements, les allergies et les symptômes associés."
+    },
+    {
+      "question": "Quels éléments sont recherchés lors d’un interrogatoire ophtalmologique ?",
+      "options": ["Antécédents ophtalmologiques", "Traitements en cours", "Allergies", "Groupe sanguin systématique"],
+      "correct": [0, 1, 2],
+      "explanation": "L’interrogatoire ophtalmologique comprend les antécédents, les traitements et les allergies. Le groupe sanguin n’est pas un élément systématique de cet examen."
+    },
+    {
+      "question": "Quels motifs peuvent amener à consulter en ophtalmologie ?",
+      "options": ["Baisse de vision", "Œil rouge", "Œil douloureux", "Douleur abdominale"],
+      "correct": [0, 1, 2],
+      "explanation": "Une baisse de vision, un œil rouge ou douloureux sont des motifs ophtalmologiques. Une douleur abdominale n’est pas un motif ophtalmologique."
+    },
+    {
+      "question": "Les myodésopsies sont un motif de consultation ophtalmologique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les myodésopsies correspondent à la perception de corps flottants, pouvant orienter vers une atteinte vitréo-rétinienne."
+    },
+    {
+      "question": "Les phosphènes et les métamorphopsies sont des symptômes ophtalmologiques à rechercher.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les phosphènes correspondent à des éclairs lumineux et les métamorphopsies à une déformation des lignes ou des images."
+    },
+    {
+      "question": "L’acuité visuelle de loin est notée en dixièmes en France.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une acuité de 10/10 est considérée comme normale."
+    },
+    {
+      "question": "Une acuité visuelle de 10/10 est considérée comme normale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette valeur correspond à une acuité visuelle normale de loin."
+    },
+    {
+      "question": "Quels outils ou échelles permettent d’évaluer l’acuité visuelle ?",
+      "options": ["Réfracteur automatique", "Échelle de Monoyer", "Parinaud", "Score de Glasgow"],
+      "correct": [0, 1, 2],
+      "explanation": "Le réfracteur automatique objective la réfraction, Monoyer évalue la vision de loin et Parinaud la vision de près. Le Glasgow évalue la conscience."
+    },
+    {
+      "question": "La pression intraoculaire normale est comprise entre 9 et 21 mmHg.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une pression intraoculaire supérieure à cette plage peut faire suspecter une hypertonie oculaire."
+    },
+    {
+      "question": "Une pression intraoculaire normale est supérieure à 40 mmHg.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une pression intraoculaire normale est comprise entre 9 et 21 mmHg."
+    },
+    {
+      "question": "Quels moyens permettent de mesurer la pression intraoculaire ?",
+      "options": ["Aplanation", "Air pulsé", "Angiographie", "Test d’Ishihara"],
+      "correct": [0, 1],
+      "explanation": "La pression intraoculaire peut être mesurée par aplanation ou par air pulsé. L’angiographie explore les vaisseaux, et Ishihara explore la vision des couleurs."
+    },
+    {
+      "question": "La lampe à fente permet d’examiner le segment antérieur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet notamment l’examen des structures antérieures comme la cornée, l’iris et le cristallin."
+    },
+    {
+      "question": "Le fond d’œil permet l’examen du segment postérieur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le fond d’œil permet d’observer la rétine, la papille et les vaisseaux rétiniens."
+    },
+    {
+      "question": "Le fond d’œil se réalise habituellement sans dilatation pupillaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La dilatation pupillaire est importante pour bien examiner le segment postérieur."
+    },
+    {
+      "question": "Quels examens complémentaires peuvent être utilisés en ophtalmologie ?",
+      "options": ["OCT", "Angiographie à la fluorescéine ou au vert d’indocyanine", "Échographie oculaire", "Spirométrie"],
+      "correct": [0, 1, 2],
+      "explanation": "L’OCT, l’angiographie et l’échographie oculaire sont des examens ophtalmologiques. La spirométrie explore la fonction respiratoire."
+    },
+    {
+      "question": "L’OCT signifie tomographie à cohérence optique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’OCT permet une analyse fine des structures rétiniennes."
+    },
+    {
+      "question": "L’angiographie à la fluorescéine ou au vert d’indocyanine comporte un risque allergique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’injection de colorant impose de tenir compte du risque allergique."
+    },
+    {
+      "question": "Quels examens orthoptiques peuvent être réalisés ?",
+      "options": ["Champ visuel statique", "Champ visuel dynamique de Goldmann", "Lancaster", "ECBU"],
+      "correct": [0, 1, 2],
+      "explanation": "Les champs visuels et le Lancaster font partie des examens orthoptiques. L’ECBU est un examen urinaire."
+    },
+    {
+      "question": "Le test d’Ishihara explore la vision des couleurs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il permet de rechercher des anomalies de perception des couleurs."
+    },
+    {
+      "question": "Le Lancaster peut aider à rechercher une paralysie oculomotrice.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cet examen orthoptique analyse les troubles de l’oculomotricité."
+    },
+    {
+      "question": "Le test à la fluorescéine peut mettre en évidence une atteinte cornéenne nécessitant un traitement antibiotique local rapproché.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une fixation de fluorescéine peut révéler une lésion cornéenne ; un abcès cornéen impose des gouttes antibiotiques fréquentes."
+    },
+    {
+      "question": "En collyre, multiplier les gouttes du même médicament augmente toujours l’efficacité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une goutte correspond à une dose de médicament ; ajouter plusieurs gouttes n’est pas utile et peut favoriser le gaspillage ou l’irritation."
+    },
+    {
+      "question": "Le nettoyage des paupières peut comprendre la fluidification, l’expression des sécrétions puis le nettoyage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette séquence permet de faciliter l’élimination des sécrétions et l’hygiène palpébrale."
+    },
+    {
+      "question": "La cataracte correspond à l’opacification progressive du cristallin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le cristallin, normalement transparent, devient progressivement opaque."
+    },
+    {
+      "question": "La cataracte empêche la lumière d’atteindre correctement la rétine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’opacité du cristallin gêne le passage de la lumière et entraîne une baisse visuelle."
+    },
+    {
+      "question": "Quels symptômes peuvent évoquer une cataracte ?",
+      "options": ["Baisse de vision de loin", "Halos lumineux", "Vision comme à travers un brouillard", "Douleur abdominale"],
+      "correct": [0, 1, 2],
+      "explanation": "La cataracte peut provoquer une baisse de vision de loin, des halos lumineux et une impression de brouillard visuel."
+    },
+    {
+      "question": "La cataracte est la première cause de cécité dans le monde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle constitue une cause majeure de cécité car l’opacification du cristallin altère progressivement la vision."
+    },
+    {
+      "question": "La cataracte est due à une atteinte primitive du nerf optique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La cataracte touche le cristallin. L’atteinte du nerf optique concerne plutôt le glaucome."
+    },
+    {
+      "question": "Le traitement de la cataracte est uniquement médical par collyres.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le traitement de la cataracte est chirurgical."
+    },
+    {
+      "question": "Quel est le traitement de référence de la cataracte ?",
+      "options": ["Chirurgie", "Collyres hypotonisants seuls", "Laser du trabéculum", "Compléments alimentaires seuls"],
+      "correct": [0],
+      "explanation": "La cataracte se traite par chirurgie, avec retrait du cristallin opacifié et mise en place d’un implant."
+    },
+    {
+      "question": "La phacoémulsification utilise des ultrasons et une aspiration pour retirer le noyau cataracté.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette technique fragmente et aspire le noyau cataracté par une micro-incision cornéenne."
+    },
+    {
+      "question": "La chirurgie de cataracte implique la mise en place d’un implant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’implant remplace la fonction optique du cristallin retiré."
+    },
+    {
+      "question": "La phacoémulsification impose toujours une anesthésie générale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle est réalisée sous anesthésie locale."
+    },
+    {
+      "question": "Quels éléments caractérisent la phacoémulsification ?",
+      "options": ["Micro-incision cornéenne", "Ultrasons", "Aspiration", "Ablation du nerf optique"],
+      "correct": [0, 1, 2],
+      "explanation": "La phacoémulsification associe micro-incision, ultrasons et aspiration. Elle ne concerne pas le nerf optique."
+    },
+    {
+      "question": "La cataracte provoque typiquement une amélioration progressive de la vision de loin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle entraîne au contraire une baisse progressive de la vision."
+    },
+    {
+      "question": "Les halos lumineux peuvent être un signe de cataracte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les halos peuvent apparaître lorsque le cristallin devient opaque et diffuse la lumière."
+    },
+    {
+      "question": "L’impression de voir à travers un brouillard est compatible avec une cataracte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette impression traduit la perte de transparence du cristallin."
+    },
+    {
+      "question": "La cataracte correspond à une mauvaise évacuation de l’humeur aqueuse par le trabéculum.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La mauvaise évacuation de l’humeur aqueuse par le trabéculum est impliquée dans le glaucome."
+    },
+    {
+      "question": "La cataracte concerne le cristallin, qui est une lentille de l’œil.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le cristallin est une lentille transparente qui devient opaque dans la cataracte."
+    },
+    {
+      "question": "La cataracte peut gêner l’arrivée de la lumière sur la rétine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Plus le cristallin s’opacifie, moins l’image formée sur la rétine est nette."
+    },
+    {
+      "question": "La chirurgie de la cataracte est un acte réalisé au bloc opératoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est réalisée en conditions chirurgicales, sous anesthésie locale."
+    },
+    {
+      "question": "Quels éléments sont justes concernant le cristallin dans la cataracte ?",
+      "options": ["Il est transparent à la naissance", "Il s’opacifie au cours de la vie", "Son opacité peut empêcher la lumière d’aller sur la rétine", "Il produit l’humeur aqueuse"],
+      "correct": [0, 1, 2],
+      "explanation": "Le cristallin est normalement transparent, mais il peut s’opacifier avec l’âge. L’humeur aqueuse est produite par les corps ciliaires."
+    },
+    {
+      "question": "La cataracte peut être responsable d’une baisse de vision de loin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La baisse de vision de loin fait partie des manifestations classiques de la cataracte."
+    },
+    {
+      "question": "Le glaucome est la deuxième cause mondiale de cécité derrière la cataracte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le glaucome est une cause majeure de cécité liée à l’atteinte progressive du nerf optique."
+    },
+    {
+      "question": "Le glaucome représente environ 15% de toutes les cécités.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette proportion souligne l’importance du dépistage et du suivi."
+    },
+    {
+      "question": "Le glaucome est lié à une opacification du cristallin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’opacification du cristallin correspond à la cataracte. Le glaucome concerne la pression intraoculaire et l’atteinte du nerf optique."
+    },
+    {
+      "question": "Quel mécanisme favorise l’élévation de la pression intraoculaire dans le glaucome ?",
+      "options": ["Mauvaise évacuation de l’humeur aqueuse par résistance du trabéculum", "Production insuffisante d’humeur vitrée", "Opacification du cristallin", "Décollement de la rétine"],
+      "correct": [0],
+      "explanation": "Une résistance du trabéculum gêne l’évacuation de l’humeur aqueuse, ce qui augmente la pression intraoculaire."
+    },
+    {
+      "question": "L’élévation de la pression intraoculaire peut altérer la papille optique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La papille correspond à l’arrivée du nerf optique dans l’œil et peut être lésée par l’hypertonie oculaire."
+    },
+    {
+      "question": "L’altération du champ visuel dans le glaucome est spontanément réversible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’atteinte du champ visuel liée au glaucome est irréversible."
+    },
+    {
+      "question": "Quels sont des facteurs de risque du glaucome ?",
+      "options": ["Hypertension intraoculaire", "Âge élevé", "Antécédents familiaux", "Myopie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’hypertension intraoculaire, l’âge, les antécédents familiaux, l’ethnie et la myopie augmentent le risque de glaucome."
+    },
+    {
+      "question": "Le glaucome est souvent insidieux car progressif et indolore.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette évolution silencieuse explique les découvertes tardives."
+    },
+    {
+      "question": "Le glaucome est toujours douloureux dès le début.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il est le plus souvent progressif et indolore."
+    },
+    {
+      "question": "La pression intraoculaire normale est inférieure à 21 mmHg.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une valeur supérieure peut faire discuter une hypertonie oculaire."
+    },
+    {
+      "question": "Le but du traitement du glaucome est de baisser la pression intraoculaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Baisser la pression intraoculaire vise à limiter l’aggravation de l’atteinte du nerf optique."
+    },
+    {
+      "question": "Quels traitements peuvent être utilisés dans le glaucome ?",
+      "options": ["Collyres hypotonisants", "Laser dans le trabéculum", "Chirurgie du trabéculum", "Injection intra-vitréenne d’anti-VEGF systématique"],
+      "correct": [0, 1, 2],
+      "explanation": "Le glaucome peut être traité par collyres, laser ou chirurgie visant à diminuer la pression intraoculaire. Les anti-VEGF concernent plutôt la DMLA humide ou l’œdème maculaire diabétique."
+    },
+    {
+      "question": "Les collyres hypotonisants visent à augmenter la production d’humeur aqueuse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Ils visent à diminuer la pression intraoculaire, notamment en réduisant la production d’humeur aqueuse."
+    },
+    {
+      "question": "Le laser dans le trabéculum peut favoriser l’excrétion de l’humeur aqueuse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’objectif est d’améliorer l’évacuation de l’humeur aqueuse."
+    },
+    {
+      "question": "La chirurgie du glaucome peut viser à rouvrir le trabéculum pour augmenter l’excrétion d’humeur aqueuse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette stratégie vise à réduire la pression intraoculaire."
+    },
+    {
+      "question": "Le glaucome peut provoquer une altération du champ visuel avec scotome arciforme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le glaucome altère progressivement le champ visuel."
+    },
+    {
+      "question": "Le glaucome est souvent découvert précocement car il est très bruyant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Son caractère progressif et indolore favorise une découverte tardive."
+    },
+    {
+      "question": "Quels éléments peuvent être altérés dans le glaucome ?",
+      "options": ["Papille optique", "Cellules ganglionnaires rétiniennes", "Champ visuel", "Paupière uniquement"],
+      "correct": [0, 1, 2],
+      "explanation": "Le glaucome touche la papille, les cellules ganglionnaires rétiniennes et entraîne une atteinte du champ visuel."
+    },
+    {
+      "question": "Le glaucome terminal correspond à un stade avancé d’atteinte visuelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il correspond à une atteinte très évoluée du champ visuel."
+    },
+    {
+      "question": "Le traitement du glaucome est uniquement chirurgical.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les traitements peuvent inclure collyres, laser et chirurgie."
+    },
+    {
+      "question": "La DMLA signifie dégénérescence maculaire liée à l’âge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle atteint la macula, zone centrale de la rétine impliquée dans la vision fine."
+    },
+    {
+      "question": "La DMLA est une cause importante de malvoyance et de cécité légale dans les pays développés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle touche principalement les sujets âgés et altère la vision centrale."
+    },
+    {
+      "question": "La DMLA concerne environ 10% des personnes après 75 ans.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Sa fréquence augmente avec l’âge."
+    },
+    {
+      "question": "Quelles sont les deux formes principales de DMLA ?",
+      "options": ["DMLA humide ou exsudative", "DMLA sèche ou atrophique", "DMLA traumatique", "DMLA infectieuse"],
+      "correct": [0, 1],
+      "explanation": "La DMLA existe sous deux formes principales : sèche ou atrophique, et humide ou exsudative."
+    },
+    {
+      "question": "La DMLA humide est aussi appelée DMLA exsudative.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est caractérisée par des néovaisseaux responsables d’exsudation."
+    },
+    {
+      "question": "La DMLA sèche est aussi appelée DMLA atrophique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle correspond à une atrophie progressive des photorécepteurs."
+    },
+    {
+      "question": "Quels facteurs augmentent le risque de DMLA ?",
+      "options": ["Facteurs génétiques", "Âge", "Tabagisme", "Obésité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La DMLA est multifactorielle. Les facteurs génétiques, l’âge, le tabac, l’obésité, l’HTA et certains facteurs alimentaires augmentent le risque."
+    },
+    {
+      "question": "Le tabagisme multiplie par trois le risque de DMLA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le tabac est un facteur de risque majeur de DMLA."
+    },
+    {
+      "question": "L’HTA fait partie des facteurs de risque de DMLA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’HTA est un facteur de risque cardiovasculaire également impliqué dans la DMLA."
+    },
+    {
+      "question": "Une alimentation pauvre en antioxydants peut favoriser le risque de DMLA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un apport insuffisant en antioxydants, caroténoïdes et oméga 3 est défavorable pour la rétine."
+    },
+    {
+      "question": "Quels facteurs alimentaires sont défavorables dans la DMLA ?",
+      "options": ["Régime riche en graisse", "Régime pauvre en antioxydants", "Régime pauvre en caroténoïdes", "Régime pauvre en oméga 3"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une alimentation riche en graisses et pauvre en antioxydants, caroténoïdes et oméga 3 augmente le risque de DMLA."
+    },
+    {
+      "question": "Les drusens correspondent à des dépôts situés sous l’épithélium pigmentaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils sont constitués d’accumulations de lipides, protéines et cellules dendritiques entre la membrane de Bruch et l’épithélium pigmentaire."
+    },
+    {
+      "question": "La présence de drusens correspond à une maculopathie liée à l’âge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les drusens sont un élément caractéristique de la MLA, pouvant évoluer vers une DMLA."
+    },
+    {
+      "question": "Dans la forme atrophique de DMLA, les photorécepteurs meurent progressivement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette perte progressive entraîne une altération de la vision centrale."
+    },
+    {
+      "question": "Dans la DMLA humide, la rétine hypoxique produit des facteurs angiogéniques comme le VEGF.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le VEGF favorise l’apparition de néovaisseaux responsables d’exsudation."
+    },
+    {
+      "question": "La DMLA humide est liée à des néovaisseaux qui produisent du liquide.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces néovaisseaux provoquent une exsudation responsable d’une atteinte maculaire."
+    },
+    {
+      "question": "Quels symptômes peuvent évoquer une DMLA ?",
+      "options": ["Scotome central", "Baisse de vision", "Métamorphopsies", "Douleur oculaire systématique"],
+      "correct": [0, 1, 2],
+      "explanation": "La DMLA se manifeste par une atteinte de la vision centrale : scotome central, baisse de vision et déformation des images."
+    },
+    {
+      "question": "Le scotome central est un symptôme possible de DMLA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il correspond à une tache ou zone manquante au centre du champ visuel."
+    },
+    {
+      "question": "Les métamorphopsies correspondent à une déformation des images ou des lignes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles sont typiques d’une atteinte maculaire."
+    },
+    {
+      "question": "L’OCT est un examen clé dans l’évaluation de la DMLA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’OCT permet d’analyser les structures maculaires et de rechercher une exsudation."
+    },
+    {
+      "question": "L’angiographie en DMLA peut nécessiter l’injection de fluorescéine ou d’ICG.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces colorants permettent d’analyser la vascularisation et les néovaisseaux."
+    },
+    {
+      "question": "Le cliché précoce en angiographie est réalisé avant 30 secondes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il permet d’étudier précocement la circulation du colorant."
+    },
+    {
+      "question": "Le cliché tardif en angiographie est réalisé avant 30 secondes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le cliché tardif se situe au-delà de 10 minutes."
+    },
+    {
+      "question": "Quels éléments font partie de la prise en charge générale d’une DMLA ?",
+      "options": ["Compléments alimentaires pour la rétine", "Soutien psychologique", "Chirurgie du trabéculum", "Panphotocoagulation systématique"],
+      "correct": [0, 1],
+      "explanation": "La prise en charge générale comprend des compléments alimentaires, notamment en oméga 3, et un soutien psychologique."
+    },
+    {
+      "question": "La DMLA atrophique dispose d’un traitement curatif spécifique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La forme atrophique n’a pas de traitement curatif spécifique."
+    },
+    {
+      "question": "La DMLA humide peut être traitée par injections intra-vitréennes d’anti-VEGF.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les anti-VEGF visent les néovaisseaux responsables de l’exsudation."
+    },
+    {
+      "question": "Le but des anti-VEGF est de limiter la production de facteurs de croissance vasculaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils permettent d’assécher les néovaisseaux qui produisent du liquide."
+    },
+    {
+      "question": "La DMLA humide ne récidive jamais après traitement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les récidives sont fréquentes et peuvent nécessiter de nombreuses injections."
+    },
+    {
+      "question": "La rétinopathie diabétique est une cause majeure de cécité et de malvoyance avant 65 ans.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle touche la population active et constitue une complication fréquente du diabète."
+    },
+    {
+      "question": "Environ 35% des patients diabétiques présentent une rétinopathie diabétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette fréquence justifie un dépistage régulier."
+    },
+    {
+      "question": "Quels facteurs favorisent la rétinopathie diabétique ?",
+      "options": ["Durée d’évolution du diabète", "Diabète non contrôlé", "HTA", "Hypermétropie isolée"],
+      "correct": [0, 1, 2],
+      "explanation": "La durée du diabète, l’hyperglycémie chronique et l’HTA favorisent la rétinopathie diabétique."
+    },
+    {
+      "question": "La durée d’évolution du diabète influence le risque de rétinopathie diabétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le risque augmente fortement lorsque le diabète évolue depuis de nombreuses années."
+    },
+    {
+      "question": "Un diabète non contrôlé n’a pas d’impact sur la rétine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’hyperglycémie chronique favorise les lésions rétiniennes."
+    },
+    {
+      "question": "Quelles lésions peuvent être observées dans la rétinopathie diabétique ?",
+      "options": ["Microanévrismes", "Hémorragies rétiniennes", "Exsudats", "Néovaisseaux pré-rétiniens"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La rétinopathie diabétique peut associer microanévrismes, hémorragies, exsudats et néovaisseaux."
+    },
+    {
+      "question": "La rétinopathie diabétique peut entraîner un œdème maculaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’œdème maculaire peut être cystoïde ou focal et altérer la vision centrale."
+    },
+    {
+      "question": "L’œdème maculaire diabétique peut être traité par injections intra-vitréennes d’anti-VEGF ou de corticoïdes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces traitements visent à réduire l’œdème maculaire."
+    },
+    {
+      "question": "Les néovaisseaux pré-rétiniens de la rétinopathie diabétique proliférante peuvent être traités par laser argon.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La photocoagulation au laser argon est utilisée dans la rétinopathie diabétique proliférante."
+    },
+    {
+      "question": "Dans la rétinopathie diabétique, l’équilibre du diabète et de l’HTA est indispensable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le contrôle glycémique et tensionnel est une base de la prise en charge."
+    },
+    {
+      "question": "La rétinopathie diabétique se traite uniquement par chirurgie de la cataracte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle peut nécessiter injections, laser et surtout équilibre du diabète et de l’HTA."
+    },
+    {
+      "question": "Quels traitements peuvent être utilisés dans la rétinopathie diabétique ?",
+      "options": ["Injections intra-vitréennes d’anti-VEGF", "Corticoïdes pour l’œdème maculaire", "Photocoagulation au laser argon", "Verres concaves"],
+      "correct": [0, 1, 2],
+      "explanation": "Les injections et le laser font partie des traitements. Les verres concaves corrigent la myopie, pas la rétinopathie diabétique."
+    },
+    {
+      "question": "La panphotocoagulation au laser argon peut être utilisée dans la rétinopathie diabétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est utilisée notamment dans les formes proliférantes avec néovaisseaux."
+    },
+    {
+      "question": "Le dépistage de la rétinopathie diabétique comprend un fond d’œil dès la découverte du diabète.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le fond d’œil permet de rechercher précocement des lésions rétiniennes."
+    },
+    {
+      "question": "En l’absence de rétinopathie diabétique, une surveillance annuelle est recommandée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une surveillance régulière permet de détecter l’apparition de lésions."
+    },
+    {
+      "question": "En présence d’une rétinopathie diabétique, la surveillance peut devenir plus fréquente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La fréquence dépend de la gravité et de la décision ophtalmologique."
+    },
+    {
+      "question": "Le dépistage de la rétinopathie diabétique ne nécessite jamais de fond d’œil.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le fond d’œil est un examen central du dépistage."
+    },
+    {
+      "question": "Pourquoi la prise en charge de la rétinopathie diabétique peut-elle être difficile ?",
+      "options": ["Traitement long", "Traitement contraignant", "Suivi répété nécessaire", "Aucune implication du patient"],
+      "correct": [0, 1, 2],
+      "explanation": "La prise en charge est longue et contraignante. L’adhésion du patient est essentielle, notamment pour l’équilibre du diabète et de l’HTA."
+    },
+    {
+      "question": "La motivation du patient est importante dans la prise en charge de la rétinopathie diabétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le suivi et l’équilibre du diabète nécessitent une implication durable du patient."
+    },
+    {
+      "question": "L’entropion correspond à une paupière qui s’enroule vers l’œil.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette malposition peut entraîner un contact anormal des cils avec l’œil."
+    },
+    {
+      "question": "L’ectropion correspond à une paupière qui s’éverse vers l’extérieur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La paupière se retourne vers l’extérieur, exposant davantage la surface oculaire."
+    },
+    {
+      "question": "L’ectropion et l’entropion peuvent être liés à une détente de la paupière avec l’âge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La faiblesse musculaire progressive favorise ces malpositions palpébrales."
+    },
+    {
+      "question": "Le traitement de l’ectropion et de l’entropion est chirurgical.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La correction repose sur un geste chirurgical."
+    },
+    {
+      "question": "Quels signes peuvent évoquer un décollement de rétine ?",
+      "options": ["Phosphènes", "Myodésopsies", "Amputation du champ visuel", "Voile visuel"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Phosphènes, myodésopsies, amputation du champ visuel et voile sont des signes d’alerte évocateurs."
+    },
+    {
+      "question": "Les phosphènes correspondent à des éclairs lumineux dans le champ de vision.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils sont souvent localisés et peuvent persister dans l’obscurité."
+    },
+    {
+      "question": "Les myodésopsies correspondent à la perception de mouches volantes ou de pluie de suie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles peuvent traduire un phénomène vitréen ou un saignement."
+    },
+    {
+      "question": "Une amputation du champ visuel avec perception d’un voile peut évoquer un décollement de rétine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La zone de rétine décollée n’est plus fonctionnelle, ce qui peut créer un voile dans le champ visuel."
+    },
+    {
+      "question": "La baisse d’acuité visuelle est toujours absente dans le décollement de rétine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle est variable et devient majeure lorsque l’aire maculaire est décollée."
+    },
+    {
+      "question": "Le décollement de rétine relève d’un traitement chirurgical.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le traitement repose sur la chirurgie afin de réappliquer la rétine décollée."
+    }
+  ]
+}
