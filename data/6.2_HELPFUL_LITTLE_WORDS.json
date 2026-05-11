@@ -1,0 +1,648 @@
+{
+  "title": "UE 6.2 - Anglais Médical",
+  "subtitle": "Mots outils, connecteurs et adverbes fréquents",
+  "questions": [
+    {
+      "question": "Quelle est la traduction principale de \"about\" dans le sens \"about the patient\" ?",
+      "options": ["au sujet de","après","malgré","selon"],
+      "correct": [0],
+      "explanation": "\"About\" peut signifier \"au sujet de\". Ex : about the patient → au sujet du patient."
+    },
+    {
+      "question": "Quelle est la traduction de \"about / around\" dans le sens d’approximation ?",
+      "options": ["à peu près","selon","en réalité","au moins"],
+      "correct": [0],
+      "explanation": "\"About\" ou \"around\" peuvent indiquer une approximation. Ex : about 20 minutes → environ 20 minutes."
+    },
+    {
+      "question": "Quelle est la traduction de \"according to\" ?",
+      "options": ["selon","malgré","afin de","en réalité"],
+      "correct": [0],
+      "explanation": "\"According to\" sert à introduire une source ou un point de vue. Ex : according to the doctor → selon le médecin."
+    },
+    {
+      "question": "Quelle est la traduction correcte de \"actually\" ?",
+      "options": ["en réalité","actuellement","récemment","habituellement"],
+      "correct": [0],
+      "explanation": "\"Actually\" est un faux ami : il signifie \"en réalité\", pas \"actuellement\"."
+    },
+    {
+      "question": "Quelle est la traduction de \"after\" ?",
+      "options": ["après","avant","pendant","jusqu’à"],
+      "correct": [0],
+      "explanation": "\"After\" marque la postériorité. Ex : after treatment → après le traitement."
+    },
+    {
+      "question": "Quelle est la traduction de \"all in all\" ?",
+      "options": ["tout compte fait","partout","presque","en réalité"],
+      "correct": [0],
+      "explanation": "\"All in all\" sert à faire une conclusion globale : tout compte fait."
+    },
+    {
+      "question": "Quelle est la traduction de \"all over\" ?",
+      "options": ["partout","tout compte fait","au sujet de","au moins"],
+      "correct": [0],
+      "explanation": "\"All over\" signifie \"partout\". Ex : pain all over the body → douleur partout dans le corps."
+    },
+    {
+      "question": "Quelle est la traduction de \"all right / alright\" ?",
+      "options": ["tout va bien / bien","presque","parmi","à peu près"],
+      "correct": [0],
+      "explanation": "\"All right\" peut signifier \"tout va bien\" ou servir à dire \"bien, d’accord\"."
+    },
+    {
+      "question": "Quelle est la traduction de \"almost\" ?",
+      "options": ["presque","aussi","souvent","récemment"],
+      "correct": [0],
+      "explanation": "\"Almost\" indique que quelque chose est proche d’être complet : presque."
+    },
+    {
+      "question": "Quelle est la traduction de \"also\" ?",
+      "options": ["aussi","malgré","selon","jusqu’à"],
+      "correct": [0],
+      "explanation": "\"Also\" ajoute une information. Ex : He also has fever → Il a aussi de la fièvre."
+    },
+    {
+      "question": "Quelle est la traduction de \"among / amongst\" ?",
+      "options": ["parmi","autour de","envers","pendant"],
+      "correct": [0],
+      "explanation": "\"Among\" ou \"amongst\" signifie \"parmi\", dans un groupe."
+    },
+    {
+      "question": "Quelle est la traduction de \"as\" ?",
+      "options": ["comme / en tant que","malgré","au moins","peu"],
+      "correct": [0],
+      "explanation": "\"As\" peut signifier \"comme\" ou \"en tant que\" selon le contexte."
+    },
+    {
+      "question": "Quelle est la traduction de \"as much as\" ?",
+      "options": ["autant que","ainsi que","à peu près","plus ou moins"],
+      "correct": [0],
+      "explanation": "\"As much as\" exprime une comparaison de quantité : autant que."
+    },
+    {
+      "question": "Quelle est la traduction de \"as well as\" ?",
+      "options": ["ainsi que","autant que","bien que","selon"],
+      "correct": [0],
+      "explanation": "\"As well as\" ajoute un élément : ainsi que."
+    },
+    {
+      "question": "Quelle est la traduction de \"at\" ?",
+      "options": ["à / au","après","avant","malgré"],
+      "correct": [0],
+      "explanation": "\"At\" est une préposition fréquente. Ex : at the hospital → à l’hôpital."
+    },
+    {
+      "question": "Quelle est la traduction de \"at least\" ?",
+      "options": ["au moins","au plus","à peu près","parmi"],
+      "correct": [0],
+      "explanation": "\"At least\" signifie \"au moins\". À ne pas confondre avec \"at most\" = au plus."
+    },
+    {
+      "question": "Quelle est la traduction de \"at most\" ?",
+      "options": ["au plus","au moins","en tout","presque"],
+      "correct": [0],
+      "explanation": "\"At most\" fixe une limite maximale : au plus."
+    },
+    {
+      "question": "Quelle est la traduction de \"before\" ?",
+      "options": ["avant","après","pendant","jusqu’à"],
+      "correct": [0],
+      "explanation": "\"Before\" marque l’antériorité. Ex : before surgery → avant l’opération."
+    },
+    {
+      "question": "Quelle est la traduction possible de \"by\" ?",
+      "options": ["par / de / auprès de","avant","malgré","tel que"],
+      "correct": [0],
+      "explanation": "\"By\" peut se traduire différemment selon le contexte : by the doctor → par le médecin."
+    },
+    {
+      "question": "Quelle est la traduction de \"by the way\" ?",
+      "options": ["au fait","par conséquent","à partir de ceci","en réalité"],
+      "correct": [0],
+      "explanation": "\"By the way\" sert à introduire une remarque secondaire : au fait."
+    },
+    {
+      "question": "Quelle est la traduction de \"considered\" ?",
+      "options": ["considéré(e)","actuellement","probable","plusieurs"],
+      "correct": [0],
+      "explanation": "\"Considered\" signifie \"considéré(e)\". Ex : considered stable → considéré comme stable."
+    },
+    {
+      "question": "Quelle est la traduction de \"constantly\" ?",
+      "options": ["constamment","récemment","habituellement","probablement"],
+      "correct": [0],
+      "explanation": "\"Constantly\" insiste sur la répétition ou la continuité : constamment."
+    },
+    {
+      "question": "Quelle est la traduction correcte de \"currently\" ?",
+      "options": ["actuellement","en réalité","récemment","habituellement"],
+      "correct": [0],
+      "explanation": "\"Currently\" signifie bien \"actuellement\". À ne pas confondre avec \"actually\" = en réalité."
+    },
+    {
+      "question": "Quelle est la traduction de \"despite\" ?",
+      "options": ["malgré","selon","afin de","autour de"],
+      "correct": [0],
+      "explanation": "\"Despite\" exprime une opposition. Ex : despite the pain → malgré la douleur."
+    },
+    {
+      "question": "Quelle est la traduction de \"each\" ?",
+      "options": ["chaque","plusieurs","peu","ceux"],
+      "correct": [0],
+      "explanation": "\"Each\" insiste sur chaque élément pris individuellement."
+    },
+    {
+      "question": "Quelle est la traduction de \"especially\" ?",
+      "options": ["surtout","simplement","globalement","probablement"],
+      "correct": [0],
+      "explanation": "\"Especially\" met en avant un élément particulier : surtout."
+    },
+    {
+      "question": "Quelle est la traduction de \"every\" ?",
+      "options": ["tous les / chaque","peu","plusieurs","autre"],
+      "correct": [0],
+      "explanation": "\"Every\" exprime une répétition régulière. Ex : every day → tous les jours."
+    },
+    {
+      "question": "Quelle est la traduction de \"few\" ?",
+      "options": ["peu","plusieurs","chaque","la plupart"],
+      "correct": [0],
+      "explanation": "\"Few\" signifie \"peu\" et suggère une quantité faible."
+    },
+    {
+      "question": "Quelle est la traduction de \"for instance\" ?",
+      "options": ["par exemple","en effet","au fait","malgré cela"],
+      "correct": [0],
+      "explanation": "\"For instance\" introduit un exemple, comme \"for example\"."
+    },
+    {
+      "question": "Quelle est la traduction de \"from this\" ?",
+      "options": ["à partir de ceci","malgré ceci","en réalité","selon ceci"],
+      "correct": [0],
+      "explanation": "\"From this\" introduit une origine ou une déduction : à partir de ceci."
+    },
+    {
+      "question": "Quelle est la traduction de \"indeed\" ?",
+      "options": ["en effet","peut-être","en réalité","tout de suite"],
+      "correct": [0],
+      "explanation": "\"Indeed\" renforce ou confirme une idée : en effet."
+    },
+    {
+      "question": "Quelle est la traduction de \"in fact\" ?",
+      "options": ["en réalité / en fait","afin de","par exemple","au fait"],
+      "correct": [0],
+      "explanation": "\"In fact\" sert à corriger ou préciser une idée : en réalité, en fait."
+    },
+    {
+      "question": "Quelle est la traduction de \"in order to\" ?",
+      "options": ["afin de","malgré","selon","en fait"],
+      "correct": [0],
+      "explanation": "\"In order to\" exprime un but. Ex : in order to recover → afin de se rétablir."
+    },
+    {
+      "question": "Quelle est la différence entre \"it's\" et \"its\" ?",
+      "options": ["it's = c’est ; its = son / sa / ses","it's = son ; its = c’est","les deux signifient c’est","les deux signifient son"],
+      "correct": [0],
+      "explanation": "\"It's\" est la contraction de \"it is\". \"Its\" est un possessif."
+    },
+    {
+      "question": "Quelle est la traduction de \"kind of\" ?",
+      "options": ["un peu / en quelque sorte","une sorte de","au moins","en réalité"],
+      "correct": [0],
+      "explanation": "\"Kind of\" atténue une idée : un peu, en quelque sorte."
+    },
+    {
+      "question": "Quelle est la traduction de \"a kind of\" ?",
+      "options": ["une sorte de / un type de","un peu","pareil","autre"],
+      "correct": [0],
+      "explanation": "\"A kind of\" classe quelque chose dans une catégorie : une sorte de."
+    },
+    {
+      "question": "Quelle est la traduction de \"less\" ?",
+      "options": ["moins","plus","la plupart","peu"],
+      "correct": [0],
+      "explanation": "\"Less\" sert au comparatif d’infériorité : less pain → moins de douleur."
+    },
+    {
+      "question": "Quelle est la traduction de \"like\" ?",
+      "options": ["comme","contrairement à","probable","envers"],
+      "correct": [0],
+      "explanation": "\"Like\" peut signifier \"comme\" dans une comparaison."
+    },
+    {
+      "question": "Quelle est la traduction de \"unlike\" ?",
+      "options": ["contrairement à / à la différence de","comme","surtout","parmi"],
+      "correct": [0],
+      "explanation": "\"Unlike\" introduit une différence ou opposition."
+    },
+    {
+      "question": "Quelle est la traduction de \"likely\" ?",
+      "options": ["probable / probablement","impossible","rarement","certainement pas"],
+      "correct": [0],
+      "explanation": "\"Likely\" exprime une probabilité. Ex : it is likely → il est probable."
+    },
+    {
+      "question": "Quelle est la traduction de \"unlikely\" ?",
+      "options": ["improbable / peu probable","probable","actuellement","généralement"],
+      "correct": [0],
+      "explanation": "\"Unlikely\" est l’opposé de \"likely\" : peu probable."
+    },
+    {
+      "question": "Quelle est la traduction de \"may\" ?",
+      "options": ["peut","doit","veut","sait"],
+      "correct": [0],
+      "explanation": "\"May\" exprime une possibilité. Ex : it may happen → cela peut arriver."
+    },
+    {
+      "question": "Quelle différence faut-il faire entre \"maybe\" et \"may be\" ?",
+      "options": ["maybe = peut-être ; may be = peut être","maybe = peut être ; may be = peut-être","les deux sont toujours identiques","may be signifie devoir"],
+      "correct": [0],
+      "explanation": "\"Maybe\" est un adverbe. \"May be\" = modal may + verbe be."
+    },
+    {
+      "question": "Quelle est la traduction de \"might\" ?",
+      "options": ["peut / pourrait","doit","va","sait"],
+      "correct": [0],
+      "explanation": "\"Might\" exprime une possibilité souvent plus incertaine que \"may\"."
+    },
+    {
+      "question": "Quelle est la traduction de \"more\" ?",
+      "options": ["plus","moins","peu","pareil"],
+      "correct": [0],
+      "explanation": "\"More\" sert à exprimer une quantité ou intensité supérieure."
+    },
+    {
+      "question": "Quelle est la traduction de \"more or less\" ?",
+      "options": ["plus ou moins","de plus en plus","moins que","au plus"],
+      "correct": [0],
+      "explanation": "\"More or less\" indique une approximation : plus ou moins."
+    },
+    {
+      "question": "Quelle est la différence entre \"most\" et \"mostly\" ?",
+      "options": ["most = le plus / la plupart ; mostly = principalement","most = principalement ; mostly = le plus","les deux signifient uniquement probable","les deux signifient seulement plus"],
+      "correct": [0],
+      "explanation": "\"Most\" peut être superlatif ou quantitatif. \"Mostly\" est un adverbe : principalement."
+    },
+    {
+      "question": "Quelle est la traduction de \"must\" ?",
+      "options": ["doit","peut","veut","sait"],
+      "correct": [0],
+      "explanation": "\"Must\" exprime une obligation forte. Ex : you must rest → vous devez vous reposer."
+    },
+    {
+      "question": "Quelle est la traduction de \"often\" ?",
+      "options": ["souvent","parfois","jamais","récemment"],
+      "correct": [0],
+      "explanation": "\"Often\" est un adverbe de fréquence."
+    },
+    {
+      "question": "Quelle est la traduction de \"other(s)\" ?",
+      "options": ["autre(s)","même","plusieurs","ceux"],
+      "correct": [0],
+      "explanation": "\"Other\" signifie \"autre\" ; \"others\" peut signifier \"les autres\"."
+    },
+    {
+      "question": "Quelle est la traduction de \"overall\" ?",
+      "options": ["globalement / global(e)","au fait","en réalité","immédiatement"],
+      "correct": [0],
+      "explanation": "\"Overall\" donne une vision d’ensemble."
+    },
+    {
+      "question": "Quelle est la traduction de \"recently\" ?",
+      "options": ["récemment","actuellement","habituellement","souvent"],
+      "correct": [0],
+      "explanation": "\"Recently\" indique un moment proche dans le passé."
+    },
+    {
+      "question": "Quelle est la traduction de \"right away\" ?",
+      "options": ["tout de suite / immédiatement","juste ici","maintenant","au fait"],
+      "correct": [0],
+      "explanation": "\"Right away\" signifie sans délai : immédiatement."
+    },
+    {
+      "question": "Quelle est la traduction de \"right here\" ?",
+      "options": ["ici même / juste ici","tout de suite","maintenant","ailleurs"],
+      "correct": [0],
+      "explanation": "\"Right here\" insiste sur le lieu précis : ici même."
+    },
+    {
+      "question": "Quelle est la traduction de \"right now\" ?",
+      "options": ["maintenant / à l’heure actuelle","ici même","tout de suite","récemment"],
+      "correct": [0],
+      "explanation": "\"Right now\" insiste sur le moment présent."
+    },
+    {
+      "question": "Quelle est la traduction de \"same\" ?",
+      "options": ["pareil / même","autre","plusieurs","chaque"],
+      "correct": [0],
+      "explanation": "\"Same\" exprime l’identité ou la similitude : the same symptom → le même symptôme."
+    },
+    {
+      "question": "Quelle est la traduction de \"several\" ?",
+      "options": ["plusieurs","quelque","peu","chaque"],
+      "correct": [0],
+      "explanation": "\"Several\" indique plus de deux éléments, sans quantité précise."
+    },
+    {
+      "question": "Quelle est la traduction de \"simply\" ?",
+      "options": ["simplement","surtout","globalement","probablement"],
+      "correct": [0],
+      "explanation": "\"Simply\" modifie une phrase ou une action : simplement."
+    },
+    {
+      "question": "Quelle est la traduction de \"some\" ?",
+      "options": ["quelque / certains","chaque","aucun","plusieurs uniquement"],
+      "correct": [0],
+      "explanation": "\"Some\" indique une quantité indéfinie : some patients → certains patients."
+    },
+    {
+      "question": "Quelle est la traduction de \"sometimes\" ?",
+      "options": ["parfois","souvent","toujours","jamais"],
+      "correct": [0],
+      "explanation": "\"Sometimes\" est un adverbe de fréquence moyenne : parfois."
+    },
+    {
+      "question": "Quelle est la traduction de \"still\" ?",
+      "options": ["toujours / encore / quand même","déjà","jamais","récemment"],
+      "correct": [0],
+      "explanation": "\"Still\" peut indiquer une continuité : He is still sick → Il est encore malade."
+    },
+    {
+      "question": "Quelle est la traduction de \"such as\" ?",
+      "options": ["tel(les) que","malgré","afin de","au sujet de"],
+      "correct": [0],
+      "explanation": "\"Such as\" introduit des exemples. Ex : symptoms such as fever → symptômes tels que la fièvre."
+    },
+    {
+      "question": "Quelle est la traduction de \"those\" ?",
+      "options": ["ceux / ces","ceci","chaque","autre"],
+      "correct": [0],
+      "explanation": "\"Those\" est un démonstratif pluriel : ces / ceux."
+    },
+    {
+      "question": "Quelle est la traduction de \"though / although\" ?",
+      "options": ["bien que / même si","donc","parce que","afin de"],
+      "correct": [0],
+      "explanation": "\"Though\" et \"although\" expriment une concession ou opposition."
+    },
+    {
+      "question": "Quelle est la traduction de \"too much\" ?",
+      "options": ["trop","plus","moins","presque"],
+      "correct": [0],
+      "explanation": "\"Too much\" indique un excès. Ex : too much pain → trop de douleur."
+    },
+    {
+      "question": "Quelle est la traduction de \"toward / towards\" ?",
+      "options": ["envers / vers","malgré","jusqu’à","selon"],
+      "correct": [0],
+      "explanation": "\"Towards\" peut indiquer une direction ou une attitude envers quelqu’un."
+    },
+    {
+      "question": "Quelle est la traduction de \"typically\" ?",
+      "options": ["généralement","récemment","actuellement","en réalité"],
+      "correct": [0],
+      "explanation": "\"Typically\" décrit ce qui arrive généralement ou typiquement."
+    },
+    {
+      "question": "Quelle est la traduction de \"until\" ?",
+      "options": ["jusqu’à / jusqu’à ce que","pendant","avant","après"],
+      "correct": [0],
+      "explanation": "\"Until\" marque une limite dans le temps."
+    },
+    {
+      "question": "Quelle est la traduction de \"usually\" ?",
+      "options": ["habituellement","parfois","jamais","récemment"],
+      "correct": [0],
+      "explanation": "\"Usually\" exprime une habitude fréquente."
+    },
+    {
+      "question": "Quelle est la traduction de \"whatever\" ?",
+      "options": ["quoi que ce soit","qui que ce soit","où que ce soit","chaque fois que"],
+      "correct": [0],
+      "explanation": "\"Whatever\" renvoie à une chose indéterminée : quoi que ce soit."
+    },
+    {
+      "question": "Quelle est la traduction de \"whenever\" ?",
+      "options": ["chaque fois que / quand","où que ce soit","qui que ce soit","quoi que ce soit"],
+      "correct": [0],
+      "explanation": "\"Whenever\" concerne le temps : chaque fois que."
+    },
+    {
+      "question": "Quelle est la traduction de \"wherever\" ?",
+      "options": ["où que ce soit","quand","qui que ce soit","quoi que ce soit"],
+      "correct": [0],
+      "explanation": "\"Wherever\" concerne le lieu : où que ce soit."
+    },
+    {
+      "question": "Quelle est la traduction de \"whether\" ?",
+      "options": ["si","parce que","malgré","pendant"],
+      "correct": [0],
+      "explanation": "\"Whether\" introduit une alternative ou une incertitude. Ex : whether he comes or not → s’il vient ou pas."
+    },
+    {
+      "question": "Quelle est la traduction de \"whether or not\" ?",
+      "options": ["que... ou non / si... ou pas","parce que","malgré tout","à condition que"],
+      "correct": [0],
+      "explanation": "\"Whether or not\" insiste sur l’alternative : que cela arrive ou non."
+    },
+    {
+      "question": "Quelle est la traduction de \"while\" ?",
+      "options": ["pendant / tandis que","jusqu’à","après","envers"],
+      "correct": [0],
+      "explanation": "\"While\" peut exprimer la simultanéité : while he sleeps → pendant qu’il dort."
+    },
+    {
+      "question": "Quelle est la traduction de \"whoever\" ?",
+      "options": ["qui que ce soit","quoi que ce soit","où que ce soit","quand"],
+      "correct": [0],
+      "explanation": "\"Whoever\" concerne une personne indéterminée : qui que ce soit."
+    },
+    {
+      "question": "Quelle est la traduction de \"within\" ?",
+      "options": ["en / dans","hors de","avant","malgré"],
+      "correct": [0],
+      "explanation": "\"Within\" indique souvent une limite de temps ou d’espace. Ex : within 24 hours → dans les 24 heures."
+    },
+     {
+    "question": "\"Actually\" signifie \"actuellement\".",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : \"actually\" signifie \"en réalité\". \"Actuellement\" se traduit plutôt par \"currently\"."
+  },
+  {
+    "question": "Quel mot anglais signifie \"actuellement\" ?",
+    "options": ["currently","actually","recently","usually"],
+    "correct": [0],
+    "explanation": "\"Currently\" = actuellement. Attention au faux ami \"actually\" = en réalité."
+  },
+  {
+    "question": "\"Eventually\" n’apparaît pas dans le tableau, mais \"actually\" signifie \"en réalité\".",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "Vrai : dans ce tableau, \"actually\" est bien à retenir comme \"en réalité\"."
+  },
+  {
+    "question": "Quel mot anglais signifie \"selon\" ?",
+    "options": ["according to","despite","although","within"],
+    "correct": [0],
+    "explanation": "\"According to\" introduit une source ou un point de vue : according to the doctor → selon le médecin."
+  },
+  {
+    "question": "\"Despite\" signifie \"malgré\".",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "\"Despite\" exprime une opposition : despite the pain → malgré la douleur."
+  },
+  {
+    "question": "Quel mot anglais signifie \"malgré\" ?",
+    "options": ["despite","because","therefore","according to"],
+    "correct": [0],
+    "explanation": "\"Despite\" = malgré. Il est suivi d’un nom ou groupe nominal."
+  },
+  {
+    "question": "\"Although\" et \"though\" expriment une opposition.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "Vrai : \"although\" et \"though\" se traduisent souvent par \"bien que\" ou \"même si\"."
+  },
+  {
+    "question": "Quel mot anglais signifie \"bien que\" ?",
+    "options": ["although","also","among","almost"],
+    "correct": [0],
+    "explanation": "\"Although\" = bien que. Il introduit une concession."
+  },
+  {
+    "question": "\"Also\" signifie \"aussi\".",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "\"Also\" ajoute une information : He also has pain → Il a aussi mal."
+  },
+  {
+    "question": "Quel mot anglais signifie \"aussi\" ?",
+    "options": ["also","almost","although","all over"],
+    "correct": [0],
+    "explanation": "\"Also\" = aussi. Ne pas confondre avec \"almost\" = presque."
+  },
+  {
+    "question": "\"Almost\" signifie \"presque\".",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "\"Almost\" indique qu’on est proche d’un état ou d’une quantité complète."
+  },
+  {
+    "question": "Quel mot anglais signifie \"presque\" ?",
+    "options": ["almost","also","among","already"],
+    "correct": [0],
+    "explanation": "\"Almost\" = presque. Exemple : almost finished → presque terminé."
+  },
+  {
+    "question": "\"Among\" signifie \"parmi\".",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "\"Among\" ou \"amongst\" signifie \"parmi\", dans un groupe."
+  },
+  {
+    "question": "Quel mot anglais signifie \"parmi\" ?",
+    "options": ["among","around","after","about"],
+    "correct": [0],
+    "explanation": "\"Among\" = parmi. Exemple : among patients → parmi les patients."
+  },
+  {
+    "question": "\"At least\" signifie \"au plus\".",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : \"at least\" signifie \"au moins\". \"At most\" signifie \"au plus\"."
+  },
+  {
+    "question": "Quel groupe anglais signifie \"au moins\" ?",
+    "options": ["at least","at most","all in all","all over"],
+    "correct": [0],
+    "explanation": "\"At least\" = au moins ; \"at most\" = au plus."
+  },
+  {
+    "question": "\"At most\" signifie \"au plus\".",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "\"At most\" donne une limite maximale : au plus."
+  },
+  {
+    "question": "Quel groupe anglais signifie \"au plus\" ?",
+    "options": ["at most","at least","about","around"],
+    "correct": [0],
+    "explanation": "\"At most\" = au plus. Exemple : at most 10 minutes → au plus 10 minutes."
+  },
+  {
+    "question": "\"Few\" signifie \"beaucoup\".",
+    "options": ["Vrai","Faux"],
+    "correct": [1],
+    "explanation": "Faux : \"few\" signifie \"peu\". Il indique une quantité faible."
+  },
+  {
+    "question": "Quel mot anglais signifie \"peu\" ?",
+    "options": ["few","several","many","most"],
+    "correct": [0],
+    "explanation": "\"Few\" = peu. À distinguer de \"several\" = plusieurs."
+  },
+  {
+    "question": "\"Several\" signifie \"plusieurs\".",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "\"Several\" indique plusieurs éléments, sans quantité exacte."
+  },
+  {
+    "question": "Quel mot anglais signifie \"plusieurs\" ?",
+    "options": ["several","few","each","same"],
+    "correct": [0],
+    "explanation": "\"Several\" = plusieurs. Exemple : several symptoms → plusieurs symptômes."
+  },
+  {
+    "question": "\"Each\" signifie \"chaque\".",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "\"Each\" insiste sur chaque élément pris individuellement."
+  },
+  {
+    "question": "Quel mot anglais signifie \"chaque\" ?",
+    "options": ["each","few","other","those"],
+    "correct": [0],
+    "explanation": "\"Each\" = chaque. \"Every\" peut aussi signifier chaque/tous les selon le contexte."
+  },
+  {
+    "question": "\"Every\" peut se traduire par \"tous les\" ou \"chaque\".",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "Vrai : every day → tous les jours ; every patient → chaque patient."
+  },
+  {
+    "question": "Quel mot anglais signifie \"tous les / chaque\" ?",
+    "options": ["every","each other","other","same"],
+    "correct": [0],
+    "explanation": "\"Every\" = tous les / chaque, avec une idée de régularité ou de totalité."
+  },
+  {
+    "question": "\"Within\" peut signifier \"dans\" avec une limite de temps.",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "Vrai : within 24 hours → dans les 24 heures, avec une limite maximale."
+  },
+  {
+    "question": "Quel mot anglais signifie \"dans\" au sens de \"dans un délai de\" ?",
+    "options": ["within","without","while","until"],
+    "correct": [0],
+    "explanation": "\"Within\" indique une limite temporelle ou spatiale : within 24 hours → dans les 24 heures."
+  },
+  {
+    "question": "\"Whether or not\" signifie \"que... ou non\".",
+    "options": ["Vrai","Faux"],
+    "correct": [0],
+    "explanation": "\"Whether or not\" introduit une alternative : whether he comes or not → qu’il vienne ou non."
+  },
+  {
+    "question": "Quel mot anglais signifie \"si\" dans une alternative indirecte ?",
+    "options": ["whether","if","though","while"],
+    "correct": [0],
+    "explanation": "\"Whether\" introduit une alternative ou une incertitude : I don’t know whether he will come → Je ne sais pas s’il viendra."
+  }
+  ]
+}
