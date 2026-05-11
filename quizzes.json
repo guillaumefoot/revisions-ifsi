@@ -63,6 +63,13 @@
         "icon": "🔗"
     },
     {
+        "file": "data/6.2_CLINICAL_VOC.json",
+        "code": "UE 6.2",
+        "name": "Recherche & Stats",
+        "subtitle": "Vocabulaire d'épidémiologie et recherche clinique",
+        "icon": "📊"
+    },
+    {
         "file": "data/4.4_TRANSFUSION.json",
         "code": "UE 4.4",
         "name": "Transfusion & Hémovigilance",
