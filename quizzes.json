@@ -145,5 +145,12 @@
         "name": "Urgences Cardio-respiratoires",
         "subtitle": "Douleur thoracique, détresse respiratoire et signes",
         "icon": "❤️‍🔥"
+    },
+    {
+        "file": "data/2.2_OPHTALMO.json",
+        "code": "UE 2.2",
+        "name": "Ophtalmologie",
+        "subtitle": "Anatomie de l'œil, cataracte, glaucome et DMLA",
+        "icon": "👁️"
     }
 ]
