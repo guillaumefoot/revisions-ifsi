@@ -21,6 +21,13 @@
         "icon": "🏃"
     },
     {
+        "file": "data/6.2_HELPFUL_LITTLE_WORDS.json",
+        "code": "UE 6.2",
+        "name": "Petits Mots Utiles",
+        "subtitle": "Mots outils, connecteurs et adverbes fréquents",
+        "icon": "🔤"
+    },
+    {
         "file": "data/6.2_BASE_CONJUGAISON.json",
         "code": "UE 6.2",
         "name": "Bases de Conjugaison",
