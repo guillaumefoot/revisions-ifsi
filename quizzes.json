@@ -105,6 +105,13 @@
         "icon": "🧪"
     },
     {
+        "file": "data/2.7_NEPHRO_TD.json",
+        "code": "UE 2.7",
+        "name": "Néphrologie (TD)",
+        "subtitle": "Insuffisance rénale, alimentation et dialyse",
+        "icon": "📝"
+    },
+    {
         "file": "data/2.7_REIN.json",
         "code": "UE 2.7",
         "name": "Anatomie & Sémiologie du Rein",
