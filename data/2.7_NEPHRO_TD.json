@@ -1,0 +1,695 @@
+{
+  "title": "U.E 2.7 S4 - Défaillances organiques et processus dégénératifs",
+  "subtitle": "TD N°2 - Néphrologie",
+    "questions": [
+    {
+      "question": "Quelles fonctions rénales sont atteintes lors d’une insuffisance rénale chronique ?",
+      "options": [
+        "La fonction excrétrice",
+        "La fonction de régulation hydro-électrolytique",
+        "La fonction endocrinienne",
+        "La fonction de régulation de la pression artérielle",
+        "La fonction respiratoire alvéolaire"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L’insuffisance rénale chronique altère les fonctions principales du rein : élimination des déchets, équilibre de l’eau et des électrolytes, production hormonale et participation à la régulation tensionnelle. La fonction respiratoire alvéolaire ne relève pas du rein."
+    },
+    {
+      "question": "Le rein participe à l’élimination de déchets comme l’urée et la créatinine.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le rein filtre le sang et élimine des déchets métaboliques comme l’urée et la créatinine, qui sont ensuite évacués dans les urines."
+    },
+    {
+      "question": "Le rein filtre environ 190 litres de sang par jour.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corrigé rappelle que le rein assure une fonction de filtration importante, avec environ 190 litres de sang filtrés par jour."
+    },
+    {
+      "question": "Quel est le rôle du rein dans l’équilibre hydro-électrolytique et acido-basique ?",
+      "options": [
+        "Maintenir constante la quantité d’eau de l’organisme",
+        "Ajuster l’élimination urinaire du sodium, du potassium et du phosphore",
+        "Participer au maintien du pH",
+        "Produire directement l’insuline",
+        "Réguler certains sels minéraux"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explanation": "Le rein maintient l’équilibre hydrique, électrolytique et acido-basique en ajustant notamment l’élimination de l’eau, du sodium, du potassium, du phosphore et en participant à l’équilibre du pH. Il ne produit pas l’insuline."
+    },
+    {
+      "question": "Quelle hormone produite par le rein participe à la fabrication des globules rouges par la moelle osseuse ?",
+      "options": [
+        "L’érythropoïétine",
+        "L’insuline",
+        "La thyroxine",
+        "Le glucagon"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le rein produit l’érythropoïétine, ou EPO, qui stimule la fabrication des globules rouges par la moelle osseuse."
+    },
+    {
+      "question": "Le rein intervient dans la qualité osseuse par la production de la forme active de la vitamine D.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le rein participe au maintien de la qualité osseuse grâce à la production de calcitriol, forme active de la vitamine D."
+    },
+    {
+      "question": "Dans l’insuffisance rénale chronique, la viande doit généralement être augmentée car elle protège le rein.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C’est faux. La viande correspond à un apport en protéines animales, ce qui augmente la production de déchets comme l’urée et sollicite davantage la fonction rénale."
+    },
+    {
+      "question": "Pourquoi la consommation de viande doit-elle être limitée dans la maladie rénale chronique ?",
+      "options": [
+        "Parce que les protéines animales augmentent les déchets azotés comme l’urée",
+        "Parce qu’elle sollicite davantage la fonction rénale",
+        "Parce qu’il est préférable de privilégier les protéines végétales",
+        "Parce qu’elle corrige directement l’hypocalcémie"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les protéines animales augmentent la charge de déchets à éliminer, notamment l’urée, ce qui sollicite davantage les reins. Le corrigé indique de préférer les protéines végétales. La viande ne corrige pas directement l’hypocalcémie."
+    },
+    {
+      "question": "Dans la maladie rénale chronique, certains poissons et crustacés doivent être limités en raison de leur richesse en phosphore.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Certains poissons, crustacés, crevettes et langoustes peuvent être riches en phosphore. Leur consommation peut favoriser une hyperphosphorémie et des complications par dépôts de phosphore dans les tissus."
+    },
+    {
+      "question": "Quels poissons sont cités comme plus pauvres en phosphore ou préférables dans le cadre de la maladie rénale chronique ?",
+      "options": [
+        "Cabillaud",
+        "Dorade",
+        "Truite",
+        "Lotte",
+        "Poissons industriels préparés riches en additifs phosphatés"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le corrigé cite notamment les poissons frais ou surgelés non préparés, comme le cabillaud, la dorade, la truite, la lotte ou le saumon. Les produits préparés peuvent contenir davantage d’additifs phosphatés."
+    },
+    {
+      "question": "Dans l’insuffisance rénale chronique, la vitamine D peut nécessiter une supplémentation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La biosynthèse de la vitamine D active est altérée dans l’insuffisance rénale chronique. Une supplémentation peut être prescrite, notamment en lien avec l’hypocalcémie et la baisse du calcitriol."
+    },
+    {
+      "question": "Pourquoi le lait doit-il être limité dans la maladie rénale chronique ?",
+      "options": [
+        "Parce qu’il contient du phosphore",
+        "Parce que l’hyperphosphatémie peut entraîner des démangeaisons",
+        "Parce que l’hyperphosphatémie peut favoriser des troubles osseux",
+        "Parce que l’hyperphosphatémie peut favoriser la calcification des vaisseaux",
+        "Parce qu’il provoque toujours une hypokaliémie immédiate"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le lait contient du phosphore. En cas d’insuffisance rénale chronique, l’hyperphosphatémie peut provoquer des démangeaisons, des troubles osseux et favoriser la calcification vasculaire. L’hypokaliémie immédiate n’est pas mentionnée."
+    },
+    {
+      "question": "Les bananes doivent être limitées dans l’insuffisance rénale chronique car elles sont riches en potassium.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les bananes sont riches en potassium. Dans l’insuffisance rénale chronique, l’hyperkaliémie fait partie des complications possibles et peut être délétère pour la fonction cardiaque."
+    },
+    {
+      "question": "Quels déséquilibres minéraux peuvent être observés lors de la perte des capacités rénales ?",
+      "options": [
+        "Déséquilibre du sodium",
+        "Déséquilibre du potassium",
+        "Déséquilibre du phosphore",
+        "Déséquilibre du calcium",
+        "Déséquilibre isolé de l’oxygène alvéolaire"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La perte des capacités rénales provoque des déséquilibres d’éléments minéraux dissous dans le sang, notamment sodium, potassium, phosphore et calcium. L’oxygène alvéolaire n’est pas un élément minéral sanguin cité dans ce contexte."
+    },
+    {
+      "question": "L’insuffisance rénale chronique peut entraîner une hyperphosphatémie et une hypocalcémie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corrigé indique que le métabolisme phosphocalcique est perturbé dans l’insuffisance rénale chronique, avec hyperphosphatémie liée à l’altération de l’excrétion et hypocalcémie liée à la baisse du calcitriol."
+    },
+    {
+      "question": "Quel lien existe entre insuffisance rénale chronique, calcitriol et os ?",
+      "options": [
+        "La baisse du calcitriol peut contribuer à l’hypocalcémie",
+        "La baisse du calcitriol peut affecter la minéralisation osseuse",
+        "Le calcitriol correspond à une forme active de la vitamine D",
+        "L’insuffisance rénale chronique améliore spontanément la minéralisation osseuse"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Dans l’insuffisance rénale chronique, la production de calcitriol diminue. Cela peut favoriser une hypocalcémie et altérer la minéralisation osseuse. L’IRC n’améliore pas spontanément la minéralisation osseuse."
+    },
+    {
+      "question": "Comment peut-on réduire les apports ou l’absorption de phosphore dans l’insuffisance rénale chronique ?",
+      "options": [
+        "Limiter les aliments riches en phosphore comme les abats, la charcuterie ou certains fromages",
+        "Être attentif aux produits industriels contenant des additifs phosphatés",
+        "Utiliser des chélateurs du phosphore lorsqu’ils sont prescrits",
+        "Augmenter les sodas et fromages fondus pour compenser",
+        "Prendre les chélateurs avant le repas selon le principe décrit"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explanation": "Le corrigé propose de limiter les apports alimentaires en phosphore, d’être attentif aux additifs phosphatés et d’utiliser des chélateurs du phosphore, pris avant le repas, lorsqu’ils sont prescrits. Les sodas et fromages fondus sont au contraire cités comme produits pouvant contenir des phosphates."
+    },
+    {
+      "question": "Les chélateurs du phosphore agissent comme une éponge au niveau digestif et favorisent l’élimination du phosphore dans les selles.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corrigé explique que les chélateurs du phosphore réduisent l’absorption du phosphore ingéré en l’absorbant au niveau du tube digestif, avec une élimination par les selles plutôt que par les urines."
+    },
+    {
+      "question": "Quels facteurs de risque ont pu favoriser l’apparition d’une maladie rénale chronique chez Mme K ?",
+      "options": [
+        "Un diabète de type 2 mal équilibré",
+        "Une hypertension artérielle",
+        "Un tabagisme régulier",
+        "Un surpoids",
+        "Une dyslipidémie"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "explanation": "Mme K présente plusieurs facteurs de risque associés à la maladie rénale chronique : diabète ancien et difficile à équilibrer, hypertension artérielle, tabagisme, surpoids et dyslipidémie."
+    },
+    {
+      "question": "Chez Mme K, le diabète ancien et mal équilibré peut accélérer l’atteinte rénale sous forme de néphropathie diabétique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corrigé mentionne que le diabète mal équilibré de Mme K peut accélérer l’évolution des atteintes rénales et conduire à une néphropathie diabétique."
+    },
+    {
+      "question": "Le tabac protège les artères rénales en améliorant durablement la vasomotricité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C’est faux. Le tabac altère les parois artérielles et diminue la vasomotricité, ce qui constitue un facteur de risque vasculaire défavorable."
+    },
+    {
+      "question": "Pourquoi l’hypertension artérielle favorise-t-elle la maladie rénale chronique ?",
+      "options": [
+        "Elle épaissit les parois des vaisseaux sanguins",
+        "Elle favorise le durcissement artériel",
+        "Elle peut participer à l’athérosclérose",
+        "Elle détruit directement les alvéoles pulmonaires",
+        "Elle contribue aux lésions des petites artères rénales"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explanation": "L’hypertension artérielle épaissit les parois vasculaires, favorise le durcissement des artères et participe aux lésions des petites artères rénales. L’atteinte alvéolaire pulmonaire n’est pas le mécanisme cité ici."
+    },
+    {
+      "question": "L’hypertension artérielle et le diabète sont responsables de près d’un cas sur deux de maladie rénale chronique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corrigé indique que l’HTA et le diabète sont responsables de près de 1 cas sur 2 de maladie rénale chronique, notamment par lésions des petites artères et atteinte glomérulaire."
+    },
+    {
+      "question": "Quels conseils peuvent contribuer à ralentir l’évolution de la maladie rénale chronique chez Mme K ?",
+      "options": [
+        "Équilibrer le diabète",
+        "Arrêter le tabac",
+        "Maintenir la tension artérielle dans des valeurs normales",
+        "Équilibrer le poids",
+        "Augmenter volontairement l’hypertension pour stimuler la filtration"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La maladie rénale chronique ne disparaît pas, mais son évolution peut être ralentie par l’équilibre du diabète, l’arrêt du tabac, le contrôle tensionnel et l’équilibre pondéral. Augmenter l’hypertension serait délétère."
+    },
+    {
+      "question": "Lorsque les reins ne fonctionnent plus suffisamment, les traitements de substitution possibles comprennent la dialyse ou la transplantation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corrigé précise que lorsque les reins ne fonctionnent plus, les patients peuvent bénéficier d’un traitement de substitution de la fonction rénale par dialyse ou par transplantation."
+    },
+    {
+      "question": "Quel est le principe de l’hémodialyse ?",
+      "options": [
+        "Épurer le sang à l’aide d’un rein artificiel",
+        "Éliminer les substances toxiques",
+        "Éliminer l’eau en excès",
+        "Utiliser un filtre de dialyse",
+        "Injecter le dialysat dans la cavité abdominale en utilisant le péritoine"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L’hémodialyse est une méthode substitutive d’épuration extrarénale : le sang est prélevé, passe dans un filtre de dialyse, puis est réinjecté. L’utilisation du péritoine et de la cavité abdominale correspond à la dialyse péritonéale."
+    },
+    {
+      "question": "En hémodialyse, le sang est prélevé par un accès vasculaire, traverse un filtre de dialyse, puis est réinjecté au patient.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corrigé décrit ce circuit : prélèvement du sang par ponction d’un accès vasculaire, passage dans un filtre de dialyse, puis réinjection dans le corps du patient."
+    },
+    {
+      "question": "Pourquoi un accès vasculaire spécifique est-il nécessaire en hémodialyse ?",
+      "options": [
+        "Pour obtenir un débit sanguin élevé",
+        "Pour permettre des ponctions répétées sur une longue période",
+        "Pour réaliser une hémodialyse efficace",
+        "Pour remplacer la membrane péritonéale",
+        "Pour permettre l’utilisation d’aiguilles de gros calibre"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        4
+      ],
+      "explanation": "L’hémodialyse nécessite un accès vasculaire à débit élevé, permettant des ponctions répétées et l’utilisation d’aiguilles adaptées. La membrane péritonéale concerne la dialyse péritonéale."
+    },
+    {
+      "question": "Quels types d’accès d’hémodialyse sont cités dans le corrigé ?",
+      "options": [
+        "Fistule artério-veineuse native",
+        "Fistule artério-veineuse prothétique",
+        "Cathéter de dialyse",
+        "Cathéter urinaire simple",
+        "Sonde nasogastrique"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Le corrigé cite la fistule artério-veineuse native, la fistule artério-veineuse prothétique et le cathéter de dialyse comme accès d’hémodialyse. Le cathéter urinaire et la sonde nasogastrique n’ont pas ce rôle."
+    },
+    {
+      "question": "La fistule artério-veineuse native est l’accès privilégié en hémodialyse car elle présente la meilleure longévité et le plus faible taux de complications.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corrigé précise que la fistule artério-veineuse native est l’accès privilégié pour les traitements par hémodialyse, avec meilleure longévité et plus faible taux de complications."
+    },
+    {
+      "question": "Qu’est-ce qu’une fistule artério-veineuse native ?",
+      "options": [
+        "Une anastomose entre une artère et une veine",
+        "Un abord vasculaire permanent destiné à l’hémodialyse",
+        "Un accès permettant un débit suffisant pour la dialyse",
+        "Une dérivation permettant à la veine de se dilater sous la pression artérielle",
+        "Une perfusion veineuse périphérique temporaire destinée à l’injection d’antibiotiques"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La FAV relie une artère et une veine, généralement au bras, afin d’obtenir un abord vasculaire permanent, palpable, visible et ponctionnable pour l’hémodialyse. Une VVP temporaire n’est pas une FAV."
+    },
+    {
+      "question": "Après création d’une fistule artério-veineuse, la veine devient immédiatement utilisable pour les ponctions répétées d’hémodialyse.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C’est faux. Le corrigé indique qu’au bout de quatre à six semaines, la veine devient suffisamment solide pour tolérer les ponctions répétées."
+    },
+    {
+      "question": "Quel signe clinique doit être perçu à la palpation d’une fistule artério-veineuse fonctionnelle ?",
+      "options": [
+        "Un thrill",
+        "Une absence totale de vibration",
+        "Une douleur thoracique",
+        "Une cyanose généralisée"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Un frémissement appelé thrill doit être perçu à la palpation de la fistule, traduisant le passage du sang dans la veine."
+    },
+    {
+      "question": "Quelle est la durée et la fréquence habituelles d’une séance d’hémodialyse selon le corrigé ?",
+      "options": [
+        "4 à 5 heures, trois fois par semaine en général",
+        "30 minutes, quatre fois par jour",
+        "8 à 12 heures uniquement la nuit",
+        "Une fois par mois pendant 1 heure"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corrigé indique qu’une hémodialyse dure généralement 4 à 5 heures, trois fois par semaine."
+    },
+    {
+      "question": "Le rôle de la fistule artério-veineuse est de créer un débit élevé dans une veine qui devient visible, palpable et ponctionnable pour l’hémodialyse.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L’anastomose entre une artère et une veine crée un débit élevé dans la veine, qui se développe et devient utilisable pour les ponctions d’hémodialyse."
+    },
+    {
+      "question": "Quelles précautions un patient porteur d’une fistule artério-veineuse doit-il respecter ?",
+      "options": [
+        "Ne pas prendre la pression artérielle sur le bras de la FAV",
+        "Ne pas réaliser de prélèvement sanguin ou de VVP sur ce bras",
+        "Vérifier le thrill quotidiennement",
+        "Éviter de dormir du côté de la FAV",
+        "Porter systématiquement des vêtements très serrés sur la FAV"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le patient doit protéger le bras porteur de la FAV : pas de tension, prélèvement ou VVP sur ce bras, vérification quotidienne du thrill, éviter de dormir du côté de la FAV. Les vêtements serrés sont à éviter."
+    },
+    {
+      "question": "Un patient porteur d’une fistule artério-veineuse peut porter une montre ou un bracelet serré près de la fistule sans risque particulier.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C’est faux. Le corrigé indique de ne pas porter de montre ou bracelet près de la FAV et d’éviter tout élément serré pouvant comprimer ou altérer l’abord vasculaire."
+    },
+    {
+      "question": "Que doit faire le patient s’il ne perçoit plus le thrill de sa fistule artério-veineuse ?",
+      "options": [
+        "Considérer cela comme une urgence",
+        "Prévenir le médecin",
+        "Évoquer un risque de sténose",
+        "Attendre plusieurs semaines sans signaler",
+        "Continuer les ponctions comme d’habitude"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "L’absence de thrill est une situation d’urgence car elle peut évoquer une sténose ou un dysfonctionnement de la FAV. Le médecin doit être prévenu."
+    },
+    {
+      "question": "Quel est le rôle infirmier auprès d’un patient porteur d’une fistule artério-veineuse ?",
+      "options": [
+        "Éduquer le patient aux règles de protection de la FAV",
+        "Détecter les signes d’infection ou d’irritation",
+        "Vérifier ou faire vérifier le thrill",
+        "Faire respecter l’interdiction de tension, prélèvement ou VVP sur le bras concerné",
+        "Utiliser préférentiellement le bras de la FAV pour les prélèvements car le débit est meilleur"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le rôle IDE est essentiel dans l’éducation, la surveillance de la fistule et le respect des précautions. Le bras porteur de FAV ne doit pas être utilisé pour la tension, les prélèvements ou les VVP."
+    },
+    {
+      "question": "La dialyse péritonéale est une méthode de substitution utilisée notamment chez les personnes souffrant d’insuffisance rénale terminale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corrigé définit la dialyse péritonéale comme une méthode de substitution pour les personnes souffrant d’insuffisance rénale terminale."
+    },
+    {
+      "question": "Quel est le principe de la dialyse péritonéale ?",
+      "options": [
+        "Utiliser le péritoine comme membrane semi-perméable",
+        "Injecter un dialysat dans la cavité abdominale par un cathéter",
+        "Permettre l’épuration et la filtration du sang",
+        "Drainer ensuite le dialysat chargé de déchets",
+        "Faire passer le sang directement dans un filtre externe de dialyse"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La dialyse péritonéale utilise le péritoine comme membrane semi-perméable. Le dialysat est injecté dans la cavité abdominale, échange avec le sang, puis est drainé. Le passage du sang dans un filtre externe correspond à l’hémodialyse."
+    },
+    {
+      "question": "Dans la dialyse péritonéale, le péritoine fait office de rein artificiel.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le péritoine est une membrane semi-perméable et richement vascularisée. Au contact du dialysat, il permet les échanges nécessaires à l’épuration, faisant office de rein artificiel."
+    },
+    {
+      "question": "De quoi est composé le dialysat décrit dans le corrigé ?",
+      "options": [
+        "Une solution alcaline de lactate",
+        "Une solution acide à base de glucose",
+        "Des électrolytes proches de ceux du plasma",
+        "Des globules rouges concentrés",
+        "Une solution exclusivement composée de potassium"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Le dialysat est décrit comme formé d’une solution alcaline de lactate et d’une solution acide à base de glucose et d’électrolytes proches de ceux du plasma. Il ne s’agit pas de globules rouges concentrés ni d’une solution exclusivement potassique."
+    },
+    {
+      "question": "Le dialysat permet d’enlever l’excès d’eau accumulé et de participer à l’équilibre des électrolytes sanguins.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Selon le corrigé, le dialysat enlève l’excès d’eau accumulé et contribue à équilibrer les taux d’électrolytes du sang avant d’être drainé et éliminé."
+    },
+    {
+      "question": "Quelles sont les deux modalités de dialyse péritonéale citées ?",
+      "options": [
+        "Dialyse péritonéale continue ambulatoire",
+        "Dialyse péritonéale automatisée",
+        "Hémodialyse par FAV native",
+        "Transfusion péritonéale intermittente"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Le corrigé distingue la DPCA, dialyse péritonéale continue ambulatoire, et la DPA, dialyse péritonéale automatisée. L’hémodialyse par FAV n’est pas une modalité de dialyse péritonéale."
+    },
+    {
+      "question": "Quelle caractéristique correspond à la dialyse péritonéale continue ambulatoire ?",
+      "options": [
+        "Environ 4 cycles par jour",
+        "Des cycles d’environ 30 minutes",
+        "Un traitement réalisable à domicile par le patient ou avec l’aide d’un professionnel",
+        "Une autonomie et une meilleure insertion socio-professionnelle possibles",
+        "Un traitement effectué exclusivement en centre pendant 4 à 5 heures trois fois par semaine"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La DPCA comprend environ quatre cycles quotidiens d’environ 30 minutes, peut être réalisée à domicile par le patient ou avec aide, et favorise l’autonomie. Le schéma 4 à 5 heures trois fois par semaine correspond à l’hémodialyse."
+    },
+    {
+      "question": "La dialyse péritonéale automatisée se déroule la nuit pendant environ 8 à 12 heures à l’aide d’un cycleur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corrigé décrit la DPA comme une dialyse nocturne de 8 à 12 heures, réalisée à l’aide d’une machine appelée cycleur connectée au cathéter et aux poches de dialysat."
+    },
+    {
+      "question": "Que fait le cycleur lors d’une dialyse péritonéale automatisée ?",
+      "options": [
+        "Il effectue plusieurs cycles automatiquement pendant la nuit",
+        "Il est connecté à plusieurs poches de dialysat",
+        "Il permet au patient de se débrancher le matin",
+        "Il impose toujours des échanges supplémentaires dans la journée",
+        "Il remplace la fistule artério-veineuse"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "En DPA, le patient branche le cathéter à un cycleur relié à plusieurs poches de dialysat. La machine effectue plusieurs cycles la nuit, puis le patient se débranche le matin. Le corrigé précise qu’il est ensuite libre durant la journée sans échange supplémentaire."
+    },
+    {
+      "question": "Quels sont les trois temps de la dialyse péritonéale cités dans le corrigé ?",
+      "options": [
+        "Phase de drainage",
+        "Phase d’infusion",
+        "Phase de stase",
+        "Phase de ponction artérielle",
+        "Phase de compression de la fistule"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les trois temps cités sont la phase de drainage, la phase d’infusion et la phase de stase. La ponction artérielle et la compression de fistule ne correspondent pas aux temps décrits de dialyse péritonéale."
+    },
+    {
+      "question": "La dialyse péritonéale et l’hémodialyse sont deux techniques reposant exactement sur le même accès vasculaire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C’est faux. L’hémodialyse nécessite un accès vasculaire avec prélèvement du sang vers un filtre externe. La dialyse péritonéale utilise un cathéter abdominal, un dialysat et le péritoine comme membrane d’échange."
+    }
+  ]
+}
