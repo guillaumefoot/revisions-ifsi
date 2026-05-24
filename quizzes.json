@@ -180,5 +180,19 @@
         "name": "Ophtalmologie",
         "subtitle": "Anatomie de l'œil, cataracte, glaucome et DMLA",
         "icon": "👁️"
+    },
+    {
+        "file": "data/3.5_SYNTHESE.json",
+        "code": "UE 3.5",
+        "name": "Encadrement & Tutorat",
+        "subtitle": "Apprentissage, posture pédagogique et évaluation",
+        "icon": "🤝"
+    },
+    {
+        "file": "data/4.5_SYNTHESE.json",
+        "code": "UE 4.5",
+        "name": "Qualité & Gestion des risques",
+        "subtitle": "Évènements indésirables, vigilances et méthode ALARM",
+        "icon": "⚠️"
     }
 ]
