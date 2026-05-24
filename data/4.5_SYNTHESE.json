@@ -1,0 +1,666 @@
+{
+  "title": "U.E 4.5 S4 - Soins infirmiers et gestion des risques",
+  "subtitle": "Synthèse - Qualité, évènements indésirables, vigilances et méthode ALARM",
+  "questions": [
+    {
+      "question": "L’U.E 4.5 est liée à la compétence visant à analyser la qualité et améliorer sa pratique professionnelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette unité d’enseignement vise à développer la capacité à repérer les risques, analyser les évènements indésirables et proposer des actions d’amélioration."
+    },
+    {
+      "question": "Quels objectifs correspondent à la gestion des risques en soins infirmiers ?",
+      "options": ["Repérer les risques liés aux soins", "Analyser un évènement indésirable", "Proposer des actions d’amélioration", "Améliorer la sécurité du patient", "Masquer les erreurs pour protéger l’équipe"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La gestion des risques vise à identifier, analyser et réduire les risques afin d’améliorer la sécurité. Masquer les erreurs empêche l’analyse et la prévention."
+    },
+    {
+      "question": "La sécurité du patient dépend uniquement de l’existence de protocoles écrits.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les protocoles sont importants, mais la sécurité dépend aussi de l’organisation, de la communication, du matériel, de l’environnement, de l’équipe et de la culture du signalement."
+    },
+    {
+      "question": "Quels éléments peuvent influencer la sécurité du patient ?",
+      "options": ["Organisation du travail", "Communication dans l’équipe", "Matériel disponible", "Environnement de travail", "Capacité à signaler les erreurs ou presque-erreurs", "Ignorance volontaire des incidents mineurs"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La sécurité du patient repose sur un système global. Les incidents mineurs ou presque-erreurs doivent être pris au sérieux car ils peuvent révéler des failles."
+    },
+    {
+      "question": "La gestion des risques a pour but d’assurer la sécurité des patients et de diminuer la survenue des évènements indésirables.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle vise à prévenir les évènements indésirables et à développer une culture commune de sécurité."
+    },
+    {
+      "question": "Un risque correspond à une situation non souhaitée dont la survenue est certaine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Un risque correspond à une situation non souhaitée dont la survenue est incertaine."
+    },
+    {
+      "question": "Quels éléments définissent un risque ?",
+      "options": ["Probabilité de survenue", "Gravité potentielle", "Caractère incertain", "Situation non souhaitée", "Absence totale de conséquence possible"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Un risque combine une probabilité de survenue et une gravité potentielle. Il correspond à une situation non souhaitée dont la survenue n’est pas certaine."
+    },
+    {
+      "question": "La criticité correspond au niveau global de risque lié à la gravité et à la fréquence d’un évènement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La criticité permet de prioriser les risques : plus un évènement est grave et fréquent, plus il nécessite une action rapide."
+    },
+    {
+      "question": "Quelle formule correspond à la criticité ?",
+      "options": ["Gravité × fréquence", "Poids × taille", "Âge × température", "Nombre de soignants × nombre de chambres"],
+      "correct": [0],
+      "explanation": "La criticité correspond à la gravité multipliée par la fréquence. Elle permet d’évaluer le niveau global d’un risque."
+    },
+    {
+      "question": "Quels risques sont directement associés aux soins ?",
+      "options": ["Erreur médicamenteuse", "Problème d’hygiène", "Erreur d’identification", "Défaut de coordination", "Erreur d’utilisation d’un produit de santé", "Mauvaise météo extérieure"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les risques associés aux soins concernent les actes, produits, identifications, transmissions et pratiques de soins. La météo extérieure n’est pas un risque directement associé aux soins."
+    },
+    {
+      "question": "Les risques liés aux activités de soutien peuvent concerner le manque de personnel, les équipements, la maintenance, la logistique ou l’informatique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les activités de soutien participent indirectement à la sécurité des soins et peuvent devenir des facteurs de risque."
+    },
+    {
+      "question": "Quels éléments relèvent des risques liés aux activités de soutien ?",
+      "options": ["Sous-effectif", "Compétences insuffisantes", "Équipement défectueux", "Problème de maintenance", "Défaillance informatique", "Erreur volontaire de diagnostic médical uniquement"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les activités de soutien regroupent les ressources humaines, compétences, équipements, maintenance, logistique et systèmes informatiques."
+    },
+    {
+      "question": "Les risques liés à la vie hospitalière peuvent concerner la sécurité des personnes, des biens, des locaux ou des circulations.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La vie hospitalière inclut l’environnement, les déplacements, les locaux, les biens et la sécurité globale."
+    },
+    {
+      "question": "Un risque a priori est anticipé avant qu’un problème arrive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’analyse a priori cherche à repérer les risques avant la survenue d’un incident."
+    },
+    {
+      "question": "Un risque a posteriori est repéré après un incident ou un évènement indésirable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’analyse a posteriori part d’un évènement déjà survenu afin d’en comprendre les causes et d’éviter sa répétition."
+    },
+    {
+      "question": "La qualité et la gestion des risques font partie du quotidien du soignant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elles se traduisent dans les gestes quotidiens, les vérifications, les transmissions, les attitudes professionnelles et le respect des bonnes pratiques."
+    },
+    {
+      "question": "Quels comportements participent à la qualité et à la gestion des risques au quotidien ?",
+      "options": ["Se poser des questions", "Éviter de travailler uniquement en routine", "Demander de l’aide en cas de doute", "Connaître les protocoles", "Prendre le temps de vérifier", "Agir vite même en cas de doute majeur"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La sécurité repose sur le questionnement, la vérification, la connaissance des protocoles et l’appel à l’aide en cas de doute. Agir malgré un doute majeur augmente le risque d’erreur."
+    },
+    {
+      "question": "La gestion des risques concerne aussi le savoir-être professionnel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle implique la communication, le respect de la dignité, l’écoute, la recherche du consentement, l’installation du patient et la posture professionnelle."
+    },
+    {
+      "question": "Quels gestes du quotidien peuvent participer à la sécurité du patient ?",
+      "options": ["Respect du matériel", "Propreté des locaux", "Respect de l’intimité", "Recherche du consentement", "Réponse aux sonnettes", "Installation correcte du patient"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "La sécurité ne dépend pas uniquement des situations graves : elle se construit aussi par les gestes simples du quotidien."
+    },
+    {
+      "question": "Un évènement indésirable peut correspondre à un accident, un risque d’incident, une non-conformité ou un dysfonctionnement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un évènement indésirable peut avoir ou non des conséquences, mais il révèle un défaut possible dans le fonctionnement ou l’organisation."
+    },
+    {
+      "question": "Un évènement indésirable ne concerne que les patients et jamais les visiteurs, le personnel ou les biens de l’hôpital.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Un évènement indésirable peut concerner le patient, les visiteurs, le personnel ou les biens de l’établissement."
+    },
+    {
+      "question": "Qu’est-ce qu’un évènement indésirable associé aux soins ?",
+      "options": ["Un évènement inattendu qui perturbe ou retarde le processus de soin", "Un évènement qui peut impacter la santé du patient", "Un évènement lié aux actes de prévention, diagnostic, traitement ou accompagnement", "Un évènement dû uniquement à l’évolution naturelle de la maladie", "Un évènement pouvant être lié aux soins"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "Un EIAS est lié aux soins et n’est pas expliqué uniquement par l’évolution naturelle de la maladie. Il peut perturber la prise en charge ou impacter le patient."
+    },
+    {
+      "question": "Un évènement porteur de risque correspond à un presque accident récupéré avant dommage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’EPR aurait pu causer un dommage, mais une barrière de sécurité ou une réaction soignante a permis de l’éviter."
+    },
+    {
+      "question": "Un évènement indésirable grave associé aux soins peut entraîner un décès, une mise en jeu du pronostic vital ou un risque de déficit fonctionnel permanent.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’EIGS correspond à un évènement inattendu dont les conséquences sont graves."
+    },
+    {
+      "question": "Quelle association est correcte ?",
+      "options": ["EPR : presque accident récupéré", "EIAS : évènement lié aux soins avec ou sans dommage", "EIGS : évènement grave avec conséquences importantes", "EPR : décès certain", "EIGS : absence totale de conséquence possible"],
+      "correct": [0, 1, 2],
+      "explanation": "L’EPR est un presque accident, l’EIAS est lié aux soins et l’EIGS correspond à un évènement grave. L’EPR n’implique pas un décès certain."
+    },
+    {
+      "question": "L’erreur humaine est la réalisation non volontaire d’un acte qui empêche d’obtenir le résultat souhaité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’erreur est involontaire et fait partie de l’activité humaine."
+    },
+    {
+      "question": "La faute ou violation correspond à un écart volontaire à une norme ou à une recommandation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La violation implique que la personne sait qu’elle ne respecte pas la règle mais choisit de s’en écarter."
+    },
+    {
+      "question": "Quelle différence est correcte entre erreur et faute ?",
+      "options": ["L’erreur est non volontaire", "La faute correspond à un écart volontaire à une règle", "La violation peut être faite pour gagner du temps", "L’erreur doit être analysée pour améliorer le système", "Erreur et faute sont toujours identiques"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’erreur et la faute doivent être distinguées. L’erreur est involontaire, tandis que la faute implique un non-respect volontaire d’une norme."
+    },
+    {
+      "question": "Toutes les erreurs pourraient être évitées uniquement si les professionnels étaient plus consciencieux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’erreur fait partie de l’activité humaine ; le système doit être organisé pour la repérer, la récupérer et éviter le dommage."
+    },
+    {
+      "question": "Quels facteurs organisationnels ou contextuels peuvent augmenter le risque d’erreur ?",
+      "options": ["Absence de supervision", "Contraintes de temps", "Procédures défectueuses", "Tâches répétitives", "Manque d’informations", "Interruptions de tâches"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Ces facteurs augmentent la vulnérabilité du système et favorisent les erreurs, même chez des professionnels compétents."
+    },
+    {
+      "question": "Quels facteurs environnementaux peuvent favoriser une erreur ?",
+      "options": ["Sous-effectif", "Absence de matériel", "Bruit", "Chaleur", "Environnement de travail difficile", "Communication claire et calme"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le sous-effectif, le bruit, le manque de matériel, la chaleur ou un environnement difficile peuvent altérer la vigilance. Une communication claire est plutôt protectrice."
+    },
+    {
+      "question": "Quels facteurs individuels peuvent diminuer la capacité de mémorisation et augmenter le risque d’erreur ?",
+      "options": ["Fatigue", "Stress", "Faim", "Maladie", "Pratiques addictives", "Repos suffisant"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La fatigue, le stress, la faim, la maladie et les conduites addictives diminuent la vigilance et les capacités cognitives. Le repos suffisant est protecteur."
+    },
+    {
+      "question": "L’effet tunnel correspond à une focalisation excessive sur un objectif au point de ne plus percevoir les signaux d’alerte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le professionnel peut alors poursuivre une action malgré des alertes qui devraient l’amener à s’arrêter ou à modifier sa conduite."
+    },
+    {
+      "question": "L’effet tunnel protège toujours le patient car il permet d’aller plus vite.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’effet tunnel augmente le risque d’EIAS car il empêche de percevoir les signaux d’alerte."
+    },
+    {
+      "question": "Quels moyens peuvent prévenir l’effet tunnel ?",
+      "options": ["Travail en équipe", "Culture sécurité", "Utilisation d’alarmes", "Protocoles", "Check-lists", "Identification des situations à risque"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Ces moyens aident à prendre du recul, à repérer les signaux d’alerte et à sécuriser l’action."
+    },
+    {
+      "question": "Que signifie le moyen mnémotechnique PAUSE ?",
+      "options": ["Pressé", "Affamé", "Usé", "Seul", "Énervé", "Disponible"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "PAUSE aide à repérer des situations personnelles à risque : être pressé, affamé, usé, seul ou énervé."
+    },
+    {
+      "question": "Pour sortir d’un effet tunnel, il est pertinent de ralentir, faire une pause, demander de l’aide et solliciter une seconde opinion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces actions permettent de reprendre une vision globale et de sécuriser la décision."
+    },
+    {
+      "question": "Le modèle de James Reason montre que l’erreur humaine est indissociable du comportement humain.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La sécurité ne peut donc pas reposer uniquement sur l’idée que les professionnels ne feront jamais d’erreur."
+    },
+    {
+      "question": "Selon une approche systémique, un EIAS est souvent lié à une accumulation de défaillances dans le système.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il faut rechercher les causes profondes et pas seulement la personne impliquée dans l’erreur immédiate."
+    },
+    {
+      "question": "L’analyse moderne d’un évènement indésirable cherche uniquement à savoir qui a fait l’erreur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’objectif est de comprendre comment et pourquoi l’erreur a pu se produire afin d’améliorer le système."
+    },
+    {
+      "question": "Quelles causes profondes peuvent être recherchées après un évènement indésirable ?",
+      "options": ["Organisation", "Communication", "Matériel", "Charge de travail", "Protocoles", "Formation", "Environnement"],
+      "correct": [0, 1, 2, 3, 4, 5, 6],
+      "explanation": "Les causes profondes dépassent l’erreur immédiate. Elles concernent le système, l’organisation et les conditions de travail."
+    },
+    {
+      "question": "Tout professionnel peut déclarer un évènement indésirable ou un évènement indésirable grave.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le signalement est un devoir professionnel et un outil d’amélioration de la sécurité."
+    },
+    {
+      "question": "Le signalement d’un évènement indésirable sert principalement à accuser un professionnel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. On signale pour comprendre, analyser les facteurs favorisants et éviter que l’évènement ne se reproduise."
+    },
+    {
+      "question": "Quelle conduite est adaptée lorsqu’un professionnel constate un évènement indésirable ?",
+      "options": ["Alerter le cadre de santé", "Déclarer l’évènement", "Permettre la qualification de l’évènement", "Participer à l’analyse", "Proposer des actions d’amélioration", "Détruire les traces pour éviter les reproches"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Après un évènement indésirable, il faut alerter, déclarer, analyser et améliorer. Détruire les traces empêche la sécurité et la transparence."
+    },
+    {
+      "question": "Quelles sont les règles d’or d’une déclaration d’évènement indésirable ?",
+      "options": ["Décrire des faits", "Rester factuel", "Être précis et concis", "Respecter la chronologie", "Ne pas juger", "Déclarer rapidement"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "La déclaration doit être factuelle, précise, chronologique, sans jugement ni opinion, et réalisée rapidement après l’évènement."
+    },
+    {
+      "question": "Une déclaration d’évènement indésirable doit contenir des critiques personnelles et des opinions sur les collègues.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une déclaration doit rester factuelle, sans jugement, critique personnelle ou opinion."
+    },
+    {
+      "question": "Quels freins peuvent empêcher les professionnels de signaler un évènement indésirable ?",
+      "options": ["Manque de temps", "Sentiment que cela ne sert à rien", "Peur de la sanction", "Peur des reproches", "Définition floue de ce qui doit être signalé", "Outil de déclaration trop compliqué"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Ces freins réduisent le signalement et empêchent l’analyse des dysfonctionnements."
+    },
+    {
+      "question": "Si les erreurs ne sont pas déclarées, le système ne peut pas progresser.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Sans signalement, les causes ne sont pas analysées et les actions d’amélioration ne peuvent pas être mises en place."
+    },
+    {
+      "question": "La pyramide de Bird montre qu’avant un accident grave, il existe souvent de nombreux incidents, presque-accidents ou signaux faibles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les évènements sans dommage doivent être pris au sérieux car ils peuvent annoncer des accidents plus graves."
+    },
+    {
+      "question": "Les évènements sans dommage ne doivent jamais être signalés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les presque-accidents et signaux faibles doivent être analysés pour prévenir les accidents graves."
+    },
+    {
+      "question": "La culture de sécurité correspond à des façons de faire et de penser partagées qui contribuent à la sécurité du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle implique les pratiques, valeurs, habitudes et décisions collectives en faveur de la sécurité."
+    },
+    {
+      "question": "Quels éléments composent la culture de sécurité ?",
+      "options": ["Culture du signalement", "Culture du retour d’expérience", "Culture juste", "Culture du travail en équipe", "Culture de la dissimulation systématique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La culture de sécurité repose sur le signalement, le retour d’expérience, l’analyse juste des erreurs et le travail en équipe."
+    },
+    {
+      "question": "La culture juste signifie qu’on analyse l’erreur humaine sans condamner automatiquement la personne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle distingue l’erreur involontaire, la faute et la violation volontaire."
+    },
+    {
+      "question": "La culture juste signifie que toute faute volontaire doit être automatiquement excusée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La culture juste ne signifie pas tout excuser ; elle permet de distinguer erreur involontaire et violation volontaire."
+    },
+    {
+      "question": "Dans un cercle vicieux de sécurité, on pense qu’un bon professionnel ne fait pas d’erreur, donc on n’en parle pas et le système ne progresse pas.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette logique bloque le signalement et empêche l’amélioration du système."
+    },
+    {
+      "question": "Dans un cercle vertueux de sécurité, on reconnaît qu’un bon professionnel peut faire des erreurs, on les signale et on les analyse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette logique permet d’apprendre des erreurs et de rendre le système plus sûr."
+    },
+    {
+      "question": "Les vigilances sanitaires correspondent à une veille permanente des évènements indésirables liés aux produits de santé, biens thérapeutiques, alertes et traçabilité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les vigilances sanitaires permettent de signaler, traiter et analyser les risques associés à différents produits, actes ou dispositifs."
+    },
+    {
+      "question": "Une alerte ascendante part du terrain vers les instances ou niveaux supérieurs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un professionnel signale un risque ou un incident à partir du terrain."
+    },
+    {
+      "question": "Une alerte descendante correspond à une alerte nationale ou régionale qui entraîne des actions correctives dans l’établissement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’information descend vers les établissements afin qu’ils appliquent les mesures nécessaires."
+    },
+    {
+      "question": "L’identitovigilance vise à sécuriser l’identification du patient tout au long de sa prise en charge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle prévient les erreurs d’identité pouvant entraîner des erreurs de soins, de traitements ou d’examens."
+    },
+    {
+      "question": "La pharmacovigilance surveille les effets indésirables liés aux médicaments, les erreurs médicamenteuses, mésusages, surdosages ou abus.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle concerne la sécurité d’utilisation des médicaments."
+    },
+    {
+      "question": "L’addictovigilance surveille les risques d’abus, d’usage détourné et de dépendance liés aux substances psychoactives, hors alcool et tabac.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle concerne les substances psychoactives susceptibles d’abus ou de dépendance, à l’exception de l’alcool et du tabac."
+    },
+    {
+      "question": "L’hémovigilance concerne les incidents et effets indésirables liés à la chaîne transfusionnelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle couvre le don, la délivrance et le suivi du receveur de produits sanguins labiles."
+    },
+    {
+      "question": "La matériovigilance surveille les incidents ou risques d’incident liés aux dispositifs médicaux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une pompe à perfusion défectueuse relève par exemple de la matériovigilance."
+    },
+    {
+      "question": "La réactovigilance surveille les incidents liés aux dispositifs médicaux de diagnostic in vitro.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un dispositif de mesure de glycémie capillaire peut relever de la réactovigilance."
+    },
+    {
+      "question": "La biovigilance concerne les incidents liés aux organes, tissus, cellules, dérivés du corps humain et lait maternel à usage thérapeutique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle encadre les risques liés aux produits biologiques humains utilisés à visée thérapeutique."
+    },
+    {
+      "question": "La cosmétovigilance surveille les effets indésirables liés aux produits cosmétiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une réaction à un gel hydroalcoolique peut relever de la cosmétovigilance."
+    },
+    {
+      "question": "L’infectiovigilance vise à surveiller, prévenir et maîtriser les infections associées aux soins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle concerne la prévention et la gestion du risque infectieux lié aux soins."
+    },
+    {
+      "question": "Quelle vigilance est concernée par une erreur d’identité patient avant un soin ?",
+      "options": ["Identitovigilance", "Cosmétovigilance", "Biovigilance", "Addictovigilance"],
+      "correct": [0],
+      "explanation": "L’erreur d’identité concerne l’identitovigilance, qui vise à sécuriser l’identification du patient à chaque étape."
+    },
+    {
+      "question": "Quelle vigilance est concernée par un effet indésirable grave après administration d’un médicament ?",
+      "options": ["Pharmacovigilance", "Matériovigilance", "Réactovigilance", "Cosmétovigilance"],
+      "correct": [0],
+      "explanation": "Un effet indésirable médicamenteux relève de la pharmacovigilance."
+    },
+    {
+      "question": "Quelle vigilance est concernée par un incident sur une pompe à perfusion ?",
+      "options": ["Matériovigilance", "Hémovigilance", "Biovigilance", "Infectiovigilance"],
+      "correct": [0],
+      "explanation": "Une pompe à perfusion est un dispositif médical ; un incident la concernant relève de la matériovigilance."
+    },
+    {
+      "question": "Quelle vigilance est concernée par un dysfonctionnement de lecteur de glycémie capillaire utilisé pour le diagnostic ou la surveillance biologique ?",
+      "options": ["Réactovigilance", "Identitovigilance", "Cosmétovigilance", "Addictovigilance"],
+      "correct": [0],
+      "explanation": "Un lecteur de glycémie utilisé comme dispositif de diagnostic in vitro relève de la réactovigilance."
+    },
+    {
+      "question": "La méthode ALARM sert à analyser les évènements indésirables en remontant des causes visibles vers les causes profondes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de comprendre comment un incident est arrivé et d’identifier les actions d’amélioration."
+    },
+    {
+      "question": "Quelles sont les grandes étapes de la méthode ALARM ?",
+      "options": ["Reconstituer la chronologie", "Rechercher les causes", "Analyser les barrières", "Proposer un plan d’action", "Désigner immédiatement un coupable sans analyse"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "ALARM structure l’analyse : faits chronologiques, causes immédiates et profondes, barrières, puis plan d’action."
+    },
+    {
+      "question": "La première étape de la méthode ALARM consiste à reconstituer les faits de façon précise, chronologique et factuelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Avant d’analyser les causes, il faut comprendre ce qui s’est passé avant, pendant et après l’évènement."
+    },
+    {
+      "question": "Lors de la reconstitution chronologique, il faut immédiatement donner son opinion sur les responsables.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La chronologie doit rester factuelle et descriptive. L’analyse vient ensuite."
+    },
+    {
+      "question": "Quelle différence est correcte entre cause immédiate et cause profonde ?",
+      "options": ["La cause immédiate est l’écart visible dans la chronologie", "La cause profonde explique pourquoi l’écart a été possible", "Les causes profondes peuvent concerner l’organisation", "Les causes profondes peuvent concerner la communication ou la formation", "La cause profonde est toujours la faute unique d’un soignant"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La cause immédiate est ce qui saute aux yeux. Les causes profondes analysent le système : organisation, formation, communication, protocole, matériel ou environnement."
+    },
+    {
+      "question": "Une barrière est une règle, une organisation ou une bonne pratique qui permet d’éviter un évènement indésirable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’analyse des barrières vérifie si elles existaient, si elles ont fonctionné, si elles étaient absentes ou contournées."
+    },
+    {
+      "question": "Dans l’analyse des barrières, il faut vérifier si les barrières existaient, fonctionnaient, étaient contournées ou absentes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette étape permet de comprendre pourquoi l’évènement n’a pas été empêché ou récupéré plus tôt."
+    },
+    {
+      "question": "Un plan d’action après évènement indésirable doit proposer des actions concrètes et prévoir un responsable, un suivi, un échéancier et des indicateurs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un plan d’action efficace doit être opérationnel, suivi et évalué."
+    },
+    {
+      "question": "Quels éléments doivent figurer dans un plan d’action d’amélioration ?",
+      "options": ["Action proposée", "Responsable désigné", "Suivi", "Échéancier", "Indicateurs", "Absence de lien avec les causes identifiées"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Chaque action doit répondre à une cause identifiée et être suivie dans le temps avec des indicateurs."
+    },
+    {
+      "question": "Quels facteurs contributifs appartiennent à la méthode ALARM ?",
+      "options": ["Facteurs liés au patient", "Facteurs liés aux tâches à accomplir", "Facteurs liés à l’individu soignant", "Facteurs liés à l’équipe", "Facteurs liés à l’environnement de travail", "Facteurs liés à l’organisation et au management", "Facteurs liés au contexte institutionnel"],
+      "correct": [0, 1, 2, 3, 4, 5, 6],
+      "explanation": "La méthode ALARM analyse les causes profondes selon sept familles de facteurs contributifs."
+    },
+    {
+      "question": "Quels éléments relèvent des facteurs liés au patient dans la méthode ALARM ?",
+      "options": ["Âge", "État de santé", "Comorbidités", "Compréhension", "Opposition", "Entourage"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Les facteurs liés au patient concernent ses caractéristiques, sa vulnérabilité, ses traitements, sa compréhension, son entourage et la relation soignant-patient."
+    },
+    {
+      "question": "Quels éléments relèvent des facteurs liés aux tâches à accomplir ?",
+      "options": ["Protocoles absents ou inadaptés", "Aides à la décision absentes", "Tâches mal définies", "Programmation défaillante", "Examens non disponibles", "Âge du patient uniquement"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les facteurs liés aux tâches concernent la clarté, la disponibilité et l’adaptation des procédures, aides, examens et organisations de l’activité."
+    },
+    {
+      "question": "Quels éléments relèvent des facteurs liés à l’individu soignant ?",
+      "options": ["Compétences", "Qualifications", "Manque d’entraînement", "Stress", "Fatigue", "Surcharge de travail"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Les facteurs liés à l’individu soignant concernent ses compétences, son entraînement, sa charge, son stress et sa fatigue."
+    },
+    {
+      "question": "Quels éléments relèvent des facteurs liés à l’équipe ?",
+      "options": ["Communication défaillante", "Mauvaise ambiance", "Défaut de transmission", "Dossier incomplet", "Mauvaise répartition des tâches", "Défaut de supervision"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Les facteurs d’équipe concernent les interactions, transmissions, répartition des rôles, supervision et ambiance de travail."
+    },
+    {
+      "question": "Quels éléments relèvent des facteurs liés à l’environnement de travail ?",
+      "options": ["Locaux", "Matériel", "Informatique", "Effectifs", "Charge de travail", "Maintenance", "Hygiène des locaux"],
+      "correct": [0, 1, 2, 3, 4, 5, 6],
+      "explanation": "L’environnement de travail inclut les locaux, ressources matérielles, outils informatiques, effectifs, maintenance, hygiène et charge de travail."
+    },
+    {
+      "question": "Quels éléments relèvent des facteurs liés à l’organisation et au management ?",
+      "options": ["Structure hiérarchique", "Gestion des ressources humaines", "Politique de formation", "Gestion documentaire", "Culture sécurité", "Ressources financières"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Ces facteurs concernent le fonctionnement institutionnel interne, les ressources, la formation, les documents et la culture de sécurité."
+    },
+    {
+      "question": "Quels éléments relèvent du contexte institutionnel dans la méthode ALARM ?",
+      "options": ["Politique de santé nationale ou régionale", "Ressources sanitaires", "Coopération entre établissements", "Système de signalement", "Culture du retour d’expérience", "Humeur ponctuelle du patient uniquement"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le contexte institutionnel regroupe les politiques, ressources, coopérations, systèmes de signalement et culture du retour d’expérience."
+    },
+    {
+      "question": "L’évaluation des pratiques professionnelles consiste à analyser une pratique réelle en la comparant aux recommandations ou bonnes pratiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’EPP permet de repérer les écarts et de mettre en place des actions d’amélioration."
+    },
+    {
+      "question": "Quel est le but de l’évaluation des pratiques professionnelles ?",
+      "options": ["Analyser une pratique réelle", "Comparer aux recommandations", "Repérer les écarts", "Mettre en place des actions d’amélioration", "Culpabiliser systématiquement un professionnel"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’EPP vise l’amélioration des pratiques et de la qualité des soins, pas la culpabilisation."
+    },
+    {
+      "question": "L’audit clinique permet de vérifier une pratique sur un thème précis avec une grille de recueil et une analyse des résultats.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’audit repose sur un objectif, un périmètre, un échantillon, une période d’évaluation, une grille et un plan d’action."
+    },
+    {
+      "question": "Quels éléments appartiennent à un audit clinique ?",
+      "options": ["Objectif", "Périmètre", "Grille de recueil", "Échantillon", "Période d’évaluation", "Analyse des résultats", "Plan d’action"],
+      "correct": [0, 1, 2, 3, 4, 5, 6],
+      "explanation": "L’audit clinique structure l’évaluation d’une pratique et permet de proposer des actions d’amélioration."
+    },
+    {
+      "question": "La revue de morbidité-mortalité analyse des évènements indésirables, complications, plaintes, presque-accidents ou décès pour améliorer la qualité et la sécurité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La RMM cherche à comprendre les évènements pour améliorer la sécurité, sans objectif de culpabilisation."
+    },
+    {
+      "question": "La RMM cherche d’abord à culpabiliser un professionnel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La RMM vise l’analyse collective et l’amélioration des pratiques, pas la culpabilisation."
+    },
+    {
+      "question": "Le CREX est un groupe pluridisciplinaire qui analyse régulièrement les évènements indésirables ou presque-accidents.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le comité de retour d’expérience suit les évènements et veille à la mise en œuvre d’actions d’amélioration."
+    },
+    {
+      "question": "Le patient traceur permet d’évaluer le parcours d’un patient à partir du dossier, des échanges avec les professionnels et du ressenti du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette méthode repère les points forts et les points à améliorer dans le parcours réel d’un patient."
+    },
+    {
+      "question": "La chambre des erreurs est un outil de simulation permettant de repérer des erreurs ou risques potentiels.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de s’entraîner à identifier des risques liés aux médicaments, à l’identitovigilance, au risque infectieux, à la douleur ou à l’environnement."
+    },
+    {
+      "question": "Quels risques peuvent être travaillés dans une chambre des erreurs ?",
+      "options": ["Erreur médicamenteuse", "Risque infectieux", "Identitovigilance", "Douleur", "Risque environnemental", "Aucun risque repérable"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La chambre des erreurs met en scène des situations à risque pour entraîner l’observation et la prévention."
+    },
+    {
+      "question": "Pour analyser une situation professionnelle, il faut d’abord dire ce qu’il s’est passé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’analyse commence par une description factuelle de l’évènement avant de chercher les causes."
+    },
+    {
+      "question": "Quelles étapes permettent d’analyser correctement une situation professionnelle à risque ?",
+      "options": ["Nommer précisément l’évènement indésirable", "Identifier la vigilance concernée", "Repérer les écarts aux bonnes pratiques", "Chercher les causes profondes avec les facteurs ALARM", "Proposer des actions concrètes et réalistes"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Une analyse complète identifie l’évènement, la vigilance, les écarts, les causes profondes et les mesures correctives."
+    },
+    {
+      "question": "Une mesure corrective efficace doit être concrète, réaliste et liée à une cause identifiée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une action d’amélioration doit répondre à un problème réel, pouvoir être mise en œuvre et être suivie."
+    },
+    {
+      "question": "Dans l’analyse d’un incident critique, identifier la vigilance concernée permet de mieux orienter le signalement et les actions correctives.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La vigilance concernée donne un cadre de suivi et d’analyse adapté au type de risque."
+    },
+    {
+      "question": "Repérer uniquement la cause immédiate suffit toujours pour éviter la répétition d’un évènement indésirable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il faut aussi rechercher les causes profondes pour corriger les défaillances du système."
+    },
+    {
+      "question": "Quel raisonnement est adapté face à une erreur médicamenteuse sans dommage car récupérée avant administration ?",
+      "options": ["La considérer comme un EPR", "L’analyser malgré l’absence de dommage", "Identifier les barrières qui ont fonctionné", "Rechercher les causes profondes", "Ne rien signaler car aucun patient n’a été touché"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une erreur récupérée avant dommage est un évènement porteur de risque. Elle doit être analysée pour renforcer les barrières de sécurité."
+    },
+    {
+      "question": "Quel raisonnement est adapté face à une erreur d’identité ayant entraîné un soin au mauvais patient avec conséquence grave ?",
+      "options": ["Identifier un EIGS si les conséquences sont graves", "Repérer l’identitovigilance", "Analyser les barrières d’identification", "Rechercher les facteurs contributifs", "Éviter toute déclaration pour protéger le service"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Un soin au mauvais patient avec conséquence grave relève d’une analyse approfondie, d’un signalement et de l’identitovigilance."
+    },
+    {
+      "question": "Une culture de sécurité efficace transforme les incidents en opportunités d’apprentissage collectif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’objectif est d’apprendre des évènements pour rendre les soins plus sûrs."
+    },
+    {
+      "question": "La sécurité du patient se joue uniquement lors des accidents graves.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle se construit aussi dans les petits gestes quotidiens, les vérifications, la communication et les signalements."
+    },
+    {
+      "question": "Quels éléments contribuent à une réponse professionnelle adaptée après un évènement indésirable ?",
+      "options": ["Déclaration rapide", "Description factuelle", "Analyse collective", "Recherche des causes profondes", "Plan d’action suivi", "Jugement personnel immédiat"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La réponse doit être rapide, factuelle, collective, systémique et orientée amélioration. Le jugement personnel n’aide pas l’analyse."
+    },
+    {
+      "question": "L’objectif final de l’analyse d’un évènement indésirable est d’éviter que cela recommence.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’analyse sert à comprendre les défaillances et à mettre en place des barrières ou actions d’amélioration."
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "title": "U.E 3.5 S4 - Encadrement des professionnels de soins",
+  "subtitle": "Synthèse - Encadrement, tutorat, apprentissage et évaluation",
+  "questions": [
+    {
+      "question": "L’exercice infirmier comprend l’analyse, l’organisation, la réalisation et l’évaluation des soins infirmiers.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’exercice infirmier ne se limite pas à réaliser des soins : il inclut aussi leur analyse, leur organisation et leur évaluation."
+    },
+    {
+      "question": "Quelles dimensions font partie de l’exercice infirmier ?",
+      "options": ["Analyse des soins infirmiers", "Organisation des soins infirmiers", "Réalisation des soins infirmiers", "Évaluation des soins infirmiers", "Exclusion de toute action éducative"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’exercice infirmier comporte l’analyse, l’organisation, la réalisation et l’évaluation des soins. Il inclut aussi la prévention, l’éducation, la formation et l’encadrement."
+    },
+    {
+      "question": "L’infirmier peut proposer, organiser ou participer à des actions de formation initiale et continue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’infirmier a un rôle dans la formation des personnels infirmiers, des personnels qui l’assistent et des stagiaires."
+    },
+    {
+      "question": "Dans un rôle de coordination et d’encadrement, l’infirmier veille à la bonne exécution des actes accomplis par les professionnels ou étudiants placés sous sa responsabilité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’encadrement implique une responsabilité de supervision, de sécurisation et de vérification des actes réalisés."
+    },
+    {
+      "question": "Que doit faire l’infirmier lorsqu’il encadre une personne en situation de soin ?",
+      "options": ["Vérifier les compétences", "Sécuriser les soins", "Accompagner la progression", "Évaluer les actes réalisés", "Laisser la personne agir sans vérification"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’encadrement impose de vérifier le niveau et les compétences, de sécuriser la situation, d’accompagner la progression et d’évaluer les actes. L’absence de vérification mettrait en jeu la sécurité."
+    },
+    {
+      "question": "Apprendre consiste uniquement à recevoir une information.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Apprendre signifie s’approprier une connaissance, la comprendre et pouvoir la réutiliser dans une situation."
+    },
+    {
+      "question": "Quelles étapes peuvent participer à l’apprentissage en stage ?",
+      "options": ["Observer", "Questionner", "Faire avec aide", "Refaire", "Analyser", "Gagner en autonomie"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "L’apprentissage en stage progresse souvent de l’observation vers l’action accompagnée, l’analyse, la répétition et l’autonomie."
+    },
+    {
+      "question": "Encadrer signifie organiser, guider, contrôler, sécuriser et réajuster.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’encadrement ne se limite pas à transmettre un savoir : il permet aussi de vérifier la sécurité et d’ajuster l’accompagnement."
+    },
+    {
+      "question": "L’encadrement commence seulement à la fin du stage, lors de l’évaluation finale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’encadrement commence dès l’arrivée du stagiaire ou du nouvel agent, avec l’accueil, la présentation du service et l’analyse des besoins."
+    },
+    {
+      "question": "Quelles qualités favorisent un encadrement professionnel adapté ?",
+      "options": ["Fiabilité", "Écoute", "Respect", "Équité", "Compétence", "Capacité à assumer ses décisions"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Un encadrant doit inspirer confiance, être fiable, à l’écoute, respectueux, équitable, compétent et capable d’assumer ses décisions."
+    },
+    {
+      "question": "Accompagner un étudiant signifie faire les soins à sa place pour lui éviter toute difficulté.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Accompagner consiste à aller avec l’étudiant, le guider progressivement, sans faire systématiquement à sa place ni le laisser seul."
+    },
+    {
+      "question": "Quel est l’objectif principal de l’accompagnement en stage ?",
+      "options": ["Guider vers l’acquisition de compétences", "Favoriser l’autonomie progressive", "Construire une relation de confiance", "Prendre en compte les besoins de l’étudiant", "Éviter toute participation active de l’étudiant"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’accompagnement vise la progression vers les compétences et l’autonomie, dans une relation de confiance tenant compte des besoins, objectifs, représentations et difficultés de l’étudiant."
+    },
+    {
+      "question": "Le tutorat correspond à une relation d’aide pour l’acquisition des savoirs et l’intégration dans le travail.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le tutorat aide l’étudiant à apprendre, à s’intégrer dans le milieu professionnel et à progresser dans ses compétences."
+    },
+    {
+      "question": "Quels sont deux grands rôles du tutorat ?",
+      "options": ["Pédagogie", "Évaluation", "Prescription médicale autonome", "Remplacement de l’étudiant", "Exclusion du portfolio"],
+      "correct": [0, 1],
+      "explanation": "Le tutorat comporte une dimension pédagogique et une dimension évaluative. Il ne remplace pas l’étudiant et s’appuie notamment sur le portfolio."
+    },
+    {
+      "question": "Le tuteur accompagne l’étudiant, suit sa progression et participe à l’évaluation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le tuteur connaît les objectifs de l’étudiant, échange avec lui, suit sa progression et formalise l’évolution avec le portfolio."
+    },
+    {
+      "question": "Collaborer signifie travailler ensemble autour d’une prise en soin commune.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La collaboration implique un travail conjoint dans le cadre des compétences de chacun autour d’un patient ou d’une situation de soin."
+    },
+    {
+      "question": "Dans le cadre infirmier, l’IDE délègue habituellement ses actes à l’aide-soignant avec transfert complet de responsabilité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. On parle de collaboration avec l’aide-soignant pour des actes relevant du rôle propre infirmier et compatibles avec les compétences de l’aide-soignant, pas de délégation avec transfert complet de responsabilité."
+    },
+    {
+      "question": "Quelle distinction est correcte entre collaboration et délégation ?",
+      "options": ["Collaborer consiste à travailler ensemble", "Déléguer implique un transfert de mission, de pouvoir et de responsabilité", "L’IDE collabore avec l’aide-soignant dans le cadre des compétences de celui-ci", "L’IDE reste responsable des actes relevant de son rôle propre réalisés en collaboration", "Collaborer signifie abandonner toute responsabilité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La collaboration est un travail commun dans le respect des compétences. La délégation implique un transfert de pouvoir et de responsabilité, ce qui ne correspond pas à la relation IDE-AS pour les actes du rôle propre."
+    },
+    {
+      "question": "Avant de confier une activité à un étudiant, l’infirmier doit vérifier son niveau de formation, ses compétences, ses acquis, son autonomie et le contexte du soin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La sécurité du patient et la progression de l’étudiant imposent une vérification du niveau réel de l’apprenant et du contexte de réalisation."
+    },
+    {
+      "question": "Pour un premier geste technique, l’infirmier référent doit être présent afin de vérifier la maîtrise du geste.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La présence de l’encadrant sécurise le soin et permet d’évaluer la compréhension, la technique et les règles de sécurité."
+    },
+    {
+      "question": "Un étudiant infirmier en stage agit sans responsabilité de l’établissement, de l’IFSI, du cadre ou de l’infirmier encadrant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les étudiants travaillent sous plusieurs responsabilités : IFSI, établissement, cadre de santé et infirmier qui confie ou supervise les tâches."
+    },
+    {
+      "question": "Dans l’approche transmissive, le formateur transmet l’information et l’apprenant écoute, prend des notes, retient et reproduit.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’approche transmissive est descendante : elle est utile pour transmettre rapidement beaucoup d’informations, mais ne garantit pas toujours le transfert en situation réelle."
+    },
+    {
+      "question": "Quel exemple correspond à une approche traditionnelle ou transmissive ?",
+      "options": ["Cours magistral", "Explication descendante", "Transmission rapide d’informations", "Simulation avec débat entre pairs uniquement", "Analyse réflexive après erreur"],
+      "correct": [0, 1, 2],
+      "explanation": "Le cours magistral et l’explication descendante relèvent d’une approche transmissive. La simulation et l’analyse réflexive relèvent davantage de méthodes actives, socioconstructivistes ou réflexives."
+    },
+    {
+      "question": "Le constructivisme considère que l’apprenant construit ses connaissances à partir de ses expériences, de ses erreurs et de ses questionnements.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Dans cette approche, l’étudiant apprend en agissant, en se questionnant et en donnant du sens à ses expériences."
+    },
+    {
+      "question": "Dans une approche constructiviste, le formateur guide, facilite et propose des situations-problèmes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le formateur n’est pas seulement un transmetteur : il favorise la réflexion et l’apprentissage par l’expérience."
+    },
+    {
+      "question": "Le socioconstructivisme met l’accent sur l’apprentissage construit avec les autres.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les échanges, la confrontation des idées, la coopération et les retours collectifs participent à l’appropriation des connaissances."
+    },
+    {
+      "question": "Quelles situations relèvent d’une approche socioconstructiviste ?",
+      "options": ["Travail de groupe", "Analyse de situation", "Simulation", "Échange avec le tuteur", "Isolement complet sans interaction"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le socioconstructivisme repose sur l’interaction, la discussion et la confrontation des points de vue. L’isolement complet n’en fait pas partie."
+    },
+    {
+      "question": "La formation infirmière repose sur l’alternance intégrative entre l’IFSI et le stage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’étudiant apprend en situation réelle en stage et met en lien ses expériences avec les apports théoriques travaillés à l’IFSI."
+    },
+    {
+      "question": "Quels modèles peuvent être mobilisés dans la formation infirmière ?",
+      "options": ["Socioconstructivisme", "Behaviorisme", "Transmissif", "Connectivisme", "Exclusion totale de l’expérience de terrain"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La formation infirmière mobilise plusieurs modèles pédagogiques, dont le socioconstructivisme, le behaviorisme, le transmissif et le connectivisme. L’expérience de terrain est au contraire centrale."
+    },
+    {
+      "question": "Quels sont les trois paliers d’apprentissage en formation infirmière ?",
+      "options": ["Comprendre", "Agir", "Transférer", "Sanctionner", "Déléguer"],
+      "correct": [0, 1, 2],
+      "explanation": "Les trois paliers sont comprendre, agir et transférer. Ils correspondent à l’acquisition des savoirs, leur mobilisation dans l’action et leur réutilisation dans une nouvelle situation."
+    },
+    {
+      "question": "Comprendre correspond à acquérir les savoirs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Comprendre signifie intégrer les connaissances nécessaires avant ou pendant l’action."
+    },
+    {
+      "question": "Agir correspond à mobiliser les savoirs dans l’action.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Agir implique d’utiliser les connaissances dans une situation concrète de soin ou d’apprentissage."
+    },
+    {
+      "question": "Transférer signifie réutiliser ses acquis dans une nouvelle situation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le transfert montre que l’étudiant ne récite pas seulement un savoir, mais peut l’adapter à un autre contexte."
+    },
+    {
+      "question": "Le maître de stage représente la fonction organisationnelle et institutionnelle du stage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il garantit les conditions d’accueil et la qualité organisationnelle de l’encadrement."
+    },
+    {
+      "question": "Quelles missions relèvent du maître de stage ?",
+      "options": ["Garantir la qualité de l’encadrement", "Organiser les moyens nécessaires", "Veiller à l’existence du livret d’accueil", "Veiller à la charte d’encadrement", "Faire le lien avec l’IFSI si besoin"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le maître de stage organise et sécurise le cadre institutionnel du stage, en lien avec les outils d’accueil et l’IFSI."
+    },
+    {
+      "question": "Le tuteur représente la fonction pédagogique du stage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il accompagne l’étudiant, suit ses objectifs, organise les entretiens et participe à l’évaluation de sa progression."
+    },
+    {
+      "question": "Quelles missions relèvent du tuteur de stage ?",
+      "options": ["Accompagner l’étudiant", "Connaître ses objectifs", "Organiser des entretiens réguliers", "Recueillir l’avis des professionnels de proximité", "Formaliser l’évolution dans le portfolio"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le tuteur assure le suivi pédagogique de l’étudiant, coordonne les retours et formalise la progression dans les outils de stage."
+    },
+    {
+      "question": "Les professionnels de proximité encadrent l’étudiant au quotidien.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils travaillent avec l’étudiant dans les situations concrètes de soins et contribuent directement à sa progression."
+    },
+    {
+      "question": "Que font les professionnels de proximité auprès de l’étudiant ?",
+      "options": ["Expliquer les soins", "Rendre visibles leurs raisonnements", "Guider l’étudiant", "Aider l’étudiant à réfléchir", "Participer à sa progression"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les professionnels de proximité rendent l’activité professionnelle compréhensible, guident l’étudiant et favorisent l’apprentissage au quotidien."
+    },
+    {
+      "question": "L’étudiant est acteur de son stage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il prépare ses objectifs, utilise son portfolio, pose des questions, accepte les réajustements, s’auto-évalue et développe sa réflexivité."
+    },
+    {
+      "question": "Quelles attitudes sont attendues de l’étudiant en stage ?",
+      "options": ["Préparer ses objectifs", "Présenter son portfolio", "Poser des questions", "S’auto-évaluer", "Refuser systématiquement les réajustements"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’étudiant doit être actif dans ses apprentissages. Refuser les réajustements empêche la progression et l’analyse réflexive."
+    },
+    {
+      "question": "La réflexivité correspond à la capacité de prendre du recul sur ce qu’on a fait.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La réflexivité permet d’analyser l’action, de comprendre ses choix, d’identifier les points forts et les axes d’amélioration."
+    },
+    {
+      "question": "Quelles questions relèvent d’une démarche réflexive ?",
+      "options": ["Qu’est-ce que j’ai fait ?", "Pourquoi je l’ai fait ?", "Qu’est-ce qui était adapté ?", "Qu’est-ce que je dois améliorer ?", "Que puis-je transférer à une autre situation ?"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La réflexivité repose sur l’analyse de l’action, du raisonnement, des réussites, des difficultés et des éléments transférables."
+    },
+    {
+      "question": "Encadrer consiste seulement à dire “c’est bien” ou “ce n’est pas bien”.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Encadrer signifie aider l’étudiant à comprendre sa pratique, à argumenter ses choix et à progresser."
+    },
+    {
+      "question": "Quels effets la réflexivité peut-elle favoriser ?",
+      "options": ["Renforcement de l’observation", "Liens entre les savoirs", "Identification des éléments transférables", "Auto-évaluation", "Développement de l’identité professionnelle"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La réflexivité développe l’analyse professionnelle, le questionnement, l’auto-évaluation et la construction de l’identité soignante."
+    },
+    {
+      "question": "La méthode démonstrative consiste à montrer un geste en expliquant les étapes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle donne un modèle clair à l’étudiant et peut le rassurer avant la réalisation autonome."
+    },
+    {
+      "question": "La méthode active consiste à faire faire l’étudiant sous surveillance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’étudiant agit lui-même, ce qui prépare l’autonomie tout en permettant au tuteur de réajuster si besoin."
+    },
+    {
+      "question": "La méthode interrogative repose sur des questions posées à l’étudiant pour stimuler sa réflexion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle pousse l’étudiant à expliquer son raisonnement au lieu de réciter ou d’exécuter sans comprendre."
+    },
+    {
+      "question": "La méthode réflexive consiste à analyser une situation après coup avec l’étudiant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet d’identifier les points forts, les erreurs, les axes d’amélioration et les éléments transférables."
+    },
+    {
+      "question": "La pédagogie par objectifs permet de clarifier ce qui est attendu et de faciliter l’évaluation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les objectifs donnent des repères précis à l’étudiant et rendent l’évaluation plus objective."
+    },
+    {
+      "question": "Quelles méthodes pédagogiques peuvent être utilisées pour encadrer un étudiant ?",
+      "options": ["Méthode démonstrative", "Méthode active", "Méthode interrogative", "Méthode réflexive", "Pédagogie par objectifs", "Méthode de jugement personnel sans critère"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Plusieurs méthodes peuvent être combinées : montrer, faire faire, questionner, analyser et fixer des objectifs. Juger sans critère ne constitue pas une méthode pédagogique professionnelle."
+    },
+    {
+      "question": "La démarche d’encadrement peut être structurée en cinq phases.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle comprend le diagnostic, la formalisation des objectifs, l’identification des ressources et méthodes, la réalisation des actions et l’évaluation."
+    },
+    {
+      "question": "Quelles sont les cinq phases de la démarche d’encadrement ?",
+      "options": ["Phase diagnostic", "Formalisation de la finalité et des objectifs", "Identification des ressources et choix des méthodes", "Réalisation des actions", "Évaluation", "Sanction immédiate sans analyse"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La démarche suit une progression organisée : analyser la situation, fixer les objectifs, choisir les ressources et méthodes, accompagner les actions, puis évaluer."
+    },
+    {
+      "question": "La phase diagnostic correspond au temps de l’accueil et de l’analyse de départ.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de présenter le service, le cadre d’encadrement, le rôle de chacun et de connaître le niveau, les ressources, les besoins et les objectifs de l’étudiant."
+    },
+    {
+      "question": "Que peut-on analyser pendant la phase diagnostic ?",
+      "options": ["Niveau de formation de l’étudiant", "Besoins de l’étudiant", "Ressources de l’étudiant", "Objectifs de stage", "Craintes et axes d’amélioration"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La phase diagnostic vise à comprendre la situation de départ de l’étudiant, ses ressources, ses difficultés, ses objectifs et ses besoins d’accompagnement."
+    },
+    {
+      "question": "La formalisation des objectifs consiste à clarifier les attentes du stage et les objectifs à atteindre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette phase met en lien les acquisitions de l’étudiant, ses objectifs personnels et les objectifs institutionnels."
+    },
+    {
+      "question": "L’identification des ressources et le choix des méthodes permettent d’organiser le parcours de stage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cette étape organise les lieux, les professionnels ressources, les situations de soins, la progression pédagogique et les bilans d’étape."
+    },
+    {
+      "question": "Quels éléments peuvent être organisés lors de l’identification des ressources et du choix des méthodes ?",
+      "options": ["Lieux de stage", "Professionnels ressources", "Situations de soins possibles", "Progression pédagogique", "Bilans réguliers"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Cette phase prépare concrètement le parcours de l’étudiant en identifiant les ressources humaines, matérielles et pédagogiques disponibles."
+    },
+    {
+      "question": "La réalisation des actions correspond à l’encadrement quotidien de l’étudiant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’encadrant questionne, accompagne, explique, fait analyser les situations et aide au développement des savoirs."
+    },
+    {
+      "question": "Quels types de savoirs l’encadrant aide-t-il l’étudiant à développer au quotidien ?",
+      "options": ["Savoirs théoriques", "Savoirs procéduraux", "Savoirs pratiques", "Savoirs relationnels", "Ignorance des règles de sécurité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’encadrement au quotidien développe les connaissances, les procédures, les gestes pratiques et la posture relationnelle. Les règles de sécurité doivent toujours être intégrées."
+    },
+    {
+      "question": "L’évaluation d’un étudiant commence idéalement par son auto-évaluation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’auto-évaluation favorise la réflexivité et permet de comparer la perception de l’étudiant avec celle de l’encadrant."
+    },
+    {
+      "question": "Que doit comporter l’évaluation d’un étudiant en stage ?",
+      "options": ["Progression", "Atteinte des objectifs", "Compétences mobilisées", "Réajustements nécessaires", "Axes de progrès", "Jugement global de la personne"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L’évaluation porte sur la progression, les compétences, les objectifs et les axes d’amélioration. Elle ne doit pas juger la personne elle-même."
+    },
+    {
+      "question": "Le bilan d’évaluation doit être formalisé par écrit et argumenté avec l’étudiant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La formalisation permet de garder une trace claire, objectivée et partagée de la progression et des objectifs restants."
+    },
+    {
+      "question": "Avant l’arrivée de l’étudiant, il est utile de préparer l’accueil.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un accueil préparé diminue le stress, donne des repères et facilite l’intégration de l’étudiant."
+    },
+    {
+      "question": "Que faut-il préparer avant l’arrivée d’un étudiant en stage ?",
+      "options": ["Livret d’accueil à jour", "Équipe prévenue", "Rôle du tuteur défini", "Planning anticipé", "Prérequis et objectifs identifiés"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La préparation du stage facilite l’accueil, la cohérence de l’encadrement et l’adaptation du parcours au niveau de l’étudiant."
+    },
+    {
+      "question": "Le premier jour de stage doit uniquement consister à donner une tenue et à laisser l’étudiant observer sans explication.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le premier jour doit donner des repères : présentation du service, de l’équipe, des règles, du planning, des ressources, du tutorat et des outils comme le portfolio."
+    },
+    {
+      "question": "Quels éléments sont importants le premier jour de stage ?",
+      "options": ["Présentation du service", "Présentation de l’équipe", "Présentation des règles", "Présentation du planning", "Présentation du portfolio et des modalités de tutorat", "Éviter de parler des craintes de l’étudiant"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le premier jour pose les bases du stage et de l’accompagnement. Il est aussi important d’aborder les craintes et les besoins de l’étudiant."
+    },
+    {
+      "question": "Un bon accueil diminue le stress, donne des repères et facilite l’intégration de l’étudiant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’accueil est une étape essentielle de l’encadrement car il conditionne la sécurité psychologique et l’intégration dans l’équipe."
+    },
+    {
+      "question": "Le contrôle vérifie la conformité par rapport à une norme, un modèle, un protocole ou un barème.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le contrôle répond à la question : l’action est-elle conforme ou non à ce qui est attendu ?"
+    },
+    {
+      "question": "L’évaluation est plus large que le contrôle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évaluation apprécie une progression, donne du feedback, identifie les acquis, les difficultés et les axes d’amélioration."
+    },
+    {
+      "question": "Quelle différence est correcte entre contrôle et évaluation ?",
+      "options": ["Le contrôle vérifie la conformité", "L’évaluation apprécie la progression", "L’évaluation permet de donner du feedback", "L’évaluation repère les acquis et difficultés", "Le contrôle remplace toujours toute évaluation formative"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le contrôle porte sur la conformité ; l’évaluation est plus globale et formatrice. Le contrôle ne remplace pas l’évaluation de la progression."
+    },
+    {
+      "question": "La compétence correspond à une combinaison de savoirs, de savoir-faire et de savoir-être mobilisés dans une situation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Être compétent ne signifie pas seulement connaître : il faut mobiliser les connaissances, les gestes et la posture dans un contexte réel."
+    },
+    {
+      "question": "Quels éléments composent une compétence professionnelle ?",
+      "options": ["Savoirs", "Savoir-faire", "Savoir-être", "Capacité de mobilisation en situation", "Simple mémorisation sans action"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La compétence combine connaissances, gestes, attitudes et capacité à les mobiliser dans une situation professionnelle réelle."
+    },
+    {
+      "question": "Les savoirs correspondent aux connaissances théoriques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les savoirs permettent de comprendre une pathologie, un traitement, un protocole ou une surveillance."
+    },
+    {
+      "question": "Les savoir-faire correspondent aux gestes techniques et aux actions concrètes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les savoir-faire concernent la réalisation des soins, l’application de procédures et le respect des règles d’hygiène et de sécurité."
+    },
+    {
+      "question": "Les savoir-être concernent la posture professionnelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les savoir-être incluent l’éthique, la communication, l’écoute, l’adaptation, la remise en question et le travail en équipe."
+    },
+    {
+      "question": "Être compétent signifie uniquement connaître un protocole par cœur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il faut aussi analyser la situation, agir en sécurité, communiquer, demander de l’aide si besoin et ajuster sa pratique."
+    },
+    {
+      "question": "Quels éléments traduisent une compétence infirmière en situation réelle ?",
+      "options": ["Analyser une situation clinique", "Prendre des décisions adaptées", "Réaliser les soins en sécurité", "Communiquer avec l’équipe", "Ajuster sa pratique selon l’état du patient"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La compétence se voit dans la capacité à mobiliser ses ressources pour agir de façon pertinente, sécurisée et adaptée au contexte."
+    },
+    {
+      "question": "L’évaluation diagnostique sert à faire un état des lieux du niveau de l’étudiant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de connaître le point de départ afin d’adapter l’accompagnement."
+    },
+    {
+      "question": "L’évaluation formative sert à informer l’étudiant sur sa progression, ses points positifs et ses axes d’amélioration.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est utile pour faire progresser l’étudiant pendant l’apprentissage."
+    },
+    {
+      "question": "L’évaluation régulatrice permet au formateur ou au tuteur d’ajuster son accompagnement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet de modifier la stratégie pédagogique selon les besoins observés."
+    },
+    {
+      "question": "L’évaluation réflexive aide l’étudiant à prendre du recul sur ses apprentissages.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle encourage l’analyse de la pratique, la compréhension des erreurs et la construction du raisonnement professionnel."
+    },
+    {
+      "question": "L’évaluation sommative mesure les acquis et participe à la validation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle intervient pour mesurer ce qui est acquis à un moment donné."
+    },
+    {
+      "question": "L’évaluation certificative permet la délivrance d’un diplôme ou la validation d’un niveau de formation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle a une fonction de certification ou de validation institutionnelle."
+    },
+    {
+      "question": "En stage, l’évaluation doit être surtout formatrice pour aider l’étudiant à progresser.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évaluation en stage ne doit pas seulement sanctionner ; elle doit soutenir la progression et l’amélioration des pratiques."
+    },
+    {
+      "question": "Quels types d’évaluation peuvent exister dans l’encadrement ?",
+      "options": ["Diagnostique", "Formative", "Régulatrice", "Réflexive", "Sommative", "Certificative"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Ces évaluations ont des fonctions différentes : état des lieux, progression, ajustement, recul réflexif, mesure des acquis et validation."
+    },
+    {
+      "question": "La charte d’encadrement formalise les engagements autour de la qualité de l’encadrement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle pose le cadre des engagements entre l’établissement et l’IFSI pour garantir la qualité de l’encadrement."
+    },
+    {
+      "question": "La charte d’encadrement est identique au livret d’accueil.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La charte formalise les engagements de qualité d’encadrement, tandis que le livret d’accueil donne des informations pratiques et professionnelles sur le terrain de stage."
+    },
+    {
+      "question": "Le livret d’accueil donne les informations pratiques et professionnelles sur le terrain de stage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il aide l’étudiant à comprendre le fonctionnement du terrain de stage, ses ressources et ses situations prévalentes."
+    },
+    {
+      "question": "Le portfolio est un outil de suivi et d’évaluation de la progression de l’étudiant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il permet de suivre l’acquisition de compétences, avec des critères, des indicateurs et des traces de progression."
+    },
+    {
+      "question": "À quoi sert le portfolio ?",
+      "options": ["Suivre la progression", "Évaluer l’acquisition de compétences", "Faire apparaître des critères et indicateurs", "Formaliser des éléments du parcours", "Remplacer toute analyse orale"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le portfolio trace la progression et les compétences acquises. Il ne remplace pas les échanges, l’auto-évaluation et les entretiens."
+    },
+    {
+      "question": "Le projet de stage permet de fixer les objectifs et le parcours de progression.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le projet de stage structure l’apprentissage et donne des repères pour organiser le parcours."
+    },
+    {
+      "question": "Les référentiels servent de base pour savoir ce qui est attendu en termes d’activités, de compétences et de formation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils permettent d’objectiver les attentes et de relier le stage au cadre de formation."
+    },
+    {
+      "question": "Les bilans d’étape permettent de réajuster l’accompagnement pendant le stage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils permettent de faire le point sur la progression, les difficultés, les réussites et les objectifs à retravailler."
+    },
+    {
+      "question": "Quels outils peuvent soutenir l’encadrement d’un étudiant ?",
+      "options": ["Charte d’encadrement", "Livret d’accueil", "Portfolio", "Projet de stage", "Référentiels", "Bilans d’étape"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Ces outils structurent l’accueil, la progression, l’évaluation et la qualité de l’encadrement."
+    },
+    {
+      "question": "L’évaluateur doit demander à l’étudiant de verbaliser avant et après l’action.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La verbalisation permet d’évaluer le raisonnement, les intentions, la compréhension et l’analyse après l’action."
+    },
+    {
+      "question": "Une bonne évaluation respecte une intention positive, la personne, la transparence des critères, la professionnalisation et l’objectivité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’évaluation doit être éthique, argumentée et centrée sur la progression professionnelle."
+    },
+    {
+      "question": "On évalue l’étudiant comme personne plutôt que sa prestation, ses compétences et sa progression.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. On n’évalue pas la personne ; on évalue ce qu’elle sait faire, ce qu’elle comprend, ce qu’elle mobilise et comment elle progresse."
+    },
+    {
+      "question": "Quels principes doivent guider la posture de l’évaluateur ?",
+      "options": ["Respect de la personne", "Transparence des critères", "Objectivité", "Intention positive", "Évaluation d’une compétence plutôt que jugement de la personne"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L’évaluateur doit adopter une posture éthique et professionnelle, centrée sur les compétences, la progression et la compréhension de la pratique."
+    },
+    {
+      "question": "La progression vers l’autonomie est une notion centrale de l’encadrement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’encadrement vise à guider l’étudiant vers une autonomie progressive, sécurisée et argumentée."
+    },
+    {
+      "question": "Quels éléments caractérisent un encadrement de qualité ?",
+      "options": ["Cadre sécurisé", "Bienveillance professionnelle", "Objectifs clairs", "Évaluation argumentée", "Réajustement régulier", "Absence totale de feedback"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Un encadrement de qualité repose sur la sécurité, la clarté, la bienveillance, l’évaluation argumentée et les réajustements. L’absence de feedback freine la progression."
+    },
+    {
+      "question": "Le tuteur doit accompagner, guider, questionner, évaluer et formaliser la progression de l’étudiant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le tuteur a un rôle pédagogique complet qui va du suivi au questionnement, puis à l’évaluation et à la formalisation."
+    },
+    {
+      "question": "Les professionnels de proximité participent à l’encadrement quotidien, tandis que le tuteur assure le suivi pédagogique global.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les professionnels de proximité accompagnent dans l’activité quotidienne, tandis que le tuteur coordonne le suivi pédagogique."
+    },
+    {
+      "question": "Un encadrement efficace doit être préparé, organisé et adapté à l’étudiant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Préparer et adapter l’encadrement permet de répondre au niveau, aux besoins et aux objectifs de l’étudiant."
+    },
+    {
+      "question": "Dans une situation d’encadrement, l’étudiant doit uniquement exécuter sans poser de questions.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’étudiant doit poser des questions, comprendre, s’auto-évaluer et développer sa réflexivité pour progresser."
+    },
+    {
+      "question": "Quelle conduite est adaptée si un étudiant présente des craintes en début de stage ?",
+      "options": ["Les écouter", "Les analyser avec lui", "Identifier ses besoins", "Adapter progressivement l’accompagnement", "Les ignorer pour ne pas perdre de temps"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Prendre en compte les craintes permet de sécuriser l’apprentissage, de créer une relation de confiance et d’adapter l’encadrement."
+    },
+    {
+      "question": "Le feedback sert à faire progresser l’étudiant en identifiant les acquis et les axes d’amélioration.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un feedback clair, respectueux et argumenté aide l’étudiant à comprendre sa progression et à réajuster sa pratique."
+    },
+    {
+      "question": "Une évaluation objective doit s’appuyer sur des critères explicites plutôt que sur une impression personnelle vague.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Des critères transparents permettent une évaluation plus juste, plus professionnelle et mieux comprise par l’étudiant."
+    },
+    {
+      "question": "La collaboration interprofessionnelle peut participer à la qualité de l’encadrement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’étudiant progresse grâce aux retours des différents professionnels, à la coordination des acteurs et à l’exposition à plusieurs situations."
+    },
+    {
+      "question": "Quel enchaînement correspond à une démarche d’encadrement cohérente ?",
+      "options": ["Accueil et diagnostic initial", "Objectifs clarifiés", "Ressources et méthodes organisées", "Actions d’encadrement réalisées", "Évaluation et réajustement", "Évaluation finale sans aucun suivi intermédiaire"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Une démarche d’encadrement cohérente est progressive et structurée. Elle ne repose pas uniquement sur une évaluation finale isolée."
+    }
+  ]
+}
