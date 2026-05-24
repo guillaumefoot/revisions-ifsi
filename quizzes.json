@@ -133,6 +133,13 @@
         "icon": "🧠"
     },
     {
+        "file": "data/2.7_PARKINSON_SCLEROSE.json",
+        "code": "UE 2.7",
+        "name": "Neurologie : SEP & Parkinson",
+        "subtitle": "Dégénérescence, myéline et dopamine",
+        "icon": "📡"
+    },
+    {
         "file": "data/2.7_SLA.json",
         "code": "UE 2.7",
         "name": "Sclérose Latérale Amyotrophique",
