@@ -119,6 +119,13 @@
         "icon": "📝"
     },
     {
+        "file": "data/2.7_DIABETE_TD.json",
+        "code": "UE 2.7",
+        "name": "Diabète (TD)",
+        "subtitle": "Physiopathologie, insulinothérapie et surveillance",
+        "icon": "💉"
+    },
+    {
         "file": "data/2.7_PARKINSON.json",
         "code": "UE 2.7",
         "name": "Maladie de Parkinson",
