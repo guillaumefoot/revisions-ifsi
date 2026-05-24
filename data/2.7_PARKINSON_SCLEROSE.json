@@ -1,0 +1,846 @@
+{
+  "title": "U.E 2.7 S4 - Défaillances organiques et processus dégénératifs",
+  "subtitle": "Sclérose en plaques et maladie de Parkinson",
+  "questions": [
+    {
+      "question": "La sclérose en plaques est une maladie chronique, démyélinisante, multifocale du système nerveux central.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La sclérose en plaques atteint la myéline du système nerveux central, avec des lésions situées dans plusieurs zones comme le cerveau, la moelle épinière ou les nerfs optiques."
+    },
+    {
+      "question": "Quels éléments appartiennent au système nerveux central pouvant être atteints dans la sclérose en plaques ?",
+      "options": ["Cerveau", "Moelle épinière", "Nerfs optiques", "Muscles squelettiques uniquement", "Cœur"],
+      "correct": [0, 1, 2],
+      "explanation": "La sclérose en plaques atteint le système nerveux central, notamment le cerveau, la moelle épinière et les nerfs optiques. Elle ne correspond pas à une maladie primaire du muscle ou du cœur."
+    },
+    {
+      "question": "La sclérose en plaques est une maladie musculaire primitive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les troubles moteurs peuvent exister, mais ils sont secondaires à une atteinte du système nerveux central et non à une maladie musculaire primitive."
+    },
+    {
+      "question": "Quel est le rôle principal de la myéline ?",
+      "options": ["Isoler et protéger la fibre nerveuse", "Participer à la propagation de l’influx nerveux", "Produire directement les hormones digestives", "Accélérer la conduction nerveuse", "Remplacer les neurones détruits"],
+      "correct": [0, 1, 3],
+      "explanation": "La myéline isole et protège les fibres nerveuses et permet une conduction rapide de l’influx nerveux. Elle ne produit pas d’hormones digestives et ne remplace pas les neurones détruits."
+    },
+    {
+      "question": "Les oligodendrocytes participent à la production de myéline dans le système nerveux central.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les oligodendrocytes sont les cellules responsables de la production de myéline dans le système nerveux central."
+    },
+    {
+      "question": "La démyélinisation entraîne une dégradation de la conduction neuronale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Lorsque la gaine de myéline est altérée, la conduction de l’influx nerveux devient moins efficace, ce qui explique les symptômes neurologiques."
+    },
+    {
+      "question": "Pourquoi les symptômes de la sclérose en plaques sont-ils très variés ?",
+      "options": ["Les plaques peuvent toucher différentes zones myélinisées du système nerveux central", "Les lésions peuvent concerner les nerfs optiques", "Les lésions peuvent concerner la moelle épinière", "Les lésions peuvent concerner le cervelet ou les zones périventriculaires", "La maladie atteint uniquement un seul muscle"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La diversité des symptômes dépend de la localisation des plaques de démyélinisation dans le système nerveux central. La maladie n’atteint pas uniquement un muscle."
+    },
+    {
+      "question": "La remyélinisation partielle peut expliquer une récupération clinique après une poussée de sclérose en plaques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une réparation partielle de la myéline par les oligodendrocytes peut permettre une amélioration ou une récupération des signes neurologiques."
+    },
+    {
+      "question": "La sclérose en plaques touche préférentiellement l’adulte jeune entre 20 et 40 ans.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La sclérose en plaques débute fréquemment chez l’adulte jeune, ce qui en fait une cause importante de handicap neurologique dans cette population."
+    },
+    {
+      "question": "Quel profil épidémiologique correspond à la sclérose en plaques ?",
+      "options": ["Adulte jeune", "Prédominance féminine", "Environ trois femmes pour un homme", "Première cause neurologique de handicap de l’adulte jeune", "Maladie exclusivement pédiatrique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La sclérose en plaques touche surtout l’adulte jeune, avec une nette prédominance féminine. Elle n’est pas une maladie exclusivement pédiatrique."
+    },
+    {
+      "question": "La sclérose en plaques est favorisée uniquement par un facteur génétique unique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Son origine est multifactorielle, associant prédisposition génétique et facteurs environnementaux."
+    },
+    {
+      "question": "Quels facteurs peuvent intervenir dans l’étiologie de la sclérose en plaques ?",
+      "options": ["Prédisposition génétique", "Facteurs environnementaux", "Infections virales comme EBV", "Tabac", "Carence en vitamine D"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La sclérose en plaques est une maladie multifactorielle. Des facteurs génétiques, environnementaux, infectieux, le tabac et la carence en vitamine D peuvent être impliqués."
+    },
+    {
+      "question": "Le tabac peut augmenter le risque de sclérose en plaques et aggraver une maladie déjà présente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le tabac est présenté comme un facteur environnemental pouvant augmenter le risque et aggraver l’évolution de la maladie."
+    },
+    {
+      "question": "Les vaccins contre l’hépatite B sont démontrés comme cause de sclérose en plaques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Aucun lien causal scientifiquement prouvé n’est retenu entre ces vaccins et la sclérose en plaques."
+    },
+    {
+      "question": "Le stress est une cause scientifiquement prouvée de sclérose en plaques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le stress peut influencer le vécu de la maladie, mais il n’est pas présenté comme une cause scientifiquement prouvée de sclérose en plaques."
+    },
+    {
+      "question": "La névrite optique rétrobulbaire peut révéler une sclérose en plaques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La névrite optique rétrobulbaire est une manifestation inaugurale fréquente, pouvant révéler la maladie."
+    },
+    {
+      "question": "Quels signes peuvent accompagner une névrite optique rétrobulbaire ?",
+      "options": ["Baisse rapide de l’acuité visuelle", "Douleur péri-orbitaire", "Douleur favorisée par la mobilisation des globes oculaires", "Scotome central", "Dyschromatopsie rouge-vert"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La névrite optique rétrobulbaire associe souvent une baisse visuelle rapide, une douleur péri-orbitaire, un scotome central et une dyschromatopsie."
+    },
+    {
+      "question": "Le fond d’œil est toujours anormal dès le début d’une névrite optique rétrobulbaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le fond d’œil peut être normal au début ; un œdème papillaire n’est observé que dans une minorité de cas."
+    },
+    {
+      "question": "Quels troubles sensitifs peuvent apparaître au début d’une sclérose en plaques ?",
+      "options": ["Picotements", "Fourmillements", "Hypoesthésie", "Anesthésie", "Sensation d’étau ou de striction"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les troubles sensitifs peuvent inclure picotements, fourmillements, diminution ou perte de sensibilité, douleurs et sensations de striction."
+    },
+    {
+      "question": "Les symptômes d’une poussée de sclérose en plaques apparaissent généralement de manière brutalement instantanée en quelques secondes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les symptômes apparaissent de façon rapidement progressive sur quelques heures ou quelques jours, mais pas brutalement en quelques secondes."
+    },
+    {
+      "question": "Quels signes moteurs peuvent être observés dans la sclérose en plaques ?",
+      "options": ["Monoparésie rapidement progressive", "Hémiparésie parfois possible", "Faiblesse musculaire", "Réduction du périmètre de marche", "Paralysie toujours brutale d’emblée"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les signes moteurs peuvent inclure une faiblesse, une monoparésie, parfois une hémiparésie et une réduction du périmètre de marche. L’installation n’est pas brutalement vasculaire."
+    },
+    {
+      "question": "La myélite dans la sclérose en plaques peut associer des troubles sensitivomoteurs des membres inférieurs et des troubles sphinctériens.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La myélite correspond à une atteinte médullaire pouvant associer troubles moteurs, sensitifs et sphinctériens."
+    },
+    {
+      "question": "Quels symptômes peuvent être observés dans la phase installée de la sclérose en plaques ?",
+      "options": ["Troubles visuels", "Troubles de l’équilibre", "Fatigue", "Troubles urinaires", "Troubles sexuels", "Spasticité"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "La phase installée peut associer des troubles visuels, équilibre, fatigue, troubles urinaires, sexuels et spasticité selon les zones atteintes."
+    },
+    {
+      "question": "La fatigue dans la sclérose en plaques peut être présente même en dehors des poussées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La fatigue est très fréquente, parfois dès le début, et peut altérer fortement la qualité de vie même hors poussée."
+    },
+    {
+      "question": "Quels troubles font partie du handicap invisible dans la sclérose en plaques ?",
+      "options": ["Fatigue", "Troubles cognitifs", "Troubles sphinctériens", "Troubles urinaires", "Troubles sexuels"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le handicap invisible comprend notamment fatigue, troubles cognitifs, troubles urinaires, sphinctériens et sexuels, parfois difficiles à repérer de l’extérieur."
+    },
+    {
+      "question": "Les troubles cognitifs peuvent concerner plus de la moitié des patients après plusieurs années d’évolution de la sclérose en plaques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Des difficultés de concentration et d’autres troubles cognitifs sont fréquents après plusieurs années d’évolution."
+    },
+    {
+      "question": "Quels signes sont considérés comme des drapeaux rouges devant faire évoquer une autre pathologie que la sclérose en plaques ?",
+      "options": ["Hémianopsie latérale homonyme", "Aphasie", "Surdité", "Syndrome extrapyramidal", "Épilepsie"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces signes sont inhabituels dans la sclérose en plaques et doivent faire rechercher un diagnostic différentiel."
+    },
+    {
+      "question": "Un syndrome extrapyramidal parkinsonien est un signe typique et attendu dans la sclérose en plaques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Un syndrome extrapyramidal est un drapeau rouge dans ce contexte et doit faire évoquer une autre pathologie."
+    },
+    {
+      "question": "Quelle forme évolutive de sclérose en plaques évolue par poussées ?",
+      "options": ["Forme rémittente-récurrente", "Forme exclusivement musculaire", "Forme aiguë infectieuse", "Forme digestive primitive"],
+      "correct": [0],
+      "explanation": "La forme rémittente-récurrente évolue par poussées, avec récupération plus ou moins complète entre les épisodes."
+    },
+    {
+      "question": "La forme rémittente-récurrente représente environ 85 % des cas de sclérose en plaques au début.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La majorité des patients présentent initialement une forme rémittente-récurrente."
+    },
+    {
+      "question": "La sclérose en plaques peut évoluer secondairement vers une forme progressive avec installation d’un handicap.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une évolution progressive secondaire peut survenir, mais elle est devenue plus tardive et moins fréquente avec les traitements précoces."
+    },
+    {
+      "question": "La forme progressive primitive de sclérose en plaques représente environ 15 % des cas.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une minorité des patients présente une évolution progressive dès le début, parfois avec des poussées surajoutées."
+    },
+    {
+      "question": "À quoi sert l’échelle EDSS dans la sclérose en plaques ?",
+      "options": ["Transformer l’examen clinique en score", "Standardiser l’évaluation du handicap", "Comparer l’évolution clinique", "Mesurer uniquement la glycémie", "Évaluer la marche et le handicap"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "L’EDSS permet de convertir l’examen clinique en un score standardisé et comparable, notamment pour suivre le handicap et la marche."
+    },
+    {
+      "question": "Le phénomène d’Uhthoff correspond à une nouvelle poussée inflammatoire certaine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le phénomène d’Uhthoff correspond à la réapparition transitoire d’anciens symptômes à l’effort ou lors d’une augmentation de température corporelle, sans nouvelle poussée inflammatoire."
+    },
+    {
+      "question": "Quels éléments peuvent déclencher un phénomène d’Uhthoff ?",
+      "options": ["Effort", "Augmentation de la température corporelle", "Chaleur", "Intolérance thermique", "Injection systématique de corticoïdes"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’effort et la chaleur peuvent faire réapparaître temporairement d’anciens symptômes. Les corticoïdes ne définissent pas le phénomène d’Uhthoff."
+    },
+    {
+      "question": "Quels critères sont recherchés pour poser le diagnostic de sclérose en plaques ?",
+      "options": ["Dissémination dans le temps", "Dissémination dans l’espace", "Inflammation du système nerveux central", "Absence d’autre explication", "Atteinte pulmonaire isolée"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le diagnostic repose sur la dissémination temporelle et spatiale, l’inflammation du système nerveux central et l’élimination des diagnostics différentiels."
+    },
+    {
+      "question": "La dissémination dans le temps correspond à la succession d’épisodes neurologiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La dissémination temporelle signifie que les événements neurologiques surviennent à des moments différents."
+    },
+    {
+      "question": "La dissémination dans l’espace correspond à l’atteinte de plusieurs zones du système nerveux central.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle traduit le caractère multifocal de la maladie."
+    },
+    {
+      "question": "Quel examen d’imagerie est central dans le diagnostic de la sclérose en plaques ?",
+      "options": ["IRM encéphalique et médullaire", "Radiographie simple du poignet", "Échographie abdominale seule", "Scanner thoracique de dépistage"],
+      "correct": [0],
+      "explanation": "L’IRM encéphalique et médullaire est l’examen de choix pour visualiser les lésions compatibles avec la sclérose en plaques."
+    },
+    {
+      "question": "À l’IRM, les lésions de sclérose en plaques apparaissent souvent comme des hypersignaux de la substance blanche.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les plaques apparaissent notamment sous forme d’hypersignaux de la substance blanche, surtout en séquences T2 ou FLAIR."
+    },
+    {
+      "question": "Quelles localisations IRM sont évocatrices dans la sclérose en plaques ?",
+      "options": ["Substance blanche périventriculaire", "Moelle épinière", "Nerf optique", "Corps calleux", "Cervelet"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les lésions peuvent être périventriculaires, médullaires, du nerf optique, du corps calleux ou cérébelleuses, ce qui reflète la dissémination spatiale."
+    },
+    {
+      "question": "Les lésions récentes de sclérose en plaques peuvent se rehausser après injection de gadolinium.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le rehaussement après gadolinium traduit une activité inflammatoire récente, généralement dans les trois mois."
+    },
+    {
+      "question": "Quel est l’intérêt de la ponction lombaire dans la sclérose en plaques ?",
+      "options": ["Aider au diagnostic", "Rechercher une inflammation du système nerveux central", "Éliminer des diagnostics différentiels", "Analyser le liquide céphalo-rachidien", "Remplacer définitivement l’IRM"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La ponction lombaire permet d’analyser le LCR, d’appuyer le diagnostic et d’éliminer des diagnostics différentiels. Elle ne remplace pas définitivement l’IRM."
+    },
+    {
+      "question": "La présence de bandes oligoclonales traduit une sécrétion intrathécale d’IgG.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les bandes oligoclonales témoignent d’une inflammation intrathécale du système nerveux central."
+    },
+    {
+      "question": "Un liquide céphalo-rachidien normal exclut toujours une sclérose en plaques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le LCR peut parfois être normal malgré une sclérose en plaques."
+    },
+    {
+      "question": "À quoi servent les potentiels évoqués visuels ?",
+      "options": ["Évaluer la conduction du nerf optique", "Mesurer un retard de latence en cas d’inflammation", "Enregistrer l’activité cérébrale liée à une stimulation visuelle", "Remplacer la surveillance clinique", "Utiliser des électrodes de surface"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "Les potentiels évoqués visuels évaluent la conduction du nerf optique grâce à une stimulation visuelle et à des électrodes de surface."
+    },
+    {
+      "question": "Une névrite optique rétrobulbaire avec IRM normale expose à un risque plus faible de développer une sclérose en plaques qu’une névrite optique avec lésions IRM.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le risque de SEP après névrite optique est plus élevé lorsqu’il existe déjà des lésions IRM."
+    },
+    {
+      "question": "Quels diagnostics différentiels peuvent mimer une sclérose en plaques ?",
+      "options": ["Sarcoïdose", "Maladie de Behçet", "Gougerot-Sjögren", "Lupus", "Angéite cérébrale"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Plusieurs maladies inflammatoires ou systémiques peuvent mimer une sclérose en plaques et doivent être éliminées."
+    },
+    {
+      "question": "Quel traitement est utilisé pour accélérer la récupération d’une poussée de sclérose en plaques ?",
+      "options": ["Corticoïdes à fortes doses", "Antibiotiques systématiques", "L-Dopa", "Chélateurs du phosphore"],
+      "correct": [0],
+      "explanation": "Les corticoïdes à fortes doses, comme la méthylprednisolone, accélèrent la récupération d’une poussée."
+    },
+    {
+      "question": "Les corticoïdes utilisés lors d’une poussée de sclérose en plaques préviennent les poussées futures.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Ils accélèrent la récupération de la poussée en cours mais ne préviennent pas les nouvelles poussées."
+    },
+    {
+      "question": "Quelles modalités peuvent être utilisées pour traiter une poussée de sclérose en plaques par corticoïdes ?",
+      "options": ["Méthylprednisolone IV à fortes doses", "Perfusion pendant 3 à 5 jours", "Corticoïdes per os à fortes doses dans certaines situations", "Anticholinergiques seuls", "Traitement sans coordination médicale"],
+      "correct": [0, 1, 2],
+      "explanation": "Une poussée peut être traitée par méthylprednisolone IV à fortes doses pendant quelques jours, ou parfois par corticoïdes per os à fortes doses selon l’indication médicale."
+    },
+    {
+      "question": "Quel est le rôle infirmier face à une suspicion de poussée de sclérose en plaques ?",
+      "options": ["Vérifier la réalité de la poussée", "Rechercher des épines irritatives", "Surveiller les signes d’infection ou de déshydratation", "Réaliser les bilans prescrits", "Conclure seul au diagnostic définitif"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’infirmier participe à l’évaluation, recherche des facteurs déclenchants et réalise les bilans prescrits en coordination médicale. Il ne pose pas seul le diagnostic définitif."
+    },
+    {
+      "question": "Quels bilans peuvent être demandés pour rechercher une épine irritative avant corticoïdes ?",
+      "options": ["NFS", "CRP ou VS", "Bandelette urinaire", "ECBU", "Fond d’œil systématique pour toute fièvre"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une infection ou une déshydratation peut majorer des symptômes. Des examens comme NFS, CRP/VS, BU et ECBU peuvent être demandés."
+    },
+    {
+      "question": "Quels effets indésirables ou surveillances sont importants sous corticoïdes à fortes doses ?",
+      "options": ["Douleurs gastriques", "Surveillance de la glycémie", "Surveillance de la tension artérielle", "Insomnie", "Excitabilité"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les corticoïdes peuvent provoquer douleurs gastriques, troubles du sommeil, excitabilité et déséquilibres tensionnels ou glycémiques."
+    },
+    {
+      "question": "Quel est l’objectif du traitement de fond de la sclérose en plaques ?",
+      "options": ["Réduire la fréquence des poussées", "Ralentir la progression du handicap", "Agir sur la réponse immunitaire", "Guérir définitivement la maladie en une prise", "Limiter les nouvelles lésions inflammatoires"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "Le traitement de fond vise à réduire l’activité inflammatoire, diminuer les poussées et ralentir le handicap. Il ne guérit pas définitivement la maladie en une prise."
+    },
+    {
+      "question": "Quels types de traitements de fond peuvent être utilisés dans la sclérose en plaques ?",
+      "options": ["Immunomodulateurs", "Immunosuppresseurs", "Thérapies de haute efficacité", "Traitements symptomatiques associés", "Antibiotiques systématiques à vie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La prise en charge peut inclure immunomodulateurs, immunosuppresseurs, traitements de haute efficacité et traitements symptomatiques selon l’évolution."
+    },
+    {
+      "question": "L’objectif NEDA signifie absence d’activité de la maladie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. NEDA signifie absence de poussée, de nouvelle lésion IRM, d’atrophie et de progression du handicap."
+    },
+    {
+      "question": "Quels éléments correspondent aux objectifs d’un traitement de fond efficace dans la sclérose en plaques ?",
+      "options": ["Pas de poussée", "Pas de nouvelle plaque IRM", "Pas d’atrophie", "Pas de progression du handicap", "Augmentation volontaire des lésions"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’objectif est de réduire l’activité clinique et radiologique et de limiter la progression du handicap."
+    },
+    {
+      "question": "Quand le traitement de fond de la sclérose en plaques doit-il être envisagé ?",
+      "options": ["Le plus tôt possible", "Dès la première poussée si le diagnostic est posé", "Dès que le diagnostic est posé", "Uniquement après 30 ans d’évolution", "Selon la sévérité clinico-radiologique"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "Le traitement est envisagé précocement pour éviter de nouvelles lésions et retarder le handicap, avec un choix adapté à la sévérité."
+    },
+    {
+      "question": "Quels traitements symptomatiques peuvent être proposés dans la sclérose en plaques ?",
+      "options": ["Antispastiques", "Toxine botulinique locale", "Kinésithérapie", "Traitement des troubles urinaires", "Prise en charge de la douleur et de la dépression"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les traitements symptomatiques visent la spasticité, les douleurs, les troubles urinaires, la dépression et les limitations fonctionnelles."
+    },
+    {
+      "question": "Les troubles urinaires de la sclérose en plaques doivent être dépistés et traités pour éviter une atteinte du haut appareil urinaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une prise en charge urologique adaptée limite les complications rénales et infectieuses."
+    },
+    {
+      "question": "Quels traitements peuvent être proposés selon le type de trouble urinaire dans la sclérose en plaques ?",
+      "options": ["Anticholinergiques pour hyperactivité vésicale", "Alphabloquants pour dysurie", "Autosondages intermittents si résidu post-mictionnel", "Antibiotiques en cas d’infection urinaire", "Aucun traitement possible"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les troubles urinaires sont pris en charge selon leur mécanisme : hyperactivité, dysurie, résidu ou infection."
+    },
+    {
+      "question": "Quels axes relèvent du rôle infirmier dans la sclérose en plaques ?",
+      "options": ["Surveillance clinique", "Gestion des symptômes", "Soutien émotionnel", "Éducation thérapeutique", "Coordination interprofessionnelle"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le rôle infirmier est central dans le suivi, l’éducation, l’accompagnement psychologique et la coordination des soins."
+    },
+    {
+      "question": "L’éducation thérapeutique aide le patient atteint de sclérose en plaques à mieux comprendre sa maladie et à devenir acteur de sa prise en charge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle permet au patient d’exprimer son ressenti, comprendre la maladie, gérer le traitement et maintenir ses projets de vie."
+    },
+    {
+      "question": "L’activité physique est systématiquement interdite chez une personne atteinte de sclérose en plaques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’activité physique adaptée peut améliorer la condition physique, l’équilibre, la mobilité, la tolérance à l’effort et la qualité de vie."
+    },
+    {
+      "question": "Quels bénéfices peut apporter une activité physique adaptée dans la sclérose en plaques ?",
+      "options": ["Amélioration de la capacité cardiorespiratoire", "Amélioration de la force musculaire", "Amélioration de l’équilibre", "Amélioration de la mobilité", "Réduction du temps de sédentarité"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L’activité physique adaptée favorise la condition physique, la mobilité, l’équilibre et la qualité de vie, tout en limitant la sédentarité."
+    },
+    {
+      "question": "La maladie de Parkinson est une affection neurodégénérative du système dopaminergique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est liée à la dégénérescence de neurones dopaminergiques impliqués dans le contrôle du mouvement."
+    },
+    {
+      "question": "La maladie de Parkinson a été décrite comme une paralysie agitante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Historiquement, James Parkinson a décrit la maladie sous le nom de paralysie agitante."
+    },
+    {
+      "question": "Quels types de symptômes peut entraîner la maladie de Parkinson ?",
+      "options": ["Troubles moteurs", "Troubles non moteurs", "Troubles cognitifs possibles", "Troubles neuropsychiatriques possibles", "Atteinte exclusivement dermatologique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La maladie de Parkinson provoque des signes moteurs et de nombreux signes non moteurs, notamment cognitifs, neuropsychiatriques, autonomes ou du sommeil."
+    },
+    {
+      "question": "La maladie de Parkinson se caractérise par la destruction des neurones à dopamine impliqués dans le contrôle des mouvements.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La perte de neurones dopaminergiques perturbe les circuits du mouvement."
+    },
+    {
+      "question": "À partir de quelle proportion approximative de destruction des neurones dopaminergiques les symptômes moteurs apparaissent-ils ?",
+      "options": ["50 à 70 %", "1 à 2 %", "100 % uniquement", "5 % systématiquement"],
+      "correct": [0],
+      "explanation": "Les symptômes moteurs apparaissent généralement lorsque 50 à 70 % des neurones dopaminergiques sont détruits."
+    },
+    {
+      "question": "La maladie de Parkinson évolue de manière identique chez tous les patients.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. C’est une maladie chronique dont l’évolution varie d’un patient à l’autre."
+    },
+    {
+      "question": "Quelle anomalie anatomopathologique est caractéristique de la maladie de Parkinson ?",
+      "options": ["Accumulation anormale d’alpha-synucléine", "Agrégats amyloïdes d’alpha-synucléine", "Synucléinopathie", "Plaques de démyélinisation périventriculaires", "Destruction isolée du cristallin"],
+      "correct": [0, 1, 2],
+      "explanation": "La maladie de Parkinson est une synucléinopathie avec accumulation anormale d’alpha-synucléine. Les plaques de démyélinisation évoquent plutôt la sclérose en plaques."
+    },
+    {
+      "question": "L’alpha-synucléine peut former des amas fibrillaires insolubles toxiques dans les synucléinopathies.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’accumulation anormale d’alpha-synucléine participe au processus neurodégénératif."
+    },
+    {
+      "question": "La variabilité des tableaux cliniques de Parkinson peut être liée à une accumulation hétérogène de la protéine alpha-synucléine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une diffusion hétérogène des lésions peut expliquer des présentations cliniques différentes."
+    },
+    {
+      "question": "Quel âge de début est habituel dans la maladie de Parkinson ?",
+      "options": ["55 à 65 ans", "Uniquement avant 10 ans", "Toujours après 95 ans", "Uniquement à la naissance"],
+      "correct": [0],
+      "explanation": "La maladie débute généralement entre 55 et 65 ans, même si des formes juvéniles peuvent exister."
+    },
+    {
+      "question": "La maladie de Parkinson est une cause importante de handicap moteur chez le sujet âgé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est une cause majeure de handicap moteur dans la population âgée."
+    },
+    {
+      "question": "Quels éléments appartiennent aux ganglions de la base impliqués dans la maladie de Parkinson ?",
+      "options": ["Substance noire", "Putamen", "Noyau caudé", "Globus pallidus", "Striatum"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les ganglions de la base regroupent plusieurs structures impliquées dans la motricité, notamment la substance noire, le putamen, le noyau caudé, le globus pallidus et le striatum."
+    },
+    {
+      "question": "La voie nigrostriée est une voie dopaminergique importante dans la maladie de Parkinson.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La dégénérescence de la voie nigrostriée est au cœur des symptômes moteurs parkinsoniens."
+    },
+    {
+      "question": "Quels neurotransmetteurs ou systèmes peuvent être impliqués dans la maladie de Parkinson au-delà de la dopamine ?",
+      "options": ["Acétylcholine", "Glutamate", "GABA", "Noradrénaline", "Sérotonine"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le concept moderne de la maladie de Parkinson implique plusieurs systèmes neurochimiques, ce qui contribue aux signes non moteurs."
+    },
+    {
+      "question": "La dopamine est le seul système neurochimique impliqué dans tous les signes de Parkinson.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La dopamine joue un rôle central, mais d’autres systèmes comme l’acétylcholine, le glutamate, la noradrénaline ou la sérotonine sont aussi impliqués."
+    },
+    {
+      "question": "Quels facteurs peuvent intervenir dans l’étiologie de la maladie de Parkinson ?",
+      "options": ["Facteurs génétiques", "Facteurs environnementaux", "Exposition à certains toxiques", "Pesticides et insecticides", "Traumatismes cérébraux comme facteur aggravant"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La maladie de Parkinson peut être favorisée par des facteurs génétiques et environnementaux, dont certains toxiques, pesticides, insecticides et traumatismes."
+    },
+    {
+      "question": "Les formes familiales de maladie de Parkinson représentent la totalité des cas.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les formes familiales existent mais ne représentent qu’une partie des cas."
+    },
+    {
+      "question": "Le MPTP est un toxique capable de provoquer des signes parkinsoniens.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La découverte du MPTP a renforcé l’hypothèse de facteurs toxiques environnementaux dans certains syndromes parkinsoniens."
+    },
+    {
+      "question": "Quels éléments appartiennent à la triade motrice parkinsonienne classique ?",
+      "options": ["Bradykinésie", "Tremblement", "Rigidité", "Diplopie obligatoire", "Hyperglycémie chronique"],
+      "correct": [0, 1, 2],
+      "explanation": "La triade motrice classique associe bradykinésie, tremblement et rigidité. Diplopie et hyperglycémie ne font pas partie de cette triade."
+    },
+    {
+      "question": "La bradykinésie correspond à une lenteur d’initiation du mouvement volontaire ou à une réduction progressive de la vitesse et de l’amplitude des mouvements répétitifs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La bradykinésie est un critère central du diagnostic clinique de maladie de Parkinson."
+    },
+    {
+      "question": "Quels critères peuvent s’associer à la bradykinésie pour évoquer un diagnostic de maladie de Parkinson ?",
+      "options": ["Rigidité musculaire", "Tremblement de repos de 4 à 6 Hz", "Instabilité posturale non expliquée par une autre atteinte", "Poussée inflammatoire optique", "Cétonurie isolée"],
+      "correct": [0, 1, 2],
+      "explanation": "Le diagnostic repose sur la bradykinésie associée à une rigidité, un tremblement de repos ou une instabilité posturale non expliquée par une autre cause."
+    },
+    {
+      "question": "Le tremblement parkinsonien est typiquement un tremblement de repos.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le tremblement parkinsonien est classiquement un tremblement de repos, souvent autour de 4 à 6 Hz."
+    },
+    {
+      "question": "Quels signes peuvent aider à reconnaître une personne parkinsonienne ?",
+      "options": ["Attitude générale rigide en flexion", "Ballant des bras diminué", "Petits pas", "Freezing", "Amimie et hypophonie"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La maladie de Parkinson peut entraîner posture fléchie, diminution du ballant, marche à petits pas, freezing, amimie et voix hypophonique."
+    },
+    {
+      "question": "Le freezing correspond à un trouble d’initiation de la marche.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le freezing est une difficulté ou un blocage de l’initiation de la marche, fréquent dans l’évolution parkinsonienne."
+    },
+    {
+      "question": "L’amimie correspond à une absence ou diminution de l’expression faciale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’amimie donne un visage peu expressif, caractéristique du syndrome parkinsonien."
+    },
+    {
+      "question": "L’hypophonie correspond à une diminution du volume de la voix.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La voix peut devenir plus faible, monotone ou difficilement audible."
+    },
+    {
+      "question": "Quels signes non moteurs peuvent être présents dans la maladie de Parkinson ?",
+      "options": ["Anosmie", "Troubles du sommeil", "Constipation", "Troubles de l’humeur", "Troubles cognitifs", "Syndrome dysautonomique"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "La maladie de Parkinson comporte de nombreux signes non moteurs, parfois précoces, comme anosmie, troubles du sommeil, constipation, troubles de l’humeur, cognitifs et dysautonomiques."
+    },
+    {
+      "question": "Les signes non moteurs peuvent précéder les signes moteurs de la maladie de Parkinson.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Des troubles comme l’anosmie ou les troubles du sommeil peuvent apparaître avant les signes moteurs."
+    },
+    {
+      "question": "Quels troubles neuropsychiatriques peuvent être observés dans la maladie de Parkinson ?",
+      "options": ["Dépression", "Apathie", "Anxiété", "Hallucinations", "Démence"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les troubles neuropsychiatriques peuvent inclure dépression, apathie, anxiété, hallucinations et troubles cognitifs évoluant parfois vers une démence."
+    },
+    {
+      "question": "Quels symptômes liés aux fonctions autonomes peuvent être présents dans la maladie de Parkinson ?",
+      "options": ["Hypotension orthostatique", "Dysfonction uro-génitale", "Constipation", "Insuffisance sexuelle", "Hyperactivité immunitaire démyélinisante"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les troubles dysautonomiques peuvent inclure hypotension orthostatique, troubles uro-génitaux, constipation et troubles sexuels."
+    },
+    {
+      "question": "La dysphagie et l’hypersalivation peuvent faire partie des signes non moteurs ou axiaux de la maladie de Parkinson.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les troubles de déglutition et l’hypersalivation peuvent apparaître au cours de l’évolution."
+    },
+    {
+      "question": "Quels critères doivent faire discuter un diagnostic autre qu’une maladie de Parkinson idiopathique ?",
+      "options": ["AVC répétés avec évolution en marches d’escalier", "Traumatismes crâniens répétés", "Encéphalite documentée", "Traitement neuroleptique au début des symptômes", "Rémission prolongée des symptômes"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces éléments sont des critères d’exclusion ou d’alerte qui orientent vers un syndrome parkinsonien secondaire ou une autre pathologie."
+    },
+    {
+      "question": "Une résistance à la L-Dopa à fortes doses en l’absence de malabsorption peut faire évoquer un diagnostic autre que Parkinson idiopathique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une mauvaise réponse à la L-Dopa doit faire rechercher un syndrome parkinsonien atypique ou une autre cause."
+    },
+    {
+      "question": "Quels diagnostics différentiels acquis peuvent mimer un syndrome parkinsonien ?",
+      "options": ["Parkinson vasculaire", "Syndrome parkinsonien médicamenteux", "Hydrocéphalie chronique de l’adulte", "Maladie de Wilson", "Intoxication au monoxyde de carbone ou au manganèse"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Plusieurs causes acquises peuvent provoquer un syndrome parkinsonien, notamment vasculaires, iatrogènes, toxiques, métaboliques ou hydrocéphaliques."
+    },
+    {
+      "question": "Les neuroleptiques peuvent provoquer un syndrome parkinsonien médicamenteux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les neuroleptiques peuvent induire des symptômes extrapyramidaux de type parkinsonien."
+    },
+    {
+      "question": "Quels syndromes parkinsoniens dégénératifs peuvent être des diagnostics différentiels de la maladie de Parkinson ?",
+      "options": ["Atrophie multisystématisée", "Paralysie supranucléaire progressive", "Dégénérescence corticobasale", "Maladie à corps de Lewy diffus", "Rétinopathie diabétique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces syndromes dégénératifs peuvent ressembler à une maladie de Parkinson mais sont souvent plus évolutifs et moins sensibles à la L-Dopa."
+    },
+    {
+      "question": "Quel est l’intérêt de l’IRM cérébrale dans un syndrome parkinsonien ?",
+      "options": ["Rechercher des diagnostics différentiels", "Explorer une cause vasculaire", "Rechercher une hydrocéphalie", "Aider à l’orientation diagnostique", "Confirmer systématiquement seule la maladie de Parkinson"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’IRM aide à rechercher des causes secondaires ou atypiques. Elle ne suffit pas seule à confirmer systématiquement une maladie de Parkinson idiopathique."
+    },
+    {
+      "question": "Quels examens paracliniques peuvent participer à l’évaluation d’un syndrome parkinsonien ?",
+      "options": ["Imagerie morphologique", "Imagerie fonctionnelle", "DATscan", "PET-scan à la fluorodopa", "Échographie de la substance noire"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces examens peuvent compléter l’évaluation en recherchant une dénervation dopaminergique ou des anomalies compatibles."
+    },
+    {
+      "question": "Le DATscan explore la densité des transporteurs de dopamine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le DATscan utilise un radiotraceur pour évaluer la densité des transporteurs dopaminergiques."
+    },
+    {
+      "question": "L’évolution de la maladie de Parkinson peut être liée à la progression de la maladie et aux traitements dopaminergiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les signes axiaux peuvent progresser avec la maladie, tandis que les traitements dopaminergiques peuvent entraîner fluctuations et dyskinésies."
+    },
+    {
+      "question": "Quels signes axiaux peuvent apparaître au cours de l’évolution de la maladie de Parkinson ?",
+      "options": ["Chutes", "Dysarthrie", "Dysphagie", "Freezing", "Troubles de la posture"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les signes axiaux incluent chutes, troubles de la parole, déglutition, freezing et troubles posturaux, souvent difficiles à traiter."
+    },
+    {
+      "question": "Les signes axiaux évolués de Parkinson sont souvent dopa-résistants.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les troubles de la marche, de posture, de déglutition ou certains troubles cognitifs répondent souvent moins bien à la dopamine."
+    },
+    {
+      "question": "Quelles complications peuvent être liées aux traitements dopaminergiques ?",
+      "options": ["Fluctuations motrices", "Alternance de phases ON et OFF", "Dyskinésies", "Trouble du contrôle des impulsions", "Punding"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les traitements dopaminergiques peuvent entraîner fluctuations, dyskinésies et troubles comportementaux liés à la dysrégulation dopaminergique."
+    },
+    {
+      "question": "Les dyskinésies sont des mouvements anormaux liés aux fluctuations de concentration plasmatique de L-Dopa.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les variations de concentration dopaminergique peuvent provoquer des mouvements involontaires anormaux."
+    },
+    {
+      "question": "Les phases OFF correspondent à des périodes où les symptômes parkinsoniens réapparaissent ou s’aggravent.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une phase OFF correspond à une moindre efficacité du traitement avec retour de l’akinésie ou d’autres symptômes."
+    },
+    {
+      "question": "À quoi sert l’échelle UPDRS ?",
+      "options": ["Quantifier la progression de la maladie de Parkinson", "Évaluer l’efficacité du traitement", "Explorer les activités de la vie quotidienne", "Évaluer l’examen moteur", "Mesurer uniquement la température corporelle"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’UPDRS évalue la maladie de Parkinson selon plusieurs dimensions : état mental, vie quotidienne, examen moteur, complications et qualité de vie."
+    },
+    {
+      "question": "Quelles sections font partie de l’échelle UPDRS ?",
+      "options": ["État mental, comportemental et thymique", "Activités de la vie quotidienne", "Examen moteur", "Complications du traitement", "Stade de Hoehn et Yahr", "Qualité de vie de Schwab et England"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "L’UPDRS comporte plusieurs sections couvrant l’état mental, les activités, le moteur, les complications, le stade évolutif et la qualité de vie."
+    },
+    {
+      "question": "Quel est le but principal du traitement de la maladie de Parkinson ?",
+      "options": ["Pallier le déficit en dopamine", "Rétablir la transmission dopaminergique", "Améliorer les symptômes", "Guérir définitivement la maladie à tous les stades", "Stimuler ou remplacer l’action dopaminergique"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "Les traitements visent à compenser le déficit dopaminergique et améliorer les symptômes. Ils ne guérissent pas définitivement la maladie."
+    },
+    {
+      "question": "La lévodopa est un précurseur de la dopamine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La L-Dopa est transformée en dopamine et restaure partiellement la transmission dopaminergique."
+    },
+    {
+      "question": "Quels médicaments sont des associations de lévodopa avec inhibiteur périphérique ?",
+      "options": ["Lévodopa-carbidopa", "Lévodopa-bensérazide", "Sinemet", "Modopar", "Méthylprednisolone"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La lévodopa est associée à la carbidopa ou au bensérazide dans des médicaments comme Sinemet ou Modopar. La méthylprednisolone est un corticoïde."
+    },
+    {
+      "question": "Les inhibiteurs de la COMT peuvent être associés à la L-Dopa pour prolonger son effet.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les inhibiteurs de la COMT bloquent une voie de dégradation de la dopamine ou de la L-Dopa et augmentent sa disponibilité."
+    },
+    {
+      "question": "Les IMAO-B augmentent la quantité de dopamine disponible dans la synapse dopaminergique en bloquant sa dégradation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les inhibiteurs de la monoamine oxydase B, comme la rasagiline, limitent la dégradation de la dopamine."
+    },
+    {
+      "question": "Quels traitements appartiennent aux agonistes dopaminergiques ?",
+      "options": ["Ropinirole", "Pramipexole", "Rotigotine", "Piribédil", "Bromocriptine"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces molécules stimulent les récepteurs dopaminergiques et peuvent être utilisées dans la maladie de Parkinson."
+    },
+    {
+      "question": "Les anticholinergiques ont surtout un effet sur le tremblement parkinsonien mais sont moins utilisés en raison de leurs effets secondaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ils sont de moins en moins prescrits, notamment chez les personnes âgées en raison des effets indésirables."
+    },
+    {
+      "question": "Les anticholinergiques sont à éviter après 65 à 70 ans en raison de leurs nombreux effets secondaires.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Leur tolérance est souvent mauvaise chez les sujets âgés, notamment sur le plan cognitif et anticholinergique."
+    },
+    {
+      "question": "L’amantadine agit sur les récepteurs NMDA et peut réduire les dyskinésies.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’amantadine est un antagoniste NMDA utilisé notamment pour réduire les dyskinésies."
+    },
+    {
+      "question": "En pratique, le traitement de Parkinson doit être évalué selon le bénéfice fonctionnel plus que selon le bénéfice moteur seul.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’objectif est d’améliorer la vie quotidienne et la fonction globale du patient, pas seulement un signe moteur isolé."
+    },
+    {
+      "question": "Quelles stratégies peuvent être utilisées face aux fluctuations et dyskinésies sous L-Dopa ?",
+      "options": ["Rapprocher les prises de L-Dopa", "Fragmenter les prises", "Ajouter un IMAO-B", "Ajouter un ICOMT", "Demander un avis spécialisé"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les fluctuations peuvent être prises en charge par adaptation du schéma de L-Dopa, ajout de molécules et avis spécialisé si nécessaire."
+    },
+    {
+      "question": "Quels critères peuvent faire discuter un traitement de deuxième ligne chez un patient parkinsonien fluctuant ?",
+      "options": ["Au moins 1 heure de dyskinésies par jour", "Au moins 2 heures de période OFF par jour", "Au moins 5 prises de L-Dopa par jour", "Qualité de vie altérée", "Absence de toute gêne fonctionnelle"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les traitements de deuxième ligne s’envisagent chez les patients fluctuants et handicapés, avec dyskinésies, périodes OFF, prises multiples et qualité de vie altérée."
+    },
+    {
+      "question": "Quels traitements de deuxième ligne peuvent être proposés dans la maladie de Parkinson avancée ?",
+      "options": ["Pompe à apomorphine sous-cutanée", "L-Dopa intra-duodénale continue", "Foslévodopa-foscarbidopa sous-cutanée continue", "Stimulation cérébrale profonde", "Injection systématique de corticoïdes pour toute akinésie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les traitements de deuxième ligne incluent les pompes dopaminergiques, la L-Dopa continue et la stimulation cérébrale profonde. Les corticoïdes ne traitent pas les fluctuations parkinsoniennes."
+    },
+    {
+      "question": "La pompe à apomorphine peut réduire le temps OFF et augmenter le temps ON sans dyskinésie chez certains patients.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’apomorphine en perfusion sous-cutanée continue peut améliorer les fluctuations motrices chez des patients sélectionnés."
+    },
+    {
+      "question": "La Duodopa correspond à une administration continue de L-Dopa par gastrostomie avec bénéfice attendu sur les phases ON et OFF.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La L-Dopa intra-duodénale continue vise à stabiliser les concentrations et à augmenter les périodes ON tout en diminuant les périodes OFF."
+    },
+    {
+      "question": "La stimulation cérébrale profonde guérit définitivement la maladie de Parkinson et supprime tous les médicaments.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La stimulation cérébrale profonde peut améliorer certains symptômes, mais ne guérit pas la maladie et ne supprime pas toujours les traitements."
+    },
+    {
+      "question": "Quels critères peuvent orienter vers une stimulation cérébrale profonde ?",
+      "options": ["Âge de préférence inférieur à 75 ans", "Bon état général", "Bonnes phases ON", "Fluctuations motrices sévères difficiles à gérer médicalement", "Bon état cognitif"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La stimulation cérébrale profonde s’adresse à des patients sélectionnés, en bon état général et cognitif, avec fluctuations sévères et réponse dopaminergique conservée."
+    },
+    {
+      "question": "La stimulation cérébrale profonde cible notamment le noyau sous-thalamique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le noyau sous-thalamique est une cible classique de stimulation dans la maladie de Parkinson."
+    },
+    {
+      "question": "La chirurgie de stimulation cérébrale profonde ne comporte aucun risque de complication sévère.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Elle comporte des risques, avec une proportion faible mais réelle de complications sévères."
+    },
+    {
+      "question": "Quelles pistes thérapeutiques futures sont envisagées dans la maladie de Parkinson ?",
+      "options": ["Greffes", "Cellules souches", "Xénogreffes", "Thérapies géniques", "Stratégies ciblant la neurodégénérescence"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les perspectives thérapeutiques incluent des greffes, cellules souches et thérapies géniques visant à protéger ou restaurer les circuits neuronaux."
+    },
+    {
+      "question": "Au stade très avancé de Parkinson, la prise en charge peut devenir palliative avec un objectif de confort.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. À un stade très avancé, l’objectif principal peut être le confort, avec maintien du traitement dopaminergique adapté, kinésithérapie et accompagnement médico-social."
+    },
+    {
+      "question": "Quels axes restent importants au stade avancé de la maladie de Parkinson ?",
+      "options": ["Confort", "Maintien adapté du traitement dopaminergique", "Kinésithérapie globale", "Prise en charge médico-sociale", "Abandon systématique de tout accompagnement"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La prise en charge avancée vise le confort, le maintien fonctionnel, l’accompagnement global et le soutien médico-social."
+    },
+    {
+      "question": "Quels éléments différencient correctement la sclérose en plaques et la maladie de Parkinson ?",
+      "options": ["La sclérose en plaques est une maladie démyélinisante du système nerveux central", "Parkinson est une maladie neurodégénérative dopaminergique", "La sclérose en plaques évolue souvent par poussées au début", "Parkinson peut évoluer avec fluctuations ON/OFF sous traitement", "Les deux maladies sont uniquement des infections aiguës"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La sclérose en plaques est une maladie inflammatoire démyélinisante, tandis que Parkinson est une neurodégénérescence dopaminergique avec complications motrices liées à l’évolution et aux traitements."
+    },
+    {
+      "question": "Quels traitements sont correctement associés à leur maladie ?",
+      "options": ["Corticoïdes à fortes doses pour une poussée de sclérose en plaques", "Traitement de fond immunomodulateur ou immunosuppresseur pour la sclérose en plaques", "L-Dopa pour la maladie de Parkinson", "Stimulation cérébrale profonde dans certains Parkinson avancés", "L-Dopa comme traitement de fond principal de la sclérose en plaques"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les corticoïdes et traitements immunologiques concernent la sclérose en plaques. La L-Dopa et la stimulation cérébrale profonde relèvent de la maladie de Parkinson."
+    },
+    {
+      "question": "Une poussée de sclérose en plaques et une phase OFF de Parkinson correspondent exactement au même mécanisme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une poussée de sclérose en plaques correspond à une activité inflammatoire neurologique, alors qu’une phase OFF correspond à une baisse d’efficacité du traitement dopaminergique."
+    },
+    {
+      "question": "Quels rôles infirmiers sont communs dans l’accompagnement de la sclérose en plaques et de la maladie de Parkinson ?",
+      "options": ["Surveillance clinique", "Éducation thérapeutique", "Soutien psychologique", "Prévention des complications", "Coordination avec l’équipe pluridisciplinaire"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Dans les deux maladies chroniques, le rôle infirmier comprend surveillance, éducation, soutien, prévention et coordination des soins."
+    },
+    {
+      "question": "La prise en charge des maladies neurologiques chroniques doit être individualisée selon les symptômes, l’évolution, les traitements et le retentissement fonctionnel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La variabilité des symptômes et des traitements impose une prise en charge personnalisée, centrée sur la qualité de vie et l’autonomie."
+    }
+  ]
+}
