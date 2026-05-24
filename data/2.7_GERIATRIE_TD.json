@@ -1,0 +1,618 @@
+{
+  "title": "U.E 2.7 S4 - Défaillances organiques et processus dégénératifs",
+  "subtitle": "TD N°3 - Gériatrie",
+  "questions": [
+    {
+      "question": "Quels sont les quatre piliers de l’humanitude ?",
+      "options": ["Le regard", "La parole", "Le toucher", "La verticalité", "La contention systématique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les quatre piliers de l’humanitude sont le regard, la parole, le toucher et la verticalité. La contention systématique n’est pas un pilier de cette philosophie de soin."
+    },
+    {
+      "question": "L’humanitude repose sur une approche relationnelle du soin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’humanitude s’appuie sur des piliers relationnels concrets comme le regard, la parole, le toucher et la verticalité."
+    },
+    {
+      "question": "La verticalité fait partie des piliers de l’humanitude.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La verticalité est l’un des quatre piliers avec le regard, la parole et le toucher."
+    },
+    {
+      "question": "Le toucher n’a pas de place dans l’humanitude.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le toucher est l’un des quatre piliers de l’humanitude et participe à la relation de soin."
+    },
+    {
+      "question": "Quel terme correspond à un sentiment extrême et irréaliste de bien-être physique et émotionnel ?",
+      "options": ["Euphorie", "Anxiété", "Dépression", "Apathie"],
+      "correct": [0],
+      "explanation": "L’euphorie correspond à un sentiment extrême et irréaliste de bien-être physique et émotionnel."
+    },
+    {
+      "question": "L’euphorie correspond à un sentiment extrême et irréaliste de bien-être physique et émotionnel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’euphorie désigne un état de bien-être excessif et irréaliste."
+    },
+    {
+      "question": "Quel terme correspond à une perception pathologique de faits ou d’objets inexistants en l’absence de stimulus extérieur ?",
+      "options": ["Hallucination", "Agnosie", "Désorientation", "Irritabilité"],
+      "correct": [0],
+      "explanation": "Une hallucination est une perception pathologique sans stimulus extérieur réel."
+    },
+    {
+      "question": "Une hallucination correspond toujours à une perception réelle correctement interprétée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Une hallucination correspond à une perception sans objet réel ou sans stimulus extérieur."
+    },
+    {
+      "question": "Quel terme désigne un comportement dominé par des actions où la violence est présente ?",
+      "options": ["Agressivité", "Sommeil", "Appétit", "Aphasie"],
+      "correct": [0],
+      "explanation": "L’agressivité désigne une modalité de comportement dans laquelle des actions violentes ou hostiles peuvent dominer."
+    },
+    {
+      "question": "L’agressivité peut se manifester par des paroles hostiles, des insultes, une opposition ou des gestes de rejet.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’agressivité peut être verbale ou comportementale et apparaître notamment lors d’un soin ou d’une aide vécue comme intrusive."
+    },
+    {
+      "question": "Quel terme correspond à une inquiétude intense, excessive et persistante face aux situations quotidiennes ?",
+      "options": ["Anxiété", "Euphorie", "Sommeil", "Appétit"],
+      "correct": [0],
+      "explanation": "L’anxiété correspond à une inquiétude excessive, intense et persistante face à des situations du quotidien."
+    },
+    {
+      "question": "L’anxiété peut être observée chez une personne présentant des troubles neurocognitifs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’anxiété fait partie des symptômes psychologiques et comportementaux pouvant accompagner les démences."
+    },
+    {
+      "question": "Quel terme désigne un état modifié de conscience du monde extérieur permettant une récupération physique et psychologique ?",
+      "options": ["Sommeil", "Délire", "Hallucination", "Agitation"],
+      "correct": [0],
+      "explanation": "Le sommeil est un état modifié de conscience du monde extérieur qui permet la récupération physique et psychologique."
+    },
+    {
+      "question": "Le sommeil permet une récupération physique et psychologique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le sommeil participe à la récupération de l’organisme et de l’équilibre psychologique."
+    },
+    {
+      "question": "Quel terme correspond à un état d’esprit dominé par une émotion ?",
+      "options": ["Humeur", "Aphasie", "Apraxie", "Agnosie"],
+      "correct": [0],
+      "explanation": "L’humeur correspond à un état d’esprit dominé par une émotion."
+    },
+    {
+      "question": "L’humeur désigne un état d’esprit dominé par une émotion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’humeur traduit une tonalité émotionnelle pouvant influencer le comportement."
+    },
+    {
+      "question": "Quel terme correspond à un état marqué par un chagrin intense et un sentiment d’inutilité ?",
+      "options": ["Dépression", "Euphorie", "Désinhibition", "Appétit"],
+      "correct": [0],
+      "explanation": "La dépression est associée à un chagrin intense, une tristesse importante et un sentiment d’inutilité."
+    },
+    {
+      "question": "La dépression se manifeste uniquement par une euphorie persistante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La dépression est plutôt associée à la tristesse, au découragement, à la perte d’intérêt et parfois à des idées de mort."
+    },
+    {
+      "question": "Quel terme désigne un trait de caractère d’une personne qui se met facilement en colère ?",
+      "options": ["Irritabilité", "Apathie", "Sommeil", "Verticalité"],
+      "correct": [0],
+      "explanation": "L’irritabilité correspond à une tendance à se mettre facilement en colère."
+    },
+    {
+      "question": "L’irritabilité peut se traduire par une colère facile ou disproportionnée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’irritabilité correspond à une réactivité émotionnelle marquée, notamment sous forme de colère."
+    },
+    {
+      "question": "Quel terme désigne un état dans lequel une personne est en proie à des émotions et à des impulsions, avec difficulté à rester en repos ?",
+      "options": ["Agitation", "Apathie", "Amnésie", "Agnosie"],
+      "correct": [0],
+      "explanation": "L’agitation correspond à un état avec impulsions, émotions et impossibilité de rester durablement en repos."
+    },
+    {
+      "question": "L’agitation peut se manifester par des cris, des gestes répétés ou une difficulté à rester calme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’agitation associe souvent tension interne, manifestations motrices ou vocales et difficulté à s’apaiser."
+    },
+    {
+      "question": "Quel terme correspond au désir de manger ?",
+      "options": ["Appétit", "Sommeil", "Délire", "Aphasie"],
+      "correct": [0],
+      "explanation": "L’appétit correspond au désir de manger."
+    },
+    {
+      "question": "L’appétit désigne le désir de manger.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’appétit correspond à l’envie ou au désir de s’alimenter."
+    },
+    {
+      "question": "Quel terme désigne un trouble psychique avec perte de contact avec la réalité ?",
+      "options": ["Délire", "Sommeil", "Appétit", "Verticalité"],
+      "correct": [0],
+      "explanation": "Le délire correspond à un trouble psychique dans lequel la personne perd le contact avec la réalité."
+    },
+    {
+      "question": "Le délire implique une altération du contact avec la réalité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Dans le délire, la personne adhère à des perceptions ou croyances qui ne correspondent pas à la réalité."
+    },
+    {
+      "question": "Quels termes appartiennent aux troubles psychologiques ou comportementaux pouvant être rencontrés dans les démences ?",
+      "options": ["Hallucination", "Agitation", "Agressivité", "Anxiété", "Hyperphosphatémie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Hallucination, agitation, agressivité et anxiété relèvent des symptômes psychologiques et comportementaux. L’hyperphosphatémie est un trouble biologique."
+    },
+    {
+      "question": "Quels termes relèvent de dimensions comportementales, émotionnelles ou physiologiques à surveiller chez la personne âgée présentant une démence ?",
+      "options": ["Euphorie", "Irritabilité", "Appétit", "Sommeil", "Fistule artério-veineuse"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’euphorie, l’irritabilité, l’appétit et le sommeil sont des dimensions pouvant être perturbées. La fistule artério-veineuse relève de l’hémodialyse."
+    },
+    {
+      "question": "Une personne atteinte de maladie d’Alzheimer présente des oublis fréquents. Quel trouble cela évoque-t-il ?",
+      "options": ["Amnésie", "Apraxie", "Agnosie", "Aphasie"],
+      "correct": [0],
+      "explanation": "Les oublis fréquents évoquent une amnésie, c’est-à-dire une perte partielle ou totale de la mémoire."
+    },
+    {
+      "question": "L’amnésie correspond à une perte partielle ou totale de la mémoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’amnésie désigne une atteinte de la mémoire pouvant être partielle ou totale."
+    },
+    {
+      "question": "Dans la maladie d’Alzheimer, l’atteinte mnésique est associée précocement à l’hippocampe.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’amnésie de la maladie d’Alzheimer est classiquement liée à une atteinte précoce des structures hippocampiques."
+    },
+    {
+      "question": "Une personne ne sait plus préparer un plat alors qu’elle savait cuisiner auparavant. Quel trouble cela évoque-t-il ?",
+      "options": ["Apraxie", "Aphasie", "Hallucination", "Euphorie"],
+      "correct": [0],
+      "explanation": "L’incapacité à réaliser une action volontaire organisée et adaptée à un but, comme préparer un repas, évoque une apraxie."
+    },
+    {
+      "question": "L’apraxie correspond à l’incapacité d’effectuer des mouvements volontaires adaptés à un but.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’apraxie perturbe la réalisation d’actions volontaires malgré une motricité élémentaire conservée."
+    },
+    {
+      "question": "L’apraxie correspond principalement à une perte de la compréhension ou de l’expression du langage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La perte de compréhension ou d’expression du langage correspond à l’aphasie. L’apraxie concerne les gestes volontaires adaptés à un but."
+    },
+    {
+      "question": "Une personne confond un stylo et une fourchette ou ne reconnaît plus ses proches. Quel trouble cela évoque-t-il ?",
+      "options": ["Agnosie", "Apraxie", "Agitation", "Euphorie"],
+      "correct": [0],
+      "explanation": "L’incapacité à reconnaître ce qui est perçu, comme un objet ou un visage, correspond à une agnosie."
+    },
+    {
+      "question": "L’agnosie correspond à l’incapacité de reconnaître ce qui est perçu.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’agnosie peut concerner les objets, les visages, les sons, les goûts ou d’autres perceptions."
+    },
+    {
+      "question": "L’agnosie peut concerner la reconnaissance des objets, des visages, des sons ou des goûts.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’agnosie correspond à une difficulté de reconnaissance malgré une perception sensorielle présente."
+    },
+    {
+      "question": "Une personne répète ce qu’elle entend et a du mal à s’exprimer. Quel trouble du langage cela évoque-t-il ?",
+      "options": ["Aphasie", "Apraxie", "Agnosie", "Désinhibition"],
+      "correct": [0],
+      "explanation": "La difficulté à s’exprimer ou à comprendre le langage correspond à une aphasie."
+    },
+    {
+      "question": "L’aphasie correspond à une perte de la faculté de s’exprimer ou de comprendre le langage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’aphasie touche les capacités de production ou de compréhension du langage."
+    },
+    {
+      "question": "Quels troubles constituent les quatre A de la maladie d’Alzheimer ?",
+      "options": ["Amnésie", "Apraxie", "Agnosie", "Aphasie", "Anémie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les quatre A de la maladie d’Alzheimer sont l’amnésie, l’apraxie, l’agnosie et l’aphasie. L’anémie n’en fait pas partie."
+    },
+    {
+      "question": "La maladie d’Alzheimer peut être décrite par les quatre A : amnésie, apraxie, agnosie et aphasie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces quatre troubles résument des atteintes fréquentes de la maladie d’Alzheimer."
+    },
+    {
+      "question": "Quels signes peuvent orienter vers une maladie d’Alzheimer dans une situation clinique ?",
+      "options": ["Oublis fréquents", "Difficulté à préparer un repas", "Confusion entre des objets", "Non-reconnaissance des proches", "Difficulté d’expression"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les oublis, l’apraxie, l’agnosie et les troubles du langage sont des manifestations compatibles avec les quatre A de la maladie d’Alzheimer."
+    },
+    {
+      "question": "Une personne atteinte de maladie d’Alzheimer peut présenter une désorientation temporelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ne plus connaître la date ou le mois correspond à une désorientation temporelle possible dans les troubles neurocognitifs."
+    },
+    {
+      "question": "Ne plus savoir la date ou le mois correspond à quel type de trouble ?",
+      "options": ["Désorientation temporelle", "Hyperphagie", "Sommeil réparateur", "Verticalité"],
+      "correct": [0],
+      "explanation": "L’incapacité à se situer dans le temps correspond à une désorientation temporelle."
+    },
+    {
+      "question": "Une personne atteinte de maladie d’Alzheimer peut conserver un examen neurologique sans trouble du tonus ni de la motricité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les troubles cognitifs peuvent exister sans trouble moteur ou tonique objectivé à l’examen neurologique."
+    },
+    {
+      "question": "Les troubles de la mémoire, du langage, de la reconnaissance et de la réalisation des gestes volontaires relèvent uniquement d’un trouble du tonus musculaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Ces signes relèvent de troubles cognitifs comme l’amnésie, l’aphasie, l’agnosie et l’apraxie, et non d’un simple trouble du tonus."
+    },
+    {
+      "question": "S’habiller de manière désordonnée et avoir besoin d’aide pour la toilette traduisent une perte d’autonomie dans les activités de la vie quotidienne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces éléments montrent une altération des capacités fonctionnelles et un besoin d’aide pour les soins quotidiens."
+    },
+    {
+      "question": "Une personne sans antécédent psychiatrique peut présenter des troubles du comportement liés à une maladie neurocognitive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’absence d’antécédent psychiatrique n’exclut pas l’apparition de symptômes psychologiques ou comportementaux dans le cadre d’une démence."
+    },
+    {
+      "question": "Quels éléments peuvent faire partie du contexte clinique d’une personne nouvellement diagnostiquée Alzheimer vivant avec son conjoint ?",
+      "options": ["Oublis répétés", "Difficulté à cuisiner", "Besoin d’aide pour la toilette", "Anxiété importante", "Motricité nécessairement abolie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les oublis, la difficulté à cuisiner, la perte d’autonomie et l’anxiété peuvent être présents. La motricité n’est pas nécessairement abolie dans la maladie d’Alzheimer."
+    },
+    {
+      "question": "Une personne crie, gesticule et affirme voir des personnes inexistantes dans sa chambre. Quel symptôme est le plus probable ?",
+      "options": ["Hallucination", "Apathie", "Appétit", "Sommeil"],
+      "correct": [0],
+      "explanation": "Voir des personnes inexistantes correspond à une hallucination, c’est-à-dire une perception sans stimulus réel."
+    },
+    {
+      "question": "Face à une hallucination, l’attitude professionnelle doit viser la sécurité, l’apaisement et l’évaluation de la situation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une hallucination peut être anxiogène ; la réponse soignante doit être calme, sécurisante et adaptée au contexte."
+    },
+    {
+      "question": "Une personne qui voit des individus inexistants de l’autre côté de son lit présente nécessairement une agnosie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La perception d’éléments inexistants correspond à une hallucination. L’agnosie est une incapacité à reconnaître ce qui est perçu."
+    },
+    {
+      "question": "Une personne crie de façon répétée puis se calme temporairement lorsqu’un soignant entre dans sa chambre. Quel symptôme est le plus probable ?",
+      "options": ["Agitation", "Aphasie", "Agnosie", "Euphorie"],
+      "correct": [0],
+      "explanation": "Des cris répétés avec besoin d’apaisement évoquent une agitation, surtout si le comportement recommence après un temps de calme."
+    },
+    {
+      "question": "Face à une agitation répétée, l’équipe doit rechercher les facteurs déclenchants et adapter l’accompagnement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’agitation nécessite une analyse de la situation, des besoins, du contexte et des facteurs favorisants afin d’adapter les réponses non médicamenteuses."
+    },
+    {
+      "question": "L’agitation doit toujours être interprétée comme une opposition volontaire sans recherche de cause.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’agitation peut traduire une anxiété, une douleur, un besoin non exprimé, une incompréhension ou une difficulté d’adaptation."
+    },
+    {
+      "question": "Une personne refuse une aide pour mettre ses chaussures, repousse le soignant et l’insulte. Quel symptôme est le plus probable ?",
+      "options": ["Agressivité", "Sommeil", "Désorientation", "Apathie"],
+      "correct": [0],
+      "explanation": "Le refus, le rejet physique et les insultes relèvent d’une agressivité verbale et comportementale."
+    },
+    {
+      "question": "L’agressivité lors d’un soin peut être favorisée par l’insistance du soignant ou par une aide vécue comme intrusive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Chez une personne présentant des troubles cognitifs, l’insistance peut majorer l’opposition, l’incompréhension ou l’agressivité."
+    },
+    {
+      "question": "Face à une agressivité pendant un soin, il faut toujours augmenter la contrainte pour terminer rapidement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il faut privilégier la sécurité, l’apaisement, la distance relationnelle adaptée, la reformulation et l’ajustement du soin plutôt que l’escalade."
+    },
+    {
+      "question": "Un homme auparavant réservé tient maintenant des propos intimes en réunion de famille. Quel symptôme est le plus probable ?",
+      "options": ["Désinhibition", "Amnésie", "Agnosie", "Sommeil"],
+      "correct": [0],
+      "explanation": "Des propos intimes ou socialement inadaptés chez une personne auparavant réservée évoquent une désinhibition."
+    },
+    {
+      "question": "La désinhibition peut se manifester par des propos ou comportements socialement inadaptés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La désinhibition correspond à une diminution du contrôle social ou comportemental."
+    },
+    {
+      "question": "Face à une désinhibition, la famille et les soignants doivent uniquement punir la personne pour corriger son comportement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La désinhibition est un symptôme pouvant être lié à la maladie ; il faut expliquer, protéger la dignité de la personne et adapter l’environnement."
+    },
+    {
+      "question": "Une personne prend plusieurs serviettes, les lisse avec la main puis les plie de façon répétée. Quelle interprétation est possible ?",
+      "options": ["Activité rassurante", "Besoin de routine et de repères", "Mémoire procédurale conservée", "Manière de diminuer l’anxiété", "Aphasie certaine"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une activité répétée comme plier des serviettes peut être rassurante, correspondre à un besoin de routine, mobiliser une mémoire procédurale conservée ou réduire l’anxiété. Elle ne signe pas une aphasie."
+    },
+    {
+      "question": "Le fait de plier des serviettes est toujours pathologique en soi.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. L’activité peut avoir une fonction apaisante ou occupationnelle. Elle devient problématique si elle est compulsive, envahissante ou source de conflits."
+    },
+    {
+      "question": "Quand une activité répétitive peut-elle devenir un comportement moteur problématique ?",
+      "options": ["Lorsqu’elle devient compulsive", "Lorsque la personne ne peut plus s’arrêter", "Lorsqu’elle envahit la journée", "Lorsqu’elle empêche les autres activités", "Lorsqu’elle apaise sans aucun retentissement"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une activité répétitive devient problématique lorsqu’elle est compulsive, impossible à interrompre, envahissante ou retentit sur la vie quotidienne. Si elle apaise sans retentissement, elle n’est pas forcément problématique."
+    },
+    {
+      "question": "Une activité répétitive qui provoque la colère des autres résidents doit être analysée en tenant compte du besoin de la personne et de l’impact collectif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il faut préserver l’apaisement de la personne tout en évitant le retentissement négatif sur les autres résidents."
+    },
+    {
+      "question": "Face à une répétition gestuelle envahissante, l’objectif est de supprimer brutalement l’activité sans proposer d’alternative.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il faut comprendre la fonction de l’activité, proposer une alternative sécurisée ou organisée, et limiter les conséquences négatives sans rupture brutale inutile."
+    },
+    {
+      "question": "Une personne pleure pendant la toilette, se dit découragée, affirme être un fardeau et désire mourir. Quel symptôme est le plus préoccupant ?",
+      "options": ["Dépression ou humeur dépressive", "Euphorie", "Appétit augmenté", "Désinhibition"],
+      "correct": [0],
+      "explanation": "Les pleurs, le découragement, le sentiment d’être un fardeau et le désir de mourir évoquent une dépression ou une humeur dépressive."
+    },
+    {
+      "question": "Des propos comme “je suis un fardeau” ou “je désire mourir” doivent être pris au sérieux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces propos peuvent traduire une souffrance psychique importante et nécessitent une écoute, une évaluation et une transmission à l’équipe."
+    },
+    {
+      "question": "Les idées de mort chez une personne âgée doivent être banalisées car elles font toujours partie du vieillissement normal.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les idées de mort ne doivent pas être banalisées ; elles nécessitent une évaluation clinique et une réponse professionnelle adaptée."
+    },
+    {
+      "question": "Une personne âgée marche rapidement vers la sortie avec un sac en disant qu’elle doit aller chercher ses enfants à l’école. Quel symptôme est le plus probable ?",
+      "options": ["Désorientation", "Appétit", "Sommeil", "Euphorie"],
+      "correct": [0],
+      "explanation": "La personne agit selon une réalité temporelle inadaptée. Cela évoque une désorientation, avec risque de sortie non sécurisée."
+    },
+    {
+      "question": "La désorientation peut se manifester par une volonté de partir réaliser une tâche liée à une période antérieure de la vie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une personne désorientée peut se croire dans une autre époque de sa vie et vouloir agir en conséquence."
+    },
+    {
+      "question": "Face à une désorientation avec risque de sortie, la priorité est de laisser la personne partir seule pour ne pas la contrarier.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il faut assurer la sécurité, accompagner la personne avec calme, éviter la confrontation directe et proposer une réorientation ou une diversion adaptée."
+    },
+    {
+      "question": "Une personne perd tout intérêt, n’a plus envie de faire les choses et manque de motivation pour participer aux activités. Quel symptôme est le plus probable ?",
+      "options": ["Apathie", "Agitation", "Hallucination", "Délire"],
+      "correct": [0],
+      "explanation": "La perte d’intérêt, l’absence d’envie et le manque de motivation correspondent à l’apathie."
+    },
+    {
+      "question": "L’apathie peut se manifester par une perte d’intérêt et un manque de motivation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’apathie entraîne une diminution de l’initiative, de l’engagement et de la participation aux activités."
+    },
+    {
+      "question": "Face à l’apathie, quelles actions peuvent être pertinentes en équipe ?",
+      "options": ["Réajuster la prise en charge", "Proposer des activités adaptées aux capacités", "Stimuler sans mettre en échec", "Observer les réactions de la personne", "Conclure à un refus volontaire sans analyse"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’apathie nécessite un réajustement de la prise en charge, des activités adaptées, une stimulation progressive et une observation en équipe. La réduire à un refus volontaire est inadapté."
+    },
+    {
+      "question": "Une personne à table joue avec sa nourriture et ne mange pas. Quelles dimensions doivent être explorées ?",
+      "options": ["Appétit", "Anxiété", "Capacité à utiliser les couverts", "Environnement du repas", "Fistule artério-veineuse"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le refus ou la difficulté à manger peut être lié à l’appétit, à l’anxiété, à des troubles praxiques ou cognitifs, ou à l’environnement du repas. La fistule artério-veineuse n’a pas de lien avec cette situation."
+    },
+    {
+      "question": "La difficulté à manger peut être liée à l’anxiété ou à un trouble de l’appétit.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une personne qui ne mange pas et manipule sa nourriture peut présenter une anxiété, une perte d’appétit ou des difficultés cognitives associées."
+    },
+    {
+      "question": "Face à une personne qui ne mange pas, il faut uniquement retirer le plateau sans chercher à comprendre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Il faut observer, rechercher les causes possibles, adapter l’aide au repas et transmettre les éléments utiles à l’équipe."
+    },
+    {
+      "question": "Une personne se réveille la nuit, s’habille et rejoint les soignants. Quelle dimension est principalement concernée ?",
+      "options": ["Sommeil", "Agnosie", "Amnésie", "Appétit"],
+      "correct": [0],
+      "explanation": "La situation concerne un réveil nocturne et une activité pendant la nuit, ce qui relève de la dimension du sommeil."
+    },
+    {
+      "question": "Un réveil nocturne avec habillage et déplacement peut témoigner d’un trouble du sommeil ou d’une désorientation nocturne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les troubles du sommeil peuvent s’associer à une désorientation ou à une recherche de présence rassurante."
+    },
+    {
+      "question": "Face à un réveil nocturne, l’objectif est d’apaiser, sécuriser et comprendre le besoin exprimé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La réponse doit viser la sécurité, l’apaisement, la compréhension du besoin et l’adaptation de l’environnement nocturne."
+    },
+    {
+      "question": "Quels symptômes psychologiques et comportementaux peuvent être illustrés chez une personne atteinte de démence ?",
+      "options": ["Hallucinations", "Agitation", "Agressivité", "Désinhibition", "Dialyse péritonéale"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les hallucinations, l’agitation, l’agressivité et la désinhibition font partie des symptômes psychologiques et comportementaux possibles. La dialyse péritonéale est une technique de suppléance rénale."
+    },
+    {
+      "question": "Quels autres symptômes ou situations peuvent être rencontrés dans les troubles psychologiques et comportementaux des démences ?",
+      "options": ["Comportement moteur aberrant", "Dépression ou humeur dépressive", "Désorientation", "Apathie", "Hyperkaliémie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les comportements moteurs aberrants, l’humeur dépressive, la désorientation et l’apathie peuvent être observés dans les démences. L’hyperkaliémie est un trouble biologique."
+    },
+    {
+      "question": "Les techniques non médicamenteuses peuvent être utilisées pour adapter l’accompagnement des symptômes psychologiques et comportementaux des démences.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les techniques non médicamenteuses permettent d’adapter l’environnement, la communication, les activités et la posture soignante avant ou en complément d’autres prises en charge."
+    },
+    {
+      "question": "Dans les symptômes psychologiques et comportementaux des démences, une seule réponse standardisée convient à toutes les personnes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. La réponse doit être individualisée selon le symptôme, le contexte, l’histoire de vie, les besoins et les capacités de la personne."
+    },
+    {
+      "question": "Quels éléments sont essentiels pour analyser un symptôme psychologique ou comportemental chez une personne présentant une démence ?",
+      "options": ["Identifier le symptôme principal", "Repérer le contexte de survenue", "Rechercher un besoin ou un facteur déclenchant", "Adapter la posture professionnelle", "Ignorer le comportement s’il dérange uniquement l’entourage"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’analyse repose sur l’identification du symptôme, le contexte, les facteurs déclenchants et l’adaptation de la posture. Ignorer le comportement empêche une prise en charge adaptée."
+    },
+    {
+      "question": "Quels objectifs sont associés à l’accompagnement des démences et des symptômes psychologiques et comportementaux ?",
+      "options": ["Mobiliser les connaissances sur les démences", "Identifier la posture professionnelle adaptée", "Analyser une situation clinique", "Intégrer le rôle infirmier", "Réaliser une hémodialyse complète"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’accompagnement repose sur les connaissances, l’analyse clinique, la posture professionnelle et le rôle infirmier. L’hémodialyse relève de la néphrologie."
+    },
+    {
+      "question": "Le rôle infirmier inclut l’observation, l’analyse, la transmission et l’adaptation des interventions face aux symptômes psychologiques et comportementaux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’infirmier participe à l’évaluation du symptôme, à la sécurité, à l’adaptation de l’accompagnement et aux transmissions en équipe."
+    },
+    {
+      "question": "La posture professionnelle attendue face à une personne atteinte de démence doit tenir compte de la dignité, de la sécurité et de la relation de soin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’accompagnement des démences nécessite une posture respectueuse, sécurisante et adaptée aux capacités de la personne."
+    },
+    {
+      "question": "Adopter une posture réflexive signifie réfléchir à ses pratiques et à l’effet de ses attitudes sur la personne soignée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La posture réflexive permet d’analyser ses actions, d’ajuster sa communication et d’améliorer l’accompagnement."
+    },
+    {
+      "question": "Quels éléments relèvent d’une posture professionnelle adaptée face aux troubles du comportement ?",
+      "options": ["Observer sans juger", "Sécuriser la personne et l’environnement", "Adapter la communication", "Travailler en équipe", "Répondre systématiquement par la contrainte"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une posture adaptée repose sur l’observation, la sécurité, la communication et le travail en équipe. La contrainte systématique n’est pas une réponse relationnelle adaptée."
+    },
+    {
+      "question": "L’analyse d’une situation clinique en gériatrie doit intégrer les signes observés, le contexte, les risques et les actions possibles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’analyse clinique permet de relier les signes à une problématique, d’évaluer les risques et de proposer des actions adaptées."
+    },
+    {
+      "question": "Quels éléments peuvent faire partie des actions de prévention en contexte de démence ?",
+      "options": ["Prévenir les situations d’angoisse", "Adapter l’environnement", "Maintenir des repères", "Favoriser une relation rassurante", "Supprimer toute autonomie restante"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La prévention repose sur la réduction de l’angoisse, l’adaptation de l’environnement, le maintien des repères et une relation rassurante. Supprimer l’autonomie restante aggrave la dépendance."
+    },
+    {
+      "question": "Favoriser la participation active de la personne et de l’équipe peut améliorer l’accompagnement en situation de démence.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La participation active permet d’adapter les actions aux capacités, aux besoins et aux observations partagées."
+    },
+    {
+      "question": "Quels éléments sont attendus dans une analyse de cas concernant une personne atteinte de maladie d’Alzheimer ?",
+      "options": ["Repérer les signes cliniques", "Utiliser un vocabulaire professionnel", "Argumenter les troubles identifiés", "Relier les signes aux quatre A si pertinent", "Se limiter à une impression générale non argumentée"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’analyse doit repérer les signes, utiliser un vocabulaire professionnel, argumenter et faire les liens avec les troubles comme l’amnésie, l’apraxie, l’agnosie et l’aphasie. Une impression non argumentée est insuffisante."
+    },
+    {
+      "question": "Relier un signe clinique au bon vocabulaire professionnel améliore la qualité du raisonnement clinique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Nommer précisément un trouble permet de mieux comprendre la situation, de transmettre efficacement et d’adapter les soins."
+    },
+    {
+      "question": "Associer un oubli répété à une amnésie, une difficulté à cuisiner à une apraxie, une non-reconnaissance à une agnosie et une difficulté de langage à une aphasie est cohérent.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces associations correspondent aux quatre A de la maladie d’Alzheimer et permettent une analyse clinique structurée."
+    },
+    {
+      "question": "Quels signes peuvent témoigner d’une perte d’autonomie dans une situation de maladie d’Alzheimer ?",
+      "options": ["Besoin d’aide pour la toilette", "Habillage désordonné", "Difficulté à préparer un repas", "Désorientation temporelle", "Autonomie complète et inchangée"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le besoin d’aide, l’habillage désorganisé, la difficulté à préparer un repas et la désorientation traduisent une altération de l’autonomie. Une autonomie inchangée ne correspond pas à ces signes."
+    },
+    {
+      "question": "Une personne atteinte de maladie d’Alzheimer peut présenter à la fois des troubles cognitifs et des symptômes anxieux ou d’agitation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les troubles cognitifs peuvent s’accompagner de symptômes psychologiques et comportementaux comme l’anxiété ou l’agitation."
+    },
+    {
+      "question": "La présence d’anxiété ou d’agitation chez une personne atteinte de démence doit être comprise comme un symptôme possible et non uniquement comme une mauvaise volonté.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces manifestations peuvent traduire une souffrance, une incompréhension, un besoin ou une difficulté d’adaptation."
+    },
+    {
+      "question": "Quel ensemble correspond uniquement à des troubles des quatre A de la maladie d’Alzheimer ?",
+      "options": ["Amnésie, apraxie, agnosie, aphasie", "Anxiété, appétit, sommeil, humeur", "Agressivité, euphorie, irritabilité, délire", "Dyslipidémie, hypertension, tabac, surpoids"],
+      "correct": [0],
+      "explanation": "Les quatre A sont amnésie, apraxie, agnosie et aphasie. Les autres propositions correspondent à des symptômes comportementaux ou à des facteurs de risque d’autres pathologies."
+    },
+    {
+      "question": "Quel ensemble correspond à des symptômes psychologiques ou comportementaux pouvant accompagner les démences ?",
+      "options": ["Hallucinations, agitation, agressivité, désinhibition", "Amnésie, apraxie, agnosie, aphasie uniquement", "Créatinine, urée, potassium, phosphore", "Fistule, cathéter, dialysat, péritoine"],
+      "correct": [0],
+      "explanation": "Les hallucinations, l’agitation, l’agressivité et la désinhibition font partie des symptômes psychologiques ou comportementaux. Les autres ensembles correspondent à d’autres catégories de notions."
+    }
+  ]
+}
