@@ -1,0 +1,774 @@
+{
+  "title": "U.E 2.7 S4 - Défaillances organiques et processus dégénératifs",
+  "subtitle": "TD N°4 - Diabète",
+  "questions": [
+    {
+      "question": "Quel type de diabète est caractérisé par une insulinorésistance associée à un défaut relatif de sécrétion d’insuline ?",
+      "options": ["Diabète de type 1", "Diabète de type 2", "Diabète insipide", "Hypoglycémie réactionnelle"],
+      "correct": [1],
+      "explanation": "Le diabète de type 2 associe une résistance des tissus à l’action de l’insuline et un défaut relatif de sécrétion d’insuline."
+    },
+    {
+      "question": "Le diabète sucré est caractérisé par une élévation chronique de la concentration de glucose dans le sang.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le diabète sucré correspond à une hyperglycémie chronique liée à une carence de sécrétion d’insuline et/ou à une résistance tissulaire à l’insuline."
+    },
+    {
+      "question": "Quels mécanismes peuvent expliquer un diabète sucré ?",
+      "options": ["Carence de sécrétion en insuline", "Résistance tissulaire à l’action de l’insuline", "Hyperglycémie chronique", "Excès isolé de globules rouges", "Défaut d’action de l’insuline"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "Le diabète sucré repose sur une hyperglycémie chronique liée à une carence en insuline, une résistance à l’insuline ou les deux. L’excès isolé de globules rouges n’est pas un mécanisme du diabète."
+    },
+    {
+      "question": "Le diabète de type 2 représente environ 90 % des patients diabétiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le diabète de type 2 est la forme majoritaire du diabète."
+    },
+    {
+      "question": "Quels tissus sont concernés par l’insulinorésistance dans le diabète de type 2 ?",
+      "options": ["Muscles squelettiques", "Tissu adipeux", "Foie", "Cristallin uniquement", "Pancréas exocrine uniquement"],
+      "correct": [0, 1, 2],
+      "explanation": "L’insulinorésistance du diabète de type 2 concerne principalement les muscles squelettiques, le tissu adipeux et le foie."
+    },
+    {
+      "question": "Le diabète de type 2 est fortement lié à des facteurs de risque, à des antécédents familiaux et parfois à un état de pré-diabète.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le diabète de type 2 est favorisé par le terrain familial, les facteurs de risque métaboliques et le pré-diabète."
+    },
+    {
+      "question": "Quelles sont les étapes successives du développement du diabète de type 2 ?",
+      "options": ["Insulinorésistance", "Hyperinsulinisme", "Insulinodéficience", "Acidocétose obligatoire dès le début", "Destruction auto-immune immédiate des cellules bêta"],
+      "correct": [0, 1, 2],
+      "explanation": "Le diabète de type 2 évolue classiquement de l’insulinorésistance vers l’hyperinsulinisme compensateur puis vers l’insulinodéficience lorsque le pancréas s’épuise."
+    },
+    {
+      "question": "L’insulinorésistance signifie que les cellules de l’organisme deviennent résistantes à l’action de l’insuline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. En cas d’insulinorésistance, l’insuline agit moins efficacement et le glucose s’accumule dans le sang."
+    },
+    {
+      "question": "L’excès de tissu gras en cas de surpoids ou d’obésité peut aggraver l’insulinorésistance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le surpoids et l’obésité favorisent l’insulinorésistance et participent au développement du diabète de type 2."
+    },
+    {
+      "question": "L’hyperinsulinisme correspond à une augmentation de la production d’insuline par le pancréas pour compenser l’insulinorésistance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Au début, le pancréas tente de compenser la résistance à l’insuline en augmentant sa sécrétion."
+    },
+    {
+      "question": "L’insulinodéficience du diabète de type 2 apparaît lorsque le pancréas ne sécrète plus suffisamment d’insuline pour réguler la glycémie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Après plusieurs années, le pancréas peut s’épuiser et devenir insuffisant pour maintenir une glycémie normale."
+    },
+    {
+      "question": "Quelle hormone est sécrétée par les cellules bêta du pancréas et joue un rôle majeur dans l’homéostasie du glucose ?",
+      "options": ["Insuline", "Glucagon", "Adrénaline", "Calcitriol"],
+      "correct": [0],
+      "explanation": "L’insuline est sécrétée par les cellules bêta du pancréas et participe à la régulation du glucose sanguin."
+    },
+    {
+      "question": "Quelles sont les principales cibles organiques de l’insuline ?",
+      "options": ["Foie", "Muscle", "Tissu adipeux", "Rétine uniquement", "Cristallin uniquement"],
+      "correct": [0, 1, 2],
+      "explanation": "L’insuline agit principalement sur le foie, le muscle et le tissu adipeux."
+    },
+    {
+      "question": "Quels effets l’insuline exerce-t-elle sur le glucose ?",
+      "options": ["Stimule l’entrée du glucose dans les tissus cibles", "Favorise le stockage sous forme de glycogène", "Favorise le stockage sous forme de triglycérides", "Participe à l’oxydation du glucose via la glycolyse", "Empêche toute entrée du glucose dans les cellules"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’insuline facilite l’entrée du glucose dans les tissus cibles, son stockage sous forme de glycogène ou de triglycérides et son utilisation via la glycolyse."
+    },
+    {
+      "question": "Le diabète de type 1 est le plus souvent lié à une destruction auto-immune des cellules bêta des îlots de Langerhans.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le diabète de type 1 correspond le plus souvent à une destruction auto-immune des cellules bêta productrices d’insuline."
+    },
+    {
+      "question": "Le diabète de type 1 entraîne une déficience absolue en insuline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La destruction des cellules bêta entraîne une absence ou une insuffisance majeure de production d’insuline."
+    },
+    {
+      "question": "Le diabète de type 1 expose à une forte propension à l’acidocétose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La carence absolue en insuline favorise la production de corps cétoniques et le risque d’acidocétose."
+    },
+    {
+      "question": "Le diabète de type 1 survient essentiellement chez l’enfant ou l’adulte jeune.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Il apparaît classiquement chez l’enfant ou l’adulte jeune, même si d’autres situations peuvent exister."
+    },
+    {
+      "question": "Quels éléments caractérisent le diabète de type 1 ?",
+      "options": ["Destruction auto-immune des cellules bêta", "Déficience absolue en insuline", "Forte propension à l’acidocétose", "Survenue fréquente chez l’enfant ou l’adulte jeune", "Insulinorésistance isolée sans déficit insulinique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le diabète de type 1 est lié à la destruction auto-immune des cellules bêta, entraînant une carence absolue en insuline et un risque d’acidocétose. L’insulinorésistance isolée correspond plutôt au diabète de type 2."
+    },
+    {
+      "question": "Le pré-diabète correspond à une hyperglycémie modérée à jeun sans atteindre le seuil diagnostique du diabète.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le pré-diabète correspond à une glycémie à jeun modérément élevée, inférieure au seuil diagnostique du diabète, mais associée à un risque de progression vers le diabète de type 2."
+    },
+    {
+      "question": "Quelle plage de glycémie à jeun correspond au pré-diabète ?",
+      "options": ["Entre 1,10 g/L et 1,25 g/L", "Entre 0,70 g/L et 1,10 g/L", "Toujours au-dessus de 2,50 g/L", "Toujours en dessous de 0,60 g/L"],
+      "correct": [0],
+      "explanation": "Le pré-diabète correspond à une hyperglycémie modérée à jeun entre 1,10 g/L et 1,25 g/L."
+    },
+    {
+      "question": "La polydipsie correspond à une soif intense entraînant une prise très abondante de boissons.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La polydipsie désigne une exagération anormale de la sensation de soif."
+    },
+    {
+      "question": "La polyurie correspond à une augmentation de la quantité d’urines émises sur 24 heures, au-dessus de 3 litres.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La polyurie correspond à une diurèse supérieure à 3 litres par 24 heures."
+    },
+    {
+      "question": "La polyphagie correspond à une faim excessive non limitée par la satiété.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La polyphagie désigne un besoin excessif de manger malgré la satiété."
+    },
+    {
+      "question": "Quels signes cliniques peuvent être présents lors d’un déséquilibre diabétique ?",
+      "options": ["Polydipsie", "Polyurie", "Polyphagie", "Amaigrissement", "Asthénie", "Irritabilité"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Un déséquilibre diabétique peut provoquer une soif intense, des urines abondantes, une faim excessive, un amaigrissement, une fatigue et une irritabilité."
+    },
+    {
+      "question": "Quels autres signes peuvent être observés lors d’un déséquilibre diabétique ?",
+      "options": ["Nausées", "Vomissements", "Sensation de vertige", "Asthénie", "Coloration bleue permanente de la peau"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Des nausées, vomissements, vertiges et une asthénie peuvent accompagner le déséquilibre diabétique. Une coloration bleue permanente de la peau n’est pas un signe caractéristique présenté ici."
+    },
+    {
+      "question": "Quels facteurs favorisent le diabète de type 2 ?",
+      "options": ["Âge", "Surpoids", "Sédentarité", "Tabac", "Hypertension artérielle", "Dyslipidémie"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Le diabète de type 2 est favorisé par l’âge, le surpoids, la sédentarité, le tabac, l’hypertension artérielle et les anomalies lipidiques."
+    },
+    {
+      "question": "L’incidence du diabète de type 2 augmente avec l’âge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le diabète de type 2 apparaît généralement après 40 ans et est souvent diagnostiqué autour de 65 ans."
+    },
+    {
+      "question": "Le diabète de type 2 peut aussi apparaître chez des adolescents ou de jeunes adultes, notamment en lien avec le mode de vie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Même si le diabète de type 2 est plus fréquent avec l’âge, des cas apparaissent chez des sujets plus jeunes, notamment en lien avec le mode de vie."
+    },
+    {
+      "question": "Un IMC égal ou supérieur à 25 kg/m² constitue un facteur de risque de diabète de type 2.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le surpoids ou l’obésité, avec un IMC égal ou supérieur à 25 kg/m², augmente le risque de diabète de type 2."
+    },
+    {
+      "question": "L’obésité et le manque d’activité physique peuvent révéler un diabète de type 2 chez une personne génétiquement prédisposée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le surpoids et la sédentarité favorisent l’expression d’un diabète de type 2 chez les personnes prédisposées."
+    },
+    {
+      "question": "Quels traitements peuvent favoriser un diabète ou un déséquilibre glycémique ?",
+      "options": ["Corticoïdes", "Insuline rapide adaptée", "Collyre mydriatique uniquement", "Chélateurs du phosphore"],
+      "correct": [0],
+      "explanation": "Les corticoïdes peuvent favoriser une hyperglycémie ou révéler un diabète. Les autres propositions ne sont pas des facteurs favorisants généraux du diabète."
+    },
+    {
+      "question": "Qu’est-ce qu’un fond d’œil ?",
+      "options": ["Un examen ophtalmologique étudiant les structures situées à l’arrière du cristallin", "Un examen permettant d’observer la rétine", "Un examen utile au dépistage de la rétinopathie diabétique", "Une injection systématique d’insuline dans l’œil", "Un examen indolore"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "Le fond d’œil est un examen ophtalmologique indolore qui permet d’étudier la rétine et de dépister des atteintes comme la rétinopathie diabétique."
+    },
+    {
+      "question": "Le fond d’œil est prescrit chez le patient diabétique pour dépister notamment la rétinopathie diabétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le diabète peut provoquer des atteintes des micro-vaisseaux rétiniens, d’où l’intérêt du dépistage ophtalmologique."
+    },
+    {
+      "question": "La réalisation d’un fond d’œil peut nécessiter une dilatation des pupilles par collyres.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La dilatation pupillaire permet d’examiner la rétine, mais peut entraîner un éblouissement pendant plusieurs heures."
+    },
+    {
+      "question": "Quels effets ou précautions sont associés à la dilatation pupillaire lors d’un fond d’œil ?",
+      "options": ["Éblouissement possible", "Pupilles dilatées pendant plusieurs heures", "Vigilance accrue au risque de chute", "Examen généralement indolore", "Cécité immédiate obligatoire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Après dilatation, le patient peut être ébloui plusieurs heures, ce qui impose une vigilance concernant le risque de chute. L’examen est généralement indolore et n’entraîne pas une cécité immédiate obligatoire."
+    },
+    {
+      "question": "La rétinopathie diabétique peut se développer de façon insidieuse et asymptomatique sans modification initiale de la vue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La rétinopathie diabétique peut évoluer silencieusement, d’où l’importance du dépistage."
+    },
+    {
+      "question": "La rétinopathie diabétique touche environ 40 % des personnes diabétiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle concerne une proportion importante de patients diabétiques et constitue un enjeu majeur de dépistage."
+    },
+    {
+      "question": "La rétinopathie diabétique est une cause importante de cécité chez l’adulte de moins de 50 ans dans les pays occidentaux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle est décrite comme une cause majeure de cécité dans cette population."
+    },
+    {
+      "question": "La rétinopathie diabétique peut accélérer la survenue d’autres pathologies oculaires comme le glaucome ou la cataracte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le diabète et ses complications oculaires peuvent s’associer à une augmentation du risque d’autres pathologies ophtalmologiques."
+    },
+    {
+      "question": "Après combien d’années d’hyperglycémie chronique la rétinopathie diabétique se manifeste-t-elle généralement ?",
+      "options": ["Après sept à huit ans", "Après deux jours", "Toujours dès la naissance", "Uniquement après cinquante ans d’évolution"],
+      "correct": [0],
+      "explanation": "La rétinopathie diabétique se manifeste généralement après sept à huit ans d’hyperglycémie chronique."
+    },
+    {
+      "question": "Quels signes visuels peuvent révéler une rétinopathie diabétique évoluée ?",
+      "options": ["Flou visuel", "Corps flottants dans le champ visuel", "Baisse de la vision centrale", "Cécité", "Amélioration spontanée permanente de la vision"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La rétinopathie diabétique peut entraîner une baisse de la vision centrale, un flou visuel, des corps flottants et aller jusqu’à la cécité."
+    },
+    {
+      "question": "Quelles lésions peuvent être observées dans la rétinopathie diabétique ?",
+      "options": ["Micro-anévrismes", "Micro-hémorragies", "Œdème de la rétine", "Exsudats secs", "Zones d’ischémie rétinienne"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La rétinopathie diabétique peut provoquer des micro-anévrismes, des micro-hémorragies, un œdème rétinien, des exsudats secs et des zones d’ischémie."
+    },
+    {
+      "question": "Les micro-anévrismes sont de petites dilatations localisées de capillaires rétiniens devenus poreux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces capillaires fragilisés peuvent se rompre et provoquer des micro-hémorragies."
+    },
+    {
+      "question": "L’œdème de la rétine peut être lié à une perte d’étanchéité des capillaires rétiniens.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La fuite capillaire peut entraîner une accumulation de liquide ou de sang et un gonflement de la rétine."
+    },
+    {
+      "question": "Les exsudats secs correspondent à des agrégats de graisses et de protéines dans la rétine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les exsudats secs traduisent un épaississement rétinien lié à des dépôts lipidiques et protéiques."
+    },
+    {
+      "question": "Les zones d’ischémie rétinienne apparaissent lorsque des micro-occlusions gênent l’irrigation et l’oxygénation de la rétine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les micro-occlusions peuvent priver certaines zones de la rétine d’apport sanguin et d’oxygène."
+    },
+    {
+      "question": "Lorsque les complications diabétiques atteignent la macula, on parle de maculopathie diabétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La macula est la zone responsable de la vision centrale ; son atteinte correspond à une maculopathie diabétique."
+    },
+    {
+      "question": "Quels axes d’éducation hygiéno-diététique sont importants chez une personne diabétique ?",
+      "options": ["Équilibre alimentaire", "Activité physique adaptée", "Surveillance de l’état cutané", "Suivi médical régulier", "Observance des prescriptions", "Suppression de toute alimentation glucidique sans accompagnement"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L’éducation repose sur l’équilibre alimentaire, l’activité physique, la surveillance cutanée, le suivi médical et l’observance. Les messages rigides de restriction alimentaire sont à éviter."
+    },
+    {
+      "question": "L’objectif alimentaire chez une personne diabétique est plutôt l’équilibre diabétique qu’un message rigide de restriction.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’approche éducative doit privilégier l’équilibre, l’acceptation de la maladie, les possibilités du patient et l’accompagnement diététique."
+    },
+    {
+      "question": "Quels éléments sont adaptés dans l’accompagnement alimentaire d’une personne diabétique ?",
+      "options": ["Évaluer les représentations du patient", "Évaluer les possibilités du patient et de l’entourage", "Tenir compte de l’acceptation de la maladie", "Orienter vers une diététicienne si besoin", "Imposer un régime strict sans explication"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L’éducation alimentaire doit partir des représentations, des possibilités, de l’acceptation de la maladie et peut nécessiter une diététicienne. Imposer un régime strict sans explication nuit à l’adhésion."
+    },
+    {
+      "question": "L’activité physique adaptée peut faire partie de la prise en charge du diabète de type 2.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’activité physique, comme la marche ou les activités sociales, contribue à l’équilibre diabétique et à la santé globale."
+    },
+    {
+      "question": "Une prescription médicale d’activité physique et sportive peut être proposée dans certaines situations.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’activité physique adaptée peut faire l’objet d’une prescription médicale et s’inscrire dans le parcours de soin."
+    },
+    {
+      "question": "Pourquoi la surveillance des pieds est-elle essentielle chez une personne diabétique ?",
+      "options": ["Risque de perte de sensibilité", "Risque de retard de cicatrisation", "Risque de plaie non perçue", "Risque de mal perforant plantaire", "Absence totale de risque infectieux"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le pied diabétique expose à la perte de sensibilité, au retard de cicatrisation, aux plaies non perçues et au mal perforant plantaire, avec risque infectieux important."
+    },
+    {
+      "question": "Quelles mesures peuvent protéger les pieds d’une personne diabétique ?",
+      "options": ["Porter des chaussures confortables", "Sécher minutieusement les pieds", "Utiliser un miroir pour inspecter les pieds", "Porter des chaussettes en coton sans coutures", "Marcher pieds nus sur un sol traumatisant"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les chaussures adaptées, le séchage soigneux, l’inspection avec un miroir et les chaussettes sans coutures limitent le risque de plaie. Marcher pieds nus sur un sol traumatisant augmente le risque."
+    },
+    {
+      "question": "Le mal perforant plantaire est une lésion développée sur une zone d’hyperpression associée à une insensibilité liée au diabète.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le mal perforant plantaire se développe sur une zone d’appui excessive chez un patient ayant une perte de sensibilité."
+    },
+    {
+      "question": "Quel mécanisme peut conduire au mal perforant plantaire ?",
+      "options": ["Appui répété sur la même zone", "Formation d’une plaque de kératose", "Formation d’une vésicule inflammatoire en profondeur", "Diffusion vers les tissus profonds", "Ouverture cutanée avec risque d’infection sévère"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L’appui répété entraîne une kératose, puis une atteinte inflammatoire profonde pouvant s’ouvrir vers l’extérieur et exposer à une infection sévère."
+    },
+    {
+      "question": "Chez une personne diabétique, l’environnement doit être sécurisé afin de limiter les chutes et traumatismes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les chutes et traumatismes peuvent favoriser des plaies, en particulier au niveau des pieds, avec risque de cicatrisation difficile."
+    },
+    {
+      "question": "Quels éléments peuvent participer à la sécurisation de l’environnement à domicile ?",
+      "options": ["Retirer ou sécuriser les tapis au sol", "Installer des barres de rehaussement si besoin", "Adapter les parcours de déplacement", "Prévenir les traumatismes", "Multiplier les obstacles dans les passages"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La prévention des chutes repose sur la sécurisation des sols, l’aménagement de l’environnement et la limitation des obstacles. Multiplier les obstacles augmente le risque de chute."
+    },
+    {
+      "question": "Le suivi médical régulier et l’observance des rendez-vous sont essentiels dans le diabète.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le diabète nécessite un suivi régulier pour prévenir les complications, ajuster les traitements et renforcer l’éducation thérapeutique."
+    },
+    {
+      "question": "La perte de poids doit être mesurée et accompagnée chez une personne diabétique en surpoids.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une perte de poids mesurée peut améliorer l’équilibre métabolique lorsqu’elle est adaptée et accompagnée."
+    },
+    {
+      "question": "Un accompagnement psychologique peut être nécessaire chez une personne diabétique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le diabète est une maladie chronique qui peut nécessiter un soutien psychologique selon le vécu, l’adhésion et les difficultés rencontrées."
+    },
+    {
+      "question": "Quelle est la norme d’une glycémie capillaire à jeun ?",
+      "options": ["Entre 0,70 g/L et 1,10 g/L", "Entre 1,10 g/L et 1,25 g/L", "Toujours supérieure à 1,26 g/L", "Toujours inférieure à 0,30 g/L"],
+      "correct": [0],
+      "explanation": "Une glycémie capillaire à jeun normale est comprise entre 0,70 g/L et 1,10 g/L."
+    },
+    {
+      "question": "Une glycémie à jeun supérieure à 1,26 g/L après 8 heures de jeûne, vérifiée à deux reprises, est compatible avec un diagnostic de diabète.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le diagnostic de diabète repose notamment sur une glycémie à jeun supérieure à 1,26 g/L après 8 heures de jeûne, confirmée à deux reprises."
+    },
+    {
+      "question": "Après une charge orale de 75 g de glucose, une glycémie plasmatique veineuse supérieure ou égale à 2 g/L à 2 heures est compatible avec un diabète.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une glycémie à 2 heures supérieure ou égale à 2 g/L après charge orale en glucose correspond à un critère diagnostique de diabète."
+    },
+    {
+      "question": "Quels critères peuvent définir le pré-diabète ou l’intolérance au glucose ?",
+      "options": ["Glycémie à jeun entre 1,10 g/L et 1,25 g/L", "Glycémie à jeun vérifiée à deux reprises", "Glycémie entre 1,40 g/L et 1,99 g/L deux heures après HGPO", "Glycémie systématiquement supérieure à 3 g/L", "Glycémie normale entre 0,70 g/L et 1,10 g/L"],
+      "correct": [0, 1, 2],
+      "explanation": "Le pré-diabète peut correspondre à une glycémie à jeun entre 1,10 et 1,25 g/L ou à une intolérance au glucose avec une glycémie entre 1,40 et 1,99 g/L deux heures après HGPO."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une hypoglycémie ?",
+      "options": ["Sueurs", "Pâleur", "Sensation de faim anormale", "Nausées légères", "Tremblements", "Palpitations"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "L’hypoglycémie peut provoquer des sueurs, une pâleur, une faim anormale, des nausées légères, des tremblements et des palpitations."
+    },
+    {
+      "question": "Quels autres signes peuvent accompagner une hypoglycémie ?",
+      "options": ["Nervosité", "Irritabilité", "Fourmillements autour de la bouche", "Vertige", "Maux de tête", "Vision trouble"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "L’hypoglycémie peut entraîner nervosité, irritabilité, fourmillements péribuccaux, vertiges, céphalées et vision trouble."
+    },
+    {
+      "question": "Quels signes de gravité peuvent survenir lors d’une hypoglycémie aggravée ?",
+      "options": ["Confusion", "Difficultés à parler", "Troubles de l’humeur", "Contractions musculaires", "Convulsions", "Perte de conscience"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Une hypoglycémie peut s’aggraver et provoquer confusion, troubles du langage, troubles de l’humeur, contractions musculaires, convulsions ou perte de conscience."
+    },
+    {
+      "question": "Les symptômes d’hypoglycémie apparaissent le plus souvent lorsque la glycémie chute sous 0,60 g/L.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les symptômes d’hypoglycémie apparaissent le plus souvent sous 0,60 g/L de glucose sanguin."
+    },
+    {
+      "question": "La glycosurie correspond à la présence de glucose dans les urines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La glycosurie désigne le passage du glucose dans les urines."
+    },
+    {
+      "question": "Normalement, le glucose passe en grande quantité dans les urines car c’est un déchet.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Le glucose n’est pas un déchet et ne passe normalement pas dans les urines en quantité significative."
+    },
+    {
+      "question": "À partir de quelle glycémie le glucose peut-il déborder dans les urines ?",
+      "options": ["Supérieure à 1,80 g/L", "Supérieure à 0,60 g/L", "Inférieure à 0,30 g/L", "Toujours dès 0,70 g/L"],
+      "correct": [0],
+      "explanation": "Le glucose peut apparaître dans les urines lorsque la glycémie dépasse environ 1,80 g/L."
+    },
+    {
+      "question": "La cétonurie correspond à la présence de corps cétoniques dans les urines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La cétonurie correspond à l’élimination urinaire de corps cétoniques, dont l’acétone."
+    },
+    {
+      "question": "La production de corps cétoniques augmente lorsqu’il existe une carence importante en insuline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. En l’absence suffisante d’insuline, l’organisme produit davantage de corps cétoniques."
+    },
+    {
+      "question": "Pourquoi surveille-t-on les corps cétoniques chez une personne diabétique ?",
+      "options": ["Pour éviter l’évolution vers une crise d’acétone", "Pour dépister une acidocétose", "Pour prévenir un coma acidocétosique", "Pour vérifier l’équilibre du diabète", "Pour diagnostiquer une fracture osseuse"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La surveillance des corps cétoniques permet de repérer un déséquilibre diabétique, d’éviter l’acidocétose et de prévenir l’évolution vers le coma. Elle ne sert pas à diagnostiquer une fracture."
+    },
+    {
+      "question": "L’acidocétose est liée à une accumulation de corps cétoniques et de substances acides dans l’organisme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’acidocétose correspond à une accumulation de corps cétoniques et d’acides liée à une carence profonde en insuline."
+    },
+    {
+      "question": "L’acidocétose est provoquée par une carence profonde en insuline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une insuffisance majeure d’insuline entraîne une production excessive de corps cétoniques et une acidose."
+    },
+    {
+      "question": "Quels sont les stades de gravité liés à l’accumulation des corps cétoniques ?",
+      "options": ["Cétose", "Acidocétose", "Coma acidocétosique", "Rétinopathie simple", "Mal perforant plantaire"],
+      "correct": [0, 1, 2],
+      "explanation": "Les trois stades décrits sont la cétose, l’acidocétose puis le coma acidocétosique. La rétinopathie et le mal perforant plantaire sont d’autres complications."
+    },
+    {
+      "question": "Quels facteurs peuvent déclencher une crise d’acétone ou une acidocétose chez une personne diabétique ?",
+      "options": ["Repas manqués", "Mauvaise gestion des doses d’insuline", "Jeûne", "Arrêt des injections d’insuline", "Infection avec fièvre, diarrhée ou vomissements", "Atteinte rénale"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Une acidocétose peut être favorisée par un jeûne, des repas manqués, une mauvaise gestion ou un arrêt de l’insuline, une infection ou certaines pathologies comme une atteinte rénale."
+    },
+    {
+      "question": "La prise de certains médicaments peut participer à un déséquilibre du diabète et favoriser une acidocétose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Certains médicaments peuvent contribuer à déséquilibrer le diabète et favoriser une acidocétose."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une acidocétose diabétique ?",
+      "options": ["Haleine à odeur de pomme verte", "Nausées", "Vomissements", "Urines fréquentes et abondantes", "Soif intense", "Déshydratation"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "L’acidocétose peut provoquer une haleine caractéristique, des troubles digestifs, une polyurie, une soif intense et une déshydratation."
+    },
+    {
+      "question": "Quels autres signes peuvent être observés lors d’une acidocétose diabétique ?",
+      "options": ["Perte de sodium et de potassium", "Troubles de la conscience", "Coma possible", "Perte d’appétit", "Perte de poids", "Importante fatigue"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "L’acidocétose peut entraîner des pertes hydro-électrolytiques, des troubles de conscience jusqu’au coma, une perte d’appétit, une perte de poids et une fatigue importante."
+    },
+    {
+      "question": "La respiration de Kussmaul est une respiration lente et profonde pouvant être observée dans l’acidocétose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La respiration de Kussmaul traduit une compensation respiratoire de l’acidose métabolique."
+    },
+    {
+      "question": "L’acidocétose peut entraîner agitation, anxiété ou au contraire somnolence.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Les troubles neurologiques et comportementaux peuvent varier selon la gravité de l’acidocétose."
+    },
+    {
+      "question": "La survenue de signes évocateurs d’acidocétose nécessite une consultation médicale rapide.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’acidocétose peut évoluer vers un coma acidocétosique, qui constitue une urgence médicale."
+    },
+    {
+      "question": "Quel traitement immédiat est nécessaire en cas d’acidocétose diabétique ?",
+      "options": ["Réhydratation", "Administration d’insuline", "Prévention de l’hypokaliémie", "Hospitalisation", "Surveillance régulière de la glycémie", "Absence totale de surveillance après correction initiale"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L’acidocétose nécessite une hospitalisation, une réhydratation, de l’insuline, une prévention de l’hypokaliémie et une surveillance rapprochée."
+    },
+    {
+      "question": "Le traitement de l’acidocétose peut comporter du sérum physiologique additionné de glucose et de potassium selon la situation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La prise en charge hospitalière associe réhydratation, insuline et correction ou prévention des troubles potassiques."
+    },
+    {
+      "question": "La prévention de l’acidocétose repose notamment sur le respect du traitement par insuline sans oubli de doses.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’arrêt ou l’oubli d’insuline expose au déséquilibre sévère et à l’acidocétose."
+    },
+    {
+      "question": "Qu’est-ce que l’hémoglobine glyquée HbA1c ?",
+      "options": ["Un biomarqueur de l’équilibre glycémique des deux à trois mois précédents", "Un pourcentage lié à la fixation du glucose sur l’hémoglobine", "Un indicateur exprimé en pourcentage", "Une mesure instantanée de la glycémie capillaire uniquement", "Un marqueur utile dans le suivi du diabète"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "L’HbA1c résulte de la fixation du glucose sur l’hémoglobine et renseigne sur l’équilibre glycémique des deux à trois mois précédents. Elle ne correspond pas à une simple glycémie instantanée."
+    },
+    {
+      "question": "L’HbA1c reflète l’équilibre glycémique des deux à trois mois précédents.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Elle donne une vision rétrospective de l’équilibre glycémique sur plusieurs semaines."
+    },
+    {
+      "question": "Chez une personne non diabétique, la norme de l’HbA1c est comprise entre 4 % et 6 %.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une HbA1c normale est généralement comprise entre 4 % et 6 %."
+    },
+    {
+      "question": "Chez une personne diabétique traitée, l’objectif d’HbA1c peut être compris entre 7 % et 7,5 %.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’objectif peut être individualisé, mais la cible mentionnée est autour de 7 % à 7,5 %."
+    },
+    {
+      "question": "Une HbA1c à 8 % indique un équilibre glycémique au-dessus de l’objectif habituel chez une personne diabétique traitée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une HbA1c à 8 % est supérieure à la cible de 7 % à 7,5 % et traduit une limite haute ou un équilibre insuffisant."
+    },
+    {
+      "question": "Normalement, chez une personne non diabétique, environ 4 à 6 globules rouges sur 100 ont du glucose fixé sur leur hémoglobine.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Cela correspond à une HbA1c normale de 4 % à 6 %."
+    },
+    {
+      "question": "Quels types d’insuline peuvent être distingués selon leur délai et leur durée d’action ?",
+      "options": ["Insuline lente", "Insuline intermédiaire", "Insuline rapide", "Insuline ultra-rapide", "Insuline minérale osseuse"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les insulines sont classées selon leur délai et leur durée d’action : lente, intermédiaire, rapide et ultra-rapide."
+    },
+    {
+      "question": "Le schéma basal-bolus associe une insuline rapide avant les repas et une insuline lente couvrant les besoins de base.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ce schéma se rapproche de la sécrétion physiologique d’insuline en couvrant les repas et les besoins de base."
+    },
+    {
+      "question": "Dans un schéma basal-bolus, l’insuline rapide est injectée avant les repas.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’insuline rapide couvre l’élévation glycémique liée aux repas."
+    },
+    {
+      "question": "Dans un schéma basal-bolus, l’insuline lente permet de maintenir la glycémie en dehors des repas.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’insuline lente couvre les besoins basaux sur une durée prolongée, souvent 24 heures."
+    },
+    {
+      "question": "Quelles causes peuvent favoriser une erreur de préparation d’un stylo d’insuline ?",
+      "options": ["Interruption de tâche", "Diminution de la vigilance", "Fin de journée", "Récurrence du soin", "Similitude de forme entre stylos d’insuline", "Double vérification systématique sans interruption"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les interruptions de tâche, la fatigue, l’habitude du soin et la ressemblance entre stylos peuvent favoriser une erreur. La double vérification diminue au contraire le risque."
+    },
+    {
+      "question": "Quelles mesures diminuent le risque d’erreur lors de l’utilisation des stylos d’insuline ?",
+      "options": ["Ranger les stylos d’insuline rapide et lente dans des boîtes différentes", "Respecter le principe 1 stylo, 1 étiquette, 1 patient", "Coller l’étiquette sur le corps du stylo", "Revérifier la prescription après une interruption de tâche", "Coller uniquement l’étiquette sur le bouchon"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La séparation des stylos, l’identification claire du patient et du médicament, l’étiquette sur le corps du stylo et la vérification après interruption réduisent le risque d’erreur."
+    },
+    {
+      "question": "L’étiquette d’un stylo d’insuline doit être collée sur le corps du stylo plutôt que sur le bouchon.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le bouchon peut être interverti, alors que l’étiquette sur le corps du stylo sécurise l’identification."
+    },
+    {
+      "question": "Après une interruption de tâche pendant un soin médicamenteux, il faut revérifier la prescription avant de reprendre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La reprise après interruption est une étape à risque qui nécessite de refaire les vérifications."
+    },
+    {
+      "question": "Quelle conséquence peut survenir si de l’insuline rapide est injectée à la place d’une insuline retard ?",
+      "options": ["Hypoglycémie modérée", "Hypoglycémie sévère", "Hypoglycémie parfois fatale", "Absence totale de risque", "Déséquilibre glycémique nécessitant surveillance"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "L’injection d’insuline rapide à la place d’une insuline retard expose à une hypoglycémie potentiellement sévère, voire fatale, nécessitant une surveillance et une prise en charge."
+    },
+    {
+      "question": "En cas d’erreur d’administration d’insuline, l’infirmier doit prévenir rapidement le médecin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Le médecin doit être prévenu afin d’organiser la conduite à tenir et la surveillance au bénéfice du patient."
+    },
+    {
+      "question": "Que doit faire l’infirmier en cas d’injection d’insuline rapide à la place d’une insuline retard ?",
+      "options": ["Prévenir le médecin", "Mesurer régulièrement la glycémie", "Surveiller l’état clinique du patient", "Suivre la prescription médicale adaptée", "Masquer l’erreur si le patient va bien"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La conduite à tenir repose sur l’information médicale, la surveillance glycémique et clinique, et l’application de la prescription. Masquer l’erreur est contraire à la sécurité des soins."
+    },
+    {
+      "question": "Une analyse a posteriori de l’erreur permet d’identifier la cascade d’événements ayant conduit à l’événement indésirable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Un retour d’expérience ou une revue de morbi-mortalité permet de comprendre les causes et de prévenir la récidive."
+    },
+    {
+      "question": "L’insuline fait partie des médicaments fréquemment impliqués dans des erreurs médicamenteuses avec effet indésirable grave en milieu hospitalier.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. L’insuline est un médicament à risque, notamment en raison des erreurs possibles de dose, de type d’insuline ou d’administration."
+    },
+    {
+      "question": "Les médicaments à risque sont souvent des médicaments à marge thérapeutique étroite pouvant causer des dommages importants au patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces médicaments nécessitent une vigilance renforcée car une erreur peut entraîner des conséquences graves."
+    },
+    {
+      "question": "Quels médicaments ou produits peuvent être considérés comme à risque ?",
+      "options": ["Insuline", "Anticoagulants", "Antiarythmiques", "Digitaliques IV", "Solutions d’électrolytes concentrées", "Anticancéreux"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "L’insuline, les anticoagulants, antiarythmiques, digitaliques IV, électrolytes concentrés et anticancéreux sont des exemples de médicaments à risque."
+    },
+    {
+      "question": "La règle des 5 B correspond à administrer le bon médicament, à la bonne dose, par la bonne voie, au bon moment et au bon patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La règle des 5 B sécurise l’administration médicamenteuse."
+    },
+    {
+      "question": "Quels éléments font partie de la règle des 5 B ?",
+      "options": ["Bon médicament", "Bonne dose", "Bonne voie", "Bon moment", "Bon patient", "Bonne couleur du stylo uniquement"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les 5 B sont le bon médicament, la bonne dose, la bonne voie, le bon moment et le bon patient. La couleur du stylo ne suffit jamais à sécuriser une administration."
+    },
+    {
+      "question": "Une dose d’insuline rapide qui dépasse rarement 25 unités doit faire renforcer la vigilance si elle paraît inhabituelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Une dose inhabituelle doit conduire à s’arrêter et à vérifier avant administration."
+    },
+    {
+      "question": "Si une dose d’insuline semble anormale, il faut s’arrêter et faire contrôler par quelqu’un d’autre si besoin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. En cas de doute, l’administration doit être interrompue et la vérification renforcée."
+    },
+    {
+      "question": "Quelles vérifications sont recommandées avant l’administration d’insuline ?",
+      "options": ["Bon patient", "Bon médicament", "Bon dispositif d’administration", "Bonne dose", "Bon moment", "Bonne voie"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "L’administration d’insuline nécessite de vérifier le patient, le médicament, le dispositif, la dose, le moment et la voie d’administration."
+    },
+    {
+      "question": "La dernière administration d’insuline doit être vérifiée : même insuline, même dose, même heure et même site d’administration.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Ces vérifications participent à la sécurité de l’administration et à la cohérence du traitement."
+    },
+    {
+      "question": "Avant ouverture, comment conserver un stylo d’insuline ?",
+      "options": ["Au réfrigérateur", "Dans son emballage", "À l’abri de la lumière", "Entre 2 °C et 8 °C", "Au congélateur"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Avant ouverture, l’insuline en stylo se conserve au réfrigérateur, dans son emballage, à l’abri de la lumière, entre 2 °C et 8 °C. Elle ne doit pas être congelée."
+    },
+    {
+      "question": "Avant ouverture, l’insuline en stylo ne doit pas être congelée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La congélation altère l’insuline et compromet son efficacité."
+    },
+    {
+      "question": "Après ouverture, comment conserver un stylo d’insuline ?",
+      "options": ["À l’abri de la lumière", "À l’abri de la chaleur", "Bien rebouché après utilisation", "À une température inférieure à 30 °C", "Obligatoirement au congélateur"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Après ouverture, le stylo doit être protégé de la lumière et de la chaleur, rebouché après utilisation et conservé à une température inférieure à 30 °C."
+    },
+    {
+      "question": "Après ouverture, un stylo d’insuline peut être conservé pendant environ 6 semaines dans les conditions adaptées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La conservation après ouverture est possible pendant environ 6 semaines si les conditions sont respectées."
+    },
+    {
+      "question": "À quoi sert la purge d’un stylo à insuline ?",
+      "options": ["Éliminer les bulles présentes dans la cartouche ou l’aiguille", "Vérifier que l’aiguille n’est pas bouchée", "Vérifier que l’aiguille n’est pas coudée", "Vérifier le bon fonctionnement du système", "Garantir que le stylo est prêt à injecter la dose"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La purge élimine les bulles, vérifie l’aiguille et le bon fonctionnement du stylo, afin de s’assurer que la dose pourra être injectée correctement."
+    },
+    {
+      "question": "Les bulles dans un stylo à insuline sont dangereuses par elles-mêmes car elles provoquent une embolie massive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C’est Faux. Les bulles ne sont pas dangereuses en elles-mêmes dans ce contexte, mais elles peuvent entraîner un sous-dosage en insuline."
+    },
+    {
+      "question": "Les bulles dans un stylo à insuline peuvent entraîner un sous-dosage, par exemple 1 ou 2 unités en moins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. Si l’air remplace une partie du volume injecté, la dose d’insuline réellement administrée peut être insuffisante."
+    },
+    {
+      "question": "Quand faut-il purger un stylo à insuline ?",
+      "options": ["À la première utilisation du stylo", "Avant chaque utilisation du stylo", "Uniquement une fois par an", "Seulement après une hypoglycémie", "Jamais si le stylo paraît propre"],
+      "correct": [0, 1],
+      "explanation": "La purge doit être réalisée à la première utilisation et avant chaque utilisation pour sécuriser l’injection."
+    },
+    {
+      "question": "Quelles étapes font partie de la purge d’un stylo à insuline ?",
+      "options": ["Régler le stylo sur 2 unités", "Tenir le stylo aiguille vers le haut", "Tapoter le porte-cartouche pour faire remonter les bulles", "Appuyer sur le bouton d’injection jusqu’à apparition d’une goutte", "Injecter directement sans vérifier l’aiguille"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La purge consiste à régler 2 unités, orienter l’aiguille vers le haut, faire remonter les bulles puis appuyer jusqu’à voir une goutte d’insuline."
+    },
+    {
+      "question": "Un stylo est correctement purgé lorsqu’une goutte apparaît à l’extrémité de l’aiguille.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La goutte à l’extrémité de l’aiguille confirme que l’insuline sort correctement."
+    },
+    {
+      "question": "Si l’insuline n’apparaît pas à l’extrémité de l’aiguille après une purge, il faut répéter la manipulation jusqu’à quatre fois.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "C’est Vrai. La manipulation peut être répétée jusqu’à quatre fois afin d’obtenir une goutte d’insuline."
+    },
+    {
+      "question": "Si aucune goutte d’insuline n’apparaît et que la sélection d’une dose devient difficile, quelle conduite est adaptée ?",
+      "options": ["Changer l’aiguille", "Purger à nouveau le stylo", "Vérifier le dispositif", "Injecter malgré tout sans goutte", "Ignorer la difficulté"],
+      "correct": [0, 1, 2],
+      "explanation": "L’absence de goutte et la difficulté de sélection peuvent traduire un problème d’aiguille ou de dispositif. Il faut changer l’aiguille, purger à nouveau et vérifier le système."
+    }
+  ]
+}
