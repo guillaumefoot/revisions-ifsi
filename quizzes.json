@@ -98,39 +98,46 @@
         "icon": "🩹"
     },
     {
+        "file": "data/2.7_REIN.json",
+        "code": "UE 2.7",
+        "name": "Anatomie & Sémiologie du Rein",
+        "subtitle": "Structure, fonctions et sémiologie de base",
+        "icon": "🩺"
+    },
+    {
         "file": "data/2.7_DFG.json",
         "code": "UE 2.7",
         "name": "DFG & Exploration rénale",
-        "subtitle": "Fonction rénale, marqueurs et insuffisance",
+        "subtitle": "Marqueurs, calculs et stades de l'insuffisance",
         "icon": "🧪"
     },
     {
         "file": "data/2.7_NEPHRO_TD.json",
         "code": "UE 2.7",
         "name": "Néphrologie (TD)",
-        "subtitle": "Insuffisance rénale, alimentation et dialyse",
+        "subtitle": "Pratique clinique, alimentation et dialyse",
         "icon": "📝"
-    },
-    {
-        "file": "data/2.7_REIN.json",
-        "code": "UE 2.7",
-        "name": "Anatomie & Sémiologie du Rein",
-        "subtitle": "Structure, pathologie et rôle infirmier",
-        "icon": "🩺"
     },
     {
         "file": "data/2.7_PARKINSON.json",
         "code": "UE 2.7",
         "name": "Maladie de Parkinson",
-        "subtitle": "Sémiologie, traitements et prise en charge",
+        "subtitle": "Physiopathologie, triade motrice et traitements",
         "icon": "🧠"
     },
     {
         "file": "data/2.7_SLA.json",
         "code": "UE 2.7",
-        "name": "Sclérose Latérale Amyotrophique (SLA)",
-        "subtitle": "Neurodégénérescence, symptômes et soins",
+        "name": "Sclérose Latérale Amyotrophique",
+        "subtitle": "Motoneurones, formes cliniques et prise en charge",
         "icon": "🧬"
+    },
+    {
+        "file": "data/2.7_GERIATRIE_TD.json",
+        "code": "UE 2.7",
+        "name": "Gériatrie (TD)",
+        "subtitle": "Humanitude, Alzheimer et troubles du comportement",
+        "icon": "👵"
     },
     {
         "file": "data/4.3_BASES_URGENCES.json",
