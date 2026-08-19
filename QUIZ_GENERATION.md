@@ -90,6 +90,18 @@ Si l'utilisateur donne un nombre cible, le respecter autant que possible.
 
 Si le support contient deja beaucoup de QCM/VF existants, conserver ces questions puis completer seulement si des notions importantes ne sont pas couvertes.
 
+## Catalogue et icone
+
+Quand un quiz doit apparaitre dans l'application, ajouter une entree dans `quizzes.json` avec:
+
+- `file`: chemin du fichier dans `data/` ;
+- `code`: UE affichee dans les filtres ;
+- `name`: nom court du quiz ;
+- `subtitle`: precision sur le sujet, le cours ou le type de revision ;
+- `icon`: icone de carte.
+
+L'icone doit etre choisie pour aider a identifier le sujet rapidement. Elle doit rester lisible et coherente avec le module, sans surcharger le catalogue. Elle appartient a `quizzes.json`, pas au fichier de questions.
+
 ## Regles de qualite
 
 ### Vrai/Faux
