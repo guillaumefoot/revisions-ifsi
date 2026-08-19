@@ -26,6 +26,8 @@ node tools/validate-quizzes.js --catalog
 
 Cette commande verifie `quizzes.json`, les fichiers qu'il reference, puis les quiz actifs.
 
+Elle signale aussi les entrees de catalogue sans `icon`, car l'icone est utilisee pour l'affichage des cartes dans l'application.
+
 ## Auditer toute l'archive
 
 ```bash
