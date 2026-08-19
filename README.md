@@ -32,6 +32,12 @@ icons/           Icones de l'application
 
 Les anciens fichiers de quiz peuvent rester dans `data/` comme archive. Seuls les fichiers references dans `quizzes.json` apparaissent dans l'application.
 
+## Playlist et icones
+
+Le fichier `quizzes.json` decrit les quiz visibles dans l'application. Chaque entree contient le chemin du fichier, l'UE, le nom affiche, le sous-titre et une icone.
+
+L'icone sert uniquement a l'affichage des cartes de quiz. Elle doit aider a reconnaitre rapidement le sujet, rester sobre, et etre coherente avec le theme du module. Elle n'est pas stockee dans le fichier `data/*.json`, mais dans `quizzes.json`.
+
 ## Format d'un quiz
 
 Chaque pack de quiz est un fichier JSON:
