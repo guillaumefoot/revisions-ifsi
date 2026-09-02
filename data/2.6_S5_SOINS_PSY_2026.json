@@ -1,0 +1,377 @@
+{
+  "title": "UE 2.6 S5 - Soins infirmiers en psychiatrie",
+  "subtitle": "Posture soignante, projet de soins personnalisé, risque suicidaire, observation clinique et relation thérapeutique",
+  "questions": [
+    {
+      "question": "Quel est un rôle central de l'infirmier en psychiatrie ?",
+      "options": [
+        "Établir seul le diagnostic médical",
+        "Participer à l'évaluation, aux soins et à la surveillance du patient",
+        "Décider seul du mode d'hospitalisation",
+        "Remplacer le psychiatre dans les prescriptions"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "L'infirmier travaille en collaboration avec l'équipe pluridisciplinaire, participe à l'évaluation et surveille l'évolution clinique et les traitements."
+    },
+    {
+      "question": "L'infirmier en psychiatrie veille aussi à la bonne application des traitements prescrits.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La surveillance du traitement et des réactions indésirables fait partie de la prise en charge infirmière."
+    },
+    {
+      "question": "Le projet de soins personnalisé est construit uniquement par le médecin, sans concertation avec le patient.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il est construit avec le patient et l'équipe soignante, et si possible avec l'implication de la famille."
+    },
+    {
+      "question": "Quel est l'objectif du projet de soins personnalisé ?",
+      "options": [
+        "Adapter la prise en charge aux besoins propres du patient",
+        "Créer un protocole identique pour tous les patients",
+        "Éviter toute réactualisation pendant l'hospitalisation",
+        "Limiter la participation du patient"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le projet de soins personnalisé sert de fil conducteur du parcours et accompagne le patient vers ses objectifs de santé."
+    },
+    {
+      "question": "Le projet de soins personnalisé doit être réactualisé au fur et à mesure de l'hospitalisation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La réactualisation suit les évaluations successives et l'évolution de l'état du patient."
+    },
+    {
+      "question": "Quels éléments relèvent du raisonnement clinique infirmier ?",
+      "options": [
+        "Identifier les besoins de la personne",
+        "Formuler des objectifs de soins",
+        "Mettre en œuvre les actions appropriées",
+        "Supprimer la traçabilité si la situation s'améliore"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Le raisonnement clinique s'appuie sur l'identification des besoins, le diagnostic infirmier, les objectifs et les actions de soins tracées."
+    },
+    {
+      "question": "Le dossier de soins infirmiers contient des éléments pertinents et actualisés relatifs à la prise en charge.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le dossier de soins infirmiers fait partie intégrante du dossier médical et doit rester actualisé."
+    },
+    {
+      "question": "Dans l'évaluation du risque suicidaire, quel élément doit alerter ?",
+      "options": [
+        "Une tension psychique avec agitation motrice",
+        "Une expression claire de projets protecteurs",
+        "Une observance stable sans souffrance exprimée",
+        "Une demande simple d'information administrative"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'impulsivité, l'agitation, l'état de panique et les antécédents de passage à l'acte sont des éléments à surveiller."
+    },
+    {
+      "question": "Quels facteurs individuels peuvent majorer le risque suicidaire ?",
+      "options": [
+        "Antécédents suicidaires personnels",
+        "Problèmes de santé mentale",
+        "Sentiment de désespoir ou d'impuissance",
+        "Bonne estime de soi stable"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les antécédents, les troubles psychiques, le désespoir et l'impulsivité font partie des facteurs de risque."
+    },
+    {
+      "question": "Les difficultés économiques persistantes et l'isolement social peuvent être des facteurs psychosociaux de risque suicidaire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les pertes, l'isolement, les difficultés économiques ou professionnelles peuvent participer à la vulnérabilité."
+    },
+    {
+      "question": "Quel objectif infirmier est prioritaire face à un patient présentant un risque suicidaire ?",
+      "options": [
+        "Diminuer l'anxiété et sécuriser l'environnement",
+        "Éviter tout entretien pour ne pas augmenter la souffrance",
+        "Laisser les objets personnels sans vérification",
+        "Centrer les soins uniquement sur l'observance médicamenteuse"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les objectifs incluent la diminution de l'anxiété, l'expression de la souffrance et la sécurisation de l'environnement."
+    },
+    {
+      "question": "Face au risque suicidaire, l'écoute infirmière repose sur une posture empathique et aidante.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Favoriser la parole et accorder du temps au patient soutient le sentiment d'être pris en charge."
+    },
+    {
+      "question": "Une surveillance trop intrusive est toujours recommandée pour rassurer un patient suicidaire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La surveillance doit être efficace, discrète et à juste distance afin de rester contenante sans majorer l'angoisse."
+    },
+    {
+      "question": "Quel point de surveillance est important après l'introduction d'un antidépresseur chez un patient suicidaire ?",
+      "options": [
+        "La levée d'inhibition",
+        "La disparition définitive de tout risque dès la première prise",
+        "L'arrêt de toute évaluation de la thymie",
+        "La suppression des transmissions ciblées"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Un brusque changement d'humeur peut signaler un risque de levée d'inhibition, ce qui impose une vigilance clinique."
+    },
+    {
+      "question": "Quels objets ou situations doivent être particulièrement contrôlés dans l'environnement d'un patient à risque suicidaire ?",
+      "options": [
+        "Rasoirs, ciseaux et sèche-cheveux",
+        "Possibilités de défenestration",
+        "Possibilités d'étranglement ou de pendaison",
+        "Accès libre à l'armoire à pharmacie"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La sécurisation concerne les objets dangereux, les lieux à risque et l'accès aux médicaments."
+    },
+    {
+      "question": "Les traitements personnels du patient peuvent être laissés à disposition en chambre si le patient promet de les gérer.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les traitements ne doivent pas être laissés à disposition lorsqu'une surveillance du risque suicidaire est nécessaire."
+    },
+    {
+      "question": "Quelle attitude est adaptée face à une conduite suicidaire ?",
+      "options": [
+        "Ne pas juger et ne pas minimiser",
+        "Banaliser pour dédramatiser",
+        "Moraliser le patient",
+        "Éviter de tracer les observations"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le jugement ou la minimisation peuvent augmenter le risque de récidive et rompre l'alliance thérapeutique."
+    },
+    {
+      "question": "Les hallucinations auditives peuvent être associées à une souffrance importante et parfois à un risque auto ou hétéro-agressif.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les voix peuvent majorer l'angoisse et parfois inciter au passage à l'acte."
+    },
+    {
+      "question": "Devant un délire, quelle vérification est indispensable dans la prise en charge ?",
+      "options": [
+        "Éliminer une cause organique par un examen somatique",
+        "Considérer immédiatement que toute cause somatique est exclue",
+        "Reporter toute observation infirmière",
+        "Chercher à convaincre le patient que son délire est faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Un examen somatique est nécessaire car des causes organiques peuvent produire un tableau confusionnel ou délirant."
+    },
+    {
+      "question": "Pourquoi les observations infirmières 24 h sur 24 sont-elles importantes devant un délire ?",
+      "options": [
+        "Elles aident le médecin à préciser le diagnostic et le traitement",
+        "Elles remplacent l'évaluation médicale",
+        "Elles servent uniquement à surveiller l'alimentation",
+        "Elles doivent rester orales et non tracées"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le délire n'est pas toujours exprimé en entretien médical; les observations infirmières apportent des éléments cliniques essentiels."
+    },
+    {
+      "question": "Que permet de caractériser la grille T.O.M.A.T.E. ?",
+      "options": [
+        "Les caractéristiques du délire",
+        "La posologie des traitements",
+        "Le score de douleur physique",
+        "La planification des repas"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "T.O.M.A.T.E. aide à repérer thèmes, organisation, mécanismes, adhésion, temporalité et émotions associées au délire."
+    },
+    {
+      "question": "Dans T.O.M.A.T.E., la temporalité aide à distinguer un épisode aigu d'une évolution chronique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La durée du trouble oriente notamment entre épisode psychotique aigu et psychose chronique."
+    },
+    {
+      "question": "Quels éléments font partie de l'observation d'un patient délirant ?",
+      "options": [
+        "Attitude d'écoute des voix",
+        "Refus alimentaire par crainte d'empoisonnement",
+        "Barrage dans la communication",
+        "Absence systématique de trouble du comportement"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les attitudes d'écoute, le rapport à l'alimentation, le barrage et les modifications du comportement sont des indices utiles."
+    },
+    {
+      "question": "L'expression du délire est identique pour tous les patients et ne dépend pas du contexte culturel ou social.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. L'expression du délire varie selon la culture, le milieu social, les événements et l'histoire singulière de la personne."
+    },
+    {
+      "question": "Chez un patient délirant, il faut surveiller les conduites instinctuelles comme l'hygiène, l'alimentation, l'hydratation, le sommeil et l'élimination.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le délire peut entraîner incurie, refus alimentaire, potomanie, troubles du sommeil ou problèmes d'élimination."
+    },
+    {
+      "question": "Quelle attitude relationnelle est adaptée face à un patient délirant ?",
+      "options": [
+        "Accueillir le vécu sans approuver le délire",
+        "S'opposer frontalement par le raisonnement",
+        "Chercher à prouver que le patient se trompe",
+        "Interdire toute expression délirante"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le soignant reconnaît la réalité vécue par le patient sans partager ni valider la croyance délirante."
+    },
+    {
+      "question": "Dire à un patient délirant que le soignant ne vit pas la même chose peut aider à recentrer sans confrontation directe.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette formulation permet de maintenir le lien tout en évitant d'entrer dans le délire."
+    },
+    {
+      "question": "Après amélioration du délire sous traitement, quels signes doivent être recherchés ?",
+      "options": [
+        "Signes dépressifs",
+        "Autisme ou repli",
+        "Troubles de l'humeur",
+        "Disparition définitive de tout risque"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La disparition du délire peut laisser apparaître une souffrance dépressive ou des signes négatifs."
+    },
+    {
+      "question": "Lors de la distribution médicamenteuse en psychiatrie, aucun traitement ne doit être laissé au patient hospitalisé sans cadre de sécurité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La sécurité de la prise médicamenteuse repose sur des règles précises et sur la vérification de la bonne prise."
+    },
+    {
+      "question": "Favoriser l'échange et éviter l'isolement fait partie des soins auprès d'un patient délirant.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le lien relationnel et la prévention du repli sont des axes importants de la prise en charge."
+    }
+  ]
+}

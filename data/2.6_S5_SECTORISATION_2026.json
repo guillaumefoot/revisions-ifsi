@@ -1,0 +1,315 @@
+{
+  "title": "UE 2.6 S5 - Sectorisation psychiatrique",
+  "subtitle": "Modèle d'organisation de la psychiatrie publique, structures intra et extra-hospitalières, proximité et continuité des soins",
+  "questions": [
+    {
+      "question": "Que désigne le secteur psychiatrique ?",
+      "options": [
+        "Un découpage géographique et démographique organisant les soins de santé mentale",
+        "Un service réservé uniquement aux urgences somatiques",
+        "Un classement administratif des traitements",
+        "Une unité fermée unique par département"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le secteur psychiatrique organise la répartition des structures de psychiatrie publique sur un territoire."
+    },
+    {
+      "question": "La sectorisation psychiatrique française trouve son origine dans la circulaire du 15 mars 1960.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette circulaire crée le secteur psychiatrique dans l'organisation de la lutte contre les maladies mentales."
+    },
+    {
+      "question": "La loi du 26 janvier 2016 réintroduit la notion de mission de psychiatrie de secteur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle réaffirme la mission de psychiatrie de secteur dans le Code de la santé publique."
+    },
+    {
+      "question": "Quelles garanties relèvent de la mission de psychiatrie de secteur ?",
+      "options": [
+        "Recours de proximité en soins psychiatriques",
+        "Accessibilité territoriale et financière",
+        "Continuité des soins",
+        "Suppression des soins ambulatoires"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La mission vise proximité, accessibilité et continuité, notamment pour les parcours complexes."
+    },
+    {
+      "question": "Un secteur psychiatrique couvre environ quelle population ?",
+      "options": [
+        "70 000 à 80 000 habitants",
+        "5 000 habitants",
+        "500 000 habitants",
+        "Un département entier sans découpage"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Chaque secteur couvre une zone d'environ 70 000 à 80 000 habitants."
+    },
+    {
+      "question": "En cas d'hospitalisation complète, les habitants d'une zone sont orientés vers le service de psychiatrie de leur secteur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'adresse de domicile sert habituellement à déterminer le secteur de prise en charge."
+    },
+    {
+      "question": "Le CMP est présenté comme le lieu pivot du soin dans le secteur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le centre médico-psychologique est le dispositif de proximité central dans l'organisation sectorielle."
+    },
+    {
+      "question": "Pour un patient sans domicile ou sans document dans certains départements, l'année de naissance peut guider l'affectation de secteur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Une année de naissance paire ou impaire peut servir de repère d'orientation dans cette situation."
+    },
+    {
+      "question": "Quels principes appartiennent à la sectorisation ?",
+      "options": [
+        "Non-ségrégation",
+        "Lutte contre la stigmatisation",
+        "Prise en soins dans la communauté",
+        "Isolement systématique hors du milieu social"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La sectorisation vise l'intégration, le maintien ou la réintégration du patient dans son milieu familial et social."
+    },
+    {
+      "question": "La coordination entre intra et extra-hospitalier par une équipe pluridisciplinaire est un principe de la sectorisation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La continuité entre les structures est une logique centrale de l'organisation sectorielle."
+    },
+    {
+      "question": "Quelles structures relèvent de l'intra-hospitalier ?",
+      "options": [
+        "Unité d'hospitalisation à temps complet ouverte",
+        "Unité d'hospitalisation à temps complet fermée",
+        "Services d'accueil des urgences psychiatriques",
+        "Appartement thérapeutique"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les appartements thérapeutiques sont cités parmi les structures extra-hospitalières."
+    },
+    {
+      "question": "Quelles structures sont extra-hospitalières ?",
+      "options": [
+        "CMP",
+        "Hôpital de jour",
+        "CATTG",
+        "Appartement thérapeutique"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces dispositifs participent à la prise en charge hors hospitalisation complète."
+    },
+    {
+      "question": "Une unité d'hospitalisation à temps plein concerne des patients nécessitant des soins continus et une surveillance permanente.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette unité répond à un état clinique justifiant une surveillance permanente."
+    },
+    {
+      "question": "Quelle mission du CMP est correcte ?",
+      "options": [
+        "Accueil, orientation, diagnostic, repérage, soins et prévention",
+        "Hospitalisation complète permanente",
+        "Hébergement avec présence continue",
+        "Uniquement délivrance des médicaments"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le CMP est un dispositif de soins spécialisés de proximité porté par une équipe pluriprofessionnelle."
+    },
+    {
+      "question": "Le CMP peut inclure des entretiens, des bilans, des accompagnements et, si besoin, des interventions à domicile.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La prise en charge peut se faire au CMP et au domicile selon les besoins."
+    },
+    {
+      "question": "À quoi correspond l'hôpital de jour en psychiatrie ?",
+      "options": [
+        "Une prise en charge thérapeutique intensive quand les soins ambulatoires sont insuffisants",
+        "Un hébergement permanent sans soins",
+        "Un service exclusivement administratif",
+        "Un remplacement automatique de toute hospitalisation complète"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'hôpital de jour peut constituer une alternative à l'hospitalisation complète, sur une demi-journée ou une journée."
+    },
+    {
+      "question": "Le CATTG repose sur une prise en charge de groupe par des activités de soins.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les activités visent l'amélioration de la symptomatologie, de l'autonomie et de la qualité de vie."
+    },
+    {
+      "question": "L'orientation vers le CATTG se fait principalement par le CMP.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le CMP reste le pivot d'orientation vers ce type d'activité thérapeutique."
+    },
+    {
+      "question": "Quel dispositif répond au besoin non programmé d'évaluation et d'orientation en situation clinique de crise ?",
+      "options": [
+        "Centre d'accueil et de crise",
+        "Appartement thérapeutique",
+        "CATTG",
+        "Secrétariat médical"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le CAC accueille en continu des situations cliniques de crise et peut disposer de lits de très courte durée."
+    },
+    {
+      "question": "L'appartement thérapeutique associe hébergement et soutien à l'autonomie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il s'agit d'un dispositif tiers de soins avec hébergement et présence continue d'une équipe."
+    },
+    {
+      "question": "Quels professionnels peuvent faire partie de l'équipe pluri-professionnelle de secteur ?",
+      "options": [
+        "Psychiatres",
+        "Psychologues cliniciens",
+        "Infirmiers",
+        "Assistants de service social"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'équipe associe des compétences complémentaires pour répondre globalement aux besoins du patient."
+    },
+    {
+      "question": "Les psychomotriciens, ergothérapeutes et éducateurs spécialisés peuvent participer à l'équipe de secteur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La diversité professionnelle soutient la prise en charge globale."
+    },
+    {
+      "question": "Les établissements publics spécialisés en santé mentale relèvent du service public.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les EPSM, CH et CHU disposant de services de psychiatrie sont cités dans les structures du service public."
+    },
+    {
+      "question": "La sectorisation vise uniquement l'hospitalisation complète et exclut les soins ambulatoires.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. L'organisation sectorielle accorde une place importante aux soins ambulatoires de proximité."
+    },
+    {
+      "question": "Quel est l'intérêt principal de la sectorisation pour le parcours du patient ?",
+      "options": [
+        "Favoriser proximité, continuité et coordination des soins",
+        "Rendre les soins plus éloignés",
+        "Séparer durablement le patient de son milieu de vie",
+        "Limiter la prise en charge aux crises aiguës"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La sectorisation cherche à articuler soins, territoire, milieu de vie et continuité du parcours."
+    }
+  ]
+}

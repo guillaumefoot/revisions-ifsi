@@ -1,0 +1,447 @@
+{
+  "title": "UE 2.6 S5 - Psychoses aiguës",
+  "subtitle": "Repères cliniques, délire, syndrome dissociatif, repli autistique, automatisme mental et principaux états psychotiques aigus",
+  "questions": [
+    {
+      "question": "Comment est définie une psychose dans ce module ?",
+      "options": [
+        "Trouble psychiatrique grave avec absence de conscience du trouble et perte de contact avec la réalité",
+        "Trouble anxieux sans altération de la réalité",
+        "Réaction de stress sans délire",
+        "Simple tristesse réactionnelle"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La psychose associe notamment délire, troubles de la perception, du jugement ou du raisonnement, avec absence de conscience du trouble."
+    },
+    {
+      "question": "Un épisode psychotique de moins de 6 mois oriente vers un épisode psychotique aigu.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La temporalité inférieure à 6 mois est un repère important pour l'aigu."
+    },
+    {
+      "question": "Quels tableaux sont classés parmi les épisodes psychotiques aigus ?",
+      "options": [
+        "Psychose puerpérale",
+        "Manie délirante",
+        "Mélancolie délirante",
+        "Bouffée délirante aiguë"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces tableaux sont cités dans les états psychotiques aigus."
+    },
+    {
+      "question": "Des troubles qui durent plus de 6 mois orientent plutôt vers une psychose chronique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La durée supérieure à 6 mois évoque notamment schizophrénie ou autres psychoses chroniques."
+    },
+    {
+      "question": "Que signifie le T de T.O.M.A.T.E. pour caractériser un délire ?",
+      "options": [
+        "Thèmes",
+        "Traitements",
+        "Température",
+        "Traçabilité"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les thèmes décrivent de quoi parle le délire: persécution, mégalomanie, mystique, etc."
+    },
+    {
+      "question": "Dans T.O.M.A.T.E., l'organisation distingue notamment un délire systématisé d'un délire non systématisé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'organisation renseigne les liens logiques ou l'absence de liens entre les idées délirantes."
+    },
+    {
+      "question": "Quels mécanismes peuvent construire un délire ?",
+      "options": [
+        "Hallucinations",
+        "Interprétations",
+        "Intuition",
+        "Vaccination"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Le mécanisme décrit comment le délire se construit: perception hallucinatoire, interprétation ou certitude intuitive."
+    },
+    {
+      "question": "L'adhésion délirante correspond au degré de croyance du patient dans son délire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle évalue si le patient croit totalement à ses idées ou peut les critiquer partiellement."
+    },
+    {
+      "question": "Dans T.O.M.A.T.E., l'émotion correspond à la tonalité affective du délire et au risque de passage à l'acte.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La peur, l'euphorie, la colère ou la tristesse donnent des informations sur le vécu du délire."
+    },
+    {
+      "question": "Qu'est-ce que le syndrome dissociatif ?",
+      "options": [
+        "Une désorganisation de la pensée, des émotions et du comportement",
+        "Une anxiété isolée sans désorganisation",
+        "Une amélioration spontanée du sommeil",
+        "Une phobie spécifique"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le syndrome dissociatif rompt l'unité psychique et perturbe plusieurs domaines du fonctionnement."
+    },
+    {
+      "question": "Quels domaines sont touchés par le syndrome dissociatif ?",
+      "options": [
+        "Cognitif",
+        "Émotionnel",
+        "Comportemental",
+        "Uniquement digestif"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les symptômes concernent la pensée, les émotions et les comportements."
+    },
+    {
+      "question": "Le passage du coq à l'âne, les néologismes et un discours illogique peuvent relever de la dissociation cognitive.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces signes traduisent une désorganisation du déroulement de la pensée et du langage."
+    },
+    {
+      "question": "Quels signes peuvent être rencontrés dans le syndrome dissociatif ?",
+      "options": [
+        "Ambivalence",
+        "Bizarrerie",
+        "Barrage",
+        "Fading"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces signes appartiennent aux manifestations fréquemment décrites de la dissociation."
+    },
+    {
+      "question": "Le repli autistique chez une personne psychotique correspond à un retrait social et un repli sur le monde intérieur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il peut fluctuer et s'inscrire dans un tableau plus large avec délire, hallucinations ou désorganisation."
+    },
+    {
+      "question": "L'automatisme mental se manifeste par la conviction de ne plus être maître de sa pensée ou de ses actes.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le patient peut vivre sa pensée ou son comportement comme contrôlés par une force extérieure."
+    },
+    {
+      "question": "Quels signes peuvent appartenir à l'automatisme mental ?",
+      "options": [
+        "Pensées perçues comme étrangères",
+        "Souvenirs défilant de façon incontrôlée",
+        "Mouvements imposés",
+        "Meilleure conscience volontaire du trouble"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "L'automatisme mental comporte des phénomènes idéo-verbaux, sensoriels, sensitifs ou psychomoteurs."
+    },
+    {
+      "question": "Un épisode psychotique aigu peut être unique, se répéter ou inaugurer une psychose chronique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'évolution est variable, d'où l'importance du suivi après l'épisode."
+    },
+    {
+      "question": "Dans la psychose puerpérale, les thèmes délirants peuvent être centrés sur la relation mère-enfant.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La psychose puerpérale survient dans le contexte du post-partum et concerne souvent le lien au bébé."
+    },
+    {
+      "question": "La manie délirante est une forme extrême et sévère d'épisode maniaque.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle associe symptômes maniaques exacerbés et symptômes psychotiques."
+    },
+    {
+      "question": "Quels éléments peuvent appartenir à la manie délirante ?",
+      "options": [
+        "Délires mégalomaniaques",
+        "Délires de persécution",
+        "Hallucinations",
+        "Réduction drastique du besoin de sommeil"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La manie délirante combine perte de contact avec la réalité, agitation, accélération et désorganisation."
+    },
+    {
+      "question": "La manie délirante nécessite une prise en charge médicale immédiate.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle peut entraîner épuisement physique, comportements dangereux et désorganisation majeure."
+    },
+    {
+      "question": "La mélancolie délirante est une forme grave de dépression avec symptômes psychotiques.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La douleur morale, la culpabilité et les idées délirantes rendent le risque suicidaire très élevé."
+    },
+    {
+      "question": "Quels signes évoquent une mélancolie délirante ?",
+      "options": [
+        "Dépression profonde avec douleur morale intense",
+        "Idées de ruine ou de catastrophe",
+        "Fort sentiment de culpabilité ou d'indignité",
+        "Euphorie permanente sans souffrance"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La mélancolie délirante amplifie les signes dépressifs et ajoute des idées délirantes pénibles."
+    },
+    {
+      "question": "La psychose puerpérale survient généralement entre le 5e et le 25e jour après l'accouchement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle apparaît souvent brutalement dans les premières semaines du post-partum."
+    },
+    {
+      "question": "La psychose puerpérale touche environ 1 à 2 naissances sur 1000.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "C'est un trouble rare mais grave et urgent."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une psychose puerpérale ?",
+      "options": [
+        "Confusion et désorientation spatio-temporelle",
+        "Délires ou hallucinations en lien avec le bébé",
+        "Troubles du sommeil sévères",
+        "Angoisse massive"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le tableau peut associer symptômes psychotiques, labilité thymique, agitation et trouble du sommeil."
+    },
+    {
+      "question": "Un antécédent personnel ou familial de trouble bipolaire ou d'épisode psychotique est un facteur de risque de psychose puerpérale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ce facteur de risque est particulièrement important à repérer."
+    },
+    {
+      "question": "La bouffée délirante aiguë correspond à l'apparition brutale d'un épisode délirant.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle est décrite comme un passage sans transition à un état psychotique."
+    },
+    {
+      "question": "Quelles caractéristiques correspondent à la bouffée délirante aiguë ?",
+      "options": [
+        "Délire polymorphe",
+        "Délire fluctuant et non systématisé",
+        "Conviction souvent totale au début",
+        "Histoire généralement très cohérente et crédible"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La BDA est marquée par une production délirante intense, variable et souvent incohérente."
+    },
+    {
+      "question": "La bouffée délirante aiguë touche surtout les adolescents et jeunes adultes de 18 à 30 ans.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette tranche d'âge est citée parmi les caractéristiques principales."
+    },
+    {
+      "question": "Quels facteurs peuvent déclencher une bouffée délirante aiguë ?",
+      "options": [
+        "Deuil ou rupture",
+        "Consommation de substances",
+        "Manque de sommeil important",
+        "Contexte relationnel difficile"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les facteurs déclenchants incluent chocs émotionnels, substances, surmenage, manque de sommeil et contexte stressant."
+    },
+    {
+      "question": "L'insomnie est un signe avant-coureur fréquent de bouffée délirante aiguë.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle est présentée comme le signe le plus caractéristique et fréquent."
+    },
+    {
+      "question": "La prise en charge d'une bouffée délirante aiguë repose habituellement sur une hospitalisation urgente.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'hospitalisation assure la sécurité et permet une prise en charge rapide."
+    },
+    {
+      "question": "Quels traitements sont cités dans la prise en charge de la BDA ?",
+      "options": [
+        "Neuroleptiques ou antipsychotiques",
+        "Anxiolytiques à court terme",
+        "Sédatifs en cas de forte agitation",
+        "Psychothérapie de soutien à distance de l'épisode aigu"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le traitement associe sécurisation, traitement pharmacologique et accompagnement psychothérapeutique."
+    },
+    {
+      "question": "Après une bouffée délirante aiguë, un suivi médical d'un à deux ans est recommandé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le suivi permet de surveiller récidives, chronicisation ou évolution vers d'autres troubles psychiatriques."
+    }
+  ]
+}

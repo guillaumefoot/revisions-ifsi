@@ -1,0 +1,443 @@
+{
+  "title": "UE 2.6 S5 - Synthèse psychopathologie",
+  "subtitle": "Questions transversales pour réviser les processus psychopathologiques, les soins et l'organisation psychiatrique",
+  "questions": [
+    {
+      "question": "Quel code correspond à l'unité d'enseignement centrée sur les processus psychopathologiques au semestre 5 ?",
+      "options": [
+        "UE 2.6 S5",
+        "UE 4.4 S5",
+        "UE 6.2 S3",
+        "UE 2.7 S4"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le projet pédagogique présente l'UE 2.6 S5 comme consacrée aux processus psychopathologiques."
+    },
+    {
+      "question": "Quels thèmes font partie du programme UE 2.6 S5 présenté ?",
+      "options": [
+        "Troubles anxieux",
+        "Psychoses aiguës",
+        "Psychoses chroniques",
+        "Santé mentale et sectorisation"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le semestre couvre les troubles anxieux, les psychoses, les soins spécifiques et l'organisation des soins psychiatriques."
+    },
+    {
+      "question": "La posture soignante en psychiatrie implique écoute, respect, bienveillance et tolérance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La relation thérapeutique nécessite une communication adaptée et une attitude non jugeante."
+    },
+    {
+      "question": "Le consentement aux soins est toujours possible dans les soins sans consentement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les soins sans consentement concernent des situations où les troubles rendent le consentement impossible."
+    },
+    {
+      "question": "Quel mode d'hospitalisation associe un tiers et, hors urgence, deux certificats médicaux ?",
+      "options": [
+        "SPDT",
+        "SPPI",
+        "SPDRE",
+        "SPL"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La SPDT repose sur une demande de tiers et deux certificats médicaux."
+    },
+    {
+      "question": "Quel mode s'applique en l'absence de tiers lorsqu'il existe un péril imminent pour la santé du patient ?",
+      "options": [
+        "SPPI",
+        "SPL",
+        "SPDT",
+        "Hospitalisation de jour"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La SPPI est prévue lorsqu'aucun tiers ne peut déclencher la procédure."
+    },
+    {
+      "question": "Le JLD intervient car les soins psychiatriques sans consentement constituent une privation de liberté.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il veille au respect des droits et statue sur la poursuite de l'hospitalisation complète."
+    },
+    {
+      "question": "Quel dispositif est le pivot de l'organisation sectorielle ?",
+      "options": [
+        "CMP",
+        "Appartement thérapeutique",
+        "Bloc opératoire",
+        "Service de réanimation"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le CMP assure l'accueil, l'orientation, le repérage, les soins et la prévention en proximité."
+    },
+    {
+      "question": "La sectorisation favorise la continuité entre intra-hospitalier et extra-hospitalier.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La coordination par l'équipe pluridisciplinaire est un principe fort de la sectorisation."
+    },
+    {
+      "question": "Quel repère de durée aide à différencier épisode psychotique aigu et psychose chronique ?",
+      "options": [
+        "Six mois",
+        "Vingt-quatre heures",
+        "Douze jours",
+        "Une heure"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Moins de six mois oriente vers l'aigu; plus de six mois vers une chronicité possible."
+    },
+    {
+      "question": "Quels éléments composent T.O.M.A.T.E. pour analyser un délire ?",
+      "options": [
+        "Thèmes",
+        "Organisation",
+        "Mécanismes",
+        "Adhésion"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La grille comprend aussi temporalité et émotions associées."
+    },
+    {
+      "question": "Un délire peut être systématisé ou non systématisé selon son organisation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La systématisation indique l'existence de liens et d'une logique interne entre les idées."
+    },
+    {
+      "question": "Face à un délire, le soignant doit argumenter jusqu'à convaincre le patient de son erreur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La confrontation directe majore le risque de rupture relationnelle; il faut accueillir le vécu sans adhérer au délire."
+    },
+    {
+      "question": "Quels signes peuvent traduire un syndrome dissociatif ?",
+      "options": [
+        "Discours incohérent",
+        "Émotions inadaptées",
+        "Comportements étranges",
+        "Pensée illogique"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La dissociation touche les domaines cognitif, émotionnel et comportemental."
+    },
+    {
+      "question": "La bouffée délirante aiguë impose généralement une hospitalisation urgente.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La sécurité du patient et l'intensité du tableau justifient une prise en charge rapide."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une bouffée délirante aiguë ?",
+      "options": [
+        "Survenue brutale",
+        "Délire polymorphe",
+        "Anxiété importante",
+        "Désorganisation psychique"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le tableau est aigu, intense et souvent fluctuant."
+    },
+    {
+      "question": "La psychose puerpérale est une urgence médicale du post-partum.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle survient dans les premières semaines après l'accouchement et nécessite une prise en charge immédiate."
+    },
+    {
+      "question": "Dans la mélancolie délirante, le risque suicidaire est très élevé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La douleur morale, le désespoir et les idées délirantes imposent une surveillance étroite."
+    },
+    {
+      "question": "Quels symptômes appartiennent aux symptômes positifs de la schizophrénie ?",
+      "options": [
+        "Hallucinations",
+        "Délires",
+        "Troubles de la pensée",
+        "Agitation psychomotrice possible"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les symptômes positifs correspondent à des productions psychiques et comportementales pathologiques."
+    },
+    {
+      "question": "Quels symptômes appartiennent plutôt aux symptômes négatifs de la schizophrénie ?",
+      "options": [
+        "Démotivation",
+        "Retrait social",
+        "Froideur affective",
+        "Négligence de l'hygiène"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les symptômes négatifs se manifestent par une perte d'élan, une réduction de l'expression émotionnelle et le repli."
+    },
+    {
+      "question": "Les antipsychotiques sont le traitement pharmacologique de référence de la schizophrénie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ils sont utilisés dans les épisodes aigus et en traitement d'entretien."
+    },
+    {
+      "question": "La psychose hallucinatoire chronique est marquée par des hallucinations riches et un automatisme mental.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle se distingue notamment par l'absence de syndrome dissociatif marqué."
+    },
+    {
+      "question": "La psychose paranoïaque conserve souvent les capacités intellectuelles et l'orientation temporo-spatiale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le délire est chronique et systématisé, mais les fonctions intellectuelles peuvent rester préservées."
+    },
+    {
+      "question": "Quel principe relationnel est essentiel avec un patient paranoïaque ?",
+      "options": [
+        "Clarté, cohérence et absence d'ambiguïté",
+        "Ironie répétée pour tester sa réaction",
+        "Promesses impossibles à tenir",
+        "Confrontation directe du délire"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La prévisibilité et la cohérence du soignant soutiennent le cadre sécurisant."
+    },
+    {
+      "question": "Le TAG se caractérise par une inquiétude excessive sur plusieurs domaines pendant au moins six mois.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le TAG n'est pas limité à une situation unique et s'accompagne d'une difficulté à contrôler l'inquiétude."
+    },
+    {
+      "question": "Quels signes sont compatibles avec le TAG ?",
+      "options": [
+        "Fatigabilité",
+        "Irritabilité",
+        "Tension musculaire",
+        "Troubles du sommeil"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces signes font partie des symptômes associés présentés."
+    },
+    {
+      "question": "Le trouble panique impose d'exclure une substance ou une affection médicale pouvant expliquer les symptômes.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'exclusion des causes organiques ou toxiques fait partie du raisonnement diagnostique."
+    },
+    {
+      "question": "L'agoraphobie peut concerner les transports en commun, les espaces ouverts, les endroits fermés, les files ou la foule.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces situations partagent la crainte de ne pas pouvoir s'échapper ou obtenir de l'aide."
+    },
+    {
+      "question": "La phobie sociale porte sur des situations où la personne peut être observée, jugée ou humiliée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle entraîne évitement ou souffrance significative."
+    },
+    {
+      "question": "Pour les phobies simples, la prise en charge met l'accent sur l'exposition graduée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les TCC avec exposition progressive sont citées, avec soutien infirmier et éducation thérapeutique."
+    },
+    {
+      "question": "Dans le TOC, soutenir le patient sans renforcer les rituels est une attitude infirmière adaptée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le renforcement des rituels entretient le trouble; l'accompagnement doit rester soutenant et progressif."
+    },
+    {
+      "question": "Les symptômes du trouble de conversion sont intentionnellement simulés.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les symptômes ne sont pas produits volontairement et doivent être accueillis sans jugement."
+    },
+    {
+      "question": "Le trouble de stress aigu dure au maximum quatre semaines, alors que le TSPT dépasse un mois.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La durée est un repère central entre TSA et TSPT."
+    },
+    {
+      "question": "Quels symptômes sont typiques du TSPT ?",
+      "options": [
+        "Intrusions",
+        "Évitement",
+        "Hypervigilance ou hyperréactivité",
+        "Altérations cognitives et émotionnelles"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le TSPT associe plusieurs dimensions après un événement traumatique."
+    },
+    {
+      "question": "Dans les troubles traumatiques, l'évaluation du risque suicidaire et la surveillance des conduites addictives font partie du rôle infirmier.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces points complètent l'écoute empathique et le soutien dans les démarches thérapeutiques."
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "title": "UE 2.6 S5 - Modes d'hospitalisation en psychiatrie",
+  "subtitle": "Cadre légal, soins libres, SPDT, SPDTU, SPPI, SPDRE, période d'observation et juge des libertés",
+  "questions": [
+    {
+      "question": "Quel mode de soins correspond à une prise en charge avec accord du patient ?",
+      "options": [
+        "SPL",
+        "SPDT",
+        "SPPI",
+        "SPDRE"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les soins psychiatriques libres supposent l'accord du patient."
+    },
+    {
+      "question": "Quels modes peuvent relever de soins psychiatriques sans consentement ?",
+      "options": [
+        "SPDT",
+        "SPDTU",
+        "SPPI",
+        "SPDRE",
+        "SPL"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "SPDT, SPDTU, SPPI et SPDRE relèvent des soins sans consentement; les soins libres reposent sur l'accord du patient."
+    },
+    {
+      "question": "Une personne peut faire l'objet de soins psychiatriques sans consentement si ses troubles rendent impossible son consentement et imposent des soins immédiats avec surveillance médicale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les deux conditions sont nécessaires: impossibilité du consentement et nécessité de soins immédiats avec surveillance constante ou régulière."
+    },
+    {
+      "question": "En SPDT, qui prononce l'admission ?",
+      "options": [
+        "Le directeur de l'établissement",
+        "Le patient lui-même",
+        "Le JLD avant toute entrée",
+        "Le tiers seul"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'admission en SPDT est prononcée par le directeur de l'établissement."
+    },
+    {
+      "question": "En SPDT, combien de certificats médicaux accompagnent normalement l'admission ?",
+      "options": [
+        "Deux",
+        "Un seul",
+        "Aucun",
+        "Trois obligatoirement"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La SPDT doit être accompagnée de deux certificats médicaux circonstanciés."
+    },
+    {
+      "question": "En SPDT, le premier certificat doit obligatoirement être établi par un médecin extérieur à l'établissement d'accueil.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette exigence participe à la régularité de la procédure."
+    },
+    {
+      "question": "La demande de SPDT peut être présentée par un membre de la famille ou par une personne agissant dans l'intérêt du patient avec relations antérieures.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le tiers doit pouvoir justifier d'une relation antérieure lui donnant qualité pour agir dans l'intérêt du patient."
+    },
+    {
+      "question": "Le personnel soignant de l'établissement d'accueil peut être le tiers demandeur en SPDT.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les personnels soignants exerçant dans l'établissement d'accueil sont exclus du rôle de tiers demandeur."
+    },
+    {
+      "question": "Dans quel cas la SPDTU peut-elle être utilisée ?",
+      "options": [
+        "Urgence avec risque grave d'atteinte à l'intégrité du malade",
+        "Demande de confort familial",
+        "Absence de tout trouble mental",
+        "Hospitalisation libre programmée"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La SPDTU permet une admission à la demande d'un tiers avec un seul certificat lorsqu'il existe un risque grave d'atteinte à l'intégrité du malade."
+    },
+    {
+      "question": "En SPDTU, l'admission peut être prononcée au vu d'un seul certificat médical.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le certificat unique est admis dans le cadre de l'urgence."
+    },
+    {
+      "question": "En SPDTU, le certificat unique peut être émis par un médecin exerçant dans l'établissement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette possibilité distingue la procédure d'urgence de la SPDT habituelle."
+    },
+    {
+      "question": "À quoi correspond la SPPI ?",
+      "options": [
+        "Péril imminent sans tiers susceptible de déclencher la procédure",
+        "Décision libre du patient",
+        "Demande systématique du maire",
+        "Hospitalisation motivée par un problème social isolé"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La SPPI concerne l'absence de tiers et l'existence d'un péril imminent pour la santé de la personne."
+    },
+    {
+      "question": "En SPPI, l'établissement doit rechercher un tiers après l'admission.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'absence de recherche de tiers expose la décision à une annulation."
+    },
+    {
+      "question": "La période d'observation initiale en soins sans consentement se déroule sous forme d'hospitalisation complète.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La période d'observation et de soins initiale est organisée sous la forme d'une hospitalisation complète."
+    },
+    {
+      "question": "Dans les 24 heures suivant l'admission, quel examen est attendu ?",
+      "options": [
+        "Un examen somatique complet par un médecin",
+        "Uniquement un entretien administratif",
+        "Une décision du JLD obligatoire",
+        "Un bilan social sans avis médical"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Un médecin réalise un examen somatique complet dans les 24 heures."
+    },
+    {
+      "question": "Dans les 24 heures, un psychiatre de l'établissement établit un certificat confirmant ou non la nécessité de maintenir les soins.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ce certificat constate l'état mental et vérifie si les conditions d'admission restent réunies."
+    },
+    {
+      "question": "Le psychiatre qui rédige le certificat des 24 heures peut être l'auteur du certificat d'admission initial.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il ne peut pas être l'auteur du certificat ou d'un des certificats ayant fondé l'admission."
+    },
+    {
+      "question": "Dans les 72 heures suivant l'admission, un nouveau certificat médical est établi.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le certificat des 72 heures participe à l'évaluation du maintien ou non de la mesure."
+    },
+    {
+      "question": "Si l'un des certificats de 24 h ou 72 h conclut que la mesure n'est plus justifiée, que doit faire le directeur ?",
+      "options": [
+        "Prononcer immédiatement la levée de la mesure",
+        "Attendre obligatoirement six mois",
+        "Transformer automatiquement en SPDRE",
+        "Maintenir l'hospitalisation sans décision"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La levée est immédiate si un certificat conclut que l'état ne justifie plus les soins sans consentement."
+    },
+    {
+      "question": "Si les certificats concluent au maintien, le directeur peut maintenir les soins pour une durée d'un mois selon la forme proposée par le psychiatre.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le maintien d'un mois est prononcé avec la forme de prise en charge proposée."
+    },
+    {
+      "question": "Que signifie SPDRE ?",
+      "options": [
+        "Soins psychiatriques sur décision du représentant de l'État",
+        "Soins psychiatriques demandés régulièrement en équipe",
+        "Suivi psychiatrique libre et renforcé",
+        "Séjour programmé de réhabilitation extérieure"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La SPDRE est décidée par le représentant de l'État dans le département."
+    },
+    {
+      "question": "En SPDRE, le certificat médical circonstancié ne peut pas émaner d'un psychiatre exerçant dans l'établissement d'accueil.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette règle fait partie des conditions de régularité de l'admission."
+    },
+    {
+      "question": "La SPDRE concerne notamment des troubles mentaux qui compromettent la sûreté des personnes ou portent gravement atteinte à l'ordre public.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La décision est liée à la nécessité de soins et à l'atteinte à la sûreté des personnes ou à l'ordre public."
+    },
+    {
+      "question": "Quelles modalités peuvent conduire à une admission en SPDRE ?",
+      "options": [
+        "Demande du maire avec arrêté municipal",
+        "Demande du préfet avec arrêté préfectoral",
+        "Décision des autorités judiciaires après irresponsabilité pénale",
+        "Simple souhait du voisinage sans certificat"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La SPDRE peut suivre une demande du maire, du préfet ou une décision des autorités judiciaires dans les conditions prévues."
+    },
+    {
+      "question": "Un arrêté municipal en SPDRE doit être confirmé par un arrêté préfectoral dans les 48 heures.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette confirmation est une condition indiquée pour la modalité à la demande du maire."
+    },
+    {
+      "question": "Quel est le rôle du juge des libertés et de la détention en hospitalisation complète sans consentement ?",
+      "options": [
+        "Contrôler le respect des droits et statuer sur la poursuite de la mesure",
+        "Prescrire les neuroleptiques",
+        "Choisir le service d'hospitalisation",
+        "Remplacer le tiers demandeur"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le JLD intervient car les soins sans consentement constituent une privation de liberté."
+    },
+    {
+      "question": "Le JLD doit être saisi dans un délai de 8 jours à compter de l'admission.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La saisine est réalisée par le directeur d'établissement ou par le représentant de l'État."
+    },
+    {
+      "question": "L'hospitalisation complète sans consentement ne peut pas se poursuivre si le JLD n'a pas statué avant le 12e jour.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le juge doit statuer avant l'expiration du délai de douze jours."
+    },
+    {
+      "question": "Si la mesure d'hospitalisation complète se poursuit, le contrôle du JLD est ensuite renouvelé tous les 6 mois.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le contrôle périodique se poursuit tous les six mois en cas de maintien de l'hospitalisation complète."
+    },
+    {
+      "question": "Qui peut saisir le JLD à tout moment pour demander une mainlevée ?",
+      "options": [
+        "Le patient",
+        "Le tuteur ou curateur",
+        "Le conjoint ou concubin",
+        "Le procureur de la République"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Plusieurs personnes peuvent saisir le JLD, et il peut aussi se saisir d'office."
+    }
+  ]
+}

@@ -1,0 +1,545 @@
+{
+  "title": "UE 2.6 S5 - Psychoses chroniques",
+  "subtitle": "Schizophrénie, symptômes positifs et négatifs, PHC, psychoses paranoïaques, traitements et surveillance",
+  "questions": [
+    {
+      "question": "La schizophrénie est caractérisée notamment par une perte de contact avec la réalité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La psychose, les hallucinations, les idées délirantes et les troubles de la pensée font partie du tableau."
+    },
+    {
+      "question": "Quels éléments peuvent caractériser la schizophrénie ?",
+      "options": [
+        "Hallucinations",
+        "Idées délirantes",
+        "Désorganisation de la pensée et du discours",
+        "Altération du fonctionnement social et professionnel"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La schizophrénie touche les perceptions, la pensée, la cognition et le fonctionnement quotidien."
+    },
+    {
+      "question": "La schizophrénie n'affecte pas nécessairement l'intelligence proprement dite, mais peut entraîner des déficits cognitifs.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les troubles cognitifs peuvent concerner attention, mémoire, apprentissage et traitement de l'information."
+    },
+    {
+      "question": "Le début de la schizophrénie peut être progressif, insidieux ou plus soudain.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'installation peut s'étaler sur des semaines ou des mois, ou apparaître plus brutalement."
+    },
+    {
+      "question": "Quelles sont les quatre catégories générales de symptômes de la schizophrénie ?",
+      "options": [
+        "Symptômes positifs",
+        "Symptômes négatifs",
+        "Désorganisation",
+        "Troubles cognitifs"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Cette classification aide à organiser la sémiologie de la schizophrénie."
+    },
+    {
+      "question": "Les hallucinations et les délires sont des symptômes dits positifs de la schizophrénie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les symptômes positifs correspondent à des productions psychiques ajoutées au fonctionnement habituel."
+    },
+    {
+      "question": "Les hallucinations auditives sont les plus fréquentes dans la schizophrénie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les hallucinations peuvent toucher plusieurs sens, mais les voix sont particulièrement fréquentes."
+    },
+    {
+      "question": "Dans la schizophrénie, les délires peuvent porter sur la persécution, la mégalomanie ou le mysticisme.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les thèmes délirants peuvent être multiples et parfois sans lien logique entre eux."
+    },
+    {
+      "question": "Les troubles de la pensée et du langage peuvent rendre la communication très difficile.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le discours peut devenir incohérent, illogique, parasité ou construit avec des néologismes."
+    },
+    {
+      "question": "Quels signes peuvent correspondre aux troubles psychomoteurs dans la schizophrénie ?",
+      "options": [
+        "Gestes impulsifs",
+        "Mouvements répétés",
+        "Rires paradoxaux",
+        "Immobilité prolongée"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'agitation ou l'inhibition psychomotrice peuvent toutes deux être observées."
+    },
+    {
+      "question": "Les symptômes négatifs peuvent faire paraître le patient froid, distant ou dépourvu d'émotions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette apparence ne signifie pas absence de vécu émotionnel; une discordance peut exister."
+    },
+    {
+      "question": "La démotivation dans la schizophrénie doit être distinguée d'une simple paresse.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le manque d'énergie et d'initiative relève du trouble et peut entraîner négligence de l'hygiène."
+    },
+    {
+      "question": "Quels signes relèvent des symptômes négatifs ?",
+      "options": [
+        "Froideur affective",
+        "Désintérêt pour les autres",
+        "Isolement",
+        "Perte de motivation"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les symptômes négatifs se traduisent par retrait, apathie, pauvreté émotionnelle ou perte d'élan."
+    },
+    {
+      "question": "La dépersonnalisation correspond à une perte du sentiment d'être soi-même.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle peut s'accompagner d'anxiété et d'attitudes d'autocontemplation."
+    },
+    {
+      "question": "La schizophrénie paranoïde est la forme la plus fréquente.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle associe idées délirantes très présentes et hallucinations souvent auditives."
+    },
+    {
+      "question": "Quels éléments caractérisent la schizophrénie paranoïde ?",
+      "options": [
+        "Début généralement après 20 ans et avant 30 ans",
+        "Idées délirantes très présentes",
+        "Hallucinations souvent auditives",
+        "Absence totale de réponse au traitement"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La forme paranoïde peut bien répondre au traitement et permettre une vie sociale et professionnelle satisfaisante."
+    },
+    {
+      "question": "La schizophrénie simple est surtout marquée par des symptômes négatifs.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les idées délirantes et hallucinations y sont moins prononcées que dans la forme paranoïde."
+    },
+    {
+      "question": "L'hébéphrénie débute souvent avant 20 ans et comporte des symptômes négatifs prédominants.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle peut associer repli, indifférence, langage incohérent et refus fréquent des traitements."
+    },
+    {
+      "question": "La schizophrénie catatonique peut comporter prostration, positions rigides, écholalie ou échopraxie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La catatonie touche fortement la motricité et l'imitation des gestes ou paroles."
+    },
+    {
+      "question": "Les troubles schizo-affectifs associent symptômes schizophréniques et troubles de l'humeur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ils peuvent combiner délires ou hallucinations avec dépression ou manie."
+    },
+    {
+      "question": "Quel traitement pharmacologique est la référence dans la schizophrénie ?",
+      "options": [
+        "Antipsychotiques",
+        "Antibiotiques",
+        "Anticoagulants",
+        "Antalgiques seuls"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les antipsychotiques sont utilisés pour les épisodes aigus et en entretien pour prévenir les rechutes."
+    },
+    {
+      "question": "Les antipsychotiques atypiques sont généralement recommandés en première intention en raison d'une meilleure tolérance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le choix tient compte de la réponse antérieure, des effets secondaires et de la sensibilité du patient."
+    },
+    {
+      "question": "Quelles approches peuvent compléter le traitement médicamenteux de la schizophrénie ?",
+      "options": [
+        "Psychothérapie de soutien",
+        "TCC",
+        "Interventions sociales et familiales",
+        "Réhabilitation psychosociale"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La prise en charge dépasse le médicament et vise l'autonomie, les relations et l'insertion."
+    },
+    {
+      "question": "La psychose hallucinatoire chronique débute plutôt tardivement et se distingue par l'absence de syndrome dissociatif marqué.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle touche souvent l'adulte d'âge moyen ou avancé avec hallucinations riches et délire chronique."
+    },
+    {
+      "question": "Quelle caractéristique correspond à la psychose hallucinatoire chronique ?",
+      "options": [
+        "Automatisme mental prédominant",
+        "Début exclusivement adolescent",
+        "Dissociation profonde obligatoire",
+        "Absence d'hallucinations"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La PHC est une psychose délirante chronique avec automatisme mental, sans déstructuration profonde de la personnalité."
+    },
+    {
+      "question": "Quels signes peuvent appartenir à la PHC ?",
+      "options": [
+        "Hallucinations auditives riches et constantes",
+        "Idées d'influence",
+        "Contrôle externe de la pensée",
+        "Conservation relative des activités intellectuelles"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La PHC conserve souvent une certaine relation à la réalité malgré le retentissement quotidien."
+    },
+    {
+      "question": "Le syndrome d'automatisme mental de Clérambault comprend des formes idéo-verbales, sensorielles-sensitives et psychomotrices.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces formes correspondent à des pensées, sensations ou gestes vécus comme imposés."
+    },
+    {
+      "question": "La psychose paranoïaque est un état délirant chronique sans dissociation mentale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle se caractérise notamment par un délire interprétatif, systématisé et une anosognosie."
+    },
+    {
+      "question": "Quels éléments caractérisent la psychose paranoïaque ?",
+      "options": [
+        "Délire persécutif interprétatif et systématisé",
+        "Conservation des capacités intellectuelles",
+        "Installation progressive",
+        "Désorganisation profonde obligatoire"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La psychose paranoïaque préserve souvent l'orientation, la mémoire et les capacités intellectuelles."
+    },
+    {
+      "question": "Dans le trouble délirant, les critères de schizophrénie ne sont pas remplis.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le fonctionnement n'est pas marqué par les mêmes altérations que dans la schizophrénie."
+    },
+    {
+      "question": "Quels sous-types de trouble délirant sont cités ?",
+      "options": [
+        "Persécutoire",
+        "Érotomaniaque",
+        "Jaloux",
+        "Somatique"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le délire peut prendre plusieurs formes thématiques."
+    },
+    {
+      "question": "Les délires passionnels comportent une participation émotionnelle intense et une idée prévalente.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ils peuvent mener à des revendications et comporter un risque hétéro-agressif."
+    },
+    {
+      "question": "L'érotomanie correspond à l'illusion délirante d'être aimé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La forme typique évolue par espoir, dépit puis rancune."
+    },
+    {
+      "question": "Le délire de jalousie consiste à transformer la situation amoureuse en situation triangulaire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le patient est persuadé d'être trompé, avec intuition puis interprétation."
+    },
+    {
+      "question": "Dans le délire d'interprétation systématisé, tout peut devenir objet d'interprétation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Situations, mimiques, gestes, paroles ou sensations peuvent être interprétés comme des signes."
+    },
+    {
+      "question": "Quels thèmes peuvent apparaître dans la psychose paranoïaque ?",
+      "options": [
+        "Persécution",
+        "Préjudice",
+        "Jalousie",
+        "Revendication"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les thèmes fréquents incluent surveillance, injustice, infidélité, érotomanie et revendication."
+    },
+    {
+      "question": "La quérulence désigne une tendance aux procès et aux réclamations.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle peut accompagner les idées délirantes systématisées et le vécu de préjudice."
+    },
+    {
+      "question": "Quels mécanismes de défense psychiques sont cités dans la psychose paranoïaque ?",
+      "options": [
+        "Projection",
+        "Déni",
+        "Clivage",
+        "Rationalisation excessive"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces mécanismes participent à l'organisation relationnelle et au maintien du délire."
+    },
+    {
+      "question": "Quels objectifs thérapeutiques concernent la psychose paranoïaque ?",
+      "options": [
+        "Réduction de l'intensité délirante",
+        "Prévention des passages à l'acte",
+        "Amélioration du fonctionnement social",
+        "Traitement des comorbidités"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La prise en charge est multidisciplinaire et vise sécurité, lien et fonctionnement."
+    },
+    {
+      "question": "Dans la relation thérapeutique avec un patient paranoïaque, il faut éviter la confrontation directe au délire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La communication doit rester claire, prévisible, cohérente et respectueuse sans adhérer au délire."
+    },
+    {
+      "question": "Quelles attitudes sont adaptées avec un patient présentant une psychose paranoïaque ?",
+      "options": [
+        "Authenticité et cohérence",
+        "Distance professionnelle bienveillante",
+        "Écoute active sans jugement",
+        "Plaisanteries ambiguës pour détendre"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les ambiguïtés et les plaisanteries peuvent être mal interprétées et fragiliser le cadre."
+    },
+    {
+      "question": "La surveillance clinique d'une psychose paranoïaque inclut l'intensité du délire, l'humeur, l'anxiété, l'alimentation, le sommeil et l'observance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La surveillance porte aussi sur l'isolement, l'agressivité, l'autonomie et le niveau d'insight."
+    },
+    {
+      "question": "Une rupture thérapeutique et un isolement social progressif peuvent compliquer une psychose paranoïaque.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces complications doivent être anticipées dans le suivi et la relation de soins."
+    }
+  ]
+}

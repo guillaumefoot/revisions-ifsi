@@ -1,0 +1,518 @@
+{
+  "title": "UE 2.6 S5 - Troubles anxieux et troubles névrotiques",
+  "subtitle": "Anxiété généralisée, panique, agoraphobie, anxiété sociale, phobies spécifiques, TOC, conversion et traumatismes",
+  "questions": [
+    {
+      "question": "Quel élément occupe une place centrale dans les troubles anxieux et troubles névrotiques ?",
+      "options": [
+        "L'anxiété",
+        "La fièvre",
+        "La désorientation permanente",
+        "La perte systématique du langage"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces troubles regroupent des pathologies où la peur et l'anxiété excessives sont centrales."
+    },
+    {
+      "question": "Les troubles névrotiques se caractérisent par une absence de désorganisation profonde de la personnalité et une absence de perte du sens de la réalité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le patient reste lucide même si son comportement est perturbé par l'anxiété, les phobies, obsessions ou manifestations hystériques."
+    },
+    {
+      "question": "Quels troubles sont cités parmi les principaux troubles anxieux ou névrotiques ?",
+      "options": [
+        "TAG",
+        "Trouble panique",
+        "TOC",
+        "Trouble de conversion"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le module inclut aussi agoraphobie, phobie sociale, phobies spécifiques et troubles liés aux traumatismes."
+    },
+    {
+      "question": "Le trouble anxieux généralisé correspond à une anxiété excessive, permanente et difficile à contrôler.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les inquiétudes portent sur plusieurs aspects de la vie courante et sont souvent disproportionnées."
+    },
+    {
+      "question": "Quelle durée minimale est associée au TAG dans les critères présentés ?",
+      "options": [
+        "Au moins six mois",
+        "Moins de 24 heures",
+        "Une semaine exactement",
+        "Deux ans obligatoirement"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'anxiété et les soucis excessifs surviennent la plupart du temps depuis au moins six mois."
+    },
+    {
+      "question": "Quels symptômes peuvent être associés au TAG ?",
+      "options": [
+        "Fatigabilité",
+        "Difficulté de concentration",
+        "Irritabilité",
+        "Tension musculaire"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les symptômes associés incluent aussi agitation et perturbation du sommeil."
+    },
+    {
+      "question": "Dans le TAG, l'anxiété doit entraîner une souffrance cliniquement significative ou une altération du fonctionnement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le retentissement social, professionnel ou dans d'autres domaines importants est nécessaire."
+    },
+    {
+      "question": "La prise en soins du TAG peut associer antidépresseurs, anxiolytiques de très courte durée, TCC, méditation et relaxation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La prise en charge combine traitements médicamenteux et non médicamenteux."
+    },
+    {
+      "question": "Le trouble panique implique des attaques de panique récurrentes et inattendues.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les attaques surviennent sans facteur déclenchant identifié dans le trouble panique."
+    },
+    {
+      "question": "Quels symptômes peuvent survenir lors d'une attaque de panique ?",
+      "options": [
+        "Palpitations",
+        "Sensation d'étouffement",
+        "Paresthésies",
+        "Peur de mourir"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les attaques peuvent associer manifestations somatiques, déréalisation, dépersonnalisation et peur intense."
+    },
+    {
+      "question": "Après une attaque de panique, une inquiétude persistante pendant au moins un mois ou un changement de comportement peut participer au diagnostic.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La crainte d'une nouvelle attaque ou l'évitement durable sont des conséquences caractéristiques."
+    },
+    {
+      "question": "Le trouble panique doit être distingué des effets d'une substance ou d'une affection médicale comme l'hyperthyroïdie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les causes organiques ou toxiques doivent être exclues."
+    },
+    {
+      "question": "La prise en soins du trouble panique peut inclure TCC avec exposition et prévention.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les antidépresseurs, anxiolytiques et approches psychothérapeutiques sont cités."
+    },
+    {
+      "question": "Qu'est-ce que l'agoraphobie ?",
+      "options": [
+        "Une anxiété marquée dans des situations où il serait difficile de s'échapper ou d'obtenir de l'aide",
+        "Une peur limitée à une seule pensée intrusive",
+        "Une perte de contact avec la réalité",
+        "Un trouble moteur sans anxiété"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La peur porte sur l'impossibilité de fuir ou d'être secouru en cas de symptômes paniques ou incapacitants."
+    },
+    {
+      "question": "Quelles situations peuvent être concernées par l'agoraphobie ?",
+      "options": [
+        "Transports en commun",
+        "Endroits ouverts",
+        "Endroits fermés",
+        "Foule ou file d'attente"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Être seul à l'extérieur du domicile fait aussi partie des situations citées."
+    },
+    {
+      "question": "Dans l'agoraphobie, les situations sont souvent évitées ou nécessitent la présence d'un compagnon.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'évitement ou l'endurance avec anxiété intense participe au retentissement."
+    },
+    {
+      "question": "Quel rôle infirmier est pertinent dans l'agoraphobie ?",
+      "options": [
+        "Accompagnement progressif vers l'autonomie",
+        "Renforcement de l'évitement",
+        "Absence d'éducation sur l'anxiété",
+        "Arrêt de toute évaluation des capacités de déplacement"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le rôle infirmier inclut l'évaluation, l'accompagnement progressif, l'éducation et le soutien à l'observance."
+    },
+    {
+      "question": "La phobie sociale est aussi appelée trouble d'anxiété sociale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle concerne les situations sociales où la personne peut être observée, jugée ou humiliée."
+    },
+    {
+      "question": "La peur dans la phobie sociale persiste au moins six mois et entraîne évitement ou souffrance clinique significative.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La durée et le retentissement permettent de distinguer une gêne sociale ordinaire d'un trouble."
+    },
+    {
+      "question": "Quels signes peuvent être observés dans la phobie sociale ?",
+      "options": [
+        "Rougissement",
+        "Transpiration",
+        "Tremblements",
+        "Anxiété anticipatoire majeure"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les manifestations physiques et l'évitement social retentissent sur la vie professionnelle et sociale."
+    },
+    {
+      "question": "Les traitements de la phobie sociale peuvent inclure antidépresseurs si nécessaire et TCC.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La psychothérapie cognitivo-comportementale est citée dans la prise en charge."
+    },
+    {
+      "question": "La phobie spécifique correspond à une peur ou anxiété intense à propos d'un objet ou d'une situation spécifique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle peut concerner par exemple le vol, les hauteurs, les animaux, les injections ou le sang."
+    },
+    {
+      "question": "Dans une phobie spécifique, l'objet phobogène provoque presque toujours une réponse immédiate de peur ou d'anxiété.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le sujet évite activement l'objet ou le supporte avec une peur intense."
+    },
+    {
+      "question": "Les phobies spécifiques peuvent provoquer une attaque de panique lors de l'exposition.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'anxiété peut être paroxystique au moment de l'exposition."
+    },
+    {
+      "question": "Aucun traitement médicamenteux n'est indiqué pour les phobies simples dans cette prise en soins.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La prise en charge repose surtout sur TCC, exposition graduée, soutien et éducation thérapeutique."
+    },
+    {
+      "question": "Le TOC est un trouble chronique caractérisé par des obsessions, des compulsions ou les deux.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces symptômes entraînent détresse ou altération du fonctionnement quotidien."
+    },
+    {
+      "question": "Que sont les obsessions dans le TOC ?",
+      "options": [
+        "Pensées, impulsions ou images intrusives provoquant anxiété ou détresse",
+        "Gestes volontaires destinés à gagner du temps",
+        "Idées délirantes systématisées",
+        "Troubles moteurs incompatibles avec la neurologie"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les obsessions sont récurrentes, intrusives et vécues comme inappropriées."
+    },
+    {
+      "question": "Que sont les compulsions dans le TOC ?",
+      "options": [
+        "Comportements répétitifs ou actes mentaux réalisés en réponse à une obsession",
+        "Hallucinations auditives imposées",
+        "Perte de mémoire complète",
+        "Délire de grandeur"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Lavage, vérification, comptage ou prières peuvent viser à réduire l'anxiété."
+    },
+    {
+      "question": "Dans le TOC, les obsessions ou compulsions peuvent prendre plus d'une heure par jour.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La durée, la souffrance ou l'altération fonctionnelle participent à la gravité clinique."
+    },
+    {
+      "question": "Quel rôle infirmier est adapté dans le TOC ?",
+      "options": [
+        "Soutenir sans renforcer les rituels",
+        "Encourager l'augmentation des rituels",
+        "Éviter toute éducation",
+        "Supprimer l'exposition progressive"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le rôle infirmier inclut l'évaluation, le soutien, l'éducation, la surveillance de l'isolement et l'accompagnement progressif."
+    },
+    {
+      "question": "Le trouble de conversion est aussi appelé trouble fonctionnel neurologique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il associe des symptômes moteurs ou sensoriels incompatibles avec une pathologie neurologique connue."
+    },
+    {
+      "question": "Quels symptômes peuvent apparaître dans le trouble de conversion ?",
+      "options": [
+        "Paralysies ou troubles de la marche",
+        "Pertes sensorielles",
+        "Crises pseudo-épileptiques",
+        "Aphonie ou mutisme"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les manifestations peuvent être motrices, sensorielles, langagières ou mixtes."
+    },
+    {
+      "question": "Dans le trouble de conversion, les symptômes ne sont pas intentionnellement produits ou simulés.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La non-intentionnalité est un point essentiel de l'attitude soignante."
+    },
+    {
+      "question": "Quel rôle infirmier est pertinent dans le trouble de conversion ?",
+      "options": [
+        "Attitude non jugeante",
+        "Écoute de la souffrance",
+        "Maintien de l'autonomie",
+        "Éducation de l'entourage"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le soignant évite aussi de renforcer les symptômes tout en reconnaissant la souffrance."
+    },
+    {
+      "question": "Le trouble de stress aigu apparaît dans le mois qui suit un événement traumatique et dure au maximum quatre semaines.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il se distingue du TSPT par une durée limitée."
+    },
+    {
+      "question": "Le TSPT est caractérisé par intrusion, évitement, modifications négatives de la cognition et de l'humeur, et altérations de l'éveil et de la réactivité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces quatre groupes de symptômes structurent le tableau clinique."
+    },
+    {
+      "question": "Quelle durée des symptômes est nécessaire pour parler de TSPT ?",
+      "options": [
+        "Supérieure à un mois",
+        "Moins de 24 heures",
+        "Exactement trois jours",
+        "Toujours moins de quatre semaines"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Au-delà d'un mois, le tableau s'oriente vers un TSPT plutôt qu'un trouble de stress aigu."
+    },
+    {
+      "question": "Quels symptômes relèvent de l'intrusion dans le TSPT ?",
+      "options": [
+        "Souvenirs involontaires et récurrents",
+        "Rêves traumatiques",
+        "Flash-backs",
+        "Détresse aux rappels"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les symptômes d'intrusion font revivre l'événement sous différentes formes."
+    },
+    {
+      "question": "Quels signes peuvent faire partie du TSPT ?",
+      "options": [
+        "Évitement des lieux ou personnes",
+        "Anhédonie",
+        "Détachement social",
+        "Culpabilité inadaptée"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le TSPT associe évitement, altérations émotionnelles et cognitives, et hyperréactivité."
+    },
+    {
+      "question": "La prise en charge du TSPT peut inclure TCC centrée sur l'exposition, EMDR, relaxation et antidépresseurs.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La prise en charge vise la réduction des reviviscences, de l'hypervigilance et de la réactivité émotionnelle."
+    },
+    {
+      "question": "Dans les troubles liés au traumatisme, le rôle infirmier comprend l'écoute empathique, l'évaluation du risque suicidaire et la surveillance des conduites addictives.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le soutien thérapeutique et l'éducation de l'entourage sont aussi cités."
+    }
+  ]
+}
