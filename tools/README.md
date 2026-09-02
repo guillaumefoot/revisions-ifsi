@@ -16,7 +16,8 @@ La commande verifie:
 - options non vides ;
 - index `correct` valides ;
 - doublons exacts de questions ;
-- explication obligatoire pour les Vrai/Faux dont la bonne reponse est `Faux`.
+- explication obligatoire pour les Vrai/Faux dont la bonne reponse est `Faux` ;
+- absence de references au support source dans les questions et explications finales.
 
 ## Auditer la playlist active
 

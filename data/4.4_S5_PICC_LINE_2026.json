@@ -1,0 +1,564 @@
+{
+  "title": "UE 4.4 S5 - PICC Line",
+  "subtitle": "Cathéter central à insertion périphérique : indications, manipulation, surveillance et complications",
+  "questions": [
+    {
+      "question": "Le PICC est un cathéter central inséré par voie périphérique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le PICC est introduit par une veine périphérique du bras, mais son extrémité distale est en position centrale."
+    },
+    {
+      "question": "Que signifie PICC ?",
+      "options": ["Peripheral Inserted Central Catheter", "Peripheral Internal Cutaneous Catheter", "Port Implantable Central Catheter", "Proximal Intravenous Care Catheter"],
+      "correct": [0],
+      "explanation": "PICC signifie Peripheral Inserted Central Catheter, traduit par cathéter central à insertion périphérique."
+    },
+    {
+      "question": "Quelles veines du bras peuvent être utilisées pour l'insertion d'un PICC ?",
+      "options": ["Veine basilique", "Veine brachiale", "Veine céphalique", "Veine jugulaire"],
+      "correct": [0, 1, 2],
+      "explanation": "Les veines basilique, brachiale et céphalique sont des veines du bras utilisables. Le PICC évite les veines du cou ou du thorax."
+    },
+    {
+      "question": "L'extrémité distale du PICC est placée à la jonction veine cave supérieure / oreillette.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La position centrale du PICC correspond à une extrémité distale située à la jonction veine cave supérieure / oreillette."
+    },
+    {
+      "question": "Toute la longueur du PICC est visible à la surface de la peau.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Une longue partie du cathéter n'est pas visible car elle chemine dans le système veineux."
+    },
+    {
+      "question": "La pose d'un PICC se fait sans repérage échographique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La pose associe une insertion par une veine du bras, une anesthésie locale et un repérage échographique."
+    },
+    {
+      "question": "Quels professionnels peuvent réaliser la pose d'un PICC ?",
+      "options": ["Radiologue interventionnel", "Médecin anesthésiste réanimateur", "IADE habilité dans certaines conditions", "Aide-soignant en autonomie"],
+      "correct": [0, 1, 2],
+      "explanation": "La pose peut être réalisée par un radiologue interventionnel, un médecin anesthésiste réanimateur, ou par un IADE habilité dans certaines régions sous conditions."
+    },
+    {
+      "question": "Le point d'insertion du PICC est placé au-dessus du pli du coude pour limiter la gêne lors de la flexion du bras.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un point d'insertion au-dessus du pli du coude limite la gêne pendant les mouvements de flexion."
+    },
+    {
+      "question": "Le système de fixation adhésif du PICC permet de fixer le cathéter sans suture.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le stabilisateur adhésif fixe le PICC sans suture et participe à la stabilité du cathéter."
+    },
+    {
+      "question": "Le système de fixation du PICC est changé uniquement une fois par mois.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le changement est prévu tous les 7 jours, sauf si le système est souillé ou décollé."
+    },
+    {
+      "question": "Quelle vérification permet une bonne stabilité du PICC avec son système de fixation ?",
+      "options": ["La compatibilité entre le PICC et le système de fixation", "La couleur du pansement", "Le groupe sanguin du patient", "La longueur des cheveux du patient"],
+      "correct": [0],
+      "explanation": "La compatibilité entre le PICC et le système de fixation doit être vérifiée pour assurer une bonne stabilité."
+    },
+    {
+      "question": "Le PICC est adapté aux traitements nécessitant un accès veineux central de court à moyen terme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le PICC est indiqué lorsque l'accès veineux central est préférable pour une durée de traitement limitée."
+    },
+    {
+      "question": "Quelle durée est associée aux traitements de court à moyen terme par PICC ?",
+      "options": ["7 jours à 3 mois", "Moins de 24 heures", "Toujours plus de 3 ans", "Uniquement le temps d'une injection unique"],
+      "correct": [0],
+      "explanation": "La durée indiquée pour le PICC varie de 7 jours à 3 mois."
+    },
+    {
+      "question": "Quelles situations peuvent justifier l'utilisation d'un PICC ?",
+      "options": ["Chimiothérapie anticancéreuse", "Antibiothérapie au long cours", "Nutrition parentérale", "Prélèvements sanguins comme seule indication de pose"],
+      "correct": [0, 1, 2],
+      "explanation": "La chimiothérapie, l'antibiothérapie au long cours et la nutrition parentérale font partie des indications. Les prélèvements sont possibles, mais ne justifient pas à eux seuls la pose."
+    },
+    {
+      "question": "Les prélèvements sanguins sont possibles sur PICC, mais ne constituent pas une indication de pose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le PICC peut servir aux prélèvements sanguins, mais cette possibilité ne constitue pas une indication de pose."
+    },
+    {
+      "question": "Les produits sanguins labiles font partie des utilisations possibles du PICC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les produits sanguins labiles font partie des traitements pouvant passer par un PICC."
+    },
+    {
+      "question": "Le PICC peut être utilisé chez l'enfant, y compris en néonatalogie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'utilisation du PICC concerne les adultes et les enfants, mais hors néonatalogie."
+    },
+    {
+      "question": "Le PICC est réservé exclusivement au milieu hospitalier.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le PICC peut être utilisé en milieu hospitalier ou à domicile."
+    },
+    {
+      "question": "Quelles situations font partie des contre-indications du PICC ?",
+      "options": ["Irradiation du site d'insertion", "Infection connue ou suspectée du site d'insertion", "Lymphœdème du membre supérieur", "Besoin de limiter les irritations veineuses"],
+      "correct": [0, 1, 2],
+      "explanation": "L'irradiation du site, l'infection du site et le lymphœdème du membre supérieur sont des contre-indications. Limiter les irritations veineuses relève au contraire des indications."
+    },
+    {
+      "question": "La pose d'un PICC du côté d'un curage axillaire ancien ou récent est contre-indiquée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un curage axillaire ancien ou récent du côté concerné fait partie des contre-indications."
+    },
+    {
+      "question": "Les troubles sévères de l'hémostase contre-indiquent la pose d'un PICC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les troubles sévères de l'hémostase sont retenus parmi les contre-indications."
+    },
+    {
+      "question": "Un antécédent de thrombose du membre supérieur est une contre-indication au PICC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les antécédents de thrombose du membre supérieur font partie des contre-indications."
+    },
+    {
+      "question": "Chez un insuffisant rénal pouvant nécessiter une fistule artério-veineuse, la pose d'un PICC est à éviter.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La nécessité prévisible d'une fistule artério-veineuse chez l'insuffisant rénal fait partie des contre-indications."
+    },
+    {
+      "question": "Le PICC est une voie centrale : l'asepsie est donc indispensable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le caractère central du PICC impose une asepsie rigoureuse lors de son utilisation."
+    },
+    {
+      "question": "Quelle confusion doit être évitée avec un PICC Line ?",
+      "options": ["Le confondre avec un Midline", "Le confondre avec un pansement sec", "Le confondre avec une sonde urinaire", "Le confondre avec une voie sous-cutanée"],
+      "correct": [0],
+      "explanation": "Le PICC Line est un cathéter central, alors que le Midline est un cathéter veineux périphérique profond."
+    },
+    {
+      "question": "Le taux d'infection sur PICC est inférieur au taux d'infection sur chambre implantable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le taux d'infection sur PICC est supérieur au taux d'infection sur chambre implantable."
+    },
+    {
+      "question": "Quels risques sont liés à l'utilisation d'un PICC ?",
+      "options": ["Fautes d'asepsie majeures", "Erreurs dans le pansement de fixation", "Mobilisation du PICC", "Absence de risque infectieux"],
+      "correct": [0, 1, 2],
+      "explanation": "Les risques comprennent les fautes d'asepsie, les erreurs de pansement de fixation et la mobilisation du PICC. Le risque infectieux existe."
+    },
+    {
+      "question": "Le PICC est un cathéter rigide en latex.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le PICC est un cathéter souple en silicone ou en polyuréthane."
+    },
+    {
+      "question": "Chez l'adulte, le PICC mesure environ 10 à 20 cm.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La longueur adulte indiquée pour le PICC est comprise entre 40 et 60 cm."
+    },
+    {
+      "question": "Quelles caractéristiques concernent l'extrémité proximale du PICC ?",
+      "options": ["Elle est plus épaisse et renforcée", "Elle correspond à la partie extravasculaire", "Elle peut comporter des ailettes de fixation et un clamp", "Elle est située dans l'oreillette"],
+      "correct": [0, 1, 2],
+      "explanation": "L'extrémité proximale est la partie extravasculaire, plus épaisse et renforcée, avec ailettes de fixation, clamp et parfois valve bidirectionnelle."
+    },
+    {
+      "question": "Les valves bidirectionnelles nécessitent toujours une aiguille pour accéder à la voie veineuse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Les valves bidirectionnelles donnent accès à la voie veineuse sans utiliser d'aiguille."
+    },
+    {
+      "question": "Les valves du PICC s'ouvrent lors de la connexion d'un embout luer-lock mâle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La connexion d'une seringue ou d'un prolongateur avec embout luer-lock mâle ouvre la valve."
+    },
+    {
+      "question": "Une valve bidirectionnelle permet uniquement l'injection, jamais le prélèvement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Une valve bidirectionnelle permet l'injection et le prélèvement."
+    },
+    {
+      "question": "Quels intérêts sont liés au maintien du PICC en système clos ?",
+      "options": ["Limiter la contamination bactérienne", "Limiter l'embolie gazeuse", "Prévenir les accidents d'exposition au sang", "Supprimer toute surveillance du point d'insertion"],
+      "correct": [0, 1, 2],
+      "explanation": "Le système clos limite la contamination bactérienne et l'embolie gazeuse, et participe à la prévention des AES. Il ne supprime pas la surveillance."
+    },
+    {
+      "question": "Les PICC existent uniquement en une seule voie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le PICC peut comporter 1, 2 ou 3 voies selon les besoins."
+    },
+    {
+      "question": "Les PICC à plusieurs voies peuvent être utilisés en cas d'injection simultanée de médicaments incompatibles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Plusieurs voies permettent de gérer des injections simultanées de médicaments incompatibles."
+    },
+    {
+      "question": "Le PICC est un dispositif médical stérile à usage unique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le PICC est un dispositif médical stérile et à usage unique."
+    },
+    {
+      "question": "En cas de retrait accidentel de quelques centimètres du PICC, il faut tenter de le repousser.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il ne faut pas tenter de replacer le cathéter ; il faut contacter le médecin."
+    },
+    {
+      "question": "Quelle conduite est adaptée en cas de retrait accidentel de quelques centimètres du PICC ?",
+      "options": ["Ne pas replacer le cathéter", "Contacter le médecin", "Se référer au protocole de l'établissement", "Repousser doucement le cathéter"],
+      "correct": [0, 1, 2],
+      "explanation": "La conduite consiste à ne pas replacer le cathéter, à contacter le médecin et à suivre le protocole de l'établissement."
+    },
+    {
+      "question": "L'utilisation du PICC doit suivre le protocole de l'établissement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les pratiques d'utilisation du PICC peuvent varier ; le protocole de l'établissement fait référence."
+    },
+    {
+      "question": "Lors du pansement du PICC, le port du masque par le patient est inutile.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le masque du patient fait partie des mesures d'asepsie pendant le pansement."
+    },
+    {
+      "question": "Lors du pansement du PICC, le patient est installé en décubitus latéral ou dorsal.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'installation en décubitus latéral ou dorsal est prévue pour la réalisation du pansement."
+    },
+    {
+      "question": "Quels éléments de protection sont portés par le soignant lors du pansement du PICC ?",
+      "options": ["Masque de soin", "Coiffe", "Gants", "Aucun équipement particulier"],
+      "correct": [0, 1, 2],
+      "explanation": "Le soignant porte un masque de soin, une coiffe et des gants. En extrahospitalier, une sur-blouse est recommandée."
+    },
+    {
+      "question": "Le site d'insertion et le système de fixation du PICC sont protégés par un pansement stérile semi-perméable transparent.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ce pansement protège le site et le système de fixation tout en permettant l'inspection du point de ponction."
+    },
+    {
+      "question": "Le pansement transparent du PICC doit permettre l'inspection du point de ponction.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le pansement semi-perméable transparent permet de surveiller visuellement le point de ponction."
+    },
+    {
+      "question": "La surveillance du point de ponction du PICC est quotidienne et tracée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le point de ponction doit être surveillé chaque jour et cette surveillance doit être tracée."
+    },
+    {
+      "question": "La réfection du pansement du PICC est réalisée par l'infirmier(e) en asepsie rigoureuse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La réfection du pansement relève de l'infirmier(e) et doit respecter des conditions d'asepsie rigoureuse."
+    },
+    {
+      "question": "Le premier pansement du PICC est recommandé 24 à 36 heures après la pose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le premier pansement est changé précocement, entre 24 et 36 heures, en raison du risque élevé de souillure."
+    },
+    {
+      "question": "Le pansement du PICC est changé tous les 7 jours.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La réfection programmée du pansement est réalisée tous les 7 jours."
+    },
+    {
+      "question": "Un pansement de PICC décollé ou souillé doit être changé immédiatement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un décollement ou une souillure impose un changement immédiat du pansement."
+    },
+    {
+      "question": "Le rinçage pulsé du PICC est réalisé uniquement après une administration ou un prélèvement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le rinçage pulsé est réalisé avant et après toute administration ou prélèvement."
+    },
+    {
+      "question": "Hors période d'utilisation, le PICC est rincé tous les 7 jours, avec variations possibles selon les protocoles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le rythme hors utilisation est de 7 jours, mais certaines pratiques peuvent varier selon les protocoles."
+    },
+    {
+      "question": "Une perfusion constitue un rinçage suffisant du PICC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Une perfusion ne remplace pas un rinçage pulsé."
+    },
+    {
+      "question": "Quel produit est utilisé pour le rinçage pulsé du PICC ?",
+      "options": ["NaCl 0,9 %", "Glucose hypertonique en routine", "Antibiotique pur", "Produit fibrinolytique systématique"],
+      "correct": [0],
+      "explanation": "Le rinçage pulsé est réalisé avec du NaCl 0,9 %."
+    },
+    {
+      "question": "Dans quelles situations le volume de rinçage du PICC est augmenté à 20 ml de NaCl 0,9 % ?",
+      "options": ["Après produits sanguins labiles", "Après lipides", "Après mannitol", "Après prise de température"],
+      "correct": [0, 1, 2],
+      "explanation": "Le volume de 20 ml est utilisé après des produits à haute viscosité, comme les PSL, les lipides, le mannitol ou un produit de contraste radiologique."
+    },
+    {
+      "question": "Le rinçage pulsé du PICC repose sur au moins 3 poussées successives.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les poussées successives créent des turbulences dans le cathéter et améliorent l'efficacité du rinçage."
+    },
+    {
+      "question": "Pourquoi faut-il éviter les pistons trop étroits pour rincer un PICC ?",
+      "options": ["Ils augmentent la pression exercée sur le PICC", "Ils rendent l'asepsie inutile", "Ils remplacent le NaCl 0,9 %", "Ils diminuent toujours le risque de rupture"],
+      "correct": [0],
+      "explanation": "Plus la surface du piston est petite, plus la pression exercée sur le PICC est importante."
+    },
+    {
+      "question": "Une seringue de volume inférieur à 10 ml peut entraîner une surpression dans le PICC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une seringue de moins de 10 ml peut créer une surpression et exposer au risque de rupture du cathéter."
+    },
+    {
+      "question": "Pour une injection sur PICC, l'opérateur porte une tenue professionnelle propre ou une sur-blouse à usage unique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La tenue professionnelle propre est requise ; à défaut, une sur-blouse à usage unique est utilisée."
+    },
+    {
+      "question": "Quels équipements sont prévus pour l'opérateur lors d'une injection sur PICC ?",
+      "options": ["Masque", "Charlotte", "Gants stériles", "Aucun équipement d'asepsie"],
+      "correct": [0, 1, 2],
+      "explanation": "L'injection sur PICC se fait avec masque, charlotte et gants stériles."
+    },
+    {
+      "question": "Lors d'une injection sur PICC, si le patient ne porte pas de masque, il tourne la tête du côté opposé au PICC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Lorsque le masque n'est pas porté, tourner la tête du côté opposé limite l'exposition du dispositif."
+    },
+    {
+      "question": "Quelle étape débute la procédure d'injection sur PICC ?",
+      "options": ["Désinfection des mains par friction hydroalcoolique", "Retrait du cathéter", "Purge de 5 ml de sang", "Mesure de la longueur externe"],
+      "correct": [0],
+      "explanation": "La procédure débute par une désinfection des mains par friction hydroalcoolique."
+    },
+    {
+      "question": "Avant administration sur PICC, un rinçage pulsé avec 10 ml de sérum physiologique est réalisé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un rinçage pulsé de 10 ml est réalisé avant l'administration."
+    },
+    {
+      "question": "Après administration sur PICC, un rinçage pulsé immédiat avec 10 ml de sérum physiologique limite le risque d'obstruction.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le rinçage après administration limite le risque d'obstruction du cathéter."
+    },
+    {
+      "question": "Pour un prélèvement sanguin sur PICC, l'opérateur porte une tenue professionnelle propre, un masque et des gants stériles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le prélèvement sanguin impose une tenue professionnelle propre avec masque et gants stériles."
+    },
+    {
+      "question": "Pendant un prélèvement sanguin sur PICC, le patient tourne la tête du côté du PICC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La tête est tournée du côté opposé au PICC pour limiter le risque de contamination."
+    },
+    {
+      "question": "Avant un prélèvement sanguin sur PICC, un rinçage pulsé avec 20 ml de NaCl 0,9 % est réalisé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le prélèvement sanguin est précédé d'un rinçage pulsé avec 20 ml de NaCl 0,9 %."
+    },
+    {
+      "question": "Quelle purge est réalisée avant un prélèvement sanguin sur PICC ?",
+      "options": ["5 ml de sang ou 2 tubes secs", "Aucune purge", "50 ml de sang", "Une purge de produit de contraste"],
+      "correct": [0],
+      "explanation": "La purge correspond à 5 ml de sang ou à 2 tubes secs avant de réaliser le prélèvement."
+    },
+    {
+      "question": "Après un prélèvement sanguin sur PICC, 2 rinçages pulsés efficaces immédiats avec 20 ml de NaCl 0,9 % sont réalisés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Deux rinçages pulsés efficaces et immédiats sont réalisés après le prélèvement pour limiter l'obstruction."
+    },
+    {
+      "question": "Le PICC est retiré dès qu'il n'est plus nécessaire ou en cas de complication.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le retrait est réalisé lorsque le PICC n'est plus utile ou lors de complications comme infection ou thrombose."
+    },
+    {
+      "question": "L'ablation du PICC est une décision médicale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La décision d'ablation relève d'une décision médicale."
+    },
+    {
+      "question": "Le retrait du PICC est douloureux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le retrait du PICC est indolore."
+    },
+    {
+      "question": "Quels gestes font partie du retrait du PICC ?",
+      "options": ["Friction hydroalcoolique", "Gants non stériles sauf mise en culture prévue", "Antisepsie du point de ponction par antiseptique alcoolique", "Repositionnement du cathéter avant retrait"],
+      "correct": [0, 1, 2],
+      "explanation": "Le retrait comprend friction hydroalcoolique, port de gants adaptés et antisepsie du point de ponction. Le cathéter n'est pas repositionné."
+    },
+    {
+      "question": "Au retrait du PICC, la longueur du cathéter retiré est mesurée pour vérifier son intégrité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La longueur retirée doit correspondre à la longueur notée lors de la pose afin de vérifier l'intégrité du cathéter."
+    },
+    {
+      "question": "En cas d'infection, l'extrémité du PICC peut être envoyée au laboratoire de bactériologie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'extrémité du PICC peut être mise en culture afin d'identifier le germe en cas d'infection."
+    },
+    {
+      "question": "La longueur externe du PICC est notée seulement lorsqu'une complication apparaît.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La longueur externe, du point de ponction à l'embase, est notée dès la première réfection du pansement."
+    },
+    {
+      "question": "Une modification de la longueur externe du PICC peut signaler un déplacement du cathéter.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La longueur externe doit rester stable ; une modification peut traduire un déplacement du PICC."
+    },
+    {
+      "question": "Quels sont les indicateurs de bon fonctionnement du PICC ?",
+      "options": ["Absence de signe inflammatoire au point d'insertion", "Absence d'œdème du bras ou de la main du côté du PICC", "Présence d'un reflux veineux", "Douleur pendant les injections"],
+      "correct": [0, 1, 2],
+      "explanation": "Les indicateurs comprennent l'absence de signe inflammatoire, l'absence d'œdème, le bon débit, le reflux veineux et une injection aisée. La douleur n'est pas un signe de bon fonctionnement."
+    },
+    {
+      "question": "L'injection à la seringue aisée fait partie des indicateurs de bon fonctionnement du PICC.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une injection à la seringue aisée fait partie des signes attendus de bon fonctionnement."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une infection liée au PICC ?",
+      "options": ["Rougeur", "Écoulement purulent au point d'insertion", "Fièvre avec ou sans frissons", "Absence systématique de douleur"],
+      "correct": [0, 1, 2],
+      "explanation": "Les signes infectieux peuvent associer rougeur, écoulement purulent, œdème, fièvre avec ou sans frissons, douleur à la perfusion ou essoufflement anormal."
+    },
+    {
+      "question": "En cas de suspicion d'infection liée au PICC, il faut informer le médecin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'information du médecin fait partie de la conduite à tenir devant une suspicion infectieuse."
+    },
+    {
+      "question": "Pour confirmer une infection liée au PICC, des hémocultures et des écouvillonnages du point de ponction peuvent être réalisés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le diagnostic infectieux peut être confirmé par des hémocultures et des écouvillonnages du point de ponction."
+    },
+    {
+      "question": "Quels signes peuvent évoquer un risque thromboembolique sur PICC ?",
+      "options": ["Œdème", "Rougeur", "Douleur", "Augmentation du volume du membre supérieur", "Diminution du volume du membre supérieur"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les signes comprennent œdème, rougeur, douleur, fièvre et augmentation du volume du membre supérieur."
+    },
+    {
+      "question": "Devant un risque thromboembolique sur PICC, il faut informer le médecin et arrêter la perfusion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La conduite à tenir comprend l'information du médecin, l'arrêt de la perfusion et une probable échographie Doppler."
+    },
+    {
+      "question": "Quels signes évoquent une obstruction du PICC ?",
+      "options": ["Administration difficile par le cathéter", "Absence de reflux", "Injection toujours aisée", "Bon débit de perfusion"],
+      "correct": [0, 1],
+      "explanation": "L'obstruction se manifeste par une administration difficile et/ou une absence de reflux. Le bon débit et l'injection aisée sont des indicateurs de bon fonctionnement."
+    },
+    {
+      "question": "Quelles causes peuvent expliquer une obstruction du PICC ?",
+      "options": ["Thrombus", "Cristallisation ou précipité médicamenteux", "Dépôts lipidiques ou fibrineux", "Absence de rinçage minutieux", "Rinçage minutieux après chaque utilisation"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'obstruction peut être liée à un thrombus, un précipité médicamenteux, des dépôts lipidiques ou fibrineux, ou à un rinçage insuffisant. Le rinçage minutieux est une mesure de prévention."
+    },
+    {
+      "question": "Il faut tenter de déboucher un PICC en surpression en cas d'obstruction.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La désobstruction en surpression expose à un risque de rupture du PICC et de migration du caillot."
+    },
+    {
+      "question": "En cas d'obstruction du PICC, il faut prévenir le médecin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il faut prévenir le médecin devant une obstruction du PICC."
+    },
+    {
+      "question": "Quels conseils doivent être donnés au patient porteur d'un PICC ?",
+      "options": ["Bains et piscine interdits", "Ne jamais tirer sur le PICC", "Éviter de porter des charges lourdes", "Pratiquer la natation sans protection"],
+      "correct": [0, 1, 2],
+      "explanation": "Les bains et la piscine sont interdits, il ne faut jamais tirer sur le PICC et les charges lourdes sont à éviter. La natation fait partie des activités déconseillées."
+    },
+    {
+      "question": "Les douches sont autorisées avec un PICC si le pansement reste sec et protégé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La douche est possible à condition de protéger le pansement et de le garder sec."
+    },
+    {
+      "question": "Le patient porteur d'un PICC doit contacter un médecin en cas de rougeur, douleur ou œdème au point d'insertion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Rougeur, douleur et œdème au point d'insertion sont des signes d'alerte à signaler."
+    },
+    {
+      "question": "Un gonflement de la main ou du bras du côté du PICC est un motif d'alerte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le gonflement de la main ou du bras du côté du PICC nécessite de contacter le médecin ou le service référent."
+    },
+    {
+      "question": "Une fuite du PICC ou une douleur lors de l'injection doivent être signalées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La fuite du PICC et la douleur lors de l'injection font partie des motifs d'alerte."
+    }
+  ]
+}

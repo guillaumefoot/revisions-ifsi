@@ -1,0 +1,756 @@
+{
+  "title": "UE 4.4 S5 - Chambre à cathéter implantable",
+  "subtitle": "CCI : législation, indications, manipulation, aiguille de Huber, surveillance et complications",
+  "questions": [
+    {
+      "question": "Qu'est-ce qu'une chambre à cathéter implantable ?",
+      "options": ["Un système implantable placé directement sous la peau", "Un cathéter veineux périphérique court", "Un pansement transparent semi-perméable", "Un collecteur à objets coupants"],
+      "correct": [0],
+      "explanation": "La CCI est un dispositif implantable sous-cutané relié à un cathéter central."
+    },
+    {
+      "question": "La CCI est mise en place exclusivement sous anesthésie générale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La pose d'une CCI se réalise lors d'un acte chirurgical, sous anesthésie locale ou générale."
+    },
+    {
+      "question": "La CCI est généralement située dans la zone périclaviculaire gauche.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La localisation habituelle est la zone périclaviculaire droite."
+    },
+    {
+      "question": "La CCI est le plus souvent reliée à la veine sous-clavière ou à la veine cave supérieure.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La chambre est le plus souvent reliée à la veine sous-clavière ou à la veine cave supérieure."
+    },
+    {
+      "question": "La CCI correspond à un accès veineux central relié à un boîtier implanté sous la peau.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La CCI associe un cathéter central et un boîtier implanté sous la peau."
+    },
+    {
+      "question": "Quelle durée de traitement correspond aux indications habituelles d'une CCI ?",
+      "options": ["Plus de 3 mois", "Moins de 24 heures", "7 jours au maximum", "Uniquement le temps d'une injection isolée"],
+      "correct": [0],
+      "explanation": "La CCI concerne des traitements de longue durée, généralement supérieurs à 3 mois."
+    },
+    {
+      "question": "Quelles situations peuvent justifier une CCI ?",
+      "options": ["Chimiothérapie anticancéreuse", "Nutrition parentérale", "Antibiothérapie au long cours", "Traitement de quelques heures sans répétition"],
+      "correct": [0, 1, 2],
+      "explanation": "La CCI est adaptée aux accès répétés ou prolongés, notamment chimiothérapie, nutrition parentérale et antibiothérapie au long cours."
+    },
+    {
+      "question": "La transfusion peut faire partie des indications d'utilisation d'une CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les transfusions figurent parmi les utilisations possibles de la CCI."
+    },
+    {
+      "question": "Un faible capital veineux peut justifier le recours à une CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un faible capital veineux fait partie des situations pouvant orienter vers une CCI."
+    },
+    {
+      "question": "Une CCI est conçue pour être retirée immédiatement après la première utilisation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La CCI est conçue comme un dispositif durable après son implantation."
+    },
+    {
+      "question": "La pose d'une CCI se réalise au lit du patient avec une asepsie simple.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La pose se fait au bloc opératoire dans des conditions d'asepsie chirurgicale."
+    },
+    {
+      "question": "La première perfusion ou injection sur CCI est réalisée par l'infirmier(e) en service de soins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La première utilisation est réalisée par le chirurgien au bloc opératoire, avec vérification du reflux et de la perméabilité."
+    },
+    {
+      "question": "Après la pose d'une CCI, la radiographie pulmonaire de contrôle est inutile.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La radiographie de contrôle permet de vérifier la position correcte du dispositif et l'absence de complication immédiate."
+    },
+    {
+      "question": "Une carte d'identification du matériel posé est remise au patient après la pose d'une CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La carte d'identification contient notamment les informations du matériel posé, dont le numéro de lot."
+    },
+    {
+      "question": "Le carnet de suivi du DVI est ouvert et renseigné par l'opérateur chirurgical.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le carnet de suivi est initié lors de la pose par l'opérateur chirurgical."
+    },
+    {
+      "question": "La chambre d'injection de la CCI doit être rigide, indéformable et totalement étanche.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La chambre d'injection est décrite comme rigide, indéformable et étanche."
+    },
+    {
+      "question": "Quelles caractéristiques concernent la chambre d'injection d'une CCI ?",
+      "options": ["Atoxique", "Repérable aux rayons X ou à l'échographie", "Volume mort le plus faible possible", "Destinée au stockage de liquide"],
+      "correct": [0, 1, 2],
+      "explanation": "La chambre doit être atoxique, repérable et avoir un faible volume mort. C'est un système d'accès, pas de stockage."
+    },
+    {
+      "question": "Le matériau de la chambre d'injection ne doit pas interférer avec l'IRM ou la radiothérapie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les matériaux comme le titane ou certaines matières plastiques ne doivent pas interférer avec l'IRM ou la radiothérapie."
+    },
+    {
+      "question": "Le volume mort du réservoir de la CCI doit être le plus élevé possible pour stocker les traitements.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le volume mort doit être le plus faible possible, car la CCI est un système d'accès et non de stockage."
+    },
+    {
+      "question": "Le volume mort du réservoir de CCI varie selon le modèle entre 0,15 et 0,5 mL.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le volume mort varie selon le modèle choisi, de 0,15 à 0,5 mL."
+    },
+    {
+      "question": "Le septum d'injection est une membrane auto-obturante en silicone.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le septum est une membrane en silicone qui se referme après ponction."
+    },
+    {
+      "question": "Quels rôles sont attendus du septum d'une CCI ?",
+      "options": ["Présenter une grande surface de ponction", "Maintenir l'aiguille dans sa position initiale", "Assurer confort et sécurité lors de la ponction", "Empêcher toute ponction de la chambre"],
+      "correct": [0, 1, 2],
+      "explanation": "Le septum doit permettre la ponction, maintenir l'aiguille et contribuer au confort et à la sécurité."
+    },
+    {
+      "question": "Le septum d'une CCI est destiné à recevoir de multiples ponctions tout en assurant l'étanchéité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le septum permet des ponctions répétées tout en maintenant l'étanchéité du système."
+    },
+    {
+      "question": "Le septum doit pouvoir être ponctionné seulement 10 fois par cm² de surface utile de ponction.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La capacité attendue est de 1000 ponctions par cm² de surface utile."
+    },
+    {
+      "question": "Le système de connexion au cathéter doit être totalement étanche une fois le boîtier et le cathéter solidarisés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'ensemble boîtier-cathéter doit rester totalement étanche après assemblage."
+    },
+    {
+      "question": "Le cathéter central d'une CCI est souple, radio-opaque, en silicone ou en polyuréthane.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le cathéter central est souple, radio-opaque, et composé de silicone ou de polyuréthane."
+    },
+    {
+      "question": "La surveillance des cathéters veineux centraux et montages d'accès vasculaires implantables relève du rôle prescrit infirmier.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La surveillance de ces dispositifs fait partie des actes relevant du rôle prescrit infirmier."
+    },
+    {
+      "question": "Les injections et perfusions dans les CCI relèvent du rôle prescrit infirmier, à l'exclusion de la première.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les injections et perfusions sont autorisées dans ces dispositifs pour l'infirmier, sauf la première."
+    },
+    {
+      "question": "Avant toute manipulation d'une CCI, une prescription médicale peut être nécessaire pour poser un traitement, une perfusion ou retirer un dispositif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La manipulation s'inscrit dans le cadre d'une prescription médicale pour les traitements, perfusions ou retraits."
+    },
+    {
+      "question": "Avant toute manipulation d'une CCI, quels éléments doivent être vérifiés ?",
+      "options": ["Carnet de suivi du patient", "Hygiène corporelle du patient", "État cutané avec absence de signe d'inflammation", "Préférence musicale du patient"],
+      "correct": [0, 1, 2],
+      "explanation": "La vérification porte notamment sur le carnet de suivi, l'hygiène corporelle et l'état cutané."
+    },
+    {
+      "question": "Avant manipulation de la CCI, le patient peut être installé en position demi-assise ou couchée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'installation demi-assise ou couchée est prévue avant la manipulation."
+    },
+    {
+      "question": "Avant manipulation d'une CCI, l'hygiène des mains par friction est nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La friction des mains fait partie des mesures préalables de sécurité et d'asepsie."
+    },
+    {
+      "question": "L'EMLA peut être utilisé environ 1 heure avant la ponction sur prescription médicale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La lutte contre la douleur peut inclure l'EMLA sur prescription médicale, environ 1 heure avant la ponction."
+    },
+    {
+      "question": "Quels éléments de tenue concernent l'IDE avant manipulation d'une CCI ?",
+      "options": ["Charlotte", "Masque", "Sur-blouse stérile si patient neutropénique ou en aplasie", "Absence de tenue spécifique"],
+      "correct": [0, 1, 2],
+      "explanation": "L'IDE porte charlotte et masque, avec sur-blouse stérile si le patient est neutropénique ou en aplasie."
+    },
+    {
+      "question": "Le patient n'a pas besoin de masque ni de charlotte lors de la manipulation de la CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La tenue du patient comprend charlotte et masque pour limiter le risque infectieux."
+    },
+    {
+      "question": "Les lignes, robinets et bouchons d'une CCI se manipulent avec des gants et des compresses stériles imbibées d'antiseptique alcoolique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les manipulations proximales doivent respecter une asepsie stricte avec gants et compresses stériles antiseptiques."
+    },
+    {
+      "question": "L'aiguille de Huber possède un biseau tangentiel limitant l'effet de carottage du septum.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le biseau de Huber permet de ponctionner le septum sans arracher de silicone."
+    },
+    {
+      "question": "L'aiguille de Huber est choisie notamment pour préserver le septum lors des ponctions répétées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Son biseau spécifique limite la détérioration du septum lors des multiples ponctions."
+    },
+    {
+      "question": "Quels types d'aiguilles peuvent être utilisés pour une CCI ?",
+      "options": ["Aiguille simple droite ou courbe à 90°", "Aiguille avec prolongateur", "Aiguille avec système de sécurité", "Aiguille à biseau traditionnel comme choix recommandé"],
+      "correct": [0, 1, 2],
+      "explanation": "Les aiguilles simples, les aiguilles avec prolongateur et les systèmes sécurisés sont décrits. Le biseau traditionnel favorise des complications et n'est pas le choix attendu."
+    },
+    {
+      "question": "Les aiguilles munies d'un système de sécurité sont à privilégier pour éviter les AES.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le système de sécurité est privilégié car il réduit le risque d'accident d'exposition au sang."
+    },
+    {
+      "question": "La longueur de l'aiguille de Huber dépend de la corpulence du patient et de la profondeur d'implantation de la CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La longueur doit être adaptée à la morphologie et à la profondeur d'implantation."
+    },
+    {
+      "question": "Une aiguille de Huber trop longue est instable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une longueur excessive peut rendre l'aiguille instable."
+    },
+    {
+      "question": "Une aiguille de Huber trop courte favorise l'extravasation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une aiguille trop courte peut ne pas assurer une ponction correcte du septum et favoriser l'extravasation."
+    },
+    {
+      "question": "Quelles longueurs d'aiguille peuvent être utilisées pour adapter la pose à la morphologie ?",
+      "options": ["15 mm pour un patient maigre", "35 mm pour un patient obèse", "5 mm pour tout patient", "80 mm en première intention"],
+      "correct": [0, 1],
+      "explanation": "Les longueurs varient entre 15 mm pour un patient maigre et 35 mm pour un patient obèse."
+    },
+    {
+      "question": "Le choix de la gauge dépend de la viscosité du produit à passer et du débit souhaité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le diamètre de l'aiguille est choisi selon le produit et le débit nécessaire."
+    },
+    {
+      "question": "La SF2H recommande une aiguille de Huber de 22G.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La gauge recommandée est 22G."
+    },
+    {
+      "question": "Des aiguilles de 20G ou 19G peuvent être nécessaires pour une transfusion sanguine ou une alimentation parentérale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un diamètre plus grand peut être nécessaire pour certains produits, comme la transfusion sanguine ou l'alimentation parentérale."
+    },
+    {
+      "question": "Plus le diamètre de l'aiguille est important, moins il est traumatisant pour le septum.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Plus le diamètre est important, plus il est traumatisant pour le septum."
+    },
+    {
+      "question": "Pour une CCI, les seringues doivent avoir un volume minimum de 10 mL.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les seringues de 10 mL minimum limitent le risque de surpression."
+    },
+    {
+      "question": "Une seringue de volume inférieur à 10 mL peut être utilisée sans risque de surpression sur une CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Les petites seringues augmentent la pression et peuvent être responsables d'une rupture du cathéter."
+    },
+    {
+      "question": "Quels matériels peuvent être préparés pour manipuler une CCI ?",
+      "options": ["Solution hydroalcoolique", "Gants stériles", "Aiguille de Huber ou Gripper", "Collecteur à OCPT", "Aiguille à biseau traditionnel en première intention"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La préparation comprend notamment SHA, gants stériles, aiguille spécifique et collecteur à objets coupants, piquants ou tranchants."
+    },
+    {
+      "question": "La préparation du matériel peut comprendre savon antiseptique et antiseptique alcoolique de la même gamme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La chaîne antiseptique doit rester cohérente, avec savon antiseptique et antiseptique alcoolique de la même gamme."
+    },
+    {
+      "question": "La pose de l'aiguille de Huber doit suivre le protocole du service.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les protocoles et matériels peuvent varier selon les établissements ; le protocole du service est la référence."
+    },
+    {
+      "question": "Pour piquer une CCI, le boîtier est localisé par palpation et maintenu entre deux doigts.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La localisation par palpation et le maintien de la chambre stabilisent le geste."
+    },
+    {
+      "question": "L'aiguille de Huber est piquée perpendiculairement au centre du septum jusqu'à la butée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La ponction se fait perpendiculairement au centre du septum, jusqu'à la butée, sans écraser l'aiguille."
+    },
+    {
+      "question": "Après la ponction, le biseau de l'aiguille est orienté vers le cathéter de la chambre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'orientation du biseau vers le cathéter fait partie de la technique de pose."
+    },
+    {
+      "question": "Le retour veineux est vérifié avec la seringue ayant servi à la purge de l'aiguille.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La vérification du retour veineux confirme le bon accès au dispositif."
+    },
+    {
+      "question": "La tubulure doit être verrouillée avant de désadapter la seringue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le verrouillage avant désadaptation participe à la sécurité de la manipulation."
+    },
+    {
+      "question": "La seringue utilisée est éliminée dans la poubelle à DASRIA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les déchets d'activités de soins à risques infectieux et assimilés sont éliminés dans la filière DASRIA."
+    },
+    {
+      "question": "La perméabilité du dispositif est vérifiée par 3 poussées avec la totalité de la deuxième seringue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La vérification de perméabilité repose sur un rinçage pulsé en trois poussées."
+    },
+    {
+      "question": "Après adaptation de la ligne de perfusion, la tubulure de l'aiguille est déverrouillée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La ligne est adaptée puis la tubulure est déverrouillée pour permettre la perfusion."
+    },
+    {
+      "question": "Le pansement adhésif transparent semi-perméable stérile permet de surveiller le point d'implantation de l'aiguille.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le pansement transparent protège tout en permettant la surveillance visuelle."
+    },
+    {
+      "question": "En dehors des périodes d'utilisation, une CCI non perfusée nécessite toujours un pansement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Hors période de cicatrisation postopératoire, il n'est pas utile d'appliquer un pansement sur une CCI non perfusée."
+    },
+    {
+      "question": "Après la pose de l'aiguille, les déchets sont éliminés, les gants sont retirés et l'hygiène des mains est réalisée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La fin du geste comprend l'élimination des déchets, le retrait des gants et l'hygiène des mains."
+    },
+    {
+      "question": "Le débit de perfusion doit être réglé correctement après calcul de dose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le réglage du débit dépend du calcul de dose et fait partie de la sécurité du soin."
+    },
+    {
+      "question": "Les transmissions après manipulation de CCI mentionnent notamment l'état cutané et l'aiguille utilisée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les transmissions dans le dossier de soin et le carnet de suivi doivent préciser le soin et le matériel utilisé."
+    },
+    {
+      "question": "La manipulation des sites d'injection sur CCI nécessite désinfection des mains, masque chirurgical et compresses stériles imbibées d'antiseptique alcoolique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces mesures limitent le risque infectieux lors des manipulations de lignes et sites d'injection."
+    },
+    {
+      "question": "Chez un patient aplasique ou neutropénique, la manipulation des lignes ajoute charlotte, sur-blouse stérile et gants stériles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'aplasie ou la neutropénie imposent des précautions renforcées."
+    },
+    {
+      "question": "Le rinçage d'une CCI est réalisé au sérum physiologique après injection, perfusion, changement de soluté, fin de traitement, prélèvement sanguin ou retour veineux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le rinçage au sérum physiologique est systématique dans ces situations afin de prévenir interactions, précipitations et obstruction."
+    },
+    {
+      "question": "Le rinçage d'une CCI peut être remplacé par la perfusion de base.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il ne faut pas rincer avec la perfusion de base."
+    },
+    {
+      "question": "Le rinçage pulsé d'une CCI correspond à 3 injections successives d'au moins 2 mL par saccades.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le rinçage pulsé repose sur trois injections successives par saccades d'au moins 2 mL."
+    },
+    {
+      "question": "L'aiguille d'une CCI peut être maintenue plus de huit jours si le pansement est propre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le remplacement est prévu tous les 7 jours et l'aiguille ne peut pas être maintenue plus de huit jours."
+    },
+    {
+      "question": "La réfection du pansement de CCI est réalisée tous les 7 jours au minimum ou systématiquement s'il est souillé ou décollé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le pansement doit être refait au moins tous les 7 jours et plus tôt en cas de souillure ou de décollement."
+    },
+    {
+      "question": "La ligne veineuse et les tubulures sont changées systématiquement après passage de produit sanguin ou dérivé du sang.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le passage de produit sanguin ou dérivé impose un changement du système de perfusion concerné."
+    },
+    {
+      "question": "Une tubulure de soluté lipidique ou de seringue électrique est changée toutes les 24 heures.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les solutés lipidiques et tubulures de seringue électrique relèvent d'un changement toutes les 24 heures."
+    },
+    {
+      "question": "La ligne veineuse est changée toutes les 96 heures.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le rythme de changement de la ligne veineuse est de 96 heures."
+    },
+    {
+      "question": "Les rampes peuvent traîner dans le lit si les connexions sont fermées.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Les rampes doivent être fixées sur des porte-rampes et ne pas traîner dans le lit."
+    },
+    {
+      "question": "Pour l'ablation d'une aiguille sur DVI, l'IDE porte charlotte, masque et sur-blouse stérile si le patient est neutropénique ou aplasique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces éléments de tenue sont prévus pour l'ablation, avec renforcement chez les patients neutropéniques ou aplasiques."
+    },
+    {
+      "question": "Le patient porte masque et charlotte lors de l'ablation d'une aiguille sur DVI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le patient participe aux précautions d'asepsie par le port du masque et de la charlotte."
+    },
+    {
+      "question": "L'ablation d'une aiguille sur DVI doit utiliser du matériel sécurisé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le matériel sécurisé limite le risque d'AES lors du retrait de l'aiguille."
+    },
+    {
+      "question": "Avant le retrait de l'aiguille sur DVI, un rinçage pulsé en 3 poussées avec 10 mL de NaCl 0,9 % est réalisé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le rinçage pulsé avec 10 mL de NaCl 0,9 % précède le retrait de l'aiguille."
+    },
+    {
+      "question": "Le retrait de l'aiguille sur DVI se fait en pression positive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La pression positive consiste à injecter pendant le retrait pour éviter l'afflux de sang."
+    },
+    {
+      "question": "Après ablation, l'aiguille est éliminée immédiatement dans un collecteur à OCPT.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'élimination immédiate dans un collecteur adapté réduit le risque de piqûre et d'AES."
+    },
+    {
+      "question": "Après ablation de l'aiguille, un pansement sec stérile et occlusif est posé pendant 1 heure.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le pansement sec stérile et occlusif est maintenu pendant 1 heure après le retrait."
+    },
+    {
+      "question": "Le prélèvement sanguin sur CCI peut être autorisé par le médecin pour le confort du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La décision médicale peut autoriser un prélèvement sur CCI pour améliorer le confort du patient."
+    },
+    {
+      "question": "Le prélèvement sanguin sur CCI se réalise dans des conditions d'asepsie strictes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le prélèvement impose tenue adaptée, antisepsie précise et respect des règles d'asepsie."
+    },
+    {
+      "question": "Pour un prélèvement sur CCI, un corps de pompe à usage unique est utilisé pour tous les prélèvements, y compris les hémocultures.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le corps de pompe à usage unique est requis pour les prélèvements sur CCI, y compris les hémocultures."
+    },
+    {
+      "question": "Avant un bilan prélevé sur CCI, une purge de 2 tubes est effectuée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Deux tubes sont purgés avant le prélèvement du bilan."
+    },
+    {
+      "question": "La purge prélevée sur CCI peut être réinjectée au patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La purge ne doit pas être réinjectée."
+    },
+    {
+      "question": "Après un prélèvement sanguin sur CCI, un rinçage efficace immédiat est réalisé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le rinçage immédiat prévient notamment l'obstruction après le prélèvement."
+    },
+    {
+      "question": "Quels sont les quatre indicateurs de bon fonctionnement d'une CCI ?",
+      "options": ["Présence d'un reflux sanguin", "Bon débit de perfusion", "Absence de douleur spontanée ou à l'injection", "Injection à la seringue aisée", "Douleur à l'injection"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une CCI fonctionne correctement si reflux, débit, absence de douleur et injection aisée sont présents. La douleur à l'injection est un signe d'anomalie."
+    },
+    {
+      "question": "Tout dispositif qui devient douloureux signe une anomalie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une douleur du dispositif est un signe d'alerte et doit faire suspecter une anomalie."
+    },
+    {
+      "question": "Devant rougeur, œdème, douleur, chaleur ou fièvre au niveau d'une CCI, il ne faut pas piquer et il faut informer le médecin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces signes évoquent un risque infectieux ; la ponction doit être évitée et le médecin informé."
+    },
+    {
+      "question": "Le risque infectieux est la principale cause de retrait des CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'infection est la principale cause de retrait des chambres implantables."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une infection de CCI ?",
+      "options": ["Inflammation sur le trajet du cathéter", "Suintement", "Frissons ou hyperthermie", "Choc septique dans les heures suivant la manipulation", "Absence de tout signe local ou général"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'infection peut associer signes locaux, suintement, frissons, hyperthermie et, dans les formes graves, choc septique."
+    },
+    {
+      "question": "La prévention des infections de CCI repose sur l'asepsie de l'habillage, de la préparation cutanée et de l'utilisation de la CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le strict respect des règles d'asepsie est central pour prévenir l'infection."
+    },
+    {
+      "question": "L'obstruction d'une CCI peut être due à un thrombus.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le thrombus fait partie des causes possibles d'obstruction."
+    },
+    {
+      "question": "Quelles causes peuvent expliquer l'obstruction d'une CCI ?",
+      "options": ["Thrombus", "Précipité médicamenteux", "Dépôts lipidiques ou fibrineux", "Absence de rinçage minutieux", "Rinçage pulsé efficace après chaque utilisation"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'obstruction peut venir d'un caillot, d'un précipité, de dépôts ou d'un rinçage insuffisant. Le rinçage pulsé efficace est une prévention."
+    },
+    {
+      "question": "La prévention de l'obstruction repose notamment sur le rinçage pulsé au NaCl 0,9 %.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le rinçage pulsé avec NaCl 0,9 % est la mesure de prévention mise en avant."
+    },
+    {
+      "question": "En cas de résistance à l'injection sur CCI, il faut insister sous pression pour désobstruer.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Toute manœuvre non médicale de désobstruction sous pression est formellement interdite en raison du risque de rupture du cathéter."
+    },
+    {
+      "question": "En cas de résistance à l'injection sur CCI, il ne faut pas insister et il est possible de repiquer.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La résistance à l'injection impose de ne pas insister ; une nouvelle ponction peut être envisagée."
+    },
+    {
+      "question": "Le protocole de désobstruction avec solution fibrinolytique laissée au contact du thrombus est réalisé par un médecin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La désobstruction fibrinolytique relève du médecin."
+    },
+    {
+      "question": "L'extravasation correspond à une perfusion extravasculaire d'une substance agressive pour les tissus cutanés et sous-cutanés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'extravasation est une diffusion hors du vaisseau d'un produit agressif pour les tissus."
+    },
+    {
+      "question": "L'extravasation peut avoir des conséquences dramatiques en cas de fuite de produit nécrosant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les produits nécrosants peuvent provoquer des lésions graves en cas d'extravasation."
+    },
+    {
+      "question": "Quelles causes peuvent favoriser une extravasation sur CCI ?",
+      "options": ["Mauvaise implantation de l'aiguille de Huber dans le septum", "Traction involontaire sur le tube de connexion", "Rupture ou déconnexion méconnue du cathéter", "Aiguille trop courte", "Aiguille adaptée à la profondeur d'implantation"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces situations peuvent entraîner une fuite ou une mauvaise administration du produit hors du circuit attendu. Une aiguille adaptée à la profondeur limite ce risque."
+    },
+    {
+      "question": "L'utilisation d'une aiguille à biseau traditionnel peut favoriser l'extravasation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'aiguille à biseau traditionnel fait partie des causes d'extravasation."
+    },
+    {
+      "question": "Une aiguille de Huber de gros diamètre, comme 19 Gauge, peut provoquer une porosité puis une fistulisation du septum.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un gros diamètre peut traumatiser le septum et favoriser une porosité puis une fistulisation."
+    },
+    {
+      "question": "Le pinch-off correspond à un pincement du cathéter entre la clavicule et la première côte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le pinch-off est le pincement du cathéter entre la clavicule et la première côte."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une extravasation ?",
+      "options": ["Brûlures", "Picotements", "Douleur", "Œdème au niveau du point d'injection", "Absence de rougeur et de douleur"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'extravasation peut provoquer brûlures, picotements, douleur, rougeur, induration ou œdème."
+    },
+    {
+      "question": "En cas d'extravasation, il faut arrêter la perfusion sans retirer le dispositif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La conduite immédiate consiste à arrêter la perfusion tout en laissant le dispositif en place."
+    },
+    {
+      "question": "En cas d'extravasation, il faut prévenir le médecin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le médecin doit être prévenu devant une extravasation."
+    },
+    {
+      "question": "En cas d'extravasation, il est possible d'aspirer 3 à 5 mL de sang pour retirer le maximum d'anticancéreux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'aspiration de 3 à 5 mL peut permettre de retirer une partie du produit anticancéreux."
+    },
+    {
+      "question": "Après cicatrisation, il n'y a pas de restriction pour les bains ou douches avec une CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Après cicatrisation, les bains et douches ne sont pas restreints pour la CCI."
+    },
+    {
+      "question": "Après cicatrisation, la ceinture de sécurité est interdite chez un patient porteur de CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il n'y a pas de restriction pour l'utilisation de la ceinture de sécurité."
+    },
+    {
+      "question": "Après cicatrisation, le passage dans un portique de détection n'est pas restreint chez un porteur de CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le passage dans un portique de détection fait partie des situations sans restriction."
+    },
+    {
+      "question": "Quels conseils peuvent être donnés au patient porteur d'une CCI ?",
+      "options": ["Éviter les bretelles serrées si la CCI est thoracique", "Éviter d'exposer la cicatrice au soleil durant un an", "Signaler la CCI lors de toute exploration médicale", "Éviter systématiquement toute position de sommeil"],
+      "correct": [0, 1, 2],
+      "explanation": "Les bretelles serrées, le soleil sur la cicatrice et le signalement du dispositif sont des points importants. Les positions de sommeil sont permises."
+    },
+    {
+      "question": "Pour dormir, toutes les positions sont permises durant le sommeil chez un patient porteur de CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Aucune restriction de position de sommeil n'est indiquée pour la CCI."
+    },
+    {
+      "question": "La pratique sportive est autorisée avec une CCI, mais les chocs sur l'emplacement de la chambre doivent être évités.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le sport est possible, mais les chocs directs sur la chambre doivent être évités."
+    },
+    {
+      "question": "Certains sports à grande amplitude de l'épaule peuvent nécessiter une vigilance particulière chez un porteur de CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les sports comme crawl, basket ou haltérophilie nécessitent une vigilance particulière."
+    },
+    {
+      "question": "Une carte d'identification reprenant les données de traçabilité du dispositif implanté doit être remise au patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La carte d'identification permet de tracer les données du dispositif implanté."
+    },
+    {
+      "question": "Le carnet de suivi de la CCI contient le modèle, le numéro de lot, les caractéristiques et les précautions d'utilisation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le carnet de suivi rassemble les informations du dispositif et ses précautions d'utilisation."
+    },
+    {
+      "question": "Le patient doit présenter son carnet de suivi à l'équipe soignante lors de l'utilisation de la CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le carnet permet à l'équipe soignante de connaître les informations utiles avant utilisation."
+    },
+    {
+      "question": "Les gestes réalisés sur la CCI doivent être consignés dans le carnet de suivi.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les gestes d'entretien et d'utilisation doivent être tracés."
+    },
+    {
+      "question": "Que faut-il tracer après un soin sur CCI ?",
+      "options": ["Soins réalisés", "Matériel utilisé", "État cutané", "Présence d'un reflux sanguin", "Heure du dernier repas"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La traçabilité comprend les soins réalisés, le matériel utilisé, l'état cutané et les indicateurs de fonctionnement comme le reflux."
+    },
+    {
+      "question": "La traçabilité d'une CCI peut mentionner la gauge et la longueur de l'aiguille utilisée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le matériel utilisé, dont la gauge et la longueur de l'aiguille, fait partie des éléments à noter."
+    }
+  ]
+}

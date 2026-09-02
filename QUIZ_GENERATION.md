@@ -45,6 +45,7 @@ Ne lancer la generation qu'apres instruction explicite: `GO`, `Vas-y`, `Genere`,
 - En cas d'ambiguite ou de contradiction, preferer la formulation la plus prudente et signaler le point a verifier au lieu de combler avec des connaissances externes.
 - Le cours officiel ou support professeur prime sur les notes et corrections.
 - Les questions doivent etre autonomes, sans formulation du type "selon le texte".
+- Les questions et explications finales ne doivent jamais mentionner la source: pas de "dans le cours", "le support indique", "selon le document", "d'apres le PDF" ou formulation equivalente.
 - Conserver un ton medical, precis et adapte a une etudiante infirmiere.
 
 ## Priorites de traitement

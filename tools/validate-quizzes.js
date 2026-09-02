@@ -25,6 +25,25 @@ const stats = {
   qcm: 0,
 };
 
+const forbiddenSourceReferencePatterns = [
+  /\bdans le cours\b/i,
+  /\ble cours\b/i,
+  /\bdu cours\b/i,
+  /\bselon le cours\b/i,
+  /\bselon le support\b/i,
+  /\ble support\b/i,
+  /\bce support\b/i,
+  /\bdans le document\b/i,
+  /\ble document\b/i,
+  /\bselon le document\b/i,
+  /\bd'apres\b/i,
+  /\bd'après\b/i,
+  /\bdans le pdf\b/i,
+  /\ble pdf\b/i,
+  /\bla diapositive\b/i,
+  /\bla slide\b/i,
+];
+
 function rel(filePath) {
   return path.relative(root, filePath).replace(/\\/g, "/");
 }
@@ -44,6 +63,10 @@ function isNonEmptyString(value) {
 
 function normalizeOption(value) {
   return String(value).trim().toLowerCase();
+}
+
+function containsForbiddenSourceReference(value) {
+  return isNonEmptyString(value) && forbiddenSourceReferencePatterns.some((pattern) => pattern.test(value));
 }
 
 function isTrueFalseQuestion(question) {
@@ -98,6 +121,8 @@ function validateQuiz(filePath) {
 
     if (!isNonEmptyString(question.question)) {
       errors.push(`${prefix}: champ "question" absent ou vide`);
+    } else if (containsForbiddenSourceReference(question.question)) {
+      errors.push(`${prefix}: la question mentionne la source au lieu d'etre autonome`);
     } else {
       const key = question.question.trim();
       if (seenQuestions.has(key)) {
@@ -158,6 +183,8 @@ function validateQuiz(filePath) {
 
     if ("explanation" in question && question.explanation !== undefined && question.explanation !== null && typeof question.explanation !== "string") {
       errors.push(`${prefix}: "explanation" doit etre une chaine si le champ existe`);
+    } else if (containsForbiddenSourceReference(question.explanation)) {
+      errors.push(`${prefix}: l'explication mentionne la source au lieu d'etre autonome`);
     }
   });
 }
