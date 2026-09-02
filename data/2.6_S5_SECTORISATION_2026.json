@@ -310,6 +310,66 @@
         0
       ],
       "explanation": "La sectorisation cherche à articuler soins, territoire, milieu de vie et continuité du parcours."
+    },
+    {
+      "question": "L'intervention à domicile peut faire partie du recours de proximité en psychiatrie de secteur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les soins ambulatoires de proximité peuvent inclure des interventions à domicile."
+    },
+    {
+      "question": "L'hôpital de jour correspond à une hospitalisation complète avec présence nocturne systématique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La prise en charge se fait sur une demi-journée ou une journée."
+    },
+    {
+      "question": "Le CAC peut disposer de lits d'hospitalisation de très courte durée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces lits permettent d'initier la prise en charge et d'organiser un relais."
+    },
+    {
+      "question": "Le CATTG vise l'amélioration de l'autonomie et de la qualité de vie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les activités de soins en groupe ne se limitent pas à l'occupationnel."
+    },
+    {
+      "question": "Quels professionnels peuvent contribuer aux besoins globaux du patient en secteur psychiatrique ?",
+      "options": [
+        "Aides-soignants",
+        "Agents des services hospitaliers",
+        "Secrétaires médicales",
+        "Orthophonistes"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'équipe de secteur associe des métiers complémentaires, y compris des fonctions soignantes, médico-sociales et administratives."
     }
   ]
 }

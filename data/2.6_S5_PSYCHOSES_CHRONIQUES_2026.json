@@ -540,6 +540,416 @@
         0
       ],
       "explanation": "Ces complications doivent être anticipées dans le suivi et la relation de soins."
+    },
+    {
+      "question": "La schizophrénie peut évoluer par épisodes aigus de psychose suivis de symptômes chroniques.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette alternance explique la nécessité d'un traitement et d'un suivi au long cours."
+    },
+    {
+      "question": "Les déficits cognitifs de la schizophrénie peuvent diminuer la capacité à réagir de manière appropriée avec le milieu.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Attention, mémoire, apprentissage et traitement de l'information peuvent être perturbés."
+    },
+    {
+      "question": "Les hallucinations cénesthésiques sont impossibles dans la schizophrénie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les hallucinations peuvent concerner plusieurs modalités sensorielles, y compris corporelles."
+    },
+    {
+      "question": "Le patient schizophrène peut croire fermement à son délire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La conviction délirante peut rendre le raisonnement inefficace."
+    },
+    {
+      "question": "La discordance entre émotions ressenties et expression émotionnelle peut être observée dans la schizophrénie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le patient peut paraître froid alors que le vécu interne est intense."
+    },
+    {
+      "question": "L'apathie et le retrait social peuvent aggraver l'isolement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le repli réduit les interactions et les possibilités de soutien."
+    },
+    {
+      "question": "L'héboïdophrénie peut associer comportements antisociaux, agressions, toxicomanie et rupture sociale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette forme est marquée par des troubles du comportement et des épisodes délirants intermittents."
+    },
+    {
+      "question": "Les antipsychotiques sont réservés uniquement à la phase aiguë et ne servent jamais en entretien.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Ils sont aussi utilisés en traitement d'entretien pour prévenir les rechutes."
+    },
+    {
+      "question": "La remédiation cognitive peut faire partie de la prise en charge de la schizophrénie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle vise les difficultés cognitives et l'autonomie fonctionnelle."
+    },
+    {
+      "question": "La PHC peut toucher plus fréquemment des personnes isolées socialement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'isolement social est cité parmi les particularités de ce tableau."
+    },
+    {
+      "question": "Dans la PHC, le délire est souvent vécu de manière passive.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le patient peut subir les phénomènes hallucinatoires ou d'influence."
+    },
+    {
+      "question": "La PHC entraîne toujours une perte massive des capacités intellectuelles.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les activités intellectuelles peuvent être relativement conservées."
+    },
+    {
+      "question": "Les hallucinations corporelles de la PHC peuvent être attribuées à des influences extérieures.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le vécu d'influence peut concerner le corps et les sensations."
+    },
+    {
+      "question": "La psychose paranoïaque comporte une absence de conscience de la maladie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'anosognosie complique l'alliance thérapeutique et l'observance."
+    },
+    {
+      "question": "Le délire de revendication peut se développer après un échec ou un conflit.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il peut prendre une forme procédurière et centrée sur un préjudice."
+    },
+    {
+      "question": "Le délire de relation des sensitifs peut apparaître chez une personnalité sensible, timide et anxieuse.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le vécu de moquerie, vexation ou culpabilité peut alimenter le délire."
+    },
+    {
+      "question": "Les hallucinations sont le mécanisme principal et constant de la psychose paranoïaque.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Le mécanisme interprétatif est central; les hallucinations sont rares."
+    },
+    {
+      "question": "L'hypervigilance et la suspicion peuvent appartenir aux signes comportementaux de la psychose paranoïaque.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elles peuvent entraîner évitement social et agressivité réactionnelle."
+    },
+    {
+      "question": "Le niveau d'insight doit être surveillé dans les psychoses chroniques.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'absence de conscience du trouble influence l'observance et le risque de rupture de soins."
+    },
+    {
+      "question": "La prévention des passages à l'acte fait partie des objectifs thérapeutiques dans la psychose paranoïaque.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La dangerosité peut augmenter dans certains délires passionnels ou de persécution."
+    },
+    {
+      "question": "Quels troubles cognitifs peuvent apparaître dans la schizophrénie ?",
+      "options": [
+        "Troubles de l'attention",
+        "Troubles de la mémoire",
+        "Difficultés de planification",
+        "Déficit de traitement de l'information"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les fonctions exécutives et les apprentissages peuvent être atteints."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une dépersonnalisation dans la schizophrénie ?",
+      "options": [
+        "Impression que le corps est dissocié",
+        "Peur que des membres se détachent",
+        "Autocontemplation",
+        "Palpation répétée de parties du corps"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La perte du sentiment d'être soi-même peut entraîner des comportements centrés sur le corps."
+    },
+    {
+      "question": "Quels éléments peuvent caractériser l'hébéphrénie ?",
+      "options": [
+        "Début précoce",
+        "Repli",
+        "Indifférence",
+        "Langage incohérent"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Cette forme débute souvent avant 20 ans avec symptômes négatifs prédominants."
+    },
+    {
+      "question": "Quels éléments relèvent de la réhabilitation psychosociale ou des interventions sociales ?",
+      "options": [
+        "Logement",
+        "Relations",
+        "Projet professionnel",
+        "Insertion sociale"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La prise en charge vise aussi la vie quotidienne et l'insertion."
+    },
+    {
+      "question": "Quels signes correspondent à l'automatisme mental dans la PHC ?",
+      "options": [
+        "Actes annoncés",
+        "Sensations corporelles parasites",
+        "Gestes obligés",
+        "Pensée contrôlée de l'extérieur"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces phénomènes traduisent un vécu d'influence ou de dépossession."
+    },
+    {
+      "question": "Quelles caractéristiques distinguent la PHC de la schizophrénie ?",
+      "options": [
+        "Début plus tardif",
+        "Absence de dissociation marquée",
+        "Conservation relative des activités intellectuelles",
+        "Hallucinations riches et chroniques"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La PHC n'a pas la même déstructuration profonde que la schizophrénie."
+    },
+    {
+      "question": "Quels stades sont décrits dans l'érotomanie ?",
+      "options": [
+        "Espoir",
+        "Dépit",
+        "Rancune",
+        "Indifférence définitive dès le début"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La rancune peut s'accompagner de menaces ou d'actes agressifs."
+    },
+    {
+      "question": "Quels mécanismes peuvent être présents dans le délire paranoïaque ?",
+      "options": [
+        "Interprétation",
+        "Intuition",
+        "Hallucinations rares",
+        "Critique complète du délire"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "L'interprétation domine, l'intuition peut exister et les hallucinations restent rares."
+    },
+    {
+      "question": "Quels signes comportementaux peuvent accompagner la psychose paranoïaque ?",
+      "options": [
+        "Isolement progressif",
+        "Agressivité réactionnelle",
+        "Hypervigilance",
+        "Évitement social"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le vécu persécutif peut modifier durablement les conduites."
+    },
+    {
+      "question": "Quels principes de communication sont utiles avec un patient paranoïaque ?",
+      "options": [
+        "Être clair",
+        "Être prévisible",
+        "Éviter les ambiguïtés",
+        "Reformuler les émotions"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La clarté et l'écoute réduisent les risques de mauvaise interprétation."
+    },
+    {
+      "question": "Quels points surveiller dans une psychose chronique ?",
+      "options": [
+        "Sommeil",
+        "Alimentation",
+        "Hygiène",
+        "Observance médicamenteuse"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La surveillance clinique inclut les besoins fondamentaux et le traitement."
+    },
+    {
+      "question": "Quelles complications peuvent survenir dans une psychose paranoïaque ?",
+      "options": [
+        "Passage à l'acte hétéro-agressif",
+        "Conduites suicidaires",
+        "Rupture thérapeutique",
+        "Isolement social"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces complications justifient une vigilance clinique et relationnelle."
     }
   ]
 }

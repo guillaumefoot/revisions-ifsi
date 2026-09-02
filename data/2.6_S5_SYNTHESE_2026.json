@@ -438,6 +438,645 @@
         0
       ],
       "explanation": "Ces points complètent l'écoute empathique et le soutien dans les démarches thérapeutiques."
+    },
+    {
+      "question": "L'UE 2.6 S5 mobilise à la fois des connaissances cliniques et des connaissances d'organisation des soins.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les supports abordent symptômes, prise en charge, hospitalisation, sectorisation et rôle infirmier."
+    },
+    {
+      "question": "Le rôle infirmier en psychiatrie comprend une dimension relationnelle, éducative, clinique et de sécurité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La prise en charge ne se limite pas à l'administration des traitements."
+    },
+    {
+      "question": "Tous les patients hospitalisés en psychiatrie sont nécessairement sans consentement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les soins libres existent lorsque le patient consent aux soins."
+    },
+    {
+      "question": "L'impossibilité de consentir et la nécessité de soins immédiats sont des repères majeurs des soins sans consentement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces conditions encadrent la restriction de liberté."
+    },
+    {
+      "question": "La période d'observation initiale en soins sans consentement comprend des évaluations à 24 heures et 72 heures.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces certificats réévaluent la nécessité du maintien."
+    },
+    {
+      "question": "Le JLD intervient uniquement à la demande du patient.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il est saisi obligatoirement dans les délais et peut aussi être saisi par plusieurs personnes."
+    },
+    {
+      "question": "Le secteur psychiatrique organise une réponse de proximité sur un territoire donné.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il articule structures intra et extra-hospitalières."
+    },
+    {
+      "question": "L'hôpital de jour peut éviter ou relayer une hospitalisation complète lorsque les soins ambulatoires simples sont insuffisants.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il propose une prise en charge intensive sur une demi-journée ou une journée."
+    },
+    {
+      "question": "L'appartement thérapeutique vise le soutien à l'autonomie avec hébergement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il consolide l'état de santé tout en travaillant les capacités de vie quotidienne."
+    },
+    {
+      "question": "Un délire doit être décrit par ses thèmes, son organisation, ses mécanismes, son adhésion, sa temporalité et ses émotions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette description rend l'observation clinique plus précise."
+    },
+    {
+      "question": "Un délire cohérent sur le plan interne exclut une psychose.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Un délire peut garder une cohérence interne tout en étant en rupture avec la réalité."
+    },
+    {
+      "question": "La dissociation peut concerner la pensée, les émotions et le comportement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le tableau dépasse un simple trouble du contenu de la pensée."
+    },
+    {
+      "question": "L'automatisme mental implique un vécu de dépossession de la pensée ou des actes.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le patient peut ressentir une influence extérieure."
+    },
+    {
+      "question": "La BDA peut inaugurer une psychose chronique ou rester un épisode isolé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'évolution est incertaine, d'où l'importance du suivi."
+    },
+    {
+      "question": "La psychose puerpérale peut attendre une consultation programmée plusieurs mois plus tard.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. C'est une urgence médicale du post-partum."
+    },
+    {
+      "question": "La manie délirante peut associer mégalomanie, agitation extrême, logorrhée et réduction du sommeil.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle correspond à une forme sévère d'épisode maniaque."
+    },
+    {
+      "question": "La mélancolie délirante impose une vigilance majeure face au risque suicidaire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La culpabilité, la ruine, l'indignité et la douleur morale peuvent être très intenses."
+    },
+    {
+      "question": "Les symptômes positifs de schizophrénie sont à distinguer des symptômes négatifs.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette distinction guide l'observation et la compréhension du fonctionnement du patient."
+    },
+    {
+      "question": "Le retrait social d'un patient schizophrène doit être expliqué uniquement par un manque de volonté.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il peut être lié aux symptômes négatifs et à la maladie."
+    },
+    {
+      "question": "La PHC se distingue de la schizophrénie par un début plus tardif et l'absence de dissociation marquée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle comporte souvent des hallucinations riches et un automatisme mental."
+    },
+    {
+      "question": "La psychose paranoïaque peut préserver les fonctions intellectuelles tout en maintenant un délire systématisé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La préservation cognitive ne supprime pas le risque lié au délire."
+    },
+    {
+      "question": "Avec un patient paranoïaque, l'humour ambigu est une bonne stratégie de première intention.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La clarté et la prévisibilité sont préférables."
+    },
+    {
+      "question": "Les troubles anxieux se distinguent par la persistance, l'excès et le retentissement de l'anxiété.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces critères évitent de confondre anxiété normale et trouble constitué."
+    },
+    {
+      "question": "Le TAG implique une inquiétude difficile à contrôler sur plusieurs domaines.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il n'est pas limité à une situation unique."
+    },
+    {
+      "question": "Le trouble panique peut s'accompagner d'évitements durables par peur d'une nouvelle attaque.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La crainte anticipatoire entretient le trouble."
+    },
+    {
+      "question": "L'agoraphobie peut concerner des lieux fermés autant que des espaces ouverts.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La difficulté imaginée à fuir ou être secouru est centrale."
+    },
+    {
+      "question": "La phobie sociale est liée à la peur d'être observé ou jugé négativement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle peut retentir sur la vie sociale et professionnelle."
+    },
+    {
+      "question": "Les phobies spécifiques peuvent déclencher une attaque de panique lors de l'exposition.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'exposition au stimulus redouté peut provoquer une anxiété paroxystique."
+    },
+    {
+      "question": "Le TOC associe souvent obsessions et compulsions dans un cycle d'anxiété et de neutralisation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les rituels soulagent temporairement mais entretiennent le trouble."
+    },
+    {
+      "question": "Dans le trouble de conversion, les symptômes sont volontairement produits.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La non-intentionnalité justifie une attitude non jugeante."
+    },
+    {
+      "question": "La durée aide à distinguer trouble de stress aigu et TSPT.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le TSA est limité dans le temps, alors que le TSPT dépasse un mois."
+    },
+    {
+      "question": "Dans les troubles traumatiques, les conduites addictives et le risque suicidaire doivent être surveillés.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces complications peuvent accompagner la souffrance post-traumatique."
+    },
+    {
+      "question": "Quels éléments sont transversaux à la posture infirmière en psychiatrie ?",
+      "options": [
+        "Écoute",
+        "Observation",
+        "Traçabilité",
+        "Sécurisation"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La psychiatrie mobilise la relation autant que la clinique et la sécurité."
+    },
+    {
+      "question": "Quels éléments différencient soins libres et soins sans consentement ?",
+      "options": [
+        "Accord du patient",
+        "Cadre juridique",
+        "Possibilité de privation de liberté",
+        "Intervention possible du JLD"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les soins sans consentement impliquent un encadrement légal renforcé."
+    },
+    {
+      "question": "Quels dispositifs appartiennent au secteur psychiatrique ?",
+      "options": [
+        "CMP",
+        "HDJ",
+        "CATTG",
+        "CAC"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces structures organisent la prise en charge de proximité et les relais."
+    },
+    {
+      "question": "Quels éléments peuvent orienter vers une situation de crise psychotique aiguë ?",
+      "options": [
+        "Rupture brutale avec la réalité",
+        "Délire polymorphe",
+        "Agitation ou anxiété intense",
+        "Troubles du comportement"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'intensité et la brutalité du tableau imposent une évaluation rapide."
+    },
+    {
+      "question": "Quels éléments imposent une surveillance rapprochée dans la psychose puerpérale ?",
+      "options": [
+        "Désorientation",
+        "Délires liés au bébé",
+        "Troubles du sommeil sévères",
+        "Angoisse massive"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La gravité concerne la mère, le bébé et le lien mère-enfant."
+    },
+    {
+      "question": "Quels signes sont plutôt positifs dans la schizophrénie ?",
+      "options": [
+        "Hallucinations",
+        "Délires",
+        "Agitation psychomotrice",
+        "Discours incohérent"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ils correspondent à des productions ou désorganisations ajoutées au fonctionnement habituel."
+    },
+    {
+      "question": "Quels signes sont plutôt négatifs dans la schizophrénie ?",
+      "options": [
+        "Apathie",
+        "Retrait social",
+        "Démotivation",
+        "Froideur affective"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ils correspondent à une réduction de l'élan, de l'expression et des interactions."
+    },
+    {
+      "question": "Quels éléments relèvent de la prise en charge des psychoses chroniques ?",
+      "options": [
+        "Antipsychotiques",
+        "Réhabilitation psychosociale",
+        "Psychothérapie de soutien",
+        "Surveillance de l'observance"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La prise en charge associe traitement, lien, autonomie et prévention des rechutes."
+    },
+    {
+      "question": "Quels points sont essentiels avec un délire paranoïaque ?",
+      "options": [
+        "Éviter la confrontation",
+        "Garder un cadre stable",
+        "Être clair",
+        "Tracer précisément les échanges"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La relation thérapeutique doit limiter l'ambiguïté et soutenir la sécurité."
+    },
+    {
+      "question": "Quels symptômes peuvent être communs à plusieurs troubles anxieux ?",
+      "options": [
+        "Évitement",
+        "Anxiété anticipatoire",
+        "Retentissement social",
+        "Manifestations somatiques"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces signes se retrouvent dans les phobies, le trouble panique ou l'anxiété sociale."
+    },
+    {
+      "question": "Quels traitements non médicamenteux sont cités dans les troubles anxieux ?",
+      "options": [
+        "TCC",
+        "Exposition graduée",
+        "Relaxation",
+        "Méditation"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les approches psychothérapeutiques et corporelles complètent ou remplacent parfois les médicaments."
+    },
+    {
+      "question": "Quels éléments aident à ne pas confondre TOC et délire ?",
+      "options": [
+        "Caractère intrusif des obsessions",
+        "Rituels de neutralisation",
+        "Reconnaissance partielle du caractère excessif",
+        "Conviction délirante systématisée obligatoire"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Le TOC n'est pas un délire organisé, même si certaines idées peuvent être très envahissantes."
+    },
+    {
+      "question": "Quels éléments différencient trouble de conversion et simulation ?",
+      "options": [
+        "Non-intentionnalité",
+        "Souffrance réelle",
+        "Incompatibilité neurologique démontrable",
+        "Attitude soignante non jugeante"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les symptômes ne sont pas produits volontairement."
+    },
+    {
+      "question": "Quels symptômes peuvent relever du TSPT ?",
+      "options": [
+        "Reviviscences",
+        "Cauchemars",
+        "Évitement",
+        "Hyperréactivité"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le TSPT regroupe intrusion, évitement, altérations cognitives et hyperactivation."
+    },
+    {
+      "question": "Quels éléments sont à surveiller dans un risque suicidaire ?",
+      "options": [
+        "Thymie",
+        "Impulsivité",
+        "Accès aux moyens létaux",
+        "Levée d'inhibition"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'évaluation est clinique, environnementale et évolutive."
+    },
+    {
+      "question": "Quels éléments du patient délirant peuvent orienter les soins infirmiers ?",
+      "options": [
+        "Alimentation",
+        "Hydratation",
+        "Sommeil",
+        "Hygiène"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les besoins fondamentaux peuvent être perturbés par le délire ou les hallucinations."
+    },
+    {
+      "question": "Quels éléments renforcent l'alliance thérapeutique ?",
+      "options": [
+        "Respect",
+        "Bienveillance",
+        "Information adaptée",
+        "Recherche du consentement quand possible"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La qualité du lien conditionne l'adhésion aux soins."
+    },
+    {
+      "question": "Quels éléments peuvent justifier une hospitalisation en urgence psychiatrique ?",
+      "options": [
+        "BDA",
+        "Psychose puerpérale",
+        "Manie délirante grave",
+        "Risque suicidaire élevé"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces situations associent intensité clinique et enjeux de sécurité."
     }
   ]
 }

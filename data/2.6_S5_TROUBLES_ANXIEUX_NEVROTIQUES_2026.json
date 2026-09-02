@@ -513,6 +513,615 @@
         0
       ],
       "explanation": "Le soutien thérapeutique et l'éducation de l'entourage sont aussi cités."
+    },
+    {
+      "question": "Dans les troubles anxieux, la peur et l'anxiété sont excessives et persistantes.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elles entraînent une détresse ou un dysfonctionnement significatif."
+    },
+    {
+      "question": "Dans les troubles névrotiques, la personne perd systématiquement le contact avec la réalité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Le sens de la réalité est conservé."
+    },
+    {
+      "question": "Le terme névrose est un concept historique, mais il aide encore à comprendre certains troubles sans désorganisation profonde.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il renvoie à des troubles avec anxiété, phobies, obsessions ou manifestations hystériques."
+    },
+    {
+      "question": "Dans le TAG, les inquiétudes ne sont pas limitées à une seule situation particulière.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elles portent sur plusieurs événements ou activités de la vie courante."
+    },
+    {
+      "question": "La difficulté à contrôler l'inquiétude est un critère important du TAG.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le patient a du mal à interrompre les préoccupations anxieuses."
+    },
+    {
+      "question": "Le TAG est diagnostiqué même si l'anxiété n'a aucun retentissement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Une souffrance significative ou une altération du fonctionnement est attendue."
+    },
+    {
+      "question": "Les troubles du sommeil font partie des symptômes associés possibles du TAG.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le sommeil peut être difficile à initier, interrompu ou non réparateur."
+    },
+    {
+      "question": "Le trouble panique peut conduire à des passages répétés aux urgences pour des symptômes ressentis comme cardiaques.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La peur de mourir ou de faire une crise cardiaque est fréquente pendant les attaques."
+    },
+    {
+      "question": "La déréalisation et la dépersonnalisation peuvent apparaître lors d'une attaque de panique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces sensations renforcent souvent la peur de perdre le contrôle."
+    },
+    {
+      "question": "Une attaque de panique attendue dans une situation phobogène suffit toujours à diagnostiquer un trouble panique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Le trouble panique implique des attaques récurrentes et inattendues."
+    },
+    {
+      "question": "L'évitement d'exercices ou de situations non familières peut suivre des attaques de panique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le patient peut adapter son comportement par peur d'une nouvelle attaque."
+    },
+    {
+      "question": "L'agoraphobie peut rendre les sorties impossibles sans accompagnement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La présence d'un compagnon peut devenir nécessaire pour affronter certaines situations."
+    },
+    {
+      "question": "L'agoraphobie concerne uniquement la peur des grands espaces ouverts.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle concerne aussi transports, lieux fermés, foule, file d'attente ou solitude hors domicile."
+    },
+    {
+      "question": "La peur agoraphobique est disproportionnée par rapport au danger réel et au contexte socioculturel.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ce caractère disproportionné participe au diagnostic."
+    },
+    {
+      "question": "L'évitement agoraphobique doit être persistant, généralement au moins six mois.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La durée permet de distinguer un évitement transitoire d'un trouble constitué."
+    },
+    {
+      "question": "Dans l'anxiété sociale, la personne craint de montrer des symptômes qui seraient jugés négativement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La peur d'humiliation, de rejet ou d'offense entretient l'évitement."
+    },
+    {
+      "question": "La phobie sociale se limite à la peur de parler devant un très grand public.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Conversations, rencontres ou être observé en train de manger ou boire peuvent aussi être concernés."
+    },
+    {
+      "question": "L'anxiété anticipatoire est fréquente dans la phobie sociale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le patient souffre souvent avant même l'exposition à la situation redoutée."
+    },
+    {
+      "question": "Les phobies spécifiques peuvent concerner le sang, les injections ou les animaux.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'objet ou la situation phobogène déclenche presque toujours une peur immédiate."
+    },
+    {
+      "question": "Dans une phobie spécifique, l'exposition réduit toujours immédiatement l'anxiété sans accompagnement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. L'exposition peut provoquer une anxiété intense ou une attaque de panique."
+    },
+    {
+      "question": "L'hypervigilance peut accompagner les phobies spécifiques.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'anticipation anxieuse maintient l'évitement et la surveillance du danger."
+    },
+    {
+      "question": "Dans le TOC, les compulsions visent souvent à réduire l'anxiété provoquée par les obsessions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le soulagement est généralement temporaire et entretient le cycle obsession-compulsion."
+    },
+    {
+      "question": "Les compulsions sont toujours des gestes visibles.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elles peuvent aussi être des actes mentaux comme compter, réciter ou prier."
+    },
+    {
+      "question": "Le lavage répété des mains peut être une compulsion dans un TOC de contamination.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il répond à une pensée intrusive de contamination."
+    },
+    {
+      "question": "La surveillance de l'isolement social fait partie du rôle infirmier dans le TOC.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les rituels et l'évitement peuvent réduire fortement la vie sociale."
+    },
+    {
+      "question": "Le trouble de conversion peut se manifester par des crises non épileptiques.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les symptômes peuvent suggérer une affection neurologique sans correspondre à une pathologie neurologique connue."
+    },
+    {
+      "question": "Les symptômes de conversion peuvent fluctuer et apparaître brutalement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ils sont souvent associés à un facteur psychologique ou émotionnel."
+    },
+    {
+      "question": "Dans le trouble de conversion, il faut accuser le patient de simulation pour l'aider à comprendre.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. L'attitude doit être non jugeante car les symptômes ne sont pas intentionnels."
+    },
+    {
+      "question": "Le maintien de l'autonomie est un objectif infirmier dans le trouble de conversion.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le soin évite de renforcer les symptômes tout en soutenant les capacités du patient."
+    },
+    {
+      "question": "Le TSA peut comporter des symptômes dissociatifs, anxieux et de re-viviscence.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il survient dans le mois qui suit l'événement traumatique."
+    },
+    {
+      "question": "Le TSPT apparaît toujours immédiatement après le traumatisme.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les symptômes peuvent se manifester plusieurs mois ou années après."
+    },
+    {
+      "question": "Les réactions physiologiques aux rappels du traumatisme font partie des symptômes d'intrusion.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le corps peut réagir fortement aux stimuli rappelant l'événement."
+    },
+    {
+      "question": "L'évitement des pensées et émotions liées au traumatisme peut appartenir au TSPT.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'évitement ne concerne pas seulement les lieux ou les personnes."
+    },
+    {
+      "question": "La culpabilité inadaptée et le détachement social peuvent faire partie du TSPT.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les altérations cognitives et émotionnelles sont une dimension du trouble."
+    },
+    {
+      "question": "L'EMDR est citée parmi les prises en charge possibles du TSPT.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle vise le retraitement des images envahissantes."
+    },
+    {
+      "question": "Quels critères distinguent les troubles anxieux d'une anxiété ordinaire ?",
+      "options": [
+        "Excès",
+        "Persistance",
+        "Détresse significative",
+        "Dysfonctionnement"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le retentissement et la persistance sont essentiels."
+    },
+    {
+      "question": "Quels domaines peuvent être concernés par les inquiétudes du TAG ?",
+      "options": [
+        "Travail",
+        "Études",
+        "Santé",
+        "Famille"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les préoccupations du TAG sont multiples et difficiles à contrôler."
+    },
+    {
+      "question": "Quels signes somatiques peuvent accompagner un trouble panique ?",
+      "options": [
+        "Palpitations",
+        "Sueurs",
+        "Sensation d'étouffement",
+        "Picotements"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les manifestations corporelles alimentent souvent la peur de mourir ou de perdre le contrôle."
+    },
+    {
+      "question": "Quelles situations relèvent des critères d'agoraphobie ?",
+      "options": [
+        "Être dans un magasin",
+        "Être dans un cinéma",
+        "Faire la queue",
+        "Être seul dehors"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'agoraphobie concerne plusieurs situations où fuite ou secours semblent difficiles."
+    },
+    {
+      "question": "Quels éléments appartiennent au rôle infirmier dans l'agoraphobie ?",
+      "options": [
+        "Évaluer les capacités de déplacement",
+        "Soutenir l'observance",
+        "Éduquer sur la gestion de l'anxiété",
+        "Accompagner progressivement l'autonomie"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'accompagnement vise à réduire l'évitement sans brusquer la personne."
+    },
+    {
+      "question": "Quels signes physiques peuvent accompagner l'anxiété sociale ?",
+      "options": [
+        "Rougissement",
+        "Transpiration",
+        "Tremblements",
+        "Palpitations"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces signes peuvent eux-mêmes devenir redoutés car visibles par autrui."
+    },
+    {
+      "question": "Quels exemples peuvent relever d'une phobie spécifique ?",
+      "options": [
+        "Vol en avion",
+        "Hauteurs",
+        "Voir du sang",
+        "Recevoir une injection"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'objet ou la situation spécifique déclenche une peur intense."
+    },
+    {
+      "question": "Quels éléments caractérisent les obsessions ?",
+      "options": [
+        "Pensées récurrentes",
+        "Images intrusives",
+        "Impulsions vécues comme inappropriées",
+        "Détresse marquée"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les obsessions ne sont pas de simples préoccupations choisies."
+    },
+    {
+      "question": "Quels exemples peuvent relever de compulsions ?",
+      "options": [
+        "Se laver les mains",
+        "Vérifier",
+        "Compter",
+        "Réciter mentalement"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les compulsions peuvent être comportementales ou mentales."
+    },
+    {
+      "question": "Quels signes peuvent être observés dans un trouble de conversion ?",
+      "options": [
+        "Cécité fonctionnelle",
+        "Surdité fonctionnelle",
+        "Tremblements",
+        "Mouvements involontaires"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les déficits peuvent toucher les fonctions sensorielles ou motrices."
+    },
+    {
+      "question": "Quels éléments sont compatibles avec un TSPT ?",
+      "options": [
+        "Cauchemars récurrents",
+        "Flashbacks",
+        "Évitement des lieux",
+        "Hypervigilance"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le TSPT associe reviviscence, évitement et hyperréactivité."
+    },
+    {
+      "question": "Quelles prises en charge peuvent être proposées dans le TSPT ?",
+      "options": [
+        "TCC centrée sur l'exposition",
+        "Restructuration cognitive",
+        "EMDR",
+        "Relaxation ou pleine conscience"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La prise en charge cible les souvenirs traumatiques, l'hypervigilance et la réactivité émotionnelle."
+    },
+    {
+      "question": "Quels rôles infirmiers sont transversaux dans les troubles anxieux ?",
+      "options": [
+        "Écoute empathique",
+        "Éducation thérapeutique",
+        "Soutien de l'observance",
+        "Évaluation du retentissement"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le rôle infirmier associe évaluation, soutien et accompagnement progressif."
+    },
+    {
+      "question": "Quels diagnostics doivent être différenciés d'une attaque de panique ?",
+      "options": [
+        "Hyperthyroïdie",
+        "Affection cardiopulmonaire",
+        "Effet d'une substance",
+        "Autre trouble anxieux spécifique"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le raisonnement clinique impose d'exclure causes organiques, toxiques et autres troubles."
     }
   ]
 }

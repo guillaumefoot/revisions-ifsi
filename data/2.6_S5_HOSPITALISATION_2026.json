@@ -364,6 +364,124 @@
         3
       ],
       "explanation": "Plusieurs personnes peuvent saisir le JLD, et il peut aussi se saisir d'office."
+    },
+    {
+      "question": "Les soins libres sont possibles lorsque le patient est en accord avec la prise en charge.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les soins libres reposent sur le consentement du patient."
+    },
+    {
+      "question": "La SPPI nécessite obligatoirement une demande écrite d'un tiers.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La SPPI s'applique précisément lorsqu'aucun tiers n'est susceptible de déclencher la procédure."
+    },
+    {
+      "question": "Le certificat de SPPI doit être circonstancié et décrire l'état mental ainsi que la nécessité des soins sans consentement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le péril imminent doit être médicalement constaté."
+    },
+    {
+      "question": "L'identité du patient et celle du tiers doivent être vérifiées lors d'une SPDT.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La régularité de la procédure suppose de vérifier les identités concernées."
+    },
+    {
+      "question": "Le tiers demandeur peut être n'importe quel professionnel de l'établissement d'accueil.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Le personnel soignant de l'établissement d'accueil ne peut pas être tiers demandeur."
+    },
+    {
+      "question": "En SPDRE à la demande du préfet, un arrêté préfectoral est requis.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La décision relève du représentant de l'État dans le département."
+    },
+    {
+      "question": "Une décision d'irresponsabilité pénale peut conduire à une modalité de SPDRE sur décision des autorités judiciaires.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette modalité associe décision judiciaire et lettre de l'autorité préfectorale."
+    },
+    {
+      "question": "Le JLD évalue principalement le choix du médicament psychotrope.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il contrôle la légalité, la régularité et la poursuite de la mesure privative de liberté."
+    },
+    {
+      "question": "Quels documents ou décisions peuvent être attendus dans une admission sur décision du maire ?",
+      "options": [
+        "Certificat médical par un praticien hors établissement d'accueil",
+        "Arrêté municipal",
+        "Confirmation préfectorale dans les 48 heures",
+        "Simple appel téléphonique du voisinage"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La procédure suppose un certificat, un arrêté municipal et une confirmation préfectorale."
+    },
+    {
+      "question": "Sur quoi le JLD peut-il statuer ?",
+      "options": [
+        "Légalité de la procédure",
+        "Régularité des décisions administratives",
+        "Respect des dates de certificats",
+        "Choix des activités thérapeutiques quotidiennes"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Le contrôle porte sur la procédure, les droits, les certificats, les délais et les informations."
     }
   ]
 }

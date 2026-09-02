@@ -442,6 +442,330 @@
         0
       ],
       "explanation": "Le suivi permet de surveiller récidives, chronicisation ou évolution vers d'autres troubles psychiatriques."
+    },
+    {
+      "question": "Le délire est une conviction inébranlable en inadéquation avec la réalité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette conviction peut persister malgré les éléments contraires."
+    },
+    {
+      "question": "Un délire peut avoir une cohérence interne tout en restant en rupture avec la réalité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La cohérence interne ne suffit pas à le rendre conforme au réel."
+    },
+    {
+      "question": "Un délire aigu dure toujours plus de six mois.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Une durée inférieure à six mois oriente vers un épisode aigu."
+    },
+    {
+      "question": "Le syndrome dissociatif peut entraîner des émotions inappropriées à la situation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La dissociation touche aussi le domaine émotionnel."
+    },
+    {
+      "question": "L'ambivalence affective fait partie des manifestations possibles de la dissociation émotionnelle.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle traduit une discordance ou coexistence d'affects contradictoires."
+    },
+    {
+      "question": "Le maniérisme, les stéréotypies et le négativisme peuvent appartenir au versant comportemental dissociatif.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces signes traduisent une désorganisation du comportement."
+    },
+    {
+      "question": "Le repli autistique n'est pas constant et peut fluctuer au cours de l'évolution d'une psychose.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il peut apparaître dans un tableau plus large et varier dans le temps."
+    },
+    {
+      "question": "Le syndrome d'influence correspond à l'impression d'être fait parler, penser ou agir.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il est proche de l'automatisme mental et renvoie à une emprise vécue comme extérieure."
+    },
+    {
+      "question": "L'automatisme mental se limite à des hallucinations visuelles.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il peut être idéo-verbal, sensoriel, sensitif ou psychomoteur."
+    },
+    {
+      "question": "Une bouffée délirante aiguë peut survenir après un deuil, un traumatisme ou un stress aigu.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les événements de vie peuvent être des facteurs déclenchants."
+    },
+    {
+      "question": "La BDA peut se résoudre sans récidive mais nécessite une surveillance évolutive.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Une évolution vers d'autres troubles reste possible."
+    },
+    {
+      "question": "L'absence d'antécédent psychiatrique exclut une bouffée délirante aiguë.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La BDA peut survenir brutalement chez une personne sans antécédents psychiatriques."
+    },
+    {
+      "question": "Les hallucinations de la BDA sont souvent multiples, riches et vécues comme réelles.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elles peuvent être auditives, visuelles, tactiles, olfactives ou gustatives."
+    },
+    {
+      "question": "La détresse liée à une BDA peut augmenter le risque suicidaire même à distance de l'épisode.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'anxiété et la souffrance imposent un suivi après la phase aiguë."
+    },
+    {
+      "question": "La psychothérapie de soutien est plutôt introduite à distance de l'épisode aigu.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle aide ensuite le patient à comprendre et élaborer l'expérience vécue."
+    },
+    {
+      "question": "Quels critères orientent vers un délire non systématisé ?",
+      "options": [
+        "Absence de liens logiques",
+        "Aucune cohérence entre les thèmes",
+        "Récit peu crédible",
+        "Organisation parfaitement stable et argumentée"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Le délire non systématisé est peu organisé et fluctuant."
+    },
+    {
+      "question": "Quels thèmes peuvent apparaître dans une BDA ?",
+      "options": [
+        "Mystique",
+        "Persécution",
+        "Mégalomanie",
+        "Plusieurs thèmes simultanés"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le délire de BDA est souvent polymorphe."
+    },
+    {
+      "question": "Quels signes avant-coureurs peuvent précéder une BDA ?",
+      "options": [
+        "Insomnie",
+        "Anxiété diffuse",
+        "Exaltation inhabituelle",
+        "Changements de comportement"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces modifications peuvent annoncer la rupture psychotique."
+    },
+    {
+      "question": "Quels facteurs environnementaux ou toxiques peuvent déclencher une BDA ?",
+      "options": [
+        "Confinement prolongé",
+        "Enfermement",
+        "Cannabis ou LSD",
+        "Cocaïne ou amphétamines"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Substances et contextes extrêmes peuvent participer au déclenchement."
+    },
+    {
+      "question": "Quels risques évolutifs justifient le suivi après une BDA ?",
+      "options": [
+        "Récidive",
+        "Évolution vers schizophrénie",
+        "Évolution vers trouble bipolaire",
+        "Risque suicidaire"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le suivi de 1 à 2 ans vise à détecter précocement ces évolutions."
+    },
+    {
+      "question": "Quels éléments signalent la gravité d'une manie délirante ?",
+      "options": [
+        "Épuisement physique",
+        "Comportements dangereux",
+        "Désorganisation sociale majeure",
+        "Réduction du besoin de sommeil"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La manie délirante correspond au paroxysme de l'épisode maniaque."
+    },
+    {
+      "question": "Quels signes peuvent appartenir à la mélancolie délirante ?",
+      "options": [
+        "Idées de culpabilité",
+        "Idées d'indignité",
+        "Idées de ruine",
+        "Idées suicidaires marquées"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La mélancolie délirante associe dépression sévère et contenu délirant douloureux."
+    },
+    {
+      "question": "Quels éléments rendent la psychose puerpérale urgente ?",
+      "options": [
+        "Début brutal",
+        "Absence fréquente de conscience du trouble",
+        "Risque pour la mère",
+        "Risque pour le bébé"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La sécurité de la mère et de l'enfant impose une prise en charge immédiate."
+    },
+    {
+      "question": "Quels signes psychotiques peuvent apparaître dans la psychose puerpérale ?",
+      "options": [
+        "Délires en lien avec le bébé",
+        "Hallucinations",
+        "Paranoïa",
+        "Désorientation spatio-temporelle"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le tableau peut associer confusion, hallucinations, délire et angoisse massive."
+    },
+    {
+      "question": "Quels médicaments peuvent être cités comme antipsychotiques de seconde génération dans la BDA ?",
+      "options": [
+        "Olanzapine",
+        "Rispéridone",
+        "Quétiapine",
+        "Aripiprazole"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces traitements sont cités parmi les antipsychotiques couramment utilisés."
     }
   ]
 }

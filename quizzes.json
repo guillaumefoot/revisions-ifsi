@@ -15,51 +15,51 @@
   },
   {
     "file": "data/2.6_S5_SOINS_PSY_2026.json",
-    "code": "UE 2.6 S5",
+    "code": "UE 2.6",
     "name": "Soins infirmiers en psychiatrie",
-    "subtitle": "Posture soignante, projet de soins, risque suicidaire et relation au patient délirant",
+    "subtitle": "S5 - Posture soignante, projet de soins, risque suicidaire et relation au patient délirant",
     "icon": "🧠"
   },
   {
     "file": "data/2.6_S5_HOSPITALISATION_2026.json",
-    "code": "UE 2.6 S5",
+    "code": "UE 2.6",
     "name": "Hospitalisation en psychiatrie",
-    "subtitle": "Soins libres, soins sans consentement, certificats, tiers, SPDRE et rôle du JLD",
+    "subtitle": "S5 - Soins libres, soins sans consentement, certificats, tiers, SPDRE et rôle du JLD",
     "icon": "⚖️"
   },
   {
     "file": "data/2.6_S5_SECTORISATION_2026.json",
-    "code": "UE 2.6 S5",
+    "code": "UE 2.6",
     "name": "Sectorisation psychiatrique",
-    "subtitle": "Organisation de secteur, CMP, HDJ, CATTG, CAC, appartements thérapeutiques et équipes",
+    "subtitle": "S5 - Organisation de secteur, CMP, HDJ, CATTG, CAC, appartements thérapeutiques et équipes",
     "icon": "🗺️"
   },
   {
     "file": "data/2.6_S5_PSYCHOSES_AIGUES_2026.json",
-    "code": "UE 2.6 S5",
+    "code": "UE 2.6",
     "name": "Psychoses aiguës",
-    "subtitle": "Délire, dissociation, automatisme mental, manie délirante, mélancolie, psychose puerpérale et BDA",
+    "subtitle": "S5 - Délire, dissociation, automatisme mental, manie délirante, mélancolie, psychose puerpérale et BDA",
     "icon": "🌩️"
   },
   {
     "file": "data/2.6_S5_PSYCHOSES_CHRONIQUES_2026.json",
-    "code": "UE 2.6 S5",
+    "code": "UE 2.6",
     "name": "Psychoses chroniques",
-    "subtitle": "Schizophrénie, psychose hallucinatoire chronique, psychose paranoïaque et relation thérapeutique",
+    "subtitle": "S5 - Schizophrénie, psychose hallucinatoire chronique, psychose paranoïaque et relation thérapeutique",
     "icon": "🧩"
   },
   {
     "file": "data/2.6_S5_TROUBLES_ANXIEUX_NEVROTIQUES_2026.json",
-    "code": "UE 2.6 S5",
+    "code": "UE 2.6",
     "name": "Troubles anxieux et névrotiques",
-    "subtitle": "TAG, trouble panique, agoraphobie, phobies, TOC, conversion, TSA et TSPT",
+    "subtitle": "S5 - TAG, trouble panique, agoraphobie, phobies, TOC, conversion, TSA et TSPT",
     "icon": "🫁"
   },
   {
     "file": "data/2.6_S5_SYNTHESE_2026.json",
-    "code": "UE 2.6 S5",
+    "code": "UE 2.6",
     "name": "Synthèse UE 2.6 S5",
-    "subtitle": "Révision transversale : soins, cadre légal, sectorisation, psychoses et troubles anxieux",
+    "subtitle": "S5 - Révision transversale : soins, cadre légal, sectorisation, psychoses et troubles anxieux",
     "icon": "🎯"
   }
 ]
