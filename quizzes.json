@@ -14,6 +14,13 @@
     "icon": "🩺"
   },
   {
+    "file": "data/2.11_S5_TOXICOLOGIE_2026.json",
+    "code": "UE 2.11",
+    "name": "Toxicologie",
+    "subtitle": "S5 - Toxicologie, iatrogénie, pharmacodépendance et prise en charge du patient intoxiqué",
+    "icon": "💊"
+  },
+  {
     "file": "data/2.6_S5_SOINS_PSY_2026.json",
     "code": "UE 2.6",
     "name": "Soins infirmiers en psychiatrie",

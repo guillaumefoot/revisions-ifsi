@@ -1,0 +1,1274 @@
+{
+  "title": "UE 2.11 S5 - Toxicologie",
+  "subtitle": "Toxicologie, iatrogénie médicamenteuse, pharmacodépendance, pharmacovigilance et prise en charge infirmière",
+  "questions": [
+    {
+      "question": "La toxicologie étudie les substances nocives pour l'organisme vivant.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle étudie leur nature, leurs propriétés, leurs mécanismes d'action, leur recherche et les moyens thérapeutiques de lutter contre leurs effets."
+    },
+    {
+      "question": "Quels éléments font partie du champ de la toxicologie ?",
+      "options": [
+        "Nature des toxiques",
+        "Propriétés des toxiques",
+        "Modes et mécanismes d'action",
+        "Moyens thérapeutiques contre les actions nocives"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La toxicologie inclut l'étude qualitative et quantitative des toxiques et les moyens de lutter contre leurs effets."
+    },
+    {
+      "question": "Un toxique peut provoquer des troubles après une pénétration dans l'organisme par n'importe quelle voie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La voie d'entrée peut être digestive, respiratoire, cutanée, parentérale ou autre selon la substance."
+    },
+    {
+      "question": "Un toxique agit uniquement lorsqu'il est pris à dose élevée en une seule fois.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il peut agir à dose élevée en une fois, en prises rapprochées, ou à petites doses longtemps répétées."
+    },
+    {
+      "question": "Quels types de toxicologie sont cités ?",
+      "options": [
+        "Environnementale",
+        "Alimentaire",
+        "Professionnelle",
+        "Médicamenteuse"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La toxicologie peut concerner l'environnement, l'alimentation, le travail, l'industrie ou les médicaments."
+    },
+    {
+      "question": "La toxicité aiguë correspond plutôt à quelle situation ?",
+      "options": [
+        "Exposition unique ou de courte durée, souvent à dose élevée",
+        "Exposition répétée pendant plusieurs années uniquement à très faible dose",
+        "Absence d'exposition identifiable",
+        "Réaction toujours progressive sur plusieurs décennies"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La toxicité aiguë apparaît rapidement après une exposition unique ou brève."
+    },
+    {
+      "question": "Quels exemples correspondent à une toxicité aiguë ?",
+      "options": [
+        "Intoxication médicamenteuse volontaire",
+        "Inhalation de monoxyde de carbone",
+        "Ingestion d'un produit ménager",
+        "Piqûre ou venin"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces situations correspondent à une exposition unique, brève ou massive avec effets rapides."
+    },
+    {
+      "question": "La toxicité chronique correspond plutôt à une exposition répétée ou prolongée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle apparaît progressivement, souvent sur des mois ou des années."
+    },
+    {
+      "question": "Quels exemples correspondent à une toxicité chronique ?",
+      "options": [
+        "Saturnisme lié au plomb",
+        "Silicose par exposition professionnelle",
+        "Toxicité hépatique d'un traitement prolongé",
+        "Tabagisme"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces exemples impliquent des expositions répétées ou prolongées."
+    },
+    {
+      "question": "Les notions de toxicité aiguë et chronique s'appliquent uniquement aux médicaments.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elles s'appliquent aussi aux produits chimiques, drogues, expositions environnementales ou professionnelles."
+    },
+    {
+      "question": "Quelle voie d'intoxication correspond à une substance ingérée par la bouche ?",
+      "options": [
+        "Voie orale ou digestive",
+        "Voie respiratoire",
+        "Voie cutanée",
+        "Voie parentérale"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La voie orale correspond à l'ingestion digestive."
+    },
+    {
+      "question": "Quelle voie d'intoxication correspond à l'inhalation par les voies aériennes ?",
+      "options": [
+        "Respiratoire",
+        "Orale",
+        "Cutanée",
+        "Digestive"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La voie respiratoire concerne les gaz, vapeurs ou fumées inhalés."
+    },
+    {
+      "question": "Quelle voie d'intoxication correspond à une absorption à travers la peau ?",
+      "options": [
+        "Cutanée",
+        "Parentérale",
+        "Respiratoire",
+        "Orale"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La voie cutanée concerne l'absorption transdermique de certains produits."
+    },
+    {
+      "question": "Quelle voie d'intoxication introduit directement le toxique dans le sang ?",
+      "options": [
+        "Parentérale ou injectable",
+        "Orale",
+        "Respiratoire",
+        "Cutanée simple"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La voie parentérale correspond notamment aux injections ou à certains venins."
+    },
+    {
+      "question": "Que signifie la DL50 ?",
+      "options": [
+        "Dose létale qui tue 50 % des animaux exposés",
+        "Dose minimale efficace chez 50 % des patients",
+        "Durée limite de surveillance de 50 minutes",
+        "Dose légale maximale pour 50 médicaments"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La DL50 est une estimation statistique de dose létale dans les modèles animaux."
+    },
+    {
+      "question": "Une DL50 inférieure à 1 mg/kg indique un produit très toxique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Plus la dose létale est faible, plus la toxicité aiguë est importante."
+    },
+    {
+      "question": "La toxicité des médicaments correspond à l'ensemble des manifestations toxiques et indésirables consécutives à l'administration d'un médicament.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La toxicité médicamenteuse inclut les manifestations toxiques et les effets indésirables liés au médicament."
+    },
+    {
+      "question": "Quel est l'objectif des études précliniques de toxicologie ?",
+      "options": [
+        "Déterminer une dose de départ sûre pour l'homme",
+        "Supprimer toute surveillance clinique ultérieure",
+        "Remplacer les essais cliniques",
+        "Déterminer uniquement le prix du médicament"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elles servent à définir une marge de sécurité avant la première administration chez l'homme."
+    },
+    {
+      "question": "Quelles études peuvent appartenir aux études précliniques de toxicologie ?",
+      "options": [
+        "Toxicité aiguë",
+        "Toxicité subaiguë ou chronique",
+        "Génotoxicité",
+        "Reproduction et développement"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le programme préclinique inclut aussi cancérogenèse et sécurité pharmacologique selon le contexte."
+    },
+    {
+      "question": "Quelle toxicité est à redouter lors d'un surdosage en paracétamol ?",
+      "options": [
+        "Hépatotoxicité retardée",
+        "Ototoxicité immédiate isolée",
+        "Hypoglycémie systématique",
+        "Syndrome malin des neuroleptiques"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'intoxication au paracétamol peut être asymptomatique au début mais exposer à une hépatotoxicité retardée."
+    },
+    {
+      "question": "Quel antidote est associé au paracétamol ?",
+      "options": [
+        "N-acétylcystéine",
+        "Naloxone",
+        "Flumazénil",
+        "Protamine sulfate"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La N-acétylcystéine est l'antidote cité pour le surdosage en paracétamol."
+    },
+    {
+      "question": "Quels signes orientent vers une intoxication aux opioïdes ?",
+      "options": [
+        "Myosis",
+        "Somnolence",
+        "Bradypnée",
+        "Dépression respiratoire"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La surveillance respiratoire est essentielle devant une intoxication aux opioïdes."
+    },
+    {
+      "question": "La naloxone est l'antidote cité pour la morphine et ses dérivés.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La naloxone est citée sous différentes formes, notamment Narcan, Prenoxad et Nyxoid."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une intoxication aux benzodiazépines ?",
+      "options": [
+        "Somnolence",
+        "Hypotonie",
+        "Dépression respiratoire majorée par l'alcool",
+        "Ictère obligatoire"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les benzodiazépines exposent notamment à une sédation, une hypotonie et une dépression respiratoire, surtout en association avec l'alcool."
+    },
+    {
+      "question": "Le flumazénil peut être utilisé comme antidote des benzodiazépines sous conditions.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le flumazénil est cité, mais son utilisation dépend du contexte clinique."
+    },
+    {
+      "question": "L'iatrogénèse correspond aux effets délétères provoqués par une action ou un traitement à but thérapeutique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle désigne ce que le soin ou le traitement peut provoquer de délétère."
+    },
+    {
+      "question": "Quels exemples peuvent relever de l'iatrogénèse ?",
+      "options": [
+        "Effet secondaire d'un traitement médicamenteux",
+        "Baisse de qualité de vie après hospitalisation",
+        "Maladie nosocomiale",
+        "Absence totale de tout soin"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "L'iatrogénèse peut être liée au médicament, au soin ou au séjour hospitalier."
+    },
+    {
+      "question": "L'événement iatrogène médicamenteux peut avoir pour origine un effet indésirable ou une erreur médicamenteuse.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'effet indésirable survient malgré un usage conforme, tandis que l'erreur médicamenteuse correspond à un écart évitable."
+    },
+    {
+      "question": "Dans un effet indésirable, le médicament est utilisé conformément aux recommandations.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La réaction est liée au produit ou au patient malgré l'usage conforme."
+    },
+    {
+      "question": "Une erreur médicamenteuse est un écart involontaire dans la prise en charge médicamenteuse du patient.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle est par nature évitable et peut survenir à plusieurs étapes du circuit du médicament."
+    },
+    {
+      "question": "Une erreur médicamenteuse peut survenir sans prise du médicament et sans dommage constaté.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Un presque-accident reste une erreur ou un écart à analyser pour prévenir un dommage."
+    },
+    {
+      "question": "Quels facteurs peuvent favoriser une erreur médicamenteuse ?",
+      "options": [
+        "Confusion de dénomination",
+        "Conditionnement inadapté",
+        "Interruption de tâche",
+        "Charge de travail"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les causes peuvent être liées au produit, au circuit du médicament, à l'organisation ou aux facteurs humains."
+    },
+    {
+      "question": "Les never events sont des événements indésirables graves et évitables liés à des erreurs humaines ou de pratiques.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ce sont des erreurs qui ne devraient jamais arriver."
+    },
+    {
+      "question": "Les never events concernent le plus souvent des médicaments à marge thérapeutique étroite.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La marge thérapeutique étroite augmente le risque de conséquences graves en cas d'erreur."
+    },
+    {
+      "question": "Quels éléments composent la règle des 5 B à l'administration ?",
+      "options": [
+        "Bon patient",
+        "Bon médicament",
+        "Bonne dose",
+        "Bonne voie"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le bon moment complète les 5 B."
+    },
+    {
+      "question": "Déclarer une erreur ou un presque-accident sert à corriger le système, pas à désigner un responsable.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La déclaration participe à la gestion des risques et à l'amélioration des pratiques."
+    },
+    {
+      "question": "Un effet indésirable grave peut entraîner la mort ou mettre la vie du patient en danger.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La gravité inclut aussi invalidité durable, hospitalisation ou anomalie congénitale."
+    },
+    {
+      "question": "Quels critères définissent un effet indésirable grave ?",
+      "options": [
+        "Décès ou mise en danger de la vie",
+        "Invalidité ou incapacité importante ou durable",
+        "Hospitalisation provoquée ou prolongée",
+        "Anomalie ou malformation congénitale"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces critères sont les repères de gravité présentés."
+    },
+    {
+      "question": "Quels signes d'appel peuvent évoquer une néphrotoxicité ?",
+      "options": [
+        "Diminution de la diurèse",
+        "Augmentation de la créatinine",
+        "Œdèmes",
+        "Acouphènes isolés"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les acouphènes relèvent plutôt d'une ototoxicité."
+    },
+    {
+      "question": "Quels médicaments ou produits sont cités comme pourvoyeurs de néphrotoxicité ?",
+      "options": [
+        "Aminosides",
+        "AINS",
+        "Produits iodés",
+        "Lithium"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "IEC/ARA2 et vancomycine sont aussi cités parmi les classes ou produits à risque."
+    },
+    {
+      "question": "Les acouphènes, l'hypoacousie et les vertiges peuvent évoquer une ototoxicité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'ototoxicité touche l'audition ou l'équilibre."
+    },
+    {
+      "question": "Fatigue, infections, ecchymoses et saignements peuvent évoquer une hématotoxicité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'hématotoxicité touche la moelle osseuse."
+    },
+    {
+      "question": "Ictère, augmentation des transaminases et douleur de l'hypochondre droit peuvent évoquer une hépatotoxicité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces signes orientent vers une atteinte hépatique."
+    },
+    {
+      "question": "Troubles du rythme, malaise et palpitations peuvent évoquer une cardiotoxicité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La cardiotoxicité touche le cœur ou la conduction."
+    },
+    {
+      "question": "Confusion, somnolence et convulsions peuvent évoquer une neurotoxicité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La neurotoxicité concerne le système nerveux central ou périphérique."
+    },
+    {
+      "question": "Quels éléments font partie du rôle infirmier face à un effet indésirable suspecté ?",
+      "options": [
+        "Repérer",
+        "Tracer",
+        "Transmettre",
+        "Déclarer"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La surveillance, la traçabilité, la transmission et la déclaration structurent le rôle infirmier."
+    },
+    {
+      "question": "Dans la traçabilité d'un effet indésirable, il faut noter date, heure, médicament, dose, voie, chronologie des signes et évolution.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces informations permettent de comprendre le lien temporel et l'évolution après arrêt éventuel."
+    },
+    {
+      "question": "L'infirmier doit garder pour lui un doute sur un effet indésirable tant que le diagnostic n'est pas certain.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il faut transmettre au médecin, au pharmacien ou à l'équipe et ne pas garder le doute pour soi."
+    },
+    {
+      "question": "La pharmacovigilance correspond à l'observation, l'analyse et la recherche des effets secondaires et indésirables des médicaments.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle permet le recueil, l'expertise et les décisions de sécurité autour des médicaments."
+    },
+    {
+      "question": "Quels acteurs ou dispositifs sont cités dans la pharmacovigilance ?",
+      "options": [
+        "CRPV",
+        "ANSM",
+        "Portail des signalements",
+        "Centre antipoison pour toute décision nationale de retrait d'AMM"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les CRPV recueillent et expertisent, l'ANSM prend des décisions nationales, et le portail est ouvert aux soignants et patients."
+    },
+    {
+      "question": "La pharmacodépendance correspond à un état de besoin d'un ou plusieurs médicaments ou substances pour fonctionner dans les limites de la normale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle peut s'accompagner de tolérance, de signes de sevrage et d'addiction."
+    },
+    {
+      "question": "La tolérance correspond à un épuisement de l'effet avec le temps nécessitant d'augmenter les posologies pour obtenir le même effet.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La tolérance ou accoutumance traduit une réduction progressive de l'activité du produit."
+    },
+    {
+      "question": "L'addiction est décrite comme une perte totale du contrôle de la consommation du médicament ou de la substance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle se distingue d'une simple utilisation thérapeutique contrôlée."
+    },
+    {
+      "question": "La dépendance psychique est liée à la sensation de plaisir et à la recherche compulsive du produit.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle peut se manifester par des pensées envahissantes et une recherche compulsive."
+    },
+    {
+      "question": "La dépendance physique correspond à une adaptation physiologique de l'organisme au produit.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'arrêt peut provoquer des manifestations physiques et neuropsychiques."
+    },
+    {
+      "question": "Quels signes peuvent apparaître lors d'un sevrage physique ?",
+      "options": [
+        "Douleurs",
+        "Tremblements",
+        "Convulsions",
+        "Anxiété ou agitation"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le sevrage peut associer manifestations physiques, anxieuses, comportementales et neurologiques."
+    },
+    {
+      "question": "Le delirium tremens est cité comme forme sévère de sevrage alcoolique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il fait partie des formes sévères de syndrome de sevrage."
+    },
+    {
+      "question": "Quels médicaments peuvent être responsables de pharmacodépendance ?",
+      "options": [
+        "Opioïdes",
+        "Benzodiazépines et apparentés",
+        "Gabapentinoïdes",
+        "Psychostimulants"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "D'autres hypnotiques, antitussifs, antidépresseurs et antiépileptiques sont également concernés."
+    },
+    {
+      "question": "Les benzodiazépines et apparentés exposent notamment à une tolérance rapide, des chutes et de la confusion.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces points de vigilance sont associés à alprazolam, bromazépam, clonazépam ou zolpidem."
+    },
+    {
+      "question": "Les gabapentinoïdes peuvent potentialiser les opioïdes et leur mésusage est en hausse.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La prégabaline et la gabapentine sont citées avec ce point de vigilance."
+    },
+    {
+      "question": "Hors médicaments, l'alcool, le tabac, le cannabis, la cocaïne, l'héroïne et la caféine sont cités parmi les substances concernées.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La pharmacodépendance peut concerner des médicaments et des substances non médicamenteuses."
+    },
+    {
+      "question": "Quelle méthode structure la première évaluation infirmière d'un patient intoxiqué ?",
+      "options": [
+        "ABCDE",
+        "TOMATE",
+        "Glasgow uniquement",
+        "DL50 uniquement"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'évaluation ABCDE permet d'évaluer rapidement les fonctions vitales et neurologiques."
+    },
+    {
+      "question": "Quels éléments appartiennent à la prise en charge infirmière du patient intoxiqué ?",
+      "options": [
+        "Évaluation ABCDE",
+        "Anamnèse",
+        "Décontamination selon indications",
+        "Surveillance et antidotes sur prescription"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La traçabilité et l'appel au centre antipoison font aussi partie de la prise en charge."
+    },
+    {
+      "question": "Dans l'anamnèse d'une intoxication, il faut rechercher quoi, quand, combien et comment.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le recueil peut se faire auprès du patient ou de l'entourage selon l'état clinique."
+    },
+    {
+      "question": "La décontamination peut inclure charbon activé ou lavage gastrique selon indications et contre-indications.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces gestes ne sont pas systématiques et dépendent du contexte."
+    },
+    {
+      "question": "La surveillance d'un patient intoxiqué peut inclure une VVP, une surveillance clinique et des antidotes sur prescription.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La sécurité passe par l'accès veineux, l'observation clinique et l'administration prescrite des antidotes nécessaires."
+    },
+    {
+      "question": "L'appel au centre antipoison peut faire partie de la prise en charge d'une intoxication.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le centre antipoison est une ressource spécialisée pour guider l'évaluation et la conduite à tenir."
+    },
+    {
+      "question": "Quel antidote est associé à un surdosage en insuline ?",
+      "options": [
+        "G30 % ou glucagon",
+        "Naloxone",
+        "Protamine sulfate",
+        "Hydroxocobalamine"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le traitement cité associe G30 %, Glucagen ou Baqsimi en poudre nasale unidose."
+    },
+    {
+      "question": "Quel antidote est associé aux bêta-bloquants ?",
+      "options": [
+        "Glucagon",
+        "Flumazénil",
+        "Vitamine K1 seule",
+        "Iodure de potassium"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le glucagon est cité pour les bêta-bloquants."
+    },
+    {
+      "question": "Quel antidote est associé aux anesthésiques locaux et loco-régionaux ?",
+      "options": [
+        "Intralipide 20 %",
+        "Dantrolène",
+        "Praxbind",
+        "Cyanokit"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'Intralipide 20 % 500 ml est cité pour les anesthésiques locaux et loco-régionaux."
+    },
+    {
+      "question": "Quel antidote est associé à l'héparine et aux HBPM ?",
+      "options": [
+        "Protamine sulfate",
+        "Vitamine K1",
+        "Naloxone",
+        "Fomépizole"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La protamine sulfate est citée pour l'héparine et les HBPM."
+    },
+    {
+      "question": "Quel traitement est associé au surdosage en AVK ?",
+      "options": [
+        "PPSB et vitamine K1",
+        "Flumazénil seul",
+        "Glucagon seul",
+        "Pralidoxime"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le traitement cité associe PPSB, notamment Kanokad, et vitamine K1."
+    },
+    {
+      "question": "Quel antidote est associé à l'iode radioactif ?",
+      "options": [
+        "Iodure de potassium",
+        "Hydroxocobalamine",
+        "Andexanet alfa",
+        "Naloxone"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'iodure de potassium en comprimés est cité pour l'iode radioactif."
+    },
+    {
+      "question": "Quel antidote est associé à la digoxine ?",
+      "options": [
+        "Digifab 40",
+        "Flumazénil",
+        "Protamine sulfate",
+        "Dantrolène"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Digifab 40 est cité comme antidote de la digoxine."
+    },
+    {
+      "question": "Quel antidote est associé à l'éthylène glycol et au méthanol ?",
+      "options": [
+        "Fomépizole",
+        "Pralidoxime",
+        "Naloxone",
+        "Vitamine K1"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le fomépizole est cité pour l'éthylène glycol et le méthanol."
+    },
+    {
+      "question": "Quel antidote est associé aux organophosphorés ?",
+      "options": [
+        "Pralidoxime",
+        "Idarucizumab",
+        "Hydroxocobalamine",
+        "Glucagon"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La pralidoxime, Contrathion, est citée pour les organophosphorés."
+    },
+    {
+      "question": "Quel antidote est associé au dabigatran ?",
+      "options": [
+        "Idarucizumab",
+        "Andexanet alfa",
+        "PPSB et vitamine K1",
+        "Protamine sulfate"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'idarucizumab, Praxbind, est cité pour le dabigatran."
+    },
+    {
+      "question": "Quel antidote est associé à l'apixaban et au rivaroxaban ?",
+      "options": [
+        "Andexanet alfa",
+        "Idarucizumab",
+        "Iodure de potassium",
+        "Flumazénil"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'andexanet alfa, Ondexxya, est cité pour l'apixaban et le rivaroxaban."
+    },
+    {
+      "question": "Quel antidote est associé aux cyanures, notamment dans les fumées d'incendie ?",
+      "options": [
+        "Hydroxocobalamine",
+        "Naloxone",
+        "Fomépizole",
+        "Glucagon"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'hydroxocobalamine, Cyanokit, est citée pour les cyanures."
+    },
+    {
+      "question": "Quel traitement est associé au syndrome malin des neuroleptiques ?",
+      "options": [
+        "Dantrolène",
+        "Flumazénil",
+        "Naloxone",
+        "Praxbind"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le dantrolène est cité, avec remplacement du Dantrium par Agilus en 2025."
+    },
+    {
+      "question": "La pollution atmosphérique, des sols ou des eaux relève de la toxicologie environnementale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces expositions appartiennent aux formes environnementales de toxicologie."
+    },
+    {
+      "question": "L'amiante, le plomb et la silice peuvent relever d'une toxicologie professionnelle.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces expositions sont citées dans le champ professionnel."
+    },
+    {
+      "question": "Le délai d'apparition d'une toxicité aiguë est habituellement rapide.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il peut se compter en minutes, heures ou quelques jours."
+    },
+    {
+      "question": "Quels exemples relèvent de la voie orale d'intoxication ?",
+      "options": [
+        "Médicaments",
+        "Produits ménagers",
+        "Plantes",
+        "Aliments contaminés"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces substances peuvent être ingérées par la bouche."
+    },
+    {
+      "question": "Le monoxyde de carbone, les gaz toxiques et les fumées d'incendie relèvent d'une intoxication respiratoire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces toxiques pénètrent par inhalation."
+    },
+    {
+      "question": "Les pesticides, produits chimiques industriels et certains cosmétiques peuvent être concernés par la voie cutanée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces produits peuvent être absorbés à travers la peau."
+    },
+    {
+      "question": "Les drogues IV, venins, morsures et surdosages médicamenteux peuvent relever d'une voie parentérale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ils peuvent introduire le toxique directement dans l'organisme, parfois dans le sang."
+    },
+    {
+      "question": "La DL50 peut être estimée à partir d'une dose unique ou répartie sur 24 heures.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle concerne une exposition aiguë unique ou répartie sur une courte période."
+    },
+    {
+      "question": "Une DL50 égale à 15 g/kg est présentée comme un repère de produit non toxique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ce repère illustre une dose très élevée comparativement à un produit très toxique."
+    },
+    {
+      "question": "L'observation du comportement et des signes cliniques avant la mort renseigne sur les organes cibles.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'analyse avant et après décès permet d'identifier les atteintes d'organes."
+    },
+    {
+      "question": "Tout médicament a subi des études de toxicologie avant son autorisation de mise sur le marché.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les études de toxicologie participent à l'évaluation de sécurité avant l'AMM."
+    },
+    {
+      "question": "La génotoxicité recherche notamment un risque de mutations et un risque cancérigène ou génétique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle évalue la capacité potentielle à altérer le matériel génétique."
+    },
+    {
+      "question": "Les études de reproduction et développement évaluent notamment fertilité, tératogénicité et développement fœtal.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elles explorent les risques pour la reproduction et le développement."
+    },
+    {
+      "question": "La sécurité pharmacologique peut explorer le retentissement cardiaque, neurologique et respiratoire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle peut porter notamment sur le QT, le système nerveux central et la fonction respiratoire."
+    },
+    {
+      "question": "L'intoxication au paracétamol peut être asymptomatique les premières heures.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette latence justifie le dosage plasmatique et l'évaluation du risque."
+    },
+    {
+      "question": "Le bon moment fait partie de la règle des 5 B.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'horaire, le rythme et les conditions comme le jeûne doivent être vérifiés."
+    },
+    {
+      "question": "L'identité du patient doit être vérifiée activement avant l'administration.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le bon patient repose sur une identification active, pas sur une supposition."
+    },
+    {
+      "question": "Limiter les interruptions de tâche lors de la préparation médicamenteuse participe à la prévention des erreurs.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les interruptions favorisent les erreurs de préparation ou d'administration."
+    },
+    {
+      "question": "Un effet indésirable inattendu ne correspond pas à la nature, la sévérité ou l'évolution décrites dans le résumé des caractéristiques du produit.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'inattendu se définit par un écart avec les informations connues du médicament."
+    },
+    {
+      "question": "Quels traitements sont cités comme pourvoyeurs d'ototoxicité ?",
+      "options": [
+        "Aminosides",
+        "Furosémide à fortes doses",
+        "Cisplatine",
+        "Flumazénil"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Le flumazénil est cité comme antidote des benzodiazépines, pas comme classe pourvoyeuse d'ototoxicité."
+    },
+    {
+      "question": "L'infirmier peut déclarer lui-même un effet indésirable.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le signalement peut être réalisé via les dispositifs de pharmacovigilance."
+    },
+    {
+      "question": "Quels exemples appartiennent aux opioïdes cités ?",
+      "options": [
+        "Codéine",
+        "Morphine",
+        "Oxycodone",
+        "Fentanyl"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le tramadol est aussi cité parmi les opioïdes."
+    }
+  ]
+}
