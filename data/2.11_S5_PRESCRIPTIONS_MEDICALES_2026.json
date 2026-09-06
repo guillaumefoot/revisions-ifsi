@@ -1,0 +1,1155 @@
+{
+  "title": "UE 2.11 S5 - Prescriptions médicales",
+  "subtitle": "Réglementation, rédaction, conformité, types de prescriptions, circuit du médicament et rôle infirmier",
+  "questions": [
+    {
+      "question": "Qu'est-ce qu'une prescription médicale ?",
+      "options": [
+        "Un acte médico-légal par lequel un professionnel habilité ordonne une conduite thérapeutique, diagnostique ou de soins",
+        "Une suggestion orale sans valeur opposable",
+        "Une décision que l'infirmier peut modifier seul",
+        "Un document réservé aux traitements de sortie"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La prescription est un acte médico-légal réalisé par un professionnel habilité pour un patient nommé."
+    },
+    {
+      "question": "La prescription n'engage aucune responsabilité civile, pénale ou disciplinaire de son auteur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La prescription engage la responsabilité civile, pénale et disciplinaire de son auteur."
+    },
+    {
+      "question": "L'administration infirmière d'un traitement est indépendante de la prescription médicale.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La prescription conditionne l'administration du traitement par l'infirmier."
+    },
+    {
+      "question": "Une prescription peut être valide sans date, sans signature et sans conservation dans le dossier patient.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle doit être écrite, datée, signée et conservée dans le dossier patient."
+    },
+    {
+      "question": "L'infirmier peut modifier seul une prescription s'il pense améliorer la sécurité du patient.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il vérifie, exécute, surveille et alerte, mais ne modifie jamais seul une prescription."
+    },
+    {
+      "question": "La retranscription d'une prescription par l'infirmier est une pratique attendue pour simplifier le dossier.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. L'infirmier vérifie, exécute et surveille la prescription sans la retranscrire."
+    },
+    {
+      "question": "Quelles sont les quatre grandes étapes du circuit du médicament ?",
+      "options": [
+        "Prescription",
+        "Dispensation",
+        "Administration",
+        "Surveillance"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces étapes impliquent plusieurs professionnels et des responsabilités partagées."
+    },
+    {
+      "question": "Qui analyse et délivre le traitement prescrit dans le circuit du médicament ?",
+      "options": [
+        "Le pharmacien",
+        "Le médecin exclusivement",
+        "Le patient",
+        "L'aide-soignant"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La dispensation relève du pharmacien."
+    },
+    {
+      "question": "Dans le circuit du médicament, le rôle infirmier s'arrête à la préparation du traitement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. L'infirmier prépare, administre, surveille les effets et trace l'administration."
+    },
+    {
+      "question": "Dans un circuit sécurisé du médicament, seule la dernière étape compte pour prévenir les erreurs.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La vigilance de chaque professionnel à chaque étape limite la propagation des erreurs."
+    },
+    {
+      "question": "Quel professionnel dispose d'un droit de prescription large dans son champ de compétence ?",
+      "options": [
+        "Médecin",
+        "Aide-soignant",
+        "IDE sans restriction",
+        "Patient"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le médecin dispose d'une liberté de prescription dans les limites de sa compétence et de la loi."
+    },
+    {
+      "question": "Le chirurgien-dentiste dispose d'une prescription large sans lien avec l'art dentaire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Son droit de prescription s'exerce dans le champ de l'art dentaire."
+    },
+    {
+      "question": "La sage-femme a un droit de prescription autonome mais encadré.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ce droit concerne des médicaments ou classes autorisés par les textes et certaines situations."
+    },
+    {
+      "question": "Le droit de prescription IDE est limité à une liste réglementaire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il peut concerner notamment certains antalgiques de palier I, contraception d'urgence, substituts nicotiniques ou vaccins."
+    },
+    {
+      "question": "L'IPA peut renouveler ou adapter certains traitements dans les conditions prévues.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Son droit est élargi dans son champ d'exercice, mais reste encadré."
+    },
+    {
+      "question": "Hors médecin, les droits de prescription sont généralement illimités et indépendants du champ de compétence.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Ils sont généralement limités au champ de compétence et/ou à des listes réglementaires."
+    },
+    {
+      "question": "Quels textes encadrent la prescription ou le circuit du médicament ?",
+      "options": [
+        "Code de la santé publique",
+        "Arrêté du 6 avril 2011",
+        "Code de déontologie médicale",
+        "Textes spécifiques à certaines professions"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le cadre juridique associe des textes généraux et des textes professionnels."
+    },
+    {
+      "question": "Le code de déontologie médicale pose une liberté de prescription encadrée par l'information et la proportionnalité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La liberté de prescription n'est pas absolue; elle reste encadrée."
+    },
+    {
+      "question": "L'infirmier peut administrer un traitement sans prescription médicale en dehors de toute urgence vitale ou protocole écrit.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. L'administration sans prescription n'est admise que dans des cadres très limités."
+    },
+    {
+      "question": "L'infirmier doit exécuter sans alerte une prescription qui lui paraît erronée ou incomplète.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il doit signaler toute prescription erronée ou incomplète sans la modifier lui-même."
+    },
+    {
+      "question": "Face à une prescription erronée ou incomplète, l'infirmier doit la corriger lui-même avant administration.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il doit signaler et questionner, sans modifier lui-même."
+    },
+    {
+      "question": "Quels principes réglementaires doivent être appliqués au quotidien ?",
+      "options": [
+        "Traçabilité",
+        "Prescription nominative",
+        "Responsabilité différenciée",
+        "Règles renforcées pour les stupéfiants"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces principes sécurisent le circuit et clarifient les responsabilités."
+    },
+    {
+      "question": "L'infirmier répond du bien-fondé médical de la prescription à la place du prescripteur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Le prescripteur répond du bien-fondé; l'infirmier répond de l'exécution et de la surveillance."
+    },
+    {
+      "question": "La prescription orale ou téléphonique est un mode habituel de prescription en dehors de l'urgence.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle est admise uniquement en situation d'extrême urgence et doit être confirmée."
+    },
+    {
+      "question": "Quels sont les trois principes fondamentaux de rédaction d'une ordonnance ?",
+      "options": [
+        "Liberté de prescription",
+        "Qualité de la prescription",
+        "Principe d'économie",
+        "Absence de traçabilité"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "L'ordonnance doit être adaptée, claire et limitée à ce qui est nécessaire à la qualité, la sécurité et l'efficacité des soins."
+    },
+    {
+      "question": "Une prescription de qualité peut rester volontairement ambiguë si les professionnels connaissent le service.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle doit être claire et compréhensible par les professionnels de santé et par le patient."
+    },
+    {
+      "question": "Le principe d'économie consiste à limiter prescriptions et actes à ce qui est nécessaire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il s'inscrit dans la qualité, la sécurité et l'efficacité des soins."
+    },
+    {
+      "question": "Quelles mentions sont obligatoires pour identifier le prescripteur sur une ordonnance ?",
+      "options": [
+        "Nom",
+        "Qualité",
+        "Numéro RPPS ou ADELI",
+        "Signature"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'identification du prescripteur permet de vérifier l'auteur de la prescription."
+    },
+    {
+      "question": "La date de prescription n'a pas d'intérêt pour apprécier la validité d'une ordonnance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La date de rédaction permet d'apprécier la validité de l'ordonnance."
+    },
+    {
+      "question": "Quelles mentions peuvent être nécessaires pour identifier le patient ?",
+      "options": [
+        "Nom et prénom",
+        "Âge",
+        "Sexe",
+        "Poids si besoin"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'identification patient sécurise l'exécution et peut conditionner certains calculs de dose."
+    },
+    {
+      "question": "Quels éléments doivent être vérifiés concernant le médicament ou l'acte ?",
+      "options": [
+        "DCI",
+        "Dosage",
+        "Forme galénique",
+        "Voie d'administration"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La posologie précise et la durée de traitement sont également à vérifier."
+    },
+    {
+      "question": "Le numéro de sécurité sociale est une mention obligatoire de toute ordonnance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il n'est pas listé comme mention obligatoire dans les éléments de conformité."
+    },
+    {
+      "question": "Les mentions spécifiques peuvent concerner les stupéfiants, la mention NR ou l'ALD.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Certaines situations imposent des supports, mentions ou circuits particuliers."
+    },
+    {
+      "question": "Les ratures et surcharges non datées sont acceptables sur une ordonnance si le médicament reste lisible.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. L'écriture doit être lisible, sans rature ni surcharge; toute modification doit être datée et contresignée."
+    },
+    {
+      "question": "L'utilisation de la DCI est recommandée pour limiter les risques de confusion.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La DCI aide à identifier clairement la substance active."
+    },
+    {
+      "question": "Une prescription ambiguë doit être administrée d'abord puis questionnée ensuite.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle doit être questionnée avant toute administration."
+    },
+    {
+      "question": "Toute modification ou arrêt de traitement constitue une nouvelle prescription à part entière.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'arrêt ou la modification doit être prescrit et tracé."
+    },
+    {
+      "question": "En cas de prescription orale ou téléphonique reçue en urgence, que doit faire le soignant ?",
+      "options": [
+        "Retranscrire immédiatement par écrit",
+        "Faire confirmer et signer a posteriori par le prescripteur",
+        "Respecter le protocole défini par l'établissement",
+        "La garder oralement sans trace"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La prescription orale ou téléphonique doit être sécurisée par écrit et confirmée dans les meilleurs délais."
+    },
+    {
+      "question": "Qu'est-ce qu'une prescription nominative ?",
+      "options": [
+        "Une prescription rédigée pour un patient identifié",
+        "Un protocole anonyme de service",
+        "Une ordonnance sans durée",
+        "Une prescription réservée aux médicaments génériques"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle est la forme la plus courante en établissement de santé."
+    },
+    {
+      "question": "Une prescription nominative reste valable sans limite, même lorsque sa durée est dépassée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle est valable pour la durée mentionnée ou jusqu'à réévaluation médicale."
+    },
+    {
+      "question": "Quel point de vigilance est associé à la prescription nominative ?",
+      "options": [
+        "Vérifier l'identitovigilance",
+        "Administrer même si la durée est dépassée",
+        "Supprimer la durée pour simplifier",
+        "Ne pas tenir compte du patient présent"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il faut vérifier que la prescription correspond bien au patient présent et qu'elle reste valide."
+    },
+    {
+      "question": "Qu'est-ce qu'une prescription protocolisée ?",
+      "options": [
+        "Une prescription s'appuyant sur un protocole thérapeutique de service validé et signé",
+        "Une prescription libre écrite par le patient",
+        "Une ordonnance de sortie",
+        "Un renouvellement automatique sans cadre"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle permet à l'infirmier d'agir dans un cadre prédéfini sans prescription individuelle à chaque acte."
+    },
+    {
+      "question": "Avant d'utiliser une prescription protocolisée, l'IDE n'a pas à vérifier la date, la signature ou les critères d'inclusion du protocole.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Le protocole doit être daté, signé, non périmé et adapté à la situation clinique."
+    },
+    {
+      "question": "Une prescription protocolisée permet d'agir hors de tout cadre médical validé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle repose justement sur un protocole médical validé et signé."
+    },
+    {
+      "question": "Qu'est-ce qu'une prescription conditionnelle ?",
+      "options": [
+        "Une prescription anticipée pour une situation clinique définie, avec critères précis d'administration",
+        "Une prescription sans critère d'administration",
+        "Une ordonnance réservée aux sorties",
+        "Une prescription qui supprime toute traçabilité"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle correspond souvent à une prescription si besoin avec critères cliniques."
+    },
+    {
+      "question": "Quel exemple correspond à une prescription conditionnelle correctement définie ?",
+      "options": [
+        "Paracétamol 1 g si douleur EVA > 3, sans dépasser 4 g/24 h",
+        "Paracétamol si besoin sans limite",
+        "Traitement selon envie du patient",
+        "Antibiotique sans dose ni durée"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La condition, la dose maximale et le critère clinique sont précisés."
+    },
+    {
+      "question": "Pour une prescription conditionnelle, l'IDE doit évaluer le critère clinique avant chaque administration et tracer l'heure, le motif et l'effet obtenu.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La prescription si besoin exige une évaluation rigoureuse et une traçabilité systématique."
+    },
+    {
+      "question": "La prescription de sortie n'a aucun rôle dans la continuité du traitement en ville.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle assure la continuité du traitement après l'hospitalisation."
+    },
+    {
+      "question": "Quel point de vigilance est associé à une prescription de sortie ?",
+      "options": [
+        "Bonne compréhension du patient",
+        "Concordance avec le traitement antérieur",
+        "Qualité de la transmission",
+        "Absence d'information au médecin traitant"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La sortie impose une continuité sécurisée entre l'hôpital et la ville."
+    },
+    {
+      "question": "Le renouvellement de prescription peut être réalisé par tout professionnel sans cadre réglementaire.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il peut être réalisé par certains professionnels habilités dans des cas strictement encadrés."
+    },
+    {
+      "question": "L'IDE ou l'IPA qui renouvelle dans un cadre autorisé doit garantir une traçabilité complète.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le renouvellement engage la responsabilité du professionnel habilité."
+    },
+    {
+      "question": "Quelles catégories peuvent imposer un support ou un circuit spécifique ?",
+      "options": [
+        "Stupéfiants et substances assimilées",
+        "Médicaments d'exception",
+        "Médicaments réservés à l'usage hospitalier",
+        "Médicaments dérivés du sang"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Plusieurs statuts particuliers modifient les modalités de prescription, dispensation ou surveillance."
+    },
+    {
+      "question": "Les médicaments à surveillance particulière peuvent nécessiter un suivi spécifique.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le statut particulier impose une vigilance adaptée."
+    },
+    {
+      "question": "L'administration consiste à remettre et faire prendre au patient, ou à lui administrer directement, le traitement prescrit.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle doit respecter strictement la prescription médicale."
+    },
+    {
+      "question": "L'administration est l'étape où le risque d'erreur est le plus documenté.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La vigilance infirmière est donc particulièrement attendue à cette étape."
+    },
+    {
+      "question": "Quelles étapes appartiennent à l'administration infirmière sécurisée ?",
+      "options": [
+        "Vérification",
+        "Préparation",
+        "Administration",
+        "Traçabilité"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'acte comprend la vérification de la prescription et de l'identité, la préparation, l'administration et l'enregistrement."
+    },
+    {
+      "question": "La préparation médicamenteuse peut être faite longtemps à l'avance sans tenir compte des conditions d'hygiène.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle doit être extemporanée et réalisée dans de bonnes conditions d'hygiène."
+    },
+    {
+      "question": "La traçabilité de l'administration peut être reportée sans risque à la fin de la semaine.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. L'administration doit être tracée immédiatement dans le dossier patient."
+    },
+    {
+      "question": "Quels éléments composent la règle des 5B ?",
+      "options": [
+        "Bon patient",
+        "Bon médicament",
+        "Bonne dose",
+        "Bonne voie"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le bon moment complète la règle des 5B."
+    },
+    {
+      "question": "Le bon moment fait partie de la règle des 5B.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le moment d'administration conditionne l'efficacité et la sécurité du traitement."
+    },
+    {
+      "question": "La double vérification consiste à faire contrôler indépendamment la préparation par un second professionnel.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle est particulièrement utile pour les médicaments à risque."
+    },
+    {
+      "question": "Pour quels médicaments ou situations la double vérification est-elle particulièrement recommandée ?",
+      "options": [
+        "Chimiothérapies",
+        "Anticoagulants",
+        "Insulines",
+        "Stupéfiants"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La pédiatrie et les traitements à marge thérapeutique étroite sont aussi concernés."
+    },
+    {
+      "question": "Chaque interruption pendant la préparation ou l'administration augmente le risque d'erreur.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La limitation des interruptions de tâche est une mesure de sécurité."
+    },
+    {
+      "question": "Quelles pratiques limitent les interruptions de tâche ?",
+      "options": [
+        "Zone dédiée à la préparation",
+        "Signalétique ne pas déranger",
+        "Limitation des sollicitations",
+        "Préparation au milieu des conversations du service"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Un environnement maîtrisé réduit les erreurs de préparation et d'administration."
+    },
+    {
+      "question": "Quels risques peuvent apparaître au stade de la prescription ?",
+      "options": [
+        "Erreur de dose",
+        "Interaction non détectée",
+        "Prescription illisible",
+        "Prescription incomplète"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La qualité de la prescription conditionne les étapes suivantes du circuit."
+    },
+    {
+      "question": "Quels risques peuvent apparaître au stade de l'administration ?",
+      "options": [
+        "Erreur de patient",
+        "Erreur de voie",
+        "Erreur d'horaire",
+        "Erreur de dose"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces erreurs sont précisément celles que les vérifications infirmières cherchent à prévenir."
+    },
+    {
+      "question": "Un défaut de traçabilité ou une non-détection d'effet indésirable appartient aux risques de surveillance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La surveillance infirmière comprend l'observation des effets et leur traçabilité."
+    },
+    {
+      "question": "Le traitement personnel apporté par le patient doit être isolé dès son arrivée et rendu à sa sortie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette procédure évite les ruptures et les doublons de traitement."
+    },
+    {
+      "question": "Le traitement personnel du patient peut être réutilisé sans condition dès l'entrée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il ne peut être réutilisé que si le traitement doit être absolument poursuivi et n'est pas substituable."
+    },
+    {
+      "question": "Si un traitement personnel est utilisé, le médecin doit le mentionner dans le dossier patient et la pharmacie doit être informée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette information évite les doublons et sécurise le circuit."
+    },
+    {
+      "question": "Chaque prise d'un traitement personnel utilisé pendant l'hospitalisation doit être tracée comme tout autre médicament.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La traçabilité reste obligatoire même si le médicament vient du domicile."
+    },
+    {
+      "question": "Quel risque particulier existe avec le traitement personnel du patient à l'entrée ?",
+      "options": [
+        "Doublon entre traitement personnel et substitution par la pharmacie hospitalière",
+        "Absence de tout risque",
+        "Suppression de la prescription médicale",
+        "Dispensation sans information de la pharmacie"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le doublon peut exposer à un surdosage ou à une erreur de traitement."
+    },
+    {
+      "question": "Toute erreur ou événement indésirable doit être signalé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le signalement est présenté comme un acte professionnel."
+    },
+    {
+      "question": "Le signalement d'une erreur vise d'abord la sanction individuelle du professionnel.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La culture de sécurité vise l'amélioration des pratiques et non la sanction individuelle."
+    },
+    {
+      "question": "Quels dispositifs peuvent participer à l'analyse collective des erreurs ?",
+      "options": [
+        "CREX",
+        "RMM",
+        "REMED",
+        "Fiche d'événement indésirable"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces outils aident à comprendre les causes et à améliorer le système."
+    },
+    {
+      "question": "Que signifie LASA dans le contexte des erreurs médicamenteuses ?",
+      "options": [
+        "Look-Alike Sound-Alike",
+        "Liste annuelle des soins autorisés",
+        "Lecture automatique sans alerte",
+        "Logiciel autonome de surveillance active"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le terme désigne les confusions de nom ou d'emballage ressemblants."
+    },
+    {
+      "question": "Quel réflexe IDE est attendu face au risque LASA ?",
+      "options": [
+        "Vérifier le nom complet, le dosage et la forme galénique",
+        "Se fier à la seule ressemblance visuelle de la boîte",
+        "Administrer le médicament connu le plus proche",
+        "Reporter la vérification après administration"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les médicaments au nom ou à l'emballage proches imposent une lecture complète."
+    },
+    {
+      "question": "Depakine et Depakote sont cités comme exemple de risque de confusion LASA.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ils font partie des exemples de noms proches pouvant entraîner une confusion."
+    },
+    {
+      "question": "Hydrochlorothiazide et Hydroxyzide sont cités comme exemple de risque de confusion.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La proximité des noms impose une vigilance de lecture."
+    },
+    {
+      "question": "Quelle erreur de fréquence est particulièrement mise en avant avec le méthotrexate ?",
+      "options": [
+        "Prise quotidienne au lieu d'une prise hebdomadaire",
+        "Prise hebdomadaire au lieu d'une prise quotidienne",
+        "Oubli de forme galénique uniquement",
+        "Erreur de voie respiratoire"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le méthotrexate à faible dose hors oncologie se prend en une prise hebdomadaire, jamais quotidienne."
+    },
+    {
+      "question": "Une confusion de fréquence du méthotrexate peut multiplier la dose reçue par 7.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La prise quotidienne au lieu d'hebdomadaire peut entraîner une erreur grave, parfois mortelle."
+    },
+    {
+      "question": "Face à une prescription quotidienne d'un médicament habituellement hebdomadaire, l'IDE doit questionner la prescription.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le réflexe est de vérifier systématiquement la fréquence et d'alerter en cas de doute."
+    },
+    {
+      "question": "Les biphosphonates comme Fosavance sont cités parmi les traitements à prise habituellement hebdomadaire à vérifier.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ils sont cités comme exemple de fréquence à vérifier."
+    },
+    {
+      "question": "Qui peut prescrire librement, sans restriction, dans le cadre de sa compétence ?",
+      "options": [
+        "L'infirmier",
+        "Le médecin",
+        "Le pharmacien",
+        "L'aide-soignant"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Le médecin dispose d'une liberté de prescription dans le cadre de sa compétence."
+    },
+    {
+      "question": "Laquelle de ces mentions n'est pas obligatoire sur une ordonnance ?",
+      "options": [
+        "La date de rédaction",
+        "Le numéro de sécurité sociale",
+        "L'identification du prescripteur",
+        "La posologie et la durée"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "Le numéro de sécurité sociale n'est pas une mention obligatoire de l'ordonnance."
+    },
+    {
+      "question": "Face à une prescription incomplète ou ambiguë, l'infirmier doit :",
+      "options": [
+        "La compléter lui-même",
+        "L'administrer telle quelle",
+        "Questionner le prescripteur avant d'administrer",
+        "Attendre la visite suivante sans agir"
+      ],
+      "correct": [
+        2
+      ],
+      "explanation": "L'infirmier questionne le prescripteur avant toute administration en cas de doute."
+    },
+    {
+      "question": "Quel type de prescription s'appuie sur un protocole de service validé ?",
+      "options": [
+        "Prescription nominative",
+        "Prescription protocolisée",
+        "Prescription de sortie",
+        "Renouvellement"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "La prescription protocolisée s'appuie sur un protocole de service validé et signé."
+    },
+    {
+      "question": "La double vérification est particulièrement recommandée pour :",
+      "options": [
+        "Tous les médicaments sans exception",
+        "Les médicaments à marge thérapeutique étroite",
+        "Uniquement les antalgiques",
+        "Les médicaments génériques"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "La double vérification cible en priorité les médicaments à marge thérapeutique étroite."
+    },
+    {
+      "question": "La prescription médicale est seulement un ordre de traitement médicamenteux.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle peut ordonner une conduite thérapeutique, diagnostique ou de soins."
+    },
+    {
+      "question": "La prescription hospitalière requiert l'identification de l'établissement ou du service.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette mention est requise pour une prescription hospitalière."
+    },
+    {
+      "question": "Une prescription nominative concerne un patient identifié.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'identification du patient est centrale dans la prescription nominative."
+    },
+    {
+      "question": "Les stupéfiants imposent notamment des règles renforcées de durée maximale et d'écriture en toutes lettres du nombre d'unités.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ce statut particulier renforce la vigilance lors de la prescription et de l'administration."
+    },
+    {
+      "question": "Une prescription de sortie doit être vérifiée avec le traitement antérieur du patient.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La concordance avec le traitement antérieur limite ruptures et doublons."
+    },
+    {
+      "question": "La vigilance IDE peut limiter la propagation d'une erreur née à une étape précédente du circuit.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Chaque étape du circuit joue un rôle de filtre de sécurité."
+    }
+  ]
+}

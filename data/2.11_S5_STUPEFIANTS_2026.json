@@ -1,0 +1,992 @@
+{
+  "title": "UE 2.11 S5 - Stupéfiants",
+  "subtitle": "Cadre réglementaire, prescription, circuit hospitalier, dotation, traçabilité et vigilance IDE",
+  "questions": [
+    {
+      "question": "Quels critères justifient l'inscription d'une substance parmi les médicaments stupéfiants ?",
+      "options": [
+        "Potentiel à induire une dépendance psychique et physique",
+        "Dangers possibles pour la santé publique",
+        "Couleur du conditionnement",
+        "Prix élevé du médicament"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "Un médicament stupéfiant est encadré en raison de son potentiel toxicomanogène et des risques pour la santé publique."
+    },
+    {
+      "question": "Un médicament stupéfiant est susceptible d'entraîner une accoutumance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La notion de médicament toxicomanogène renvoie à ce risque d'accoutumance et de dépendance."
+    },
+    {
+      "question": "La législation applicable aux stupéfiants est identique à celle des autres substances actives.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les stupéfiants relèvent d'une législation particulière, distincte de celle des autres substances actives."
+    },
+    {
+      "question": "Quelles molécules sont citées comme exemples de stupéfiants ?",
+      "options": [
+        "Morphine",
+        "Fentanyl",
+        "Oxycodone",
+        "Méthadone"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Les opioïdes majeurs font partie des exemples de stupéfiants cités."
+    },
+    {
+      "question": "La kétamine est citée comme stupéfiant depuis 2017.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La kétamine, Kétalar, figure dans les exemples de molécules concernées."
+    },
+    {
+      "question": "Le méthylphénidate est cité parmi les molécules concernées par le régime des stupéfiants.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Il apparaît dans la liste des exemples de stupéfiants."
+    },
+    {
+      "question": "Quelles spécialités peuvent correspondre à de la morphine orale à libération immédiate ?",
+      "options": [
+        "Actiskenan",
+        "Sevredol",
+        "Oramorph",
+        "Durogesic"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Durogesic correspond au fentanyl transdermique, pas à la morphine orale à libération immédiate."
+    },
+    {
+      "question": "Skenan LP et Moscontin LP sont cités comme formes de morphine à libération prolongée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La mention LP signale la libération prolongée."
+    },
+    {
+      "question": "Durogesic et Matrifen sont cités comme patchs transdermiques de fentanyl.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces spécialités appartiennent à la famille du fentanyl transdermique."
+    },
+    {
+      "question": "Oxynorm correspond à une forme d'oxycodone à libération prolongée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Oxynorm est cité comme libération immédiate; OxyContin LP correspond à la libération prolongée."
+    },
+    {
+      "question": "Quels médicaments sont assimilés aux stupéfiants ?",
+      "options": [
+        "Tramadol",
+        "Clorazépate dipotassique",
+        "Clonazépam",
+        "Zolpidem"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces médicaments sont inscrits en Liste I mais soumis à des règles proches de celles des stupéfiants."
+    },
+    {
+      "question": "Les médicaments assimilés aux stupéfiants appartiennent à une liste totalement distincte de la Liste I.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Ils sont inscrits en Liste I, avec des règles de prescription et de délivrance proches de celles des stupéfiants."
+    },
+    {
+      "question": "Quelles indications thérapeutiques principales justifient la prescription de stupéfiants ?",
+      "options": [
+        "Douleurs résistantes aux autres antalgiques",
+        "Anesthésie",
+        "Substitution aux opiacés",
+        "Traitement systématique de toute douleur légère"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les stupéfiants sont utilisés lorsque les paliers inférieurs sont insuffisants, en anesthésie ou dans la substitution aux opiacés."
+    },
+    {
+      "question": "La méthadone peut être utilisée dans le traitement de substitution aux opiacés.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elle est citée en sirop et en gélules dans ce cadre thérapeutique."
+    },
+    {
+      "question": "L'approvisionnement en stupéfiants se fait sans signature engageante du pharmacien responsable.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La signature du pharmacien responsable est obligatoire, avec tampon et numéros professionnels."
+    },
+    {
+      "question": "Qui doit signer la commande d'approvisionnement en stupéfiants ?",
+      "options": [
+        "Le pharmacien responsable",
+        "Tout étudiant infirmier",
+        "Le patient",
+        "Le transporteur"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La signature du pharmacien responsable est obligatoire, avec tampon et numéros professionnels."
+    },
+    {
+      "question": "Quels piliers organisent le circuit du stupéfiant en établissement ?",
+      "options": [
+        "Détention",
+        "Prescription",
+        "Dispensation",
+        "Administration"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La dotation pour besoins urgents complète ces piliers dans le circuit hospitalier."
+    },
+    {
+      "question": "La dotation pour besoins urgents est extérieure au circuit des stupéfiants en établissement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle fait partie du circuit encadré des stupéfiants, aux côtés de la détention, prescription, dispensation et administration."
+    },
+    {
+      "question": "L'ordonnance sécurisée de stupéfiants est un support ordinaire sans protection particulière contre la falsification.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle repose sur des référentiels destinés à la rendre infalsifiable."
+    },
+    {
+      "question": "Sur une ordonnance sécurisée de stupéfiants, le nombre d'unités, de prises et les dosages doivent être écrits en toutes lettres.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'écriture en toutes lettres limite l'ambiguïté et le risque de modification."
+    },
+    {
+      "question": "Quel est le délai maximal de présentation d'une ordonnance sécurisée à la pharmacie ?",
+      "options": [
+        "3 jours",
+        "7 jours",
+        "14 jours",
+        "28 jours"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'ordonnance doit être présentée dans un délai maximal de 3 jours."
+    },
+    {
+      "question": "Quelles mentions sont attendues concernant le prescripteur sur une prescription de stupéfiants ?",
+      "options": [
+        "Nom",
+        "Qualité",
+        "Adresse professionnelle",
+        "Signature et date"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'identification du prescripteur fait partie des mentions obligatoires."
+    },
+    {
+      "question": "Quelles mentions sont attendues concernant le patient ?",
+      "options": [
+        "Nom et prénom",
+        "Sexe",
+        "Date de naissance",
+        "Taille et poids si nécessaire"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'identification du patient doit être suffisamment précise, avec taille et poids si utile."
+    },
+    {
+      "question": "La durée de traitement peut être omise sur une prescription de stupéfiants si la posologie est indiquée.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La durée de traitement doit être précisée pour l'ensemble du traitement."
+    },
+    {
+      "question": "Quelle est la durée maximale générale de prescription des stupéfiants en ville ?",
+      "options": [
+        "28 jours",
+        "14 jours",
+        "7 jours",
+        "3 jours"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La règle générale citée est de 28 jours."
+    },
+    {
+      "question": "Quelle durée est citée pour la méthadone sirop ?",
+      "options": [
+        "14 jours",
+        "28 jours",
+        "7 jours",
+        "3 jours"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La méthadone sirop est citée dans le cadre des traitements de substitution avec une durée de 14 jours."
+    },
+    {
+      "question": "Quelle durée est citée pour la morphine injectable hors système actif de perfusion ?",
+      "options": [
+        "7 jours",
+        "14 jours",
+        "28 jours",
+        "1 mois renouvelable"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La morphine injectable hors PCA est citée dans la catégorie des 7 jours."
+    },
+    {
+      "question": "Le renouvellement d'une prescription de stupéfiants est autorisé si le patient connaît bien son traitement.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Le renouvellement de la prescription est indiqué comme interdit."
+    },
+    {
+      "question": "En établissement, la prescription hospitalière de stupéfiants peut être rédigée sur un bon non nominatif standard.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle est rédigée sur un bon de stupéfiant nominatif extrait du petit carnet rose."
+    },
+    {
+      "question": "La prescription hospitalière de stupéfiants est établie en un seul exemplaire non archivé.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle est établie en triple exemplaire."
+    },
+    {
+      "question": "En établissement, les durées de prescription de stupéfiants sont généralement plus longues qu'en ville.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elles sont généralement plus courtes, selon la durée de séjour, les changements de service ou l'adaptation de posologie."
+    },
+    {
+      "question": "Quels champs peuvent figurer sur un bon nominatif hospitalier de stupéfiants ?",
+      "options": [
+        "Numéro de carnet et numéro d'ordonnance",
+        "Désignation de l'établissement et de l'unité de soins",
+        "Identité du malade",
+        "Prescription rédigée en toutes lettres"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Le bon identifie la prescription, le lieu de soins, le patient et le traitement."
+    },
+    {
+      "question": "La prescription hospitalière de stupéfiants doit identifier le prescripteur par nom, fonction, date et signature.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces éléments rendent la prescription opposable et traçable."
+    },
+    {
+      "question": "Où les stupéfiants doivent-ils être détenus à la pharmacie ?",
+      "options": [
+        "Dans des locaux, armoires ou dispositifs de rangement sécurisé",
+        "Dans une armoire ouverte du couloir",
+        "Avec tous les médicaments sans séparation",
+        "Dans la chambre du patient par défaut"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La détention à la PUI doit garantir un rangement sécurisé."
+    },
+    {
+      "question": "Dans les services de soins, les stupéfiants peuvent être stockés avec les autres médicaments dans une armoire ouverte.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Ils doivent être détenus séparément dans une armoire ou un compartiment sécurisé fermé à clé ou équivalent."
+    },
+    {
+      "question": "L'armoire ou le compartiment de stupéfiants du service peut contenir indifféremment tout type de médicament.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les stupéfiants ou substances assimilées doivent être détenus séparément."
+    },
+    {
+      "question": "Que faut-il faire en cas de vol ou de détournement de stupéfiants ?",
+      "options": [
+        "Signaler sans délai aux autorités de police",
+        "Signaler à l'ARS",
+        "Signaler à l'ANSM",
+        "Attendre l'inventaire mensuel sans alerter"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Le signalement est immédiat et les quantités concernées sont portées sur le registre."
+    },
+    {
+      "question": "Les quantités volées ou détournées doivent être portées sur le registre des stupéfiants.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette inscription participe à la traçabilité réglementaire."
+    },
+    {
+      "question": "La dispensation des stupéfiants peut être réalisée par n'importe quel professionnel du service sans délégation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle est réalisée par des professionnels autorisés : pharmacien, interne, étudiant de 5e année délégué ou préparateur."
+    },
+    {
+      "question": "À qui les stupéfiants peuvent-ils être remis lors de la dispensation hospitalière ?",
+      "options": [
+        "Cadre de santé",
+        "IDE désigné",
+        "Prescripteur",
+        "Visiteur du patient"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La remise est sécurisée et ne se fait pas à une personne extérieure au circuit de soins."
+    },
+    {
+      "question": "Quels éléments sont inscrits sur le registre ou ordonnancier lors de la dispensation ?",
+      "options": [
+        "Date",
+        "Prescripteur",
+        "Numéro d'ordonnancier",
+        "Forme, médicament, dosage et quantité en toutes lettres"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'inscription permet de suivre précisément chaque dispensation."
+    },
+    {
+      "question": "Le nom et le prénom du patient ainsi que le service sont inscrits lors de la dispensation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Ces éléments relient la dispensation au patient et à l'unité de soins."
+    },
+    {
+      "question": "Quels éléments de traçabilité figurent sur le bon de stupéfiants lors de la dispensation ?",
+      "options": [
+        "Numéro d'ordonnancier",
+        "Quantité",
+        "Date",
+        "Paraphe"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces mentions permettent de sécuriser la remise et la vérification."
+    },
+    {
+      "question": "Le cadre infirmier n'a pas à vérifier les quantités dispensées de stupéfiants lors de la remise au service.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il vérifie les médicaments et les quantités dispensées, puis signe au verso du bon rose."
+    },
+    {
+      "question": "Le transport des stupéfiants entre la pharmacie et le service ne nécessite pas de sécurisation particulière.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Le transport doit être sécurisé."
+    },
+    {
+      "question": "Quels éléments doivent figurer sur l'état récapitulatif d'administration des stupéfiants ?",
+      "options": [
+        "Date et heure de l'administration",
+        "Nom et prénom du malade",
+        "Dénomination du médicament et sa forme",
+        "Dose administrée"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "L'administration doit être tracée de façon nominative, précise et datée."
+    },
+    {
+      "question": "L'identification et la signature de l'administrant doivent figurer sur l'état récapitulatif d'administration.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La traçabilité engage l'acte réalisé et son auteur."
+    },
+    {
+      "question": "Les états récapitulatifs d'administration des stupéfiants sont détruits dès la fin de l'hospitalisation.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Ils sont conservés 3 ans par la pharmacie."
+    },
+    {
+      "question": "En fin de traitement nominatif, que se passe-t-il si la totalité du stupéfiant a été administrée ?",
+      "options": [
+        "Le relevé nominatif est signé et daté par le médecin",
+        "Le pharmacien vérifie la concordance entre dose dispensée et dose inscrite",
+        "Le relevé est archivé avec le bon nominatif",
+        "Le relevé est détruit immédiatement"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La concordance entre ce qui a été dispensé et administré doit être contrôlée et archivée."
+    },
+    {
+      "question": "Si un patient sort, décède ou si la prescription est modifiée avec des quantités restantes, un retour de médicament à la pharmacie est effectué.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le pharmacien vérifie les quantités administrées et dispensées, puis réintègre les quantités rendues si elles sont recevables."
+    },
+    {
+      "question": "Les retours des services sont pris en compte même si les médicaments sont altérés ou périmés.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les retours sont pris en compte s'ils ne sont ni altérés ni périmés."
+    },
+    {
+      "question": "Les sorties de stupéfiants du stock peuvent rester non tracées si elles sont urgentes.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Toute entrée et toute sortie doit être inscrite sur un registre ou enregistrée informatiquement."
+    },
+    {
+      "question": "L'inventaire du stock de stupéfiants remplace toute balance mensuelle des entrées et sorties.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Une balance mensuelle des entrées et sorties et un inventaire du stock doivent être réalisés."
+    },
+    {
+      "question": "Les ampoules injectables vides de stupéfiants doivent être jetées immédiatement à la poubelle après administration.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elles doivent être rendues et comptées par le pharmacien; il faut éviter de les casser ou de les jeter."
+    },
+    {
+      "question": "Les patchs transdermiques utilisés doivent également être rendus au pharmacien.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les dispositifs transdermiques utilisés restent concernés par la traçabilité des stupéfiants."
+    },
+    {
+      "question": "À quoi sert la dotation pour besoins urgents de stupéfiants dans le service ?",
+      "options": [
+        "Débuter une prescription lorsque la pharmacie est fermée",
+        "Assurer un dépannage ponctuel",
+        "Remplacer systématiquement le bon nominatif rose",
+        "Simplifier définitivement la gestion des stupéfiants"
+      ],
+      "correct": [
+        0,
+        1
+      ],
+      "explanation": "La dotation est une réserve pour besoins urgents; elle ne doit pas se substituer au circuit nominatif."
+    },
+    {
+      "question": "La dotation pour besoins urgents est constituée librement par l'équipe de nuit sans accord du pharmacien.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elle est établie par le pharmacien en accord avec le chef de service."
+    },
+    {
+      "question": "La liste qualitative et quantitative de la dotation doit être affichée dans le tiroir à stupéfiants.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "L'affichage permet aux professionnels de vérifier la composition autorisée de la réserve."
+    },
+    {
+      "question": "La dotation pour besoins urgents doit être révisée régulièrement et contrôlée par le pharmacien.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La révision et le contrôle maintiennent la conformité de la réserve."
+    },
+    {
+      "question": "Le grand cahier rose sert à gérer les médicaments courants et non la dotation urgente de stupéfiants.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Il est utilisé pour la gestion de la dotation pour besoins urgents de médicaments stupéfiants."
+    },
+    {
+      "question": "Une administration de stupéfiant issue de la dotation peut être réalisée sans relevé nominatif si elle est urgente.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Chaque administration, par dosage, doit être inscrite sur un relevé nominatif."
+    },
+    {
+      "question": "Pour les services non informatisés, chaque administration doit correspondre à un bon nominatif rose.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le bon nominatif extrait du petit carnet est nécessaire en service non informatisé."
+    },
+    {
+      "question": "Les stocks de stupéfiants peuvent être contrôlés à tout moment par l'inspecteur de la pharmacie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le contrôle peut concerner la pharmacie et les unités de soins."
+    },
+    {
+      "question": "Quels éléments peuvent être contrôlés concernant les stupéfiants ?",
+      "options": [
+        "Stocks",
+        "Achats",
+        "Retours",
+        "Périmés et cassés"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La comptabilité et le registre officiel des stupéfiants peuvent être contrôlés."
+    },
+    {
+      "question": "Avant chaque administration, l'IDE doit vérifier la prescription, le patient, la spécialité, le dosage, la péremption et la voie.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La vérification préalable est un réflexe de sécurité indispensable."
+    },
+    {
+      "question": "Le calcul de dose doit être refait si nécessaire avant administration d'un stupéfiant.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La multiplicité des dosages rend le recalcul indispensable en cas de doute."
+    },
+    {
+      "question": "Quels risques de confusion sont cités avec l'oxycodone ?",
+      "options": [
+        "Formes à libération prolongée",
+        "Multiplicité des dosages",
+        "Confusion entre Oxynormoro et OxyContin LP",
+        "Absence totale de dosage différent"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "Les formes et dosages différents imposent de vérifier la spécialité exacte."
+    },
+    {
+      "question": "Les ampoules injectables de morphine existent en nombreux dosages et concentrations.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La variété des concentrations impose une vérification systématique."
+    },
+    {
+      "question": "En service non informatisé, l'IDE doit vérifier que le bon rose a été rédigé, daté et signé par le médecin lorsqu'un stupéfiant est pris dans la réserve.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La prise dans la réserve ne dispense pas de la traçabilité médicale et nominative."
+    },
+    {
+      "question": "Les prescriptions téléphoniques de stupéfiants ne présentent pas de risque particulier.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Elles sont signalées comme à risque, avec possibilité d'erreur parfois fatale."
+    },
+    {
+      "question": "Que faire si un patient détient illégalement des stupéfiants dans une unité ?",
+      "options": [
+        "Prévenir le chef de service",
+        "Prévenir le pharmacien",
+        "Prévenir le directeur de l'établissement",
+        "Laisser le patient gérer seul les produits"
+      ],
+      "correct": [
+        0,
+        1,
+        2
+      ],
+      "explanation": "La situation doit être signalée aux responsables désignés de l'établissement."
+    },
+    {
+      "question": "Quels paramètres doivent être surveillés après administration d'opioïdes ?",
+      "options": [
+        "Constipation",
+        "Nausées et vomissements",
+        "Fréquence respiratoire",
+        "Rétention urinaire"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "La surveillance clinique sous opioïdes inclut aussi les hallucinations."
+    },
+    {
+      "question": "Les hallucinations peuvent faire partie des éléments à surveiller après administration d'opioïdes.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Elles sont citées dans la surveillance clinique sous opioïdes."
+    },
+    {
+      "question": "En cas d'anomalie après administration d'un opioïde, l'IDE doit alerter le prescripteur sans délai.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "La surveillance régulière doit déboucher sur une alerte rapide si un paramètre devient anormal."
+    },
+    {
+      "question": "La fréquence respiratoire est un paramètre central à surveiller sous opioïdes.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Les opioïdes exposent à une dépression respiratoire, ce qui rend cette surveillance prioritaire."
+    },
+    {
+      "question": "La traçabilité des stupéfiants concerne uniquement la pharmacie et jamais les unités de soins.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. Les unités de soins participent aussi à la traçabilité des stocks, administrations, retours et incidents."
+    },
+    {
+      "question": "Le relevé nominatif doit être rempli à chaque administration de stupéfiant.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Cette règle vaut particulièrement dans la vigilance IDE quotidienne."
+    },
+    {
+      "question": "La réserve de service est plus simple à gérer que le bon nominatif rose et doit donc être utilisée en priorité.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        1
+      ],
+      "explanation": "C'est Faux. La réserve ne doit pas remplacer le bon nominatif rose, car sa gestion est plus lourde."
+    },
+    {
+      "question": "Quels éléments doivent être vérifiés pour sécuriser une administration de stupéfiant ?",
+      "options": [
+        "Voie d'administration",
+        "Péremption",
+        "Dosage",
+        "Identité du patient"
+      ],
+      "correct": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "explanation": "Ces vérifications réduisent les erreurs de patient, dose, forme ou voie."
+    },
+    {
+      "question": "Les stupéfiants sont un domaine où la vigilance IDE concerne à la fois la prescription, le stockage, l'administration et la surveillance.",
+      "options": [
+        "Vrai",
+        "Faux"
+      ],
+      "correct": [
+        0
+      ],
+      "explanation": "Le risque réglementaire et clinique traverse tout le circuit du médicament stupéfiant."
+    }
+  ]
+}

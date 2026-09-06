@@ -21,6 +21,20 @@
     "icon": "💊"
   },
   {
+    "file": "data/2.11_S5_STUPEFIANTS_2026.json",
+    "code": "UE 2.11",
+    "name": "Stupéfiants",
+    "subtitle": "S5 - Cadre réglementaire, circuit hospitalier, traçabilité et vigilance IDE",
+    "icon": "🔐"
+  },
+  {
+    "file": "data/2.11_S5_PRESCRIPTIONS_MEDICALES_2026.json",
+    "code": "UE 2.11",
+    "name": "Prescriptions médicales",
+    "subtitle": "S5 - Réglementation, conformité, types de prescriptions, 5B et sécurité du circuit",
+    "icon": "📝"
+  },
+  {
     "file": "data/2.6_S5_SOINS_PSY_2026.json",
     "code": "UE 2.6",
     "name": "Soins infirmiers en psychiatrie",
