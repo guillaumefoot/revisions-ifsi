@@ -82,5 +82,33 @@
     "name": "Synthèse UE 2.6 S5",
     "subtitle": "S5 - Révision transversale : soins, cadre légal, sectorisation, psychoses et troubles anxieux",
     "icon": "🎯"
+  },
+  {
+    "file": "data/2.9_S5_CANCEROGENESE_CELLULAIRE_2026.json",
+    "code": "UE 2.9",
+    "name": "Cancérogenèse cellulaire",
+    "subtitle": "S5 - Homéostasie, apoptose, immortalisation, angiogenèse, microenvironnement et métastases",
+    "icon": "🧫"
+  },
+  {
+    "file": "data/2.9_S5_GENETIQUE_IMMUNITE_FACTEURS_2026.json",
+    "code": "UE 2.9",
+    "name": "Génétique et immunité tumorales",
+    "subtitle": "S5 - Altérations moléculaires, prédispositions, immunité et étapes de la cancérogenèse",
+    "icon": "🧬"
+  },
+  {
+    "file": "data/2.9_S5_ANATOMOPATHOLOGIE_ROLE_IDE_2026.json",
+    "code": "UE 2.9",
+    "name": "Anatomopathologie et rôle IDE",
+    "subtitle": "S5 - Bénin et malin, grade, stade, TNM, prélèvements, IHC et sécurité pré-analytique",
+    "icon": "🔬"
+  },
+  {
+    "file": "data/2.9_S5_EPIDEMIOLOGIE_DEPISTAGE_2026.json",
+    "code": "UE 2.9",
+    "name": "Épidémiologie et dépistage",
+    "subtitle": "S5 - Repères chiffrés datés, survie, qualités des tests et niveaux de prévention",
+    "icon": "📊"
   }
 ]
