@@ -38,6 +38,25 @@ Attente de ton GO pour generer le fichier JSON.
 
 Ne lancer la generation qu'apres instruction explicite: `GO`, `Vas-y`, `Genere`, ou equivalent.
 
+## Methode de production obligatoire
+
+Les quiz doivent etre rediges directement dans leur fichier JSON final `data/*.json`.
+
+- Ecrire les questions, propositions, index `correct` et explications directement dans le JSON cible avec l'outil d'edition de fichiers.
+- Ne pas placer la banque de questions dans un script intermediaire avant de l'exporter en JSON.
+- Ne pas utiliser de script JavaScript, Python, PowerShell ou shell pour fabriquer, convertir, assembler ou emettre le contenu pedagogique du quiz.
+- Ne pas creer de generateur temporaire, meme s'il est supprime ensuite.
+- Pour un ensemble decoupe en plusieurs quiz, creer et completer chaque fichier JSON final directement, puis le valider avant de passer a la publication.
+
+Les scripts restent autorises uniquement pour des operations qui ne redigent pas le contenu pedagogique:
+
+- extraire ou inspecter les documents sources ;
+- compter ou auditer les questions deja ecrites ;
+- verifier la syntaxe et la structure avec `tools/validate-quizzes.js` ;
+- tester le catalogue ou l'application.
+
+La commande Node du validateur est donc un controle en lecture seule du contenu produit. Elle ne doit jamais servir a generer les questions ou les fichiers JSON.
+
 ## Regles de source
 
 - Utiliser exclusivement les documents fournis pour la generation.
@@ -139,6 +158,8 @@ Elle reste optionnelle uniquement pour:
 - pure memorisation sans risque de confusion.
 
 ## Validation obligatoire
+
+La validation intervient apres la redaction directe du JSON. Elle ne remplace pas cette redaction et ne doit pas modifier le fichier.
 
 Avant publication, lancer:
 

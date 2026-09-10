@@ -63,6 +63,8 @@ Le champ `correct` contient les index des bonnes reponses dans `options`.
 
 Les quiz sont generes a partir des supports fournis: cours, TD, corrections ou notes.
 
+Le contenu pedagogique doit etre redige directement dans les fichiers finaux `data/*.json`. Les scripts intermediaires de generation ou d'export de banques de questions sont interdits. Les scripts du projet servent uniquement a l'extraction, au controle et a la validation en lecture seule des JSON deja rediges.
+
 Principes de generation:
 
 - ne pas inventer d'information absente des sources ;

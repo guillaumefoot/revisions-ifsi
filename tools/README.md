@@ -2,6 +2,14 @@
 
 Ce dossier contient les garde-fous utilises pour produire et publier les quiz.
 
+## Limite d'utilisation des outils
+
+Le contenu pedagogique est toujours redige directement dans le fichier final `data/*.json`.
+
+Il est interdit d'utiliser un script JavaScript, Python, PowerShell ou shell pour construire une banque de questions puis generer, assembler ou exporter le JSON. Aucun generateur temporaire ne doit etre cree.
+
+Les outils de ce dossier servent uniquement a valider des fichiers JSON deja rediges. `validate-quizzes.js` controle le contenu en lecture seule et ne constitue pas une methode de generation.
+
 ## Valider un nouveau quiz
 
 ```bash
@@ -41,8 +49,8 @@ Cette commande controle tous les fichiers `data/*.json`, y compris les anciens p
 
 1. Recevoir les cours/TD/corrections.
 2. Attendre l'instruction `GO`.
-3. Generer un fichier `data/*.json`.
-4. Lancer le validateur sur ce fichier.
+3. Rediger directement les questions dans le fichier final `data/*.json`, sans script intermediaire.
+4. Lancer le validateur en lecture seule sur ce fichier.
 5. Ajouter le fichier dans `quizzes.json` si le quiz doit apparaitre dans l'app.
 6. Lancer `node tools/validate-quizzes.js --catalog`.
 7. Publier sur GitHub si la validation est OK.
