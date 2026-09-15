@@ -1,5 +1,12 @@
 [
   {
+    "file": "data/4.4_S5_TD1_CCI_CALCULS_2026.json",
+    "code": "UE 4.4",
+    "name": "TD n°1 - CCI et calculs de dose",
+    "subtitle": "S5 - Cas clinique, chambre implantable, chimiothérapie et calculs de dose",
+    "icon": "🧮"
+  },
+  {
     "file": "data/4.4_S5_PICC_LINE_2026.json",
     "code": "UE 4.4",
     "name": "PICC Line",

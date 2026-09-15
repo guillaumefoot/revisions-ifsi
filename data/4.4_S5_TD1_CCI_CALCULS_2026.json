@@ -1,0 +1,336 @@
+{
+  "title": "UE 4.4 S5 - TD n°1 : CCI et calculs de dose",
+  "subtitle": "Cas clinique, chambre à cathéter implantable, chimiothérapie et calculs de dose",
+  "questions": [
+    {
+      "question": "Une patiente vient de bénéficier de la pose d'un dispositif veineux implantable en sous-clavière droite. Quel site correspond à cette implantation ?",
+      "options": ["Veine jugulaire", "Veine sous-clavière gauche", "Veine sous-clavière droite", "Veine du bras"],
+      "correct": [2],
+      "explanation": "Le dispositif décrit est implanté par la veine sous-clavière droite."
+    },
+    {
+      "question": "Quelles surveillances sont particulièrement indiquées pendant les deux premiers jours suivant la pose d'un DVI ?",
+      "options": ["Paramètres cliniques postopératoires", "Température", "Paramètres respiratoires", "Aspect local du site opératoire", "Uniquement la pression artérielle"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La surveillance associe les paramètres postopératoires, la recherche d'hyperthermie, la surveillance respiratoire et l'examen local."
+    },
+    {
+      "question": "Quels signes peuvent faire évoquer un pneumothorax après la pose d'un DVI sous-clavier ?",
+      "options": ["Douleur thoracique", "Dyspnée", "Œdème local isolé", "Saignement du pansement"],
+      "correct": [0, 1],
+      "explanation": "Une douleur thoracique et une dyspnée peuvent faire évoquer un pneumothorax postopératoire."
+    },
+    {
+      "question": "Quels éléments doivent être recherchés localement après la pose d'un DVI ?",
+      "options": ["Saignement", "Hématome", "Douleur", "Œdème", "Artéfact d'imagerie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La surveillance locale recherche un saignement, un hématome, une douleur et un œdème."
+    },
+    {
+      "question": "Quelle recommandation d'hygiène corporelle est donnée immédiatement après la pose d'un DVI ?",
+      "options": ["Éviter la douche pendant 48 heures et les bains pendant au moins une semaine", "Prendre un bain dès le retour du bloc", "Éviter toute douche pendant un mois", "La douche et le bain sont autorisés immédiatement"],
+      "correct": [0],
+      "explanation": "La douche est interdite pendant les 48 premières heures et les bains restent proscrits pendant au moins une semaine."
+    },
+    {
+      "question": "À partir de quand une chambre implantable est-elle opérationnelle ?",
+      "options": ["Dès sa pose", "Après 48 heures", "Après la résorption complète des fils", "Après un mois"],
+      "correct": [0],
+      "explanation": "La chambre implantable est opérationnelle dès sa pose."
+    },
+    {
+      "question": "Où les actes réalisés sur une chambre implantable doivent-ils être tracés ?",
+      "options": ["Dans le dossier de soins", "Dans le carnet de suivi du patient", "Uniquement sur la prescription", "Ils ne nécessitent aucune transmission"],
+      "correct": [0, 1],
+      "explanation": "Les actes sont transmis dans le dossier de soins et dans le carnet de suivi, qui comporte notamment le numéro de lot du matériel."
+    },
+    {
+      "question": "Quel conseil sportif est adapté à une personne porteuse d'un DVI ?",
+      "options": ["Le sport reste possible, mais les activités violentes ou provoquant des à-coups claviculaires sont à éviter", "Toute activité sportive est définitivement interdite", "Seuls les sports avec chocs claviculaires sont autorisés", "Le tir à l'arc est recommandé"],
+      "correct": [0],
+      "explanation": "Le sport n'est pas interdit, mais les sports violents et ceux provoquant des à-coups au niveau claviculaire doivent être évités."
+    },
+    {
+      "question": "Quel conseil donner concernant un voyage en avion à une personne porteuse d'un DVI ?",
+      "options": ["Le voyage est possible et le DVI ne pose pas de problème au passage des portiques", "Le voyage est contre-indiqué à vie", "Le DVI doit être retiré avant chaque vol", "Le passage des portiques détruit systématiquement le dispositif"],
+      "correct": [0],
+      "explanation": "La présence d'un DVI n'empêche pas de prendre l'avion et ne pose pas de problème de détection aux portiques."
+    },
+    {
+      "question": "Quelle information est correcte avant un examen d'imagerie chez une personne porteuse d'une chambre implantable ?",
+      "options": ["La présence du dispositif doit être signalée car il peut créer des artéfacts", "Toute imagerie est définitivement contre-indiquée", "Le dispositif doit toujours être retiré avant une IRM", "La présence du dispositif ne doit jamais être mentionnée"],
+      "correct": [0],
+      "explanation": "Le patient doit signaler la chambre implantable. Elle peut créer des artéfacts ; les anciens modèles en dérivés d'acier chirurgical peuvent être incompatibles avec l'IRM."
+    },
+    {
+      "question": "Quel acte infirmier est autorisé sur une chambre implantable selon le rôle prescrit ?",
+      "options": ["Les injections et perfusions, à l'exclusion de la première", "La pose chirurgicale du dispositif", "La première injection réalisée lors de la pose", "Le remplacement du cathéter central"],
+      "correct": [0],
+      "explanation": "L'IDE peut réaliser les injections et perfusions dans le dispositif, sauf la première, effectuée par le médecin lors de la pose."
+    },
+    {
+      "question": "Comment orienter le biseau de l'aiguille de Huber lors des manœuvres de prélèvement ou d'injection ?",
+      "options": ["Vers le cathéter, généralement vers le haut", "À l'opposé du cathéter", "Vers la peau", "L'orientation n'a aucune importance"],
+      "correct": [0],
+      "explanation": "Le biseau est orienté vers le cathéter afin de faciliter le passage des liquides."
+    },
+    {
+      "question": "Quels éléments peuvent composer un DVI ?",
+      "options": ["Septum en silicone", "Coque en résine", "Réservoir en titane", "Bague de connexion", "Cathéter en silicone ou en polyuréthane"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le dispositif associe notamment un septum, une coque, un réservoir, une bague de connexion et un cathéter."
+    },
+    {
+      "question": "Quels éléments indiquent que l'aiguille de Huber est correctement placée dans la chambre ?",
+      "options": ["La butée est ressentie au fond de la chambre", "L'aiguille est centrée sur la chambre", "Le retour sanguin est franc", "Une douleur apparaît à l'injection"],
+      "correct": [0, 1, 2],
+      "explanation": "La butée, le centrage de l'aiguille et un retour sanguin franc indiquent un positionnement correct."
+    },
+    {
+      "question": "Quels critères indiquent qu'un DVI est fonctionnel ?",
+      "options": ["Présence d'un reflux sanguin", "Injection aisée à la seringue", "Absence de douleur", "Débit de perfusion régulier et adapté", "Résistance importante à l'injection"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le dispositif est fonctionnel si le reflux est présent, l'injection aisée et indolore, et le débit régulier."
+    },
+    {
+      "question": "Quelles informations doivent figurer dans les transmissions après la pose d'une aiguille de Huber ?",
+      "options": ["Date de pose", "Type, gauge et longueur de l'aiguille", "Présence ou absence de retour veineux", "Difficultés et douleur éventuelles", "Uniquement le nom du patient"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La traçabilité précise la date, les caractéristiques de l'aiguille, le retour veineux et toute difficulté rencontrée."
+    },
+    {
+      "question": "Que faut-il surveiller pendant l'administration d'une chimiothérapie sur DVI ?",
+      "options": ["Fixation de l'aiguille", "Débit de perfusion", "Signes d'extravasation", "Réactions et effets indésirables propres à la molécule", "Uniquement la température en fin de perfusion"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La surveillance porte sur le dispositif, le débit, l'absence d'extravasation et les réactions liées au traitement administré."
+    },
+    {
+      "question": "Quelle conduite est adaptée devant un DVI qui semble obstrué pendant une perfusion ?",
+      "options": ["Vérifier la tubulure et les connexions", "Contrôler la position de l'aiguille", "Rechercher un retour veineux", "Tester doucement la perméabilité avec une seringue d'au moins 10 mL", "Forcer l'injection sous forte pression"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Il faut contrôler le matériel et l'aiguille, rechercher le reflux puis tester doucement la perméabilité sans forcer. Une nouvelle aiguille peut être nécessaire."
+    },
+    {
+      "question": "Après échec des vérifications devant un DVI obstrué, quelle conduite faut-il tenir ?",
+      "options": ["Prévenir le médecin", "Poursuivre la perfusion malgré l'obstruction", "Injecter sous pression sans prescription", "Retirer chirurgicalement le dispositif au lit du patient"],
+      "correct": [0],
+      "explanation": "Le médecin doit être prévenu ; une radiographie thoracique de contrôle ou un fibrinolytique peut alors être prescrit."
+    },
+    {
+      "question": "Pourquoi réaliser un rinçage entre deux antinéoplasiques administrés sur un DVI ?",
+      "options": ["Éviter les interactions médicamenteuses", "Éviter les précipitations", "Limiter les dépôts sur les parois", "Vérifier la perméabilité avant le produit suivant", "Augmenter volontairement la pression dans la chambre"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le rinçage prévient interactions, précipitations et dépôts, tout en permettant de vérifier la perméabilité."
+    },
+    {
+      "question": "Quel est le principe du retrait d'une aiguille de Huber en pression positive ?",
+      "options": ["Retirer l'aiguille pendant une dernière poussée de 1 à 2 mL", "Aspirer fortement pendant le retrait", "Retirer l'aiguille puis effectuer le rinçage", "Interrompre toute injection plusieurs minutes avant le retrait"],
+      "correct": [0],
+      "explanation": "Après le rinçage pulsé, le retrait et la dernière poussée sont simultanés afin d'éviter un reflux sanguin dans l'extrémité distale du cathéter."
+    },
+    {
+      "question": "Une seringue doit contenir 8 mg de Zophren®, soit 4 mL de médicament, dans un volume total de 12 mL. Quelle préparation est correcte ?",
+      "options": ["4 mL de Zophren® et 8 mL de NaCl 0,9 %", "8 mL de Zophren® et 4 mL de NaCl 0,9 %", "4 mL de Zophren® sans dilution", "12 mL de Zophren®"],
+      "correct": [0],
+      "explanation": "Le volume de médicament est de 4 mL ; il faut ajouter 8 mL de NaCl 0,9 % pour obtenir 12 mL."
+    },
+    {
+      "question": "Quel débit régler pour administrer 12 mL en 15 minutes au pousse-seringue électrique ?",
+      "options": ["12 mL/h", "24 mL/h", "48 mL/h", "60 mL/h"],
+      "correct": [2],
+      "explanation": "15 minutes correspondent à un quart d'heure : 12 × 4 = 48 mL/h."
+    },
+    {
+      "question": "Quel débit, arrondi à l'unité supérieure, faut-il régler pour perfuser 1 000 mL de NaCl 0,9 % en 3 heures ?",
+      "options": ["333 mL/h", "334 mL/h", "300 mL/h", "1 000 mL/h"],
+      "correct": [1],
+      "explanation": "1 000 ÷ 3 = 333,3 mL/h, soit 334 mL/h après arrondi à l'unité supérieure."
+    },
+    {
+      "question": "Une prescription prévoit 25 mg/m² de cisplatine pour une surface corporelle de 1,83 m², avec arrondi à l'unité supérieure. Quelle dose est préparée ?",
+      "options": ["25 mg", "45 mg", "46 mg", "48 mg"],
+      "correct": [2],
+      "explanation": "25 × 1,83 = 45,75 mg, arrondis à l'unité supérieure à 46 mg."
+    },
+    {
+      "question": "Une poche de 250 mL contient 46 mg de cisplatine à administrer à raison de 1 mg par minute. Quel débit faut-il régler, arrondi à l'unité supérieure ?",
+      "options": ["46 mL/h", "250 mL/h", "326 mL/h", "360 mL/h"],
+      "correct": [2],
+      "explanation": "La perfusion dure 46 minutes. Le débit est 250 × 60 ÷ 46 = 326,08 mL/h, soit 326 mL/h selon le calcul du corrigé."
+    },
+    {
+      "question": "Quelle dose de 5-FU® faut-il préparer pour une prescription de 1 000 mg/m² chez un patient ayant une surface corporelle de 1,83 m² ?",
+      "options": ["1 000 mg", "1 500 mg", "1 830 mg", "2 830 mg"],
+      "correct": [2],
+      "explanation": "1 000 × 1,83 = 1 830 mg de 5-FU®."
+    },
+    {
+      "question": "Le 5-FU® est dosé à 50 mg/mL. Quel volume faut-il prélever pour obtenir 1 830 mg, avec arrondi à l'unité supérieure ?",
+      "options": ["18,3 mL", "36,6 mL, soit 37 mL", "50 mL", "91,5 mL"],
+      "correct": [1],
+      "explanation": "1 830 ÷ 50 = 36,6 mL, arrondis à 37 mL."
+    },
+    {
+      "question": "Quelle sélection de flacons de 5-FU® de 20 mL permet de prélever 37 mL en limitant le nombre de flacons ?",
+      "options": ["Un seul flacon de 20 mL", "Deux flacons de 20 mL", "Trois flacons de 20 mL", "Un flacon de 5 mL"],
+      "correct": [1],
+      "explanation": "Deux flacons de 20 mL sont nécessaires : 20 mL dans le premier puis 17 mL dans le second."
+    },
+    {
+      "question": "Quel est le volume total d'une poche contenant 500 mL de G5 % auxquels sont ajoutés 37 mL de 5-FU® ?",
+      "options": ["500 mL", "527 mL", "537 mL", "547 mL"],
+      "correct": [2],
+      "explanation": "Le volume total est 500 + 37 = 537 mL."
+    },
+    {
+      "question": "Une dose de charge correspond à 10 % d'une poche de 537 mL. Quel volume faut-il perfuser, arrondi à l'unité supérieure ?",
+      "options": ["5,4 mL", "54 mL", "107 mL", "537 mL"],
+      "correct": [1],
+      "explanation": "537 × 10 ÷ 100 = 53,7 mL, soit 54 mL après arrondi à l'unité supérieure."
+    },
+    {
+      "question": "Quel débit régler pour administrer une dose de charge de 54 mL en 10 minutes ?",
+      "options": ["54 mL/h", "108 mL/h", "270 mL/h", "324 mL/h"],
+      "correct": [3],
+      "explanation": "10 minutes représentent un sixième d'heure : 54 × 6 = 324 mL/h."
+    },
+    {
+      "question": "Un flacon de 100 000 UI d'urokinase est reconstitué avec 2 mL. Un millilitre est ensuite ramené à 10 mL. Quelle est la concentration finale de cette deuxième solution ?",
+      "options": ["500 UI/mL", "5 000 UI/mL", "50 000 UI/mL", "100 000 UI/mL"],
+      "correct": [1],
+      "explanation": "La première solution contient 50 000 UI/mL. Un millilitre, soit 50 000 UI, ramené à 10 mL donne 5 000 UI/mL."
+    },
+    {
+      "question": "Une solution d'urokinase à 5 000 UI/mL est diluée en prélevant 1 mL puis en ramenant à 10 mL. Combien d'unités sont injectées avec 1,5 mL de la nouvelle solution ?",
+      "options": ["500 UI", "750 UI", "5 000 UI", "7 500 UI"],
+      "correct": [1],
+      "explanation": "La nouvelle solution contient 500 UI/mL. Pour 1,5 mL : 500 × 1,5 = 750 UI."
+    },
+    {
+      "question": "Un débit théorique de chimiothérapie vésicante est de 102,6 mL/h alors que le protocole fixe un maximum de 50 mL/h. Quelle conduite est adaptée ?",
+      "options": ["Administrer à 102,6 mL/h pour respecter la durée initiale", "Alerter le prescripteur ou le pharmacien afin de faire réévaluer la durée", "Régler arbitrairement la pompe à 75 mL/h", "Administrer la totalité en injection rapide"],
+      "correct": [1],
+      "explanation": "Le débit maximal ne doit pas être dépassé. La durée doit être réévaluée avant le début du soin avec le prescripteur ou le pharmacien."
+    },
+    {
+      "question": "Une chambre à cathéter implantable…",
+      "options": ["ne doit plus être utilisée au-delà de 500 ponctions, car il y a un risque de fuite du boîtier", "permet de diluer rapidement un médicament dont la tolérance veineuse est mauvaise", "est parfois dénommée PICC", "permet un accès direct à un vaisseau de gros calibre (= débit de perfusion élevé)", "est parfois dénommée PAC", "est préconisée pour réaliser un prélèvement de sang"],
+      "correct": [1, 3, 4],
+      "explanation": "La CCI permet la dilution rapide de produits mal tolérés par les veines périphériques, donne accès à un vaisseau de gros calibre et peut être appelée PAC."
+    },
+    {
+      "question": "La chambre à cathéter implantable peut être utilisée pour réaliser des injections ou des perfusions…",
+      "options": ["dans une veine périphérique", "dans le liquide céphalo-rachidien (accès intrathécal ou intrarachidien)", "par un accès veineux central", "dans la cavité péritonéale", "dans la vessie"],
+      "correct": [2, 3],
+      "explanation": "Le dispositif peut permettre un accès veineux central ou un accès à la cavité péritonéale."
+    },
+    {
+      "question": "Quel(s) type(s) d'aiguille(s) faut-il utiliser pour ponctionner une chambre à cathéter implantable ?",
+      "options": ["une aiguille hypodermique", "une aiguille de Huber", "une aiguille de Heimlich", "une aiguille de Tuohy", "une aiguille à ailettes (épicrânienne ou microperfuseur)"],
+      "correct": [1],
+      "explanation": "La ponction impose une aiguille de Huber à biseau tangentiel."
+    },
+    {
+      "question": "Avant et après l'injection d'un médicament chez l'adulte, je dois rincer la chambre à cathéter implantable avec une seringue de 5 mL.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Chez l'adulte, le rinçage s'effectue avec au moins 10 mL de NaCl 0,9 % et avec une seringue d'au moins 10 mL."
+    },
+    {
+      "question": "La complication des chambres à cathéter implantable à l'origine de la majorité des retraits est…",
+      "options": ["l'occlusion du cathéter (absence de reflux, impossibilité d'injecter)", "le déplacement du boîtier ou la migration du cathéter (déplacement ou désinsertion)", "l'infection (signes inflammatoires locaux à type de cellulite s'étendant le long du trajet tunnélisé, abcès autour de la chambre, suintement, écoulement purulent)", "le syndrome de pincement du cathéter (fissure ou rupture)", "l'extravasation du médicament injecté (signes locaux apparaissant rapidement lors de l'injection)"],
+      "correct": [2],
+      "explanation": "L'infection est la complication indiquée comme étant à l'origine de la majorité des retraits."
+    },
+    {
+      "question": "Pour limiter les complications infectieuses…",
+      "options": ["Mettre un masque au patient et au soignant qui manipule la CCI", "après injection, systématiquement rincer la CCI avec une solution alcoolique", "toujours travailler avec du matériel purgé", "utiliser systématiquement des seringues Luer Lock (= seringue à pas de vis)", "utiliser un prolongateur muni d'un robinet 3 voies"],
+      "correct": [0, 2, 3, 4],
+      "explanation": "Le masque, le matériel purgé, les seringues Luer Lock et le prolongateur muni d'un robinet trois voies font partie des réponses attendues."
+    },
+    {
+      "question": "Concernant la CCI :",
+      "options": ["la CCI est implantée directement sous la peau en général dans la zone lombaire", "l'utilisation d'une CCI exige une asepsie rigoureuse et du matériel dédié", "elle possède une durée de vie plus longue qu'un cathéter veineux périphérique", "c'est un dispositif médical stérile à usage multiple car restérilisable"],
+      "correct": [1, 2],
+      "explanation": "La CCI exige une asepsie rigoureuse et a une durée de vie plus longue qu'un cathéter périphérique. Elle est généralement sous-clavière et n'est pas restérilisable."
+    },
+    {
+      "question": "Concernant l'aiguille à utiliser avec une CCI :",
+      "options": ["elle perfore le cathéter d'une CCI sans le détériorer", "la ponction s'effectue toujours avec une aiguille à biseau tangentiel", "le diamètre de l'aiguille utilisé préférentiellement est 19G", "piquer jusqu'à la butée de l'aiguille pour être certain d'injecter dans la chambre", "utiliser préférentiellement une aiguille pourvue d'un système qui permet la neutralisation de l'aiguille après le geste (= aiguille de sécurité)"],
+      "correct": [1, 3, 4],
+      "explanation": "L'aiguille de Huber possède un biseau tangentiel, est poussée jusqu'à la butée de la chambre et doit préférentiellement être sécurisée."
+    },
+    {
+      "question": "Parmi les propositions concernant la prévention du risque infectieux associé à l'utilisation des CCI, lesquelles sont vraies ?",
+      "options": ["Tout pansement souillé, mouillé ou décollé doit être refait sans délai", "L'aiguille peut être laissée en place 8 jours, quelle que soit l'utilisation qui en est faite", "La survenue d'une infection grave associée à une CCI doit faire l'objet d'un signalement à l'équipe opérationnelle d'hygiène", "La préparation cutanée avant la pose d'une aiguille repose sur le protocole en 4 temps : détersion avec un savon désinfectant, rinçage à l'eau stérile ou au sérum physiologique, séchage et antisepsie", "Pour l'hygiène des mains, la friction hydro-alcoolique est à privilégier", "Après l'injection d'un médicament cytotoxique, la friction hydro-alcoolique est à privilégier en fin de soin"],
+      "correct": [0, 2, 3, 4],
+      "explanation": "Le pansement souillé doit être refait, l'infection grave signalée, la préparation cutanée suit quatre temps et la friction hydro-alcoolique est privilégiée pour l'hygiène habituelle des mains."
+    },
+    {
+      "question": "Une patiente traitée pour un cancer du sein par épirubicine, cyclophosphamide et 5-fluorouracile présente le lendemain de son premier cycle des brûlures et une rougeur au point d'injection, sans fièvre. Quelle complication suspectez-vous ?",
+      "options": ["une infection de la CCI", "une obstruction de la CCI", "une extravasation", "une migration du cathéter"],
+      "correct": [2],
+      "explanation": "Les brûlures et la rougeur localisées après l'injection, sans fièvre, font suspecter une extravasation."
+    },
+    {
+      "question": "Conseils au patient portant une CCI :",
+      "options": ["après la cicatrisation, il est possible de prendre des bains", "l'exposition solaire est autorisée juste après la pose de la CCI", "la pose d'une CCI permet de dormir sur le ventre", "tous les sports sont autorisés sans restriction", "avoir sa carte de porteur d'implant sur soi (données de traçabilité)"],
+      "correct": [0, 2, 4],
+      "explanation": "Après cicatrisation, les bains et le sommeil sur le ventre sont possibles, et la carte de porteur doit rester disponible. Les sports avec chocs et l'exposition immédiate de la cicatrice ne sont pas recommandés."
+    },
+    {
+      "question": "Les manipulations sur la ligne de perfusion doivent se faire avec des compresses stériles sèches.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Les sites d'injection sont manipulés avec des compresses stériles imprégnées d'antiseptique alcoolique."
+    },
+    {
+      "question": "Rincer systématiquement après chaque médicament perfusé ou injecté.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le rinçage systématique limite les interactions, les précipitations et le risque d'obstruction."
+    },
+    {
+      "question": "Les sites d'injection, comme les valves et les robinets de la ligne de perfusion, sont obligatoirement désinfectés avant utilisation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La désinfection des sites d'injection avant utilisation participe à la prévention du risque infectieux."
+    },
+    {
+      "question": "L'aiguille de Huber doit être retirée dès que la chambre est inutilisée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une aiguille laissée en place sans utilisation expose inutilement le patient à des risques."
+    },
+    {
+      "question": "Il faut utiliser des seringues de 2 à 5 mL pour rincer une CCI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Les seringues utilisées doivent avoir un volume supérieur ou égal à 10 mL afin d'éviter une pression excessive."
+    },
+    {
+      "question": "Le rinçage d'une CCI s'effectue préférentiellement avec du glucose G5 %.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le rinçage est réalisé avec du NaCl 0,9 %."
+    },
+    {
+      "question": "Le retrait de l'aiguille en pression positive évite un reflux veineux dans l'extrémité distale du cathéter.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La dernière poussée réalisée pendant le retrait évite l'aspiration de sang dans l'extrémité du cathéter."
+    },
+    {
+      "question": "Le rinçage pulsé, par poussées successives sur le piston de la seringue, est plus efficace que le rinçage continu.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les pulsations créent des turbulences qui améliorent le rinçage du dispositif."
+    },
+    {
+      "question": "Réaliser une antisepsie en 2 temps avant la pose de l'aiguille de Huber est suffisant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La préparation cutanée décrite repose sur quatre temps : détersion, rinçage, séchage et antisepsie."
+    }
+  ]
+}

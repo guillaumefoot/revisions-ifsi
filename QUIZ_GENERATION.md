@@ -67,6 +67,15 @@ La commande Node du validateur est donc un controle en lecture seule du contenu 
 - Les questions et explications finales ne doivent jamais mentionner la source: pas de "dans le cours", "le support indique", "selon le document", "d'apres le PDF" ou formulation equivalente.
 - Conserver un ton medical, precis et adapte a une etudiante infirmiere.
 
+## Quiz dedies aux TD
+
+- Un TD ou sa correction peut donner lieu a un quiz dedie, meme si une partie de son contenu est deja presente dans un quiz de cours.
+- Ce recoupement est pedagogiquement utile lorsque les cas, formulations ou raisonnements du TD sont susceptibles de se rapprocher de l'evaluation.
+- Conserver autant que possible la progression du TD, ses cas cliniques et ses formulations caracteristiques, tout en rendant chaque question autonome.
+- Eviter les doublons a l'interieur du quiz dedie ; le recoupement volontaire avec un quiz general n'est pas considere comme un doublon inutile.
+- Pour les calculs de dose, selectionner seulement les etapes qui donnent une question interactive claire. Utiliser surtout des QCM numeriques, avec des distracteurs issus d'erreurs plausibles de calcul, d'unite ou d'arrondi.
+- Donner dans l'explication le raisonnement et les unites. Ne pas forcer un calcul complexe en Vrai/Faux et exclure les donnees ambigues ou contradictoires.
+
 ## Priorites de traitement
 
 ### 1. Sanctuariser l'existant

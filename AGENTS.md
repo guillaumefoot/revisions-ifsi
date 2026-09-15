@@ -24,6 +24,7 @@ Ces instructions s'appliquent a l'ensemble du projet.
 - Apres reception des sources, commencer par confirmer les fichiers identifies et proposer un volume adapte a leur densite.
 - Ne produire aucune question avant une instruction explicite de l'utilisateur : `GO`, `Vas-y`, `Genere` ou equivalent.
 - Un gros ensemble depassant environ 150 questions doit etre decoupe en plusieurs quiz coherents.
+- Un TD ou sa correction peut justifier un quiz dedie meme si certaines notions recoupent deja un quiz de cours : les cas, formulations et raisonnements du TD peuvent etre proches de l'evaluation.
 
 ## Methode de production obligatoire
 
@@ -40,6 +41,8 @@ Ces instructions s'appliquent a l'ensemble du projet.
 - Sanctuariser les QCM et Vrai/Faux deja presents dans les sources : ne pas modifier leur contenu pedagogique ni leur nombre d'options.
 - Transformer les questions ouvertes en QCM quand cela est pertinent, avec un ou deux distracteurs plausibles compatibles avec les sources.
 - Couvrir les notions importantes avant de creer des doublons.
+- Dans un quiz dedie a un TD, conserver autant que possible sa progression, ses cas cliniques et ses formulations caracteristiques. Un recoupement avec le quiz general est alors acceptable, mais eviter les doublons internes au quiz du TD.
+- Pour les calculs de dose, ne retenir que les exercices qui s'adaptent clairement au format interactif. Privilegier les QCM numeriques avec des distracteurs correspondant a des erreurs de calcul plausibles et expliquer le raisonnement, les unites et l'arrondi. Ne pas forcer un calcul complexe en Vrai/Faux et exclure les donnees ambigues ou contradictoires.
 - Formuler des questions autonomes sans mentionner le cours, le support, le document, le PDF ou la diapositive.
 - Employer un ton medical precis, prudent et adapte a une etudiante infirmiere.
 - Produire des QCM a reponse unique et a reponses multiples.
@@ -111,4 +114,3 @@ git diff --check
 - `QUIZ_GENERATION.md` detaille la routine pedagogique.
 - `tools/README.md` decrit les controles disponibles.
 - `README.md` presente l'application, le format des quiz et les regles generales de publication.
-

@@ -70,6 +70,8 @@ Principes de generation:
 - ne pas inventer d'information absente des sources ;
 - conserver les QCM et Vrai/Faux existants quand ils sont fournis ;
 - transformer les questions ouvertes en QCM quand c'est pertinent ;
+- creer, lorsque c'est utile, des quiz dedies aux TD afin de conserver leurs cas et formulations proches des evaluations ;
+- adapter une selection de calculs de dose en QCM numeriques clairs, avec raisonnement et unites dans l'explication ;
 - ajouter des distracteurs plausibles, mais uniquement compatibles avec les sources ;
 - privilegier des questions autonomes, utiles pour reviser sans relire le cours ;
 - ajouter des explications courtes pour les erreurs, les pieges et les notions importantes.
