@@ -1,0 +1,396 @@
+{
+  "title": "UE 4.4 S5 - Anesthésie et anesthésie locorégionale",
+  "subtitle": "Fondamentaux, consultation, médicaments, ALR et toxicité des anesthésiques locaux",
+  "questions": [
+    {
+      "question": "Quel est le principe d'une anesthésie locale ?",
+      "options": ["Supprimer transitoirement la sensibilité d'une zone limitée", "Provoquer obligatoirement une perte de conscience", "Bloquer définitivement tous les nerfs", "Supprimer uniquement la mémoire"],
+      "correct": [0],
+      "explanation": "L'anesthésie locale agit sur une zone limitée sans imposer une perte de conscience."
+    },
+    {
+      "question": "Quelles techniques relèvent de l'anesthésie locale ?",
+      "options": ["Application topique", "Infiltration locale", "Anesthésie péridurale", "Anesthésie générale inhalatoire"],
+      "correct": [0, 1],
+      "explanation": "L'anesthésie locale peut être appliquée à la surface ou infiltrée directement dans les tissus."
+    },
+    {
+      "question": "Une anesthésie locale peut supprimer la sensibilité d'une zone tout en maintenant la conscience.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'effet est limité au territoire anesthésié et ne nécessite pas une perte de conscience."
+    },
+    {
+      "question": "Comment définir l'anesthésie locorégionale ?",
+      "options": ["Un bloc transitoire de la conduction nerveuse d'une région", "Une destruction définitive d'un nerf", "Une perte de conscience obligatoire", "Une simple application cutanée de froid"],
+      "correct": [0],
+      "explanation": "L'ALR bloque temporairement la conduction nerveuse dans le territoire concerné."
+    },
+    {
+      "question": "Quelles techniques sont des anesthésies locorégionales centrales ?",
+      "options": ["Rachianesthésie", "Anesthésie péridurale", "Bloc périphérique du membre supérieur", "Infiltration cutanée"],
+      "correct": [0, 1],
+      "explanation": "La rachianesthésie et la péridurale agissent au voisinage des structures nerveuses centrales."
+    },
+    {
+      "question": "Quelle technique correspond à une anesthésie locorégionale périphérique ?",
+      "options": ["Bloc d'un nerf ou d'un plexus", "Rachianesthésie", "Anesthésie générale", "Application topique"],
+      "correct": [0],
+      "explanation": "Le bloc périphérique cible un nerf ou un plexus responsable d'un territoire donné."
+    },
+    {
+      "question": "Le bloc de conduction produit par une anesthésie locorégionale est définitif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le bloc nerveux recherché est transitoire et réversible."
+    },
+    {
+      "question": "Quelle définition correspond à l'anesthésie générale ?",
+      "options": ["Un état réversible d'inconscience et d'insensibilité", "Une anesthésie limitée à la peau", "Un bloc nerveux périphérique sans modification de la conscience", "Une sédation irréversible"],
+      "correct": [0],
+      "explanation": "L'anesthésie générale provoque temporairement inconscience et insensibilité avec des effets respiratoires et cardiovasculaires."
+    },
+    {
+      "question": "L'état induit par une anesthésie générale est réversible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La réversibilité est une caractéristique essentielle de l'anesthésie générale."
+    },
+    {
+      "question": "Quels objectifs sont recherchés lors d'une anesthésie générale ?",
+      "options": ["Inconscience", "Analgésie", "Relâchement musculaire", "Stabilité neurovégétative"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces composantes permettent la réalisation de l'intervention dans des conditions adaptées."
+    },
+    {
+      "question": "L'anesthésie générale maintient nécessairement une conscience complète pendant l'intervention.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'inconscience fait partie des objectifs de l'anesthésie générale."
+    },
+    {
+      "question": "Quelles sont les trois grandes phases d'une anesthésie générale ?",
+      "options": ["Induction", "Entretien", "Réveil", "Cicatrisation"],
+      "correct": [0, 1, 2],
+      "explanation": "L'induction instaure l'anesthésie, l'entretien la maintient et le réveil accompagne sa levée."
+    },
+    {
+      "question": "Dans quel ordre se déroulent habituellement les phases de l'anesthésie générale ?",
+      "options": ["Induction, entretien, réveil", "Réveil, induction, entretien", "Entretien, réveil, induction", "Réveil, entretien, induction"],
+      "correct": [0],
+      "explanation": "L'anesthésie est d'abord induite, puis entretenue avant la phase de réveil."
+    },
+    {
+      "question": "L'induction constitue la première phase de l'anesthésie générale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'induction fait passer le patient de l'état éveillé à l'état anesthésié."
+    },
+    {
+      "question": "Quel est l'objectif de la phase d'entretien ?",
+      "options": ["Maintenir un niveau d'anesthésie adapté pendant l'intervention", "Réveiller immédiatement le patient", "Réaliser la consultation préanesthésique", "Classer le patient selon le score ASA"],
+      "correct": [0],
+      "explanation": "L'entretien maintient les composantes de l'anesthésie pendant le geste chirurgical."
+    },
+    {
+      "question": "La phase de réveil suit l'arrêt ou la diminution des agents anesthésiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le réveil correspond à la récupération progressive après la phase d'entretien."
+    },
+    {
+      "question": "Quel délai minimal sépare habituellement la consultation préanesthésique d'une anesthésie programmée ?",
+      "options": ["48 heures", "30 minutes", "6 heures", "10 jours obligatoirement"],
+      "correct": [0],
+      "explanation": "La consultation préanesthésique programmée doit avoir lieu au moins 48 heures avant l'anesthésie."
+    },
+    {
+      "question": "La consultation préanesthésique est obligatoire avant une anesthésie programmée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle permet de préparer la stratégie anesthésique et la sécurité du patient."
+    },
+    {
+      "question": "Quels sont les objectifs de la consultation préanesthésique ?",
+      "options": ["Informer le patient", "Préparer la stratégie anesthésique", "Adapter les traitements", "Recueillir le consentement"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La consultation associe évaluation, information, préparation thérapeutique et consentement."
+    },
+    {
+      "question": "Quelles données sont recherchées pendant la consultation préanesthésique ?",
+      "options": ["Antécédents", "Consommations toxiques", "Traitements habituels", "Résultats biologiques utiles"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces éléments permettent d'évaluer les risques et d'individualiser la prise en charge."
+    },
+    {
+      "question": "À quel moment le consentement à la stratégie anesthésique est-il recherché ?",
+      "options": ["Après une information adaptée lors de la consultation", "Après l'intervention uniquement", "Sans aucune information", "Seulement par un proche, quel que soit l'état du patient"],
+      "correct": [0],
+      "explanation": "Le consentement repose sur une information préalable du patient."
+    },
+    {
+      "question": "Quelle association entre classe ASA et état clinique est correcte ?",
+      "options": ["ASA I : patient en bonne santé", "ASA II : affection systémique modérée", "ASA III : affection systémique sévère", "ASA VI : affection bénigne sans retentissement"],
+      "correct": [0, 1, 2],
+      "explanation": "Les classes I à III décrivent une progression de l'absence de maladie systémique vers une affection sévère."
+    },
+    {
+      "question": "Quelle classe ASA correspond à une affection systémique sévère constituant une menace constante pour la vie ?",
+      "options": ["ASA IV", "ASA I", "ASA II", "ASA VI"],
+      "correct": [0],
+      "explanation": "La classe ASA IV correspond à une affection systémique sévère menaçant constamment la vie."
+    },
+    {
+      "question": "Quelle classe ASA correspond à un patient moribond dont la survie est improbable sans l'intervention ?",
+      "options": ["ASA V", "ASA I", "ASA II", "ASA III"],
+      "correct": [0],
+      "explanation": "La classe ASA V concerne le patient moribond dont l'intervention conditionne la survie."
+    },
+    {
+      "question": "Quelle classe ASA correspond à une personne en état de mort encéphalique dont les organes sont prélevés ?",
+      "options": ["ASA VI", "ASA I", "ASA III", "ASA V"],
+      "correct": [0],
+      "explanation": "La classe ASA VI est réservée au donneur d'organes en état de mort encéphalique."
+    },
+    {
+      "question": "Le classement ASA mesure uniquement la difficulté technique de l'intervention chirurgicale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le classement ASA décrit l'état de santé systémique du patient."
+    },
+    {
+      "question": "Quels éléments sont vérifiés lors de la visite préanesthésique ?",
+      "options": ["Évolution de l'état du patient", "Compréhension des informations", "Prémédication", "Arrêt ou poursuite des traitements"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La visite actualise l'évaluation et vérifie les consignes indispensables avant l'intervention."
+    },
+    {
+      "question": "La visite préanesthésique est réalisée dans les heures qui précèdent l'intervention par le médecin anesthésiste-réanimateur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle complète la consultation en recherchant notamment tout changement récent."
+    },
+    {
+      "question": "Jusqu'à quel délai avant une intervention programmée les aliments solides sont-ils autorisés ?",
+      "options": ["6 heures", "2 heures", "30 minutes", "Ils sont toujours autorisés"],
+      "correct": [0],
+      "explanation": "Le jeûne alimentaire est fixé à six heures avant l'intervention programmée."
+    },
+    {
+      "question": "Jusqu'à quel délai avant une intervention programmée les liquides clairs sont-ils autorisés ?",
+      "options": ["2 heures", "6 heures", "12 heures", "Ils sont toujours interdits"],
+      "correct": [0],
+      "explanation": "Les liquides clairs restent autorisés jusqu'à deux heures avant l'intervention."
+    },
+    {
+      "question": "Tous les liquides, y compris les liquides clairs, doivent être arrêtés six heures avant une intervention programmée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Les liquides clairs sont autorisés jusqu'à deux heures avant l'intervention."
+    },
+    {
+      "question": "Quelle consigne est donnée pour un chewing-gum ou un bonbon dur avant une intervention programmée ?",
+      "options": ["Ils peuvent être pris jusqu'à juste avant l'intervention", "Ils imposent toujours douze heures de jeûne", "Ils remplacent le repas préopératoire", "Ils doivent être avalés pendant l'induction"],
+      "correct": [0],
+      "explanation": "Ils ne sont pas soumis au même délai que les aliments solides, mais doivent être retirés avant l'intervention."
+    },
+    {
+      "question": "Combien de jours avant l'intervention les antivitamines K sont-elles habituellement interrompues ?",
+      "options": ["5 jours, avec relais éventuel", "Le matin même uniquement", "15 jours sans exception", "Elles ne sont jamais interrompues"],
+      "correct": [0],
+      "explanation": "L'interruption indiquée est de cinq jours, avec un relais éventuel selon la stratégie médicale."
+    },
+    {
+      "question": "Les antiagrégants plaquettaires sont systématiquement arrêtés seulement le matin de l'intervention.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Une interruption cinq jours avant, éventuellement adaptée, est indiquée dans les consignes préopératoires."
+    },
+    {
+      "question": "Quelle conduite est indiquée pour les anticoagulants oraux directs avant l'intervention ?",
+      "options": ["Arrêt deux jours avant sans relais", "Arrêt dix jours avant avec relais systématique", "Poursuite obligatoire jusqu'à l'induction", "Doublement de la dose la veille"],
+      "correct": [0],
+      "explanation": "Les anticoagulants oraux directs sont interrompus deux jours avant sans relais."
+    },
+    {
+      "question": "L'arrêt d'un anticoagulant oral direct impose systématiquement un relais anticoagulant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La consigne indique un arrêt deux jours avant sans relais."
+    },
+    {
+      "question": "La metformine est poursuivie jusqu'au matin de l'intervention sans interruption.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La metformine est interrompue à J-1."
+    },
+    {
+      "question": "Quand les sulfamides hypoglycémiants et les inhibiteurs des alpha-glucosidases sont-ils interrompus ?",
+      "options": ["Le jour de l'intervention", "Cinq jours avant", "Un mois avant", "Ils sont doublés le matin"],
+      "correct": [0],
+      "explanation": "Ces antidiabétiques oraux sont interrompus à J0."
+    },
+    {
+      "question": "Quels traitements sont interrompus le jour de l'intervention ?",
+      "options": ["IEC ou sartans", "Diurétiques", "Sulfamides hypoglycémiants", "Inhibiteurs des alpha-glucosidases"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces traitements figurent parmi ceux dont l'arrêt est prévu à J0."
+    },
+    {
+      "question": "Quels traitements sont habituellement poursuivis pendant la période périopératoire ?",
+      "options": ["Bêtabloquants", "Inhibiteurs calciques", "Dérivés nitrés", "Traitement substitutif thyroïdien"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces traitements sont maintenus, comme les statines, certains antiarythmiques et la substitution corticoïde."
+    },
+    {
+      "question": "En cas de doute sur l'arrêt ou la poursuite d'un traitement, l'IDE doit se référer à la feuille de consultation ou contacter le médecin anesthésiste-réanimateur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La conduite prescrite ne doit pas être modifiée de façon autonome."
+    },
+    {
+      "question": "Quels dispositifs peuvent être utilisés pour contrôler les voies aériennes sous anesthésie générale ?",
+      "options": ["Masque facial", "Masque laryngé", "Sonde d'intubation trachéale", "Canule adaptée"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le choix du dispositif dépend de la stratégie anesthésique et de la ventilation nécessaire."
+    },
+    {
+      "question": "Quelles grandes classes médicamenteuses participent à l'anesthésie générale ?",
+      "options": ["Hypnotiques", "Morphiniques", "Curares", "Anesthésiques locaux selon la technique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Chaque classe répond à une composante spécifique de l'anesthésie."
+    },
+    {
+      "question": "Quel est le rôle principal d'un hypnotique pendant l'anesthésie générale ?",
+      "options": ["Induire ou maintenir l'inconscience", "Assurer seul la relaxation musculaire", "Neutraliser un anticoagulant", "Traiter une infection"],
+      "correct": [0],
+      "explanation": "L'hypnotique agit principalement sur la composante de conscience."
+    },
+    {
+      "question": "Quel est le rôle principal d'un morphinique pendant l'anesthésie ?",
+      "options": ["Assurer l'analgésie", "Provoquer uniquement une paralysie", "Remplacer le monitorage", "Antagoniser tous les hypnotiques"],
+      "correct": [0],
+      "explanation": "Les morphiniques contrôlent la composante douloureuse et les réponses nociceptives."
+    },
+    {
+      "question": "Quel effet est recherché avec un curare ?",
+      "options": ["Relâchement musculaire", "Analgésie complète", "Amnésie isolée", "Antibiothérapie"],
+      "correct": [0],
+      "explanation": "Le curare bloque la transmission neuromusculaire et facilite notamment l'intubation ou la chirurgie."
+    },
+    {
+      "question": "Un curare assure à lui seul l'analgésie du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le curare produit un relâchement musculaire mais n'est ni un hypnotique ni un analgésique."
+    },
+    {
+      "question": "Quel médicament antagonise les effets des morphiniques ?",
+      "options": ["Naloxone", "Sugammadex", "Atropine seule", "Intralipide"],
+      "correct": [0],
+      "explanation": "La naloxone est l'antagoniste des opioïdes."
+    },
+    {
+      "question": "Quels médicaments peuvent être utilisés pour antagoniser une curarisation ?",
+      "options": ["Néostigmine associée à l'atropine", "Sugammadex", "Naloxone", "Intralipide"],
+      "correct": [0, 1],
+      "explanation": "La néostigmine avec atropine et le sugammadex sont les antagonistes de curares cités."
+    },
+    {
+      "question": "La naloxone est un antagoniste des morphiniques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle inverse les effets opioïdes, notamment la dépression respiratoire."
+    },
+    {
+      "question": "Quelles techniques appartiennent aux blocs centraux ?",
+      "options": ["Rachianesthésie", "Péridurale", "Bloc axillaire", "Infiltration d'une cicatrice"],
+      "correct": [0, 1],
+      "explanation": "La rachianesthésie et la péridurale réalisent une anesthésie locorégionale centrale."
+    },
+    {
+      "question": "Quelles conséquences peuvent résulter du bloc sympathique d'une anesthésie locorégionale centrale ?",
+      "options": ["Vasoplégie", "Hypotension", "Bradycardie", "Hypertension constante"],
+      "correct": [0, 1, 2],
+      "explanation": "Le bloc sympathique peut provoquer vasodilatation, hypotension et bradycardie, nécessitant une surveillance rapprochée."
+    },
+    {
+      "question": "Une rachianesthésie peut provoquer une hypotension et une bradycardie par bloc sympathique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces effets hémodynamiques peuvent nécessiter l'administration de vasopresseurs."
+    },
+    {
+      "question": "Dans quel ordre les effets d'un bloc locorégional central apparaissent-ils ?",
+      "options": ["Bloc sensitif puis bloc moteur", "Bloc moteur puis bloc sensitif dans tous les cas", "Bloc auditif puis visuel", "Aucun bloc sensitif"],
+      "correct": [0],
+      "explanation": "L'installation du bloc sensitif précède celle du bloc moteur."
+    },
+    {
+      "question": "Quel outil aide à repérer les structures lors d'un bloc nerveux périphérique ?",
+      "options": ["Échographie", "Radiographie pulmonaire", "Spirométrie", "Électroencéphalogramme"],
+      "correct": [0],
+      "explanation": "L'échographie guide l'injection autour du nerf ou du plexus ciblé."
+    },
+    {
+      "question": "L'IDE peut réaliser de façon autonome la première injection d'anesthésique local d'une ALR.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'IDE peut entretenir une ALR après la première injection médicale, si le médecin peut intervenir à tout moment."
+    },
+    {
+      "question": "Quels signes peuvent annoncer une toxicité systémique des anesthésiques locaux ?",
+      "options": ["Goût métallique", "Paresthésies péribuccales", "Acouphènes", "Dysarthrie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces signes neurologiques précoces doivent faire interrompre immédiatement l'administration."
+    },
+    {
+      "question": "Une toxicité des anesthésiques locaux peut être immédiate après une injection intravasculaire ou retardée jusqu'à 60 minutes après un bolus.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La surveillance doit donc être maintenue même en l'absence de signe immédiat."
+    },
+    {
+      "question": "Quels facteurs augmentent le risque de toxicité des anesthésiques locaux ?",
+      "options": ["Âges extrêmes", "Faible poids", "Cardiopathie", "Hypoxie ou acidose"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le terrain, l'état physiologique et la dose administrée modifient la susceptibilité à la toxicité."
+    },
+    {
+      "question": "Quelle est la dose maximale de bupivacaïne non adrénalinée ?",
+      "options": ["2 mg/kg sans dépasser 175 mg", "5 mg/kg sans dépasser 500 mg", "8 mg/kg sans dépasser 600 mg", "3 mg/kg sans limite maximale"],
+      "correct": [0],
+      "explanation": "La dose maximale recommandée est de 2 mg/kg, plafonnée à 175 mg."
+    },
+    {
+      "question": "Quelle est la dose maximale de lidocaïne adrénalinée ?",
+      "options": ["7 mg/kg sans dépasser 500 mg", "2 mg/kg sans dépasser 175 mg", "3 mg/kg sans dépasser 225 mg", "1 mg/kg sans dépasser 50 mg"],
+      "correct": [0],
+      "explanation": "Avec adrénaline, la lidocaïne est limitée à 7 mg/kg et à une dose totale de 500 mg."
+    },
+    {
+      "question": "Quelle est la dose maximale de ropivacaïne non adrénalinée ?",
+      "options": ["3 mg/kg sans dépasser 200 mg", "8 mg/kg sans dépasser 600 mg", "5 mg/kg sans dépasser 500 mg", "2 mg/kg sans dépasser 50 mg"],
+      "correct": [0],
+      "explanation": "La ropivacaïne non adrénalinée est limitée à 3 mg/kg et à 200 mg au total."
+    },
+    {
+      "question": "Quelles actions sont immédiates devant une suspicion de toxicité d'un anesthésique local ?",
+      "options": ["Arrêter l'injection", "Faire arrêter le geste chirurgical", "Appeler de l'aide", "Administrer de l'oxygène à 100 %"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'arrêt de l'exposition, l'appel à l'aide et l'oxygénation sont prioritaires."
+    },
+    {
+      "question": "Quelles mesures peuvent faire partie du traitement d'une toxicité systémique des anesthésiques locaux ?",
+      "options": ["Émulsion lipidique Intralipide 20 %", "Benzodiazépine si convulsions prolongées", "Réanimation cardiopulmonaire prolongée si nécessaire", "Amiodarone en cas d'arythmie ventriculaire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La prise en charge associe l'émulsion lipidique, le contrôle des convulsions et une réanimation adaptée aux complications cardiovasculaires."
+    },
+    {
+      "question": "La lidocaïne est l'antiarythmique de choix lors d'une toxicité systémique provoquée par un anesthésique local.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La lidocaïne doit être évitée ; l'amiodarone est citée en cas d'arythmie ventriculaire."
+    }
+  ]
+}

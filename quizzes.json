@@ -1,5 +1,19 @@
 [
   {
+    "file": "data/4.4_S5_SURVEILLANCE_SSPI_2026.json",
+    "code": "UE 4.4",
+    "name": "Surveillance périopératoire et SSPI",
+    "subtitle": "S5 - Monitorage, curarisation, réveil, score d'Aldrete et rôle infirmier",
+    "icon": "🫀"
+  },
+  {
+    "file": "data/4.4_S5_ANESTHESIE_FONDAMENTAUX_ALR_2026.json",
+    "code": "UE 4.4",
+    "name": "Anesthésie et ALR",
+    "subtitle": "S5 - Fondamentaux, consultation, médicaments et toxicité des anesthésiques locaux",
+    "icon": "😴"
+  },
+  {
     "file": "data/4.4_S5_TD1_CCI_CALCULS_2026.json",
     "code": "UE 4.4",
     "name": "TD n°1 - CCI et calculs de dose",
@@ -19,6 +33,20 @@
     "name": "Chambre à cathéter implantable",
     "subtitle": "CCI : législation, aiguille de Huber, surveillance et complications",
     "icon": "🩺"
+  },
+  {
+    "file": "data/2.11_S5_OHB_ROLE_IDE_SECURITE_2026.json",
+    "code": "UE 2.11",
+    "name": "OHB - Rôle IDE et sécurité",
+    "subtitle": "S5 - Préparation, surveillance, risques et dispositifs médicaux en milieu hyperbare",
+    "icon": "🧑‍⚕️"
+  },
+  {
+    "file": "data/2.11_S5_OHB_PRINCIPES_INDICATIONS_2026.json",
+    "code": "UE 2.11",
+    "name": "OHB - Principes et indications",
+    "subtitle": "S5 - Physique, indications, accidents, cicatrisation et PTC-O₂",
+    "icon": "🫧"
   },
   {
     "file": "data/2.11_S5_TOXICOLOGIE_2026.json",

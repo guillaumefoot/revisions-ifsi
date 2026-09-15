@@ -1,0 +1,426 @@
+{
+  "title": "UE 2.11 S5 - Oxygénothérapie hyperbare",
+  "subtitle": "Principes physiques, indications, accidents, cicatrisation et PTC-O₂",
+  "questions": [
+    {
+      "question": "Qu'est-ce que l'oxygénothérapie hyperbare ?",
+      "options": ["L'administration d'oxygène à une pression supérieure à la pression atmosphérique", "L'administration d'air ambiant à basse pression", "Une ventilation mécanique exclusivement utilisée au bloc opératoire", "Une oxygénothérapie réalisée uniquement par lunettes nasales"],
+      "correct": [0],
+      "explanation": "L'OHB associe une atmosphère pressurisée et l'inhalation d'un mélange riche en oxygène."
+    },
+    {
+      "question": "Quels éléments caractérisent une séance d'oxygénothérapie hyperbare ?",
+      "options": ["Une enceinte hyperbare", "Une concentration inspirée en oxygène supérieure à 21 %", "Une pression supérieure à la pression atmosphérique", "Une exposition obligatoire à une pression inférieure à 1 ATA"],
+      "correct": [0, 1, 2],
+      "explanation": "L'OHB nécessite une enceinte, une pression supérieure à l'atmosphère et une concentration inspirée en oxygène supérieure à celle de l'air."
+    },
+    {
+      "question": "Une atmosphère correspond approximativement à la pression exercée par une colonne de 10 mètres d'eau.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une pression de 1 ATA correspond notamment à environ 10 mètres d'eau."
+    },
+    {
+      "question": "À 10 mètres sous l'eau, la pression absolue est d'environ 1 ATA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. À 10 mètres sous l'eau, la pression absolue est d'environ 2 ATA : 1 ATA atmosphérique et 1 ATA liée à l'eau."
+    },
+    {
+      "question": "Il existe des chambres hyperbares monoplaces et des chambres multiplaces.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les chambres hyperbares peuvent accueillir une seule personne ou plusieurs patients."
+    },
+    {
+      "question": "Dans la chambre hyperbare, la concentration ambiante en oxygène doit rester inférieure à 23 %.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette limite participe à la prévention du risque d'incendie dans l'enceinte."
+    },
+    {
+      "question": "Quel dispositif permet au patient de recevoir un gaz thérapeutique sans enrichir excessivement l'atmosphère de la chambre ?",
+      "options": ["Un circuit d'inhalation et d'évacuation des gaz", "Une simple ouverture permanente de la porte", "Un diffuseur de parfum", "Un humidificateur sans raccordement"],
+      "correct": [0],
+      "explanation": "Le circuit apporte le gaz au patient puis l'évacue hors de l'enceinte."
+    },
+    {
+      "question": "Quelle relation résume la loi de Boyle-Mariotte à température constante ?",
+      "options": ["Pression × volume = constante", "Pression + volume = constante", "Pression ÷ volume = constante", "Pression = volume"],
+      "correct": [0],
+      "explanation": "La loi de Boyle-Mariotte décrit une relation inverse entre pression et volume des gaz."
+    },
+    {
+      "question": "Lorsque la pression augmente, le volume d'un gaz diminue à température constante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette relation inverse découle de la loi de Boyle-Mariotte."
+    },
+    {
+      "question": "Quel phénomène se produit dans une cavité gazeuse souple pendant la compression ?",
+      "options": ["Son volume diminue", "Son volume augmente", "Sa pression devient nulle", "La quantité de gaz disparaît"],
+      "correct": [0],
+      "explanation": "L'augmentation de pression réduit le volume du gaz contenu dans la cavité."
+    },
+    {
+      "question": "Quels sites peuvent subir un barotraumatisme pendant la compression ?",
+      "options": ["Oreille moyenne", "Sinus", "Dent contenant une poche gazeuse", "Peau saine dépourvue de cavité"],
+      "correct": [0, 1, 2],
+      "explanation": "Les cavités aériennes fermées ou mal équilibrées sont particulièrement exposées aux variations de pression."
+    },
+    {
+      "question": "Un Valsalva inadapté pendant la décompression protège l'oreille interne de tout barotraumatisme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Un Valsalva inapproprié pendant la décompression peut favoriser un barotraumatisme de l'oreille interne."
+    },
+    {
+      "question": "Quel accident pulmonaire peut survenir si un gaz piégé ne peut pas s'échapper pendant la décompression ?",
+      "options": ["Une surpression pulmonaire", "Une hypoglycémie", "Une anémie aiguë", "Une thrombopénie"],
+      "correct": [0],
+      "explanation": "À la décompression, le volume du gaz augmente et peut provoquer une surpression pulmonaire s'il reste piégé."
+    },
+    {
+      "question": "Que décrit la loi de Dalton ?",
+      "options": ["La pression totale d'un mélange est la somme des pressions partielles de ses gaz", "Le volume d'un gaz ne varie jamais", "La quantité d'oxygène dissous est indépendante de la pression", "La température corporelle détermine seule la pression d'un mélange"],
+      "correct": [0],
+      "explanation": "Chaque gaz contribue à la pression totale du mélange par sa pression partielle."
+    },
+    {
+      "question": "Comment calcule-t-on la pression partielle d'un gaz dans un mélange ?",
+      "options": ["Fraction du gaz × pression totale", "Fraction du gaz + pression totale", "Pression totale ÷ température", "Volume du gaz × fréquence respiratoire"],
+      "correct": [0],
+      "explanation": "La pression partielle dépend de la fraction du gaz et de la pression absolue du milieu."
+    },
+    {
+      "question": "À une pression absolue de 2,8 bars, quelle est la pression partielle d'oxygène lors de l'inhalation d'oxygène pur ?",
+      "options": ["2,8 bars", "1,4 bar", "0,56 bar", "5,6 bars"],
+      "correct": [0],
+      "explanation": "Avec une fraction d'oxygène égale à 1, la pression partielle d'oxygène est égale à la pression totale."
+    },
+    {
+      "question": "Quelle loi explique l'augmentation de la quantité de gaz dissous dans un liquide lorsque sa pression partielle augmente ?",
+      "options": ["Loi de Henry", "Loi de Boyle-Mariotte", "Loi de Dalton", "Loi d'Ohm"],
+      "correct": [0],
+      "explanation": "La loi de Henry relie la quantité de gaz dissous à sa pression partielle."
+    },
+    {
+      "question": "L'augmentation de la pression partielle d'oxygène augmente la quantité d'oxygène dissous dans le plasma.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'OHB augmente fortement l'oxygène physiquement dissous dans le plasma."
+    },
+    {
+      "question": "Une crise hyperoxique provoque nécessairement des séquelles neurologiques permanentes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La crise hyperoxique correspond à une irritation transitoire du système nerveux central pouvant entraîner une convulsion."
+    },
+    {
+      "question": "Quel prodrome est fréquemment décrit avant une crise hyperoxique ?",
+      "options": ["Tachycardie ou palpitations", "Bradycardie constante", "Ictère brutal", "Hématurie isolée"],
+      "correct": [0],
+      "explanation": "Une tachycardie ou des palpitations peuvent précéder la crise."
+    },
+    {
+      "question": "Quels antécédents peuvent augmenter la susceptibilité à une crise hyperoxique ?",
+      "options": ["Épilepsie", "Traumatisme crânien", "Convulsions fébriles", "Radiothérapie cérébrale"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces antécédents neurologiques sont cités comme facteurs de susceptibilité à l'hyperoxie."
+    },
+    {
+      "question": "Quel moyen limite l'exposition continue à une forte pression partielle d'oxygène pendant une séance ?",
+      "options": ["Des pauses à l'air", "Une apnée volontaire", "Une augmentation permanente de la pression", "L'obstruction du circuit expiratoire"],
+      "correct": [0],
+      "explanation": "Les pauses à l'air interrompent temporairement l'inhalation du mélange riche en oxygène."
+    },
+    {
+      "question": "Deux séances d'OHB peuvent toujours être enchaînées avec seulement deux heures d'intervalle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Un intervalle de quatre heures doit séparer deux séances d'OHB."
+    },
+    {
+      "question": "Quelles situations figurent parmi les indications urgentes d'OHB ?",
+      "options": ["Embolie gazeuse", "Accident de décompression", "Intoxication au monoxyde de carbone", "Occlusion de l'artère centrale de la rétine"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces situations nécessitent une évaluation rapide en vue d'une prise en charge hyperbare."
+    },
+    {
+      "question": "Dans quelles situations l'OHB peut-elle accompagner une stratégie de revascularisation ?",
+      "options": ["Syndrome d'écrasement", "Ischémie critique", "Myopie simple", "Rhume banal"],
+      "correct": [0, 1],
+      "explanation": "Le syndrome d'écrasement et l'ischémie critique figurent parmi les situations où l'OHB peut soutenir la revascularisation."
+    },
+    {
+      "question": "Quelles pathologies peuvent relever d'une indication d'OHB dans le domaine de la cicatrisation ?",
+      "options": ["Gangrène de Fournier", "Ulcère artériel ou diabétique", "Lésion post-radique", "Infection des tissus mous"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces pathologies font partie des indications liées aux plaies, aux infections et aux tissus hypoxiques."
+    },
+    {
+      "question": "Une oxymétrie de pouls normale suffit à exclure une intoxication au monoxyde de carbone.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La SpO₂ peut être faussement rassurante lors d'une intoxication au monoxyde de carbone."
+    },
+    {
+      "question": "Quel traitement oxygéné doit être instauré devant une intoxication au monoxyde de carbone ?",
+      "options": ["Oxygène à 15 L/min au masque à réservoir", "Air ambiant sans surveillance", "Oxygène à 1 L/min uniquement si la SpO₂ baisse", "Ventilation volontaire sans oxygène"],
+      "correct": [0],
+      "explanation": "L'oxygène à haut débit est administré indépendamment de la valeur affichée par la SpO₂."
+    },
+    {
+      "question": "Quel examen biologique est utile pour évaluer une intoxication au monoxyde de carbone ?",
+      "options": ["Gaz du sang veineux avec mesure du CO", "Dosage isolé de la glycémie", "Numération des réticulocytes uniquement", "Bandelette urinaire seule"],
+      "correct": [0],
+      "explanation": "Le gaz du sang permet notamment d'apprécier la saturation liée au monoxyde de carbone."
+    },
+    {
+      "question": "Quel protocole hyperbare est indiqué pour l'intoxication au monoxyde de carbone ?",
+      "options": ["Une séance à 2,5 ATA pendant 90 minutes", "Une séance à 1 ATA pendant 10 minutes", "Trois séances à 5 ATA sans pause", "Une séance à 0,5 ATA pendant 6 heures"],
+      "correct": [0],
+      "explanation": "Le protocole comporte une séance à 2,5 ATA durant 90 minutes."
+    },
+    {
+      "question": "Le débit d'oxygène initial d'une intoxication au monoxyde de carbone doit être adapté uniquement à la valeur de SpO₂.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'oxygène à 15 L/min au masque à réservoir est instauré quelle que soit la SpO₂."
+    },
+    {
+      "question": "Quels sont les objectifs de la recompression dans un accident de décompression ?",
+      "options": ["Réduire le volume des bulles", "Favoriser l'évacuation de l'azote", "Traiter les lésions tissulaires", "Augmenter volontairement la taille des bulles"],
+      "correct": [0, 1, 2],
+      "explanation": "La recompression vise à écraser les bulles, à éliminer l'azote et à favoriser la récupération des tissus lésés."
+    },
+    {
+      "question": "Tout symptôme évocateur débutant dans les 24 heures suivant une plongée doit faire considérer un accident de décompression jusqu'à preuve du contraire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette règle conduit à une évaluation urgente et évite de banaliser un symptôme post-plongée."
+    },
+    {
+      "question": "Quels signes peuvent évoquer un accident de décompression ?",
+      "options": ["Paralysie ou paresthésies", "Trouble de conscience", "Nausées ou vomissements", "Douleurs musculaires ou articulaires"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les manifestations peuvent être neurologiques, digestives ou douloureuses."
+    },
+    {
+      "question": "Quelle oxygénothérapie doit être mise en place devant un accident de décompression suspecté ?",
+      "options": ["Oxygène à 15 L/min au masque à réservoir", "Aucun oxygène si la SpO₂ est normale", "Oxygène à 1 L/min par lunettes", "Oxygène uniquement après l'entrée dans le caisson"],
+      "correct": [0],
+      "explanation": "L'oxygène à haut débit est débuté sans attendre, indépendamment de la SpO₂."
+    },
+    {
+      "question": "Quel objectif minimal d'hydratation est indiqué lors d'un accident de décompression ?",
+      "options": ["1,5 litre par voie intraveineuse ou orale", "100 mL uniquement", "5 litres en moins de 30 minutes", "Aucune hydratation"],
+      "correct": [0],
+      "explanation": "L'objectif minimal est de 1,5 litre, par voie intraveineuse ou orale selon la situation."
+    },
+    {
+      "question": "Quels traitements sont cités dans la prise en charge initiale d'un accident de décompression ?",
+      "options": ["Aspirine 250 mg IV", "Méthylprednisolone 1 mg/kg", "Traitement symptomatique", "Restriction systématique de tout apport hydrique"],
+      "correct": [0, 1, 2],
+      "explanation": "Le traitement associe oxygène, hydratation, aspirine, méthylprednisolone et mesures symptomatiques."
+    },
+    {
+      "question": "Quelle association correspond aux contre-indications respiratoires absolues à l'OHB ?",
+      "options": ["Crise d'asthme aiguë résistante et pneumothorax non drainé", "Rhume simple et toux isolée", "Asthme ancien équilibré et tabagisme", "Dyspnée d'effort ancienne et bronchite guérie"],
+      "correct": [0],
+      "explanation": "La crise d'asthme aiguë résistante et le pneumothorax non drainé sont cités comme contre-indications absolues."
+    },
+    {
+      "question": "Quels états cardiovasculaires constituent des contre-indications absolues à l'OHB ?",
+      "options": ["Arrêt cardiaque", "Infarctus aigu du myocarde", "Angor instable", "Accident vasculaire cérébral aigu"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces états aigus figurent dans la liste des contre-indications cardiovasculaires absolues."
+    },
+    {
+      "question": "Un pneumothorax non drainé est compatible avec une séance d'OHB sans précaution particulière.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le pneumothorax non drainé constitue une contre-indication absolue."
+    },
+    {
+      "question": "Quels troubles neurologiques ou psychiatriques constituent des contre-indications absolues à l'OHB ?",
+      "options": ["État de mal épileptique non contrôlé", "Trouble mental ou comportemental sévère", "Claustrophobie panique malgré le traitement", "Anxiété légère soulagée par l'information"],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles non contrôlés ou incompatibles avec la sécurité de la séance constituent les situations citées."
+    },
+    {
+      "question": "La grossesse figure parmi les contre-indications absolues à l'OHB.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La grossesse figure parmi les contre-indications absolues à l'OHB."
+    },
+    {
+      "question": "Quelle période correspond principalement à la phase inflammatoire de la cicatrisation ?",
+      "options": ["De 0 à 3 jours", "De 3 à 21 jours", "De 21 jours à 2 ans", "Après 5 ans uniquement"],
+      "correct": [0],
+      "explanation": "La phase inflammatoire occupe principalement les trois premiers jours."
+    },
+    {
+      "question": "La phase inflammatoire débute seulement au vingt-et-unième jour de cicatrisation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle commence immédiatement et se situe principalement entre le jour 0 et le troisième jour."
+    },
+    {
+      "question": "Quelle phase de cicatrisation domine entre le troisième et le vingt-et-unième jour ?",
+      "options": ["Granulation", "Inflammation initiale exclusive", "Calcification", "Nécrose physiologique"],
+      "correct": [0],
+      "explanation": "La granulation se développe principalement de J3 à J21."
+    },
+    {
+      "question": "Quelle période correspond à l'épidermisation et au remodelage ?",
+      "options": ["De 21 jours jusqu'à environ 2 ans", "Uniquement les 24 premières heures", "Exclusivement de J3 à J5", "Après 10 ans"],
+      "correct": [0],
+      "explanation": "L'épidermisation et le remodelage s'inscrivent dans une phase prolongée pouvant aller jusqu'à deux ans."
+    },
+    {
+      "question": "Quels facteurs peuvent ralentir la cicatrisation ?",
+      "options": ["Troubles métaboliques", "Insuffisance vasculaire", "Dénutrition", "Certains médicaments"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les facteurs métaboliques, vasculaires, systémiques, nutritionnels et médicamenteux peuvent retarder la cicatrisation."
+    },
+    {
+      "question": "Le tabac et l'alcool accélèrent physiologiquement la cicatrisation d'une plaie hypoxique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le tabac et l'alcool figurent parmi les facteurs susceptibles de ralentir la cicatrisation."
+    },
+    {
+      "question": "L'hypoxie et l'infection peuvent entretenir un cercle défavorable à la cicatrisation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'hypoxie favorise l'infection et l'infection aggrave les conditions locales de cicatrisation."
+    },
+    {
+      "question": "Quel compartiment sanguin bénéficie directement de l'augmentation de l'oxygène dissous sous pression ?",
+      "options": ["Le plasma", "Les plaquettes uniquement", "La moelle osseuse uniquement", "Le liquide synovial exclusivement"],
+      "correct": [0],
+      "explanation": "L'augmentation de pression accroît la quantité d'oxygène physiquement dissous dans le plasma."
+    },
+    {
+      "question": "Quel effet vasculaire de l'OHB participe à la redistribution du débit vers les zones hypoxiques ?",
+      "options": ["Une vasoconstriction des vaisseaux sains", "Une obstruction de tous les capillaires", "Une vasodilatation exclusive des veines", "Une suppression définitive de la circulation"],
+      "correct": [0],
+      "explanation": "La vasoconstriction des territoires sains contribue à redistribuer le débit vers les zones hypoxiques."
+    },
+    {
+      "question": "Quel effet rhéologique est associé à l'OHB ?",
+      "options": ["Une amélioration de la déformabilité des globules rouges", "Une rigidification systématique des globules rouges", "Une destruction des plaquettes", "Une coagulation complète du plasma"],
+      "correct": [0],
+      "explanation": "L'amélioration de la déformabilité érythrocytaire facilite la circulation dans la microvascularisation."
+    },
+    {
+      "question": "Quels effets antibactériens sont associés à l'OHB ?",
+      "options": ["Production de radicaux oxygénés", "Effet bactériostatique sur des bactéries aérobies", "Effet bactéricide sur des bactéries anaérobies", "Suppression de toute activité des macrophages"],
+      "correct": [0, 1, 2],
+      "explanation": "Les radicaux oxygénés participent aux effets bactériostatiques et bactéricides décrits."
+    },
+    {
+      "question": "L'OHB est décrite comme bactéricide uniquement sur les bactéries aérobies et sans effet sur les anaérobies.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'effet est bactériostatique sur les aérobies et bactéricide sur les anaérobies."
+    },
+    {
+      "question": "Quelle fonction immunitaire est soutenue par une meilleure oxygénation tissulaire ?",
+      "options": ["La phagocytose macrophagique", "L'arrêt de toute réponse leucocytaire", "La destruction des immunoglobulines", "La suppression de la migration cellulaire"],
+      "correct": [0],
+      "explanation": "L'OHB favorise l'activité de phagocytose des macrophages."
+    },
+    {
+      "question": "Quels processus cellulaires utiles à la cicatrisation peuvent être favorisés par l'OHB ?",
+      "options": ["Activité des fibroblastes", "Synthèse de collagène", "Angiogenèse", "Destruction systématique du tissu de granulation"],
+      "correct": [0, 1, 2],
+      "explanation": "Les fibroblastes, le collagène et l'angiogenèse participent à la réparation des tissus."
+    },
+    {
+      "question": "Que mesure la PTC-O₂ ?",
+      "options": ["La pression d'oxygène dissous au niveau des tissus", "Le volume courant pulmonaire", "La pression intracrânienne", "Le taux de plaquettes"],
+      "correct": [0],
+      "explanation": "La mesure transcutanée apprécie l'oxygénation tissulaire locale."
+    },
+    {
+      "question": "La valeur de PTC-O₂ dépend notamment de la perfusion et du réseau vasculaire local.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une perfusion insuffisante ou un réseau vasculaire altéré modifie l'oxygénation tissulaire mesurée."
+    },
+    {
+      "question": "Une mesure transcutanée du dioxyde de carbone peut être associée à la PTC-O₂.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le dispositif peut compléter la PTC-O₂ par une mesure de PTC-CO₂."
+    },
+    {
+      "question": "Dans quelle situation la PTC-O₂ est-elle systématiquement utilisée pour valider la poursuite de l'OHB ?",
+      "options": ["Ulcère artériel ou revascularisation d'un membre inférieur", "Fracture simple du poignet", "Céphalée isolée", "Conjonctivite"],
+      "correct": [0],
+      "explanation": "La PTC-O₂ aide à évaluer le potentiel de réponse des plaies artérielles ou revascularisées du membre inférieur."
+    },
+    {
+      "question": "À quel moment la PTC-O₂ est-elle habituellement réalisée pour valider la poursuite des séances dans une indication vasculaire du membre inférieur ?",
+      "options": ["Lors de la deuxième séance", "Après la dernière séance uniquement", "Un an avant le traitement", "Seulement après cicatrisation complète"],
+      "correct": [0],
+      "explanation": "La PTC-O₂ est habituellement réalisée lors de la deuxième séance."
+    },
+    {
+      "question": "Quelle valeur de PTC-O₂ au niveau sous-claviculaire correspond à une référence favorable ?",
+      "options": ["Supérieure à 1 000 mmHg", "Supérieure à 10 mmHg", "Égale à 0 mmHg", "Inférieure à 5 mmHg"],
+      "correct": [0],
+      "explanation": "La référence sous-claviculaire favorable est supérieure à 1 000 mmHg."
+    },
+    {
+      "question": "Quelle valeur de PTC-O₂ au niveau de la lésion correspond à un bon pronostic général ?",
+      "options": ["Supérieure à 400 mmHg", "Supérieure à 4 mmHg", "Inférieure à 10 mmHg", "Exactement 0 mmHg"],
+      "correct": [0],
+      "explanation": "Une valeur lésionnelle supérieure à 400 mmHg correspond à un bon pronostic général."
+    },
+    {
+      "question": "Chez un patient diabétique, quel seuil de PTC-O₂ lésionnelle est favorable ?",
+      "options": ["Supérieur à 100 mmHg", "Supérieur à 5 mmHg", "Inférieur à 10 mmHg", "Nul"],
+      "correct": [0],
+      "explanation": "Le seuil favorable indiqué chez le patient diabétique est supérieur à 100 mmHg."
+    },
+    {
+      "question": "Chez un patient artérioscléreux, quel seuil de PTC-O₂ lésionnelle est favorable ?",
+      "options": ["Supérieur à 50 mmHg", "Supérieur à 500 mmHg", "Inférieur à 5 mmHg", "Exactement 1 000 mmHg"],
+      "correct": [0],
+      "explanation": "Le seuil favorable pour l'artériosclérose est supérieur à 50 mmHg."
+    },
+    {
+      "question": "Dans un syndrome d'écrasement, quel seuil de PTC-O₂ lésionnelle est favorable ?",
+      "options": ["Supérieur à 20 mmHg", "Supérieur à 2 000 mmHg", "Inférieur à 2 mmHg", "Toujours égal à 0 mmHg"],
+      "correct": [0],
+      "explanation": "Le seuil favorable dans le syndrome d'écrasement est supérieur à 20 mmHg."
+    },
+    {
+      "question": "La PTC-O₂ est indépendante de la vascularisation et donne toujours la même valeur quel que soit le site mesuré.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle dépend de la perfusion, du réseau vasculaire et du site de mesure."
+    },
+    {
+      "question": "À quelle catégorie d'indications appartient la gangrène de Fournier ?",
+      "options": ["Infection grave des tissus mous", "Trouble bénin de la réfraction", "Allergie cutanée simple", "Pathologie valvulaire isolée"],
+      "correct": [0],
+      "explanation": "La gangrène de Fournier est une infection grave des tissus mous pouvant relever de l'OHB."
+    },
+    {
+      "question": "L'OHB peut soutenir la cicatrisation en augmentant l'oxygénation de tissus hypoxiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'augmentation de l'oxygène dissous contribue aux effets tissulaires recherchés."
+    },
+    {
+      "question": "Quelles situations aiguës peuvent également relever d'une indication d'OHB ?",
+      "options": ["Surdité brusque", "Œdème cérébral après pendaison", "Occlusion de l'artère centrale de la rétine", "Conjonctivite simple"],
+      "correct": [0, 1, 2],
+      "explanation": "La surdité brusque, certaines conséquences d'une pendaison et l'occlusion de l'artère centrale de la rétine font partie des indications urgentes."
+    }
+  ]
+}

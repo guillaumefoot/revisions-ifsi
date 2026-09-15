@@ -1,0 +1,336 @@
+{
+  "title": "UE 2.11 S5 - Rôle IDE en oxygénothérapie hyperbare",
+  "subtitle": "Préparation, surveillance, risques, dispositifs médicaux et sécurité",
+  "questions": [
+    {
+      "question": "Quel est l'un des objectifs de la première consultation avant une prise en charge en OHB ?",
+      "options": ["Recueillir les données nécessaires à la sécurité des séances", "Commencer la compression sans évaluation", "Supprimer toute information au patient", "Retirer systématiquement tous les traitements chroniques"],
+      "correct": [0],
+      "explanation": "La consultation permet d'évaluer le patient, d'anticiper les risques et de préparer le traitement."
+    },
+    {
+      "question": "Quelles informations doivent être recueillies avant les premières séances d'OHB ?",
+      "options": ["Antécédents médicaux", "Traitements en cours et allergies", "Présence d'implants ou de dispositifs médicaux", "Indication de l'OHB"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces informations sont indispensables pour repérer les risques et adapter la prise en charge."
+    },
+    {
+      "question": "Quels paramètres peuvent être relevés lors de l'évaluation initiale ?",
+      "options": ["Poids et taille", "Pression artérielle et fréquence cardiaque", "Glycémie capillaire", "SpO₂ selon la situation"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'évaluation associe des données anthropométriques et des paramètres cliniques adaptés au patient."
+    },
+    {
+      "question": "Un ECG peut faire partie du bilan préparatoire à l'OHB.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'ECG figure parmi les examens pouvant être réalisés avant le traitement."
+    },
+    {
+      "question": "Quel examen local aide à prévenir les difficultés d'équilibration pendant la compression ?",
+      "options": ["L'examen du conduit auditif", "La mesure du tour de taille", "L'examen des ongles", "Le test d'acuité visuelle isolé"],
+      "correct": [0],
+      "explanation": "L'examen des oreilles permet notamment de repérer un obstacle ou une situation nécessitant un soin préalable."
+    },
+    {
+      "question": "Les techniques d'équilibration des oreilles doivent être enseignées uniquement après la dernière séance d'OHB.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elles sont enseignées avant la première séance afin de prévenir les barotraumatismes."
+    },
+    {
+      "question": "Quelles techniques peuvent aider à équilibrer les pressions au niveau des oreilles pendant la compression ?",
+      "options": ["Déglutir", "Bâiller", "Effectuer un Valsalva adapté", "Retenir sa respiration pendant toute la compression"],
+      "correct": [0, 1, 2],
+      "explanation": "La déglutition, le bâillement et un Valsalva correctement réalisé facilitent l'ouverture tubaire."
+    },
+    {
+      "question": "Quels éléments participent à l'évaluation infirmière d'une plaie avant ou pendant un traitement par OHB ?",
+      "options": ["Photographies", "Mesures de la plaie", "Description de son évolution", "Application automatique d'un produit gras"],
+      "correct": [0, 1, 2],
+      "explanation": "Les photographies, mesures et observations permettent de suivre objectivement l'évolution de la plaie."
+    },
+    {
+      "question": "Un pansement contenant un corps gras peut être conservé sans vérification dans la chambre hyperbare.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Les produits gras sont exclus du protocole de plaie en raison du risque de combustion."
+    },
+    {
+      "question": "Quels soins peuvent participer à la continuité de la prise en charge en unité hyperbare ?",
+      "options": ["Surveillance des paramètres vitaux", "Soins d'hygiène et de confort", "Prévention des lésions cutanées", "Soins de plaie prescrits"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La prise en charge ne se limite pas à la séance : elle inclut les soins généraux et spécifiques nécessaires."
+    },
+    {
+      "question": "Une aspiration des voies aériennes peut être anticipée chez un patient qui en a besoin pendant une séance d'OHB.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le matériel et les soins nécessaires doivent être anticipés avant la fermeture de la chambre."
+    },
+    {
+      "question": "Quels contrôles sont particulièrement utiles juste avant une séance d'OHB ?",
+      "options": ["Pression artérielle", "Glycémie capillaire selon le terrain", "Couleur préférée du patient", "Pointure des chaussures"],
+      "correct": [0, 1],
+      "explanation": "La pression artérielle est contrôlée et la glycémie est vérifiée lorsque la situation le justifie."
+    },
+    {
+      "question": "Quels effets de l'oxygène justifient une vigilance sur la pression artérielle ?",
+      "options": ["Effet vasoconstricteur et hypertensif", "Effet anticoagulant constant", "Effet hypothermisant exclusif", "Effet diurétique immédiat obligatoire"],
+      "correct": [0],
+      "explanation": "L'oxygène peut entraîner une vasoconstriction et une élévation de la pression artérielle."
+    },
+    {
+      "question": "Quelle limite de pression artérielle systolique est recherchée avant la séance ?",
+      "options": ["Inférieure à 160 mmHg", "Inférieure à 40 mmHg", "Supérieure à 220 mmHg", "Exactement égale à 200 mmHg"],
+      "correct": [0],
+      "explanation": "L'objectif indiqué est une pression artérielle systolique inférieure à 160 mmHg."
+    },
+    {
+      "question": "Une pression artérielle systolique supérieure à 200 mmHg permet de débuter la séance sans évaluation supplémentaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La pression artérielle doit être évaluée et l'objectif est une systolique inférieure à 160 mmHg."
+    },
+    {
+      "question": "Quels éléments doivent être retirés ou adaptés avant l'entrée dans la chambre hyperbare ?",
+      "options": ["Prothèse auditive", "Prothèse dentaire amovible", "Orthèse non compatible", "Dispositif VAC ou PICO non compatible"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les éléments amovibles ou non compatibles sont retirés afin de limiter les risques et les poches d'air."
+    },
+    {
+      "question": "Pourquoi les électrodes utilisées en milieu hyperbare doivent-elles être adaptées ?",
+      "options": ["Pour limiter les risques liés au matériel dans une atmosphère pressurisée", "Pour augmenter volontairement l'électricité statique", "Pour remplacer toute surveillance clinique", "Pour empêcher la mesure de l'ECG"],
+      "correct": [0],
+      "explanation": "Le matériel doit être compatible avec les contraintes de pression et de sécurité incendie."
+    },
+    {
+      "question": "La quantité de perfusion et le contenu d'un pousse-seringue doivent être suffisants pour toute la durée prévue de la séance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'accès au patient étant limité pendant la séance, les volumes et débits nécessaires doivent être anticipés."
+    },
+    {
+      "question": "Quels risques majeurs doivent être anticipés pendant une séance d'OHB ?",
+      "options": ["Incendie", "Barotraumatisme", "Réaction au confinement", "Crise hyperoxique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces quatre risques structurent la prévention et la surveillance en chambre hyperbare."
+    },
+    {
+      "question": "Quels éléments composent le triangle du feu ?",
+      "options": ["Combustible", "Comburant", "Énergie d'activation", "Pression artérielle"],
+      "correct": [0, 1, 2],
+      "explanation": "Un incendie nécessite la réunion d'un combustible, d'un comburant et d'une source d'énergie."
+    },
+    {
+      "question": "Pourquoi un incendie en chambre hyperbare présente-t-il un risque particulièrement élevé ?",
+      "options": ["L'oxygène favorise la combustion", "L'espace est confiné", "L'accès au patient est difficile", "La pression supprime toute combustion"],
+      "correct": [0, 1, 2],
+      "explanation": "L'atmosphère enrichie, le confinement et l'accès limité majorent les conséquences potentielles d'un feu."
+    },
+    {
+      "question": "Quelle tenue est privilégiée pour entrer dans une chambre hyperbare ?",
+      "options": ["Une tenue en coton à 100 %", "Une tenue synthétique produisant de l'électricité statique", "Un vêtement imprégné d'huile", "Un manteau chauffant personnel"],
+      "correct": [0],
+      "explanation": "Le coton à 100 % limite les risques liés à la combustibilité et à l'électricité statique."
+    },
+    {
+      "question": "Quels objets ou produits sont incompatibles avec la sécurité incendie en chambre hyperbare ?",
+      "options": ["Appareil électronique personnel", "Cosmétique", "Produit combustible", "Pansement contenant une matière grasse"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les sources d'ignition et les produits combustibles ou gras doivent être exclus."
+    },
+    {
+      "question": "Le maquillage et les crèmes grasses peuvent être conservés pendant une séance d'OHB s'ils ont été appliqués le matin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Les cosmétiques et produits gras doivent être retirés avant l'entrée dans l'enceinte."
+    },
+    {
+      "question": "Pourquoi faut-il vérifier l'ajustement du masque d'oxygène ?",
+      "options": ["Pour limiter les fuites d'oxygène dans la chambre", "Pour empêcher toute respiration", "Pour augmenter la concentration ambiante en oxygène", "Pour remplacer le circuit d'évacuation"],
+      "correct": [0],
+      "explanation": "Un masque bien ajusté délivre le gaz au patient tout en limitant l'enrichissement de l'enceinte."
+    },
+    {
+      "question": "Quel paramètre atmosphérique doit être surveillé dans la chambre ?",
+      "options": ["La concentration en oxygène", "La glycémie de l'enceinte", "Le groupe sanguin du personnel", "La densité osseuse du patient"],
+      "correct": [0],
+      "explanation": "La surveillance de l'oxygène ambiant permet de détecter une fuite ou un enrichissement excessif."
+    },
+    {
+      "question": "La concentration ambiante en oxygène doit rester inférieure à 23 % dans la chambre hyperbare.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette limite constitue une mesure centrale de prévention du risque incendie."
+    },
+    {
+      "question": "Quels équipements contribuent à la lutte contre l'incendie dans une chambre hyperbare ?",
+      "options": ["Couvertures anti-feu", "Extincteurs hyperbares", "Système de déluge ou de brumisation", "Bougies de secours"],
+      "correct": [0, 1, 2],
+      "explanation": "La chambre dispose d'équipements spécifiquement compatibles avec le milieu hyperbare."
+    },
+    {
+      "question": "Quelles actions infirmières contribuent à prévenir un barotraumatisme auriculaire ?",
+      "options": ["Examiner le conduit auditif", "Réaliser un lavage d'oreille si nécessaire", "Administrer un traitement local sur prescription", "Surveiller le patient pendant la compression"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'évaluation, les soins prescrits, l'éducation et la surveillance pendant la compression sont complémentaires."
+    },
+    {
+      "question": "Il faut encourager un Valsalva puissant et répété pendant toute la décompression.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Un Valsalva inadapté pendant la décompression peut léser l'oreille interne."
+    },
+    {
+      "question": "Quels symptômes doivent faire évoquer une complication pulmonaire pendant une séance ?",
+      "options": ["Douleur thoracique ou dyspnée", "Prurit isolé du cuir chevelu", "Faim", "Fatigue ancienne sans modification"],
+      "correct": [0],
+      "explanation": "Une douleur thoracique ou une dyspnée impose une évaluation rapide d'une complication respiratoire."
+    },
+    {
+      "question": "Quelle situation doit être traitée avant une exposition hyperbare afin de prévenir une surpression pulmonaire ?",
+      "options": ["Un pneumothorax", "Une myopie", "Une cicatrice ancienne", "Une entorse de cheville"],
+      "correct": [0],
+      "explanation": "Un pneumothorax nécessite un drainage adapté avant l'exposition à la décompression."
+    },
+    {
+      "question": "La prévention d'une surpression pulmonaire implique d'éviter l'apnée, le spasme glottique et le Valsalva pendant la décompression.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces situations peuvent empêcher l'évacuation du gaz qui se dilate pendant la remontée en pression atmosphérique."
+    },
+    {
+      "question": "Quelles mesures peuvent réduire le risque lié au confinement ?",
+      "options": ["Évaluer la stabilité médicale et psychologique", "Expliquer le déroulement de la séance", "Anticiper la claustrophobie", "Prévoir un traitement anxiolytique sur prescription si nécessaire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'information, l'évaluation et l'anticipation améliorent la tolérance du confinement."
+    },
+    {
+      "question": "Quel principe éthique doit être respecté avant l'entrée dans la chambre hyperbare ?",
+      "options": ["Recueillir le consentement après information", "Imposer la séance sans explication", "Cacher les risques au patient", "Interdire toute question"],
+      "correct": [0],
+      "explanation": "Le patient doit comprendre le déroulement, les bénéfices et les risques avant de consentir."
+    },
+    {
+      "question": "Dans quelle situation l'accompagnement dans la chambre est-il obligatoire ?",
+      "options": ["Chez un patient mineur", "Chez tout adulte parfaitement autonome", "Pour toute séance sans exception médicale", "Uniquement lorsque la chambre est vide"],
+      "correct": [0],
+      "explanation": "L'accompagnement est obligatoire pour les mineurs et souvent utile dans d'autres situations."
+    },
+    {
+      "question": "L'accompagnement d'un patient mineur en chambre hyperbare est facultatif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Un mineur doit être accompagné pendant la séance."
+    },
+    {
+      "question": "Quel dispositif permet de maintenir un contact avec les patients pendant la séance ?",
+      "options": ["Une surveillance audiovisuelle", "Une porte laissée ouverte", "Un téléphone personnel dans la chambre", "L'absence totale de communication"],
+      "correct": [0],
+      "explanation": "La surveillance audiovisuelle permet d'observer les patients et de communiquer avec eux."
+    },
+    {
+      "question": "Quelles mesures préparent un patient exposé au risque de crise hyperoxique ?",
+      "options": ["Retirer les prothèses dentaires amovibles", "Prévoir les traitements prescrits", "Installer un accompagnant si nécessaire", "Mettre en place les barrières de sécurité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces mesures limitent les traumatismes et facilitent la prise en charge d'une éventuelle convulsion."
+    },
+    {
+      "question": "Quel mélange peut être privilégié pour limiter le risque hyperoxique lorsque la pression dépasse 1,8 bar ?",
+      "options": ["Un mélange enrichi en oxygène plutôt que l'oxygène pur", "De l'oxygène pur sans aucune pause", "Un gaz combustible", "Un mélange sans contrôle de composition"],
+      "correct": [0],
+      "explanation": "Un mélange enrichi permet de réduire la pression partielle d'oxygène par rapport à l'oxygène pur."
+    },
+    {
+      "question": "Quelles actions sont prioritaires lors d'une crise hyperoxique dans la chambre ?",
+      "options": ["Arrêter l'administration d'oxygène", "Retirer le masque", "Protéger la tête et le patient", "Maintenir de force le masque d'oxygène"],
+      "correct": [0, 1, 2],
+      "explanation": "La suppression de l'oxygène et la protection contre les traumatismes sont prioritaires."
+    },
+    {
+      "question": "Lors d'une crise hyperoxique, il faut arrêter l'oxygène et retirer le masque du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette mesure interrompt l'exposition responsable tout en permettant de protéger le patient."
+    },
+    {
+      "question": "Quel médicament peut être administré sur prescription si la crise convulsive ne cède pas ?",
+      "options": ["Diazépam", "Insuline", "Héparine", "Furossémide"],
+      "correct": [0],
+      "explanation": "Le diazépam est prévu sur prescription lorsque la convulsion persiste."
+    },
+    {
+      "question": "Quelles surveillances sont nécessaires après une crise hyperoxique ?",
+      "options": ["Phase postcritique", "État respiratoire", "Résolution d'un éventuel spasme glottique", "Reprise immédiate de l'oxygène pur sans évaluation"],
+      "correct": [0, 1, 2],
+      "explanation": "La récupération neurologique et respiratoire doit être vérifiée avant toute modification de pression."
+    },
+    {
+      "question": "La décompression peut débuter immédiatement pendant une crise même si un spasme glottique persiste.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il faut vérifier la résolution du spasme glottique avant la décompression pour éviter une surpression pulmonaire."
+    },
+    {
+      "question": "Quel principe gouverne l'utilisation d'un dispositif médical en chambre hyperbare ?",
+      "options": ["Utiliser un matériel compatible ou faire évaluer le rapport bénéfice-risque", "Introduire tout appareil sans vérification", "Désactiver toutes les alarmes", "Remplacer la surveillance par le matériel"],
+      "correct": [0],
+      "explanation": "Le dispositif doit être homologué ou faire l'objet d'une évaluation stricte de sa nécessité et de sa compatibilité."
+    },
+    {
+      "question": "La présence d'un dispositif médical impose une évaluation de sa compatibilité avant la séance plutôt qu'une exclusion automatique du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le dispositif est identifié, adapté ou remplacé en fonction de sa compatibilité et de sa nécessité clinique."
+    },
+    {
+      "question": "Quels matériels peuvent exister en version adaptée au milieu hyperbare ?",
+      "options": ["Moniteur", "Ventilateur", "Pousse-seringue", "Défibrillateur"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La surveillance et les soins critiques nécessitent des matériels spécifiquement compatibles avec la pression et l'atmosphère hyperbares."
+    },
+    {
+      "question": "Quel appareil ne doit pas être introduit sans validation de sa compatibilité hyperbare ?",
+      "options": ["Un défibrillateur automatisé externe standard", "Un moniteur hyperbare homologué", "Un ventilateur hyperbare validé", "Un pousse-seringue compatible"],
+      "correct": [0],
+      "explanation": "Un appareil électrique standard peut présenter un risque et ne doit pas remplacer un équipement hyperbare validé."
+    },
+    {
+      "question": "La pression d'une poche à pression augmente pendant la compression et diminue pendant la décompression.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les variations de pression modifient le comportement du gaz contenu dans la poche à pression."
+    },
+    {
+      "question": "Comment préparer le ballonnet d'une sonde d'intubation ou de trachéotomie avant l'OHB ?",
+      "options": ["Remplacer l'air par le même volume d'eau stérile et vérifier l'étanchéité", "Le gonfler au maximum avec de l'air", "Le laisser ouvert", "Le remplir de produit gras"],
+      "correct": [0],
+      "explanation": "Le remplacement de l'air évite les variations de volume du ballonnet sous l'effet de la pression."
+    },
+    {
+      "question": "Que faut-il faire d'un cathéter ou d'une lumière non utilisée avant la compression ?",
+      "options": ["La clamper", "La laisser ouverte à l'air", "La remplir d'huile", "La sectionner"],
+      "correct": [0],
+      "explanation": "Le clampage évite l'entrée ou la sortie incontrôlée de gaz ou de liquide."
+    },
+    {
+      "question": "Comment gérer un drain ou un Redon avant l'entrée dans la chambre ?",
+      "options": ["Utiliser un modèle compatible, le mettre en aspiration et le clamper avant la compression", "Le laisser ouvert sans contrôle", "Le remplir d'air", "Le retirer systématiquement sans avis"],
+      "correct": [0],
+      "explanation": "Le dispositif doit être validé pour le milieu hyperbare et sécurisé avant les variations de pression."
+    },
+    {
+      "question": "Un drain peut rester librement ouvert pendant la compression dès lors qu'il se trouve sous le pansement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Les drains doivent être compatibles, mis en aspiration et clampés avant la compression."
+    },
+    {
+      "question": "Quels risques professionnels concernent le personnel exposé au milieu hyperbare ?",
+      "options": ["Accident de décompression", "Fatigue liée aux expositions", "Effets de la profondeur comme la narcose", "Absence totale de contrainte après la séance"],
+      "correct": [0, 1, 2],
+      "explanation": "Le personnel est soumis aux mêmes contraintes physiques de pression et doit respecter les règles de récupération et de surveillance."
+    }
+  ]
+}

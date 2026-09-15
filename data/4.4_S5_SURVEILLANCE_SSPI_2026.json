@@ -1,0 +1,216 @@
+{
+  "title": "UE 4.4 S5 - Surveillance périopératoire et SSPI",
+  "subtitle": "Monitorage, curarisation, réveil, score d'Aldrete et rôle infirmier",
+  "questions": [
+    {
+      "question": "Quels paramètres font partie du monitorage périopératoire habituel ?",
+      "options": ["Électrocardiogramme", "Pression artérielle", "SpO₂", "PETCO₂ chez le patient intubé"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le monitorage associe surveillance cardiovasculaire, oxygénation et ventilation selon la technique utilisée."
+    },
+    {
+      "question": "La PETCO₂ doit être surveillée chez un patient intubé et ventilé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La capnographie renseigne sur la ventilation du patient intubé."
+    },
+    {
+      "question": "Quels monitorages peuvent compléter la surveillance standard en fonction du patient et de l'intervention ?",
+      "options": ["BIS ou entropie", "NIRS cérébrale", "ANI", "Débit cardiaque"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le monitorage est personnalisé selon l'anesthésie, la chirurgie et le terrain."
+    },
+    {
+      "question": "Quel paramètre le BIS ou l'entropie aide-t-il à apprécier ?",
+      "options": ["La profondeur de l'hypnose", "La glycémie", "La diurèse", "Le groupe sanguin"],
+      "correct": [0],
+      "explanation": "Le BIS ou l'entropie contribue à estimer la profondeur de l'anesthésie."
+    },
+    {
+      "question": "À quoi sert la NIRS cérébrale ?",
+      "options": ["À surveiller l'oxygénation cérébrale", "À mesurer la curarisation", "À calculer la glycémie", "À évaluer la diurèse"],
+      "correct": [0],
+      "explanation": "La NIRS fournit une estimation régionale de l'oxygénation cérébrale."
+    },
+    {
+      "question": "Quel monitorage peut contribuer à l'évaluation de la nociception et du stress opératoire ?",
+      "options": ["ANI associé aux variations hémodynamiques", "Mesure isolée de la taille", "Radiographie du bassin", "Bandelette urinaire"],
+      "correct": [0],
+      "explanation": "L'ANI et les variations de fréquence cardiaque ou de pression artérielle contribuent à apprécier la réponse au stimulus nociceptif."
+    },
+    {
+      "question": "La température corporelle ne nécessite aucune surveillance pendant une anesthésie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La température fait partie des paramètres à surveiller et des moyens de réchauffement peuvent être nécessaires."
+    },
+    {
+      "question": "Pourquoi des moyens de réchauffement peuvent-ils être utilisés au bloc opératoire ?",
+      "options": ["Pour prévenir ou corriger l'hypothermie", "Pour provoquer une fièvre", "Pour remplacer la surveillance de la température", "Pour augmenter la curarisation"],
+      "correct": [0],
+      "explanation": "Le maintien de la température participe à la sécurité périopératoire."
+    },
+    {
+      "question": "Quel est l'objectif du train de quatre ou TOF ?",
+      "options": ["Évaluer le degré de bloc neuromusculaire", "Mesurer la douleur", "Déterminer le groupe sanguin", "Évaluer la fonction rénale"],
+      "correct": [0],
+      "explanation": "Le TOF guide l'administration et l'antagonisation des curares."
+    },
+    {
+      "question": "Quels sites de monitorage du TOF sont associés aux différentes étapes de l'anesthésie ?",
+      "options": ["Orbicularis de l'œil avant l'intubation", "Adducteur du pouce avant l'extubation", "Mollet uniquement pour la glycémie", "Pupille pour mesurer la pression artérielle"],
+      "correct": [0, 1],
+      "explanation": "Le site facial aide à apprécier les conditions d'intubation et l'adducteur du pouce la récupération avant extubation."
+    },
+    {
+      "question": "Le TOF peut être utilisé à l'induction, pendant l'intervention et avant l'extubation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La curarisation doit être évaluée aux différentes étapes où une décision thérapeutique en dépend."
+    },
+    {
+      "question": "De quoi dépend la personnalisation du monitorage périopératoire ?",
+      "options": ["Du type d'anesthésie", "De la chirurgie", "Du terrain du patient", "D'un choix esthétique sans rapport avec le risque"],
+      "correct": [0, 1, 2],
+      "explanation": "Le monitorage est adapté à la technique anesthésique, au geste et aux risques individuels."
+    },
+    {
+      "question": "Le passage en salle de surveillance postinterventionnelle est obligatoire après une anesthésie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La SSPI permet de détecter et traiter les effets résiduels ou les complications précoces."
+    },
+    {
+      "question": "Quels sont les objectifs de la surveillance en SSPI ?",
+      "options": ["Détecter les effets résiduels de l'anesthésie", "Surveiller les complications de la chirurgie", "Restaurer les fonctions vitales", "Évaluer la douleur et le saignement"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La SSPI assure une surveillance globale jusqu'à une récupération suffisante."
+    },
+    {
+      "question": "La durée de séjour en SSPI est identique pour tous les patients, quel que soit leur état clinique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La surveillance se poursuit jusqu'à récupération respiratoire, circulatoire et neurologique suffisante."
+    },
+    {
+      "question": "L'IDE décide seul de la sortie de SSPI sans intervention médicale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La sortie est autorisée par le médecin anesthésiste-réanimateur."
+    },
+    {
+      "question": "Quels éléments relèvent de la surveillance clinique en SSPI ?",
+      "options": ["Fonctions respiratoire, circulatoire et neurologique", "État cutané et température", "Saignement et douleur", "Élimination rénale et glycémie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La surveillance clinique recherche une complication anesthésique, chirurgicale ou liée au terrain."
+    },
+    {
+      "question": "Quels paramètres paracliniques peuvent être surveillés en SSPI ?",
+      "options": ["ECG", "Pression artérielle", "SpO₂ et fréquence respiratoire", "Capnographie si le patient est intubé ou ventilé"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le monitorage paraclinique complète l'observation clinique et dépend de la situation du patient."
+    },
+    {
+      "question": "Quels éléments déterminent l'intensité de la surveillance en SSPI ?",
+      "options": ["Type d'anesthésie, chirurgie et terrain", "Uniquement l'âge du bâtiment", "Uniquement l'heure de la journée", "La préférence du visiteur"],
+      "correct": [0],
+      "explanation": "La surveillance est individualisée selon les risques anesthésiques, chirurgicaux et propres au patient."
+    },
+    {
+      "question": "Quelles dimensions sont évaluées par le score d'Aldrete modifié ?",
+      "options": ["Activité motrice", "Respiration", "Activité circulatoire", "Conscience et SpO₂"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces cinq dimensions apprécient la récupération après l'anesthésie."
+    },
+    {
+      "question": "Quel score d'activité motrice reçoit un patient qui mobilise ses quatre membres ?",
+      "options": ["2", "1", "0", "5"],
+      "correct": [0],
+      "explanation": "La mobilisation des quatre membres donne deux points dans le score d'Aldrete."
+    },
+    {
+      "question": "Quel score respiratoire reçoit un patient sans activité respiratoire spontanée ?",
+      "options": ["0", "1", "2", "3"],
+      "correct": [0],
+      "explanation": "L'absence de respiration spontanée correspond à zéro point et impose une prise en charge immédiate."
+    },
+    {
+      "question": "Quel score circulatoire reçoit un patient dont la pression artérielle systolique reste dans une variation de ±20 % de sa valeur préopératoire ?",
+      "options": ["2", "1", "0", "5"],
+      "correct": [0],
+      "explanation": "Une variation ne dépassant pas 20 % de la valeur préopératoire donne deux points."
+    },
+    {
+      "question": "Quel score de conscience reçoit un patient complètement réveillé ?",
+      "options": ["2", "1", "0", "4"],
+      "correct": [0],
+      "explanation": "Un patient complètement réveillé obtient deux points pour la conscience."
+    },
+    {
+      "question": "Quel score de SpO₂ reçoit un patient dont la saturation est supérieure à 92 % à l'air ambiant ?",
+      "options": ["2", "1", "0", "5"],
+      "correct": [0],
+      "explanation": "Une SpO₂ supérieure à 92 % sans oxygène supplémentaire donne deux points."
+    },
+    {
+      "question": "Un score d'Aldrete modifié supérieur ou égal à 9 constitue un indicateur autorisant la sortie de SSPI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le seuil retenu pour autoriser la sortie est un score d'au moins neuf, associé à la décision médicale."
+    },
+    {
+      "question": "Quelles conditions permettent à un IDE de SSPI de réaliser une extubation ?",
+      "options": ["Formation spécifique, adaptée et tracée", "Critères d'extubation définis médicalement", "Prescription médicale spécifique et protocole local écrit", "Médecin anesthésiste-réanimateur pouvant intervenir sans délai"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'ensemble de ces conditions doit être réuni pour sécuriser l'extubation réalisée par l'IDE."
+    },
+    {
+      "question": "L'extubation réalisée par un IDE en SSPI relève de son rôle propre et d'une décision autonome.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'extubation ne relève ni du rôle propre ni d'une décision autonome de l'IDE."
+    },
+    {
+      "question": "Qui définit les critères cliniques permettant l'extubation en SSPI ?",
+      "options": ["Le médecin", "L'IDE seul après observation", "Le patient sans évaluation", "Le personnel administratif"],
+      "correct": [0],
+      "explanation": "Les critères d'extubation sont définis médicalement."
+    },
+    {
+      "question": "Dans quel cadre l'IDE peut-il réaliser l'extubation en SSPI ?",
+      "options": ["Une prescription médicale spécifique et un protocole local écrit et tracé", "Une habitude orale non formalisée", "Une décision prise sans médecin disponible", "Une demande du patient seule"],
+      "correct": [0],
+      "explanation": "La prescription et le protocole formalisent les conditions de réalisation et de sécurité."
+    },
+    {
+      "question": "Un médecin anesthésiste-réanimateur doit pouvoir intervenir sans délai lorsqu'une extubation est réalisée par un IDE en SSPI.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La disponibilité immédiate du médecin fait partie des conditions requises."
+    },
+    {
+      "question": "Sous quelle responsabilité demeure l'extubation effectuée par un IDE en SSPI ?",
+      "options": ["La responsabilité médicale du médecin anesthésiste-réanimateur", "La responsabilité exclusive du patient", "La responsabilité administrative du secrétariat", "Aucune responsabilité identifiée"],
+      "correct": [0],
+      "explanation": "Même réalisée par un IDE formé, l'extubation demeure sous responsabilité médicale."
+    },
+    {
+      "question": "Quels moyens doivent rester disponibles pour poursuivre une surveillance sécurisée après le retour en service ?",
+      "options": ["Chariot d'urgence", "Ballon autoremplisseur avec valve unidirectionnelle", "Défibrillateur", "Personnel formé aux urgences"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le service doit pouvoir reconnaître et prendre en charge rapidement une complication postanesthésique."
+    },
+    {
+      "question": "Après la sortie de SSPI, toute surveillance respiratoire, circulatoire et neurologique peut être définitivement interrompue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La surveillance adaptée doit se poursuivre dans le service d'accueil."
+    },
+    {
+      "question": "Quel est le rôle principal de la transmission entre la SSPI et le service d'accueil ?",
+      "options": ["Assurer la continuité de la surveillance et des soins", "Supprimer les prescriptions postopératoires", "Éviter toute information sur l'anesthésie", "Remplacer l'évaluation clinique"],
+      "correct": [0],
+      "explanation": "Une transmission complète permet de poursuivre la surveillance des risques et les soins prescrits."
+    }
+  ]
+}
