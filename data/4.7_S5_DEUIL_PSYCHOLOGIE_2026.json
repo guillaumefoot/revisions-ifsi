@@ -1,0 +1,306 @@
+{
+  "title": "UE 4.7 S5 - Deuil et psychologie du patient",
+  "subtitle": "Maladie grave, étapes du deuil, ambivalence, détresse et crise du mourir",
+  "questions": [
+    {
+      "question": "Qu'est-ce que le deuil ?",
+      "options": ["Un processus psychologique naturel après une perte", "Une pathologie systématique", "Une absence totale d'émotion", "Un refus volontaire de vivre"],
+      "correct": [0],
+      "explanation": "Ce cheminement émotionnel permet une adaptation progressive à l'absence."
+    },
+    {
+      "question": "Le travail de deuil est un processus entièrement passif qui n'entraîne aucune réorganisation émotionnelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il s'agit d'un processus actif de réorganisation émotionnelle et relationnelle."
+    },
+    {
+      "question": "Quand un deuil peut-il devenir pathologique ?",
+      "options": ["Lorsque la souffrance devient chronique et envahissante", "Lorsqu'il empêche toute reprise sociale ou affective", "Lorsqu'une tristesse ponctuelle apparaît", "Lorsqu'il existe un déni prolongé ou des conduites à risque"],
+      "correct": [0, 1, 3],
+      "explanation": "Une dépression sévère ou l'impossibilité durable de reprendre sa vie peuvent signaler une complication."
+    },
+    {
+      "question": "Les rites et pratiques culturelles ne jouent aucun rôle dans le processus de deuil.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Ils peuvent aider les personnes et les communautés à donner un sens à la perte."
+    },
+    {
+      "question": "Que désigne le « deuil de soi » dans une maladie grave ?",
+      "options": ["La confrontation à la perte imminente de sa vie ou à une transformation irréversible", "L'oubli immédiat de la maladie", "La guérison psychique complète", "Le deuil d'un inconnu"],
+      "correct": [0],
+      "explanation": "Il peut concerner le corps, l'identité, les projets, le rôle social et l'autonomie."
+    },
+    {
+      "question": "Quelles pertes peuvent être vécues par le patient atteint d'une maladie grave ?",
+      "options": ["Avenir et projets", "Corps intact", "Rôle social ou familial", "Autonomie", "Image de soi"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces pertes peuvent constituer un deuil intrapsychique ou existentiel."
+    },
+    {
+      "question": "Les étapes décrites par Kübler-Ross se déroulent toujours dans un ordre fixe.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elles forment une cartographie de réactions fréquentes, mais le cheminement est fluctuant et non linéaire."
+    },
+    {
+      "question": "Comment se manifeste le déni ou la dénégation ?",
+      "options": ["Incapacité temporaire à intégrer une information traumatisante", "Acceptation complète et immédiate", "Sérénité durable", "Absence obligatoire de tout projet"],
+      "correct": [0],
+      "explanation": "La personne peut dire que ce n'est pas possible ou continuer à faire des projets."
+    },
+    {
+      "question": "Le déni est toujours une réaction inadaptée dépourvue de toute fonction protectrice.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il peut donner du temps psychique pour intégrer progressivement une réalité douloureuse."
+    },
+    {
+      "question": "Quelles manifestations peuvent accompagner le déni ?",
+      "options": ["Refus d'entendre", "Refus de discuter", "Poursuite de projets", "Acceptation définitive", "Suspension mentale"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "Ces réactions ne signifient pas nécessairement une opposition volontaire."
+    },
+    {
+      "question": "Un déni prolongé et rigide peut bloquer les échanges avec les proches.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une approche pluridisciplinaire peut alors devenir nécessaire."
+    },
+    {
+      "question": "Quelle posture soignante adopter face au déni ?",
+      "options": ["Respecter le temps psychique", "Ne pas forcer la vérité trop vite", "Soutenir les moments d'ouverture", "Exiger une acceptation immédiate"],
+      "correct": [0, 1, 2],
+      "explanation": "L'accompagnement est progressif, tactful et respectueux des capacités du patient."
+    },
+    {
+      "question": "La colère peut apparaître lorsque la réalité de la maladie commence à faire surface.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle exprime souvent un sentiment d'injustice après le choc initial."
+    },
+    {
+      "question": "Vers qui la colère peut-elle être dirigée ?",
+      "options": ["Le patient lui-même", "Les soignants", "La famille", "Dieu ou la société", "Personne, par définition"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Elle peut toucher plusieurs cibles et se manifester par des reproches ou de l'irritabilité."
+    },
+    {
+      "question": "La colère d'un patient est toujours dirigée personnellement contre le soignant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le soignant peut devenir le canal d'une révolte dirigée contre la réalité vécue."
+    },
+    {
+      "question": "Quelles fonctions la colère peut-elle remplir ?",
+      "options": ["Mettre des mots sur l'injustice", "Extérioriser une tension", "Éviter temporairement l'effondrement", "Garantir l'acceptation définitive"],
+      "correct": [0, 1, 2],
+      "explanation": "Cette émotion peut protéger temporairement d'une tristesse ou d'une dépression plus profonde."
+    },
+    {
+      "question": "En soins palliatifs, la colère peut être masquée par de l'irritabilité ou du sarcasme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une souffrance et un besoin d'écoute peuvent se trouver derrière ces manifestations."
+    },
+    {
+      "question": "Quelle posture convient face à la colère ?",
+      "options": ["Ne pas se sentir personnellement visé", "Accueillir sans jugement", "Laisser verbaliser", "Offrir un cadre stable", "Répondre sur la défensive"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Il ne faut pas chercher à faire taire trop rapidement une émotion qui a besoin d'être entendue."
+    },
+    {
+      "question": "Que représente le marchandage ?",
+      "options": ["Une tentative symbolique de reprendre du contrôle", "Une acceptation complète", "Une absence d'espoir", "Une pathologie psychiatrique"],
+      "correct": [0],
+      "explanation": "Le patient tente de négocier avec lui-même, le destin, Dieu ou les médecins pour repousser la perte."
+    },
+    {
+      "question": "Quelle phrase évoque un marchandage ?",
+      "options": ["Donnez-moi encore quelques semaines pour voir ma fille se marier", "Je ne ressens absolument rien", "Je ne veux plus aucun lien", "Ma douleur est cotée à quatre"],
+      "correct": [0],
+      "explanation": "Le marchandage s'appuie souvent sur une échéance ou une promesse symbolique."
+    },
+    {
+      "question": "Le marchandage peut prendre une forme religieuse, spirituelle ou morale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il peut aussi être orienté vers un projet futur à terminer."
+    },
+    {
+      "question": "Quelles fonctions psychologiques peut avoir le marchandage ?",
+      "options": ["Atténuer l'angoisse", "Maintenir un espoir", "Imaginer une alternative", "Constituer parfois un pas vers l'acceptation", "Supprimer toute lucidité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Cet espoir fragile protège du désespoir sans effacer nécessairement la réalité."
+    },
+    {
+      "question": "Quelle posture adopter face au marchandage ?",
+      "options": ["Accueillir l'espoir sans le ridiculiser", "Rester présent et factuel", "Respecter les demandes symboliques", "Briser immédiatement tout espoir"],
+      "correct": [0, 1, 2],
+      "explanation": "Le soignant accompagne une réflexion douce sans confrontation brutale."
+    },
+    {
+      "question": "Une phase dépressive ne peut apparaître que chez une personne présentant déjà une maladie psychiatrique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle peut survenir lorsque le patient prend conscience du caractère inévitable de la perte."
+    },
+    {
+      "question": "Quelle phrase évoque une phase dépressive ?",
+      "options": ["À quoi bon continuer ?", "Je vais forcément guérir demain", "Tout ceci est une erreur administrative", "Je veux négocier encore un délai"],
+      "correct": [0],
+      "explanation": "La fatigue, le vide et le retrait relationnel sont également fréquents."
+    },
+    {
+      "question": "Quelle distinction est faite entre dépression réactionnelle et anticipatoire ?",
+      "options": ["La première est liée aux pertes concrètes, la seconde à la conscience de la mort prochaine", "La première est toujours délirante", "La seconde exclut toute tristesse", "Elles sont strictement identiques"],
+      "correct": [0],
+      "explanation": "La dépression anticipatoire concerne notamment la perte de soi, de l'avenir et de l'identité."
+    },
+    {
+      "question": "Quels signes peuvent accompagner cette phase dépressive ?",
+      "options": ["Tristesse profonde", "Repli", "Fatigue psychique et physique", "Questionnements existentiels", "Besoin temporaire de solitude"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le patient peut réduire ses relations et rechercher un espace de silence."
+    },
+    {
+      "question": "Le refus de visites ou de soins non essentiels peut survenir pendant la phase dépressive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le patient peut aussi parler de regrets, de culpabilité ou d'un sentiment d'inutilité."
+    },
+    {
+      "question": "Quelle posture est adaptée face à la tristesse ?",
+      "options": ["Être présent sans vouloir la faire taire", "Respecter le besoin de solitude", "Rester disponible", "Faciliter l'expression", "Remonter le moral à tout prix"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une présence contenante est préférable aux injonctions à aller mieux."
+    },
+    {
+      "question": "L'acceptation équivaut à la résignation ou à l'absence de tristesse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle correspond plutôt à une forme de paix intérieure sans nier la tristesse."
+    },
+    {
+      "question": "Quels signes peuvent évoquer l'acceptation ?",
+      "options": ["Sérénité relative", "Présence au moment actuel", "Besoin de transmettre", "Volonté de faire ses adieux", "Agitation obligatoire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le rythme intérieur peut ralentir et le patient chercher à clôturer certaines choses."
+    },
+    {
+      "question": "Un patient dans l'acceptation peut parler de sa mort de façon apaisée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il peut rechercher la réconciliation, un bilan de vie ou une présence silencieuse."
+    },
+    {
+      "question": "Quelle posture convient lorsque le patient paraît apaisé ?",
+      "options": ["Respecter le calme et le silence", "Être présent avec douceur", "Soutenir les proches", "Interpréter le retrait comme de l'indifférence"],
+      "correct": [0, 1, 2],
+      "explanation": "Ce calme peut traduire une paix intérieure et ne doit pas être confondu avec un abandon."
+    },
+    {
+      "question": "Tous les patients atteignent une phase d'acceptation avant leur décès.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'acceptation peut être partielle ou fluctuante, et certains patients meurent dans la colère, le déni ou la tristesse."
+    },
+    {
+      "question": "Une personne peut revenir à une phase déjà traversée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le cheminement est circulaire, mouvant et influencé par l'ambivalence psychique."
+    },
+    {
+      "question": "Qu'est-ce que l'ambivalence psychique ?",
+      "options": ["La coexistence de sentiments opposés face à une même réalité", "L'absence totale de sentiment", "Une décision toujours stable", "Une simulation volontaire"],
+      "correct": [0],
+      "explanation": "Elle peut sembler incohérente à l'entourage alors qu'elle reflète la complexité du vécu."
+    },
+    {
+      "question": "Quelles situations illustrent l'ambivalence ?",
+      "options": ["Vouloir vivre et mourir", "Aimer ses proches et souhaiter leur éloignement", "Vouloir parler de la mort puis ne plus la supporter", "Être toujours parfaitement constant"],
+      "correct": [0, 1, 2],
+      "explanation": "La personne oscille entre espoir et lucidité, protection et confrontation à la réalité."
+    },
+    {
+      "question": "L'ambivalence est une réaction normale face à une réalité existentielle difficile.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle ne doit pas être réduite à une instabilité volontaire."
+    },
+    {
+      "question": "Comment accompagner l'ambivalence ?",
+      "options": ["Ne pas enfermer le patient dans une phase", "Accueillir les contradictions", "Rester stable et fiable", "Tolérer les sentiments opposés", "Exiger un choix émotionnel définitif"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le rôle du soignant n'est pas de résoudre l'ambivalence mais de l'accueillir sans jugement."
+    },
+    {
+      "question": "La détresse du patient atteint d'une maladie létale se confond toujours avec une dépression psychiatrique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle décrit un vécu adapté à la situation particulière du mourir et échappe à une réduction psychiatrique."
+    },
+    {
+      "question": "L'état de détresse peut traduire l'épuisement du système d'adaptation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il met en évidence la vulnérabilité, l'anxiété et l'intensité des affects."
+    },
+    {
+      "question": "Quelle distinction est proposée entre peur et angoisse ?",
+      "options": ["La peur a un objet défini, l'angoisse alerte d'un danger", "La peur n'a jamais d'objet", "L'angoisse est toujours protectrice sans souffrance", "Les deux sont identiques à la détresse"],
+      "correct": [0],
+      "explanation": "La détresse est décrite comme une expérience extrême de dépendance, distincte de ces deux états."
+    },
+    {
+      "question": "À quoi la détresse extrême peut-elle ressembler ?",
+      "options": ["À l'effroi face à un danger sans préparation", "À une simple inquiétude légère", "À une joie intense", "À une décision rationnelle"],
+      "correct": [0],
+      "explanation": "La souffrance peut devenir indicible et s'exprimer par le silence ou les cris."
+    },
+    {
+      "question": "Quel outil simple peut aider à objectiver la détresse ?",
+      "options": ["Le thermomètre de détresse", "L'échelle de Glasgow", "Le score DN4", "L'échelle de sédation"],
+      "correct": [0],
+      "explanation": "Il s'agit d'un continuum allant de l'absence de détresse à une détresse intense."
+    },
+    {
+      "question": "En cancérologie, la détresse doit être considérée avec autant d'attention que la douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Son repérage fait partie de l'évaluation globale du patient."
+    },
+    {
+      "question": "Qu'est-ce que la crise du mourir ?",
+      "options": ["Une période intense liée à la pleine conscience de la mort prochaine", "Une maladie psychiatrique obligatoire", "Une phase toujours paisible", "Un synonyme de douleur neuropathique"],
+      "correct": [0],
+      "explanation": "Elle constitue un moment de bascule existentielle propre à chaque personne."
+    },
+    {
+      "question": "Quels éléments peuvent déclencher la crise du mourir ?",
+      "options": ["Comprendre que la mort est inéluctable", "Percevoir l'échéance comme proche", "Réaliser que la vie connue se termine", "Ignorer totalement le pronostic"],
+      "correct": [0, 1, 2],
+      "explanation": "La prise de conscience de la finitude et de sa proximité bouleverse les repères."
+    },
+    {
+      "question": "Quelles manifestations peuvent accompagner la crise du mourir ?",
+      "options": ["Angoisse de mort", "Perte de sens", "Flash-back de vie", "Ambivalence", "Questionnement spirituel"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Elle peut également entraîner repli, besoin de liens, prière, doute ou foi renforcée."
+    },
+    {
+      "question": "La crise du mourir est nécessairement une pathologie mentale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. C'est un passage psychique complexe qui peut permettre de redéfinir ce qui reste essentiel."
+    },
+    {
+      "question": "Quel accompagnement favorise le cheminement pendant la crise du mourir ?",
+      "options": ["Une présence adaptée", "Le travail interdisciplinaire", "Le soutien de l'entourage", "La réduction du vécu à un diagnostic", "L'accueil des questions de sens"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "La crise peut comporter détresse, lucidité, bilan et parfois paix ; elle nécessite une approche globale."
+    }
+  ]
+}

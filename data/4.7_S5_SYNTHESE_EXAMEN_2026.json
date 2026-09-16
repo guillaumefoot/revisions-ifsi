@@ -1,0 +1,546 @@
+{
+  "title": "UE 4.7 S5 - Synthèse type examen",
+  "subtitle": "Douleur, antalgiques, sécurité opioïde, soins palliatifs et psychologie du patient",
+  "questions": [
+    {
+      "question": "Toute personne a droit à recevoir des soins visant à soulager sa douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La douleur doit être prévenue, évaluée, prise en compte et traitée en toute circonstance."
+    },
+    {
+      "question": "Quelles actions relèvent du rôle infirmier dans la prise en charge de la douleur ?",
+      "options": ["Participer à la prévention", "Évaluer la douleur", "Administrer les antalgiques prescrits", "Décider seul d'une sédation profonde"],
+      "correct": [0, 1, 2],
+      "explanation": "L'infirmier participe à la prévention, à l'évaluation et au soulagement sur prescription ou protocole."
+    },
+    {
+      "question": "Quel est le rôle principal du CLUD ?",
+      "options": ["Élaborer et promouvoir une politique cohérente de prise en charge de la douleur", "Prescrire individuellement les antalgiques", "Remplacer les équipes de soins", "Assurer uniquement la gestion financière"],
+      "correct": [0],
+      "explanation": "Le CLUD coordonne la politique institutionnelle d'évaluation, de prévention et de traitement."
+    },
+    {
+      "question": "Une fois validé, un protocole de douleur n'a plus besoin d'être réévalué.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il doit être revu au moins une fois par an et revalidé lors d'un changement de signataire."
+    },
+    {
+      "question": "Quels éléments participent à une prise en charge certifiable de la douleur ?",
+      "options": ["Anticipation", "Soulagement rapide", "Traçabilité", "Absence de réévaluation"],
+      "correct": [0, 1, 2],
+      "explanation": "Une échelle adaptée, la réévaluation et la traçabilité sont essentielles."
+    },
+    {
+      "question": "Quelles sont les quatre composantes de la douleur ?",
+      "options": ["Sensori-discriminative", "Affectivo-émotionnelle", "Cognitive", "Comportementale", "Administrative"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La douleur comporte des dimensions sensorielle, émotionnelle, cognitive et comportementale."
+    },
+    {
+      "question": "Une douleur devient chronique dès qu'elle persiste exactement un mois.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La douleur chronique persiste ou se reproduit depuis plus de trois mois."
+    },
+    {
+      "question": "Quels facteurs appartiennent au modèle biopsychosocial de la douleur chronique ?",
+      "options": ["Biologiques", "Psychologiques", "Sociaux", "Uniquement l'imagerie médicale"],
+      "correct": [0, 1, 2],
+      "explanation": "La douleur chronique résulte d'interactions entre ces trois dimensions."
+    },
+    {
+      "question": "Quelle caractéristique correspond à une douleur aiguë ?",
+      "options": ["Durée inférieure à trois mois", "Syndrome durable sans fonction d'alarme", "Étiologie toujours inconnue", "Absence d'utilité biologique"],
+      "correct": [0],
+      "explanation": "La douleur aiguë est généralement un signal d'alarme lié à une lésion identifiable."
+    },
+    {
+      "question": "Une douleur chronique peut constituer une maladie à part entière.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle doit être prise en charge en plus de sa cause éventuelle."
+    },
+    {
+      "question": "Qu'est-ce qu'une douleur rebelle ?",
+      "options": ["Une douleur sans soulagement satisfaisant et durable malgré les traitements habituels", "Une douleur toujours légère", "Une douleur uniquement psychogène", "Une douleur de moins de trois minutes"],
+      "correct": [0],
+      "explanation": "Elle peut s'accompagner d'effets indésirables incontrôlables et d'une qualité de vie inacceptable."
+    },
+    {
+      "question": "Quelles catégories de douleur sont distinguées selon le mécanisme physiopathologique ?",
+      "options": ["Nociceptive", "Neuropathique", "Nociplastique", "Administrative"],
+      "correct": [0, 1, 2],
+      "explanation": "Plusieurs mécanismes peuvent être associés chez une même personne."
+    },
+    {
+      "question": "Une douleur neuropathique est secondaire à une lésion ou une maladie du système somatosensoriel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La lésion peut être périphérique ou centrale."
+    },
+    {
+      "question": "Quels symptômes évoquent une douleur neuropathique ?",
+      "options": ["Brûlures", "Fourmillements", "Allodynie", "Décharges électriques", "Uniquement une douleur pulsatile"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Un fond permanent peut alterner avec des accès fulgurants."
+    },
+    {
+      "question": "Quel score au questionnaire DN4 évoque une douleur neuropathique ?",
+      "options": ["Au moins 4 sur 10", "Au moins 2 sur 5", "Au moins 5 sur 33", "Exactement 10 sur 10"],
+      "correct": [0],
+      "explanation": "Un score supérieur ou égal à quatre soutient le dépistage."
+    },
+    {
+      "question": "L'autoévaluation nécessite la compréhension et la coopération du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une hétéro-évaluation est indiquée lorsque l'expression fiable n'est pas possible."
+    },
+    {
+      "question": "Quels bénéfices apporte une évaluation structurée de la douleur ?",
+      "options": ["Un langage commun", "La traçabilité", "Le suivi de l'efficacité", "La limitation des interprétations personnelles", "La suppression de l'écoute"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les échelles complètent l'écoute et permettent un suivi cohérent."
+    },
+    {
+      "question": "Quels paramètres doivent être précisés lors de l'évaluation ?",
+      "options": ["La douleur évaluée", "La localisation", "L'intensité au repos", "L'intensité à l'effort", "Le score d'un autre patient"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'évaluation est individualisée, répétée et tracée."
+    },
+    {
+      "question": "Quelle échelle dépiste rapidement une douleur aiguë chez une personne âgée non communicante ?",
+      "options": ["Algoplus", "DN4", "EVA", "Questionnaire Saint-Antoine"],
+      "correct": [0],
+      "explanation": "Algoplus comporte cinq domaines d'observation et un seuil de deux sur cinq."
+    },
+    {
+      "question": "Quel score Doloplus 2 indique une douleur ?",
+      "options": ["Au moins 5 sur 33", "Au moins 2 sur 5", "Au moins 4 sur 10", "Exactement 32 sur 32"],
+      "correct": [0],
+      "explanation": "Doloplus 2 comporte dix items répartis en trois sous-groupes."
+    },
+    {
+      "question": "Chez l'adulte, quelle dose orale maximale quotidienne de paracétamol est indiquée ?",
+      "options": ["4 g par 24 heures", "400 mg", "10 g", "1 g par semaine"],
+      "correct": [0],
+      "explanation": "La dose maximale par prise indiquée est de 1 g."
+    },
+    {
+      "question": "Quels profils appellent une prudence particulière avec le paracétamol ?",
+      "options": ["Personne de plus de 75 ans", "Poids inférieur à 50 kg", "Dénutrition ou déshydratation", "Insuffisance hépatocellulaire", "Adulte sans fragilité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'âge, le faible poids et certaines insuffisances d'organe renforcent la vigilance."
+    },
+    {
+      "question": "Le néfopam est un opioïde fort de palier III.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le néfopam est un analgésique central non morphinique."
+    },
+    {
+      "question": "Quelles situations contre-indiquent le néfopam ?",
+      "options": ["Épilepsie", "Glaucome à angle fermé", "Rétention aiguë d'urine", "Enfant de moins de 15 ans", "Douleur postopératoire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La douleur postopératoire fait partie de ses indications symptomatiques."
+    },
+    {
+      "question": "Les AINS stimulent la synthèse périphérique des prostaglandines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Ils inhibent la synthèse périphérique des prostaglandines."
+    },
+    {
+      "question": "À quoi sert l'échelle ORT ?",
+      "options": ["Repérer avant prescription le risque de trouble de l'usage d'un opioïde", "Évaluer la constipation", "Mesurer la douleur aiguë", "Calculer une équianalgésie"],
+      "correct": [0],
+      "explanation": "L'Opioid Risk Tool est utilisé chez l'adulte avant la prescription."
+    },
+    {
+      "question": "À quoi sert l'échelle POMI ?",
+      "options": ["Rechercher un trouble de l'usage lors du renouvellement d'un opioïde", "Choisir une voie veineuse", "Évaluer la sédation", "Dépister une douleur neuropathique"],
+      "correct": [0],
+      "explanation": "Elle aide à repérer un mésusage au cours du suivi."
+    },
+    {
+      "question": "Le tramadol associe une faible action opioïdergique et une action sur la sérotonine et la noradrénaline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Son mécanisme central est complexe."
+    },
+    {
+      "question": "Quelles situations sont citées parmi les contre-indications du tramadol ?",
+      "options": ["Épilepsie non contrôlée", "Insuffisance respiratoire sévère", "Insuffisance hépatocellulaire", "Hypersensibilité", "Douleur modérée"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le risque de convulsions et de dépression respiratoire impose une vigilance particulière."
+    },
+    {
+      "question": "Quels effets indésirables sont associés à la codéine ?",
+      "options": ["Constipation", "Somnolence", "Nausées et vomissements", "Dépression respiratoire", "Bronchospasme"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La prévention de la constipation est particulièrement importante."
+    },
+    {
+      "question": "Quels signes constituent la triade d'une surdose d'opioïdes ?",
+      "options": ["Perte de conscience ou coma", "Détresse respiratoire", "Myosis", "Hypervigilance"],
+      "correct": [0, 1, 2],
+      "explanation": "Cette triade impose une prise en charge urgente."
+    },
+    {
+      "question": "Devant une suspicion de surdose d'opioïdes, quels numéros d'urgence sont indiqués ?",
+      "options": ["15 ou 112", "18 uniquement", "116 117 uniquement", "Aucun si le patient respire lentement"],
+      "correct": [0],
+      "explanation": "Il faut alerter immédiatement les secours et surveiller la personne."
+    },
+    {
+      "question": "Quelles situations peuvent conduire à utiliser un opioïde fort de palier III ?",
+      "options": ["Échec des antalgiques précédents", "Douleur intense", "Douleur rebelle", "Absence totale d'évaluation"],
+      "correct": [0, 1, 2],
+      "explanation": "La posologie doit être réévaluée et les effets indésirables prévenus."
+    },
+    {
+      "question": "Chez une personne âgée, l'initiation d'un opioïde fort doit être plus prudente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une faible dose initiale et une surveillance renforcée sont adaptées."
+    },
+    {
+      "question": "Quelle équivalence orale est indiquée entre morphine et oxycodone ?",
+      "options": ["10 mg de morphine pour 5 mg d'oxycodone", "10 mg de morphine pour 50 mg d'oxycodone", "1 mg pour 100 mg", "Toujours milligramme pour milligramme"],
+      "correct": [0],
+      "explanation": "Toute rotation exige ensuite une réévaluation clinique."
+    },
+    {
+      "question": "Quelle forme de morphine agit le plus rapidement ?",
+      "options": ["Morphine IV", "Morphine orale LP", "Morphine sous-cutanée", "Morphine orale LI"],
+      "correct": [0],
+      "explanation": "La morphine IV agit en cinq à dix minutes."
+    },
+    {
+      "question": "La titration morphinique nécessite des évaluations répétées de l'efficacité et des effets indésirables.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'évaluation guide l'adaptation du traitement."
+    },
+    {
+      "question": "À quelle proportion de la dose quotidienne de morphine LP correspond généralement une interdose ?",
+      "options": ["10 %", "1 %", "50 %", "100 %"],
+      "correct": [0],
+      "explanation": "Cette valeur peut être adaptée à la situation et à la prescription."
+    },
+    {
+      "question": "Chez un patient naïf de morphine avec douleur intense, une forme LI peut servir à la titration avant le traitement de fond.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La dose efficace est recherchée avant l'instauration d'une forme prolongée."
+    },
+    {
+      "question": "Chez l'enfant, quelle posologie initiale de morphine orale est indiquée ?",
+      "options": ["0,2 mg/kg toutes les 4 heures", "2 mg/kg toutes les heures", "20 mg/kg par jour", "0,02 mg par semaine"],
+      "correct": [0],
+      "explanation": "L'augmentation se fait par paliers si l'effet est insuffisant."
+    },
+    {
+      "question": "Comment débute une titration morphinique IV ?",
+      "options": ["Injection IV lente de 2 à 3 mg", "Bolus de 30 mg sans surveillance", "Patch transdermique", "Prise orale de 100 mg"],
+      "correct": [0],
+      "explanation": "La douleur est réévaluée cinq minutes après l'administration."
+    },
+    {
+      "question": "Quels objectifs et surveillances accompagnent la titration IV ?",
+      "options": ["EN inférieure à 3 sur 10", "Fréquence respiratoire supérieure à 10", "Surveillance de la vigilance", "Absence de contrôle de la saturation"],
+      "correct": [0, 1, 2],
+      "explanation": "Une désaturation ou une altération respiratoire impose l'arrêt et la réévaluation."
+    },
+    {
+      "question": "Le premier patch de fentanyl agit immédiatement après sa pose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Son délai d'action est d'environ douze heures."
+    },
+    {
+      "question": "Qu'est-ce qu'une rotation des opioïdes ?",
+      "options": ["Le remplacement d'un opioïde par un autre à dose équianalgésique", "L'arrêt brutal de tout antalgique", "Une alternance aléatoire des doses", "Un changement de chambre"],
+      "correct": [0],
+      "explanation": "Elle peut être motivée par une analgésie insuffisante ou des effets indésirables."
+    },
+    {
+      "question": "Lors du passage d'un opioïde oral LP à un patch, quand poser le premier patch ?",
+      "options": ["Avec la dernière dose orale LP", "Trois jours après", "Avant toute dernière dose", "Quand la douleur a disparu"],
+      "correct": [0],
+      "explanation": "Ce chevauchement tient compte du délai d'action transdermique."
+    },
+    {
+      "question": "Comment déterminer la dose de base d'une PCA en relais ?",
+      "options": ["Convertir la dose totale reçue en 24 heures en équivalent parentéral", "Choisir au hasard", "Utiliser seulement le poids", "Supprimer toute dose de fond"],
+      "correct": [0],
+      "explanation": "La consommation des dernières 24 heures sert de base au calcul."
+    },
+    {
+      "question": "Quels accès douloureux paroxystiques sont prévisibles ?",
+      "options": ["Déclenchés par la marche", "Provoqués par un soin", "Déclenchés par la défécation", "Sans facteur déclenchant"],
+      "correct": [0, 1, 2],
+      "explanation": "Les accès sans facteur déclenchant sont imprévisibles."
+    },
+    {
+      "question": "Quelle surveillance infirmière est requise sous opioïdes ?",
+      "options": ["Intensité douloureuse", "Sédation", "Respiration", "Effets indésirables", "Traçabilité"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La surveillance est régulière et adaptée à la situation."
+    },
+    {
+      "question": "À quoi correspond le niveau respiratoire R2 ?",
+      "options": ["Respiration irrégulière, obstruction ou fréquence inférieure à 10", "Respiration régulière au-dessus de 10", "Ronflements avec fréquence supérieure à 10", "Pauses ou apnée"],
+      "correct": [0],
+      "explanation": "R3 correspond aux pauses respiratoires ou à l'apnée."
+    },
+    {
+      "question": "Une fréquence respiratoire inférieure à 8 par minute justifie l'arrêt de l'opioïde et la naloxone selon protocole.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La stimulation, la surveillance accrue et parfois un transfert sont également nécessaires."
+    },
+    {
+      "question": "Comment définir les soins palliatifs ?",
+      "options": ["Des soins actifs et continus", "Une prise en charge interdisciplinaire", "Des soins possibles en institution ou à domicile", "Uniquement les dernières heures"],
+      "correct": [0, 1, 2],
+      "explanation": "Ils peuvent commencer bien avant les derniers jours de vie."
+    },
+    {
+      "question": "Quels objectifs appartiennent aux soins palliatifs ?",
+      "options": ["Soulager la douleur", "Apaiser la souffrance psychique", "Sauvegarder la dignité", "Soutenir l'entourage", "Prolonger tout traitement sans discussion"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ils visent la qualité de vie du patient et de ses proches."
+    },
+    {
+      "question": "La prise en charge palliative comporte des dimensions médicale, psychologique, sociale, spirituelle et logistique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle répond globalement aux besoins de la personne."
+    },
+    {
+      "question": "Les soins palliatifs sont synonymes de fin de vie imminente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Ils peuvent débuter plusieurs mois ou années avant la mort."
+    },
+    {
+      "question": "Quelle différence distingue les soins palliatifs de la fin de vie ?",
+      "options": ["Les premiers peuvent durer longtemps, la seconde correspond à une phase terminale", "Les premiers excluent le confort", "La fin de vie est réversible", "Les premiers concernent seulement l'hôpital"],
+      "correct": [0],
+      "explanation": "La démarche palliative accompagne une maladie grave sur une durée variable."
+    },
+    {
+      "question": "Un patient peut sortir d'une prise en charge palliative si son état se stabilise.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La démarche palliative n'est pas nécessairement irréversible."
+    },
+    {
+      "question": "Que désigne le « care » ?",
+      "options": ["L'alliance des soins techniques et relationnels", "La seule exécution des actes", "L'absence de relation", "Une discipline réservée au psychologue"],
+      "correct": [0],
+      "explanation": "Le prendre soin associe compétence technique et attention à la personne."
+    },
+    {
+      "question": "L'accompagnement se limite à une compétence technique professionnelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il correspond aussi à un état d'ouverture à l'autre."
+    },
+    {
+      "question": "Quel risque doit éviter la personne qui accompagne ?",
+      "options": ["Projeter ses propres valeurs sur le patient", "Écouter les préférences", "Respecter le silence", "Travailler en équipe"],
+      "correct": [0],
+      "explanation": "L'accompagnement reste centré sur le patient et son rythme."
+    },
+    {
+      "question": "Accompagner signifie guider le patient vers les choix du soignant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il s'agit d'accueillir son cheminement sans le diriger."
+    },
+    {
+      "question": "Quelles manifestations doivent pouvoir être accueillies ?",
+      "options": ["Colères", "Dénis", "Silences", "Joies", "Sérénité"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L'accompagnement n'impose pas un état émotionnel attendu."
+    },
+    {
+      "question": "Quelles grandes catégories de besoins doivent être explorées ?",
+      "options": ["Physiques", "Sociaux et relationnels", "Spirituels et existentiels", "Psychologiques et émotionnels", "Liés à l'accompagnement"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les besoins palliatifs sont multidimensionnels."
+    },
+    {
+      "question": "Quels éléments relèvent des besoins physiques ?",
+      "options": ["Soulagement de la douleur", "Contrôle de la dyspnée", "Confort corporel", "Maintien de l'autonomie", "Règlement d'une succession"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les démarches administratives relèvent plutôt de la dimension sociale."
+    },
+    {
+      "question": "Quels éléments relèvent des besoins sociaux et relationnels ?",
+      "options": ["Maintenir le lien", "Préserver l'image de soi", "Éviter l'isolement", "Régler des affaires personnelles", "Mesurer la respiration"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ils concernent les liens et les démarches importantes pour la personne."
+    },
+    {
+      "question": "Les besoins spirituels sont nécessairement religieux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Ils peuvent concerner le sens, les valeurs et les convictions philosophiques."
+    },
+    {
+      "question": "Quels besoins psychologiques peuvent être présents ?",
+      "options": ["Être entendu dans ses peurs", "Exprimer ses émotions", "Être rassuré face à l'incertitude", "Être reconnu dans son vécu", "Être obligé de parler"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le silence et la temporalité doivent également être respectés."
+    },
+    {
+      "question": "Que signifie rassurer par le non-abandon ?",
+      "options": ["Assurer une présence de l'équipe et des proches", "Promettre une guérison", "Éviter tout contact", "Décider sans le patient"],
+      "correct": [0],
+      "explanation": "Le patient doit se sentir protégé et reconnu comme une personne."
+    },
+    {
+      "question": "Que sont les mécanismes de défense ?",
+      "options": ["Des processus mentaux automatiques et inconscients", "Des décisions toujours volontaires", "Des preuves de mauvaise foi", "Des prescriptions"],
+      "correct": [0],
+      "explanation": "Ils protègent le sujet face à la souffrance et aux conflits intrapsychiques."
+    },
+    {
+      "question": "Pourquoi l'étiquette de « déni » doit-elle être utilisée avec prudence ?",
+      "options": ["Elle peut devenir pathologisante", "Elle peut remettre en cause les capacités de choix", "Elle résume toujours la situation", "Elle peut masquer une temporalité différente"],
+      "correct": [0, 1, 3],
+      "explanation": "Il faut explorer la fonction protectrice de l'attitude du patient."
+    },
+    {
+      "question": "Quelle posture adopter face à une protection psychique ?",
+      "options": ["Accueillir ce que le patient exprime", "Respecter son rythme", "Maintenir un cadre stable", "Solliciter un spécialiste si nécessaire", "Imposer immédiatement la réalité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La sécurité relationnelle soutient le patient sans forcer son cheminement."
+    },
+    {
+      "question": "Qu'est-ce que le deuil ?",
+      "options": ["Un processus psychologique naturel après une perte", "Une pathologie systématique", "Une absence d'émotion", "Un refus volontaire de vivre"],
+      "correct": [0],
+      "explanation": "Ce cheminement permet une adaptation progressive à l'absence."
+    },
+    {
+      "question": "Le travail de deuil est un processus actif de réorganisation émotionnelle et relationnelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La personne traverse différentes réactions pour réinvestir sa vie."
+    },
+    {
+      "question": "Quand un deuil peut-il devenir pathologique ?",
+      "options": ["Souffrance chronique et envahissante", "Impossibilité de reprendre une vie sociale", "Tristesse ponctuelle", "Déni prolongé ou conduites à risque"],
+      "correct": [0, 1, 3],
+      "explanation": "Une souffrance durable qui empêche toute reprise peut signaler une complication."
+    },
+    {
+      "question": "Les rites et pratiques culturelles peuvent aider à donner un sens à la perte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le deuil possède aussi une dimension sociale et symbolique."
+    },
+    {
+      "question": "Que désigne le « deuil de soi » ?",
+      "options": ["La confrontation à la perte de sa vie ou à une transformation irréversible", "L'oubli de la maladie", "La guérison psychique complète", "Le deuil d'un inconnu"],
+      "correct": [0],
+      "explanation": "Il peut concerner le corps, l'identité, les projets et l'autonomie."
+    },
+    {
+      "question": "Les étapes de Kübler-Ross se déroulent toujours dans un ordre fixe.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le cheminement est fluctuant et non linéaire."
+    },
+    {
+      "question": "Comment se manifeste le déni ou la dénégation ?",
+      "options": ["Incapacité temporaire à intégrer une information traumatisante", "Acceptation immédiate", "Sérénité durable", "Absence obligatoire de projet"],
+      "correct": [0],
+      "explanation": "La personne peut refuser d'entendre ou continuer à faire des projets."
+    },
+    {
+      "question": "Le déni peut avoir une fonction adaptative et protectrice.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il donne du temps pour intégrer progressivement une réalité douloureuse."
+    },
+    {
+      "question": "Quelle posture adopter face au déni ?",
+      "options": ["Respecter le temps psychique", "Ne pas forcer la vérité", "Soutenir les moments d'ouverture", "Exiger une acceptation immédiate"],
+      "correct": [0, 1, 2],
+      "explanation": "L'accompagnement est progressif et respectueux."
+    },
+    {
+      "question": "Quelle posture convient face à la colère ?",
+      "options": ["Ne pas se sentir personnellement visé", "Accueillir sans jugement", "Laisser verbaliser", "Offrir un cadre stable", "Répondre sur la défensive"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La colère exprime souvent une révolte contre la réalité vécue."
+    },
+    {
+      "question": "Que représente le marchandage ?",
+      "options": ["Une tentative symbolique de reprendre du contrôle", "Une acceptation complète", "Une absence d'espoir", "Une pathologie psychiatrique"],
+      "correct": [0],
+      "explanation": "Le patient tente de négocier pour repousser la perte."
+    },
+    {
+      "question": "Quelle distinction est faite entre dépression réactionnelle et anticipatoire ?",
+      "options": ["La première est liée aux pertes concrètes, la seconde à la mort prochaine", "La première est toujours délirante", "La seconde exclut la tristesse", "Elles sont identiques"],
+      "correct": [0],
+      "explanation": "La forme anticipatoire concerne notamment la perte de soi et de l'avenir."
+    },
+    {
+      "question": "Quelle posture est adaptée face à la tristesse ?",
+      "options": ["Être présent sans la faire taire", "Respecter le besoin de solitude", "Rester disponible", "Faciliter l'expression", "Remonter le moral à tout prix"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une présence contenante est préférable aux injonctions à aller mieux."
+    },
+    {
+      "question": "L'acceptation équivaut à la résignation ou à l'absence de tristesse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle correspond plutôt à une forme de paix intérieure."
+    },
+    {
+      "question": "Quels signes peuvent évoquer l'acceptation ?",
+      "options": ["Sérénité relative", "Présence au moment actuel", "Besoin de transmettre", "Volonté de faire ses adieux", "Agitation obligatoire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le patient peut chercher à clôturer certaines choses."
+    },
+    {
+      "question": "Tous les patients atteignent une phase d'acceptation avant leur décès.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'acceptation peut être partielle, fluctuante ou ne pas survenir."
+    },
+    {
+      "question": "Qu'est-ce que l'ambivalence psychique ?",
+      "options": ["La coexistence de sentiments opposés", "L'absence de sentiment", "Une décision toujours stable", "Une simulation volontaire"],
+      "correct": [0],
+      "explanation": "Elle reflète la complexité du vécu face à la mort."
+    },
+    {
+      "question": "La détresse liée au mourir se confond toujours avec une dépression psychiatrique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle désigne un vécu spécifique de vulnérabilité et d'épuisement adaptatif."
+    },
+    {
+      "question": "Qu'est-ce que la crise du mourir ?",
+      "options": ["Une période intense liée à la conscience de la mort prochaine", "Une maladie psychiatrique obligatoire", "Une phase toujours paisible", "Une douleur neuropathique"],
+      "correct": [0],
+      "explanation": "Elle constitue un moment de bascule existentielle propre à chaque personne."
+    },
+    {
+      "question": "Quelles manifestations peuvent accompagner la crise du mourir ?",
+      "options": ["Angoisse de mort", "Perte de sens", "Flash-back de vie", "Ambivalence", "Questionnement spirituel"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Elle peut aussi entraîner repli, besoin de liens, prière, doute ou foi renforcée."
+    }
+  ]
+}

@@ -1,0 +1,426 @@
+{
+  "title": "UE 4.7 S5 - Prise en charge et évaluation de la douleur",
+  "subtitle": "Cadre réglementaire, clinique, mécanismes, échelles et particularités gériatriques",
+  "questions": [
+    {
+      "question": "Toute personne a droit à recevoir des soins visant à soulager sa douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La douleur doit être prévenue, évaluée, prise en compte et traitée en toute circonstance."
+    },
+    {
+      "question": "Quelles actions relèvent du rôle infirmier dans la prise en charge de la douleur ?",
+      "options": ["Participer à la prévention", "Évaluer la douleur", "Administrer les antalgiques prescrits", "Décider seul d'une sédation profonde"],
+      "correct": [0, 1, 2],
+      "explanation": "L'infirmier participe à la prévention, à l'évaluation et au soulagement, et administre les traitements sur prescription ou protocole."
+    },
+    {
+      "question": "La prise en charge de la douleur est uniquement une obligation médicale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle concerne l'ensemble des soignants et des établissements de santé."
+    },
+    {
+      "question": "Que doit vérifier l'infirmier avant d'appliquer une prescription antalgique ?",
+      "options": ["Le dosage", "La dose", "La conformité de la prescription", "Le niveau d'études du patient"],
+      "correct": [0, 1, 2],
+      "explanation": "Les soins doivent être consciencieux et inclure la vérification de la prescription, notamment du dosage et de la dose."
+    },
+    {
+      "question": "En l'absence d'un médecin, un protocole de soins d'urgence peut être mis en œuvre s'il est préalablement écrit, daté et signé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette possibilité s'applique après reconnaissance d'une situation d'urgence ou de détresse psychologique."
+    },
+    {
+      "question": "Quel est le rôle principal du CLUD ?",
+      "options": ["Élaborer et promouvoir une politique cohérente de prise en charge de la douleur", "Prescrire individuellement les antalgiques", "Remplacer les équipes de soins", "Assurer uniquement la gestion financière"],
+      "correct": [0],
+      "explanation": "Le CLUD coordonne et promeut la politique institutionnelle d'évaluation, de prévention et de traitement de la douleur."
+    },
+    {
+      "question": "Quelles missions appartiennent au CLUD ?",
+      "options": ["Coordonner les actions", "Favoriser la formation", "Participer à l'évaluation des pratiques", "Délivrer les ordonnances sécurisées"],
+      "correct": [0, 1, 2],
+      "explanation": "Le CLUD coordonne, forme, informe et évalue les pratiques ; il ne délivre pas les prescriptions individuelles."
+    },
+    {
+      "question": "Le CLUD favorise l'accès aux structures spécialisées de douleur et de soins palliatifs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il contribue notamment à orienter vers les équipes mobiles et consultations spécialisées."
+    },
+    {
+      "question": "Quels éléments sont attendus pour un protocole de prise en charge de la douleur ?",
+      "options": ["Élaboration médico-infirmière", "Validation par l'équipe médicale et le pharmacien", "Date et signatures", "Conservation inaccessible au personnel"],
+      "correct": [0, 1, 2],
+      "explanation": "Le protocole doit être élaboré collectivement, validé, daté, signé, diffusé et accessible."
+    },
+    {
+      "question": "Une fois validé, un protocole de douleur n'a plus besoin d'être réévalué.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il doit être revu au moins une fois par an et revalidé lors d'un changement de signataire."
+    },
+    {
+      "question": "À qui un protocole de douleur doit-il être accessible ?",
+      "options": ["Au personnel médical et paramédical concerné", "Uniquement au directeur", "Uniquement au pharmacien", "Seulement aux nouveaux arrivants"],
+      "correct": [0],
+      "explanation": "Le protocole est diffusé aux acteurs concernés et reste accessible en permanence dans le service."
+    },
+    {
+      "question": "Pour satisfaire au critère de certification relatif à la douleur, une évaluation unique à l'admission suffit.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La douleur doit être évaluée régulièrement avec un outil adapté au patient."
+    },
+    {
+      "question": "Quels éléments participent à une prise en charge certifiable de la douleur ?",
+      "options": ["Anticipation", "Soulagement rapide", "Traçabilité", "Absence de réévaluation"],
+      "correct": [0, 1, 2],
+      "explanation": "L'anticipation, les techniques adaptées, la réévaluation et la traçabilité sont essentielles."
+    },
+    {
+      "question": "Le consentement libre et éclairé dispense d'impliquer le patient dans son projet de soins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le patient participe aux objectifs, à la mise en œuvre et au suivi de son projet de soins."
+    },
+    {
+      "question": "La satisfaction et l'expérience du patient ne doivent pas influencer les actions d'amélioration.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Les enquêtes et les recommandations de la Commission des Usagers doivent être prises en compte."
+    },
+    {
+      "question": "Quelle définition décrit le mieux la douleur ?",
+      "options": ["Une expérience sensorielle et émotionnelle désagréable", "Un signe toujours proportionnel à une lésion", "Une donnée uniquement biologique", "Une plainte nécessairement visible"],
+      "correct": [0],
+      "explanation": "La douleur est subjective et peut être associée ou ressembler à celle liée à une lésion réelle ou potentielle."
+    },
+    {
+      "question": "Dire « j'ai mal » et dire « je suis mal » recouvrent exactement la même notion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le premier renvoie à la douleur, tandis que le second évoque plus largement la souffrance."
+    },
+    {
+      "question": "Quelles sont les quatre composantes de la douleur ?",
+      "options": ["Sensori-discriminative", "Affectivo-émotionnelle", "Cognitive", "Comportementale", "Administrative"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La douleur comporte des dimensions sensorielle, émotionnelle, cognitive et comportementale."
+    },
+    {
+      "question": "La localisation, l'intensité et l'évolution temporelle relèvent surtout de quelle composante ?",
+      "options": ["Sensori-discriminative", "Affectivo-émotionnelle", "Administrative", "Spirituelle"],
+      "correct": [0],
+      "explanation": "Cette composante décrit ce que la personne sent physiquement."
+    },
+    {
+      "question": "L'anxiété et la tristesse relèvent exclusivement de la composante sensori-discriminative de la douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elles relèvent de la composante affectivo-émotionnelle."
+    },
+    {
+      "question": "Quels éléments peuvent influencer la composante cognitive de la douleur ?",
+      "options": ["Les expériences passées", "Les déterminants culturels", "La compréhension de la situation", "Le groupe sanguin"],
+      "correct": [0, 1, 2],
+      "explanation": "La composante cognitive regroupe les processus mentaux qui modulent la perception douloureuse."
+    },
+    {
+      "question": "Les plaintes et les gémissements ne font pas partie de la composante comportementale de la douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Ce sont des manifestations observables de la composante comportementale."
+    },
+    {
+      "question": "À partir de quelle durée une douleur persistante ou récurrente est-elle qualifiée de chronique ?",
+      "options": ["Plus de 3 mois", "Plus de 24 heures", "Plus de 7 jours", "Plus de 1 mois exactement"],
+      "correct": [0],
+      "explanation": "La douleur chronique persiste ou se reproduit au-delà de trois mois."
+    },
+    {
+      "question": "Quels facteurs appartiennent au modèle biopsychosocial de la douleur chronique ?",
+      "options": ["Biologiques", "Psychologiques", "Sociaux", "Uniquement l'imagerie médicale"],
+      "correct": [0, 1, 2],
+      "explanation": "La douleur chronique résulte d'interactions biologiques, psychologiques et sociales."
+    },
+    {
+      "question": "Le traitement de la douleur chronique poursuit le plus souvent un objectif curatif complet.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'objectif est surtout réadaptatif : douleur acceptable, fonctions et qualité de vie améliorées."
+    },
+    {
+      "question": "Quelles dimensions peuvent appartenir à un programme multimodal de douleur chronique ?",
+      "options": ["Éducation", "Rééducation", "Traitements psychologiques", "Traitements médicamenteux", "Interventions sociales"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La prise en charge associe plusieurs dimensions adaptées au projet personnalisé."
+    },
+    {
+      "question": "La douleur totale peut associer des souffrances physique, psychologique, sociale et spirituelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette approche considère la souffrance globale de la personne."
+    },
+    {
+      "question": "Quelle caractéristique correspond à une douleur aiguë ?",
+      "options": ["Durée inférieure à trois mois", "Syndrome durable sans fonction d'alarme", "Étiologie toujours inconnue", "Absence d'utilité biologique"],
+      "correct": [0],
+      "explanation": "La douleur aiguë est généralement un signal d'alarme lié à une lésion identifiable."
+    },
+    {
+      "question": "La majorité des douleurs aiguës traumatiques, infectieuses ou inflammatoires sont exclusivement neuropathiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elles sont le plus souvent liées à un excès de nociception."
+    },
+    {
+      "question": "Quels retentissements peuvent accompagner une douleur chronique ?",
+      "options": ["Anxiété", "Troubles du sommeil", "Dépression", "Altération des capacités fonctionnelles", "Amélioration automatique de l'autonomie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La douleur chronique peut affecter le psychisme, les relations et les activités de la vie quotidienne."
+    },
+    {
+      "question": "Une douleur chronique ne peut jamais constituer une maladie à part entière.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle peut devenir une maladie à part entière, à traiter en plus de la cause sous-jacente."
+    },
+    {
+      "question": "Qu'est-ce qu'une douleur rebelle ?",
+      "options": ["Une douleur sans soulagement satisfaisant et durable malgré les traitements habituels", "Une douleur toujours légère", "Une douleur uniquement psychogène", "Une douleur présente moins de trois minutes"],
+      "correct": [0],
+      "explanation": "Elle peut aussi s'accompagner d'une qualité de vie inacceptable ou d'effets indésirables incontrôlables."
+    },
+    {
+      "question": "Une douleur rebelle doit être prise en charge sans collaboration entre professionnels.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle justifie une prise en charge pluriprofessionnelle en lien avec le médecin traitant."
+    },
+    {
+      "question": "En soins palliatifs, une douleur réfractaire peut justifier une sédation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "À la phase terminale, elle peut notamment conduire à envisager une sédation profonde et continue jusqu'au décès."
+    },
+    {
+      "question": "Quelles catégories de douleur sont distinguées selon le mécanisme physiopathologique ?",
+      "options": ["Nociceptive", "Neuropathique", "Nociplastique", "Administrative"],
+      "correct": [0, 1, 2],
+      "explanation": "Les mécanismes peuvent aussi être associés chez une même personne."
+    },
+    {
+      "question": "Une douleur nociceptive résulte d'une stimulation des récepteurs périphériques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle est liée à un excès de nociception, notamment lors d'une inflammation ou d'une destruction tissulaire."
+    },
+    {
+      "question": "Quelles situations peuvent produire une douleur nociceptive ?",
+      "options": ["Compression", "Destruction tissulaire", "Inflammation", "Lésion d'un nerf uniquement"],
+      "correct": [0, 1, 2],
+      "explanation": "Compression, atteinte tissulaire et inflammation peuvent stimuler les nocicepteurs."
+    },
+    {
+      "question": "Une douleur neuropathique est secondaire à une lésion ou une maladie du système somatosensoriel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La lésion peut être périphérique ou centrale."
+    },
+    {
+      "question": "Quelles étiologies peuvent léser le système nerveux périphérique ?",
+      "options": ["Ischémie", "Zona", "Chimiothérapie", "Amputation", "Simple inquiétude sans lésion"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les atteintes ischémiques, virales, chimiques ou mécaniques et l'amputation peuvent être en cause."
+    },
+    {
+      "question": "Quelles atteintes peuvent provoquer une douleur neuropathique centrale ?",
+      "options": ["Atteinte du thalamus", "Accident vasculaire cérébral", "Tumeur", "Abcès", "Entorse isolée"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces lésions peuvent affecter les voies somatosensorielles centrales."
+    },
+    {
+      "question": "Quels symptômes évoquent un fond douloureux neuropathique permanent ?",
+      "options": ["Brûlures", "Fourmillements", "Allodynie", "Uniquement une douleur pulsatile"],
+      "correct": [0, 1, 2],
+      "explanation": "Brûlures, paresthésies et allodynie sont évocatrices d'un mécanisme neuropathique."
+    },
+    {
+      "question": "Les décharges électriques et les coups de poignard peuvent correspondre à des accès neuropathiques paroxystiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les accès peuvent être fulgurants et se superposer à un fond permanent."
+    },
+    {
+      "question": "Une douleur nociplastique nécessite toujours la preuve d'une lésion tissulaire ou nerveuse.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle correspond à une altération de la nociception sans preuve d'une lésion activant les nocicepteurs ni d'une lésion somatosensorielle."
+    },
+    {
+      "question": "Quel score au questionnaire DN4 évoque une douleur neuropathique ?",
+      "options": ["Au moins 4 sur 10", "Au moins 2 sur 5", "Au moins 5 sur 33", "Exactement 10 sur 10"],
+      "correct": [0],
+      "explanation": "Un score DN4 supérieur ou égal à 4 sur 10 soutient le dépistage d'une douleur neuropathique."
+    },
+    {
+      "question": "Pourquoi faut-il croire le patient qui affirme avoir mal ?",
+      "options": ["La douleur est subjective", "L'intensité n'est pas forcément corrélée à la gravité des lésions", "Toute douleur est visible", "L'imagerie mesure toujours la douleur"],
+      "correct": [0, 1],
+      "explanation": "La parole du patient est centrale car la douleur est une expérience subjective."
+    },
+    {
+      "question": "L'évaluation de la douleur est un préalable à toute démarche thérapeutique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle oriente la stratégie puis permet d'en suivre l'efficacité."
+    },
+    {
+      "question": "Quels bénéfices apporte une évaluation structurée de la douleur ?",
+      "options": ["Un langage commun", "La traçabilité", "Le suivi de l'efficacité", "La limitation des interprétations personnelles", "La suppression de l'écoute clinique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les échelles complètent l'écoute et rendent le suivi plus objectif et communicable."
+    },
+    {
+      "question": "L'autoévaluation nécessite la compréhension et la coopération du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Si le patient ne peut pas s'exprimer de façon fiable, une hétéro-évaluation est indiquée."
+    },
+    {
+      "question": "Comment présenter l'échelle numérique de la douleur ?",
+      "options": ["De 0, absence de douleur, à 10, pire douleur imaginable", "De 1 à 5 sans explication", "De 0 à 100 uniquement", "En imposant une réponse à partir des constantes"],
+      "correct": [0],
+      "explanation": "Le patient choisit le nombre qui correspond à l'intensité ressentie."
+    },
+    {
+      "question": "Pour utiliser l'EVA, la réglette est présentée horizontalement du côté sans chiffre.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le curseur est replacé vers le milieu avant que le patient indique son intensité actuelle."
+    },
+    {
+      "question": "Quels paramètres doivent être précisés lors de l'évaluation ?",
+      "options": ["La douleur évaluée", "La localisation", "L'intensité au repos", "L'intensité à l'effort", "Le score d'un autre patient"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'évaluation doit être individualisée et contextualisée."
+    },
+    {
+      "question": "Les scores de douleur peuvent être comparés directement entre deux patients.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il n'y a pas de comparaison interindividuelle pertinente ; on suit l'évolution chez un même patient."
+    },
+    {
+      "question": "Après un traitement antalgique, quelle action est indispensable ?",
+      "options": ["Réévaluer la douleur", "Changer automatiquement d'échelle", "Attendre la sortie du patient", "Comparer avec le voisin de chambre"],
+      "correct": [0],
+      "explanation": "La réévaluation mesure l'efficacité et participe à l'adaptation de la stratégie."
+    },
+    {
+      "question": "Pourquoi utiliser le même outil chez un même patient ?",
+      "options": ["Pour suivre l'évolution de manière cohérente", "Pour éviter toute traçabilité", "Pour imposer un résultat", "Pour remplacer l'examen clinique"],
+      "correct": [0],
+      "explanation": "La continuité de l'outil permet de construire une courbe de scores interprétable."
+    },
+    {
+      "question": "Quels troubles peuvent rendre l'autoévaluation difficile ?",
+      "options": ["Trouble de l'attention", "État confusionnel", "Altération de la mémoire", "Trouble du langage", "Bonne compréhension"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les atteintes cognitives, sensorielles, langagières ou neuropsychiques peuvent limiter la fiabilité des réponses."
+    },
+    {
+      "question": "Une échelle unidimensionnelle explore toutes les composantes de la douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle mesure principalement l'intensité et ne décrit pas toute la complexité de la douleur."
+    },
+    {
+      "question": "L'anxiété ou la dépression peuvent influencer la cotation sur une échelle unidimensionnelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le contexte émotionnel peut majorer la cotation, ce qui justifie une évaluation globale."
+    },
+    {
+      "question": "Que recherchent les questionnaires multidimensionnels ?",
+      "options": ["Les composantes sensorielles", "Les composantes affectives", "Les composantes émotionnelles", "Uniquement la température corporelle"],
+      "correct": [0, 1, 2],
+      "explanation": "Ils complètent la mesure de l'intensité par une description qualitative du vécu douloureux."
+    },
+    {
+      "question": "Le Questionnaire Douleur Saint-Antoine comprend des sous-classes sensorielles et affectives.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il utilise de nombreux qualificatifs et nécessite une bonne connaissance de la langue française."
+    },
+    {
+      "question": "Chez une personne âgée pouvant s'exprimer, quelle autoévaluation est mise en avant ?",
+      "options": ["Échelle verbale simple", "Algoplus obligatoirement", "Doloplus obligatoirement", "ECPA uniquement"],
+      "correct": [0],
+      "explanation": "L'EVS est privilégiée en autoévaluation chez la personne âgée communicante."
+    },
+    {
+      "question": "Toute personne incapable de s'exprimer relève d'une hétéro-évaluation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'observation comportementale devient nécessaire lorsque l'autoévaluation n'est pas possible."
+    },
+    {
+      "question": "Quelle échelle est destinée au dépistage rapide d'une douleur aiguë chez une personne âgée non communicante ?",
+      "options": ["Algoplus", "DN4", "EVA", "Questionnaire Saint-Antoine"],
+      "correct": [0],
+      "explanation": "Algoplus est une échelle comportementale rapide comportant cinq domaines d'observation."
+    },
+    {
+      "question": "Quels domaines sont observés avec Algoplus ?",
+      "options": ["Visage", "Regard", "Plaintes", "Attitudes corporelles", "Comportement général"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La présence d'un comportement dans chaque domaine suffit à coter l'item à un point."
+    },
+    {
+      "question": "Quel score Algoplus indique la présence d'une douleur aiguë ?",
+      "options": ["Au moins 2 sur 5", "Au moins 4 sur 10", "Au moins 5 sur 33", "Plus de 20 sur 32"],
+      "correct": [0],
+      "explanation": "Un score supérieur ou égal à 2 sur 5 évoque une douleur aiguë."
+    },
+    {
+      "question": "L'échelle Doloplus 2 comporte dix items répartis en trois sous-groupes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle associe cinq items somatiques, deux psychomoteurs et trois psychosociaux."
+    },
+    {
+      "question": "Quel score Doloplus 2 indique une douleur ?",
+      "options": ["Au moins 5 sur 33", "Au moins 2 sur 5", "Au moins 4 sur 10", "Exactement 32 sur 32"],
+      "correct": [0],
+      "explanation": "Un score supérieur ou égal à 5 sur 33 indique la présence d'une douleur."
+    },
+    {
+      "question": "L'ECPA comporte huit items cotés de 0 à 4.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Son score total est compris entre 0 et 32."
+    },
+    {
+      "question": "Comment s'effectue l'observation avec l'ECPA ?",
+      "options": ["Avant le soin", "Pendant le soin", "Uniquement après le soin", "Sans observer le patient"],
+      "correct": [0, 1],
+      "explanation": "Le comportement est observé en deux temps, avant puis pendant le soin."
+    },
+    {
+      "question": "L'ECPA possède un score seuil unique qui affirme la présence d'une douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il n'existe pas de seuil ; plus le score est élevé, plus la douleur est importante."
+    },
+    {
+      "question": "Quels comportements peuvent être le seul point d'appel d'une douleur chez une personne âgée ?",
+      "options": ["Agressivité", "Passivité", "Modification du comportement", "Uniquement une plainte verbale précise"],
+      "correct": [0, 1, 2],
+      "explanation": "Les troubles cognitifs ou sensoriels peuvent empêcher une plainte verbale claire."
+    }
+  ]
+}

@@ -1,5 +1,41 @@
 [
   {
+    "file": "data/4.7_S5_SYNTHESE_EXAMEN_2026.json",
+    "code": "UE 4.7",
+    "name": "Synthèse UE 4.7 S5 - Type examen",
+    "subtitle": "S5 - Douleur, antalgiques, sécurité opioïde, soins palliatifs et psychologie du patient",
+    "type": "synthesis",
+    "icon": "🎯"
+  },
+  {
+    "file": "data/4.7_S5_DOULEUR_EVALUATION_2026.json",
+    "code": "UE 4.7",
+    "name": "Prise en charge et évaluation de la douleur",
+    "subtitle": "S5 - Cadre réglementaire, clinique, mécanismes, échelles et particularités gériatriques",
+    "icon": "📏"
+  },
+  {
+    "file": "data/4.7_S5_ANTALGIQUES_OPIOIDES_2026.json",
+    "code": "UE 4.7",
+    "name": "Antalgiques et sécurité opioïde",
+    "subtitle": "S5 - Paliers, titration, surveillance, surdosage, soins douloureux et douleurs neuropathiques",
+    "icon": "💊"
+  },
+  {
+    "file": "data/4.7_S5_BESOINS_SOINS_PALLIATIFS_2026.json",
+    "code": "UE 4.7",
+    "name": "Besoins et accompagnement en soins palliatifs",
+    "subtitle": "S5 - Démarche palliative, besoins globaux, relation d'aide et mécanismes de défense",
+    "icon": "🤲"
+  },
+  {
+    "file": "data/4.7_S5_DEUIL_PSYCHOLOGIE_2026.json",
+    "code": "UE 4.7",
+    "name": "Deuil et psychologie du patient",
+    "subtitle": "S5 - Maladie grave, étapes du deuil, ambivalence, détresse et crise du mourir",
+    "icon": "🕊️"
+  },
+  {
     "file": "data/4.4_S5_SYNTHESE_EXAMEN_2026.json",
     "code": "UE 4.4",
     "name": "Synthèse UE 4.4 S5 - Type examen",

@@ -1,0 +1,276 @@
+{
+  "title": "UE 4.7 S5 - Besoins et accompagnement en soins palliatifs",
+  "subtitle": "Démarche palliative, besoins globaux, relation d'aide et mécanismes de défense",
+  "questions": [
+    {
+      "question": "Comment définir les soins palliatifs ?",
+      "options": ["Des soins actifs et continus", "Une prise en charge interdisciplinaire", "Des soins possibles en institution ou à domicile", "Uniquement des soins des dernières heures"],
+      "correct": [0, 1, 2],
+      "explanation": "Ils peuvent commencer bien avant les derniers jours de vie et s'inscrivent dans une prise en charge globale."
+    },
+    {
+      "question": "Quels objectifs appartiennent aux soins palliatifs ?",
+      "options": ["Soulager la douleur", "Apaiser la souffrance psychique", "Sauvegarder la dignité", "Soutenir l'entourage", "Prolonger tout traitement sans discussion"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les soins palliatifs visent la qualité de vie du patient et le soutien de ses proches."
+    },
+    {
+      "question": "La prise en charge palliative se limite aux besoins médicaux du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle comporte aussi des dimensions psychologique, sociale, spirituelle et logistique."
+    },
+    {
+      "question": "L'accès aux soins palliatifs n'est pas présenté comme un droit des malades.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Leur accès est présenté comme un droit et leur offre fait partie des missions de l'hôpital."
+    },
+    {
+      "question": "Les soins palliatifs sont synonymes de fin de vie imminente.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Ils peuvent débuter plusieurs mois ou années avant la mort lorsqu'une maladie grave ne peut plus être guérie."
+    },
+    {
+      "question": "Quelle différence distingue les soins palliatifs de la fin de vie ?",
+      "options": ["Les soins palliatifs peuvent durer longtemps, tandis que la fin de vie correspond à une phase terminale", "Les soins palliatifs excluent tout soin de confort", "La fin de vie est toujours réversible", "Les soins palliatifs concernent uniquement l'hôpital"],
+      "correct": [0],
+      "explanation": "La démarche palliative accompagne une maladie grave sur une durée variable ; la fin de vie correspond à la proximité du décès."
+    },
+    {
+      "question": "Un patient peut sortir d'une prise en charge palliative si son état se stabilise.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La démarche palliative n'est pas nécessairement une étape irréversible."
+    },
+    {
+      "question": "Le principe d'autonomie soutient le droit du patient à être informé de sa maladie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'information et la participation aux décisions contribuent au respect de la personne."
+    },
+    {
+      "question": "Que désigne le « care » dans la culture palliative ?",
+      "options": ["L'alliance des soins techniques et relationnels", "La seule exécution des actes prescrits", "L'absence de présence relationnelle", "Une discipline réservée au psychologue"],
+      "correct": [0],
+      "explanation": "Le prendre soin associe compétence technique et attention portée à la personne."
+    },
+    {
+      "question": "L'accompagnement se limite à une compétence technique professionnelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il correspond aussi à un état d'ouverture à l'autre et vient compléter le care."
+    },
+    {
+      "question": "Quel risque doit éviter la personne qui accompagne ?",
+      "options": ["Projeter ses propres valeurs sur le patient", "Écouter les préférences", "Respecter le silence", "Travailler en équipe"],
+      "correct": [0],
+      "explanation": "L'accompagnement reste centré sur le patient, ses valeurs et son rythme."
+    },
+    {
+      "question": "Accompagner signifie guider le patient vers les choix du soignant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Accompagner, c'est accueillir ses fluctuations, ses émotions et ses silences sans diriger sa trajectoire."
+    },
+    {
+      "question": "Quelles manifestations doivent pouvoir être accueillies dans l'accompagnement ?",
+      "options": ["Colères", "Dénis", "Silences", "Joies", "Sérénité"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L'accompagnement reconnaît les hauts et les bas du patient sans imposer un état émotionnel attendu."
+    },
+    {
+      "question": "La démarche palliative réduit le patient à sa maladie et à ses symptômes physiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle reconnaît le malade comme un sujet dans toute sa complexité."
+    },
+    {
+      "question": "Pourquoi la dimension interdisciplinaire est-elle nécessaire ?",
+      "options": ["Pour échanger autour de la rencontre avec le patient", "Pour fragmenter les informations", "Pour exclure les proches", "Pour supprimer la relation d'aide"],
+      "correct": [0],
+      "explanation": "La pluralité des regards aide à répondre aux besoins complexes du patient."
+    },
+    {
+      "question": "Quel est le but de l'accompagnement palliatif ?",
+      "options": ["Soutenir la personne pour vivre le temps restant avec le plus de sérénité possible", "Obtenir obligatoirement une guérison", "Faire accepter rapidement la mort", "Éviter toute discussion avec le patient"],
+      "correct": [0],
+      "explanation": "Le soulagement de la douleur participe à cet objectif sans résumer toute la démarche."
+    },
+    {
+      "question": "Quelles grandes catégories de besoins doivent être explorées ?",
+      "options": ["Physiques", "Sociaux et relationnels", "Spirituels et existentiels", "Psychologiques et émotionnels", "Liés à l'accompagnement"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les besoins palliatifs sont multidimensionnels."
+    },
+    {
+      "question": "Quels éléments relèvent des besoins physiques ?",
+      "options": ["Soulagement de la douleur", "Contrôle de la dyspnée", "Confort corporel", "Maintien de l'autonomie quotidienne", "Règlement d'une succession"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les affaires administratives relèvent plutôt de la dimension sociale et relationnelle."
+    },
+    {
+      "question": "Le positionnement et les soins de peau ne participent pas au confort physique en soins palliatifs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Ils font partie des mesures de confort corporel."
+    },
+    {
+      "question": "Quels éléments relèvent des besoins sociaux et relationnels ?",
+      "options": ["Maintenir le lien avec les proches", "Préserver l'image de soi", "Éviter l'isolement", "Régler des affaires personnelles", "Mesurer la fréquence respiratoire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces besoins concernent les liens, l'identité sociale et les démarches importantes pour la personne."
+    },
+    {
+      "question": "Le choix du lieu de soins peut faire partie des besoins liés à l'accompagnement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le patient peut exprimer une préférence entre domicile, EHPAD ou unité de soins palliatifs."
+    },
+    {
+      "question": "Quels besoins relèvent directement de l'accompagnement ?",
+      "options": ["Être entouré par une équipe disponible", "Savoir que les proches sont soutenus", "Participer aux décisions", "Choisir le lieu des soins", "Renoncer à toute autonomie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La participation et le respect des choix soutiennent l'autonomie du patient."
+    },
+    {
+      "question": "Les besoins spirituels sont nécessairement religieux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Ils peuvent concerner le sens, les valeurs, les doutes ou des convictions philosophiques sans dimension religieuse."
+    },
+    {
+      "question": "Quels besoins peuvent être spirituels ou existentiels ?",
+      "options": ["Trouver un sens à ce qui est vécu", "Exprimer ses croyances ou ses doutes", "Se réconcilier avec soi-même ou les autres", "Se préparer à la mort selon ses valeurs", "Recevoir obligatoirement un rite"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La réponse respecte les convictions propres à chaque personne, sans imposer de pratique."
+    },
+    {
+      "question": "Quels besoins psychologiques et émotionnels peuvent être présents ?",
+      "options": ["Être entendu dans ses peurs", "Pouvoir exprimer ses émotions", "Être rassuré face à l'incertitude", "Être reconnu dans son vécu", "Être obligé de parler"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le patient peut souhaiter parler, mais cette expression ne doit jamais devenir une obligation."
+    },
+    {
+      "question": "Tout soignant peut accompagner certains besoins psychologiques dans la relation d'aide.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette présence n'exclut pas le recours à un psychologue ou à un autre intervenant."
+    },
+    {
+      "question": "Le patient doit nécessairement verbaliser toutes ses émotions.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il peut avoir besoin de parler, mais son silence et sa temporalité doivent aussi être respectés."
+    },
+    {
+      "question": "Quels intervenants peuvent proposer un espace confidentiel d'écoute ?",
+      "options": ["Psychologue", "Soignant", "Bénévole", "Aumônier", "Uniquement le médecin prescripteur"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Plusieurs professionnels ou accompagnants peuvent soutenir l'expression selon les souhaits du patient."
+    },
+    {
+      "question": "Que signifie rassurer par le non-abandon ?",
+      "options": ["Assurer une présence de l'équipe et des proches", "Promettre une guérison", "Éviter tout contact", "Décider sans le patient"],
+      "correct": [0],
+      "explanation": "Le patient doit pouvoir se sentir protégé et reconnu comme une personne à part entière."
+    },
+    {
+      "question": "Relire sa vie peut aider le patient à revisiter ses choix, ses réussites et ses regrets.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette démarche peut soutenir le besoin de sens et préserver une image positive de soi."
+    },
+    {
+      "question": "Le respect et l'humanité restent essentiels lorsque le corps décline.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La dépendance ne retire ni la dignité ni les capacités décisionnelles à préserver autant que possible."
+    },
+    {
+      "question": "Quelles approches peuvent contribuer à réduire l'anxiété ?",
+      "options": ["Écoute", "Présence", "Hypnose", "Relaxation", "Musique"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces approches s'inscrivent dans un accompagnement personnalisé."
+    },
+    {
+      "question": "Être présent signifie notamment rester dans l'ici et maintenant sans projeter ses propres attentes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La qualité de présence concerne à la fois la disponibilité à soi et à l'autre."
+    },
+    {
+      "question": "La temporalité du patient et ses mécanismes de défense doivent être respectés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le soignant n'impose pas une vitesse d'acceptation."
+    },
+    {
+      "question": "Que sont les mécanismes de défense ?",
+      "options": ["Des processus mentaux automatiques et inconscients", "Des décisions toujours volontaires", "Des preuves de mauvaise foi", "Des prescriptions médicamenteuses"],
+      "correct": [0],
+      "explanation": "Ils protègent le sujet face aux conflits intrapsychiques et à la souffrance."
+    },
+    {
+      "question": "Quel est l'objectif des mécanismes de défense ?",
+      "options": ["Maintenir un équilibre psychique optimal", "Supprimer toute émotion", "Empêcher toute relation", "Prouver une pathologie psychiatrique"],
+      "correct": [0],
+      "explanation": "Ils permettent de se protéger de sa propre souffrance ou de celle de l'autre."
+    },
+    {
+      "question": "Plus la souffrance est intense, plus les défenses peuvent compliquer la relation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les défenses peuvent devenir déroutantes pour le patient, les proches ou les soignants."
+    },
+    {
+      "question": "Quels mécanismes de défense sont cités ?",
+      "options": ["Identification", "Projection", "Déplacement", "Déni", "Rééducation"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La rééducation est une intervention thérapeutique, non un mécanisme de défense."
+    },
+    {
+      "question": "Le déni est nécessairement un mensonge conscient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il peut être un mécanisme inconscient de protection face à une réalité douloureuse."
+    },
+    {
+      "question": "Pourquoi l'étiquette de « déni » doit-elle être utilisée avec prudence ?",
+      "options": ["Elle peut devenir un jugement pathologisant", "Elle peut remettre en cause les capacités de choix", "Elle résume toujours fidèlement la situation", "Elle peut masquer une temporalité différente"],
+      "correct": [0, 1, 3],
+      "explanation": "Il est souvent plus juste d'explorer la fonction protectrice de l'attitude du patient."
+    },
+    {
+      "question": "Quelles formulations peuvent remplacer une lecture trop rapide en termes de déni ?",
+      "options": ["Stratégie de protection psychologique", "Mécanisme d'ajustement émotionnel", "Temporalité différente d'acceptation", "Espoir vital", "Mensonge volontaire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces formulations décrivent la fonction possible de l'attitude sans porter de jugement."
+    },
+    {
+      "question": "Un mécanisme de déni temporaire peut évoluer avec le temps.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il peut alterner avec des moments de lucidité."
+    },
+    {
+      "question": "Dans quelle situation le déni peut-il être plus massif ?",
+      "options": ["Rupture avec le réel dans un trouble psychotique", "Simple demande de temps", "Silence ponctuel", "Besoin de préserver l'espoir"],
+      "correct": [0],
+      "explanation": "Il peut alors s'intégrer à un délire et altérer la compréhension de la maladie et des soins."
+    },
+    {
+      "question": "Confronter brutalement le patient à la réalité peut provoquer de l'angoisse et rompre l'alliance thérapeutique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une confrontation violente risque d'augmenter l'agitation et le sentiment d'insécurité."
+    },
+    {
+      "question": "Quelle posture soignante adopter face à une attitude de protection psychique ?",
+      "options": ["Accueillir ce que le patient peut exprimer", "Respecter son rythme d'intégration", "Maintenir un cadre stable et contenant", "Solliciter un psychologue ou un psychiatre si nécessaire", "Imposer immédiatement la réalité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La sécurité relationnelle et le travail interdisciplinaire soutiennent le patient sans forcer son cheminement."
+    }
+  ]
+}

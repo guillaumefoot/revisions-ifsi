@@ -1,0 +1,468 @@
+{
+  "title": "UE 4.7 S5 - Antalgiques, opioïdes et sécurité infirmière",
+  "subtitle": "Paliers antalgiques, titration, surveillance, surdosage, soins douloureux et douleurs neuropathiques",
+  "questions": [
+    {
+      "question": "À quelle catégorie appartient le paracétamol ?",
+      "options": ["Antalgique périphérique non opiacé", "Opioïde fort", "Antiépileptique", "Anesthésique local"],
+      "correct": [0],
+      "explanation": "Le paracétamol est un antalgique non opioïde du palier I."
+    },
+    {
+      "question": "Quelles voies d'administration du paracétamol sont présentées ?",
+      "options": ["Orale", "Rectale", "Intraveineuse", "Sous-cutanée", "Inhalée"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le paracétamol peut être administré par voie orale, rectale, IV ou sous-cutanée."
+    },
+    {
+      "question": "Chez l'adulte, la dose orale maximale de paracétamol indiquée est de 1 g par prise et 4 g par 24 heures.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les prises sont espacées de six à huit heures selon la prescription."
+    },
+    {
+      "question": "Quels profils appellent une prudence particulière avec le paracétamol ?",
+      "options": ["Personne de plus de 75 ans", "Poids inférieur à 50 kg", "Dénutrition ou déshydratation", "Insuffisance hépatocellulaire", "Adulte jeune sans facteur de fragilité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'âge, le faible poids, la dénutrition, la déshydratation et certaines insuffisances d'organe augmentent la vigilance."
+    },
+    {
+      "question": "Quelle situation constitue une contre-indication au paracétamol ?",
+      "options": ["Insuffisance hépatocellulaire sévère", "Douleur aiguë", "Âge adulte", "Administration orale"],
+      "correct": [0],
+      "explanation": "L'hypersensibilité constitue également une contre-indication."
+    },
+    {
+      "question": "Pourquoi faut-il rechercher les autres médicaments pris par un patient recevant du paracétamol ?",
+      "options": ["Pour éviter le cumul de plusieurs spécialités contenant du paracétamol", "Pour augmenter systématiquement la dose", "Pour supprimer toute prise orale", "Pour remplacer l'évaluation de la douleur"],
+      "correct": [0],
+      "explanation": "L'automédication et les associations exposent à un dépassement involontaire de la dose quotidienne."
+    },
+    {
+      "question": "Le néfopam est un opioïde fort de palier III.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le néfopam est un analgésique central non morphinique."
+    },
+    {
+      "question": "Quelle présentation du néfopam est décrite pour l'administration parentérale ?",
+      "options": ["Ampoule de 20 mg pour 2 mL", "Patch de 100 µg/h", "Gélule de 600 mg", "Suppositoire de 1 g"],
+      "correct": [0],
+      "explanation": "La dose quotidienne présentée est comprise entre 20 et 120 mg."
+    },
+    {
+      "question": "Quels effets indésirables peuvent survenir avec le néfopam ?",
+      "options": ["Sueurs", "Somnolence", "Nausées", "Rétention urinaire", "Palpitations"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le néfopam peut notamment provoquer des effets atropiniques, des malaises ou des convulsions."
+    },
+    {
+      "question": "Quelles situations contre-indiquent le néfopam ?",
+      "options": ["Épilepsie", "Glaucome à angle fermé", "Rétention aiguë d'urine", "Enfant de moins de 15 ans", "Douleur postopératoire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La douleur postopératoire fait partie de ses indications symptomatiques, non d'une contre-indication."
+    },
+    {
+      "question": "Les AINS stimulent la synthèse périphérique des prostaglandines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Ils inhibent la synthèse périphérique des prostaglandines."
+    },
+    {
+      "question": "Quelles précautions sont associées aux AINS ?",
+      "options": ["Évaluation médicale de la balance bénéfice-risque", "Cure courte", "Vigilance en cas d'insuffisance rénale", "Association systématique à un anticoagulant"],
+      "correct": [0, 1, 2],
+      "explanation": "Ils ne sont pas proposés en première intention et leurs associations à risque doivent être recherchées."
+    },
+    {
+      "question": "À quoi sert l'échelle ORT ?",
+      "options": ["Repérer avant prescription le risque de trouble de l'usage d'un opioïde", "Évaluer la constipation", "Mesurer la douleur aiguë", "Calculer une équianalgésie"],
+      "correct": [0],
+      "explanation": "L'Opioid Risk Tool est utilisé chez l'adulte avant la prescription."
+    },
+    {
+      "question": "À quoi sert l'échelle POMI ?",
+      "options": ["Rechercher un trouble de l'usage lors du renouvellement d'un traitement opioïde", "Choisir une voie veineuse", "Évaluer la sédation", "Dépister une douleur neuropathique"],
+      "correct": [0],
+      "explanation": "Elle aide à repérer un mésusage au cours du suivi d'un traitement opioïde."
+    },
+    {
+      "question": "Le tramadol exerce uniquement une action antalgique périphérique sans effet opioïdergique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Son mécanisme central associe une faible action opioïdergique et une action sur la sérotonine et la noradrénaline."
+    },
+    {
+      "question": "Quelle dose orale maximale quotidienne de tramadol est indiquée chez l'adulte ?",
+      "options": ["400 mg", "40 mg", "1 000 mg", "2 400 mg"],
+      "correct": [0],
+      "explanation": "Les prises orales usuelles présentées sont de 50 à 100 mg toutes les quatre à six heures."
+    },
+    {
+      "question": "Chez la personne âgée, l'introduction du tramadol doit être progressive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une progression sur une semaine et une dose maximale réduite sont présentées."
+    },
+    {
+      "question": "Quelles situations sont citées parmi les contre-indications du tramadol ?",
+      "options": ["Épilepsie non contrôlée", "Insuffisance respiratoire sévère", "Insuffisance hépatocellulaire", "Hypersensibilité", "Douleur modérée"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le risque de convulsions et de dépression respiratoire impose une vigilance particulière."
+    },
+    {
+      "question": "Quels effets indésirables peuvent être liés au tramadol ?",
+      "options": ["Nausées et vomissements", "Constipation", "Somnolence", "Confusion", "Convulsions"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Des vertiges, céphalées, allergies ou une dépression respiratoire peuvent aussi survenir."
+    },
+    {
+      "question": "L'efficacité de la codéine est identique chez tous les patients.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Environ 10 % des patients ne possèdent pas l'enzyme permettant sa transformation en morphine."
+    },
+    {
+      "question": "Quels effets indésirables sont associés à la codéine ?",
+      "options": ["Constipation", "Somnolence", "Nausées et vomissements", "Dépression respiratoire", "Bronchospasme"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La prévention de la constipation est particulièrement importante."
+    },
+    {
+      "question": "Les spécialités à base d'extrait d'opium peuvent associer opium et paracétamol.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Certaines formulations ajoutent également de la caféine."
+    },
+    {
+      "question": "Quels signes constituent la triade d'une surdose d'opioïdes ?",
+      "options": ["Perte de conscience ou coma", "Détresse respiratoire", "Myosis", "Hypervigilance"],
+      "correct": [0, 1, 2],
+      "explanation": "Cette triade impose une prise en charge urgente."
+    },
+    {
+      "question": "Devant une suspicion de surdose d'opioïdes, quels numéros d'urgence sont indiqués ?",
+      "options": ["15 ou 112", "18 uniquement", "116 117 uniquement", "Aucun si le patient respire lentement"],
+      "correct": [0],
+      "explanation": "Il faut alerter immédiatement les secours et surveiller la personne."
+    },
+    {
+      "question": "Quelles voies d'administration de la naloxone sont présentées dans les kits de secours ?",
+      "options": ["Nasale", "Intramusculaire", "Orale", "Transdermique"],
+      "correct": [0, 1],
+      "explanation": "Les kits peuvent contenir une forme nasale ou une seringue intramusculaire graduée."
+    },
+    {
+      "question": "Quelles situations peuvent conduire à utiliser un opioïde fort de palier III ?",
+      "options": ["Échec des antalgiques précédents", "Douleur intense", "Douleur rebelle", "Absence totale d'évaluation"],
+      "correct": [0, 1, 2],
+      "explanation": "La posologie doit être réévaluée et les effets indésirables prévenus."
+    },
+    {
+      "question": "Une association entre un opioïde fort, un antalgique de palier I et un coanalgésique peut être envisagée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'analgésie combinée peut améliorer le contrôle douloureux et réduire la consommation morphinique."
+    },
+    {
+      "question": "Quelles modalités de prescription concernent les opioïdes forts ?",
+      "options": ["Ordonnance sécurisée", "Rédaction en toutes lettres", "Durée limitée", "Renouvellement verbal sans trace"],
+      "correct": [0, 1, 2],
+      "explanation": "La prescription est sécurisée et sa durée dépend de la forme administrée."
+    },
+    {
+      "question": "Quels médicaments appartiennent aux opioïdes forts présentés ?",
+      "options": ["Morphine", "Oxycodone", "Hydromorphone", "Fentanyl", "Paracétamol"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le paracétamol est un antalgique non opioïde de palier I."
+    },
+    {
+      "question": "Chez une personne âgée, un opioïde fort peut être initié sans prudence posologique particulière.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'initiation doit être prudente avec une surveillance renforcée."
+    },
+    {
+      "question": "Quelle équivalence orale est indiquée entre morphine et oxycodone ?",
+      "options": ["10 mg de morphine orale pour 5 mg d'oxycodone", "10 mg de morphine pour 50 mg d'oxycodone", "1 mg de morphine pour 100 mg d'oxycodone", "Équivalence toujours égale milligramme pour milligramme"],
+      "correct": [0],
+      "explanation": "Cette équivalence aide à la rotation mais exige une réévaluation clinique."
+    },
+    {
+      "question": "Quelle forme de morphine agit le plus rapidement parmi celles proposées ?",
+      "options": ["Morphine IV", "Morphine orale à libération prolongée", "Morphine sous-cutanée", "Morphine orale à libération immédiate"],
+      "correct": [0],
+      "explanation": "La morphine IV agit en cinq à dix minutes, plus vite que les formes orale ou sous-cutanée présentées."
+    },
+    {
+      "question": "Quelle durée d'action est indiquée pour le fentanyl transdermique ?",
+      "options": ["72 heures", "4 heures", "12 heures", "30 minutes"],
+      "correct": [0],
+      "explanation": "Le délai d'action du patch est lent, de l'ordre de douze à dix-sept heures."
+    },
+    {
+      "question": "La titration morphinique peut être conduite sans réévaluer l'efficacité ni les effets indésirables.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Des évaluations répétées guident l'adaptation du traitement."
+    },
+    {
+      "question": "À quelle proportion de la dose quotidienne de morphine LP correspond généralement une interdose ?",
+      "options": ["10 %", "1 %", "50 %", "100 %"],
+      "correct": [0],
+      "explanation": "Cette valeur peut être adaptée à la situation clinique et à la prescription."
+    },
+    {
+      "question": "Chez un patient naïf de morphine présentant une douleur intense, la titration par une forme à libération immédiate est inutile.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Une forme à libération immédiate peut servir à rechercher la dose efficace avant le traitement de fond."
+    },
+    {
+      "question": "Chez l'enfant, quelle posologie initiale de morphine orale est indiquée ?",
+      "options": ["0,2 mg/kg toutes les 4 heures", "2 mg/kg toutes les heures", "20 mg/kg par jour", "0,02 mg une fois par semaine"],
+      "correct": [0],
+      "explanation": "L'augmentation présentée se fait par paliers de 50 % si l'effet est insuffisant."
+    },
+    {
+      "question": "Comment débute une titration morphinique IV ?",
+      "options": ["Injection IV lente de 2 à 3 mg", "Bolus de 30 mg sans surveillance", "Patch transdermique", "Prise orale unique de 100 mg"],
+      "correct": [0],
+      "explanation": "La douleur est réévaluée cinq minutes après chaque administration."
+    },
+    {
+      "question": "Quels objectifs et surveillances accompagnent la titration IV ?",
+      "options": ["Score numérique inférieur à 3 sur 10", "Fréquence respiratoire supérieure à 10 par minute", "Surveillance de la vigilance", "Absence de contrôle de la saturation"],
+      "correct": [0, 1, 2],
+      "explanation": "Une désaturation inférieure à 95 % ou une altération respiratoire impose l'arrêt et la réévaluation."
+    },
+    {
+      "question": "L'oxycodone peut être prescrite dans les douleurs cancéreuses intenses ou rebelles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle peut être utilisée d'emblée ou lors d'une rotation d'opioïdes."
+    },
+    {
+      "question": "Dans quelles situations le fentanyl transdermique peut-il présenter un intérêt ?",
+      "options": ["Douleur chronique sévère", "Voie orale difficile", "Insuffisance rénale", "Besoin d'un effet immédiat en quelques minutes"],
+      "correct": [0, 1, 2],
+      "explanation": "Son délai d'action lent ne convient pas à un besoin d'analgésie immédiate."
+    },
+    {
+      "question": "Le premier patch de fentanyl agit immédiatement après sa pose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le délai d'action est d'environ douze heures, ce qui doit être anticipé lors d'une rotation."
+    },
+    {
+      "question": "Qu'est-ce qu'une rotation des opioïdes ?",
+      "options": ["Le remplacement d'un opioïde par un autre à dose équianalgésique", "L'arrêt brutal de tout antalgique", "Le changement de chambre du patient", "L'alternance aléatoire des doses"],
+      "correct": [0],
+      "explanation": "Elle peut être motivée par une analgésie insuffisante ou des effets indésirables persistants."
+    },
+    {
+      "question": "Lors du passage d'un opioïde oral LP à un patch, quand poser le premier patch ?",
+      "options": ["En même temps que la dernière dose orale LP", "Trois jours après l'arrêt", "Avant toute dernière dose orale", "Uniquement quand la douleur a disparu"],
+      "correct": [0],
+      "explanation": "Ce chevauchement tient compte du délai d'action de la voie transdermique."
+    },
+    {
+      "question": "Lors du passage d'une perfusion parentérale continue à une forme orale LP, la perfusion doit être arrêtée plusieurs heures avant la première prise orale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La perfusion est arrêtée au moment de la première prise orale LP."
+    },
+    {
+      "question": "Lors du passage d'une perfusion continue de morphine à un patch, combien de temps la perfusion est-elle maintenue après la pose ?",
+      "options": ["8 heures", "30 minutes", "24 heures", "72 heures"],
+      "correct": [0],
+      "explanation": "Ce maintien couvre le délai d'installation de l'effet transdermique."
+    },
+    {
+      "question": "Après le retrait d'un patch de fentanyl, le relais par un autre opioïde doit tenir compte d'une persistance de l'effet.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le démarrage et l'augmentation du nouvel opioïde sont donc progressifs selon le schéma prescrit."
+    },
+    {
+      "question": "Comment déterminer la dose de base d'une PCA en relais ?",
+      "options": ["Convertir la dose totale d'opioïde reçue en 24 heures en équivalent parentéral", "Choisir une dose au hasard", "Utiliser uniquement le poids sans traitement antérieur", "Supprimer toute dose de fond"],
+      "correct": [0],
+      "explanation": "La consommation des dernières 24 heures sert de base au calcul."
+    },
+    {
+      "question": "Le calcul d'un bolus de PCA ne tient jamais compte de la dose journalière d'opioïde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le bolus peut correspondre à un dixième ou à un vingt-quatrième de la dose journalière."
+    },
+    {
+      "question": "Qu'est-ce qu'un accès douloureux paroxystique ?",
+      "options": ["Une exacerbation passagère d'une douleur chronique", "Une douleur constante sans variation", "Une douleur uniquement postopératoire", "Une douleur toujours prévisible"],
+      "correct": [0],
+      "explanation": "Il survient rapidement, dure généralement peu de temps et peut être prévisible ou imprévisible."
+    },
+    {
+      "question": "Quels accès douloureux paroxystiques sont prévisibles ?",
+      "options": ["Déclenchés par la marche", "Provoqués par un soin", "Déclenchés par la défécation", "Sans aucun facteur déclenchant"],
+      "correct": [0, 1, 2],
+      "explanation": "Les accès sans facteur déclenchant sont classés comme imprévisibles."
+    },
+    {
+      "question": "Quelle surveillance infirmière est requise sous opioïdes ?",
+      "options": ["Intensité douloureuse", "Sédation", "Respiration", "Effets indésirables", "Traçabilité"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La surveillance est régulière, au moins une fois par équipe, et adaptée à la situation."
+    },
+    {
+      "question": "À quoi correspond le niveau respiratoire R2 ?",
+      "options": ["Respiration irrégulière, obstruction ou fréquence inférieure à 10 par minute", "Respiration régulière au-dessus de 10", "Ronflements avec fréquence supérieure à 10", "Pauses ou apnée"],
+      "correct": [0],
+      "explanation": "R3 correspond aux pauses respiratoires ou à l'apnée."
+    },
+    {
+      "question": "À quoi correspond le niveau de sédation S2 ?",
+      "options": ["Somnolent la plupart du temps, éveillable par stimulation verbale", "Éveillé", "Somnolent par intermittence et facilement réveillable", "Éveillable uniquement par stimulation tactile"],
+      "correct": [0],
+      "explanation": "S3 correspond à un patient éveillable par stimulation tactile."
+    },
+    {
+      "question": "Quels signes peuvent évoquer un surdosage opioïde ?",
+      "options": ["Somnolence croissante", "Bradypnée", "Myosis", "Confusion", "Myoclonies"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L'insuffisance respiratoire constitue le risque majeur."
+    },
+    {
+      "question": "Que faire si la fréquence respiratoire est comprise entre 8 et 10 par minute sous opioïde ?",
+      "options": ["Arrêter l'opioïde", "Administrer de l'oxygène", "Stimuler le patient", "Renforcer la surveillance", "Administrer une dose supplémentaire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une dose supplémentaire aggraverait le risque respiratoire."
+    },
+    {
+      "question": "Une fréquence respiratoire inférieure à 8 par minute justifie l'arrêt de l'opioïde et l'administration de naloxone selon protocole.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La stimulation, la surveillance accrue et un transfert en réanimation peuvent aussi être nécessaires."
+    },
+    {
+      "question": "Quel est l'objectif de la titration IV de naloxone lors d'une dépression respiratoire ?",
+      "options": ["Rétablir une fréquence respiratoire supérieure à 10 par minute sans supprimer toute l'analgésie", "Provoquer une perte de conscience", "Augmenter l'effet opioïde", "Obtenir immédiatement une absence complète de douleur"],
+      "correct": [0],
+      "explanation": "La naloxone est injectée progressivement pour corriger la dépression respiratoire."
+    },
+    {
+      "question": "Quelles mesures peuvent prévenir ou traiter les effets indésirables des opioïdes ?",
+      "options": ["Laxatif pour la constipation", "Antiémétique pour les nausées", "Adaptation posologique en cas de somnolence", "Surveillance de la rétention urinaire", "Arrêt de toute surveillance"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les effets indésirables doivent être anticipés, recherchés et pris en charge."
+    },
+    {
+      "question": "Un traitement opioïde prolongé peut être arrêté brutalement dès que la douleur diminue.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La diminution est progressive, par paliers, avec surveillance de la douleur et du syndrome de sevrage."
+    },
+    {
+      "question": "Comment prévenir la douleur liée à un soin ?",
+      "options": ["Informer et rassurer", "Coordonner les gestes", "Installer confortablement", "Anticiper un traitement adapté", "Ignorer le délai d'action"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le délai d'action des traitements doit être respecté et la résurgence douloureuse prévenue."
+    },
+    {
+      "question": "Quel délai de prémédication est indiqué avant un soin douloureux ?",
+      "options": ["Environ 1 heure pour un palier I ou II", "45 minutes à 1 heure pour un opioïde fort à libération immédiate", "Toujours après le soin", "Aucun délai n'est nécessaire"],
+      "correct": [0, 1],
+      "explanation": "Le moment d'administration dépend du délai d'action du produit."
+    },
+    {
+      "question": "Le mélange lidocaïne-prilocaïne transcutané est appliqué pendant au moins 60 minutes avant le geste.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette anticipation permet l'installation de l'effet anesthésique local."
+    },
+    {
+      "question": "Chez le nouveau-né, une solution sucrée associée à la succion peut être utilisée avant un geste douloureux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le geste est réalisé après un délai de deux minutes suivant le début de la succion sucrée."
+    },
+    {
+      "question": "Quelles caractéristiques appartiennent au MEOPA ?",
+      "options": ["Action rapide", "Action réversible", "Effet antalgique et anxiolytique", "Utilisation prolongée sans limite", "Contre-indication en cas d'épanchement gazeux"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "Les soins sont limités dans le temps et certaines situations respiratoires ou hémodynamiques contre-indiquent son emploi."
+    },
+    {
+      "question": "Quels principes guident le traitement d'une douleur neuropathique ?",
+      "options": ["Informer que l'efficacité peut être partielle", "Expliquer le délai d'action", "Prise systématique", "Titration individuelle progressive", "Promettre un effet immédiat complet"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le patient doit être informé du délai de plusieurs jours à semaines et des effets indésirables possibles."
+    },
+    {
+      "question": "Quels antidépresseurs tricycliques sont présentés dans la douleur neuropathique ?",
+      "options": ["Amitriptyline", "Clomipramine", "Duloxétine", "Gabapentine"],
+      "correct": [0, 1],
+      "explanation": "La duloxétine est un inhibiteur de la recapture de la sérotonine et de la noradrénaline ; la gabapentine est un antiépileptique."
+    },
+    {
+      "question": "Les antidépresseurs tricycliques sont fortement déconseillés chez le sujet âgé en raison notamment du risque d'hypotension et de confusion.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le glaucome, la rétention urinaire et certaines pathologies cardiaques sont aussi des points de vigilance."
+    },
+    {
+      "question": "Quels médicaments inhibiteurs de la recapture de la sérotonine et de la noradrénaline sont cités ?",
+      "options": ["Venlafaxine", "Duloxétine", "Morphine", "Carbamazépine"],
+      "correct": [0, 1],
+      "explanation": "Ils peuvent être utilisés dans certaines douleurs neuropathiques, avec surveillance de leurs effets indésirables."
+    },
+    {
+      "question": "La gabapentine doit être introduite progressivement jusqu'à la dose minimale efficace ou l'apparition d'effets indésirables.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La dose initiale est plus faible chez la personne âgée."
+    },
+    {
+      "question": "La prégabaline est un antiépileptique utilisé dans la douleur neuropathique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle est également introduite à faible dose puis augmentée progressivement."
+    },
+    {
+      "question": "Quels autres antiépileptiques sont cités dans la douleur neuropathique ?",
+      "options": ["Carbamazépine", "Clonazépam", "Paracétamol", "Ibuprofène"],
+      "correct": [0, 1],
+      "explanation": "La carbamazépine et le clonazépam sont présentés parmi les options antiépileptiques."
+    },
+    {
+      "question": "Comment utiliser l'emplâtre de lidocaïne dans la douleur post-zostérienne ?",
+      "options": ["Sur peau sèche et non irritée", "Un à trois emplâtres pendant 12 heures sur 24", "Après avoir rasé la zone", "Sur une plaie ouverte"],
+      "correct": [0, 1],
+      "explanation": "Les poils sont coupés aux ciseaux et non rasés."
+    },
+    {
+      "question": "Le patch de capsaïcine doit être renouvelé chaque jour.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il peut être renouvelé tous les trois mois ; la durée d'application dépend de la zone."
+    },
+    {
+      "question": "Le tramadol et l'oxycodone constituent des traitements de recours dans la douleur neuropathique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils sont envisagés après échec des traitements de première intention."
+    },
+    {
+      "question": "Quelles affirmations décrivent la neurostimulation transcutanée ?",
+      "options": ["Méthode non invasive", "Utilise un courant électrique", "Nécessite la coopération du patient", "Stimule les grosses fibres nerveuses", "Toujours indiquée sur une zone d'allodynie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une stimulation sur une zone d'allodynie peut augmenter la douleur."
+    },
+    {
+      "question": "Dans quelle situation la kétamine peut-elle être envisagée ?",
+      "options": ["Douleur rebelle mixte avec traitement opioïde insuffisant ou mal toléré", "Toute douleur légère sans évaluation", "Constipation isolée", "Somnolence liée à un opioïde"],
+      "correct": [0],
+      "explanation": "Son action analgésique repose notamment sur le blocage des récepteurs NMDA et requiert un cadre spécialisé."
+    }
+  ]
+}
