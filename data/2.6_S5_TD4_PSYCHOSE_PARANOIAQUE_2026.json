@@ -1,0 +1,276 @@
+{
+  "title": "UE 2.6 S5 - TD n°4 : psychose paranoïaque",
+  "subtitle": "Cas de M. Ledou : délire chronique, TOMATE, SPDRE, traitements et posture infirmière",
+  "questions": [
+    {
+      "question": "Dans une psychose, la personne conserve toujours une conscience complète du caractère pathologique de ses troubles.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : la perte de contact avec la réalité et l'absence de conscience des troubles peuvent altérer le jugement."
+    },
+    {
+      "question": "Quelles caractéristiques peuvent être retrouvées dans une psychose ?",
+      "options": ["Une altération du contact avec la réalité", "Des idées délirantes", "Des hallucinations possibles", "Une conscience toujours intacte des troubles"],
+      "correct": [0, 1, 2],
+      "explanation": "La psychose peut associer rupture avec la réalité, délire et hallucinations, avec une conscience des troubles souvent altérée."
+    },
+    {
+      "question": "La psychose paranoïaque est décrite comme une psychose chronique non dissociative.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le délire paranoïaque est chronique et organisé, sans syndrome dissociatif au premier plan."
+    },
+    {
+      "question": "Quelles caractéristiques appartiennent classiquement au délire paranoïaque ?",
+      "options": ["Une construction organisée", "Une forte adhésion", "Une participation affective importante", "Une évolution chronique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le délire paranoïaque est cohérent dans sa construction interne, fortement investi et durable."
+    },
+    {
+      "question": "Quels types de délires paranoïaques sont présentés ?",
+      "options": ["Les délires passionnels", "Le délire d'interprétation", "Le délire de relation des sensitifs", "Le délire confusionnel aigu comme forme chronique"],
+      "correct": [0, 1, 2],
+      "explanation": "Les formes passionnelles, interprétatives et sensitives sont les principaux types décrits."
+    },
+    {
+      "question": "Quelles formes font partie des délires passionnels ?",
+      "options": ["L'érotomanie", "Le délire de jalousie", "Le délire de revendication", "La désorientation temporo-spatiale"],
+      "correct": [0, 1, 2],
+      "explanation": "Les délires passionnels comprennent notamment l'érotomanie, la jalousie et la revendication."
+    },
+    {
+      "question": "L'érotomanie correspond à la conviction délirante d'être persécuté par une organisation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : l'érotomanie repose sur la conviction d'être aimé par une autre personne."
+    },
+    {
+      "question": "Quelle succession décrit l'évolution classique de l'érotomanie ?",
+      "options": ["Espoir, dépit, rancune", "Rancune, euphorie, guérison", "Doute, confusion, amnésie", "Angoisse, compulsion, soulagement"],
+      "correct": [0],
+      "explanation": "L'évolution est classiquement décrite en trois phases : espoir, dépit puis rancune."
+    },
+    {
+      "question": "Sur quoi repose principalement un délire de jalousie ?",
+      "options": ["La conviction infondée d'être trompé", "La conviction d'être aimé par une personne inaccessible", "La peur irraisonnée d'un lieu public", "La répétition de rituels anxieux"],
+      "correct": [0],
+      "explanation": "Le sujet interprète des éléments ordinaires comme des preuves de l'infidélité du partenaire."
+    },
+    {
+      "question": "Quels mécanismes peuvent participer à un délire d'interprétation ?",
+      "options": ["Les interprétations", "Les intuitions", "Les imaginations", "Les hallucinations comme mécanisme nécessaire et exclusif"],
+      "correct": [0, 1, 2],
+      "explanation": "Le délire d'interprétation repose surtout sur des interprétations, intuitions et constructions imaginatives."
+    },
+    {
+      "question": "Le délire de relation des sensitifs peut apparaître après un conflit ou une humiliation chez une personnalité vulnérable et susceptible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette forme se développe sur un terrain sensitif, souvent à la suite d'un événement vécu douloureusement."
+    },
+    {
+      "question": "Sous quel mode de soins M. Ledou est-il hospitalisé ?",
+      "options": ["Soins psychiatriques sur décision du représentant de l'État", "Soins libres uniquement", "Soins à la demande d'un tiers", "Hospitalisation somatique programmée"],
+      "correct": [0],
+      "explanation": "La situation relève de soins psychiatriques sur décision du représentant de l'État, compte tenu du trouble à l'ordre public et du risque."
+    },
+    {
+      "question": "Quel élément de la situation justifie particulièrement le recours à des soins sur décision du représentant de l'État ?",
+      "options": ["L'atteinte à l'ordre public et à la sûreté des personnes", "Une simple demande de repos", "Le refus d'un repas", "L'absence de médecin traitant"],
+      "correct": [0],
+      "explanation": "Ce mode de soins est mobilisé lorsque les troubles compromettent la sûreté des personnes ou portent gravement atteinte à l'ordre public."
+    },
+    {
+      "question": "Quels documents ou décisions interviennent dans la mise en place des soins sur décision du représentant de l'État ?",
+      "options": ["Un certificat médical circonstancié", "Une décision du représentant de l'État", "Des certificats médicaux de suivi prévus par la procédure", "L'accord écrit obligatoire du patient"],
+      "correct": [0, 1, 2],
+      "explanation": "La procédure repose sur une décision administrative et des évaluations médicales encadrées ; le consentement du patient n'en est pas la condition initiale."
+    },
+    {
+      "question": "Dans la situation de M. Ledou, des soins psychiatriques à la demande d'un tiers sont retenus de préférence aux soins sur décision du représentant de l'État.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : le contexte de menace et d'atteinte à l'ordre public conduit ici à des soins sur décision du représentant de l'État."
+    },
+    {
+      "question": "Une première hospitalisation en psychiatrie peut correspondre à la décompensation d'un trouble évoluant auparavant sans prise en charge.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'absence d'hospitalisation antérieure ne permet pas d'exclure l'ancienneté du processus pathologique."
+    },
+    {
+      "question": "Quels traits peuvent appartenir à une personnalité paranoïaque ?",
+      "options": ["La méfiance", "La psychorigidité", "L'hypertrophie du moi", "La fausseté du jugement"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces quatre dimensions caractérisent la personnalité paranoïaque décrite."
+    },
+    {
+      "question": "Que traduit l'hypertrophie du moi dans une personnalité paranoïaque ?",
+      "options": ["Une surestimation de soi et un orgueil important", "Une perte totale de mémoire", "Une indifférence complète au regard d'autrui", "Une désorientation spatiale"],
+      "correct": [0],
+      "explanation": "L'hypertrophie du moi associe notamment orgueil, égocentrisme et surestimation de sa propre valeur."
+    },
+    {
+      "question": "Comment peut se manifester la méfiance paranoïaque ?",
+      "options": ["Par une suspicion durable et une interprétation malveillante des actes d'autrui", "Par une confiance immédiate envers tous", "Par une amnésie isolée", "Par une phobie spécifique sans interprétation"],
+      "correct": [0],
+      "explanation": "La personne attribue volontiers aux autres des intentions hostiles ou cachées."
+    },
+    {
+      "question": "Que désigne la fausseté du jugement ?",
+      "options": ["Un raisonnement appuyé sur des prémisses erronées et peu accessible à la critique", "Une incapacité à effectuer un calcul simple", "Une perte de conscience transitoire", "Un trouble isolé de la lecture"],
+      "correct": [0],
+      "explanation": "Le raisonnement peut paraître logique, mais il s'appuie sur des interprétations fausses et résiste à la remise en question."
+    },
+    {
+      "question": "Que signifie la psychorigidité ?",
+      "options": ["Une difficulté à remettre en cause ses positions et à s'adapter", "Une souplesse relationnelle permanente", "Une faiblesse musculaire", "Une fluctuation rapide de l'humeur"],
+      "correct": [0],
+      "explanation": "La psychorigidité se traduit par une pensée peu flexible et une difficulté à accepter un autre point de vue."
+    },
+    {
+      "question": "Une politesse excessive peut parfois masquer la méfiance chez une personne présentant un fonctionnement paranoïaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une correction formelle ou une politesse appuyée n'exclut pas une attitude de méfiance sous-jacente."
+    },
+    {
+      "question": "Quels éléments de l'acronyme TOMATE décrivent le délire de M. Ledou ?",
+      "options": ["Le thème", "L'organisation", "Le mécanisme", "L'adhésion et la participation affective"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "TOMATE permet une description structurée du délire, incluant notamment thème, organisation, mécanisme, adhésion et retentissement émotionnel."
+    },
+    {
+      "question": "Comment le délire de M. Ledou est-il organisé ?",
+      "options": ["En réseau", "En secteur strictement limité", "Sans aucune cohérence", "Sous forme d'une confusion fluctuante"],
+      "correct": [0],
+      "explanation": "Le délire s'étend à plusieurs domaines et personnes de son environnement, ce qui correspond à une organisation en réseau."
+    },
+    {
+      "question": "Quel mécanisme délirant prédomine chez M. Ledou ?",
+      "options": ["L'interprétation", "L'automatisme mental", "L'hallucination acoustico-verbale isolée", "La désorientation"],
+      "correct": [0],
+      "explanation": "Il attribue un sens persécutif à des faits réels ou anodins : le mécanisme principal est interprétatif."
+    },
+    {
+      "question": "Comment qualifier l'adhésion de M. Ledou à ses idées délirantes ?",
+      "options": ["Totale, sans critique", "Faible et immédiatement critiquée", "Variable uniquement selon l'heure", "Absente"],
+      "correct": [0],
+      "explanation": "M. Ledou est convaincu de la réalité de ses interprétations et ne les remet pas en cause."
+    },
+    {
+      "question": "Les hallucinations sont nécessairement le mécanisme principal et constant de toute psychose paranoïaque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : dans le délire paranoïaque présenté, le mécanisme interprétatif prédomine et les hallucinations ne sont pas indispensables."
+    },
+    {
+      "question": "Quel élément émotionnel augmente le risque de passage à l'acte chez M. Ledou ?",
+      "options": ["La participation affective intense avec hostilité", "Une indifférence complète", "Une euphorie sans contenu délirant", "Une somnolence isolée"],
+      "correct": [0],
+      "explanation": "L'hostilité et la forte participation affective associées au thème persécutif majorent le risque hétéro-agressif."
+    },
+    {
+      "question": "Pourquoi un scanner cérébral peut-il être demandé dans cette situation ?",
+      "options": ["Pour rechercher une cause organique ou éliminer un diagnostic différentiel", "Pour confirmer à lui seul une personnalité paranoïaque", "Pour mesurer l'adhésion au délire", "Pour remplacer l'entretien clinique"],
+      "correct": [0],
+      "explanation": "L'imagerie participe au bilan étiologique et à l'élimination d'une origine organique, sans remplacer l'évaluation clinique."
+    },
+    {
+      "question": "Quelles complications peuvent survenir en l'absence de prise en charge adaptée ?",
+      "options": ["Un passage à l'acte hétéro-agressif", "Un isolement social", "Une désinsertion socioprofessionnelle", "Une évolution chronique du délire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le retentissement peut concerner la sécurité, les relations, l'insertion et la chronicisation."
+    },
+    {
+      "question": "Sans traitement, le délire paranoïaque peut évoluer sur un mode chronique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La chronicité fait partie des caractéristiques et des risques évolutifs décrits."
+    },
+    {
+      "question": "Quel est l'objectif principal de l'halopéridol (Haldol®) dans cette situation ?",
+      "options": ["Réduire les symptômes délirants et l'agitation", "Traiter une infection", "Corriger une hypoglycémie", "Induire une dépendance"],
+      "correct": [0],
+      "explanation": "L'halopéridol est un neuroleptique antipsychotique utilisé pour agir sur le délire et l'agitation."
+    },
+    {
+      "question": "La chlorpromazine (Largactil®) possède uniquement un effet antipsychotique, sans effet sédatif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : la chlorpromazine possède également un effet sédatif, utile dans le contexte d'agitation."
+    },
+    {
+      "question": "Quels paramètres ou effets doivent être surveillés sous neuroleptiques ?",
+      "options": ["La température", "La tension artérielle", "L'apparition de signes extrapyramidaux", "Le poids et les paramètres métaboliques"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La surveillance recherche notamment syndrome malin, hypotension, effets neurologiques et complications métaboliques."
+    },
+    {
+      "question": "Quels signes peuvent évoquer un syndrome malin des neuroleptiques ?",
+      "options": ["Une hyperthermie", "Une rigidité musculaire", "Des troubles de la conscience", "Des signes neurovégétatifs"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Cette association constitue une urgence imposant l'arrêt du traitement et une prise en charge médicale immédiate."
+    },
+    {
+      "question": "En présence d'un syndrome malin des neuroleptiques, le traitement neuroleptique doit être poursuivi jusqu'au prochain entretien médical programmé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : il s'agit d'une urgence ; le traitement doit être interrompu et le médecin alerté immédiatement."
+    },
+    {
+      "question": "Quels effets extrapyramidaux peuvent apparaître sous neuroleptiques ?",
+      "options": ["Une rigidité", "Des tremblements", "Une akathisie", "Des dystonies"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les neuroleptiques peuvent provoquer différents troubles moteurs qui doivent être repérés et transmis."
+    },
+    {
+      "question": "Quels effets neurovégétatifs ou anticholinergiques peuvent être surveillés ?",
+      "options": ["Une hypotension orthostatique", "Une sécheresse buccale", "Une constipation", "Une rétention urinaire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces effets peuvent compromettre le confort et la sécurité et nécessitent une surveillance clinique."
+    },
+    {
+      "question": "Quels paramètres sont utiles à la surveillance métabolique d'un traitement neuroleptique ?",
+      "options": ["Le poids", "La glycémie", "Le bilan lipidique", "Le périmètre abdominal"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le suivi métabolique porte notamment sur la prise de poids, l'équilibre glycémique et lipidique ainsi que l'adiposité abdominale."
+    },
+    {
+      "question": "Un traitement antiparkinsonien correcteur peut être prescrit pour certains effets extrapyramidaux induits par les neuroleptiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un correcteur peut être utilisé sur prescription pour réduire certains effets moteurs extrapyramidaux."
+    },
+    {
+      "question": "Quels problèmes ou risques infirmiers sont prioritaires chez M. Ledou ?",
+      "options": ["Risque de violence envers autrui", "Anxiété", "Altération des interactions sociales", "Risque de non-observance"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La sécurité, l'angoisse, le lien social et l'adhésion aux soins sont au cœur du projet de soins."
+    },
+    {
+      "question": "Quelles mesures sont adaptées lors de l'accueil et de l'inventaire des effets personnels ?",
+      "options": ["Expliquer chaque étape", "Réaliser l'inventaire à deux soignants", "Retirer et sécuriser les objets dangereux", "Tracer les objets inventoriés"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Un cadre expliqué, une réalisation en binôme, la sécurisation et la traçabilité protègent le patient comme les soignants."
+    },
+    {
+      "question": "L'inventaire des effets personnels de M. Ledou doit être réalisé en binôme.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La présence de deux soignants renforce la sécurité et la traçabilité dans ce contexte de méfiance et de risque."
+    },
+    {
+      "question": "Quelles attitudes infirmières favorisent une relation thérapeutique avec M. Ledou ?",
+      "options": ["Adopter une attitude calme et cohérente", "Poser un cadre clair", "Reconnaître l'émotion sans valider le délire", "Éviter la confrontation directe"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une posture stable, explicite et empathique limite la méfiance tout en maintenant les limites nécessaires."
+    },
+    {
+      "question": "Contredire frontalement le délire tout en adoptant une attitude ambiguë et excessivement familière favorise l'alliance thérapeutique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : la confrontation directe et l'ambiguïté peuvent renforcer la méfiance ; l'attitude doit rester claire, calme et professionnelle."
+    }
+  ]
+}

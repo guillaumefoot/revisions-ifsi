@@ -1,0 +1,246 @@
+{
+  "title": "UE 2.6 S5 - TD n°1 : troubles névrotiques",
+  "subtitle": "Cas cliniques : agoraphobie, attaque de panique, TOC, traitements et rôle infirmier",
+  "questions": [
+    {
+      "question": "Quel mode de soins est proposé à Mme Kao avec son consentement ?",
+      "options": ["Soins psychiatriques libres", "Soins psychiatriques à la demande d'un tiers", "Soins psychiatriques sur décision du représentant de l'État", "Soins en péril imminent"],
+      "correct": [0],
+      "explanation": "Mme Kao accepte l'hospitalisation proposée : elle est donc admise en soins psychiatriques libres."
+    },
+    {
+      "question": "Les soins psychiatriques libres reposent sur le consentement du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le consentement distingue les soins libres des soins psychiatriques sans consentement."
+    },
+    {
+      "question": "Quel diagnostic correspond à la peur invalidante de Mme Kao dans les transports, les magasins et les espaces publics ?",
+      "options": ["Agoraphobie", "Épisode maniaque", "Psychose paranoïaque", "État confusionnel"],
+      "correct": [0],
+      "explanation": "L'agoraphobie se manifeste ici par une peur intense des espaces publics et des déplacements sans accompagnement."
+    },
+    {
+      "question": "Quels signes d'angoisse présente Mme Kao lorsqu'elle affronte une situation phobogène ?",
+      "options": ["Sueurs", "Tremblements", "Sensation d'étouffement", "Impression de s'évanouir"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces manifestations somatiques apparaissent lorsqu'elle doit sortir seule ou utiliser les transports."
+    },
+    {
+      "question": "Dans un trouble névrotique, la personnalité est nécessairement désorganisée et le patient n'a aucune conscience de ses difficultés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le patient peut être douloureusement conscient de ses troubles et sa personnalité reste généralement organisée."
+    },
+    {
+      "question": "Une phobie correspond toujours à une peur proportionnée à un danger réel et immédiat.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La phobie est une peur irraisonnée et intense d'une situation, d'un objet ou d'un être qui ne présente pas en lui-même ce danger."
+    },
+    {
+      "question": "Quelles situations provoquent particulièrement l'angoisse de Mme Kao ?",
+      "options": ["Prendre le bus", "Faire ses courses seule", "Se rendre seule à son travail", "Rester dans son appartement avec ses parents"],
+      "correct": [0, 1, 2],
+      "explanation": "Les déplacements et espaces publics sans personne rassurante déclenchent ou anticipent son angoisse."
+    },
+    {
+      "question": "Quel comportement de Mme Kao illustre une conduite de réassurance ?",
+      "options": ["Se rendre au travail avec sa collègue", "Refuser toute aide de sa mère", "Changer fréquemment de domicile", "Démonter des objets de façon répétitive"],
+      "correct": [0],
+      "explanation": "La présence de sa collègue ou de sa mère constitue un appui familier qui la rassure."
+    },
+    {
+      "question": "Quelles conduites de Mme Kao relèvent de l'évitement phobique ?",
+      "options": ["Refuser une promotion nécessitant de prendre le bus", "Ne pas aller travailler lorsque sa collègue est absente", "Ne plus faire ses courses seule", "Accepter progressivement une exposition thérapeutique"],
+      "correct": [0, 1, 2],
+      "explanation": "Elle évite les situations susceptibles de provoquer l'angoisse, au prix d'un retentissement professionnel et nutritionnel."
+    },
+    {
+      "question": "La mère de Mme Kao peut jouer le rôle d'objet contraphobique lorsqu'elle l'accompagne dans ses déplacements.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La présence de la mère constitue un moyen de réassurance face à la situation redoutée."
+    },
+    {
+      "question": "Quels troubles associés sont retrouvés chez Mme Kao ?",
+      "options": ["Troubles du sommeil", "Perte d'appétit et amaigrissement", "Asthénie matinale", "Repli de la vie sociale"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'anxiété a des conséquences sur son sommeil, son alimentation, son énergie et ses interactions sociales."
+    },
+    {
+      "question": "Quels éléments justifient l'hospitalisation de Mme Kao ?",
+      "options": ["Aggravation de l'anxiété en l'absence de ses personnes de réassurance", "Amaigrissement lié à l'impossibilité de faire ses courses", "Altération de l'état général", "Simple souhait de changer de logement"],
+      "correct": [0, 1, 2],
+      "explanation": "La majoration des troubles et leurs conséquences somatiques et fonctionnelles justifient une prise en charge plus contenante."
+    },
+    {
+      "question": "À quelle classe appartient la venlafaxine prescrite à Mme Kao ?",
+      "options": ["Antidépresseur inhibiteur de la recapture de la sérotonine et de la noradrénaline", "Neuroleptique correcteur", "Antiparkinsonien", "Thymorégulateur au lithium"],
+      "correct": [0],
+      "explanation": "La venlafaxine est un IRSN utilisé notamment dans les troubles anxieux et paniques."
+    },
+    {
+      "question": "Quel délai d'action doit être expliqué lors de l'instauration de la venlafaxine ?",
+      "options": ["Environ 15 à 20 jours", "Quelques secondes", "Une heure au maximum", "Plusieurs années"],
+      "correct": [0],
+      "explanation": "L'efficacité retardée doit être expliquée pour prévenir un arrêt prématuré du traitement."
+    },
+    {
+      "question": "L'antidépresseur doit faire disparaître complètement l'anxiété dès la première prise.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'effet thérapeutique de l'antidépresseur apparaît progressivement après plusieurs jours."
+    },
+    {
+      "question": "Quels risques nécessitent une vigilance au début d'un traitement antidépresseur ?",
+      "options": ["Rebond anxieux", "Levée d'inhibition avec risque suicidaire chez un patient vulnérable", "Virage maniaque chez un patient bipolaire", "Dépendance physique immédiate systématique"],
+      "correct": [0, 1, 2],
+      "explanation": "L'anxiété peut initialement s'accentuer et la levée d'inhibition précéder l'amélioration de l'humeur."
+    },
+    {
+      "question": "À quelle classe appartient le prazépam prescrit à Mme Kao ?",
+      "options": ["Anxiolytique benzodiazépinique", "Antidépresseur IRSN", "Antipsychotique atypique", "Hypnotique antihistaminique"],
+      "correct": [0],
+      "explanation": "Le prazépam est une benzodiazépine utilisée ici pour réguler l'angoisse."
+    },
+    {
+      "question": "Pourquoi associer temporairement un anxiolytique à l'antidépresseur ?",
+      "options": ["Réduire le rebond anxieux en attendant l'efficacité de l'antidépresseur", "Remplacer définitivement l'antidépresseur", "Provoquer une dépendance", "Supprimer toute surveillance"],
+      "correct": [0],
+      "explanation": "L'anxiolytique couvre la période initiale pendant laquelle l'antidépresseur n'est pas encore pleinement efficace."
+    },
+    {
+      "question": "L'arrêt brutal d'une benzodiazépine peut provoquer un syndrome de sevrage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les doses doivent être réduites progressivement sous contrôle médical."
+    },
+    {
+      "question": "Quel est l'objectif principal du zolpidem prescrit à Mme Kao ?",
+      "options": ["Corriger les troubles du sommeil", "Traiter le délire", "Prévenir une dyskinésie", "Augmenter l'appétit"],
+      "correct": [0],
+      "explanation": "Le zolpidem est un hypnotique utilisé pour améliorer le sommeil."
+    },
+    {
+      "question": "Quels effets ou risques sont associés au zolpidem ?",
+      "options": ["Somnolence diurne", "Troubles de la concentration ou de la mémoire", "Risque de dépendance", "Syndrome de sevrage en cas d'arrêt brutal"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Son action est proche de celle des benzodiazépines malgré une structure chimique différente."
+    },
+    {
+      "question": "Quelles durées maximales de prescription sont indiquées pour les hypnotiques et les anxiolytiques ?",
+      "options": ["4 semaines pour les hypnotiques et 12 semaines pour les anxiolytiques", "12 semaines pour les hypnotiques et 4 semaines pour les anxiolytiques", "Un an pour les deux sans réévaluation", "Aucune limite pour les deux"],
+      "correct": [0],
+      "explanation": "Une réévaluation médicale est nécessaire au terme des durées indiquées."
+    },
+    {
+      "question": "La consommation d'alcool est sans conséquence lors d'un traitement par benzodiazépine ou hypnotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'association à l'alcool augmente les risques et favorise notamment les effets sédatifs et la dépendance."
+    },
+    {
+      "question": "Quels problèmes infirmiers sont prioritaires chez Mme Kao ?",
+      "options": ["Anxiété", "Habitudes de sommeil perturbées", "Déficit nutritionnel", "Stratégie d'adaptation inefficace"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces problèmes sont directement reliés aux manifestations et au retentissement de son agoraphobie."
+    },
+    {
+      "question": "Quelles attitudes infirmières sont adaptées auprès de Mme Kao ?",
+      "options": ["Adopter une présence empathique", "Évaluer l'anxiété", "Aider à verbaliser le ressenti", "Dédramatiser sans nier les difficultés"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La relation d'aide vise à reconnaître la souffrance tout en soutenant progressivement l'autonomie."
+    },
+    {
+      "question": "Quelle approche thérapeutique expose progressivement Mme Kao à la situation phobogène ?",
+      "options": ["Désensibilisation dans le cadre d'une thérapie cognitivo-comportementale", "Confrontation brutale sans préparation", "Isolement prolongé", "Suppression de tout accompagnement"],
+      "correct": [0],
+      "explanation": "L'exposition est progressive, d'abord imaginée puis réelle, dans un cadre thérapeutique prescrit."
+    },
+    {
+      "question": "L'exposition à une situation phobogène doit être progressive et s'inscrire dans le projet thérapeutique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une confrontation graduée évite de renforcer l'angoisse et les conduites d'évitement."
+    },
+    {
+      "question": "Quel diagnostic correspond à la crise brutale de Mlle L. avec peur de mourir, oppression et palpitations ?",
+      "options": ["Attaque de panique", "Délire chronique", "Syndrome malin des neuroleptiques", "Épisode mélancolique"],
+      "correct": [0],
+      "explanation": "L'attaque de panique est une crise d'angoisse intense et brutale pouvant donner une impression de mort imminente."
+    },
+    {
+      "question": "Quels signes sont retrouvés pendant l'attaque de panique de Mlle L. ?",
+      "options": ["Agitation psychomotrice", "Sueurs et pâleur", "Respiration haletante", "Sentiment d'irréalité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La crise associe manifestations physiques et psychologiques avec perte de contrôle ressentie."
+    },
+    {
+      "question": "L'hyperventilation peut aggraver les manifestations d'une attaque de panique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le contrôle respiratoire fait donc partie des techniques d'apaisement possibles."
+    },
+    {
+      "question": "Quelles interventions sont adaptées pendant ou après une attaque de panique ?",
+      "options": ["Proposer un environnement calme", "Utiliser des techniques de relaxation ou d'orientation de l'attention", "Améliorer l'hygiène de vie", "Contacter un proche si la personne ne peut se gérer seule"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La prise en charge vise l'apaisement, la réduction des excitants et le recours à un soutien adapté."
+    },
+    {
+      "question": "Quelles attitudes sont à éviter face à une attaque de panique ?",
+      "options": ["S'énerver", "Lever le ton", "Se laisser envahir par le stress", "Répéter de façon insistante que la personne doit se calmer"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces attitudes majorent le sentiment d'insécurité et l'angoisse."
+    },
+    {
+      "question": "Répéter « calme-toi » sur un ton anxieux constitue une intervention thérapeutique adaptée pendant une attaque de panique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le soignant doit rester calme, sécurisant et éviter de transmettre son propre stress."
+    },
+    {
+      "question": "La présence d'obsessions, de compulsions ou des deux peut caractériser un trouble obsessionnel compulsif.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les rituels de lavage de M. Romain constituent ici des compulsions envahissantes."
+    },
+    {
+      "question": "Quels éléments soutiennent le diagnostic de TOC chez M. Romain ?",
+      "options": ["Rituels de lavage répétés", "Temps quotidien supérieur à une heure", "Souffrance et retentissement professionnel", "Rituels interrompus facilement sans anxiété"],
+      "correct": [0, 1, 2],
+      "explanation": "Les rituels sont longs, rigides et responsables de lésions, de manque de sommeil et de retards au travail."
+    },
+    {
+      "question": "Quels retentissements sont provoqués par les compulsions de M. Romain ?",
+      "options": ["Lésions cutanées", "Privation de sommeil", "Retards professionnels", "Difficultés de concentration"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les rituels envahissent le quotidien et altèrent plusieurs domaines de fonctionnement."
+    },
+    {
+      "question": "Quelles prises en charge sont proposées pour le TOC de M. Romain ?",
+      "options": ["Psychothérapie avec exposition in vivo", "Neurofeedback", "Antidépresseur", "Anxiolytique benzodiazépinique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La correction associe des approches psychothérapeutiques et médicamenteuses."
+    },
+    {
+      "question": "Quelles conduites sont à éviter auprès de M. Romain ?",
+      "options": ["Se moquer de ses rituels", "Combattre brutalement ses symptômes", "Se laisser entraîner trop loin dans son système", "Reconnaître le retentissement de ses troubles"],
+      "correct": [0, 1, 2],
+      "explanation": "Le soignant ne renforce pas les rituels mais ne cherche pas non plus à les supprimer brutalement."
+    },
+    {
+      "question": "Empêcher brutalement une personne d'effectuer toutes ses compulsions est une conduite recommandée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La réduction des rituels s'inscrit dans une prise en charge progressive et structurée."
+    },
+    {
+      "question": "Quels facteurs peuvent participer au développement ou au déclenchement de troubles névrotiques ?",
+      "options": ["Prédispositions génétiques", "Facteurs environnementaux et sociaux", "Facteurs psychologiques", "Comorbidités ou addictions"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les causes et facteurs déclenchants sont multiples et peuvent se combiner."
+    }
+  ]
+}

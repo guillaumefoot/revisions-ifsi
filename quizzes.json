@@ -70,6 +70,34 @@
     "icon": "📝"
   },
   {
+    "file": "data/2.6_S5_TD1_TROUBLES_NEVROTIQUES_2026.json",
+    "code": "UE 2.6",
+    "name": "TD n°1 - Troubles névrotiques",
+    "subtitle": "S5 - Agoraphobie, attaque de panique et trouble obsessionnel compulsif",
+    "icon": "🧭"
+  },
+  {
+    "file": "data/2.6_S5_TD2_ETAT_DELIRANT_AIGU_2026.json",
+    "code": "UE 2.6",
+    "name": "TD n°2 - État délirant aigu",
+    "subtitle": "S5 - Bouffée délirante aiguë, TOMATE, SPDT, traitements et projet de soins",
+    "icon": "⚡"
+  },
+  {
+    "file": "data/2.6_S5_TD3_TROUBLE_HUMEUR_2026.json",
+    "code": "UE 2.6",
+    "name": "TD n°3 - Trouble de l'humeur",
+    "subtitle": "S5 - Épisode dépressif majeur, risque suicidaire, traitements et rôle infirmier",
+    "icon": "🌧️"
+  },
+  {
+    "file": "data/2.6_S5_TD4_PSYCHOSE_PARANOIAQUE_2026.json",
+    "code": "UE 2.6",
+    "name": "TD n°4 - Psychose paranoïaque",
+    "subtitle": "S5 - Délire chronique, TOMATE, SPDRE, traitements et posture infirmière",
+    "icon": "🛡️"
+  },
+  {
     "file": "data/2.6_S5_SOINS_PSY_2026.json",
     "code": "UE 2.6",
     "name": "Soins infirmiers en psychiatrie",

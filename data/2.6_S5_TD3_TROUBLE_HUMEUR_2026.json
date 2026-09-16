@@ -1,0 +1,276 @@
+{
+  "title": "UE 2.6 S5 - TD n°3 : trouble de l'humeur",
+  "subtitle": "Cas de Mme Smog : épisode dépressif majeur, risque suicidaire, traitements et rôle infirmier",
+  "questions": [
+    {
+      "question": "Qu'est-ce que la sectorisation psychiatrique ?",
+      "options": ["Une organisation des soins en fonction d'une aire géographique", "Une répartition des patients selon leur profession", "Une organisation réservée aux hospitalisations sans consentement", "Un classement selon la gravité des symptômes"],
+      "correct": [0],
+      "explanation": "La sectorisation organise la prévention, les soins et le suivi psychiatriques pour la population d'une zone géographique déterminée."
+    },
+    {
+      "question": "Quels principes sont associés à la sectorisation psychiatrique ?",
+      "options": ["La continuité des soins", "La proximité des soins", "La prévention", "L'exclusion systématique de l'entourage"],
+      "correct": [0, 1, 2],
+      "explanation": "La sectorisation favorise une prise en charge de proximité, continue et incluant la prévention."
+    },
+    {
+      "question": "Quel est le rôle principal d'un centre médico-psychologique (CMP) ?",
+      "options": ["Assurer des consultations, des soins ambulatoires et l'orientation", "Réaliser uniquement des hospitalisations complètes", "Accueillir exclusivement les urgences somatiques", "Délivrer uniquement des traitements médicamenteux"],
+      "correct": [0],
+      "explanation": "Le CMP est une structure ambulatoire de proximité qui assure notamment accueil, consultations, soins et orientation."
+    },
+    {
+      "question": "Le domicile d'une personne détermine le secteur psychiatrique dont elle dépend.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La sectorisation repose sur le lieu de résidence."
+    },
+    {
+      "question": "Quel diagnostic est retenu pour Mme Smog dans le TD ?",
+      "options": ["Un épisode dépressif majeur réactionnel", "Un accès maniaque", "Un état délirant aigu", "Un trouble obsessionnel compulsif"],
+      "correct": [0],
+      "explanation": "Le tableau est celui d'un épisode dépressif majeur, survenu dans un contexte réactionnel."
+    },
+    {
+      "question": "Quel événement est identifié comme facteur déclenchant de l'épisode dépressif de Mme Smog ?",
+      "options": ["Le décès de son mari", "Un changement de logement", "Une promotion professionnelle", "Une hospitalisation chirurgicale"],
+      "correct": [0],
+      "explanation": "Le décès du conjoint constitue l'événement de vie à l'origine de la décompensation décrite."
+    },
+    {
+      "question": "Dans le tableau décrit, les symptômes dépressifs évoluent depuis au moins deux semaines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La durée d'au moins deux semaines fait partie des éléments retenus pour caractériser l'épisode."
+    },
+    {
+      "question": "Quels symptômes appartiennent au noyau dépressif présenté par Mme Smog ?",
+      "options": ["Une humeur triste", "Une perte d'intérêt ou de plaisir", "Une diminution de l'énergie", "Une exaltation persistante de l'humeur"],
+      "correct": [0, 1, 2],
+      "explanation": "Humeur dépressive, anhédonie et perte d'énergie sont des manifestations centrales du tableau."
+    },
+    {
+      "question": "Une durée d'une semaine suffit toujours à caractériser l'épisode dépressif majeur décrit dans le TD.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : le TD retient une évolution des symptômes sur au moins deux semaines."
+    },
+    {
+      "question": "Quels deux éléments majeurs sont simultanément retrouvés chez Mme Smog ?",
+      "options": ["Une humeur dépressive et une perte d'intérêt", "Une euphorie et une fuite des idées", "Des hallucinations et une désorientation", "Des compulsions et des phobies"],
+      "correct": [0],
+      "explanation": "Le cas associe clairement tristesse pathologique et perte d'intérêt ou de plaisir."
+    },
+    {
+      "question": "Quels signes cliniques sont relevés chez Mme Smog ?",
+      "options": ["Un ralentissement psychomoteur", "Des troubles du sommeil", "Une perte d'appétit", "Une dévalorisation"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces manifestations psychiques, motrices et somatiques participent toutes au tableau dépressif."
+    },
+    {
+      "question": "L'anhédonie correspond à une diminution ou une perte de la capacité à éprouver du plaisir.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'anhédonie est une manifestation caractéristique de l'épisode dépressif."
+    },
+    {
+      "question": "Quels signes peuvent traduire un ralentissement psychomoteur ?",
+      "options": ["Une lenteur gestuelle", "Une parole ralentie", "Un temps de réponse allongé", "Une agitation euphorique permanente"],
+      "correct": [0, 1, 2],
+      "explanation": "Le ralentissement touche les mouvements, la parole et l'enchaînement des idées."
+    },
+    {
+      "question": "Quelles manifestations somatiques peuvent accompagner l'épisode dépressif de Mme Smog ?",
+      "options": ["Une insomnie", "Une anorexie", "Une perte de poids", "Une fatigue"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le tableau dépressif comporte des répercussions sur le sommeil, l'appétit, le poids et l'énergie."
+    },
+    {
+      "question": "L'absence d'expression spontanée d'idées suicidaires permet d'écarter le risque suicidaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : le risque doit être recherché activement et évalué, même si la personne n'en parle pas spontanément."
+    },
+    {
+      "question": "Quelles formes cliniques de dépression sont citées dans le TD ?",
+      "options": ["La forme mélancolique", "La forme anxieuse", "La forme masquée", "La forme délirante"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le TD présente plusieurs formes possibles, dont les formes mélancolique, anxieuse, masquée et délirante."
+    },
+    {
+      "question": "La forme mélancolique est associée à un risque suicidaire faible.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : la mélancolie est une forme grave comportant un risque suicidaire majeur."
+    },
+    {
+      "question": "À quelle classe appartient la fluoxétine (Prozac®) ?",
+      "options": ["Antidépresseur inhibiteur sélectif de la recapture de la sérotonine", "Benzodiazépine anxiolytique", "Hypnotique apparenté aux benzodiazépines", "Neuroleptique antipsychotique"],
+      "correct": [0],
+      "explanation": "La fluoxétine est un antidépresseur de la famille des inhibiteurs sélectifs de la recapture de la sérotonine."
+    },
+    {
+      "question": "Quel délai d'action thérapeutique est indiqué pour un antidépresseur dans le TD ?",
+      "options": ["Environ 15 à 20 jours", "Quelques minutes", "Deux à trois heures", "Toujours plus de six mois"],
+      "correct": [0],
+      "explanation": "L'amélioration clinique est retardée ; le TD indique un délai d'environ 15 à 20 jours."
+    },
+    {
+      "question": "L'absence d'amélioration après une semaine suffit à conclure définitivement à l'inefficacité de l'antidépresseur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : l'effet thérapeutique est différé, ce qui impose d'informer la patiente et de surveiller l'évolution."
+    },
+    {
+      "question": "Quels effets indésirables peuvent être surveillés sous fluoxétine ?",
+      "options": ["Des troubles digestifs", "Une agitation ou une anxiété", "Des troubles du sommeil", "Des céphalées"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le TD mentionne notamment des effets digestifs, une nervosité ou agitation, des troubles du sommeil et des céphalées."
+    },
+    {
+      "question": "Pourquoi la levée de l'inhibition sous antidépresseur impose-t-elle une vigilance particulière ?",
+      "options": ["L'énergie peut réapparaître avant la disparition des idées suicidaires", "Elle empêche toute observance", "Elle provoque systématiquement un délire", "Elle supprime immédiatement tout risque"],
+      "correct": [0],
+      "explanation": "La récupération motrice peut précéder l'amélioration thymique et rendre possible un passage à l'acte suicidaire."
+    },
+    {
+      "question": "La période de levée de l'inhibition peut survenir entre le 7e et le 21e jour du traitement antidépresseur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette période est signalée comme particulièrement sensible pour la surveillance du risque suicidaire."
+    },
+    {
+      "question": "Quel est l'objectif principal du prazépam prescrit à Mme Smog ?",
+      "options": ["Réduire l'anxiété", "Traiter un syndrome délirant", "Corriger des effets extrapyramidaux", "Prévenir une infection"],
+      "correct": [0],
+      "explanation": "Le prazépam est une benzodiazépine utilisée ici comme anxiolytique."
+    },
+    {
+      "question": "Quels risques ou effets indésirables sont associés aux benzodiazépines ?",
+      "options": ["Une somnolence", "Un risque de chute", "Une dépendance", "Des troubles de la mémoire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Sédation, chutes, dépendance et troubles mnésiques font partie des éléments à surveiller."
+    },
+    {
+      "question": "Une benzodiazépine peut être arrêtée brutalement sans risque particulier après une utilisation prolongée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : un arrêt brutal expose à un syndrome de sevrage ; la diminution doit être progressive sur prescription."
+    },
+    {
+      "question": "Quel est l'objectif de la zopiclone prescrite à Mme Smog ?",
+      "options": ["Favoriser le sommeil", "Traiter une hallucination", "Stimuler l'appétit", "Corriger une hypotension"],
+      "correct": [0],
+      "explanation": "La zopiclone est un hypnotique destiné à prendre en charge l'insomnie."
+    },
+    {
+      "question": "Quels effets indésirables peuvent être surveillés sous zopiclone ?",
+      "options": ["Une somnolence diurne", "Une amnésie", "Un goût amer ou métallique", "Un risque de dépendance"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces effets sont à rechercher, avec une vigilance particulière vis-à-vis des chutes et de la dépendance."
+    },
+    {
+      "question": "Quelles sont les priorités initiales de la prise en charge de Mme Smog ?",
+      "options": ["Évaluer le risque suicidaire", "Instaurer une relation d'aide", "Surveiller l'alimentation et le sommeil", "Favoriser l'observance du traitement"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La sécurité, l'alliance thérapeutique, les besoins fondamentaux et le traitement doivent être pris en charge conjointement."
+    },
+    {
+      "question": "Quel risque doit être évalué en priorité chez Mme Smog ?",
+      "options": ["Le risque suicidaire", "Le risque d'hyperthermie maligne", "Le risque de fugue lié à un délire", "Le risque de compulsion"],
+      "correct": [0],
+      "explanation": "Le tableau dépressif et les propos de désespoir rendent l'évaluation suicidaire prioritaire."
+    },
+    {
+      "question": "Que signifie l'acronyme RUD utilisé pour évaluer le risque suicidaire ?",
+      "options": ["Risque, urgence, dangerosité", "Repérage, unité, diagnostic", "Récidive, urgence, dépendance", "Réalité, utilité, décision"],
+      "correct": [0],
+      "explanation": "Le RUD structure l'évaluation autour du risque, de l'urgence et de la dangerosité."
+    },
+    {
+      "question": "Demander directement à une personne si elle pense au suicide et si elle a imaginé un scénario participe à l'évaluation clinique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le questionnement direct permet d'évaluer les idées, le scénario, les moyens disponibles et l'imminence."
+    },
+    {
+      "question": "Quels éléments orientent vers une urgence suicidaire élevée ?",
+      "options": ["Un scénario précis", "Un accès immédiat au moyen envisagé", "Une intention de passage à l'acte proche", "La présence de facteurs de protection solides"],
+      "correct": [0, 1, 2],
+      "explanation": "La précision du scénario, l'accès aux moyens et l'imminence augmentent l'urgence ; les facteurs de protection la modulent."
+    },
+    {
+      "question": "Quelles actions sont adaptées au suivi ambulatoire de Mme Smog ?",
+      "options": ["Programmer des contacts rapprochés", "Associer l'entourage avec son accord", "Donner les coordonnées à joindre en cas de crise", "Réévaluer régulièrement le risque suicidaire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le suivi repose sur la continuité des contacts, les ressources disponibles et la réévaluation répétée du risque."
+    },
+    {
+      "question": "Quelle attitude verbale est la plus adaptée face à Mme Smog ?",
+      "options": ["Écouter sans jugement et reformuler ce qu'elle exprime", "Lui demander de se ressaisir", "Minimiser sa souffrance pour la rassurer", "Éviter toute question sur le suicide"],
+      "correct": [0],
+      "explanation": "Une écoute empathique, disponible et non jugeante favorise l'expression de la souffrance et l'alliance thérapeutique."
+    },
+    {
+      "question": "Dire « Vous avez tout pour être heureuse » constitue une réponse thérapeutique adaptée à une personne dépressive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : cette formulation banalise la souffrance et risque de renforcer la culpabilité et l'incompréhension."
+    },
+    {
+      "question": "Quel est le rôle infirmier concernant l'observance du traitement antidépresseur ?",
+      "options": ["Expliquer le délai d'action", "Repérer les effets indésirables", "Vérifier la prise du traitement", "Alerter en cas d'aggravation ou d'idées suicidaires"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'information, la surveillance clinique et la transmission sont essentielles à la sécurité et à l'adhésion thérapeutique."
+    },
+    {
+      "question": "Quelles ressources peuvent soutenir une prise en charge ambulatoire ?",
+      "options": ["Le CMP", "Le médecin traitant", "L'entourage", "Les visites et contacts infirmiers"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le dispositif repose sur un réseau de soins et de soutien, coordonné et disponible."
+    },
+    {
+      "question": "Dans la situation de Mme Smog, la présence de sa fille, notamment la nuit, constitue un facteur de soutien à prendre en compte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La fille est identifiée comme une ressource de l'entourage participant à la sécurisation du retour à domicile."
+    },
+    {
+      "question": "Dans quelle situation une hospitalisation doit-elle être envisagée ?",
+      "options": ["Lorsque le risque suicidaire ne peut pas être sécurisé en ambulatoire", "Dès qu'une personne rapporte une nuit difficile", "Uniquement après six mois de traitement", "Jamais en cas de dépression"],
+      "correct": [0],
+      "explanation": "Une hospitalisation est indiquée lorsque le niveau d'urgence ou de danger ne permet pas une prise en charge ambulatoire sûre."
+    },
+    {
+      "question": "Toute personne présentant un épisode dépressif majeur doit obligatoirement être prise en charge uniquement à domicile.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : le lieu de soins dépend notamment de la gravité, du risque suicidaire et des possibilités de sécurisation."
+    },
+    {
+      "question": "Quels outils d'évaluation sont cités pour objectiver l'état dépressif ou le risque suicidaire ?",
+      "options": ["L'échelle de Hamilton", "L'échelle de Beck", "Le RUD", "L'échelle de Glasgow comme outil spécifique de la dépression"],
+      "correct": [0, 1, 2],
+      "explanation": "Hamilton et Beck peuvent apprécier la symptomatologie dépressive, tandis que le RUD structure l'évaluation suicidaire."
+    },
+    {
+      "question": "Quels diagnostics ou problèmes infirmiers sont pertinents dans la situation de Mme Smog ?",
+      "options": ["Risque de suicide", "Troubles du sommeil", "Nutrition inférieure aux besoins", "Isolement social"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces problèmes correspondent aux risques et manifestations décrits dans la situation clinique."
+    },
+    {
+      "question": "La fille de Mme Smog peut être considérée comme une personne ressource dans le projet de soins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Son implication peut contribuer au soutien, à la surveillance et à la continuité des soins, avec l'accord de la patiente."
+    },
+    {
+      "question": "Quels éléments doivent être explorés lorsqu'une patiente exprime des idées suicidaires ?",
+      "options": ["La présence d'un scénario", "Les moyens disponibles", "Le moment envisagé", "Les facteurs de protection et les personnes ressources"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'évaluation porte à la fois sur le projet suicidaire, son accessibilité et les éléments susceptibles de protéger la personne."
+    }
+  ]
+}

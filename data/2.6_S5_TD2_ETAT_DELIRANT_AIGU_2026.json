@@ -1,0 +1,276 @@
+{
+  "title": "UE 2.6 S5 - TD n°2 : état délirant aigu",
+  "subtitle": "Cas de M. Paul : bouffée délirante aiguë, TOMATE, SPDT, traitements et projet de soins",
+  "questions": [
+    {
+      "question": "Quelles dimensions sont explorées par le moyen mnémotechnique TOMATE lors de l'analyse d'un délire ?",
+      "options": ["Thèmes et organisation", "Mécanismes et adhésion", "Temporalité", "Émotion"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "TOMATE structure la description du contenu, de la construction, de la conviction, de l'ancienneté et du vécu affectif du délire."
+    },
+    {
+      "question": "À quoi correspond le thème d'un délire ?",
+      "options": ["Au sujet dont parlent les idées délirantes", "À la durée du trouble", "Au degré de conviction", "Au traitement prescrit"],
+      "correct": [0],
+      "explanation": "Le thème décrit le contenu du délire, par exemple persécution, mégalomanie ou mysticisme."
+    },
+    {
+      "question": "Que décrit l'organisation d'un délire ?",
+      "options": ["Les liens logiques ou l'absence de liens entre les idées", "La dose de neuroleptique", "L'orientation du patient dans le service", "La qualité du sommeil"],
+      "correct": [0],
+      "explanation": "Un délire est systématisé lorsqu'il forme une construction cohérente, et non systématisé lorsqu'il reste sans logique organisée."
+    },
+    {
+      "question": "Quels éléments peuvent constituer des mécanismes délirants ?",
+      "options": ["Hallucination", "Interprétation", "Intuition", "Imagination"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les mécanismes décrivent la manière dont les idées délirantes se construisent."
+    },
+    {
+      "question": "Que mesure l'adhésion au délire ?",
+      "options": ["Le degré de conviction du patient", "La durée de l'hospitalisation", "Le nombre de traitements", "La fréquence des repas"],
+      "correct": [0],
+      "explanation": "L'adhésion apprécie si le patient doute ou croit totalement à ses idées délirantes."
+    },
+    {
+      "question": "Pourquoi la temporalité est-elle importante dans l'analyse d'un état délirant ?",
+      "options": ["Elle aide à distinguer un trouble aigu d'une évolution chronique", "Elle mesure l'intensité de la douleur", "Elle remplace l'examen somatique", "Elle détermine seule le traitement"],
+      "correct": [0],
+      "explanation": "Une durée inférieure à six mois oriente vers un trouble psychotique aigu, alors qu'une persistance impose de réévaluer l'évolution."
+    },
+    {
+      "question": "Que recherche la lettre E de TOMATE ?",
+      "options": ["La tonalité émotionnelle et la congruence des affects", "L'équilibre alimentaire", "L'état des finances", "L'efficacité du traitement"],
+      "correct": [0],
+      "explanation": "L'émotion renseigne sur le vécu affectif du délire et le risque éventuel de passage à l'acte."
+    },
+    {
+      "question": "Une bouffée délirante aiguë peut apparaître brutalement chez une personne auparavant non psychotique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Son apparition est classiquement décrite comme un changement soudain et intense."
+    },
+    {
+      "question": "Quelles caractéristiques correspondent à une bouffée délirante aiguë ?",
+      "options": ["Délire polymorphe", "Fluctuation des idées", "Organisation souvent non systématisée", "Conviction souvent forte au début"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le tableau est intense, changeant et généralement peu cohérent, avec une forte adhésion initiale."
+    },
+    {
+      "question": "Le délire d'une bouffée délirante aiguë est toujours ancien, stable et parfaitement systématisé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il est d'apparition récente, fluctuant, polymorphe et souvent non systématisé."
+    },
+    {
+      "question": "Quels domaines peuvent être perturbés pendant une bouffée délirante aiguë ?",
+      "options": ["Présentation et contact", "Psychomotricité", "Fonctions intellectuelles et pensée", "Conduites instinctuelles et sociales"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le tableau peut affecter le comportement, la pensée, la perception, l'émotion et les conduites quotidiennes."
+    },
+    {
+      "question": "Quel diagnostic est évoqué devant le tableau aigu de M. Paul ?",
+      "options": ["Bouffée délirante aiguë", "Agoraphobie", "Trouble obsessionnel compulsif", "Démence évoluée"],
+      "correct": [0],
+      "explanation": "L'apparition récente d'un délire polymorphe avec hallucinations et désorganisation oriente vers une bouffée délirante aiguë."
+    },
+    {
+      "question": "L'absence d'antécédent psychiatrique exclut une bouffée délirante aiguë.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. M. Paul présente précisément un premier épisode psychiatrique aigu."
+    },
+    {
+      "question": "Quels facteurs ont pu participer au déclenchement de l'épisode de M. Paul ?",
+      "options": ["Rupture amoureuse", "Consommation importante de cannabis", "Stress psychosocial récent", "Observance prolongée d'un traitement neuroleptique"],
+      "correct": [0, 1, 2],
+      "explanation": "La rupture et la consommation de toxiques précèdent l'aggravation des symptômes."
+    },
+    {
+      "question": "Une symptomatologie délirante évoluant depuis moins de six mois soutient l'hypothèse d'un trouble psychotique aigu.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'évolution ultérieure reste néanmoins indispensable pour affiner le diagnostic."
+    },
+    {
+      "question": "Quels signes de présentation et de psychomotricité sont observés chez M. Paul ?",
+      "options": ["Vêtements froissés et hygiène négligée", "Mutisme presque total", "Regard figé", "Balancements et grimaces"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces éléments témoignent d'un trouble du contact, de la présentation et de la psychomotricité."
+    },
+    {
+      "question": "Quels éléments évoquent un trouble de la pensée ou de la perception chez M. Paul ?",
+      "options": ["Attitude d'écoute", "Rires immotivés", "Propos selon lesquels des personnes parlent dans sa tête", "Conviction d'être empoisonné par les aliments"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les attitudes d'écoute, hallucinations et interprétations persécutives traduisent l'activité délirante."
+    },
+    {
+      "question": "Quels troubles instinctuels et sociaux apparaissent chez M. Paul ?",
+      "options": ["Insomnie", "Refus alimentaire", "Repli et isolement", "Abandon des études"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le délire et la désorganisation retentissent sur les besoins fondamentaux et l'insertion sociale."
+    },
+    {
+      "question": "Que signifie SPDT ?",
+      "options": ["Soins psychiatriques à la demande d'un tiers", "Soins psychiatriques décidés par le travailleur social", "Surveillance psychiatrique de très courte durée", "Soins préventifs délivrés temporairement"],
+      "correct": [0],
+      "explanation": "La mère de M. Paul agit ici comme tiers demandeur."
+    },
+    {
+      "question": "Quels documents accompagnent normalement une admission en SPDT ?",
+      "options": ["Deux certificats médicaux horodatés établis par des médecins différents", "Demande écrite du tiers", "Copie du document d'identité du tiers", "Copie du document d'identité du patient"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La conformité de ces éléments administratifs doit être vérifiée à l'admission."
+    },
+    {
+      "question": "Une SPDT habituelle repose uniquement sur une demande orale du tiers, sans certificat médical.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. La demande écrite et les certificats médicaux requis doivent être présents."
+    },
+    {
+      "question": "Quels éléments justifient les soins sans consentement de M. Paul ?",
+      "options": ["Urgence psychiatrique", "Risque de passage à l'acte auto- ou hétéroagressif", "Incapacité à consentir de façon éclairée", "Besoin d'un cadre thérapeutique sécurisant"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le délire intense, l'absence de critique et les risques associés nécessitent protection et soins."
+    },
+    {
+      "question": "Pourquoi rechercher une cause somatique ou toxique devant un premier état délirant aigu ?",
+      "options": ["Pour éliminer une autre étiologie possible", "Pour confirmer automatiquement une schizophrénie", "Pour éviter tout examen clinique", "Pour remplacer l'entretien psychiatrique"],
+      "correct": [0],
+      "explanation": "Le bilan organique et toxicologique participe au diagnostic différentiel."
+    },
+    {
+      "question": "Un examen somatique est nécessaire avant une hospitalisation en psychiatrie, quel que soit le mode d'admission.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il recherche notamment une affection organique ou toxique pouvant expliquer le tableau."
+    },
+    {
+      "question": "Quelles évolutions sont possibles après une bouffée délirante aiguë ?",
+      "options": ["Disparition des symptômes avec reprise de contact avec la réalité", "Persistance de certains éléments psychotiques", "Récidive", "Évolution vers un trouble psychotique chronique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le suivi prolongé permet d'observer la récupération, les rechutes ou une éventuelle chronicisation."
+    },
+    {
+      "question": "La persistance d'idées délirantes au-delà de six mois impose de réévaluer l'hypothèse d'un trouble psychotique chronique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La durée et l'évolution sous traitement participent à l'orientation diagnostique."
+    },
+    {
+      "question": "Quelles actions appartiennent à l'accueil infirmier de M. Paul ?",
+      "options": ["Utiliser des mots simples et calmes", "Clarifier le cadre de l'hospitalisation", "Rassurer sans nier l'angoisse", "Évaluer les risques et instaurer une relation de confiance"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'accueil est essentiel pour sécuriser le patient et commencer l'alliance thérapeutique."
+    },
+    {
+      "question": "Adhérer aux idées délirantes de M. Paul constitue une bonne manière de gagner sa confiance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le soignant écoute la souffrance, reste neutre et s'appuie sur des éléments concrets de réalité."
+    },
+    {
+      "question": "Quelle communication est adaptée auprès de M. Paul ?",
+      "options": ["Des propos clairs, simples et cohérents", "Une confrontation agressive au délire", "Des messages ambigus", "Une validation du contenu hallucinatoire"],
+      "correct": [0],
+      "explanation": "La clarté et la neutralité réduisent l'angoisse et les risques d'interprétation."
+    },
+    {
+      "question": "Quelle précaution est indiquée pour les soins en chambre d'isolement au début de l'hospitalisation ?",
+      "options": ["Intervenir à deux soignants pendant les premières 48 heures", "Laisser le patient sans surveillance", "Supprimer toute transmission", "Entrer avec des objets dangereux"],
+      "correct": [0],
+      "explanation": "La présence de deux soignants sécurise les soins et permet une observation partagée."
+    },
+    {
+      "question": "Le traitement neuroleptique vise uniquement la sédation et ne doit pas modifier les hallucinations ou les idées délirantes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il vise aussi la diminution des symptômes positifs et de la désorganisation."
+    },
+    {
+      "question": "Quels changements cliniques peuvent traduire une amélioration de M. Paul ?",
+      "options": ["Diminution des attitudes d'écoute", "Regard moins fuyant", "Propos plus organisés", "Début de critique du délire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'observation clinique répétée permet d'apprécier l'évolution sous traitement."
+    },
+    {
+      "question": "Quels effets indésirables des neuroleptiques doivent être recherchés ?",
+      "options": ["Syndrome extrapyramidal", "Syndrome malin des neuroleptiques", "Hypotension orthostatique", "Constipation ou rétention urinaire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La surveillance associe examen neurologique, paramètres vitaux et fonctions végétatives."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une dyskinésie aiguë liée aux neuroleptiques ?",
+      "options": ["Protrusion de la langue", "Trismus", "Torticolis", "Blocage de la mâchoire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces signes touchant la tête et le cou nécessitent une prise en charge rapide."
+    },
+    {
+      "question": "Le syndrome malin des neuroleptiques est une complication rare mais potentiellement mortelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il engage le pronostic vital et impose une alerte médicale immédiate."
+    },
+    {
+      "question": "Quels signes font suspecter un syndrome malin des neuroleptiques ?",
+      "options": ["Hyperthermie", "Rigidité musculaire", "Altération de la conscience", "Instabilité cardiovasculaire et hypersudation"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'association de signes neurologiques, végétatifs et généraux constitue une urgence."
+    },
+    {
+      "question": "En présence de signes évocateurs d'un syndrome malin, le traitement neuroleptique doit être administré comme prévu sans prévenir le médecin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il faut prévenir immédiatement le médecin et ne pas administrer le neuroleptique."
+    },
+    {
+      "question": "Quelles surveillances répondent aux effets végétatifs des neuroleptiques ?",
+      "options": ["Pression artérielle couchée et debout", "Transit intestinal", "Hydratation et sécheresse buccale", "Élimination urinaire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'hypotension, la constipation, la sécheresse buccale et la rétention urinaire sont à rechercher."
+    },
+    {
+      "question": "Quels examens participent à la surveillance des neuroleptiques chez M. Paul ?",
+      "options": ["ECG", "NFS", "Bilan hépatique", "Recherche de toxiques"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'ECG recherche notamment un trouble de conduction et les bilans surveillent les complications biologiques."
+    },
+    {
+      "question": "Quels objectifs appartiennent au projet de soins à court terme de M. Paul ?",
+      "options": ["Réévaluer le cadre des soins sans consentement", "Soutenir la reprise de contact avec la réalité", "Poursuivre la prise en charge pluridisciplinaire", "Associer la famille au projet lorsque cela est possible"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le court terme vise l'apaisement, la sécurité, l'évaluation et l'alliance thérapeutique."
+    },
+    {
+      "question": "La levée des soins sans consentement doit être décidée immédiatement, sans tenir compte de la stabilité clinique de M. Paul.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Elle est envisagée après réévaluation et amélioration clinique dans le cadre légal prévu."
+    },
+    {
+      "question": "Quels éléments appartiennent au projet à long terme après une évolution favorable ?",
+      "options": ["Suivi ambulatoire par le CMP", "Poursuite d'une psychothérapie", "Suivi addictologique si nécessaire", "Reprise progressive des études"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le projet vise à prévenir les rechutes et à restaurer l'insertion sociale et universitaire."
+    },
+    {
+      "question": "Un suivi addictologique peut être indiqué après l'épisode de M. Paul en raison de sa consommation de cannabis.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un relais vers le réseau d'addictologie peut compléter le suivi psychiatrique."
+    },
+    {
+      "question": "Un correcteur antiparkinsonien peut être utilisé contre certains effets extrapyramidaux provoqués par les neuroleptiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il peut notamment corriger des manifestations parkinsoniennes médicamenteuses."
+    },
+    {
+      "question": "Quelle action favorise l'observance du traitement de M. Paul ?",
+      "options": ["Expliquer les objectifs et les effets indésirables en vérifiant la prise", "Cacher la nature du traitement", "Ignorer un refus", "Laisser les médicaments sans surveillance"],
+      "correct": [0],
+      "explanation": "L'information, la négociation et l'observation de la prise soutiennent l'adhésion thérapeutique."
+    }
+  ]
+}
