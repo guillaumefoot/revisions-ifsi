@@ -1,0 +1,246 @@
+{
+  "title": "UE 2.9 S5 - Cancer colorectal : risques et dépistage",
+  "subtitle": "Oncogenèse, polypes, facteurs de risque, prédispositions familiales, FIT et coloscopie",
+  "questions": [
+    {
+      "question": "Comment le côlon est-il défini par rapport à la jonction rectosigmoïdienne ?",
+      "options": ["Il se situe en amont de la jonction rectosigmoïdienne", "Il débute sous la marge anale", "Il correspond uniquement au rectum", "Il se situe uniquement dans l'estomac"],
+      "correct": [0],
+      "explanation": "Le côlon est situé au-dessus de la jonction rectosigmoïdienne et de S3."
+    },
+    {
+      "question": "Quelle répartition des cancers colorectaux est présentée ?",
+      "options": ["Environ 60 % dans le côlon et 40 % dans le rectum", "100 % dans le rectum", "10 % dans le côlon et 90 % dans l'estomac", "Uniquement dans le côlon droit"],
+      "correct": [0],
+      "explanation": "Toutes les parties peuvent être atteintes, avec une fréquence importante au côlon gauche et à la charnière rectosigmoïdienne."
+    },
+    {
+      "question": "Quels repères épidémiologiques caractérisent le cancer colorectal ?",
+      "options": ["Il touche les deux sexes", "L'âge médian au diagnostic dépasse 70 ans", "La survie dépend fortement du stade", "Il est exclusivement pédiatrique"],
+      "correct": [0, 1, 2],
+      "explanation": "Il s'agit d'un cancer fréquent de l'adulte âgé dont le pronostic s'améliore lorsqu'il est diagnostiqué tôt."
+    },
+    {
+      "question": "Quels types de polypes colorectaux sont distingués ?",
+      "options": ["Polypes adénomateux", "Polypes hyperplasiques", "Polypes juvéniles", "Pseudo-polypes inflammatoires"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le potentiel malin diffère selon l'origine histologique du polype."
+    },
+    {
+      "question": "Les polypes adénomateux possèdent un potentiel de transformation maligne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les adénomes constituent les principales lésions précancéreuses colorectales."
+    },
+    {
+      "question": "Quelles morphologies de polypes peuvent être observées en endoscopie ?",
+      "options": ["Pédiculée", "Sessile", "Plane", "Uniquement sphérique sous-muqueuse"],
+      "correct": [0, 1, 2],
+      "explanation": "La morphologie influence la technique d'exérèse endoscopique."
+    },
+    {
+      "question": "Quels objectifs a la polypectomie endoscopique ?",
+      "options": ["Retirer une lésion précancéreuse", "Obtenir une analyse anatomopathologique", "Interrompre la séquence adénome-cancer", "Provoquer volontairement une perforation"],
+      "correct": [0, 1, 2],
+      "explanation": "L'exérèse permet à la fois le diagnostic histologique et la prévention du cancer."
+    },
+    {
+      "question": "Quel délai est présenté pour la séquence adénome-cancer ?",
+      "options": ["Environ 10 à 20 ans", "Quelques minutes", "Toujours moins de 24 heures", "Plusieurs siècles"],
+      "correct": [0],
+      "explanation": "Cette évolution lente offre une fenêtre importante pour le dépistage et la polypectomie."
+    },
+    {
+      "question": "Tous les adénomes colorectaux évoluent obligatoirement vers un cancer.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : seule une minorité progresse, en fonction notamment de la taille, du nombre et de l'histologie."
+    },
+    {
+      "question": "Quels facteurs augmentent le risque de transformation d'un adénome ?",
+      "options": ["Une taille importante", "Une composante villeuse", "Une dysplasie de haut grade", "Des adénomes multiples"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces caractéristiques définissent les adénomes avancés à plus haut risque."
+    },
+    {
+      "question": "Quelles altérations appartiennent à la séquence chromosomique adénome-adénocarcinome présentée ?",
+      "options": ["APC", "K-RAS", "p53", "DCC ou SMAD", "BCR-ABL"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'accumulation progressive d'altérations accompagne la progression de la dysplasie au cancer."
+    },
+    {
+      "question": "Quels éléments expliquent l'intérêt d'un diagnostic précoce ?",
+      "options": ["La survie est élevée aux stades précoces", "Une lésion limitée peut être retirée", "Le traitement est souvent moins lourd", "Le stade n'influence jamais le pronostic"],
+      "correct": [0, 1, 2],
+      "explanation": "Le pronostic diminue nettement lorsque la maladie devient ganglionnaire ou métastatique."
+    },
+    {
+      "question": "Agir sur l'alimentation, le poids et l'activité physique pourrait réduire une part du risque colorectal.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La réduction estimée liée aux facteurs environnementaux modifiables est d'environ 30 %."
+    },
+    {
+      "question": "Quels facteurs environnementaux sont protecteurs vis-à-vis du cancer colorectal ?",
+      "options": ["Activité physique", "Poids normal", "Alimentation riche en fibres", "Consommation de fruits et légumes", "Sédentarité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La sédentarité et le surpoids sont au contraire défavorables."
+    },
+    {
+      "question": "Quels facteurs sont associés à une augmentation du risque colorectal ?",
+      "options": ["Surpoids", "Apport calorique excessif", "Viandes rouges ou grasses", "Graisses animales saturées", "Alcool et tabac"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces facteurs nutritionnels et comportementaux participent au risque environnemental."
+    },
+    {
+      "question": "Quels sujets appartiennent à un niveau de risque très élevé ?",
+      "options": ["Syndrome de Lynch", "Polypose adénomateuse familiale", "Population générale sans antécédent", "Prédisposition héréditaire documentée"],
+      "correct": [0, 1, 3],
+      "explanation": "Les syndromes héréditaires nécessitent une surveillance spécialisée et précoce."
+    },
+    {
+      "question": "La population générale sans symptôme ni antécédent appartient au niveau de risque très élevé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : elle correspond au risque moyen."
+    },
+    {
+      "question": "Quels éléments caractérisent une polypose adénomateuse familiale classique ?",
+      "options": ["Des centaines de polypes", "Un début dès l'adolescence", "Un risque colorectal très élevé", "Une indication de colectomie préventive selon la situation"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La multiplicité précoce des adénomes expose à un risque majeur de cancer."
+    },
+    {
+      "question": "Quelles associations génétiques sont correctes ?",
+      "options": ["PAF classique : gène APC, transmission autosomique dominante", "MAP : gène MUTYH, transmission autosomique récessive", "Syndrome de Lynch : gènes de réparation MMR", "PAF : anomalie BCR-ABL"],
+      "correct": [0, 1, 2],
+      "explanation": "Les polyposes et le syndrome de Lynch relèvent de mécanismes génétiques différents."
+    },
+    {
+      "question": "Quels cancers appartiennent au spectre du syndrome de Lynch ?",
+      "options": ["Cancer colorectal", "Cancer de l'endomètre", "Cancer de l'ovaire", "Cancer de l'estomac", "Cancers des voies urinaires"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le syndrome de Lynch prédispose à plusieurs cancers, notamment colorectal et endométrial."
+    },
+    {
+      "question": "Le syndrome de Lynch se transmet sur un mode autosomique dominant avec un risque de transmission de 50 %.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Chaque enfant d'une personne porteuse possède un risque sur deux d'hériter de l'anomalie."
+    },
+    {
+      "question": "Quels gènes sont impliqués dans la réparation des mésappariements de l'ADN dans le syndrome de Lynch ?",
+      "options": ["MLH1", "MSH2", "MSH6", "PMS2", "ABL"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le défaut des protéines MMR entraîne une instabilité des microsatellites."
+    },
+    {
+      "question": "Quels éléments doivent faire rechercher un syndrome de Lynch ?",
+      "options": ["Un cancer colorectal avant 50 ans", "Des cancers colorectaux multiples", "Un antécédent personnel ou familial du spectre", "Un phénotype tumoral MSI ou un déficit MMR"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'âge, la multiplicité, l'histoire familiale et la biologie tumorale orientent l'oncogénétique."
+    },
+    {
+      "question": "Quelle stratégie de dépistage correspond au niveau de risque ?",
+      "options": ["Risque moyen : test immunologique", "Risque élevé : coloscopie", "Risque très élevé : coloscopies précoces et rapprochées", "Même stratégie pour tous"],
+      "correct": [0, 1, 2],
+      "explanation": "Le niveau de risque détermine l'examen et son rythme."
+    },
+    {
+      "question": "Le test immunologique fécal suffit au suivi d'une personne porteuse d'un syndrome de Lynch.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : le très haut risque relève d'une surveillance endoscopique spécialisée."
+    },
+    {
+      "question": "Que contient le kit de test immunologique fécal ?",
+      "options": ["Un mode d'emploi", "Une fiche d'identification", "Un dispositif de recueil", "Un tube de prélèvement", "Une enveloppe de retour"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le kit réunit le matériel de prélèvement, l'identification et l'envoi."
+    },
+    {
+      "question": "Quel est le principe du test immunologique fécal ?",
+      "options": ["Rechercher du sang occulte dans les selles", "Mesurer le PSA", "Explorer directement le côlon avec une caméra", "Analyser la fonction rénale"],
+      "correct": [0],
+      "explanation": "Il détecte l'hémoglobine humaine présente en quantité anormale dans les selles."
+    },
+    {
+      "question": "Quelles qualités sont attribuées au test immunologique ?",
+      "options": ["Un seul prélèvement", "Une utilisation simple", "Une meilleure sensibilité que l'ancien test", "Une lecture automatisée", "Une spécificité élevée"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Sa simplicité et ses performances facilitent le dépistage organisé."
+    },
+    {
+      "question": "Un test immunologique positif impose une coloscopie, mais ne signifie pas à lui seul qu'un cancer est présent.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La coloscopie recherche la cause du saignement et permet le diagnostic."
+    },
+    {
+      "question": "Quelles consignes réduisent le risque qu'un test ne soit pas analysable ?",
+      "options": ["Noter la date sur la fiche et le tube", "Envoyer rapidement le prélèvement", "Éviter un envoi avant un jour férié", "Utiliser un test périmé"],
+      "correct": [0, 1, 2],
+      "explanation": "L'identification, la date et le délai d'acheminement conditionnent la validité du prélèvement."
+    },
+    {
+      "question": "Le taux de participation observé atteint le seuil minimal européen présenté.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : la participation de 34,3 % reste inférieure au seuil minimal de 45 %."
+    },
+    {
+      "question": "Quels rôles diagnostiques possède la coloscopie ?",
+      "options": ["Visualiser la muqueuse colorectale", "Détecter les polypes", "Réaliser des biopsies", "Préciser l'histologie des lésions prélevées"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La coloscopie permet une exploration complète et un prélèvement ciblé."
+    },
+    {
+      "question": "La coloscopie virtuelle est présentée comme la méthode de référence validée pour enlever les polypes.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : sa place n'est pas validée comme substitut thérapeutique à la coloscopie optique."
+    },
+    {
+      "question": "Quels éléments caractérisent la coloscopie ?",
+      "options": ["Préparation colique nécessaire", "Réalisation possible en ambulatoire", "Durée généralement courte", "Complications rares comme perforation ou hémorragie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'examen est à la fois diagnostique et potentiellement thérapeutique."
+    },
+    {
+      "question": "Pour quels profils une coloscopie est-elle indiquée d'emblée ?",
+      "options": ["Antécédent personnel d'adénome avancé", "Antécédent personnel de cancer colorectal", "Antécédents familiaux significatifs", "Maladie inflammatoire chronique intestinale", "Syndrome héréditaire"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces situations correspondent à un risque élevé ou très élevé."
+    },
+    {
+      "question": "Quels éléments peuvent justifier une orientation en oncogénétique ?",
+      "options": ["Cancer colorectal précoce", "Nombre élevé de polypes", "Plusieurs cancers du spectre familial", "Anomalie MMR ou MSI", "Absence de tout antécédent à 90 ans"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces signaux peuvent révéler une prédisposition héréditaire."
+    },
+    {
+      "question": "La coloscopie peut retirer immédiatement certains polypes et interrompre leur évolution vers le cancer.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La polypectomie constitue une véritable action de prévention secondaire."
+    },
+    {
+      "question": "Chez un homme de 65 ans asymptomatique dont le test FIT devient positif, quelle est l'étape suivante ?",
+      "options": ["Une consultation gastroentérologique et une coloscopie", "Une chimiothérapie immédiate", "Aucune exploration", "Une radiothérapie sans biopsie"],
+      "correct": [0],
+      "explanation": "Le test positif doit être exploré par coloscopie."
+    },
+    {
+      "question": "Un test FIT positif confirme à lui seul un cancer colorectal.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : de nombreuses coloscopies réalisées après un test positif ne retrouvent pas de cancer."
+    },
+    {
+      "question": "Le dépistage permet de détecter davantage de cancers à un stade précoce et améliore les possibilités de guérison.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La détection précoce permet souvent une prise en charge moins lourde et un meilleur pronostic."
+    }
+  ]
+}

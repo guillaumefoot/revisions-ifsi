@@ -1,0 +1,306 @@
+{
+  "title": "UE 2.9 S5 - Leucémies aiguës : diagnostic et urgences",
+  "subtitle": "Hématopoïèse, hémogramme, myélogramme, complications, traitements et rôle infirmier",
+  "questions": [
+    {
+      "question": "De quelle structure proviennent normalement toutes les cellules sanguines ?",
+      "options": ["D'une cellule souche médullaire", "Du thymus exclusivement", "Des ganglions uniquement", "Du foie uniquement chez l'adulte"],
+      "correct": [0],
+      "explanation": "Les cellules sanguines dérivent d'une cellule souche située dans la moelle osseuse."
+    },
+    {
+      "question": "Quelles cellules appartiennent à la lignée myéloïde ?",
+      "options": ["Les globules rouges", "Les plaquettes", "Les polynucléaires", "Les monocytes", "Les lymphocytes B"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La lignée myéloïde donne notamment les érythrocytes, plaquettes, polynucléaires et monocytes."
+    },
+    {
+      "question": "Quelles associations sont correctes ?",
+      "options": ["LAM : aiguë et myéloïde", "LAL : aiguë et lymphoïde", "LMC : chronique et myéloïde", "LLC : chronique et lymphoïde"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La classification combine la lignée atteinte et le caractère aigu ou chronique."
+    },
+    {
+      "question": "Une leucémie provoque obligatoirement une hyperleucocytose.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : elle peut se révéler par une pancytopénie ou un hémogramme presque normal."
+    },
+    {
+      "question": "Quels examens participent au diagnostic et à la caractérisation d'une leucémie ?",
+      "options": ["L'hémogramme", "Le myélogramme", "L'immunophénotypage", "Le caryotype ou la FISH", "La biologie moléculaire"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Chaque examen répond à une question complémentaire sur les cellules, leur lignée et leurs anomalies."
+    },
+    {
+      "question": "Dans quel ordre général lit-on les trois lignées d'un hémogramme ?",
+      "options": ["Hémoglobine, plaquettes, leucocytes", "Leucocytes, glycémie, créatinine", "Plaquettes, sodium, hémoglobine", "Lymphocytes, coagulation, hémoglobine"],
+      "correct": [0],
+      "explanation": "La lecture structurée commence par l'hémoglobine, puis les plaquettes et les leucocytes."
+    },
+    {
+      "question": "La formule leucocytaire doit être interprétée en valeurs absolues plutôt qu'en pourcentages seuls.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les valeurs absolues permettent d'apprécier réellement chaque population leucocytaire."
+    },
+    {
+      "question": "Quelle conduite impose la mention de blastes sur un hémogramme ?",
+      "options": ["Un avis hématologique le jour même", "Un contrôle annuel", "Une simple surveillance à domicile", "L'arrêt de toute investigation"],
+      "correct": [0],
+      "explanation": "La présence de blastes constitue un signal d'alerte nécessitant une évaluation hématologique urgente."
+    },
+    {
+      "question": "Quel seuil de blastes médullaires définit une leucémie aiguë ?",
+      "options": ["Plus de 20 %", "Plus de 2 %", "Plus de 50 % uniquement", "Exactement 100 %"],
+      "correct": [0],
+      "explanation": "Le seuil diagnostique présenté est supérieur à 20 % de blastes au myélogramme."
+    },
+    {
+      "question": "Une moelle pauvre ou dite déserte permet d'exclure une leucémie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : une moelle pauvre ne signe pas l'absence de maladie."
+    },
+    {
+      "question": "Quel examen permet principalement de distinguer une LAM d'une LAL ?",
+      "options": ["L'immunophénotypage", "La radiographie thoracique", "L'électrocardiogramme", "La glycémie capillaire"],
+      "correct": [0],
+      "explanation": "La cytométrie en flux identifie les antigènes cellulaires et précise la lignée des blastes."
+    },
+    {
+      "question": "Que recherchent respectivement le caryotype, la FISH et le séquençage ?",
+      "options": ["De grandes anomalies chromosomiques, une anomalie ciblée et des mutations", "Une infection, une anémie et une douleur", "La coagulation, la glycémie et la fonction rénale", "Uniquement le nombre de globules rouges"],
+      "correct": [0],
+      "explanation": "Ces examens explorent les anomalies génétiques à des niveaux de précision différents."
+    },
+    {
+      "question": "Quelles actions infirmières sont adaptées avant un myélogramme ?",
+      "options": ["Vérifier la compréhension et le consentement", "Anticiper l'antalgie", "Préparer les lames, tubes et étiquettes", "Administrer systématiquement un anticoagulant"],
+      "correct": [0, 1, 2],
+      "explanation": "La préparation associe information, antalgie et organisation rigoureuse du matériel."
+    },
+    {
+      "question": "Quelles actions sont adaptées pendant le myélogramme ?",
+      "options": ["Installer et rassurer", "Surveiller un malaise vagal", "Acheminer rapidement les prélèvements", "Laisser le patient sans surveillance"],
+      "correct": [0, 1, 2],
+      "explanation": "Le rôle infirmier porte sur le confort, la sécurité et la qualité pré-analytique."
+    },
+    {
+      "question": "Quelles surveillances sont nécessaires après un myélogramme ?",
+      "options": ["Compression du point de ponction", "Recherche d'un saignement", "Réévaluation de la douleur", "Massage énergique systématique du site"],
+      "correct": [0, 1, 2],
+      "explanation": "Le risque hémorragique est accru en cas de thrombopénie et la douleur doit être réévaluée."
+    },
+    {
+      "question": "Une suspicion de leucémie aiguë constitue une urgence diagnostique et thérapeutique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le diagnostic doit être mené en heures et le patient hospitalisé le jour même."
+    },
+    {
+      "question": "Comment se définit une leucémie aiguë ?",
+      "options": ["Une prolifération clonale de cellules immatures bloquées dans leur différenciation", "Une infection transitoire des lymphocytes", "Une baisse isolée et bénigne du fer", "Une prolifération uniquement extramédullaire"],
+      "correct": [0],
+      "explanation": "Les blastes prolifèrent à partir de la moelle tout en restant bloqués à un stade immature."
+    },
+    {
+      "question": "Quelles conséquences produit l'accumulation de blastes ?",
+      "options": ["Un envahissement médullaire", "Une insuffisance des lignées normales", "Une infiltration possible d'organes", "Une normalisation spontanée de l'hémogramme"],
+      "correct": [0, 1, 2],
+      "explanation": "Les blastes occupent la moelle, étouffent l'hématopoïèse normale et peuvent infiltrer les organes."
+    },
+    {
+      "question": "Quels profils d'âge sont associés aux leucémies aiguës ?",
+      "options": ["La LAM touche surtout le sujet âgé", "La LAL présente un pic chez l'enfant", "La LAL peut aussi présenter un second pic après 60 ans", "La LAM est exclusivement pédiatrique"],
+      "correct": [0, 1, 2],
+      "explanation": "La LAM et la LAL ont des profils d'âge différents, sans exclusivité absolue."
+    },
+    {
+      "question": "Un facteur de risque identifiable est retrouvé dans tous les cas de leucémie aiguë.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : dans la majorité des cas, aucun facteur de risque n'est retrouvé."
+    },
+    {
+      "question": "Quels éléments sont cités comme facteurs de risque ou antécédents associés ?",
+      "options": ["Trisomie 21", "Radiations ionisantes", "Benzène", "Traitements alkylants", "Syndrome myélodysplasique"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Des facteurs génétiques, toxiques, iatrogènes et hématologiques sont décrits."
+    },
+    {
+      "question": "Chez une patiente fatiguée, dyspnéique, fébrile et présentant des ecchymoses, quel examen demander en premier ?",
+      "options": ["Un hémogramme", "Une radiographie du genou", "Une audiométrie", "Un test cutané allergique"],
+      "correct": [0],
+      "explanation": "L'hémogramme recherche l'atteinte simultanée des trois lignées."
+    },
+    {
+      "question": "Quels syndromes traduisent une insuffisance médullaire ?",
+      "options": ["Un syndrome anémique", "Un syndrome infectieux", "Un syndrome hémorragique", "Un syndrome néphrotique obligatoire"],
+      "correct": [0, 1, 2],
+      "explanation": "L'atteinte des globules rouges, neutrophiles et plaquettes explique ces trois syndromes."
+    },
+    {
+      "question": "Une anémie peut provoquer pâleur, dyspnée d'effort, tachycardie et vertiges.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces manifestations sont celles du syndrome anémique décrit."
+    },
+    {
+      "question": "Quels signes peuvent révéler une neutropénie infectieuse ?",
+      "options": ["Une fièvre isolée", "Une angine ulcéro-nécrotique", "Un foyer infectieux profond", "Une hypertension isolée"],
+      "correct": [0, 1, 2],
+      "explanation": "L'infection peut se manifester de façon peu bruyante chez le patient neutropénique."
+    },
+    {
+      "question": "Les injections intramusculaires et les gestes rectaux sont recommandés en cas de thrombopénie sévère.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : ils augmentent le risque hémorragique et doivent être évités."
+    },
+    {
+      "question": "Quels éléments peuvent appartenir au syndrome tumoral d'une leucémie aiguë ?",
+      "options": ["Des adénopathies", "Une splénomégalie", "Une hypertrophie gingivale", "Des nodules cutanés", "Des douleurs osseuses"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le syndrome tumoral résulte de l'infiltration des organes par les cellules leucémiques."
+    },
+    {
+      "question": "Quels signes peuvent évoquer une leucostase liée à une hyperviscosité ?",
+      "options": ["Des troubles neurologiques", "Une détresse respiratoire", "Un coma", "Une insuffisance hépatique"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'hyperleucocytose majeure peut compromettre les circulations cérébrale, pulmonaire et viscérale."
+    },
+    {
+      "question": "Une transfusion de culots globulaires peut aggraver l'hyperviscosité lors d'une hyperleucocytose majeure.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle doit être évitée ou réalisée avec une grande prudence tant que la leucocytose n'est pas abaissée."
+    },
+    {
+      "question": "Quelles anomalies biologiques caractérisent un syndrome de lyse tumorale ?",
+      "options": ["Hyperkaliémie", "Hyperuricémie", "Hyperphosphorémie", "Hypocalcémie", "Insuffisance rénale aiguë"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La destruction cellulaire libère potassium, acide urique et phosphore, avec baisse du calcium et risque rénal."
+    },
+    {
+      "question": "Quelles mesures participent à la prévention ou à la surveillance d'une lyse tumorale ?",
+      "options": ["Hyperhydratation", "Traitement hypo-uricémiant", "Diurèse horaire", "Bilan entrées-sorties", "Ionogrammes rapprochés"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La surveillance hydrique, rénale et électrolytique doit être rapprochée."
+    },
+    {
+      "question": "Un syndrome de lyse tumorale survient uniquement après la fin du traitement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : il peut être présent au diagnostic ou apparaître dans les 72 heures suivant le début du traitement."
+    },
+    {
+      "question": "Quelles présentations atypiques peuvent révéler une leucémie aiguë ?",
+      "options": ["Une pancytopénie sans blaste circulant", "Une cytopénie isolée", "Un hémogramme presque normal", "Uniquement une hyperleucocytose massive"],
+      "correct": [0, 1, 2],
+      "explanation": "L'absence d'hyperleucocytose ou de blastes circulants n'écarte pas le diagnostic."
+    },
+    {
+      "question": "Un hémogramme normal n'élimine pas formellement une leucémie aiguë.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le diagnostic peut nécessiter un myélogramme malgré un sang périphérique peu évocateur."
+    },
+    {
+      "question": "Quels éléments orientent le diagnostic médullaire d'une leucémie aiguë ?",
+      "options": ["Plus de 20 % de blastes", "Une moelle souvent riche", "Un effondrement des autres lignées", "Une identification cytologique des blastes"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le myélogramme quantifie et caractérise l'envahissement blastique."
+    },
+    {
+      "question": "Dans la situation de Mme L., quelles associations sont correctes ?",
+      "options": ["Hémoglobine basse et dyspnée", "Plaquettes basses et ecchymoses", "Neutrophiles très bas et fièvre", "Plaquettes élevées et hémorragie"],
+      "correct": [0, 1, 2],
+      "explanation": "Les symptômes s'expliquent par l'atteinte concomitante des trois lignées."
+    },
+    {
+      "question": "Une échographie cardiaque fait partie du bilan préthérapeutique avant des anthracyclines.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle permet d'évaluer la fonction cardiaque avant un traitement potentiellement cardiotoxique."
+    },
+    {
+      "question": "Quelles situations font partie des urgences des leucémies aiguës ?",
+      "options": ["Hémorragie", "Neutropénie fébrile", "Choc septique", "Leucostase", "Syndrome de lyse", "Anémie mal tolérée"],
+      "correct": [0, 1, 2, 3, 4, 5],
+      "explanation": "Ces six complications peuvent engager rapidement le pronostic vital."
+    },
+    {
+      "question": "Quel profil thermique doit faire évoquer une neutropénie fébrile ?",
+      "options": ["Une température ≥ 38,3 °C ou 38 °C à deux reprises", "Une température stable à 36,8 °C", "Une hypothermie volontaire", "Une fièvre uniquement supérieure à 41 °C"],
+      "correct": [0],
+      "explanation": "Toute fièvre répondant à ces critères constitue une urgence chez un patient neutropénique."
+    },
+    {
+      "question": "Quelles étapes appartiennent à la prise en charge de la première heure d'une neutropénie fébrile ?",
+      "options": ["Constantes complètes et recherche de choc", "Hémocultures périphériques et sur chaque voie centrale", "Recherche des points d'appel", "Antibiothérapie à large spectre dans l'heure", "Surveillance rapprochée"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les prélèvements précèdent si possible l'antibiothérapie, qui ne doit jamais être retardée."
+    },
+    {
+      "question": "L'antibiothérapie doit être retardée jusqu'à l'obtention de tous les résultats microbiologiques.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : elle doit débuter dans l'heure après les prélèvements, sans attendre les résultats."
+    },
+    {
+      "question": "Devant céphalées, somnolence et confusion, quelle conduite est prioritaire ?",
+      "options": ["Constantes, glycémie et appel médical immédiat", "Attendre la prochaine visite", "Faire marcher le patient seul", "Donner une boisson chaude uniquement"],
+      "correct": [0],
+      "explanation": "Ces signes peuvent traduire une leucostase ou une hémorragie cérébrale."
+    },
+    {
+      "question": "Quels facteurs sont associés au pronostic d'une leucémie aiguë ?",
+      "options": ["L'âge", "L'importance du syndrome tumoral", "Une localisation neuroméningée", "La leucocytose", "Le caryotype et la biologie moléculaire"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le pronostic dépend de caractéristiques cliniques, cytologiques et génétiques."
+    },
+    {
+      "question": "Comment se définit la rémission complète présentée ?",
+      "options": ["Moins de 5 % de blastes et hémogramme normalisé", "Absence totale de suivi", "Plus de 20 % de blastes", "Disparition de toute fatigue uniquement"],
+      "correct": [0],
+      "explanation": "La rémission complète combine réponse médullaire et récupération hématologique."
+    },
+    {
+      "question": "Une rémission complète signifie que la consolidation n'est plus nécessaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : la rémission précède la consolidation et ne la remplace pas."
+    },
+    {
+      "question": "Quel est l'objectif principal du traitement d'induction ?",
+      "options": ["Obtenir une rémission complète", "Traiter seulement la douleur", "Éviter toute aplasie", "Supprimer le suivi biologique"],
+      "correct": [0],
+      "explanation": "L'induction vise à réduire fortement la masse leucémique et obtenir la rémission."
+    },
+    {
+      "question": "Quel est l'objectif de la consolidation ?",
+      "options": ["Éliminer la maladie résiduelle", "Provoquer une hyperleucocytose", "Remplacer le diagnostic", "Arrêter toute surveillance"],
+      "correct": [0],
+      "explanation": "Des cures répétées cherchent à détruire les cellules leucémiques persistantes."
+    },
+    {
+      "question": "L'induction peut être suivie d'environ trois semaines d'aplasie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette période impose une prévention infectieuse et une surveillance infirmière étroites."
+    },
+    {
+      "question": "Quelles règles sont essentielles lors de l'administration d'une chimiothérapie ?",
+      "options": ["Double vérification de la prescription et du produit", "Protection par gants et surblouse", "Vérification de la voie centrale", "Arrêt immédiat en cas d'extravasation", "Élimination dans la filière adaptée"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La sécurisation concerne le patient, la voie d'abord, le soignant et l'environnement."
+    },
+    {
+      "question": "Quelles surveillances concernent un patient allogreffé ?",
+      "options": ["Éruption cutanée", "Diarrhée", "Ictère", "Poids", "Signes infectieux"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces éléments peuvent révéler une réaction du greffon contre l'hôte ou une complication de l'immunodépression."
+    }
+  ]
+}

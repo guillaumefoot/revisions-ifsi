@@ -1,0 +1,126 @@
+{
+  "title": "UE 2.9 S5 - Dispositif d'annonce en oncologie",
+  "subtitle": "Historique, quatre temps, consultation infirmière, soins de support et coordination",
+  "questions": [
+    {
+      "question": "Quel événement de 1998 a participé à l'évolution de l'annonce en cancérologie ?",
+      "options": ["Les États généraux du cancer", "La création du dossier pharmaceutique", "La première greffe cardiaque", "La suppression des réunions de concertation"],
+      "correct": [0],
+      "explanation": "Les associations et les États généraux du cancer ont contribué à la volonté politique d'améliorer l'accompagnement."
+    },
+    {
+      "question": "Quelles mesures sont associées au premier Plan cancer ?",
+      "options": ["Création de l'INCa", "Création du dispositif d'annonce", "Développement des réunions de concertation pluridisciplinaire", "Lutte contre le tabac"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le premier Plan cancer a structuré plusieurs dispositifs nationaux de prévention et de prise en charge."
+    },
+    {
+      "question": "Le deuxième Plan cancer a notamment renforcé le dépistage du cancer colorectal et instauré le programme personnalisé de soins.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le PPS et les actions concernant la vie pendant et après le cancer sont associés à cette période."
+    },
+    {
+      "question": "Quel objectif est particulièrement associé au troisième Plan cancer ?",
+      "options": ["Réduire les inégalités face au cancer", "Supprimer les soins de support", "Limiter le dépistage aux personnes hospitalisées", "Remplacer toute consultation par une brochure"],
+      "correct": [0],
+      "explanation": "L'accent est mis sur les populations vulnérables et les inégalités de santé."
+    },
+    {
+      "question": "Quels axes appartiennent à la stratégie décennale 2021-2030 ?",
+      "options": ["Prévention orientée vers la jeunesse", "Développement du dépistage", "Virage ambulatoire", "Limitation des séquelles et amélioration de la qualité de vie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La stratégie combine prévention, dépistage, évolution des parcours et qualité de vie."
+    },
+    {
+      "question": "Le dispositif d'annonce se résume à une seule consultation médicale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : il comprend quatre temps complémentaires et une coordination du parcours."
+    },
+    {
+      "question": "Quels sont les quatre temps forts du dispositif d'annonce ?",
+      "options": ["Consultation médicale", "Consultation infirmière", "Accès aux soins de support", "Articulation avec la ville", "Isolement systématique du patient"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ces quatre temps organisent une annonce progressive et un accompagnement coordonné."
+    },
+    {
+      "question": "Quel est le parcours général conduisant au spécialiste dans le dispositif présenté ?",
+      "options": ["Du médecin généraliste au médecin spécialiste", "Du laboratoire directement au domicile sans consultation", "Du pharmacien à la chirurgie sans diagnostic", "Du patient à l'administration uniquement"],
+      "correct": [0],
+      "explanation": "Le parcours articule la médecine de ville et les professionnels spécialisés."
+    },
+    {
+      "question": "La consultation d'annonce vise un accompagnement humain et personnalisé, au-delà d'une information technique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'annonce doit considérer la personne dans sa globalité et respecter sa temporalité."
+    },
+    {
+      "question": "Quelles conditions favorisent le bon déroulement de la consultation d'annonce ?",
+      "options": ["Un lieu adapté", "Le respect de la temporalité du patient", "Une attention particulière à la première rencontre", "Une transmission précipitée de toutes les informations"],
+      "correct": [0, 1, 2],
+      "explanation": "Le cadre et le rythme de l'information influencent la compréhension et la relation de confiance."
+    },
+    {
+      "question": "Quels éléments doivent être évalués pendant la consultation infirmière ?",
+      "options": ["Les connaissances du patient", "Son seuil d'acceptation", "Ses besoins globaux", "Uniquement son identité administrative"],
+      "correct": [0, 1, 2],
+      "explanation": "L'évaluation adapte l'information et l'accompagnement aux capacités et besoins de la personne."
+    },
+    {
+      "question": "La même quantité d'informations doit être imposée à tous les patients au même moment.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : l'information doit tenir compte de la temporalité et du seuil d'acceptation de chaque patient."
+    },
+    {
+      "question": "Sur quels sujets la consultation apporte-t-elle des informations ?",
+      "options": ["La pathologie", "Le traitement", "Le parcours de soins", "Les ressources mobilisables"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'information aide le patient à comprendre sa maladie, ses soins et les soutiens disponibles."
+    },
+    {
+      "question": "Quels liens l'infirmière coordinatrice contribue-t-elle à établir ?",
+      "options": ["Avec l'équipe soignante", "Avec les soins de support", "Avec les professionnels de ville", "Avec les dispositifs de télésurveillance"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La consultation facilite la continuité entre les différents acteurs du parcours."
+    },
+    {
+      "question": "Quel rôle joue l'accès aux soins de support ?",
+      "options": ["Répondre aux besoins complémentaires liés à la maladie et aux traitements", "Remplacer systématiquement le traitement anticancéreux", "Supprimer les consultations médicales", "Limiter l'accompagnement au séjour hospitalier"],
+      "correct": [0],
+      "explanation": "Les soins de support complètent la prise en charge oncologique selon les besoins du patient."
+    },
+    {
+      "question": "La consultation infirmière constitue un moment où le patient peut faire le point sur sa situation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle permet de reprendre les informations, d'identifier les besoins et de préparer la suite du parcours."
+    },
+    {
+      "question": "Quels objectifs relationnels sont recherchés lors de la consultation infirmière ?",
+      "options": ["Créer une relation de confiance", "Favoriser l'expression des questions", "Personnaliser l'accompagnement", "Éviter tout échange avec l'entourage"],
+      "correct": [0, 1, 2],
+      "explanation": "La relation de confiance soutient la compréhension et l'engagement du patient."
+    },
+    {
+      "question": "Que cherche à favoriser l'autonomisation du patient ?",
+      "options": ["Sa participation éclairée au parcours et aux traitements", "Une prise de décision sans aucune information", "L'arrêt des contacts avec les soignants", "L'abandon de la surveillance"],
+      "correct": [0],
+      "explanation": "Le patient doit disposer de repères pour comprendre, décider et agir dans son parcours."
+    },
+    {
+      "question": "Une mauvaise observance ne peut jamais entraîner de perte de chance en oncologie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : l'accompagnement vise notamment à prévenir une perte de chance liée à une mauvaise observance."
+    },
+    {
+      "question": "Quelles actions résument le rôle de la consultation infirmière d'annonce ?",
+      "options": ["Évaluer la compréhension", "Reprendre les informations", "Orienter vers les ressources", "Coordonner les liens du parcours", "Soutenir l'autonomie"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La consultation associe écoute, information, orientation et coordination."
+    }
+  ]
+}

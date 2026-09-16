@@ -1,0 +1,186 @@
+{
+  "title": "UE 2.9 S5 - Leucémies chroniques : LMC et LLC",
+  "subtitle": "Diagnostic, thérapies ciblées, observance, complications et rôle infirmier",
+  "questions": [
+    {
+      "question": "Quelle population cellulaire prolifère principalement dans la leucémie myéloïde chronique ?",
+      "options": ["Des polynucléaires matures", "Des blastes lymphoïdes uniquement", "Des globules rouges matures", "Des plasmocytes"],
+      "correct": [0],
+      "explanation": "La LMC se caractérise par une prolifération de cellules myéloïdes qui continuent à mûrir."
+    },
+    {
+      "question": "Quelle anomalie chromosomique caractérise la LMC ?",
+      "options": ["La translocation t(9;22)", "Une trisomie 21 acquise obligatoire", "La délétion isolée du chromosome X", "Une translocation t(8;14)"],
+      "correct": [0],
+      "explanation": "La translocation entre les chromosomes 9 et 22 crée le chromosome Philadelphie."
+    },
+    {
+      "question": "Le gène de fusion BCR-ABL code une tyrosine kinase activée en permanence.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette activation permanente entretient le signal de prolifération cellulaire."
+    },
+    {
+      "question": "Quelles conséquences découlent de l'activité de BCR-ABL ?",
+      "options": ["Un signal continu de prolifération", "Une accumulation de polynucléaires", "Une augmentation des cellules dans le sang et la rate", "Un arrêt complet de toute maturation"],
+      "correct": [0, 1, 2],
+      "explanation": "Contrairement aux leucémies aiguës, la maturation persiste mais la prolifération devient excessive."
+    },
+    {
+      "question": "Quels éléments peuvent révéler une LMC ?",
+      "options": ["Une découverte fortuite", "Une fatigue", "Une pesanteur abdominale liée à une splénomégalie", "Une hyperleucocytose avec myélémie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La maladie peut être peu symptomatique et découverte sur un hémogramme de routine."
+    },
+    {
+      "question": "Quel profil biologique est particulièrement évocateur d'une LMC ?",
+      "options": ["Une myélémie complète associée à une basophilie", "Une thrombopénie isolée avec ferritine basse", "Une lymphopénie sans autre anomalie", "Une hypoglycémie isolée"],
+      "correct": [0],
+      "explanation": "La présence dans le sang de tous les stades de maturation granuleuse avec basophilie est très évocatrice."
+    },
+    {
+      "question": "Dans la LMC, les cellules sont obligatoirement bloquées au stade de blaste dès le diagnostic.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : en phase chronique, les cellules mûrissent mais prolifèrent en trop grand nombre."
+    },
+    {
+      "question": "Quels examens confirment et suivent une LMC ?",
+      "options": ["Le caryotype recherchant le chromosome Philadelphie", "La biologie moléculaire quantifiant BCR-ABL", "L'hémogramme et le frottis", "Un test allergologique cutané"],
+      "correct": [0, 1, 2],
+      "explanation": "Les données hématologiques, cytogénétiques et moléculaires se complètent."
+    },
+    {
+      "question": "Quelles phases appartiennent à l'histoire naturelle classique de la LMC ?",
+      "options": ["Phase chronique", "Phase d'accélération", "Phase blastique", "Phase d'aplasie physiologique"],
+      "correct": [0, 1, 2],
+      "explanation": "Avant les thérapies ciblées, la maladie progressait classiquement vers l'accélération puis l'acutisation."
+    },
+    {
+      "question": "Les inhibiteurs de tyrosine kinase ont rendu l'acutisation de la LMC beaucoup plus rare.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La phase chronique peut aujourd'hui être prolongée sous traitement oral."
+    },
+    {
+      "question": "Comment agissent les inhibiteurs de tyrosine kinase dans la LMC ?",
+      "options": ["Ils bloquent le site actif de BCR-ABL", "Ils stimulent la production de BCR-ABL", "Ils remplacent les plaquettes", "Ils détruisent mécaniquement la rate"],
+      "correct": [0],
+      "explanation": "Le blocage de la kinase interrompt le signal anormal de prolifération."
+    },
+    {
+      "question": "Comment suit-on principalement la réponse moléculaire sous traitement ?",
+      "options": ["Par la quantification du transcrit BCR-ABL", "Par une radiographie quotidienne", "Par le poids seul", "Par la glycémie uniquement"],
+      "correct": [0],
+      "explanation": "La quantité de transcrit reflète directement la maladie résiduelle."
+    },
+    {
+      "question": "Une réponse moléculaire majeure correspond à une augmentation du transcrit BCR-ABL au-dessus de 10 %.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : l'objectif présenté est une diminution à 0,1 %."
+    },
+    {
+      "question": "Dans quelle situation un arrêt du traitement de la LMC peut-il parfois être discuté ?",
+      "options": ["Après une réponse moléculaire profonde et prolongée", "Dès le premier comprimé", "En cas d'augmentation rapide de BCR-ABL", "Sans aucun suivi biologique"],
+      "correct": [0],
+      "explanation": "L'arrêt reste réservé à certains patients durablement en réponse moléculaire profonde."
+    },
+    {
+      "question": "Quelles actions infirmières favorisent l'observance d'un traitement oral de LMC ?",
+      "options": ["Explorer les oublis sans jugement", "Proposer un pilulier ou une alarme", "Ancrer la prise dans une routine", "Expliquer la conduite à tenir en cas d'oubli"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'accompagnement recherche les difficultés concrètes et construit des solutions adaptées."
+    },
+    {
+      "question": "Quels effets indésirables des inhibiteurs de tyrosine kinase doivent être signalés précocement ?",
+      "options": ["Crampes", "Œdèmes", "Troubles digestifs", "Cytopénies"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Leur prise en charge précoce aide à éviter un arrêt non encadré du traitement."
+    },
+    {
+      "question": "Une observance imparfaite peut entraîner une remontée du transcrit BCR-ABL.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'efficacité du traitement oral dépend directement de la régularité des prises."
+    },
+    {
+      "question": "Quelle formulation favorise le dialogue sur l'observance ?",
+      "options": ["Combien de comprimés avez-vous oubliés ce mois-ci ?", "Vous prenez forcément bien votre traitement, n'est-ce pas ?", "Les oublis sont inacceptables", "Il est inutile de parler des effets secondaires"],
+      "correct": [0],
+      "explanation": "Une question ouverte et non culpabilisante facilite une réponse honnête."
+    },
+    {
+      "question": "Comment se définit principalement la leucémie lymphoïde chronique ?",
+      "options": ["Une prolifération monoclonale de lymphocytes matures le plus souvent B", "Une prolifération exclusive de blastes myéloïdes", "Une infection aiguë des ganglions", "Une aplasie médullaire isolée"],
+      "correct": [0],
+      "explanation": "Les lymphocytes sont matures, de morphologie normale, et infiltrent sang, moelle et ganglions."
+    },
+    {
+      "question": "La LLC est toujours symptomatique et nécessite toujours un traitement immédiat.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : elle est souvent découverte fortuitement et peut relever d'une surveillance simple."
+    },
+    {
+      "question": "Quels examens suffisent généralement au diagnostic initial d'une LLC au stade précoce présenté ?",
+      "options": ["L'hémogramme", "L'immunophénotypage", "Le myélogramme systématique", "Le scanner systématique"],
+      "correct": [0, 1],
+      "explanation": "Lymphocytose et phénotype caractéristique permettent le diagnostic sans myélogramme ni scanner systématiques au stade A."
+    },
+    {
+      "question": "Quels éléments sont caractéristiques de la LLC sur le sang périphérique ?",
+      "options": ["Lymphocytose supérieure à 5 G/L", "Petits lymphocytes matures", "Ombres de Gumprecht", "Blastes myéloïdes avec corps d'Auer"],
+      "correct": [0, 1, 2],
+      "explanation": "Les ombres de Gumprecht sont des lymphocytes écrasés lors de l'étalement."
+    },
+    {
+      "question": "Sur quels éléments repose la classification de Binet ?",
+      "options": ["Le nombre d'aires ganglionnaires atteintes", "L'hémoglobine", "Le nombre de plaquettes", "La glycémie"],
+      "correct": [0, 1, 2],
+      "explanation": "Elle combine l'extension ganglionnaire et l'atteinte de l'hématopoïèse."
+    },
+    {
+      "question": "Quel profil correspond au stade C de Binet ?",
+      "options": ["Hémoglobine inférieure à 10 g/dL ou plaquettes inférieures à 100 G/L", "Hématopoïèse normale et moins de trois aires", "Une glycémie supérieure à 1 g/L", "Une fièvre isolée sans cytopénie"],
+      "correct": [0],
+      "explanation": "Le stade C est défini par une anémie ou une thrombopénie, quel que soit le syndrome tumoral."
+    },
+    {
+      "question": "L'abstention thérapeutique surveillée au stade précoce constitue une décision médicale active.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Surveiller sans traiter immédiatement ne signifie pas abandonner le patient."
+    },
+    {
+      "question": "Quelles évolutions sont possibles dans la LLC ?",
+      "options": ["Une maladie stable jamais traitée", "Une progression lente", "Une maladie agressive nécessitant un traitement", "Une guérison spontanée obligatoire"],
+      "correct": [0, 1, 2],
+      "explanation": "L'hétérogénéité évolutive justifie d'adapter la surveillance et le moment du traitement."
+    },
+    {
+      "question": "Quelles complications peuvent survenir dans une LLC ?",
+      "options": ["Des infections", "Des cytopénies", "Une auto-immunité", "Un syndrome de Richter", "Des seconds cancers"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La maladie expose à des complications immunitaires, hématologiques et tumorales."
+    },
+    {
+      "question": "Une fièvre chez un patient atteint de LLC peut être ignorée en l'absence de traitement en cours.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : l'hypogammaglobulinémie fragilise le patient même sans traitement."
+    },
+    {
+      "question": "Quels traitements peuvent être utilisés lorsque la LLC devient symptomatique ou évolutive ?",
+      "options": ["Une immunochimiothérapie", "Un inhibiteur de la kinase de Bruton", "Le vénétoclax", "Des traitements des complications"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le traitement peut cibler la maladie elle-même ou ses complications."
+    },
+    {
+      "question": "Quelles actions éducatives relèvent du rôle infirmier dans la LLC ?",
+      "options": ["Expliquer les signes imposant une consultation", "Promouvoir les vaccinations prévues", "Soutenir l'observance", "Repérer les interactions médicamenteuses", "Encourager la photoprotection"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L'éducation porte sur les infections, la surveillance, les traitements oraux et les seconds cancers."
+    }
+  ]
+}

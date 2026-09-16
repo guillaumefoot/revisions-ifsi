@@ -1,0 +1,246 @@
+{
+  "title": "UE 2.9 S5 - Oncologie préventive et action infirmière",
+  "subtitle": "Facteurs de risque évitables, niveaux de prévention, dépistage et éducation",
+  "questions": [
+    {
+      "question": "Quelle proportion approximative des cancers peut être évitée par des changements de comportements et de modes de vie ?",
+      "options": ["Environ 40 %", "Environ 1 %", "Environ 90 %", "Aucun cancer"],
+      "correct": [0],
+      "explanation": "Environ quatre cancers sur dix sont associés à des facteurs évitables."
+    },
+    {
+      "question": "Quels facteurs appartiennent aux principales causes évitables présentées ?",
+      "options": ["Le tabac", "L'alcool", "Une alimentation déséquilibrée", "Le surpoids et l'obésité", "Certaines infections"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les comportements, le métabolisme et certaines expositions contribuent au risque évitable."
+    },
+    {
+      "question": "Le tabac est présenté comme le premier facteur de risque évitable de cancer.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il occupe la première place dans la hiérarchie des risques évitables."
+    },
+    {
+      "question": "Quelles localisations tumorales sont associées au tabagisme ?",
+      "options": ["Poumon", "Vessie", "Pancréas", "Sphère ORL", "Rein"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le tabac agit de façon systémique et concerne de nombreux organes."
+    },
+    {
+      "question": "Quel rôle infirmier est adapté face au tabagisme ?",
+      "options": ["Repérer la consommation", "Réaliser une intervention brève", "Orienter vers une aide au sevrage", "Évaluer la motivation", "Banaliser la consommation"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le repérage et l'accompagnement au sevrage relèvent de la prévention primaire."
+    },
+    {
+      "question": "Il existe une consommation d'alcool totalement protectrice contre le cancer.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : l'éthanol est classé cancérogène avéré et aucune consommation n'est présentée comme protectrice."
+    },
+    {
+      "question": "Quelles boissons délivrent approximativement une unité d'alcool dans les équivalences présentées ?",
+      "options": ["25 cl de bière", "10 cl de vin", "3 cl de spiritueux", "Un litre de bière"],
+      "correct": [0, 1, 2],
+      "explanation": "Ces volumes correspondent chacun à environ 10 g d'éthanol pur."
+    },
+    {
+      "question": "Pourquoi l'association alcool-tabac est-elle particulièrement dangereuse ?",
+      "options": ["Le risque est synergique et non simplement additionnel", "L'alcool facilite l'action des toxiques du tabac sur les muqueuses", "Elle augmente fortement le risque des voies aérodigestives supérieures", "Les deux facteurs s'annulent"],
+      "correct": [0, 1, 2],
+      "explanation": "Les deux expositions potentialisent mutuellement leur effet cancérogène."
+    },
+    {
+      "question": "Le risque lié à l'association alcool-tabac peut être supérieur à la simple addition de leurs risques séparés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette association illustre une synergie entre facteurs de risque."
+    },
+    {
+      "question": "Quels comportements participent à la prévention nutritionnelle des cancers ?",
+      "options": ["Maintenir un poids adapté", "Pratiquer une activité physique", "Privilégier les fibres", "Limiter l'alcool", "Augmenter les aliments ultratransformés"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'équilibre alimentaire et l'activité physique réduisent le risque métabolique."
+    },
+    {
+      "question": "Quels facteurs nutritionnels sont présentés comme défavorables ?",
+      "options": ["Excès de viande rouge", "Charcuterie", "Aliments ultratransformés", "Sédentarité", "Céréales complètes"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les céréales complètes et les fibres sont au contraire présentées comme protectrices."
+    },
+    {
+      "question": "Les compléments alimentaires antioxydants à forte dose sont toujours recommandés pour prévenir le cancer.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : un excès de supplémentation peut être inutile ou nocif."
+    },
+    {
+      "question": "Comment la classification du CIRC hiérarchise-t-elle les agents ?",
+      "options": ["Groupe 1 : cancérogènes avérés", "Groupe 2A : cancérogènes probables", "Groupe 2B : cancérogènes possibles", "Groupe 1 : agents protecteurs"],
+      "correct": [0, 1, 2],
+      "explanation": "La classification exprime le niveau de preuve de cancérogénicité."
+    },
+    {
+      "question": "Quelles expositions sont classées parmi les cancérogènes avérés présentés ?",
+      "options": ["Rayonnements UV", "Pollution atmosphérique particulaire", "Radon", "Formaldéhyde", "Tous les champs électromagnétiques"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les champs électromagnétiques sont présentés dans une catégorie de preuve plus faible."
+    },
+    {
+      "question": "Le radon est un polluant de l'air intérieur associé au risque de cancer du poumon.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le radon est présenté comme le deuxième facteur de risque du cancer pulmonaire après le tabac."
+    },
+    {
+      "question": "Que faut-il retenir des particules fines PM2,5 ?",
+      "options": ["Elles pénètrent profondément dans les poumons", "Toute exposition chronique augmente le risque", "Les pics de pollution sont les seuls moments à risque", "Elles participent au risque de cancer pulmonaire"],
+      "correct": [0, 1, 3],
+      "explanation": "Le risque dépend de l'exposition cumulée, pas seulement des pics."
+    },
+    {
+      "question": "Quelles mesures relèvent de la prévention des cancers cutanés liés aux UV ?",
+      "options": ["Protection solaire", "Éducation sur l'exposition", "Orientation dermatologique d'une lésion suspecte", "Recherche d'une évolution d'un nævus"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Prévention primaire et repérage précoce sont complémentaires."
+    },
+    {
+      "question": "Le risque lié aux rayonnements UV est strictement cumulatif et identique pour tous les cancers cutanés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : les profils d'exposition diffèrent notamment entre mélanome et carcinome."
+    },
+    {
+      "question": "Quelles associations entre agents infectieux et cancers sont présentées ?",
+      "options": ["Helicobacter pylori et cancer gastrique", "Virus de l'hépatite B et cancer du foie", "HPV et cancers du col ou de la sphère ORL", "Virus grippal et cancer colorectal"],
+      "correct": [0, 1, 2],
+      "explanation": "Certaines infections chroniques favorisent inflammation, lésions précancéreuses ou mutations."
+    },
+    {
+      "question": "Quelles mesures préviennent les cancers liés au virus de l'hépatite B ?",
+      "options": ["Vaccination", "Dépistage des populations exposées", "Prévention de la transmission", "Exposition volontaire au virus"],
+      "correct": [0, 1, 2],
+      "explanation": "La vaccination et le repérage des infections chroniques réduisent le risque hépatique."
+    },
+    {
+      "question": "Quelles interventions concernent les cancers liés au HPV ?",
+      "options": ["Vaccination", "Dépistage du col de l'utérus", "Éducation et orientation", "Arrêt de tout suivi après vaccination"],
+      "correct": [0, 1, 2],
+      "explanation": "Vaccination et dépistage restent complémentaires."
+    },
+    {
+      "question": "La vaccination contre le HPV relève de la prévention primaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle intervient avant l'apparition des lésions afin de prévenir l'infection oncogène."
+    },
+    {
+      "question": "Quel enchaînement décrit la cancérogenèse infectieuse présentée ?",
+      "options": ["Agent infectieux, inflammation chronique, mutations cellulaires", "Vaccin, inflammation, cancer obligatoire", "Traumatisme, fracture, métastase", "Dépistage, infection, mutation"],
+      "correct": [0],
+      "explanation": "L'infection persistante peut entretenir l'inflammation puis favoriser des altérations cellulaires."
+    },
+    {
+      "question": "Quels sont les trois niveaux de prévention ?",
+      "options": ["Prévention primaire avant la maladie", "Prévention secondaire par dépistage précoce", "Prévention tertiaire pour limiter récidives et complications", "Prévention primaire après une récidive"],
+      "correct": [0, 1, 2],
+      "explanation": "Les niveaux correspondent aux différentes étapes de l'histoire de la maladie."
+    },
+    {
+      "question": "La prévention secondaire consiste principalement à traiter les séquelles d'un cancer déjà connu.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : elle recherche précocement une lésion ou un cancer par le dépistage."
+    },
+    {
+      "question": "Quelles actions infirmières appartiennent à la prévention primaire ?",
+      "options": ["Repérage des facteurs de risque", "Conseils de sevrage tabagique", "Conseils nutritionnels", "Promotion de la vaccination", "Organisation d'une surveillance de récidive"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La prévention primaire agit avant la maladie sur les expositions modifiables."
+    },
+    {
+      "question": "Quels cancers disposent d'un programme national de dépistage organisé présenté ?",
+      "options": ["Cancer du sein", "Cancer colorectal", "Cancer du col de l'utérus", "Cancer du pancréas"],
+      "correct": [0, 1, 2],
+      "explanation": "Ces trois programmes structurent la prévention secondaire nationale."
+    },
+    {
+      "question": "Quel rôle infirmier favorise la participation au dépistage ?",
+      "options": ["Informer sur le bénéfice et les limites", "Identifier les personnes concernées", "Lever les freins pratiques", "Orienter vers le dispositif adapté"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'information et l'orientation améliorent l'accès aux programmes."
+    },
+    {
+      "question": "La prévention tertiaire vise notamment à limiter les récidives, séquelles et complications.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle intervient chez une personne déjà atteinte afin d'améliorer l'évolution et la qualité de vie."
+    },
+    {
+      "question": "Quelles expositions professionnelles sont mises en avant ?",
+      "options": ["Amiante", "Poussières et fibres inhalées", "Certaines peintures et solvants", "Aucune exposition professionnelle"],
+      "correct": [0, 1, 2],
+      "explanation": "Le repérage du parcours professionnel fait partie de l'évaluation des risques."
+    },
+    {
+      "question": "Quel cancer est particulièrement associé à l'amiante ?",
+      "options": ["Le mésothéliome", "Le mélanome", "La leucémie lymphoïde chronique", "Le cancer du col de l'utérus"],
+      "correct": [0],
+      "explanation": "L'amiante est un facteur majeur du mésothéliome pleural."
+    },
+    {
+      "question": "L'absence de tabagisme exclut tout risque lié à une exposition professionnelle à l'amiante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : l'amiante possède un risque propre, auquel le tabac peut encore s'ajouter pour le cancer pulmonaire."
+    },
+    {
+      "question": "Quelles questions sont pertinentes dans l'interrogatoire professionnel ?",
+      "options": ["Historique des emplois", "Exposition à l'amiante", "Contact avec pesticides ou herbicides", "Exposition à des solvants", "Uniquement l'emploi actuel"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le risque peut résulter d'expositions anciennes et cumulées."
+    },
+    {
+      "question": "Quelles associations étiologiques sont présentées pour l'appareil digestif ?",
+      "options": ["Helicobacter pylori et estomac", "Pancréatite chronique et pancréas", "Tabac et pancréas", "Syndrome de Lynch et côlon"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les cancers digestifs résultent de facteurs infectieux, inflammatoires, toxiques ou génétiques."
+    },
+    {
+      "question": "Quels effets secondaires peuvent accompagner des traitements anticancéreux à long terme ?",
+      "options": ["Seconds cancers après radiothérapie ou chimiothérapie", "Risque thromboembolique de certains traitements hormonaux", "Séquelles justifiant une surveillance", "Protection absolue contre tout autre cancer"],
+      "correct": [0, 1, 2],
+      "explanation": "La prévention tertiaire inclut la surveillance des effets tardifs et iatrogènes."
+    },
+    {
+      "question": "Le bénéfice thérapeutique doit être mis en balance avec le risque iatrogène.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La décision médicale évalue le bénéfice attendu et les effets indésirables potentiels."
+    },
+    {
+      "question": "Quels éléments sont présentés comme protecteurs dans la prévention nutritionnelle ?",
+      "options": ["Activité physique", "Contrôle du poids", "Fibres", "Cuissons non carbonisées", "Sédentarité"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La sédentarité constitue au contraire un facteur défavorable."
+    },
+    {
+      "question": "Concernant le cancer de la prostate, quels facteurs de risque sont confirmés ?",
+      "options": ["Antécédents familiaux", "Alimentation riche en graisses", "Certaines expositions agricoles", "Tabac comme facteur unique indispensable"],
+      "correct": [0, 1, 2],
+      "explanation": "Les facteurs familiaux, nutritionnels et certaines expositions professionnelles sont distingués des mythes."
+    },
+    {
+      "question": "Quels éléments peuvent faire partie d'une action de prévention au cabinet ?",
+      "options": ["Dépister les addictions", "Rechercher les expositions professionnelles", "Repérer les antécédents familiaux précoces", "Donner des conseils de mode de vie", "Promouvoir les dépistages adaptés"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L'action combine interrogatoire ciblé, conseil bref et orientation."
+    },
+    {
+      "question": "Le cancer résulte toujours d'un facteur unique facilement identifiable.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : il résulte souvent de l'interaction entre habitudes de vie, environnement, infections et susceptibilité génétique."
+    }
+  ]
+}

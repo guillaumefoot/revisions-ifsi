@@ -1,0 +1,246 @@
+{
+  "title": "UE 2.9 S5 - Cancer de la prostate : diagnostic et formes localisées",
+  "subtitle": "Risques, détection précoce, bilan diagnostique, stadification et traitements curatifs",
+  "questions": [
+    {
+      "question": "Quel est le principal facteur de risque du cancer de la prostate ?",
+      "options": ["L'âge supérieur à 50 ans", "Une appendicectomie", "Une fracture ancienne", "Le groupe sanguin"],
+      "correct": [0],
+      "explanation": "L'incidence du cancer prostatique augmente fortement avec l'âge."
+    },
+    {
+      "question": "Quels facteurs augmentent le risque de cancer de la prostate ?",
+      "options": ["Des antécédents familiaux", "Une origine africaine", "Une mutation BRCA2", "L'obésité abdominale", "Une consommation excessive d'alcool"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les facteurs génétiques et ethniques sont majeurs ; certains facteurs métaboliques ou comportementaux contribuent aussi au risque."
+    },
+    {
+      "question": "Une forme héréditaire peut être évoquée devant plusieurs cas familiaux ou des diagnostics précoces.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'agrégation familiale et l'âge jeune au diagnostic orientent vers une prédisposition."
+    },
+    {
+      "question": "Quels éléments participent à la détection précoce du cancer de la prostate ?",
+      "options": ["Le dosage sanguin du PSA", "Le toucher rectal", "Une information éclairée du patient", "Une biopsie systématique chez tous les hommes"],
+      "correct": [0, 1, 2],
+      "explanation": "La démarche repose sur une décision partagée, le PSA et l'examen clinique."
+    },
+    {
+      "question": "À quels hommes asymptomatiques la détection précoce peut-elle être proposée selon le niveau de risque ?",
+      "options": ["À partir de 50 ans en risque standard", "À partir de 45 ans en cas d'antécédent familial ou d'origine africaine", "À partir de 40 ans en cas de mutation BRCA2", "À tous les nourrissons"],
+      "correct": [0, 1, 2],
+      "explanation": "L'âge de début est adapté au niveau de risque individuel."
+    },
+    {
+      "question": "Le dosage du PSA permet à lui seul de confirmer avec certitude un cancer de la prostate.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : le PSA n'est pas spécifique et le diagnostic repose sur l'analyse anatomopathologique des biopsies."
+    },
+    {
+      "question": "Quels éléments peuvent augmenter le PSA sans cancer prostatique ?",
+      "options": ["Une pathologie bénigne de la prostate", "Une inflammation", "Certaines manipulations prostatiques", "Uniquement des métastases"],
+      "correct": [0, 1, 2],
+      "explanation": "Une élévation du PSA ne signifie pas automatiquement qu'un cancer est présent."
+    },
+    {
+      "question": "Pourquoi parle-t-on de paradoxe du dépistage par PSA ?",
+      "options": ["Il peut détecter des cancers indolents et conduire à un surtraitement", "Il ne détecte jamais aucune anomalie", "Il remplace toute décision partagée", "Il supprime tout risque d'effet indésirable"],
+      "correct": [0],
+      "explanation": "Le bénéfice de la détection doit être mis en balance avec le surdiagnostic et le surtraitement."
+    },
+    {
+      "question": "L'information du patient doit aborder les bénéfices et les risques de la détection précoce.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une décision éclairée nécessite d'expliquer faux positifs, surdiagnostic et effets des traitements."
+    },
+    {
+      "question": "Quelle conduite est adaptée devant une anomalie du toucher rectal ou du PSA ?",
+      "options": ["Demander un avis urologique", "Conclure immédiatement à un cancer métastatique", "Ignorer l'anomalie", "Commencer une chimiothérapie sans biopsie"],
+      "correct": [0],
+      "explanation": "L'urologue organise les examens complémentaires et confirme ou non le diagnostic."
+    },
+    {
+      "question": "Quel examen d'imagerie occupe une place centrale avant les biopsies prostatiques ?",
+      "options": ["L'IRM multiparamétrique", "La radiographie de la main", "L'échographie cardiaque", "Le scanner cérébral"],
+      "correct": [0],
+      "explanation": "L'IRM localise les zones suspectes et guide la stratégie de biopsie."
+    },
+    {
+      "question": "Une IRM normale élimine toujours un cancer de la prostate.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : l'interprétation dépend du contexte clinique et biologique."
+    },
+    {
+      "question": "Quelle séquence décrit le parcours diagnostique ?",
+      "options": ["Suspicion, cartographie par IRM, biopsies, verdict anatomopathologique", "Biopsie, traitement, suspicion, PSA", "Chimiothérapie, IRM, dépistage", "Radiothérapie sans confirmation"],
+      "correct": [0],
+      "explanation": "La suspicion conduit à l'imagerie, puis à l'échantillonnage et à la confirmation histologique."
+    },
+    {
+      "question": "Quels objectifs ont les biopsies prostatiques ?",
+      "options": ["Établir le diagnostic", "Préciser l'agressivité histologique", "Apporter des critères pronostiques", "Mesurer directement la continence"],
+      "correct": [0, 1, 2],
+      "explanation": "Les prélèvements confirment l'adénocarcinome et permettent son classement histologique."
+    },
+    {
+      "question": "Quelles techniques peuvent améliorer la précision des biopsies ?",
+      "options": ["Ciblage des zones suspectes à l'IRM", "Fusion IRM-échographie", "Biopsies systématisées associées", "Prélèvement cutané à distance"],
+      "correct": [0, 1, 2],
+      "explanation": "Les biopsies ciblées complètent les prélèvements systématiques selon la situation."
+    },
+    {
+      "question": "Le diagnostic définitif repose sur l'examen anatomopathologique des biopsies.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'analyse histologique confirme la présence d'un adénocarcinome."
+    },
+    {
+      "question": "Que mesure le score de Gleason ?",
+      "options": ["Le degré de différenciation et l'agressivité tumorale", "Le volume urinaire quotidien", "La force musculaire", "La douleur postopératoire"],
+      "correct": [0],
+      "explanation": "Le score combine les deux contingents histologiques dominants."
+    },
+    {
+      "question": "À quoi sert la classification TNM ?",
+      "options": ["Décrire la tumeur, les ganglions et les métastases", "Évaluer uniquement la douleur", "Mesurer l'observance", "Classer les effets indésirables urinaires"],
+      "correct": [0],
+      "explanation": "Le TNM précise l'extension anatomique de la maladie."
+    },
+    {
+      "question": "Quelles extensions sont possibles dans l'évolution du cancer prostatique ?",
+      "options": ["Extension locale", "Diffusion lymphatique", "Diffusion hématogène", "Métastases osseuses"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La maladie peut franchir la capsule, gagner les ganglions puis diffuser à distance, notamment aux os."
+    },
+    {
+      "question": "Le score de Gleason ne joue aucun rôle dans l'évaluation du risque de récidive.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : il participe avec le PSA et le stade clinique à la stratification du risque."
+    },
+    {
+      "question": "Quels éléments composent la classification de D'Amico ?",
+      "options": ["Le PSA", "Le score de Gleason", "Le stade clinique", "Le groupe sanguin"],
+      "correct": [0, 1, 2],
+      "explanation": "Ces trois paramètres définissent les groupes de risque faible, intermédiaire et élevé."
+    },
+    {
+      "question": "Quel profil correspond au groupe de faible risque de D'Amico ?",
+      "options": ["PSA inférieur à 10 ng/mL, Gleason ≤ 6 et stade T1c ou T2a", "PSA supérieur à 20 ng/mL", "Gleason ≥ 8", "Stade T3"],
+      "correct": [0],
+      "explanation": "Le faible risque associe des critères biologiques, histologiques et cliniques favorables."
+    },
+    {
+      "question": "Quels éléments classent un cancer prostatique dans le groupe à risque élevé ?",
+      "options": ["PSA supérieur à 20 ng/mL", "Score de Gleason ≥ 8", "Stade clinique T2c ou T3a", "PSA inférieur à 10 avec Gleason 6 et T1c"],
+      "correct": [0, 1, 2],
+      "explanation": "Un seul de ces critères défavorables peut suffire à définir le haut risque."
+    },
+    {
+      "question": "La surveillance active peut être proposée à certains cancers localisés de faible risque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle vise à différer un traitement curatif tout en surveillant étroitement l'évolution."
+    },
+    {
+      "question": "Quels éléments appartiennent à une surveillance active ?",
+      "options": ["Dosages réguliers du PSA", "Touchers rectaux", "IRM et biopsies selon le protocole", "Absence totale de suivi"],
+      "correct": [0, 1, 2],
+      "explanation": "La surveillance active est une stratégie structurée et non une abstention passive."
+    },
+    {
+      "question": "Quels traitements curatifs peuvent être proposés dans un cancer localisé ?",
+      "options": ["Prostatectomie radicale", "Radiothérapie externe", "Curiethérapie chez des patients sélectionnés", "Surveillance active pour certains faibles risques"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le choix dépend du risque tumoral, de l'espérance de vie et des préférences du patient."
+    },
+    {
+      "question": "La prostatectomie radicale est réservée exclusivement aux cancers métastatiques diffus.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : elle concerne surtout les tumeurs localisées ou localement avancées sélectionnées."
+    },
+    {
+      "question": "Quels éléments sont retirés lors d'une prostatectomie radicale ?",
+      "options": ["La prostate", "Les vésicules séminales", "Une partie du système urinaire selon la technique", "Le foie systématiquement"],
+      "correct": [0, 1],
+      "explanation": "L'intervention retire la glande et les vésicules séminales, avec rétablissement de la continuité urinaire."
+    },
+    {
+      "question": "Quel est l'objectif d'un curage ganglionnaire ?",
+      "options": ["Évaluer l'extension ganglionnaire et contribuer au contrôle tumoral", "Mesurer le PSA", "Traiter une infection urinaire", "Prévenir toute incontinence"],
+      "correct": [0],
+      "explanation": "Le curage apporte des informations de stadification et peut compléter la chirurgie."
+    },
+    {
+      "question": "Quels principes appartiennent à la radiothérapie externe prostatique ?",
+      "options": ["Technique conformationnelle", "Modulation d'intensité", "Ciblage de la loge prostatique", "Planification précise des volumes"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La radiothérapie moderne cherche à délivrer la dose au volume cible en protégeant les organes voisins."
+    },
+    {
+      "question": "Une maladie inflammatoire rectale active constitue une contre-indication à la radiothérapie prostatique présentée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le risque de toxicité digestive impose d'éviter cette irradiation dans ce contexte."
+    },
+    {
+      "question": "Qu'est-ce que la curiethérapie interstitielle prostatique ?",
+      "options": ["L'implantation de radioéléments dans la prostate", "Une chimiothérapie orale", "Une ablation du rein", "Une surveillance sans traitement"],
+      "correct": [0],
+      "explanation": "Des sources radioactives sont placées par voie transpérinéale sous contrôle échographique."
+    },
+    {
+      "question": "Pour quels patients la curiethérapie peut-elle être envisagée ?",
+      "options": ["Groupe de faible risque", "Certains patients de risque intermédiaire", "Tout cancer métastatique", "Uniquement en cas d'insuffisance hépatique"],
+      "correct": [0, 1],
+      "explanation": "Cette technique concerne des formes localisées sélectionnées."
+    },
+    {
+      "question": "Un volume prostatique important et des troubles urinaires obstructifs ne modifient jamais l'indication de curiethérapie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : le volume, le lobe médian et les troubles urinaires font partie des limites ou contre-indications."
+    },
+    {
+      "question": "Que signifie HIFU dans le traitement du cancer prostatique ?",
+      "options": ["Ultrasons focalisés à haute intensité", "Hormonothérapie intraveineuse fortement urgente", "Histologie immunofluorescente urinaire", "Hyperhydratation intensive fonctionnelle"],
+      "correct": [0],
+      "explanation": "Les ultrasons focalisés détruisent thermiquement un volume prostatique ciblé."
+    },
+    {
+      "question": "Quels traitements focaux sont présentés comme options chez des patients sélectionnés ?",
+      "options": ["HIFU", "Cryothérapie", "Curiethérapie", "Dialyse"],
+      "correct": [0, 1, 2],
+      "explanation": "Ces techniques s'adressent à des situations localisées répondant à des critères précis."
+    },
+    {
+      "question": "Le choix thérapeutique doit intégrer le stade, le risque tumoral, l'espérance de vie et les préférences du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La décision se construit en réunion de concertation puis avec le patient."
+    },
+    {
+      "question": "Quelles complications fonctionnelles doivent être expliquées avant un traitement local ?",
+      "options": ["Troubles urinaires", "Dysfonction érectile", "Troubles digestifs selon le traitement", "Altération possible de la qualité de vie"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'information préalable permet une décision réellement éclairée."
+    },
+    {
+      "question": "La réunion de concertation pluridisciplinaire choisit le traitement sans jamais tenir compte de l'état général du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : comorbidités, état nutritionnel, risques anesthésiques et projet du patient sont intégrés."
+    },
+    {
+      "question": "Quel est le rôle infirmier avant la décision thérapeutique ?",
+      "options": ["Vérifier la compréhension", "Repérer les priorités du patient", "Informer sur le parcours", "Orienter vers les professionnels nécessaires", "Promettre l'absence d'effets secondaires"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'infirmière soutient l'information, la préparation et la coordination sans se substituer à la décision médicale."
+    }
+  ]
+}

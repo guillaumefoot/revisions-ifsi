@@ -1,0 +1,186 @@
+{
+  "title": "UE 2.9 S5 - Cancer de la prostate : RAAC et maladie avancée",
+  "subtitle": "Prostatectomie, récupération fonctionnelle, hormonothérapie, intensification et radioprotection",
+  "questions": [
+    {
+      "question": "Quel est l'objectif d'une prostatectomie radicale ?",
+      "options": ["Retirer la tumeur localisée avec la prostate et les vésicules séminales", "Traiter uniquement la douleur", "Dépister le cancer", "Remplacer toute analyse histologique"],
+      "correct": [0],
+      "explanation": "La chirurgie vise une exérèse carcinologique complète tout en préservant autant que possible les structures fonctionnelles."
+    },
+    {
+      "question": "Quels bénéfices techniques sont associés à l'assistance robotique ?",
+      "options": ["Vision agrandie en trois dimensions", "Mobilité fine des instruments", "Approche mini-invasive", "Suppression de toute décision du chirurgien"],
+      "correct": [0, 1, 2],
+      "explanation": "Le robot exécute les gestes commandés par le chirurgien, qui garde le contrôle de l'intervention."
+    },
+    {
+      "question": "Le système robotique opère de manière autonome sans contrôle du chirurgien.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : le chirurgien contrôle les instruments depuis la console."
+    },
+    {
+      "question": "Quelles étapes appartiennent à la prostatectomie radicale ?",
+      "options": ["Anesthésie et installation", "Exérèse de la prostate", "Reconnexion de la vessie à l'urètre", "Drainage et sécurisation"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'intervention associe préparation, exérèse, anastomose et contrôle final."
+    },
+    {
+      "question": "Quels éléments sont surveillés dans les suites opératoires immédiates ?",
+      "options": ["Douleur", "Saignement", "Diurèse et aspect des urines", "Fonctionnement de la sonde", "Signes infectieux"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La surveillance vise les complications urinaires, hémorragiques et infectieuses."
+    },
+    {
+      "question": "La réhabilitation améliorée impose un alitement strict prolongé après l'intervention.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : elle favorise le lever et la mobilisation précoces selon l'état du patient."
+    },
+    {
+      "question": "Quelles mesures appartiennent au parcours de réhabilitation améliorée ?",
+      "options": ["Information préopératoire", "Préhabilitation", "Mobilisation précoce", "Reprise progressive de l'alimentation", "Organisation du retour à domicile"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le parcours prépare le patient avant, pendant et après l'hospitalisation."
+    },
+    {
+      "question": "Quels conseils sont adaptés au retour à domicile avec une sonde urinaire ?",
+      "options": ["Surveiller l'écoulement des urines", "Éviter la traction sur la sonde", "Respecter l'hygiène", "Repérer fièvre, douleur ou absence d'urines", "Retirer soi-même la sonde"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La sonde doit rester perméable et toute anomalie doit être rapidement signalée."
+    },
+    {
+      "question": "Quel accompagnement favorise la récupération de la continence ?",
+      "options": ["La rééducation périnéale", "Des exercices adaptés", "Une évaluation régulière", "L'absence totale d'activité musculaire"],
+      "correct": [0, 1, 2],
+      "explanation": "La récupération est progressive et peut être soutenue par une rééducation ciblée."
+    },
+    {
+      "question": "La continence urinaire s'améliore généralement progressivement après prostatectomie.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La majorité des patients récupère une continence satisfaisante avec le temps et la rééducation."
+    },
+    {
+      "question": "Quelles conséquences sexuelles doivent être abordées après prostatectomie ?",
+      "options": ["Dysfonction érectile possible", "Absence définitive d'éjaculation", "Retentissement sur le désir et l'image de soi", "Besoin possible de réhabilitation sexuelle"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'accompagnement doit distinguer éjaculation, érection, désir et orgasme."
+    },
+    {
+      "question": "Quelles complications précoces peuvent survenir après prostatectomie ?",
+      "options": ["Infection urinaire", "Hématome", "Fuite urinaire au niveau de l'anastomose", "Lésion urétérale", "Plaie rectale"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Certaines complications se traitent simplement, d'autres peuvent nécessiter une réintervention."
+    },
+    {
+      "question": "Une douleur importante, une fièvre ou une absence d'urines après le retour à domicile peuvent attendre le prochain rendez-vous programmé.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : ces signes doivent conduire à contacter rapidement l'équipe soignante."
+    },
+    {
+      "question": "Quels risques fonctionnels peuvent persister à long terme ?",
+      "options": ["Fuites urinaires à l'effort", "Rétrécissement urétral", "Incontinence sévère", "Troubles sexuels"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le suivi prolongé recherche et prend en charge les séquelles urinaires et sexuelles."
+    },
+    {
+      "question": "Quels professionnels peuvent participer à l'accompagnement après traitement ?",
+      "options": ["Kinésithérapeute", "Psychologue ou sexologue", "Oncogénéticien selon l'histoire", "Équipe d'urologie", "Professionnels du suivi au long cours"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le parcours repose sur un réseau pluriprofessionnel adapté aux besoins."
+    },
+    {
+      "question": "Quel est le principe de la suppression androgénique ?",
+      "options": ["Réduire la stimulation hormonale des cellules prostatiques", "Augmenter fortement la testostérone", "Traiter uniquement une infection", "Remplacer la chirurgie de toute tumeur localisée"],
+      "correct": [0],
+      "explanation": "Les cellules du cancer prostatique sont souvent hormonodépendantes."
+    },
+    {
+      "question": "La suppression androgénique constitue un traitement de première ligne du cancer prostatique métastatique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle forme la base du traitement systémique de la maladie métastatique hormonosensible."
+    },
+    {
+      "question": "Quels effets indésirables sont associés à l'hormonothérapie ?",
+      "options": ["Bouffées de chaleur", "Fatigue", "Troubles sexuels", "Déminéralisation osseuse", "Modifications métaboliques"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L'hormonothérapie affecte la qualité de vie, l'os, le métabolisme et le risque cardiovasculaire."
+    },
+    {
+      "question": "Quelles surveillances sont pertinentes sous suppression androgénique ?",
+      "options": ["Poids et tour de taille", "Glycémie", "Bilan lipidique", "Santé osseuse", "Risque cardiovasculaire"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La surveillance prévient les complications métaboliques, osseuses et cardiovasculaires."
+    },
+    {
+      "question": "L'hormonothérapie peut avoir un retentissement sur l'humeur et la sexualité.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Des troubles de l'humeur, de la libido et des fonctions sexuelles sont possibles."
+    },
+    {
+      "question": "Quels bénéfices sont associés à l'ajout d'une hormonothérapie à la radiothérapie d'un cancer localement avancé ?",
+      "options": ["Amélioration de la survie globale", "Amélioration de la survie spécifique", "Réduction du risque de progression", "Suppression de tout effet indésirable"],
+      "correct": [0, 1, 2],
+      "explanation": "Le bénéfice carcinologique doit être mis en balance avec les effets de la déprivation androgénique."
+    },
+    {
+      "question": "Quels critères peuvent déclencher une imagerie de stadification chez un patient à risque élevé ?",
+      "options": ["PSA élevé", "Score de Gleason défavorable", "Stade clinique localement avancé", "Couleur des yeux"],
+      "correct": [0, 1, 2],
+      "explanation": "Le niveau de risque guide la recherche de métastases ganglionnaires, osseuses ou viscérales."
+    },
+    {
+      "question": "Quels éléments définissent un haut volume métastatique présenté ?",
+      "options": ["Métastases viscérales", "Au moins quatre lésions osseuses dont une hors du bassin ou des vertèbres", "Une seule anomalie bénigne", "Aucune métastase"],
+      "correct": [0, 1],
+      "explanation": "Le volume et le risque orientent l'intensification thérapeutique."
+    },
+    {
+      "question": "Quel est l'objectif de l'intensification initiale d'une maladie métastatique hormonosensible ?",
+      "options": ["Associer précocement un traitement à la castration", "Attendre systématiquement la résistance", "Supprimer le suivi", "Traiter uniquement les symptômes"],
+      "correct": [0],
+      "explanation": "Une chimiothérapie ou un antiandrogène de nouvelle génération peut compléter la privation androgénique."
+    },
+    {
+      "question": "Les agonistes de la LHRH peuvent provoquer initialement un effet flare.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une élévation transitoire de la testostérone peut aggraver les symptômes avant la suppression hormonale."
+    },
+    {
+      "question": "Comment peut-on prévenir les conséquences de l'effet flare ?",
+      "options": ["Par une couverture antiandrogénique prescrite", "Par une surveillance clinique", "En repérant les patients à risque", "En doublant seul toutes les doses"],
+      "correct": [0, 1, 2],
+      "explanation": "La prévention est particulièrement importante en cas de menace neurologique ou obstructive."
+    },
+    {
+      "question": "Quel est le principe du lutétium-177 ciblant le PSMA ?",
+      "options": ["Une molécule se fixe au PSMA puis délivre un rayonnement à la cellule tumorale", "Une chirurgie sans rayonnement", "Un antibiotique ciblant les urines", "Une vaccination préventive"],
+      "correct": [0],
+      "explanation": "Le radioligand associe ciblage moléculaire et destruction radioactive des cellules exprimant le PSMA."
+    },
+    {
+      "question": "Quelles étapes appartiennent au mécanisme du radioligand ciblant le PSMA ?",
+      "options": ["Circulation dans le sang", "Fixation sur le PSMA", "Internalisation", "Émission de rayonnements destructeurs"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le ciblage permet de concentrer l'effet radioactif dans les cellules tumorales."
+    },
+    {
+      "question": "Après un traitement radioligand, aucune précaution de radioprotection n'est nécessaire pour l'entourage.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : des règles temporaires de distance, d'hygiène et de gestion des excreta sont nécessaires."
+    },
+    {
+      "question": "Quelles consignes sont adaptées après une cure de radioligand ?",
+      "options": ["Boire abondamment selon les consignes", "Uriner fréquemment", "S'asseoir pour uriner", "Utiliser du papier toilette et tirer deux fois la chasse", "Respecter les distances et délais indiqués"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Hydratation, hygiène et radioprotection réduisent l'exposition du patient et de son entourage."
+    }
+  ]
+}

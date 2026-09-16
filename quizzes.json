@@ -147,6 +147,62 @@
     "icon": "🎯"
   },
   {
+    "file": "data/2.9_S5_LEUCEMIES_AIGUES_DIAGNOSTIC_URGENCES_2026.json",
+    "code": "UE 2.9",
+    "name": "Leucémies aiguës - Diagnostic et urgences",
+    "subtitle": "S5 - Hémogramme, myélogramme, complications, aplasie, traitements et rôle infirmier",
+    "icon": "🩸"
+  },
+  {
+    "file": "data/2.9_S5_LEUCEMIES_CHRONIQUES_LMC_LLC_2026.json",
+    "code": "UE 2.9",
+    "name": "Leucémies chroniques - LMC et LLC",
+    "subtitle": "S5 - Diagnostic, thérapies ciblées, observance, complications et surveillance",
+    "icon": "💊"
+  },
+  {
+    "file": "data/2.9_S5_DISPOSITIF_ANNONCE_ONCOLOGIE_2026.json",
+    "code": "UE 2.9",
+    "name": "Dispositif d'annonce en oncologie",
+    "subtitle": "S5 - Quatre temps, consultation infirmière, soins de support et coordination",
+    "icon": "🤝"
+  },
+  {
+    "file": "data/2.9_S5_ONCOLOGIE_PREVENTIVE_ACTION_INFIRMIERE_2026.json",
+    "code": "UE 2.9",
+    "name": "Oncologie préventive et action infirmière",
+    "subtitle": "S5 - Facteurs évitables, prévention, dépistage et éducation",
+    "icon": "🛡️"
+  },
+  {
+    "file": "data/2.9_S5_PROSTATE_DIAGNOSTIC_CANCER_LOCALISE_2026.json",
+    "code": "UE 2.9",
+    "name": "Prostate - Diagnostic et cancer localisé",
+    "subtitle": "S5 - Risques, détection précoce, stadification et traitements curatifs",
+    "icon": "🔎"
+  },
+  {
+    "file": "data/2.9_S5_PROSTATE_RAAC_HORMONOTHERAPIE_METASTASES_2026.json",
+    "code": "UE 2.9",
+    "name": "Prostate - RAAC et maladie avancée",
+    "subtitle": "S5 - Prostatectomie, récupération, hormonothérapie, métastases et radioprotection",
+    "icon": "⚕️"
+  },
+  {
+    "file": "data/2.9_S5_COLORECTAL_RISQUES_GENETIQUE_DEPISTAGE_2026.json",
+    "code": "UE 2.9",
+    "name": "Colorectal - Risques et dépistage",
+    "subtitle": "S5 - Oncogenèse, polypes, génétique, FIT et coloscopie",
+    "icon": "🧪"
+  },
+  {
+    "file": "data/2.9_S5_COLORECTAL_DIAGNOSTIC_TRAITEMENTS_SURVEILLANCE_2026.json",
+    "code": "UE 2.9",
+    "name": "Colorectal - Diagnostic et traitements",
+    "subtitle": "S5 - Signes cliniques, TNM, chirurgie, chimiothérapie et surveillance",
+    "icon": "🩺"
+  },
+  {
     "file": "data/2.9_S5_CANCEROGENESE_CELLULAIRE_2026.json",
     "code": "UE 2.9",
     "name": "Cancérogenèse cellulaire",

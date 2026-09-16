@@ -1,0 +1,246 @@
+{
+  "title": "UE 2.9 S5 - Cancer colorectal : diagnostic et traitements",
+  "subtitle": "Signes cliniques, TNM, bilan d'extension, chirurgie, chimiothérapie et surveillance",
+  "questions": [
+    {
+      "question": "Quels signes peuvent révéler un cancer du côlon ?",
+      "options": ["Troubles du transit récents", "Anémie ferriprive", "Méléna ou douleurs abdominales", "Altération de l'état général", "Amélioration inexpliquée de la vision"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les symptômes digestifs, le saignement chronique et l'altération générale doivent conduire aux explorations."
+    },
+    {
+      "question": "Quels signes peuvent révéler un cancer du rectum ?",
+      "options": ["Rectorragies", "Faux besoins impérieux", "Émissions afécales", "Ténesme", "Otalgie isolée"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le syndrome rectal associe saignement et troubles de l'exonération."
+    },
+    {
+      "question": "Une anémie ferriprive peut constituer un mode de découverte d'un cancer colique droit.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un saignement occulte chronique peut se manifester par une carence martiale."
+    },
+    {
+      "question": "Quels examens participent au diagnostic d'un cancer colorectal ?",
+      "options": ["Coloscopie totale", "Biopsies", "Examen anatomopathologique", "Toucher rectal pour une lésion rectale"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La coloscopie visualise et prélève la tumeur ; l'histologie confirme le diagnostic."
+    },
+    {
+      "question": "Quels aspects macroscopiques une tumeur colorectale peut-elle présenter ?",
+      "options": ["Bourgeonnante", "Friable", "Hémorragique", "Sténosante", "Toujours invisible"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'aspect endoscopique varie et peut expliquer saignement ou obstruction."
+    },
+    {
+      "question": "Une coloscopie sans biopsie suffit toujours à confirmer histologiquement un cancer colorectal.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : la confirmation diagnostique repose sur l'analyse anatomopathologique d'un prélèvement."
+    },
+    {
+      "question": "Que décrit la catégorie T de la classification TNM ?",
+      "options": ["La profondeur d'invasion de la paroi et des organes voisins", "Le nombre de globules rouges", "La tolérance à la chimiothérapie", "La fonction rénale"],
+      "correct": [0],
+      "explanation": "T progresse de la lésion superficielle à l'envahissement des structures adjacentes."
+    },
+    {
+      "question": "Quelles correspondances TNM sont correctes ?",
+      "options": ["Tis : lésion intraépithéliale", "T1 : sous-muqueuse", "T2 : musculeuse", "T3 : sous-séreuse ou tissus péricolorectaux", "T4 : séreuse ou organes voisins"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La catégorie T suit la progression de la tumeur à travers la paroi."
+    },
+    {
+      "question": "Que signifient N et M dans la classification TNM ?",
+      "options": ["N décrit l'atteinte ganglionnaire", "M décrit les métastases à distance", "N décrit la nutrition", "M décrit uniquement la douleur"],
+      "correct": [0, 1],
+      "explanation": "Le TNM combine extension locale, ganglionnaire et métastatique."
+    },
+    {
+      "question": "L'analyse d'au moins 12 ganglions est un repère important pour valider le statut ganglionnaire d'un cancer colique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Un curage suffisant améliore la qualité de la stadification N."
+    },
+    {
+      "question": "Quels examens composent le bilan d'extension standard d'un cancer colique ?",
+      "options": ["Scanner thoraco-abdomino-pelvien", "Coloscopie complète", "Dosage de l'ACE", "Évaluation des lésions synchrones"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le bilan recherche les métastases, une autre lésion colique et établit un marqueur de référence."
+    },
+    {
+      "question": "Quels examens sont particulièrement utiles dans le cancer du rectum ?",
+      "options": ["IRM pelvienne", "Écho-endoscopie selon la situation", "Toucher rectal", "Scanner d'extension"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Ils précisent la distance au sphincter, l'extension locale et le risque ganglionnaire."
+    },
+    {
+      "question": "Le TEP-scan est l'examen standard obligatoire de première intention pour tous les cancers colorectaux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : il est réservé à certaines situations, notamment lorsque les examens standards laissent un doute."
+    },
+    {
+      "question": "Quels éléments doivent être évalués avant la décision thérapeutique ?",
+      "options": ["Le stade tumoral", "L'état général", "Les comorbidités", "L'état nutritionnel", "Le projet et les préférences du patient"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La stratégie dépend à la fois de la maladie et de la capacité du patient à recevoir les traitements."
+    },
+    {
+      "question": "Quel outil peut contribuer à l'évaluation d'un patient âgé atteint de cancer colorectal ?",
+      "options": ["Le score G8", "Le score d'Apgar néonatal", "Le test de grossesse", "L'indice de masse corporelle seul"],
+      "correct": [0],
+      "explanation": "Le G8 repère une fragilité et peut conduire à une évaluation oncogériatrique approfondie."
+    },
+    {
+      "question": "Quels marqueurs moléculaires peuvent orienter la stratégie thérapeutique ?",
+      "options": ["Statut MSI ou MMR", "Mutations RAS", "Mutation BRAF", "Groupe Rhésus uniquement"],
+      "correct": [0, 1, 2],
+      "explanation": "La biologie moléculaire apporte des informations pronostiques, prédictives et familiales."
+    },
+    {
+      "question": "Un déficit MMR ou un statut MSI peut conduire à rechercher un syndrome de Lynch.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La caractérisation tumorale peut révéler une prédisposition héréditaire."
+    },
+    {
+      "question": "Quel est le rôle de la réunion de concertation pluridisciplinaire ?",
+      "options": ["Mettre en balance bénéfices et risques des options", "Proposer une stratégie adaptée au stade et au patient", "Tracer la décision", "Exclure le patient de toute information"],
+      "correct": [0, 1, 2],
+      "explanation": "La proposition de la RCP est ensuite expliquée et discutée avec le patient."
+    },
+    {
+      "question": "Quelle prise en charge est habituelle pour un cancer du côlon localisé de stade I ?",
+      "options": ["Chirurgie d'exérèse", "Chimiothérapie palliative seule", "Radiothérapie cérébrale", "Absence de traitement"],
+      "correct": [0],
+      "explanation": "La chirurgie carcinologique constitue le traitement de référence des formes localisées."
+    },
+    {
+      "question": "Une chimiothérapie adjuvante est systématique pour tous les cancers coliques de stade II, quel que soit le risque.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : son indication est discutée selon les facteurs de haut risque."
+    },
+    {
+      "question": "Quels facteurs peuvent faire discuter une chimiothérapie au stade II ?",
+      "options": ["T4", "Perforation ou occlusion", "Nombre insuffisant de ganglions analysés", "Emboles vasculaires ou périnerveux", "Statut biologique défavorable"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces éléments augmentent le risque de rechute après chirurgie."
+    },
+    {
+      "question": "Quel est le traitement standard d'un cancer colique de stade III ?",
+      "options": ["Chirurgie suivie d'une chimiothérapie adjuvante", "Surveillance seule", "Antibiothérapie uniquement", "Radiothérapie cutanée"],
+      "correct": [0],
+      "explanation": "L'atteinte ganglionnaire justifie une chimiothérapie postopératoire."
+    },
+    {
+      "question": "Quels protocoles de chimiothérapie adjuvante sont présentés ?",
+      "options": ["FOLFOX ou mFOLFOX6", "CAPOX", "LV5FU2", "Capécitabine seule dans certaines situations", "BCR-ABL inhibiteur seul"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les protocoles associent fluoropyrimidine et parfois oxaliplatine selon le risque et la tolérance."
+    },
+    {
+      "question": "L'ajout d'oxaliplatine aux fluoropyrimidines améliore la prise en charge adjuvante du stade III.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'oxaliplatine a réduit le risque de rechute mais expose à une neurotoxicité."
+    },
+    {
+      "question": "Quel effet indésirable impose une vigilance particulière sous oxaliplatine ?",
+      "options": ["La neuropathie périphérique", "Une amélioration visuelle", "Une hypertrichose isolée", "Une otite systématique"],
+      "correct": [0],
+      "explanation": "Une neuropathie de grade élevé peut nécessiter l'arrêt de l'oxaliplatine."
+    },
+    {
+      "question": "Pourquoi rechercher un déficit en DPD avant une fluoropyrimidine ?",
+      "options": ["Pour prévenir une toxicité potentiellement grave", "Pour évaluer la continence", "Pour confirmer une occlusion", "Pour remplacer le bilan rénal"],
+      "correct": [0],
+      "explanation": "Un déficit enzymatique expose à une accumulation et à une toxicité sévère du 5-FU ou de la capécitabine."
+    },
+    {
+      "question": "Le statut RAS ou BRAF détermine à lui seul l'indication de chimiothérapie adjuvante de tous les stades II.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : ces marqueurs ne remplacent pas l'évaluation anatomoclinique du risque."
+    },
+    {
+      "question": "Quels principes définissent une chirurgie carcinologique colique ?",
+      "options": ["Résection complète avec marges", "Curage ganglionnaire", "Respect du plan vasculaire", "Analyse anatomopathologique standardisée"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La qualité de l'exérèse et du curage conditionne le contrôle local et la stadification."
+    },
+    {
+      "question": "Quelles options peuvent être envisagées en cas d'occlusion tumorale ?",
+      "options": ["Colostomie de dérivation", "Résection avec ou sans anastomose selon la situation", "Prothèse colique dans certains cas", "Ignorer l'obstruction"],
+      "correct": [0, 1, 2],
+      "explanation": "La stratégie dépend du siège, de l'état général et de la possibilité d'une résection sûre."
+    },
+    {
+      "question": "Quelles options peuvent être envisagées en cas de perforation ?",
+      "options": ["Résection tumorale", "Intervention de Hartmann", "Anastomose immédiate seulement dans des situations favorables", "Surveillance sans traitement"],
+      "correct": [0, 1, 2],
+      "explanation": "La perforation constitue une urgence chirurgicale dont la stratégie dépend de la contamination et du patient."
+    },
+    {
+      "question": "Une occlusion ou une perforation peut modifier le pronostic et la stratégie adjuvante.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces complications font partie des facteurs de haut risque, notamment au stade II."
+    },
+    {
+      "question": "Quels dispositifs peuvent être utilisés pour administrer une chimiothérapie ?",
+      "options": ["Chambre implantable", "Cathéter central", "Diffuseur portable selon le protocole", "Sonde urinaire comme voie veineuse"],
+      "correct": [0, 1, 2],
+      "explanation": "Le choix dépend du protocole, de la durée d'infusion et du capital veineux."
+    },
+    {
+      "question": "Quelles situations imposent une adaptation particulière de la chimiothérapie ?",
+      "options": ["Âge et fragilité", "Comorbidités", "Déficit en DPD", "Neuropathie", "Fonctions rénale et hépatique"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le traitement doit être ajusté au risque de toxicité et à l'état global du patient."
+    },
+    {
+      "question": "Chez tout patient de plus de 70 ans, l'oxaliplatine est obligatoire et ne doit jamais être adaptée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : le bénéfice est évalué individuellement et la tolérance peut conduire à adapter le protocole."
+    },
+    {
+      "question": "Quelles stratégies peuvent être envisagées au stade métastatique ?",
+      "options": ["Résection de métastases lorsqu'elles sont résécables", "Chimiothérapie systémique", "Thérapies ciblées selon les marqueurs", "Traitement de la tumeur primitive selon les symptômes", "Soins de support"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "La stratégie recherche soit une possibilité curative, soit le contrôle de la maladie et des symptômes."
+    },
+    {
+      "question": "Quel peut être l'objectif d'une chimiothérapie première devant des métastases initialement non résécables ?",
+      "options": ["Réduire les lésions pour les rendre opérables", "Supprimer toute imagerie", "Éviter toute discussion en RCP", "Traiter uniquement l'anémie"],
+      "correct": [0],
+      "explanation": "Une réponse suffisante peut permettre une chirurgie secondaire des métastases."
+    },
+    {
+      "question": "Une maladie métastatique peut parfois relever d'une stratégie curative si les métastases sont résécables.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une exérèse complète de certaines métastases, notamment hépatiques, peut offrir une chance de survie prolongée."
+    },
+    {
+      "question": "Quels éléments appartiennent au suivi après une exérèse curative ?",
+      "options": ["Examen clinique régulier", "Imagerie selon le calendrier", "Coloscopie de surveillance", "Dosage de l'ACE selon la stratégie", "Absence de suivi pendant cinq ans"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le suivi recherche une récidive, des métastases ou une nouvelle lésion colique."
+    },
+    {
+      "question": "Après une chirurgie curative, aucune coloscopie de contrôle n'est nécessaire si le patient se sent bien.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux : une surveillance endoscopique reste nécessaire même en l'absence de symptôme."
+    },
+    {
+      "question": "Quel rôle infirmier accompagne l'ensemble du parcours colorectal ?",
+      "options": ["Préparer les examens et traitements", "Surveiller les complications", "Éduquer sur les dispositifs et effets indésirables", "Soutenir l'observance", "Coordonner les relais"],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le rôle infirmier relie sécurité technique, éducation et continuité des soins."
+    }
+  ]
+}
