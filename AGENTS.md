@@ -50,6 +50,16 @@ Ces instructions s'appliquent a l'ensemble du projet.
 - Pour les Vrai/Faux crees, eviter un biais previsible vers une reponse. Viser autant que possible une repartition proche de 50/50 entre reponses `Vrai` et `Faux`, globalement et par pack lorsque le volume le permet.
 - Les affirmations fausses doivent rester plausibles et tester une confusion utile, jamais un piege gratuit.
 
+## Quiz de synthese par UE
+
+- Lorsqu'une UE comporte plusieurs quiz actifs, maintenir un quiz de synthese place en premiere position de cette UE dans `quizzes.json`.
+- Le quiz de synthese est une selection editoriale issue des banques validees de l'UE, jamais un tirage aleatoire ni un assemblage automatique par script.
+- Cibler au maximum 100 questions. Rester en dessous lorsque la matiere pertinente ne justifie pas ce volume.
+- Pour une synthese de troisieme annee, prioriser les questions susceptibles d'etre transposees en examen : raisonnement clinique, urgences, surveillances, therapeutiques, role IDE, securite et cadre legal.
+- Accepter le recoupement avec les quiz detailles, puisque la synthese sert de parcours autonome, mais supprimer les doublons internes et eviter les variantes artificielles d'une meme question.
+- Rechercher en general une majorite de QCM, autour de 70 %, et environ 30 % de Vrai/Faux lorsque le sujet s'y prete. Ce repere reste pedagogique et non mecanique ; equilibrer les reponses Vrai et Faux au plus pres de 50/50.
+- Apres l'ajout ou la revision importante d'un cours ou d'un TD, verifier si la synthese de l'UE doit etre actualisee. N'y integrer que des notions deja couvertes et validees par les sources fournies.
+
 ## Format JSON
 
 Chaque fichier doit respecter cette structure :

@@ -1,5 +1,12 @@
 [
   {
+    "file": "data/4.4_S5_SYNTHESE_EXAMEN_2026.json",
+    "code": "UE 4.4",
+    "name": "Synthèse UE 4.4 S5 - Type examen",
+    "subtitle": "S5 - CCI, PICC Line, sécurisation des soins et calculs de dose",
+    "icon": "🎯"
+  },
+  {
     "file": "data/4.4_S5_TD1_CCI_CALCULS_2026.json",
     "code": "UE 4.4",
     "name": "TD n°1 - CCI et calculs de dose",
@@ -19,6 +26,13 @@
     "name": "Chambre à cathéter implantable",
     "subtitle": "CCI : législation, aiguille de Huber, surveillance et complications",
     "icon": "🩺"
+  },
+  {
+    "file": "data/2.11_S5_SYNTHESE_EXAMEN_2026.json",
+    "code": "UE 2.11",
+    "name": "Synthèse UE 2.11 S5 - Type examen",
+    "subtitle": "S5 - Anesthésie, SSPI, OHB, toxicologie, prescriptions et stupéfiants",
+    "icon": "🎯"
   },
   {
     "file": "data/2.11_S5_SURVEILLANCE_SSPI_2026.json",
@@ -68,6 +82,13 @@
     "name": "Prescriptions médicales",
     "subtitle": "S5 - Réglementation, conformité, types de prescriptions, 5B et sécurité du circuit",
     "icon": "📝"
+  },
+  {
+    "file": "data/2.6_S5_SYNTHESE_EXAMEN_2026.json",
+    "code": "UE 2.6",
+    "name": "Synthèse UE 2.6 S5 - Type examen",
+    "subtitle": "S5 - Psychopathologie, urgences, thérapeutiques et soins infirmiers",
+    "icon": "🎯"
   },
   {
     "file": "data/2.6_S5_TD1_TROUBLES_NEVROTIQUES_2026.json",
@@ -140,10 +161,10 @@
     "icon": "🫁"
   },
   {
-    "file": "data/2.6_S5_SYNTHESE_2026.json",
-    "code": "UE 2.6",
-    "name": "Synthèse UE 2.6 S5",
-    "subtitle": "S5 - Révision transversale : soins, cadre légal, sectorisation, psychoses et troubles anxieux",
+    "file": "data/2.9_S5_SYNTHESE_EXAMEN_2026.json",
+    "code": "UE 2.9",
+    "name": "Synthèse UE 2.9 S5 - Type examen",
+    "subtitle": "S5 - Processus tumoraux, prévention, diagnostic, traitements et rôle infirmier",
     "icon": "🎯"
   },
   {

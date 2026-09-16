@@ -119,6 +119,17 @@ Si l'utilisateur donne un nombre cible, le respecter autant que possible.
 
 Si le support contient deja beaucoup de QCM/VF existants, conserver ces questions puis completer seulement si des notions importantes ne sont pas couvertes.
 
+### Synthese d'une UE
+
+Quand plusieurs quiz actifs couvrent une meme UE, creer ou maintenir une synthese autonome en premiere position de l'UE dans le catalogue.
+
+- Limiter la synthese a 100 questions et retenir moins de questions si la selection utile est plus courte.
+- Selectionner directement et manuellement les notions deja validees dans les quiz sources ; aucun tirage aleatoire ni script d'assemblage n'est autorise.
+- Pour une cible examen de troisieme annee, privilegier le raisonnement clinique, les urgences, les surveillances, les traitements, le role infirmier, la securite et le cadre legal.
+- Le recoupement avec les quiz detailles est volontaire, mais la synthese ne doit contenir ni doublon interne ni reformulation artificielle d'une meme question.
+- Utiliser comme repere environ 70 % de QCM et 30 % de Vrai/Faux lorsque la matiere s'y prete, avec une repartition Vrai/Faux aussi proche que possible de 50/50.
+- Reevaluer la synthese apres chaque ajout important de cours ou de TD dans l'UE.
+
 ## Catalogue et icone
 
 Quand un quiz doit apparaitre dans l'application, ajouter une entree dans `quizzes.json` avec:
