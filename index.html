@@ -90,6 +90,22 @@
             margin-bottom: 20px;
             animation: fadeInSection 0.3s ease-out;
         }
+
+        #carousels-container.synthesis-only {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 20px;
+        }
+
+        #carousels-container.synthesis-only .category-section {
+            margin-bottom: 0;
+        }
+
+        #carousels-container.synthesis-only .horizontal-scroll {
+            overflow: visible;
+            padding-bottom: 10px;
+        }
         @keyframes fadeInSection {
             from { opacity: 0; transform: translateY(10px); }
             to { opacity: 1; transform: translateY(0); }
@@ -143,6 +159,31 @@
             border-color: #3498db;
             background-color: #f0f9ff;
             box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+        }
+
+        .quiz-card.synthesis-card {
+            background: linear-gradient(145deg, #ffffff 35%, #f2f8fd 100%);
+            border-color: #b9d8ee;
+            box-shadow: 0 6px 18px rgba(52, 152, 219, 0.08);
+        }
+
+        .quiz-card.synthesis-card:hover {
+            border-color: #7fb9df;
+            box-shadow: 0 12px 26px rgba(52, 152, 219, 0.14);
+        }
+
+        .quiz-card.synthesis-card.selected {
+            background: #f0f9ff;
+            border-color: #3498db;
+        }
+
+        .quiz-card.synthesis-card .card-bg-icon {
+            opacity: 0.13;
+            filter: none;
+        }
+
+        .quiz-card.synthesis-card .card-title {
+            color: #245b7d;
         }
 
         .card-bg-icon {
@@ -528,6 +569,12 @@
             allBtn.onclick = () => filterCarousels('ALL', allBtn);
             filterContainer.appendChild(allBtn);
 
+            const synthesisBtn = document.createElement('div');
+            synthesisBtn.className = "filter-btn";
+            synthesisBtn.innerText = "SYNTHÈSES";
+            synthesisBtn.onclick = () => filterCarousels('SYNTHESIS', synthesisBtn);
+            filterContainer.appendChild(synthesisBtn);
+
             codes.forEach(code => {
                 let btn = document.createElement('div');
                 btn.className = "filter-btn";
@@ -541,6 +588,9 @@
             document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
             clickedBtn.classList.add('active');
 
+            document.getElementById('carousels-container')
+                .classList.toggle('synthesis-only', category === 'SYNTHESIS');
+
             // Reset sélection fantôme
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             selectedQuizUrl = null;
@@ -550,11 +600,18 @@
             const sections = document.querySelectorAll('.category-section');
             sections.forEach(sec => {
                 const secCode = sec.dataset.code || "AUTRE";
-                if (category === 'ALL' || secCode === category) {
-                    sec.style.display = 'block';
-                } else {
-                    sec.style.display = 'none';
+                const cards = [...sec.querySelectorAll('.quiz-card')];
+
+                if (category === 'SYNTHESIS') {
+                    cards.forEach(card => {
+                        card.style.display = card.dataset.type === 'synthesis' ? '' : 'none';
+                    });
+                    sec.style.display = cards.some(card => card.dataset.type === 'synthesis') ? 'block' : 'none';
+                    return;
                 }
+
+                cards.forEach(card => { card.style.display = ''; });
+                sec.style.display = (category === 'ALL' || secCode === category) ? 'block' : 'none';
             });
         }
 
@@ -582,8 +639,10 @@
 
                 items.forEach(q => {
                     const card = document.createElement('div');
-                    card.className = 'quiz-card';
-                    const icon = q.icon ? q.icon : ""; 
+                    const isSynthesis = q.type === 'synthesis';
+                    card.className = isSynthesis ? 'quiz-card synthesis-card' : 'quiz-card';
+                    card.dataset.type = q.type || 'standard';
+                    const icon = q.icon ? q.icon : "";
 
                     card.onclick = () => selectQuiz(q.file, card, q.name, q.subtitle, code);
                     

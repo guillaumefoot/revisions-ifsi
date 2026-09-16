@@ -123,6 +123,7 @@ Si le support contient deja beaucoup de QCM/VF existants, conserver ces question
 
 Quand plusieurs quiz actifs couvrent une meme UE, creer ou maintenir une synthese autonome en premiere position de l'UE dans le catalogue.
 
+- Ajouter `"type": "synthesis"` a son entree dans `quizzes.json` pour l'apparence et le filtre dedies.
 - Limiter la synthese a 100 questions et retenir moins de questions si la selection utile est plus courte.
 - Selectionner directement et manuellement les notions deja validees dans les quiz sources ; aucun tirage aleatoire ni script d'assemblage n'est autorise.
 - Pour une cible examen de troisieme annee, privilegier le raisonnement clinique, les urgences, les surveillances, les traitements, le role infirmier, la securite et le cadre legal.

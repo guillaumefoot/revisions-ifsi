@@ -53,6 +53,7 @@ Ces instructions s'appliquent a l'ensemble du projet.
 ## Quiz de synthese par UE
 
 - Lorsqu'une UE comporte plusieurs quiz actifs, maintenir un quiz de synthese place en premiere position de cette UE dans `quizzes.json`.
+- Identifier chaque synthese dans le catalogue avec `"type": "synthesis"` afin d'activer son apparence et son filtre dedies dans l'application.
 - Le quiz de synthese est une selection editoriale issue des banques validees de l'UE, jamais un tirage aleatoire ni un assemblage automatique par script.
 - Cibler au maximum 100 questions. Rester en dessous lorsque la matiere pertinente ne justifie pas ce volume.
 - Pour une synthese de troisieme annee, prioriser les questions susceptibles d'etre transposees en examen : raisonnement clinique, urgences, surveillances, therapeutiques, role IDE, securite et cadre legal.
