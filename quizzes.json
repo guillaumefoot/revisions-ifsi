@@ -65,6 +65,13 @@
     "icon": "🩺"
   },
   {
+    "file": "data/3.3_S5_TD3_MESURE_CHARGE_SOINS_2026.json",
+    "code": "UE 3.3",
+    "name": "TD n°3 - Mesure de la charge en soins",
+    "subtitle": "S5 - Charge en soins et charge de travail, SIIPS, PRN, qualité des soins et risques psychosociaux",
+    "icon": "⚖️"
+  },
+  {
     "file": "data/2.11_S5_SYNTHESE_EXAMEN_2026.json",
     "code": "UE 2.11",
     "name": "Synthèse UE 2.11 S5 - Type examen",
