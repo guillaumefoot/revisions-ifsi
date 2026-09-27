@@ -231,12 +231,6 @@
       "explanation": "C’est Vrai. Mais une cause grave doit toujours être éliminée."
     },
     {
-      "question": "Une approche globale est nécessaire.",
-      "options": ["Vrai", "Faux"],
-      "correct": [0],
-      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
-    },
-    {
       "question": "Une douleur thoracique irradiant au bras gauche est évocatrice d’un SCA.",
       "options": ["Vrai", "Faux"],
       "correct": [0],
@@ -698,12 +692,6 @@
       "explanation": "C’est Vrai. Plus la prise en charge est rapide, meilleur est le pronostic."
     },
     {
-      "question": "Une approche globale est nécessaire.",
-      "options": ["Vrai", "Faux"],
-      "correct": [0],
-      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
-    },
-    {
       "question": "Une douleur thoracique augmentée à l’effort évoque une origine cardiaque.",
       "options": ["Vrai", "Faux"],
       "correct": [0],
@@ -869,32 +857,10 @@
       "explanation": "C’est Faux. Il doit être adapté et surveillé."
     },
     {
-      "question": "Quels dispositifs peuvent être utilisés ?",
-      "options": [
-        "Masque O2",
-        "Lunettes",
-        "Scope",
-        "Balance"
-      ],
-      "correct": [0, 1, 2],
-      "explanation": "Ces dispositifs sont utilisés en urgence."
-    },
-    {
       "question": "Le scope permet de surveiller le rythme cardiaque.",
       "options": ["Vrai", "Faux"],
       "correct": [0],
       "explanation": "C’est Vrai. Il permet une surveillance continue."
-    },
-    {
-      "question": "Quels rôles IDE ?",
-      "options": [
-        "Surveillance",
-        "Alerte",
-        "Installation",
-        "Diagnostic"
-      ],
-      "correct": [0, 1, 2],
-      "explanation": "L’IDE participe à la prise en charge sans poser de diagnostic médical."
     },
     {
       "question": "La position demi-assise est adaptée en dyspnée.",
@@ -920,27 +886,10 @@
       "explanation": "C’est Faux. Une surveillance reste nécessaire."
     },
     {
-      "question": "Quels facteurs aggravants ?",
-      "options": [
-        "Age",
-        "Comorbidités",
-        "Retard prise en charge",
-        "Hydratation normale"
-      ],
-      "correct": [0, 1, 2],
-      "explanation": "Ces facteurs influencent le pronostic."
-    },
-    {
       "question": "Le délai de prise en charge influence le pronostic.",
       "options": ["Vrai", "Faux"],
       "correct": [0],
       "explanation": "C’est Vrai. Une prise en charge rapide améliore l’issue."
-    },
-    {
-      "question": "Une approche globale est nécessaire.",
-      "options": ["Vrai", "Faux"],
-      "correct": [0],
-      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
     },
     {
       "question": "Une douleur thoracique en coup de poignard évoque plutôt une origine respiratoire.",
@@ -1091,17 +1040,6 @@
       "explanation": "C’est Faux. Il doit être adapté et surveillé."
     },
     {
-      "question": "Quels dispositifs peuvent être utilisés ?",
-      "options": [
-        "Masque O2",
-        "Lunettes",
-        "Scope",
-        "Balance"
-      ],
-      "correct": [0, 1, 2],
-      "explanation": "Ces dispositifs sont utilisés en urgence."
-    },
-    {
       "question": "Le scope permet une surveillance continue du rythme cardiaque.",
       "options": ["Vrai", "Faux"],
       "correct": [0],
@@ -1157,12 +1095,6 @@
       "options": ["Vrai", "Faux"],
       "correct": [0],
       "explanation": "C’est Vrai. Plus la prise en charge est rapide, meilleur est le pronostic."
-    },
-    {
-      "question": "Une approche globale est nécessaire.",
-      "options": ["Vrai", "Faux"],
-      "correct": [0],
-      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
     },
     {
       "question": "La prise en charge est identique pour tous les patients.",

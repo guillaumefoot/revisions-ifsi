@@ -12,6 +12,7 @@ https://guillaumefoot.github.io/revisions-ifsi/
 
 Elle permet de:
 
+- choisir son annee d'etude et filtrer facultativement par semestre ;
 - choisir un module de revision ;
 - lancer des sessions de 5, 10, 20 questions ou tout le quiz ;
 - melanger les questions et les propositions de QCM ;
@@ -32,9 +33,23 @@ icons/           Icones de l'application
 
 Les anciens fichiers de quiz peuvent rester dans `data/` comme archive. Seuls les fichiers references dans `quizzes.json` apparaissent dans l'application.
 
-## Playlist et icones
+## Catalogue, annees et icones
 
-Le fichier `quizzes.json` decrit les quiz visibles dans l'application. Chaque entree contient le chemin du fichier, l'UE, le nom affiche, le sous-titre et une icone.
+Le fichier `quizzes.json` decrit les quiz visibles dans l'application. Chaque entree contient le chemin du fichier, l'UE, le nom affiche, le sous-titre et une icone. Les champs `year` et `semesters` permettent de rattacher un quiz a une annee et a un ou plusieurs semestres.
+
+```json
+{
+  "file": "data/6.2_VOCABULAIRE.json",
+  "code": "UE 6.2",
+  "name": "Vocabulaire medical",
+  "subtitle": "S3-S4 - Vocabulaire medical courant",
+  "icon": "💬",
+  "year": 2,
+  "semesters": [3, 4]
+}
+```
+
+Les entrees historiques sans ces champs correspondent actuellement a la troisieme annee et au semestre 5. Le filtre semestriel est facultatif : la vue `Toute l'annee` conserve l'acces cumule aux deux semestres, notamment pour les rattrapages.
 
 L'icone sert uniquement a l'affichage des cartes de quiz. Elle doit aider a reconnaitre rapidement le sujet, rester sobre, et etre coherente avec le theme du module. Elle n'est pas stockee dans le fichier `data/*.json`, mais dans `quizzes.json`.
 

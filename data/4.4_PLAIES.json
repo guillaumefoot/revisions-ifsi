@@ -35,7 +35,7 @@
       "question": "Une plaie est une interruption de la continuité des tissus.",
       "options": ["Vrai", "Faux"],
       "correct": [0],
-      "explanation": "C’est Vrai. C’est la définition donnée dans le cours."
+      "explanation": "C’est Vrai. Une plaie correspond à une interruption de la continuité des tissus."
     },
     {
       "question": "Quelles sont les plaies aiguës ?",
@@ -91,7 +91,7 @@
         "Phase de remodelage"
       ],
       "correct": [0, 1, 2, 3],
-      "explanation": "Ce sont les 4 phases décrites dans le cours."
+      "explanation": "La cicatrisation comprend les phases vasculaire, inflammatoire, de prolifération et de remodelage."
     },
     {
       "question": "La phase vasculaire dure plusieurs semaines.",
@@ -131,7 +131,7 @@
         "Quaternaire"
       ],
       "correct": [0, 1],
-      "explanation": "Le cours mentionne cicatrisation primaire et secondaire."
+      "explanation": "Les deux types attendus sont la cicatrisation primaire et la cicatrisation secondaire."
     },
     {
       "question": "La cicatrisation dirigée est indiquée en cas de perte de substance non suturable.",

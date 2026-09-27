@@ -1,4 +1,4 @@
-const CACHE_NAME = "ifsi-quiz-v4.6";
+const CACHE_NAME = "ifsi-quiz-v5.0";
 const APP_SHELL = [
   "/revisions-ifsi/",
   "/revisions-ifsi/index.html",

@@ -27,12 +27,10 @@ const stats = {
 
 const forbiddenSourceReferencePatterns = [
   /\bdans le cours\b/i,
-  /\ble cours\b/i,
-  /\bdu cours\b/i,
   /\bselon le cours\b/i,
+  /\ble cours (?:précise|indique|mentionne|définit|décrit|insiste|présente)\b/i,
   /\bselon le support\b/i,
-  /\ble support\b/i,
-  /\bce support\b/i,
+  /\b(?:le|ce) support (?:précise|indique|mentionne|définit|décrit|insiste|présente)\b/i,
   /\bdans le document\b/i,
   /\ble document\b/i,
   /\bselon le document\b/i,
@@ -124,7 +122,7 @@ function validateQuiz(filePath) {
     } else if (containsForbiddenSourceReference(question.question)) {
       errors.push(`${prefix}: la question mentionne la source au lieu d'etre autonome`);
     } else {
-      const key = question.question.trim();
+      const key = JSON.stringify(question);
       if (seenQuestions.has(key)) {
         warnings.push(`${prefix}: doublon exact de la question ${seenQuestions.get(key)}`);
       } else {
@@ -221,6 +219,28 @@ function validateCatalog() {
 
     if (!isNonEmptyString(entry.icon)) {
       warnings.push(`${prefix}: champ "icon" absent ou vide`);
+    }
+
+    if ("year" in entry && (!Number.isInteger(entry.year) || entry.year < 1 || entry.year > 3)) {
+      errors.push(`${prefix}: champ "year" invalide`);
+    }
+
+    if ("semesters" in entry) {
+      if (!Array.isArray(entry.semesters) || entry.semesters.length === 0) {
+        errors.push(`${prefix}: champ "semesters" absent, vide ou non tableau`);
+      } else {
+        const uniqueSemesters = new Set(entry.semesters);
+        if (uniqueSemesters.size !== entry.semesters.length) {
+          warnings.push(`${prefix}: semestres dupliques`);
+        }
+        entry.semesters.forEach((semester) => {
+          if (!Number.isInteger(semester) || semester < 1 || semester > 6) {
+            errors.push(`${prefix}: semestre invalide (${semester})`);
+          } else if (Number.isInteger(entry.year) && Math.ceil(semester / 2) !== entry.year) {
+            errors.push(`${prefix}: le semestre S${semester} ne correspond pas a l'annee ${entry.year}`);
+          }
+        });
+      }
     }
 
     if (!isNonEmptyString(entry.file)) {

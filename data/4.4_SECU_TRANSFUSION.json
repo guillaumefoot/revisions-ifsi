@@ -6,7 +6,7 @@
       "question": "L’acte transfusionnel est un acte médical engageant la responsabilité du médecin.",
       "options": ["Vrai", "Faux"],
       "correct": [0],
-      "explanation": "C’est Vrai. Le cours précise que l’acte transfusionnel est un acte médical sous responsabilité du médecin."
+      "explanation": "C’est Vrai. L’acte transfusionnel est un acte médical réalisé sous la responsabilité du médecin."
     },
     {
       "question": "L’infirmier peut réaliser une transfusion sans prescription médicale.",
@@ -64,7 +64,7 @@
       "question": "Une erreur d’identité peut entraîner une erreur de transfusion.",
       "options": ["Vrai", "Faux"],
       "correct": [0],
-      "explanation": "C’est Vrai. Le cours insiste sur le risque majeur lié à l’identitovigilance."
+      "explanation": "C’est Vrai. L’identitovigilance prévient notamment les erreurs de transfusion liées à une erreur d’identité."
     },
     {
       "question": "Quels examens sont obligatoires avant transfusion ?",

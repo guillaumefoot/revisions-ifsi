@@ -12,7 +12,7 @@
       "question": "La transfusion de CGR est indiquée en cas d’anémie sévère ou mal tolérée.",
       "options": ["Vrai", "Faux"],
       "correct": [0],
-      "explanation": "C’est Vrai. Le cours précise que les CGR sont transfusés en cas d’anémie sévère ou mal tolérée."
+      "explanation": "C’est Vrai. Les CGR sont transfusés en cas d’anémie sévère ou mal tolérée."
     },
     {
       "question": "Le plasma contient principalement des globules rouges.",
@@ -35,7 +35,7 @@
       "question": "Une thrombopénie est définie par un taux de plaquettes inférieur à 150 G/L.",
       "options": ["Vrai", "Faux"],
       "correct": [0],
-      "explanation": "C’est Vrai. Le cours définit la thrombopénie comme une diminution des plaquettes < 150 G/L."
+      "explanation": "C’est Vrai. Une thrombopénie correspond à un taux de plaquettes inférieur à 150 G/L."
     },
     {
       "question": "Quels sont les signes du syndrome anémique ?",

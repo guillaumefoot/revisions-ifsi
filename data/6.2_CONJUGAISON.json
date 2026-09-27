@@ -251,7 +251,7 @@
   },
   {
     "question": "Choisir la bonne forme : She ___ (make) a decision yesterday.",
-    "options": ["made","make","made","making"],
+    "options": ["made","make","makes","making"],
     "correct": [0],
     "explanation": "Past simple de make = made."
   },

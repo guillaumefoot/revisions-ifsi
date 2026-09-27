@@ -249,12 +249,6 @@
       "explanation": "Le suffixe -floxacine est constant dans cette famille."
     },
     {
-      "question": "Les carbapénèmes ont un spectre étroit.",
-      "options": ["Vrai", "Faux"],
-      "correct": [1],
-      "explanation": "Ils ont un spectre très large."
-    },
-    {
       "question": "Les nitro-imidazolés sont actifs sur les bactéries anaérobies.",
       "options": ["Vrai", "Faux"],
       "correct": [0],

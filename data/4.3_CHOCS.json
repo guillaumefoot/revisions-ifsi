@@ -174,12 +174,6 @@
       "explanation": "Le traitement dépend du type de choc."
     },
     {
-      "question": "Les vasopresseurs augmentent la pression artérielle.",
-      "options": ["Vrai", "Faux"],
-      "correct": [0],
-      "explanation": "C’est Vrai. Ils provoquent une vasoconstriction."
-    },
-    {
       "question": "Quels rôles IDE en état de choc ?",
       "options": [
         "Surveillance",
@@ -224,12 +218,6 @@
       "options": ["Vrai", "Faux"],
       "correct": [1],
       "explanation": "C’est Faux. Il peut être compensé au début."
-    },
-    {
-      "question": "Une approche globale est nécessaire.",
-      "options": ["Vrai", "Faux"],
-      "correct": [0],
-      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
     },
     {
       "question": "Le choc hypovolémique peut être causé par une hémorragie.",
@@ -454,12 +442,6 @@
       "explanation": "C’est Vrai. Une prise en charge rapide améliore le pronostic."
     },
     {
-      "question": "Une approche globale est nécessaire.",
-      "options": ["Vrai", "Faux"],
-      "correct": [0],
-      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
-    },
-    {
       "question": "Le choc correspond à une inadéquation entre apports et besoins en oxygène.",
       "options": ["Vrai", "Faux"],
       "correct": [0],
@@ -619,12 +601,6 @@
       "explanation": "Le traitement dépend de la cause."
     },
     {
-      "question": "Les vasopresseurs augmentent la pression artérielle.",
-      "options": ["Vrai", "Faux"],
-      "correct": [0],
-      "explanation": "C’est Vrai. Ils provoquent une vasoconstriction."
-    },
-    {
       "question": "Quels rôles IDE en état de choc ?",
       "options": [
         "Surveillance",
@@ -642,32 +618,10 @@
       "explanation": "C’est Vrai. L’état peut évoluer rapidement."
     },
     {
-      "question": "Quels signes d’aggravation ?",
-      "options": [
-        "Hypotension",
-        "Altération conscience",
-        "Oligurie",
-        "Amélioration"
-      ],
-      "correct": [0, 1, 2],
-      "explanation": "Ces signes traduisent une dégradation."
-    },
-    {
       "question": "Une amélioration exclut une surveillance rapprochée.",
       "options": ["Vrai", "Faux"],
       "correct": [1],
       "explanation": "C’est Faux. Une surveillance reste indispensable."
-    },
-    {
-      "question": "Quels facteurs influencent le pronostic ?",
-      "options": [
-        "Age",
-        "Terrain",
-        "Délai prise en charge",
-        "Couleur cheveux"
-      ],
-      "correct": [0, 1, 2],
-      "explanation": "Ces facteurs sont déterminants."
     },
     {
       "question": "Le délai de prise en charge influence le pronostic.",
@@ -680,12 +634,6 @@
       "options": ["Vrai", "Faux"],
       "correct": [0],
       "explanation": "C’est Vrai. Il engage rapidement le pronostic vital."
-    },
-    {
-      "question": "Une approche globale est nécessaire.",
-      "options": ["Vrai", "Faux"],
-      "correct": [0],
-      "explanation": "C’est Vrai. Elle permet une prise en charge complète."
     },
     {
       "question": "Le choc hypovolémique entraîne une diminution du retour veineux.",

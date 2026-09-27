@@ -152,17 +152,6 @@
       "explanation": "C’est Vrai. Ils peuvent altérer le rein."
     },
     {
-      "question": "Quels rôles IDE ?",
-      "options": [
-        "Surveillance",
-        "Education",
-        "Prévention",
-        "Prescription"
-      ],
-      "correct": [0, 1, 2],
-      "explanation": "L’IDE ne prescrit pas."
-    },
-    {
       "question": "La surveillance du DFG est importante.",
       "options": ["Vrai", "Faux"],
       "correct": [0],

@@ -205,16 +205,6 @@
       ]
     },
     {
-      "question": "\"Weak\" signifie \"faible\".",
-      "options": [
-        "Vrai",
-        "Faux"
-      ],
-      "correct": [
-        0
-      ]
-    },
-    {
       "question": "\"Severe\" signifie \"léger\".",
       "options": [
         "Vrai",
@@ -414,16 +404,6 @@
       ]
     },
     {
-      "question": "\"Disease\" signifie \"maladie\".",
-      "options": [
-        "Vrai",
-        "Faux"
-      ],
-      "correct": [
-        0
-      ]
-    },
-    {
       "question": "\"Symptom\" signifie \"symptôme\".",
       "options": [
         "Vrai",
@@ -515,16 +495,6 @@
         1
       ],
       "explanation": "C'est Faux car weak signifie faible."
-    },
-    {
-      "question": "\"Pain\" signifie \"douleur\".",
-      "options": [
-        "Vrai",
-        "Faux"
-      ],
-      "correct": [
-        0
-      ]
     },
     {
       "question": "Traduire en anglais : douleur abdominale",
