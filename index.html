@@ -14,25 +14,35 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-            background-color: #f4f6f9;
+            background-color: #fff;
             color: #2d3436;
             margin: 0;
-            padding: 12px;
+            padding: 0;
             line-height: 1.5;
             font-size: 16px;
         }
 
         .container {
             background-color: white;
-            max-width: 1000px;
-            margin: 0 auto;
-            padding: 22px;
-            border-radius: 20px;
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
-            min-height: 85vh;
+            width: 100%;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px clamp(16px, 2.5vw, 36px);
             display: flex;
             flex-direction: column;
-            overflow: hidden;
+        }
+
+        #header-area,
+        #setup-panel {
+            width: 100%;
+            max-width: 1440px;
+            margin-inline: auto;
+        }
+
+        #quiz-interface,
+        #result-screen {
+            width: min(100%, 820px);
+            margin-inline: auto;
         }
 
         h1 {
@@ -188,11 +198,9 @@
             display: flex;
             gap: 12px;
             overflow-x: auto;
-            padding-top: 4px;
-            padding-bottom: 12px;
-            padding-left: 5px;
-            padding-right: 5px;
-            scroll-snap-type: x mandatory; 
+            padding: 8px 6px 14px;
+            scroll-padding-inline: 6px;
+            scroll-snap-type: x mandatory;
             -webkit-overflow-scrolling: touch;
         }
         
@@ -214,11 +222,13 @@
             flex-direction: column;
             position: relative; 
             overflow: hidden;   
-            min-width: 245px;
+            flex: 0 0 clamp(220px, calc((100% - 36px) / 4), 245px);
+            min-width: 0;
             max-width: 245px;
             height: 176px;
             scroll-snap-align: start;
-            flex-shrink: 0;
+            scroll-margin-inline: 6px;
+            scroll-margin-block: 12px 100px;
         }
 
         .quiz-card:hover {
@@ -351,7 +361,7 @@
             left: 50%;
             bottom: max(10px, env(safe-area-inset-bottom));
             transform: translateX(-50%);
-            width: min(calc(100% - 24px), 956px);
+            width: min(calc(100% - 24px), 1400px);
             display: none;
             align-items: center;
             gap: 14px;
@@ -404,15 +414,42 @@
 
         /* --- UI QUIZ --- */
         .quiz-context-header {
-            text-align: center; margin-bottom: 20px; padding-bottom: 15px;
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) auto;
+            align-items: center;
+            gap: 12px;
+            text-align: left;
+            margin-bottom: 14px;
+            padding: 2px 0 10px;
             border-bottom: 1px solid #edf2f7;
         }
-        .context-title { font-weight: 800; color: #3498db; font-size: 0.9rem; text-transform: uppercase; }
-        .context-subtitle { color: #718096; font-size: 0.85rem; margin-top: 4px; }
+        .quiz-context-copy { min-width: 0; }
+        .context-title {
+            overflow: hidden;
+            color: #3498db;
+            font-size: 0.88rem;
+            font-weight: 800;
+            text-overflow: ellipsis;
+            text-transform: uppercase;
+            white-space: nowrap;
+        }
+        .context-subtitle {
+            overflow: hidden;
+            color: #718096;
+            font-size: 0.8rem;
+            margin-top: 1px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
 
         .progress {
-            text-align: right; color: #cbd5e0; font-weight: 700;
-            font-size: 0.85rem; margin-bottom: 10px;
+            flex-shrink: 0;
+            padding: 4px 9px;
+            border-radius: 999px;
+            background: #f1f5f9;
+            color: #718096;
+            font-size: 0.78rem;
+            font-weight: 800;
         }
 
         .question-box { display: none; animation: fadeIn 0.3s ease-out; }
@@ -420,22 +457,24 @@
         @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
 
         .question-title {
-            font-size: 1.3rem; 
-            font-weight: 700; margin-bottom: 20px;
-            color: #2d3748; line-height: 1.4;
+            color: #2d3748;
+            font-size: 1.25rem;
+            font-weight: 700;
+            line-height: 1.35;
+            margin-bottom: 12px;
         }
 
         .hint-text {
             display: inline-block; background: #ebf8ff; color: #3182ce;
             padding: 5px 10px; border-radius: 6px; font-size: 0.8rem;
-            font-weight: 700; margin-bottom: 20px;
+            font-weight: 700; margin-bottom: 12px;
         }
 
-        .options { display: flex; flex-direction: column; gap: 10px; }
+        .options { display: flex; flex-direction: column; gap: 8px; }
 
         .options label {
             display: flex; align-items: flex-start;
-            padding: 16px;
+            padding: 13px 14px;
             background-color: #fff; border: 2px solid #edf2f7;
             border-radius: 12px; cursor: pointer; transition: all 0.15s ease;
             font-size: 1rem; color: #4a5568;
@@ -470,7 +509,7 @@
 
         .btn {
             background-color: #3498db; color: white; border: none; padding: 16px;
-            font-size: 1.1rem; border-radius: 12px; cursor: pointer; margin-top: 25px;
+            font-size: 1.05rem; border-radius: 12px; cursor: pointer; margin-top: 18px;
             width: 100%; font-weight: 700; box-shadow: 0 4px 10px rgba(52, 152, 219, 0.2);
         }
         .btn-next { background-color: #2d3748; box-shadow: none; }
@@ -519,22 +558,27 @@
 
         /* --- OPTIMISATION MOBILE --- */
         @media (max-width: 600px) {
-            body { padding: 8px; }
-            .container { padding: 14px 12px; border-radius: 14px; box-shadow: none; min-height: auto; }
+            .container { padding: 12px; min-height: 100vh; }
             .app-header { margin-bottom: 10px; }
             h1 { font-size: 1.25rem; }
             .year-switch { padding: 6px 9px; font-size: 0.76rem; }
             .year-gate-card { padding: 22px 16px; }
             
-            .question-title { font-size: 1.15rem; }
-            .options label { padding: 14px; font-size: 0.95rem; }
+            .quiz-context-header { margin-bottom: 10px; padding-bottom: 8px; }
+            .context-title { font-size: 0.8rem; }
+            .context-subtitle { font-size: 0.75rem; }
+            .progress { padding: 4px 8px; font-size: 0.72rem; }
+            .question-title { font-size: 1.1rem; margin-bottom: 10px; }
+            .hint-text { margin-bottom: 10px; }
+            .options label { padding: 12px; font-size: 0.94rem; }
             
             .horizontal-scroll::-webkit-scrollbar { display: none; }
             .horizontal-scroll { scrollbar-width: none; }
             
             .quiz-card {
-                min-width: 225px;
-                max-width: 225px;
+                flex-basis: calc(100% - 20px);
+                min-width: 0;
+                max-width: 300px;
                 height: 164px;
                 padding: 14px;
             }
@@ -545,7 +589,7 @@
             .card-bg-icon { font-size: 5rem; bottom: -10px; right: -8px; }
             
             .category-section { margin-bottom: 8px; }
-            #grid-section { padding-bottom: 82px; }
+            #grid-section { padding-bottom: 94px; }
             .launch-dock {
                 width: calc(100% - 16px);
                 bottom: max(6px, env(safe-area-inset-bottom));
@@ -612,11 +656,12 @@
 
         <div id="quiz-interface" style="display:none;">
             <div class="quiz-context-header">
-                <div class="context-title" id="ctx-title">UE --</div>
-                <div class="context-subtitle" id="ctx-sub">Sujet</div>
+                <div class="quiz-context-copy">
+                    <div class="context-title" id="ctx-title">UE --</div>
+                    <div class="context-subtitle" id="ctx-sub">Sujet</div>
+                </div>
+                <div class="progress" id="progress"></div>
             </div>
-
-            <div class="progress" id="progress"></div>
             <div id="quiz-container"></div>
         </div>
 
@@ -921,6 +966,7 @@
         function selectQuiz(url, element, name, sub, code) {
             document.querySelectorAll('.quiz-card').forEach(el => el.classList.remove('selected'));
             element.classList.add('selected');
+            element.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'nearest' });
             selectedQuizUrl = url;
             currentQuizFile = url; 
             currentQuizName = (code && code !== "AUTRE" ? code + " • " : "") + name;
