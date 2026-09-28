@@ -412,6 +412,99 @@
         }
         .start-btn.ready:hover { transform: translateY(-2px); background-color: #2980b9; }
 
+        /* --- PRÉPARATION HORS LIGNE --- */
+        body.offline-sync-open { overflow: hidden; }
+
+        .offline-sync {
+            position: fixed;
+            z-index: 200;
+            inset: 0;
+            display: grid;
+            place-items: center;
+            padding: 20px;
+            background: rgba(244, 247, 250, 0.92);
+            backdrop-filter: blur(8px);
+        }
+
+        .offline-sync[hidden] { display: none; }
+
+        .offline-sync-card {
+            width: min(100%, 460px);
+            padding: 28px;
+            border: 1px solid #dbe7ef;
+            border-radius: 20px;
+            background: #fff;
+            box-shadow: 0 22px 60px rgba(44, 62, 80, 0.14);
+            text-align: center;
+        }
+
+        .offline-sync-icon {
+            width: 54px;
+            height: 54px;
+            display: grid;
+            place-items: center;
+            margin: 0 auto 14px;
+            border-radius: 16px;
+            background: #eaf6fd;
+            font-size: 1.7rem;
+        }
+
+        .offline-sync-card h2 {
+            margin: 0 0 7px;
+            color: #2c3e50;
+            font-size: 1.2rem;
+        }
+
+        .offline-sync-card p {
+            margin: 0;
+            color: #718096;
+            font-size: 0.9rem;
+        }
+
+        .offline-progress-track {
+            height: 10px;
+            overflow: hidden;
+            margin: 20px 0 9px;
+            border-radius: 999px;
+            background: #edf2f7;
+        }
+
+        .offline-progress-bar {
+            width: 0;
+            height: 100%;
+            border-radius: inherit;
+            background: linear-gradient(90deg, #3498db, #57b5e8);
+            transition: width 0.2s ease;
+        }
+
+        .offline-progress-count {
+            color: #4a5568;
+            font-size: 0.82rem;
+            font-weight: 800;
+        }
+
+        .offline-sync-note {
+            display: block;
+            margin-top: 13px;
+            color: #a0aec0;
+            font-size: 0.75rem;
+        }
+
+        .offline-sync-dismiss {
+            width: 100%;
+            margin-top: 18px;
+            padding: 11px 16px;
+            border: 0;
+            border-radius: 12px;
+            background: #3498db;
+            color: #fff;
+            font: inherit;
+            font-weight: 800;
+            cursor: pointer;
+        }
+
+        .offline-sync-dismiss[hidden] { display: none; }
+
         /* --- UI QUIZ --- */
         .quiz-context-header {
             display: grid;
@@ -601,6 +694,8 @@
             .count-options { gap: 3px; flex: 1; }
             .count-pill { padding: 6px 9px; font-size: 0.8rem; flex: 1; }
             .start-btn { min-width: 104px; padding: 10px 12px; font-size: 0.9rem; }
+            .offline-sync { padding: 14px; }
+            .offline-sync-card { padding: 23px 18px; border-radius: 18px; }
         }
     </style>
 </head>
@@ -679,6 +774,28 @@
         </div>
     </div>
 
+    <div id="offline-sync" class="offline-sync" role="status" aria-live="polite" hidden>
+        <div class="offline-sync-card">
+            <div class="offline-sync-icon" aria-hidden="true">☁️</div>
+            <h2 id="offline-sync-title">Préparation du mode hors ligne</h2>
+            <p id="offline-sync-message">Téléchargement des quiz actifs…</p>
+            <div
+                id="offline-progress-track"
+                class="offline-progress-track"
+                role="progressbar"
+                aria-label="Mise en cache des quiz"
+                aria-valuemin="0"
+                aria-valuemax="100"
+                aria-valuenow="0"
+            >
+                <div id="offline-progress-bar" class="offline-progress-bar"></div>
+            </div>
+            <div id="offline-progress-count" class="offline-progress-count">0 / 0 quiz</div>
+            <small id="offline-sync-note" class="offline-sync-note">Cette préparation n’est nécessaire qu’avec une connexion disponible.</small>
+            <button id="offline-sync-dismiss" class="offline-sync-dismiss" type="button" onclick="hideOfflineSync()" hidden>Continuer</button>
+        </div>
+    </div>
+
     <script>
         let sessionSize = 10;
         let selectedQuizUrl = null; 
@@ -697,30 +814,173 @@
         let selectedYear = null;
         let selectedSemester = 'ALL';
 
-        window.onload = function () {
-            fetch('quizzes.json')
-                .then(res => res.json())
-                .then(data => {
-                    catalogData = data;
-                    document.getElementById('loading-spinner').style.display = 'none';
-                    const years = [...new Set(data.map(getQuizYear))].sort();
-                    renderYearChoices(years);
+        window.onload = async function () {
+            let serviceWorkerRegistration = null;
 
-                    const savedYear = parseInt(localStorage.getItem('ifsi_study_year_v1'), 10);
-                    if (years.includes(savedYear)) selectStudyYear(savedYear);
-                    else showYearGate();
-                })
-                .catch(err => {
-                    document.getElementById('loading-spinner').style.display = 'none';
-                    document.getElementById('error-msg').style.display = 'block';
-                    document.getElementById('error-msg').innerText = "Erreur : " + err.message;
-                });
+            if ("serviceWorker" in navigator) {
+                try {
+                    serviceWorkerRegistration = await navigator.serviceWorker.register(
+                        "/revisions-ifsi/sw.js",
+                        { updateViaCache: "none" }
+                    );
+                    await waitForCurrentServiceWorker(serviceWorkerRegistration);
+                } catch (error) {
+                    console.warn("Service worker indisponible :", error);
+                }
+            }
+
+            try {
+                const response = await fetch('quizzes.json');
+                if (!response.ok) throw new Error(`Catalogue indisponible (${response.status})`);
+
+                const data = await response.json();
+                catalogData = data;
+                document.getElementById('loading-spinner').style.display = 'none';
+                const years = [...new Set(data.map(getQuizYear))].sort();
+                renderYearChoices(years);
+
+                const savedYear = parseInt(localStorage.getItem('ifsi_study_year_v1'), 10);
+                if (years.includes(savedYear)) selectStudyYear(savedYear);
+                else showYearGate();
+
+                prepareOfflineQuizCache(data, serviceWorkerRegistration);
+            } catch (error) {
+                document.getElementById('loading-spinner').style.display = 'none';
+                document.getElementById('error-msg').style.display = 'block';
+                document.getElementById('error-msg').innerText = "Erreur : " + error.message;
+            }
         };
 
-        if ("serviceWorker" in navigator) {
-            window.addEventListener("load", () => {
-                navigator.serviceWorker.register("/revisions-ifsi/sw.js");
+        async function waitForCurrentServiceWorker(registration) {
+            const pendingWorker = registration.installing || registration.waiting;
+            if (!pendingWorker || pendingWorker.state === 'activated') return;
+
+            await new Promise(resolve => {
+                const timeoutId = setTimeout(resolve, 12000);
+                const onStateChange = () => {
+                    if (pendingWorker.state === 'activated' || pendingWorker.state === 'redundant') {
+                        clearTimeout(timeoutId);
+                        pendingWorker.removeEventListener('statechange', onStateChange);
+                        resolve();
+                    }
+                };
+                pendingWorker.addEventListener('statechange', onStateChange);
+                onStateChange();
             });
+        }
+
+        async function prepareOfflineQuizCache(data, knownRegistration) {
+            if (!("serviceWorker" in navigator) || navigator.onLine === false) return;
+
+            const files = [...new Set(data.map(quiz => quiz.file).filter(Boolean))];
+            if (files.length === 0) return;
+
+            try {
+                const registration = knownRegistration || await navigator.serviceWorker.ready;
+                const worker = registration.active;
+                if (!worker) return;
+
+                const channel = new MessageChannel();
+                let timeoutId;
+                const armTimeout = (delay = 12000) => {
+                    clearTimeout(timeoutId);
+                    timeoutId = setTimeout(() => {
+                        channel.port1.close();
+                        showOfflineSyncIssue("La préparation hors ligne n’a pas répondu. Elle sera retentée au prochain lancement.");
+                    }, delay);
+                };
+                armTimeout();
+
+                channel.port1.onmessage = (event) => {
+                    const message = event.data || {};
+
+                    if (message.type === "QUIZ_CACHE_STARTED") {
+                        armTimeout(30000);
+                        showOfflineSync(message.total);
+                    } else if (message.type === "QUIZ_CACHE_PROGRESS") {
+                        armTimeout(30000);
+                        updateOfflineSyncProgress(message.completed, message.total);
+                    } else if (message.type === "QUIZ_CACHE_COMPLETE") {
+                        clearTimeout(timeoutId);
+                        channel.port1.close();
+                        finishOfflineSync(message.total, message.failed);
+                    } else if (message.type === "QUIZ_CACHE_OFFLINE") {
+                        clearTimeout(timeoutId);
+                        channel.port1.close();
+                        hideOfflineSync();
+                    } else if (message.type === "QUIZ_CACHE_ERROR") {
+                        clearTimeout(timeoutId);
+                        channel.port1.close();
+                        showOfflineSyncIssue(message.message || "La mise en cache n’a pas pu être terminée.");
+                    }
+                };
+
+                worker.postMessage({
+                    type: "CACHE_ACTIVE_QUIZZES",
+                    files,
+                    catalogUrl: new URL('quizzes.json', window.location.href).href,
+                }, [channel.port2]);
+            } catch (error) {
+                console.warn("Préparation hors ligne indisponible :", error);
+            }
+        }
+
+        function showOfflineSync(total) {
+            const overlay = document.getElementById('offline-sync');
+            const alreadyReady = localStorage.getItem('ifsi_offline_cache_ready_v1') === 'true';
+
+            document.getElementById('offline-sync-title').textContent = alreadyReady
+                ? "Mise à jour du contenu hors ligne"
+                : "Préparation du mode hors ligne";
+            document.getElementById('offline-sync-message').textContent = "Téléchargement des quiz actifs…";
+            document.getElementById('offline-sync-note').textContent = "Garde l’application ouverte jusqu’à la fin de la préparation.";
+            document.getElementById('offline-sync-dismiss').hidden = true;
+            updateOfflineSyncProgress(0, total);
+            overlay.hidden = false;
+            document.body.classList.add('offline-sync-open');
+        }
+
+        function updateOfflineSyncProgress(completed, total) {
+            const safeTotal = Math.max(0, Number(total) || 0);
+            const safeCompleted = Math.min(safeTotal, Math.max(0, Number(completed) || 0));
+            const percent = safeTotal === 0 ? 100 : Math.round((safeCompleted / safeTotal) * 100);
+            const track = document.getElementById('offline-progress-track');
+
+            document.getElementById('offline-progress-bar').style.width = `${percent}%`;
+            document.getElementById('offline-progress-count').textContent = `${safeCompleted} / ${safeTotal} quiz`;
+            track.setAttribute('aria-valuenow', String(percent));
+        }
+
+        function finishOfflineSync(total, failed) {
+            const failureCount = Math.max(0, Number(failed) || 0);
+            updateOfflineSyncProgress(total, total);
+
+            if (failureCount > 0) {
+                document.getElementById('offline-progress-count').textContent = `${Math.max(0, total - failureCount)} / ${total} quiz disponibles`;
+                showOfflineSyncIssue(`${failureCount} quiz n’ont pas pu être téléchargés. Tu peux continuer et réessayer au prochain lancement.`);
+                return;
+            }
+
+            localStorage.setItem('ifsi_offline_cache_ready_v1', 'true');
+            document.getElementById('offline-sync-title').textContent = "Mode hors ligne prêt";
+            document.getElementById('offline-sync-message').textContent = `${total} quiz sont disponibles sans connexion.`;
+            document.getElementById('offline-sync-note').textContent = "Tu peux maintenant utiliser l’application en mode avion ou en zone blanche.";
+            setTimeout(hideOfflineSync, 900);
+        }
+
+        function showOfflineSyncIssue(message) {
+            const overlay = document.getElementById('offline-sync');
+            overlay.hidden = false;
+            document.body.classList.add('offline-sync-open');
+            document.getElementById('offline-sync-title').textContent = "Mode hors ligne incomplet";
+            document.getElementById('offline-sync-message').textContent = message;
+            document.getElementById('offline-sync-note').textContent = "Les quiz déjà enregistrés restent disponibles.";
+            document.getElementById('offline-sync-dismiss').hidden = false;
+        }
+
+        function hideOfflineSync() {
+            document.getElementById('offline-sync').hidden = true;
+            document.body.classList.remove('offline-sync-open');
         }
 
         function getQuizYear(quiz) {

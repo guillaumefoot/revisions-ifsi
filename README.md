@@ -18,7 +18,7 @@ Elle permet de:
 - melanger les questions et les propositions de QCM ;
 - afficher une correction et, quand utile, une explication courte ;
 - masquer localement les questions deja maitrisees ;
-- conserver certains contenus en cache pour un usage hors ligne apres consultation.
+- preparer automatiquement tous les quiz actifs pour un usage hors ligne.
 
 ## Structure du projet
 
@@ -32,6 +32,12 @@ icons/           Icones de l'application
 ```
 
 Les anciens fichiers de quiz peuvent rester dans `data/` comme archive. Seuls les fichiers references dans `quizzes.json` apparaissent dans l'application.
+
+## Utilisation hors ligne
+
+Lorsque le reseau est disponible au lancement, l'application actualise en arriere-plan le cache de tous les fichiers references dans `quizzes.json`. Un ecran de progression indique l'avancement de cette preparation. Les fichiers archives presents dans `data/` mais absents du catalogue ne sont pas telecharges.
+
+Le cache du contenu pedagogique est separe du cache de l'interface afin de rester disponible lors des mises a jour de l'application. Sans connexion, le catalogue et les quiz deja synchronises sont servis directement depuis ces caches.
 
 ## Catalogue, annees et icones
 
