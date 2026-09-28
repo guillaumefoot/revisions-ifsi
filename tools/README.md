@@ -33,7 +33,7 @@ La commande verifie:
 node tools/validate-quizzes.js --catalog
 ```
 
-Cette commande verifie `quizzes.json`, les fichiers qu'il reference, puis les quiz actifs.
+Cette commande verifie `quizzes.json`, `offline-version.json`, les fichiers references par le catalogue, puis les quiz actifs.
 
 Elle signale aussi les entrees de catalogue sans `icon`, car l'icone est utilisee pour l'affichage des cartes dans l'application.
 
@@ -52,5 +52,6 @@ Cette commande controle tous les fichiers `data/*.json`, y compris les anciens p
 3. Rediger directement les questions dans le fichier final `data/*.json`, sans script intermediaire.
 4. Lancer le validateur en lecture seule sur ce fichier.
 5. Ajouter le fichier dans `quizzes.json` si le quiz doit apparaitre dans l'app.
-6. Lancer `node tools/validate-quizzes.js --catalog`.
-7. Publier sur GitHub si la validation est OK.
+6. Incrementer `revision` dans `offline-version.json` lorsque le contenu ou le catalogue actif change.
+7. Lancer `node tools/validate-quizzes.js --catalog`.
+8. Publier sur GitHub si la validation est OK.

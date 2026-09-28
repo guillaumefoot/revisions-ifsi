@@ -834,6 +834,17 @@
                 if (!response.ok) throw new Error(`Catalogue indisponible (${response.status})`);
 
                 const data = await response.json();
+                let offlineRevision = null;
+                try {
+                    const versionResponse = await fetch('offline-version.json', { cache: 'no-store' });
+                    if (versionResponse.ok) {
+                        const versionData = await versionResponse.json();
+                        offlineRevision = versionData.revision;
+                    }
+                } catch (error) {
+                    console.warn("Version hors ligne indisponible :", error);
+                }
+
                 catalogData = data;
                 document.getElementById('loading-spinner').style.display = 'none';
                 const years = [...new Set(data.map(getQuizYear))].sort();
@@ -843,7 +854,7 @@
                 if (years.includes(savedYear)) selectStudyYear(savedYear);
                 else showYearGate();
 
-                prepareOfflineQuizCache(data, serviceWorkerRegistration);
+                prepareOfflineQuizCache(data, serviceWorkerRegistration, offlineRevision);
             } catch (error) {
                 document.getElementById('loading-spinner').style.display = 'none';
                 document.getElementById('error-msg').style.display = 'block';
@@ -869,7 +880,7 @@
             });
         }
 
-        async function prepareOfflineQuizCache(data, knownRegistration) {
+        async function prepareOfflineQuizCache(data, knownRegistration, revision) {
             if (!("serviceWorker" in navigator) || navigator.onLine === false) return;
 
             const files = [...new Set(data.map(quiz => quiz.file).filter(Boolean))];
@@ -894,7 +905,12 @@
                 channel.port1.onmessage = (event) => {
                     const message = event.data || {};
 
-                    if (message.type === "QUIZ_CACHE_STARTED") {
+                    if (message.type === "QUIZ_CACHE_CURRENT") {
+                        clearTimeout(timeoutId);
+                        channel.port1.close();
+                        localStorage.setItem('ifsi_offline_cache_ready_v1', 'true');
+                        hideOfflineSync();
+                    } else if (message.type === "QUIZ_CACHE_STARTED") {
                         armTimeout(30000);
                         showOfflineSync(message.total);
                     } else if (message.type === "QUIZ_CACHE_PROGRESS") {
@@ -919,6 +935,7 @@
                     type: "CACHE_ACTIVE_QUIZZES",
                     files,
                     catalogUrl: new URL('quizzes.json', window.location.href).href,
+                    revision,
                 }, [channel.port2]);
             } catch (error) {
                 console.warn("Préparation hors ligne indisponible :", error);

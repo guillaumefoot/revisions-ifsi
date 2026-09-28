@@ -28,6 +28,7 @@ quizzes.json     Liste des quiz affiches dans l'application
 data/*.json      Packs de questions
 manifest.json    Configuration PWA
 sw.js            Service worker et cache offline
+offline-version.json  Revision du contenu disponible hors ligne
 icons/           Icones de l'application
 ```
 
@@ -38,6 +39,8 @@ Les anciens fichiers de quiz peuvent rester dans `data/` comme archive. Seuls le
 Lorsque le reseau est disponible au lancement, l'application actualise en arriere-plan le cache de tous les fichiers references dans `quizzes.json`. Un ecran de progression indique l'avancement de cette preparation. Les fichiers archives presents dans `data/` mais absents du catalogue ne sont pas telecharges.
 
 Le cache du contenu pedagogique est separe du cache de l'interface afin de rester disponible lors des mises a jour de l'application. Sans connexion, le catalogue et les quiz deja synchronises sont servis directement depuis ces caches.
+
+`offline-version.json` contient un numero de revision a incrementer lors de chaque publication modifiant `data/*.json` ou `quizzes.json`. Si cette revision et la liste des fichiers sont identiques au cache complet, l'application ne revalide pas individuellement les 85 quiz. Une revision differente, une liste modifiee ou un fichier manquant declenche une nouvelle synchronisation exhaustive.
 
 ## Catalogue, annees et icones
 

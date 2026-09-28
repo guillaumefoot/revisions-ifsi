@@ -6,6 +6,7 @@ const path = require("path");
 const root = path.resolve(__dirname, "..");
 const dataDir = path.join(root, "data");
 const catalogPath = path.join(root, "quizzes.json");
+const offlineVersionPath = path.join(root, "offline-version.json");
 
 const args = process.argv.slice(2);
 const options = {
@@ -188,6 +189,23 @@ function validateQuiz(filePath) {
 }
 
 function validateCatalog() {
+  if (!fs.existsSync(offlineVersionPath)) {
+    errors.push(`${rel(offlineVersionPath)}: fichier introuvable`);
+  } else {
+    const offlineVersion = readJson(offlineVersionPath);
+    if (
+      offlineVersion
+      && (
+        typeof offlineVersion !== "object"
+        || Array.isArray(offlineVersion)
+        || !Number.isInteger(offlineVersion.revision)
+        || offlineVersion.revision < 1
+      )
+    ) {
+      errors.push(`${rel(offlineVersionPath)}: champ "revision" absent ou invalide`);
+    }
+  }
+
   const catalog = readJson(catalogPath);
   if (!catalog) return [];
 

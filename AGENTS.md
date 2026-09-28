@@ -94,6 +94,13 @@ Chaque fichier doit respecter cette structure :
 - Choisir une icone sobre, lisible et specifique au sujet.
 - Les anciens fichiers peuvent rester archives dans `data/` ; seuls les fichiers references dans `quizzes.json` sont actifs.
 
+## Version du cache hors ligne
+
+- Toute publication modifiant `data/*.json` ou `quizzes.json` doit incrementer l'entier `revision` dans `offline-version.json`.
+- La revision doit etre strictement superieure a la valeur deja publiee sur `main`.
+- Une modification limitee a l'interface, a la documentation ou aux outils ne necessite pas d'incrementer cette revision si le contenu des quiz et le catalogue restent identiques.
+- Inclure `offline-version.json` dans le meme commit que les quiz ou le catalogue modifies afin que les appareils resynchronisent leur cache pedagogique.
+
 ## Validation obligatoire
 
 Apres redaction directe d'un quiz :
@@ -115,7 +122,7 @@ git diff --check
 
 ## Publication
 
-- Un push direct sur `main` est autorise lorsque les changements concernent uniquement `data/*.json`, `quizzes.json` ou la documentation, et que les validations pertinentes reussissent.
+- Un push direct sur `main` est autorise lorsque les changements concernent uniquement `data/*.json`, `quizzes.json`, `offline-version.json` ou la documentation, et que les validations pertinentes reussissent.
 - Utiliser une branche ou une pull request si les changements touchent `index.html`, `sw.js`, `manifest.json`, le moteur de quiz, le scoring, l'interface ou le comportement hors ligne/cache.
 - Limiter le commit aux fichiers de la demande et ne pas inclure de modifications sans rapport.
 - Apres le push, verifier que le catalogue public et les nouveaux fichiers sont effectivement servis par GitHub Pages.

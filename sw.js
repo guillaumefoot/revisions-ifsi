@@ -1,6 +1,7 @@
-const SHELL_CACHE_NAME = "ifsi-quiz-v5.2";
+const SHELL_CACHE_NAME = "ifsi-quiz-v5.3";
 const QUIZ_CACHE_NAME = "ifsi-quiz-content-v1";
 const APP_SCOPE = "/revisions-ifsi/";
+const QUIZ_CACHE_STATE_URL = `${APP_SCOPE}offline-cache-state.json`;
 const APP_SHELL = [
   APP_SCOPE,
   `${APP_SCOPE}index.html`,
@@ -9,6 +10,7 @@ const APP_SHELL = [
   `${APP_SCOPE}icons/icon-192.png`,
   `${APP_SCOPE}icons/icon-512.png`,
   `${APP_SCOPE}quizzes.json`,
+  `${APP_SCOPE}offline-version.json`,
 ];
 
 const inFlightQuizFetches = new Map();
@@ -75,7 +77,11 @@ self.addEventListener("message", (event) => {
     return;
   }
 
-  activeQuizSync = syncActiveQuizzes(event.data.files, event.data.catalogUrl)
+  activeQuizSync = syncActiveQuizzes(
+    event.data.files,
+    event.data.catalogUrl,
+    event.data.revision
+  )
     .catch((error) => {
       publishSyncState({ type: "QUIZ_CACHE_ERROR", message: error.message });
     })
@@ -153,7 +159,7 @@ async function fetchAndCacheQuiz(url) {
   return response.clone();
 }
 
-async function syncActiveQuizzes(files, catalogUrl) {
+async function syncActiveQuizzes(files, catalogUrl, revision) {
   const urls = [...new Set((Array.isArray(files) ? files : [])
     .map((file) => {
       try {
@@ -169,6 +175,12 @@ async function syncActiveQuizzes(files, catalogUrl) {
       url.pathname.endsWith(".json")
     )
     .map((url) => url.href))];
+
+  const normalizedRevision = String(revision ?? "");
+  if (await isQuizCacheCurrent(urls, normalizedRevision)) {
+    publishSyncState({ type: "QUIZ_CACHE_CURRENT", total: urls.length });
+    return;
+  }
 
   const probeUrl = new URL(catalogUrl || `${APP_SCOPE}quizzes.json`, self.location.origin);
   probeUrl.searchParams.set("offline_probe", String(Date.now()));
@@ -211,6 +223,7 @@ async function syncActiveQuizzes(files, catalogUrl) {
 
   if (failures.length === 0) {
     await removeInactiveQuizFiles(new Set(urls));
+    await writeQuizCacheState(urls, normalizedRevision);
   }
 
   publishSyncState({
@@ -219,6 +232,38 @@ async function syncActiveQuizzes(files, catalogUrl) {
     total: urls.length,
     failed: failures.length,
   });
+}
+
+async function isQuizCacheCurrent(urls, revision) {
+  if (!revision) return false;
+
+  const cache = await caches.open(QUIZ_CACHE_NAME);
+  const stateResponse = await cache.match(QUIZ_CACHE_STATE_URL);
+  if (!stateResponse) return false;
+
+  try {
+    const state = await stateResponse.json();
+    const cachedUrls = Array.isArray(state.files) ? [...state.files].sort() : [];
+    const activeUrls = [...urls].sort();
+
+    if (String(state.revision ?? "") !== revision) return false;
+    if (cachedUrls.length !== activeUrls.length) return false;
+    if (cachedUrls.some((url, index) => url !== activeUrls[index])) return false;
+
+    const cachedResponses = await Promise.all(urls.map((url) => cache.match(url)));
+    return cachedResponses.every(Boolean);
+  } catch (error) {
+    return false;
+  }
+}
+
+async function writeQuizCacheState(urls, revision) {
+  const cache = await caches.open(QUIZ_CACHE_NAME);
+  const state = JSON.stringify({ revision, files: [...urls].sort() });
+  await cache.put(
+    QUIZ_CACHE_STATE_URL,
+    new Response(state, { headers: { "Content-Type": "application/json" } })
+  );
 }
 
 async function removeInactiveQuizFiles(activeUrls) {
