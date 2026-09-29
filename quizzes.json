@@ -215,6 +215,13 @@
     "icon": "🎯"
   },
   {
+    "file": "data/2.9_S5_TD_CANCEROLOGIE_2026.json",
+    "code": "UE 2.9",
+    "name": "TD - Cancérologie générale",
+    "subtitle": "S5 - Cas Séguier et Valéry, diagnostic, TNM, traitements, prévention et effets indésirables",
+    "icon": "🎗️"
+  },
+  {
     "file": "data/2.9_S5_LEUCEMIES_AIGUES_DIAGNOSTIC_URGENCES_2026.json",
     "code": "UE 2.9",
     "name": "Leucémies aiguës - Diagnostic et urgences",

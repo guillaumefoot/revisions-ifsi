@@ -1,0 +1,484 @@
+{
+  "title": "UE 2.9 S5 - TD Cancérologie",
+  "subtitle": "Cas M. Séguier et Mme Valéry : diagnostic, traitements, prévention et effets indésirables",
+  "questions": [
+    {
+      "question": "Pourquoi la persistance depuis plus d'un mois des signes présentés par M. Séguier justifie-t-elle son orientation vers un centre anticancéreux ?",
+      "options": [
+        "Elle nécessite un avis spécialisé urgent",
+        "Elle fait évoquer un processus cancéreux à explorer",
+        "Le diagnostic différentiel n'a rien donné",
+        "Elle permet d'affirmer le diagnostic sans examen complémentaire"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La persistance des signes et l'absence d'explication par le diagnostic différentiel imposent un avis spécialisé et l'exploration d'un processus cancéreux."
+    },
+    {
+      "question": "Une pathologie cancéreuse suspectée doit être prise en charge dans un centre ou un service spécialisé disposant de personnel formé et qualifié.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La prise en charge spécialisée permet d'organiser les explorations et les traitements adaptés."
+    },
+    {
+      "question": "Quels facteurs de risque sont relevés chez M. Séguier ?",
+      "options": [
+        "Une consommation de deux paquets de cigarettes par jour",
+        "Une consommation problématique d'alcool",
+        "Un travail dans les engrais et des locaux amiantés",
+        "Un mauvais état dentaire",
+        "Son âge de 58 ans et son sexe masculin",
+        "Une absence totale d'exposition professionnelle"
+      ],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le tabac, l'alcool, les expositions professionnelles, l'état dentaire, l'âge et le sexe sont les facteurs relevés dans sa situation."
+    },
+    {
+      "question": "Pourquoi l'association de l'alcool et du tabac majore-t-elle le risque de cancer des voies aérodigestives supérieures ?",
+      "options": [
+        "L'alcool facilite la dissolution, la pénétration et la diffusion des cancérogènes du tabac dans les muqueuses",
+        "L'alcool neutralise les cancérogènes du tabac",
+        "Le tabac empêche l'alcool d'atteindre les muqueuses",
+        "Cette association ne modifie pas le risque"
+      ],
+      "correct": [0],
+      "explanation": "L'alcool potentialise l'effet du tabac en facilitant le passage de ses substances cancérogènes dans les muqueuses."
+    },
+    {
+      "question": "Quels examens ont directement participé à la pose du diagnostic chez M. Séguier ?",
+      "options": [
+        "L'endoscopie",
+        "La biopsie avec étude anatomopathologique",
+        "L'échographie abdominale seule",
+        "Le scanner injecté seul"
+      ],
+      "correct": [0, 1],
+      "explanation": "L'endoscopie permet d'observer la muqueuse et la lésion ; la biopsie permet d'en étudier les cellules par anatomopathologie."
+    },
+    {
+      "question": "La biopsie avec étude anatomopathologique permet de poser le diagnostic de malignité avec certitude.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "L'analyse du tissu prélevé recherche la nature des cellules et leur éventuelle malignité."
+    },
+    {
+      "question": "Quels examens appartiennent au bilan d'extension présenté dans la situation de M. Séguier ?",
+      "options": [
+        "Le scanner injecté",
+        "L'IRM",
+        "L'échographie abdominale",
+        "La biopsie cutanée systématique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ces examens d'imagerie servent à délimiter la lésion, rechercher une autre localisation et repérer des métastases."
+    },
+    {
+      "question": "Qu'est-ce que l'antigène carcino-embryonnaire ou ACE ?",
+      "options": [
+        "Une protéine participant à l'adhésion cellulaire",
+        "Un marqueur tumoral",
+        "Un examen d'imagerie",
+        "Un traitement anticancéreux"
+      ],
+      "correct": [0, 1],
+      "explanation": "L'ACE est une protéine utilisée comme marqueur tumoral, notamment pour suivre l'évolutivité de la maladie."
+    },
+    {
+      "question": "Le dosage de l'ACE constitue à lui seul un élément de certitude diagnostique du cancer.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Des variations physiologiques et certaines pathologies peuvent modifier son taux ; son intérêt réside surtout dans la surveillance de l'évolution."
+    },
+    {
+      "question": "Quels éléments peuvent modifier le taux d'ACE indépendamment de l'évolution d'un cancer ?",
+      "options": [
+        "L'âge",
+        "Le sexe",
+        "Les deux premiers trimestres de grossesse",
+        "Le tabagisme",
+        "Certaines pathologies",
+        "La classification TNM à elle seule"
+      ],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces variations imposent de ne pas tirer de conclusion hâtive à partir d'un dosage isolé."
+    },
+    {
+      "question": "Quels sont les objectifs du bilan cardiovasculaire et respiratoire avant un traitement anticancéreux ?",
+      "options": [
+        "Évaluer l'état général du patient",
+        "Évaluer sa capacité à supporter les traitements",
+        "Rechercher des éléments de référence avant une éventuelle toxicité cardiaque ou respiratoire",
+        "Déterminer seul la nature histologique de la tumeur"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ce bilan peut notamment comprendre des prélèvements sanguins, un ECG, une échographie cardiaque ou une radiographie pulmonaire."
+    },
+    {
+      "question": "Pourquoi réalise-t-on un bilan hématologique, hépatique et rénal avant une chimiothérapie ?",
+      "options": [
+        "Obtenir des données hématologiques de référence comme la NFS",
+        "Évaluer les fonctions hépatique et rénale",
+        "Dépister une anomalie pouvant momentanément contre-indiquer le traitement",
+        "Remplacer définitivement la surveillance pendant le traitement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Ce bilan apprécie l'état initial du patient et recherche des anomalies importantes avant l'exposition aux toxicités potentielles."
+    },
+    {
+      "question": "Quels intérêts présente le bilan nutritionnel avant le traitement anticancéreux ?",
+      "options": [
+        "Repérer des carences",
+        "Évaluer les conséquences d'une perte d'appétit ou d'une gêne à l'alimentation",
+        "Organiser une supplémentation adaptée",
+        "Améliorer la tolérance au traitement et la qualité de vie",
+        "Considérer la dénutrition comme sans effet pronostique"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La dénutrition constitue un facteur pronostique aggravant et doit être prise en charge avant le traitement."
+    },
+    {
+      "question": "Pourquoi un bilan dentaire est-il réalisé avant une radiothérapie de la région concernée ?",
+      "options": [
+        "Rechercher les dents altérées et les foyers infectieux",
+        "Réaliser si besoin une radiographie panoramique dentaire",
+        "Prévenir les infections et les nécroses post-radiques",
+        "Reporter systématiquement tout soin dentaire après l'irradiation"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Une infection dentaire est plus difficile à traiter dans une zone irradiée ; certaines extractions peuvent être nécessaires avant le traitement."
+    },
+    {
+      "question": "Le bilan dentaire peut attendre la fin de la radiothérapie sans conséquence particulière.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Il est réalisé avant le traitement pour limiter les risques d'infection et de nécrose post-radique."
+    },
+    {
+      "question": "Que décrivent les lettres de la classification TNM ?",
+      "options": [
+        "T : la tumeur initiale et sa taille",
+        "N : les adénopathies, leur nombre, leur dimension et leur localisation",
+        "M : la présence ou l'absence de métastases",
+        "T : la tolérance du patient au traitement"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "TNM signifie Tumor, Node, Metastasis, soit tumeur, ganglion et métastase."
+    },
+    {
+      "question": "À quoi sert la classification TNM ?",
+      "options": [
+        "Fournir un langage commun aux médecins et aux chercheurs",
+        "Codifier les indications de traitement",
+        "Participer au choix du protocole thérapeutique",
+        "Remplacer toutes les caractéristiques biologiques et génétiques de la tumeur"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La TNM facilite les échanges et la décision thérapeutique, tandis que d'autres caractéristiques tumorales complètent désormais l'évaluation."
+    },
+    {
+      "question": "Dans la classification TNM, M0 correspond à l'absence de métastase et M1 à la présence de métastase.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La lettre M renseigne sur la présence ou l'absence de métastases."
+    },
+    {
+      "question": "Quelles sont les deux grandes catégories de cancers présentées dans le TD ?",
+      "options": [
+        "Les tumeurs solides",
+        "Les tumeurs hématologiques",
+        "Les tumeurs uniquement infectieuses",
+        "Les tumeurs uniquement traumatiques"
+      ],
+      "correct": [0, 1],
+      "explanation": "Les cancers sont distingués en tumeurs solides et tumeurs hématologiques."
+    },
+    {
+      "question": "Quelles associations entre tissu d'origine et type de cancer sont correctes ?",
+      "options": [
+        "Cellules épithéliales : carcinome",
+        "Tissu conjonctif : sarcome",
+        "Tissu sanguin ou lymphatique : leucémie, lymphome ou myélome",
+        "Cellules épithéliales : myélome"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "La dénomination d'un cancer dépend souvent du tissu dans lequel il se développe."
+    },
+    {
+      "question": "Quelles descriptions des cancers hématologiques sont correctes ?",
+      "options": [
+        "Les leucémies se développent au niveau de la moelle osseuse avec passage de cellules anormales dans le sang",
+        "Les lymphomes se développent dans les organes lymphoïdes et les ganglions lymphatiques",
+        "Les myélomes correspondent à une accumulation anormale de plasmocytes",
+        "Les lymphomes sont des tumeurs du tissu conjonctif"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "Leucémies, lymphomes et myélomes appartiennent aux tumeurs hématologiques mais se développent dans des structures différentes."
+    },
+    {
+      "question": "Quelle définition décrit une tumeur ?",
+      "options": [
+        "Une masse anormale de cellules se multipliant de manière incontrôlée",
+        "Une lésion toujours maligne",
+        "Une accumulation de cellules toujours infectieuses",
+        "Un processus qui ne peut jamais être bénin"
+      ],
+      "correct": [0],
+      "explanation": "Une tumeur peut être bénigne ou maligne."
+    },
+    {
+      "question": "Quelles caractéristiques correspondent à une tumeur bénigne ?",
+      "options": [
+        "Elle est bien limitée et souvent encapsulée",
+        "Ses cellules sont régulières et ressemblent au tissu d'origine",
+        "Sa croissance est lente",
+        "Elle refoule les tissus voisins sans les détruire",
+        "Elle produit des métastases"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une tumeur bénigne reste localisée, ne métastase pas et ne récidive pas localement après une exérèse complète."
+    },
+    {
+      "question": "Quelles caractéristiques correspondent à une tumeur maligne ?",
+      "options": [
+        "Elle est mal limitée et non encapsulée",
+        "Ses cellules peuvent être irrégulières",
+        "Elle peut envahir les tissus voisins",
+        "Elle peut récidiver et former des métastases",
+        "Elle reste toujours strictement localisée"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La malignité se caractérise notamment par l'invasion locale, la récidive possible et le potentiel métastatique."
+    },
+    {
+      "question": "Une tumeur bénigne peut former des métastases à distance.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. L'absence de métastase fait partie des caractéristiques présentées pour les tumeurs bénignes."
+    },
+    {
+      "question": "Quel facteur de risque du cancer du sein est identifié chez Mme Valéry ?",
+      "options": [
+        "Elle a eu son premier enfant après 35 ans",
+        "Elle a eu son premier enfant avant 20 ans",
+        "Elle n'a jamais reçu de traitement anticancéreux",
+        "Elle pratique une activité physique"
+      ],
+      "correct": [0],
+      "explanation": "Mme Valéry a eu son premier enfant à 36 ans."
+    },
+    {
+      "question": "Quels facteurs sont associés au risque de cancer du sein ?",
+      "options": [
+        "Un âge plus avancé, notamment après 50 ans",
+        "Des antécédents familiaux directs de cancer du sein",
+        "Une puberté précoce ou une ménopause tardive",
+        "L'absence de grossesse",
+        "Des traitements hormonaux prolongés",
+        "L'absence de tout antécédent personnel"
+      ],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Les antécédents personnels, certains facteurs hormonaux et reproductifs, ainsi que les habitudes de vie et les irradiations complètent cette liste."
+    },
+    {
+      "question": "Quels signes cliniques doivent faire rechercher un cancer du sein ?",
+      "options": [
+        "Un écoulement ou un changement d'aspect du mamelon",
+        "Une boule ou une masse dans le sein",
+        "Un changement de taille, de forme ou de texture du sein",
+        "Une rougeur ou une fossette",
+        "Des ganglions sous l'aisselle",
+        "Une modification isolée de la voix"
+      ],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Toute modification inhabituelle du sein ou de l'aisselle parmi ces signes doit être repérée."
+    },
+    {
+      "question": "Quelles affirmations décrivent correctement la surface corporelle en cancérologie ?",
+      "options": [
+        "Elle est calculée à partir de la taille et du poids",
+        "Elle est exprimée en mètres carrés",
+        "Elle sert à déterminer des posologies prescrites en mg/m²",
+        "Elle justifie de mesurer et de peser régulièrement le patient",
+        "Elle reste identique malgré toute variation de poids"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Une variation de poids peut modifier la surface corporelle et donc la posologie du traitement."
+    },
+    {
+      "question": "Une variation importante du poids ne modifie jamais la surface corporelle ni la posologie d'un traitement exprimée en mg/m².",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Le poids intervient dans le calcul de la surface corporelle ; il doit donc être surveillé régulièrement."
+    },
+    {
+      "question": "Quelles affirmations définissent la polychimiothérapie anticancéreuse et son utilité ?",
+      "options": [
+        "Elle associe plusieurs produits",
+        "Elle renforce l'efficacité du traitement",
+        "Elle limite les résistances",
+        "Elle diminue les toxicités",
+        "Elle repose obligatoirement sur un seul médicament"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le préfixe « poly » signifie plusieurs : l'association de produits vise à renforcer l'efficacité, limiter les résistances et diminuer les toxicités."
+    },
+    {
+      "question": "Le préfixe « poly » dans polychimiothérapie signifie que plusieurs produits anticancéreux sont associés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La polychimiothérapie associe plusieurs médicaments dans un même protocole."
+    },
+    {
+      "question": "Comment distinguer un traitement néoadjuvant d'un traitement adjuvant ?",
+      "options": [
+        "Le traitement néoadjuvant est administré en première intention pour préparer la réussite d'un traitement spécifique",
+        "Le traitement adjuvant renforce ou complète un traitement spécifique après celui-ci",
+        "Le traitement néoadjuvant intervient toujours après la chirurgie",
+        "Le traitement adjuvant ne complète aucun autre traitement"
+      ],
+      "correct": [0, 1],
+      "explanation": "Le moment et la fonction du traitement permettent de distinguer les stratégies néoadjuvante et adjuvante."
+    },
+    {
+      "question": "Dans la situation de Mme Valéry, comment sont qualifiées la polychimiothérapie puis la tumorectomie ?",
+      "options": [
+        "La chimiothérapie est néoadjuvante et la chirurgie est adjuvante",
+        "La chimiothérapie est adjuvante et la chirurgie est néoadjuvante",
+        "Les deux traitements sont exclusivement palliatifs",
+        "Les deux traitements sont sans relation"
+      ],
+      "correct": [0],
+      "explanation": "La chimiothérapie précède la tumorectomie afin de préparer le traitement chirurgical ; la chirurgie complète ensuite cette séquence."
+    },
+    {
+      "question": "Quels sont les objectifs généraux des traitements du cancer ?",
+      "options": [
+        "Guérir le patient lorsque cela est possible",
+        "Réduire le risque de récidive",
+        "Augmenter la durée de vie",
+        "Améliorer la qualité de vie",
+        "Supprimer toute surveillance après le traitement"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les objectifs peuvent être curatifs, préventifs vis-à-vis des récidives ou orientés vers la durée et la qualité de vie."
+    },
+    {
+      "question": "Quels moyens thérapeutiques peuvent être utilisés pour traiter les cancers ?",
+      "options": [
+        "La chimiothérapie",
+        "La chirurgie",
+        "La radiothérapie",
+        "L'hormonothérapie",
+        "L'immunothérapie",
+        "L'absence systématique de traitement"
+      ],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces traitements peuvent être utilisés seuls ou associés selon la situation."
+    },
+    {
+      "question": "Quelles affirmations décrivent la radiothérapie ?",
+      "options": [
+        "Elle peut être externe ou interne",
+        "La curiethérapie est une radiothérapie interne",
+        "Elle utilise des rayonnements pour bloquer la multiplication des cellules cancéreuses",
+        "Elle peut avoir une visée curative ou palliative",
+        "Elle agit uniquement par médicaments diffusés dans tout l'organisme"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La radiothérapie est un traitement locorégional pouvant notamment traiter la tumeur, prévenir une récidive ou réduire des douleurs."
+    },
+    {
+      "question": "Quelles associations entre traitement et mécanisme sont correctes ?",
+      "options": [
+        "Hormonothérapie : traitement des tumeurs hormono-dépendantes",
+        "Antiœstrogènes : exemple de traitement hormonal",
+        "Immunothérapie : stimulation du système immunitaire",
+        "Chirurgie : traitement local permettant notamment d'enlever la tumeur",
+        "Immunothérapie : ablation mécanique de la tumeur"
+      ],
+      "correct": [0, 1, 2, 3],
+      "explanation": "L'hormonothérapie agit sur la dépendance hormonale, l'immunothérapie stimule les défenses immunitaires et la chirurgie retire localement la tumeur."
+    },
+    {
+      "question": "Qu'est-ce qu'un lymphœdème après traitement d'un cancer du sein ?",
+      "options": [
+        "Un œdème lié à une obstruction des voies lymphatiques",
+        "Un ralentissement de la circulation lymphatique du bras du côté opéré",
+        "Une complication favorisée par le curage axillaire ou la radiothérapie axillaire",
+        "Une infection pulmonaire sans lien avec le système lymphatique"
+      ],
+      "correct": [0, 1, 2],
+      "explanation": "L'altération du drainage lymphatique peut provoquer un œdème du membre supérieur du côté du sein opéré."
+    },
+    {
+      "question": "Quels conseils sont donnés à Mme Valéry pour prévenir le lymphœdème du bras du côté opéré ?",
+      "options": [
+        "Éviter les vêtements serrés et les bretelles de sac lourd",
+        "Éviter la prise de tension, les injections et les prises de sang sur ce bras",
+        "Éviter l'exposition solaire prolongée",
+        "Éviter les charges lourdes et la musculation en contre-résistance",
+        "Désinfecter toute plaie et porter des gants pour jardiner ou bricoler",
+        "Multiplier les compressions du bras"
+      ],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Ces conseils cherchent à limiter les compressions, les efforts importants et les risques d'infection du bras concerné."
+    },
+    {
+      "question": "La prise de tension et les prélèvements sanguins doivent être privilégiés sur le bras situé du côté du sein opéré.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est Faux. Ils doivent être évités sur le bras du côté opéré dans les conseils donnés à Mme Valéry."
+    },
+    {
+      "question": "Quelles affirmations décrivent l'alopécie et l'utilisation d'un casque réfrigéré ?",
+      "options": [
+        "L'alopécie est une chute des cheveux et des poils",
+        "Le casque est posé environ quinze minutes avant la chimiothérapie et conservé pendant la perfusion",
+        "Le froid provoque une vasoconstriction limitant l'apport de chimiothérapie au cuir chevelu",
+        "Son efficacité est aléatoire et il peut être inconfortable",
+        "Il est contre-indiqué en cas de métastase cérébrale",
+        "Il garantit toujours l'absence de chute des cheveux"
+      ],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le casque réfrigéré vise à réduire l'exposition du cuir chevelu au produit, mais son efficacité n'est pas garantie."
+    },
+    {
+      "question": "Quelles mesures peuvent accompagner une personne confrontée à une alopécie liée à la chimiothérapie ?",
+      "options": [
+        "Proposer une coupe courte intermédiaire",
+        "Proposer une casquette, un foulard ou un bandana",
+        "Informer sur le caractère temporaire et réversible de l'alopécie",
+        "Informer que la texture des cheveux peut être différente lors de la repousse",
+        "Proposer une perruque et des soins esthétiques",
+        "Présenter la chute des cheveux comme toujours définitive"
+      ],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "L'information, l'anticipation et les solutions esthétiques soutiennent l'image de soi pendant cette période."
+    },
+    {
+      "question": "Quelles mesures contribuent à réduire le risque de développer un cancer ?",
+      "options": [
+        "Adopter une alimentation équilibrée riche en fruits et légumes",
+        "Pratiquer une activité physique",
+        "Éviter le tabac et l'excès d'alcool",
+        "Se protéger des infections virales",
+        "Limiter les expositions prolongées aux substances cancérigènes",
+        "Considérer que toute prévention est inutile"
+      ],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Il n'est pas toujours possible de prévenir une tumeur, mais ces mesures permettent de réduire le risque."
+    },
+    {
+      "question": "Quelles causes évitables de cancer sont mises en avant dans les données françaises présentées ?",
+      "options": [
+        "Le tabac",
+        "L'alcool",
+        "Certains facteurs alimentaires",
+        "Les expositions professionnelles",
+        "Les rayonnements ultraviolets solaires",
+        "La lecture régulière"
+      ],
+      "correct": [0, 1, 2, 3, 4],
+      "explanation": "Le surpoids, certaines infections, l'inactivité physique, la pollution, le radon et le tabagisme passif figurent également parmi les causes évitables présentées."
+    }
+  ]
+}
