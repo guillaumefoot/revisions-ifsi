@@ -1,0 +1,366 @@
+{
+  "title": "UE 4.7 S5 - TD n°3 Douleur, PCA et volonté du patient",
+  "subtitle": "Évaluation de la douleur, analgésie contrôlée, autonomie et difficultés soignantes",
+  "questions": [
+    {
+      "question": "Comment définir la douleur ?",
+      "options": ["Une expérience sensorielle et émotionnelle désagréable", "Une expérience associée ou ressemblant à celle liée à une lésion tissulaire réelle ou potentielle", "Un phénomène exclusivement mesurable par le soignant", "Une expérience personnelle et subjective"],
+      "correct": [0, 1, 3],
+      "explanation": "La douleur est une expérience sensorielle et émotionnelle, personnelle et subjective. Elle peut être associée ou ressembler à celle liée à une lésion réelle ou potentielle."
+    },
+    {
+      "question": "Ce que le patient dit de sa douleur doit être pris en compte.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La douleur est une expérience personnelle et subjective ; la parole du patient constitue une donnée essentielle de son évaluation."
+    },
+    {
+      "question": "L'absence de lésion tissulaire objectivée permet d'exclure l'existence d'une douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : la définition inclut une expérience ressemblant à celle associée à une lésion tissulaire réelle ou potentielle."
+    },
+    {
+      "question": "Quelles échelles permettent l'autoévaluation de la douleur chez un patient communicant ?",
+      "options": ["Échelle visuelle analogique", "Échelle numérique", "Échelle verbale simple", "Indice de masse corporelle", "Score de Glasgow"],
+      "correct": [0, 1, 2],
+      "explanation": "L'EVA, l'EN et l'EVS sont les trois échelles d'autoévaluation présentées."
+    },
+    {
+      "question": "Comment utilise-t-on une échelle visuelle analogique ?",
+      "options": ["Le patient déplace un curseur entre absence de douleur et douleur maximale imaginable", "Le soignant choisit seul un adjectif", "La valeur peut ensuite être lue sur une graduation, souvent de 0 à 10", "Le patient doit obligatoirement décrire la cause de sa douleur"],
+      "correct": [0, 2],
+      "explanation": "L'EVA utilise une réglette graduelle sur laquelle le patient positionne un curseur selon l'intensité ressentie."
+    },
+    {
+      "question": "Pour suivre l'évolution de la douleur, il est préférable d'utiliser la même échelle lors des réévaluations.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Le maintien de la même échelle facilite la comparaison des évaluations et l'appréciation de l'efficacité du traitement."
+    },
+    {
+      "question": "Quelle description correspond à l'échelle numérique ?",
+      "options": ["Le patient attribue directement une note de 0 à 10", "0 correspond à l'absence de douleur", "10 correspond à la douleur maximale imaginable", "Le soignant attribue la note d'après les seules constantes vitales"],
+      "correct": [0, 1, 2],
+      "explanation": "L'EN repose sur la note donnée par le patient, généralement entre 0 et 10."
+    },
+    {
+      "question": "Avec l'échelle numérique, le soignant estime seul l'intensité douloureuse à partir du comportement du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : il s'agit d'une autoévaluation dans laquelle le patient donne lui-même une note à sa douleur."
+    },
+    {
+      "question": "Comment fonctionne l'échelle verbale simple ?",
+      "options": ["Le patient choisit le qualificatif correspondant le mieux à sa douleur", "Elle peut proposer des niveaux tels qu'absente, faible, modérée ou intense", "Elle exige nécessairement l'utilisation d'un curseur", "Elle peut aller jusqu'à une douleur extrêmement intense ou insupportable selon l'outil"],
+      "correct": [0, 1, 3],
+      "explanation": "L'EVS propose des qualificatifs d'intensité. Elle ne repose pas sur une réglette à curseur."
+    },
+    {
+      "question": "Quel principe guide le choix et le suivi d'une échelle d'autoévaluation ?",
+      "options": ["Choisir une échelle utilisable par le patient", "Conserver si possible la même échelle pour les réévaluations", "Changer systématiquement d'outil après chaque traitement", "Noter le résultat pour suivre l'évolution"],
+      "correct": [0, 1, 3],
+      "explanation": "Une échelle adaptée, utilisée de façon cohérente et tracée, permet de suivre la douleur et la réponse au traitement."
+    },
+    {
+      "question": "Quelle différence oppose un antalgique à libération prolongée et une interdose à libération immédiate ?",
+      "options": ["La forme prolongée couvre la douleur de fond", "L'interdose traite rapidement un accès douloureux paroxystique", "L'interdose remplace définitivement le traitement de fond", "La forme immédiate a un délai d'action plus rapide"],
+      "correct": [0, 1, 3],
+      "explanation": "Le traitement prolongé assure la couverture de fond ; l'interdose agit rapidement sur un pic douloureux survenant malgré ce traitement."
+    },
+    {
+      "question": "Une interdose à libération immédiate vise à soulager rapidement un accès douloureux paroxystique.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle complète le traitement de fond lorsqu'un pic douloureux apparaît."
+    },
+    {
+      "question": "Des recours fréquents aux interdoses ne nécessitent aucune réévaluation du traitement de fond.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : leur fréquence doit être tracée et peut conduire à demander une réévaluation médicale du traitement de fond."
+    },
+    {
+      "question": "Dans quelles situations une interdose peut-elle être utile ?",
+      "options": ["Pic douloureux imprévisible", "Douleur provoquée par un soin", "Douleur liée à un mouvement ou à une mobilisation", "Absence complète de douleur", "Accès douloureux malgré le traitement de fond"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "L'interdose cible les accès douloureux, qu'ils soient imprévisibles ou provoqués par un soin ou un mouvement."
+    },
+    {
+      "question": "Quelles données doivent être suivies concernant les interdoses ?",
+      "options": ["Le nombre utilisé", "Leur efficacité", "Les circonstances des accès douloureux", "Uniquement leur couleur", "La nécessité éventuelle de réévaluer le traitement de fond"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "La fréquence, les circonstances et l'efficacité des interdoses sont tracées afin d'adapter la prise en charge."
+    },
+    {
+      "question": "Qu'est-ce qu'une douleur rebelle ?",
+      "options": ["Une douleur n'ayant pas répondu aux antalgiques habituels correctement conduits", "Une douleur pouvant nécessiter une prise en charge pluriprofessionnelle", "Une douleur pour laquelle d'autres possibilités thérapeutiques existent encore", "Toute douleur évaluée à plus de 3 sur 10"],
+      "correct": [0, 1, 2],
+      "explanation": "La douleur rebelle résiste aux traitements habituels, altère la qualité de vie ou s'accompagne d'effets indésirables difficiles, mais des options thérapeutiques restent possibles."
+    },
+    {
+      "question": "Devant une douleur rebelle, il peut rester des possibilités telles qu'un changement d'opioïde ou de voie, des coantalgiques ou des techniques locorégionales.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La persistance d'options thérapeutiques distingue notamment la douleur rebelle d'une douleur devenue réfractaire."
+    },
+    {
+      "question": "Comment définir une douleur réfractaire ?",
+      "options": ["Les traitements adaptés disponibles sont inefficaces ou insuffisants", "Les traitements ne peuvent pas être utilisés en raison d'effets indésirables inacceptables", "Il s'agit simplement d'une douleur intense avant toute tentative de traitement", "En phase terminale, elle peut faire discuter une pratique sédative selon la situation et le cadre légal"],
+      "correct": [0, 1, 3],
+      "explanation": "La réfractarité suppose l'échec, l'insuffisance ou l'impossibilité d'utiliser les traitements adaptés disponibles."
+    },
+    {
+      "question": "Toute douleur intense est, par définition, une douleur réfractaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : l'intensité seule ne suffit pas. Il faut considérer l'efficacité et l'utilisabilité des traitements adaptés disponibles."
+    },
+    {
+      "question": "Quelle distinction entre douleur rebelle et douleur réfractaire est correcte ?",
+      "options": ["Dans la douleur rebelle, d'autres options thérapeutiques peuvent encore être envisagées", "Dans la douleur réfractaire, les traitements adaptés disponibles sont inefficaces, insuffisants ou inutilisables", "Les deux termes désignent toujours une douleur légère", "La réfractarité peut être liée à des effets indésirables inacceptables"],
+      "correct": [0, 1, 3],
+      "explanation": "La douleur rebelle résiste aux traitements habituels mais laisse des options ; la douleur réfractaire persiste malgré les possibilités adaptées ou lorsque celles-ci sont inutilisables."
+    },
+    {
+      "question": "Quelles sont les quatre composantes de la douleur ?",
+      "options": ["Sensitivo-discriminative", "Affective et émotionnelle", "Cognitive", "Comportementale", "Administrativo-financière"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La douleur comprend des composantes sensitivo-discriminative, affective-émotionnelle, cognitive et comportementale."
+    },
+    {
+      "question": "Quelles informations relèvent de la composante sensitivo-discriminative ?",
+      "options": ["Le siège de la douleur", "Son intensité", "Sa durée et son rythme", "Le type de sensation comme une brûlure ou une décharge", "Les croyances du patient sur son avenir"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Cette composante décrit les caractéristiques physiques ressenties. Les croyances et l'interprétation relèvent de la composante cognitive."
+    },
+    {
+      "question": "La peur, l'anxiété, la tristesse et la colère peuvent appartenir à la composante affective et émotionnelle de la douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette composante correspond au vécu émotionnel associé à l'expérience douloureuse."
+    },
+    {
+      "question": "Que recouvre la composante cognitive de la douleur ?",
+      "options": ["La manière dont la personne comprend sa douleur", "L'interprétation et l'anticipation de la douleur", "L'influence des expériences, croyances et connaissances", "Uniquement la localisation anatomique", "La peur anticipée d'une nouvelle crise"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "La composante cognitive concerne le sens donné à la douleur, son interprétation et son anticipation."
+    },
+    {
+      "question": "La composante comportementale correspond principalement aux croyances et aux connaissances de la personne sur sa douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : les croyances et connaissances relèvent de la composante cognitive. La composante comportementale concerne les manifestations visibles ou verbales."
+    },
+    {
+      "question": "Quelles manifestations relèvent de la composante comportementale ?",
+      "options": ["Grimaces", "Agitation ou repli", "Position antalgique", "Limitation des mouvements", "Taux sanguin d'un médicament"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Cette composante regroupe les manifestations observables ou verbales liées à la douleur."
+    },
+    {
+      "question": "Quelle association entre une donnée et une composante de la douleur est correcte ?",
+      "options": ["Décharge électrique : sensitivo-discriminative", "Peur d'une nouvelle crise : cognitive", "Tristesse liée à la douleur : affective-émotionnelle", "Position antalgique : comportementale", "Localisation douloureuse : administrative"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Chaque donnée explore une dimension distincte de l'expérience douloureuse ; la localisation relève de la composante sensitivo-discriminative."
+    },
+    {
+      "question": "Une douleur aiguë est généralement récente et de durée inférieure à trois mois.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle est souvent brutale ou rapidement identifiable et conserve une fonction d'alarme."
+    },
+    {
+      "question": "Une douleur chronique conserve toujours un rôle d'alarme et de protection.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : lorsqu'elle persiste, elle perd son rôle d'alarme et peut devenir une maladie en elle-même."
+    },
+    {
+      "question": "Quelles caractéristiques correspondent à une douleur aiguë ?",
+      "options": ["Apparition récente", "Rôle d'alarme et de protection", "Cause souvent identifiable", "Persistance au-delà du temps habituel de guérison", "Amélioration possible lorsque la cause est traitée"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "La persistance au-delà du temps habituel de guérison caractérise plutôt une douleur chronique."
+    },
+    {
+      "question": "Quelles caractéristiques correspondent à une douleur chronique ?",
+      "options": ["Elle persiste ou récidive depuis plus de trois mois", "Elle peut retentir sur le sommeil, l'humeur et l'autonomie", "Elle est souvent multifactorielle", "Elle disparaît toujours lorsque la cause initiale est traitée", "L'objectif peut être le contrôle de la douleur et l'amélioration de la qualité de vie"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "La douleur chronique a une évolution prolongée et un retentissement global ; sa disparition complète n'est pas toujours obtenue."
+    },
+    {
+      "question": "Une douleur chronique peut être multifactorielle et retentir sur la vie sociale.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle peut affecter le sommeil, l'humeur, l'autonomie et la vie sociale."
+    },
+    {
+      "question": "Dans la douleur chronique, l'objectif est toujours la disparition complète et immédiate de toute douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : l'objectif est souvent le contrôle de la douleur et l'amélioration de la qualité de vie."
+    },
+    {
+      "question": "Quelle comparaison entre douleur aiguë et douleur chronique est exacte ?",
+      "options": ["La douleur aiguë joue souvent un rôle d'alarme", "La douleur chronique peut devenir une maladie en elle-même", "La douleur aiguë est toujours multifactorielle", "La douleur chronique peut persister au-delà du temps habituel de guérison"],
+      "correct": [0, 1, 3],
+      "explanation": "La douleur aiguë est souvent liée à une cause identifiable ; la douleur chronique est fréquemment multifactorielle et prolongée."
+    },
+    {
+      "question": "Qu'est-ce qu'une PCA ?",
+      "options": ["Une analgésie contrôlée par le patient", "Une pompe programmable délivrant le plus souvent un opioïde", "Un dispositif pouvant administrer un débit continu et/ou des bolus", "Une pompe dont tous les réglages sont librement modifiés par le patient"],
+      "correct": [0, 1, 2],
+      "explanation": "La PCA est programmée selon une prescription. Le patient peut demander un bolus, mais il ne modifie pas librement les paramètres."
+    },
+    {
+      "question": "Une PCA est une pompe programmable qui peut délivrer un antalgique opioïde.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle peut délivrer un débit continu et/ou des bolus à la demande selon la prescription."
+    },
+    {
+      "question": "Avec une PCA, un proche peut habituellement appuyer sur le bouton de bolus à la place du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : en règle générale, le patient seul appuie sur le bouton de demande de bolus."
+    },
+    {
+      "question": "Quels paramètres de la PCA relèvent de la prescription et de la programmation ?",
+      "options": ["La molécule et sa concentration", "Le débit continu éventuel", "La dose du bolus", "La période de verrouillage", "Le nombre de bolus décidé librement par l'entourage"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le médecin prescrit notamment le médicament, la concentration, le débit, le bolus, le délai de verrouillage et les limites de dose."
+    },
+    {
+      "question": "Quel est le rôle de la période de verrouillage d'une PCA ?",
+      "options": ["Empêcher l'administration de bolus trop rapprochés", "Limiter le risque de surdosage", "Interdire définitivement tout nouveau bolus", "Respecter l'intervalle programmé entre deux administrations"],
+      "correct": [0, 1, 3],
+      "explanation": "Le verrouillage bloque temporairement une nouvelle administration lorsqu'un bolus vient d'être délivré."
+    },
+    {
+      "question": "Pendant la période de verrouillage, une nouvelle demande peut ne pas entraîner l'administration d'un bolus supplémentaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ce délai programmé empêche l'administration de doses trop rapprochées."
+    },
+    {
+      "question": "Quelles informations doivent être expliquées au patient utilisant une PCA ?",
+      "options": ["Le fonctionnement du bouton de demande", "Le principe de la période de verrouillage", "Le fait qu'il appuie lui-même en règle générale", "La possibilité de modifier seul la concentration du médicament", "La nécessité de signaler une douleur insuffisamment soulagée"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "Le patient doit comprendre le fonctionnement et les limites du dispositif, sans modifier lui-même les paramètres prescrits."
+    },
+    {
+      "question": "Quelles surveillances concernent directement l'efficacité antalgique d'une PCA ?",
+      "options": ["Évaluer régulièrement la douleur avec la même échelle", "Rechercher les accès douloureux", "Comparer les bolus demandés et reçus", "Ignorer le retentissement des mobilisations", "Réévaluer après les interventions"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "L'évaluation répétée, les accès douloureux et l'utilisation des bolus renseignent sur l'efficacité de l'analgésie."
+    },
+    {
+      "question": "La surveillance d'une PCA comprend l'état de conscience, le niveau de sédation et la fréquence respiratoire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces éléments permettent notamment de rechercher une somnolence excessive, une bradypnée ou une dépression respiratoire."
+    },
+    {
+      "question": "Quels effets indésirables des opioïdes doivent être recherchés sous PCA ?",
+      "options": ["Nausées et vomissements", "Constipation et rétention urinaire", "Prurit", "Confusion ou hallucinations", "Amélioration certaine de l'appétit"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La surveillance recherche notamment les effets digestifs, urinaires, cutanés, neurologiques et respiratoires des opioïdes."
+    },
+    {
+      "question": "La constipation est sans intérêt dans la surveillance d'un patient recevant un opioïde par PCA.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : la constipation fait partie des effets indésirables des opioïdes à rechercher et à prendre en compte."
+    },
+    {
+      "question": "Quels contrôles portent sur la pompe de PCA elle-même ?",
+      "options": ["Identité du patient et médicament", "Concentration et programmation", "Débit, bolus et verrouillage", "Volume restant, batterie et alarmes", "Préférences alimentaires du patient"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La sécurité impose de vérifier la concordance patient-traitement et tous les paramètres matériels et programmés."
+    },
+    {
+      "question": "Quels éléments doivent être surveillés sur le dispositif veineux associé à une PCA ?",
+      "options": ["Perméabilité de la ligne", "Douleur ou rougeur", "Fuite ou obstruction", "Signes d'infection", "Couleur des vêtements du patient"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le point d'accès et la ligne sont surveillés afin de repérer une complication ou une interruption de l'administration."
+    },
+    {
+      "question": "Le nombre de bolus demandés et reçus, les doses administrées, l'efficacité et les effets indésirables doivent être tracés.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette traçabilité contribue à l'évaluation clinique et à la sécurisation de la PCA."
+    },
+    {
+      "question": "Que doit connaître le soignant pour faire face à un éventuel surdosage sous PCA ?",
+      "options": ["La conduite à tenir prévue par le protocole", "Les signes de dépression respiratoire", "La disponibilité de la naloxone selon le protocole", "La possibilité d'attendre systématiquement sans alerter"],
+      "correct": [0, 1, 2],
+      "explanation": "La surveillance et la réponse au surdosage doivent être anticipées conformément au protocole de la structure."
+    },
+    {
+      "question": "L'infirmier peut modifier seul les paramètres prescrits d'une PCA lorsqu'il estime la douleur insuffisamment soulagée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : les paramètres relèvent de la prescription ; une douleur persistante ou des bolus fréquents doivent conduire à alerter pour une réévaluation."
+    },
+    {
+      "question": "Quels principes fondamentaux orientent les soins palliatifs ?",
+      "options": ["Bienfaisance", "Non-malfaisance", "Autonomie", "Justice et respect de la dignité", "Obéissance systématique de la famille"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La bienfaisance, la non-malfaisance, l'autonomie, la justice et la dignité guident les décisions."
+    },
+    {
+      "question": "Quelle volonté prime lorsque le patient comprend les informations, peut s'exprimer et consentir ?",
+      "options": ["La volonté du patient", "La décision d'un proche à sa place", "L'avis de la famille uniquement", "La préférence du soignant sans échange"],
+      "correct": [0],
+      "explanation": "Le patient capable reste décisionnaire pour les choix concernant sa santé avec les professionnels."
+    },
+    {
+      "question": "Tant que le patient est capable de comprendre et d'exprimer sa volonté, la famille ne décide pas à sa place.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Les proches peuvent exprimer leurs émotions ou leur désaccord, mais la volonté du patient reste centrale."
+    },
+    {
+      "question": "Une demande de sédation profonde et continue jusqu'au décès entraîne automatiquement sa mise en œuvre immédiate.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : la demande doit être entendue, transmise et évaluée ; les conditions prévues doivent être vérifiées dans le cadre d'une procédure collégiale."
+    },
+    {
+      "question": "Quels éléments sont vérifiés avant une sédation profonde et continue maintenue jusqu'au décès dans la situation décrite ?",
+      "options": ["Une affection grave et incurable", "Un pronostic vital engagé à court terme", "Une souffrance réfractaire aux traitements", "Une procédure collégiale", "La seule opposition d'un proche comme critère suffisant"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La mise en œuvre n'est pas automatique ; elle repose sur l'évaluation médicale et pluriprofessionnelle des conditions requises."
+    },
+    {
+      "question": "Une demande de sédation peut être refusée d'emblée sans être transmise ni évaluée.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : elle doit être entendue, reformulée, tracée, transmise et évaluée avec le médecin et l'équipe pluriprofessionnelle."
+    },
+    {
+      "question": "Quelles catégories de besoins doivent être recherchées dans une démarche palliative globale ?",
+      "options": ["Besoins physiques", "Besoins sociaux et relationnels", "Besoins liés à l'accompagnement", "Besoins psychologiques, émotionnels, spirituels et existentiels", "Uniquement les besoins médicamenteux"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La prise en charge est globale et ne se limite ni aux symptômes ni aux traitements médicamenteux."
+    },
+    {
+      "question": "Quelles difficultés peuvent être rencontrées par les soignants en soins palliatifs ?",
+      "options": ["Difficultés émotionnelles face à l'impuissance ou au conflit", "Difficultés cliniques liées à des symptômes complexes", "Difficultés organisationnelles de coordination et d'anticipation", "Difficultés éthiques autour de l'autonomie et de la sédation", "Difficultés uniquement comptables"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les difficultés décrites sont émotionnelles, cliniques, organisationnelles et éthiques."
+    },
+    {
+      "question": "Quelles attitudes de communication sont adaptées lorsqu'un patient exprime une souffrance ou une demande de sédation ?",
+      "options": ["S'installer si possible à sa hauteur", "Utiliser des questions ouvertes et la reformulation", "Respecter les silences", "Chercher immédiatement à le faire changer d'avis", "Transmettre sa demande sans jugement"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "L'écoute active, le non-jugement, le respect du rythme et la transmission de la demande maintiennent le patient au centre de l'échange."
+    },
+    {
+      "question": "Quelles actions favorisent l'organisation et la continuité des soins palliatifs à domicile ?",
+      "options": ["Assurer des transmissions précises entre intervenants", "Vérifier la disponibilité des médicaments et du matériel", "Prévoir des consignes claires en cas d'aggravation", "Réévaluer la faisabilité du maintien à domicile", "Laisser la famille gérer seule une panne de pompe"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La continuité repose sur la coordination, l'anticipation des urgences et la réévaluation régulière des conditions de sécurité et de soutien."
+    }
+  ]
+}

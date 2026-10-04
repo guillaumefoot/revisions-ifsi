@@ -36,6 +36,20 @@
     "icon": "🕊️"
   },
   {
+    "file": "data/4.7_S5_TD2_SOINS_PALLIATIFS_2026.json",
+    "code": "UE 4.7",
+    "name": "TD n°2 - Soins palliatifs et accompagnement",
+    "subtitle": "S5 - Besoins, mécanismes de défense, étapes du deuil et posture soignante",
+    "icon": "🤝"
+  },
+  {
+    "file": "data/4.7_S5_TD3_DOULEUR_PCA_VOLONTE_2026.json",
+    "code": "UE 4.7",
+    "name": "TD n°3 - Douleur, PCA et volonté du patient",
+    "subtitle": "S5 - Évaluation, analgésie contrôlée, autonomie et difficultés soignantes",
+    "icon": "🎛️"
+  },
+  {
     "file": "data/4.4_S5_SYNTHESE_EXAMEN_2026.json",
     "code": "UE 4.4",
     "name": "Synthèse UE 4.4 S5 - Type examen",

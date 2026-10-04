@@ -1,0 +1,306 @@
+{
+  "title": "UE 4.7 S5 - TD n°2 Soins palliatifs et accompagnement",
+  "subtitle": "Définitions, besoins, mécanismes de défense, étapes du deuil et posture soignante",
+  "questions": [
+    {
+      "question": "Comment définir les soins palliatifs ?",
+      "options": ["Des soins actifs et continus réalisés par une équipe interdisciplinaire", "Des soins réservés aux toutes dernières heures de vie", "Des soins visant à soulager la douleur et la souffrance psychique", "Des soins qui préservent la dignité et soutiennent l'entourage"],
+      "correct": [0, 2, 3],
+      "explanation": "Les soins palliatifs sont actifs, continus et interdisciplinaires. Ils visent le soulagement, la dignité de la personne et le soutien de ses proches."
+    },
+    {
+      "question": "Les soins palliatifs peuvent être pratiqués en institution comme à domicile.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils peuvent être dispensés dans différents lieux de soins, notamment en institution ou à domicile."
+    },
+    {
+      "question": "Les soins palliatifs commencent nécessairement lorsque le décès est imminent.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : ils peuvent être instaurés dès qu'une personne est atteinte d'une maladie grave, évolutive ou incurable, parfois longtemps avant la phase terminale."
+    },
+    {
+      "question": "Quelle distinction caractérise les soins palliatifs et la fin de vie ?",
+      "options": ["Les soins palliatifs peuvent accompagner longtemps une maladie grave", "La fin de vie correspond à une phase où le décès devient proche", "Les soins palliatifs excluent toute recherche de confort", "En fin de vie, le soulagement et les volontés du patient deviennent prioritaires"],
+      "correct": [0, 1, 3],
+      "explanation": "La démarche palliative peut débuter bien avant la proximité du décès. La fin de vie désigne la dernière phase de l'existence et reste centrée sur le confort et les volontés du patient."
+    },
+    {
+      "question": "En fin de vie, la prise en charge est principalement centrée sur le confort, le soulagement des souffrances et le respect des volontés du patient.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces objectifs structurent l'accompagnement lorsque le décès devient proche."
+    },
+    {
+      "question": "Laquelle de ces propositions ne correspond pas à une grande catégorie de besoins en soins palliatifs ?",
+      "options": ["Besoins physiques", "Besoins sociaux et relationnels", "Besoins psychologiques et émotionnels", "Besoins de performance et de productivité", "Besoins spirituels et existentiels"],
+      "correct": [3],
+      "explanation": "Les besoins décrits sont physiques, sociaux et relationnels, liés à l'accompagnement, psychologiques et émotionnels, ainsi que spirituels et existentiels."
+    },
+    {
+      "question": "Quels éléments relèvent des besoins physiques en soins palliatifs ?",
+      "options": ["Soulagement de la douleur et de la dyspnée", "Positionnement et soins de la peau", "Maintien de l'autonomie", "Règlement des affaires administratives", "Confort alimentaire"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "Les besoins physiques concernent les symptômes, le confort corporel, l'alimentation et l'autonomie. Les affaires administratives relèvent plutôt de la dimension sociale."
+    },
+    {
+      "question": "Les besoins physiques en soins palliatifs se limitent au traitement de la douleur.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : ils comprennent aussi les autres symptômes, le positionnement, les soins de peau, l'alimentation, le confort et le maintien de l'autonomie."
+    },
+    {
+      "question": "Quels besoins sont principalement sociaux et relationnels ?",
+      "options": ["Maintenir les liens avec les proches", "Éviter l'isolement", "Préserver l'image de soi", "Faire diminuer une dyspnée", "Régler des affaires familiales ou administratives"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "La dyspnée appartient aux besoins physiques. Les autres propositions concernent les liens, l'identité sociale et les affaires de la personne."
+    },
+    {
+      "question": "Préserver l'image de soi peut faire partie des besoins sociaux et relationnels d'une personne en soins palliatifs.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "La coiffure, le rasage ou d'autres soins choisis peuvent contribuer au maintien de l'image de soi."
+    },
+    {
+      "question": "Quels éléments répondent aux besoins liés à l'accompagnement ?",
+      "options": ["Une équipe disponible et bienveillante", "L'implication du patient dans les décisions", "Le choix du lieu de soins autant que possible", "La mise à distance systématique des proches", "L'accompagnement de l'entourage"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "L'accompagnement associe disponibilité, participation aux décisions, prise en compte du lieu souhaité et soutien des proches."
+    },
+    {
+      "question": "Répondre au besoin d'accompagnement suppose d'écarter le patient des décisions afin de le protéger.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : la personne doit au contraire être impliquée dans les décisions et pouvoir exprimer ses préférences."
+    },
+    {
+      "question": "Quelles réponses correspondent aux besoins psychologiques et émotionnels ?",
+      "options": ["Permettre l'expression des peurs", "Écouter la souffrance", "Rassurer face à l'incertitude", "Imposer une attitude positive", "Offrir une présence soignante sécurisante"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "L'écoute, l'expression émotionnelle et une présence sécurisante sont adaptées. Imposer un état d'esprit positif risque de banaliser la souffrance."
+    },
+    {
+      "question": "Une présence soignante sécurisante peut répondre à un besoin psychologique et émotionnel.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle peut aider la personne à exprimer ses émotions, ses peurs et sa souffrance."
+    },
+    {
+      "question": "Quels éléments peuvent relever des besoins spirituels et existentiels ?",
+      "options": ["Donner un sens à ce qui est vécu", "Exprimer ses croyances ou ses doutes", "Se réconcilier avec soi-même ou avec ses proches", "Préparer sa mort selon ses valeurs", "Recevoir obligatoirement un représentant religieux"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "La dimension spirituelle et existentielle concerne le sens, les valeurs, les convictions et les réconciliations. Elle n'impose aucune démarche religieuse."
+    },
+    {
+      "question": "Un besoin spirituel est nécessairement un besoin religieux.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : il peut concerner le sens de l'existence, les valeurs, les doutes ou les réconciliations sans référence religieuse."
+    },
+    {
+      "question": "À quelles catégories rattacher le souhait d'éviter l'isolement et celui de parler de sa peur de mourir ?",
+      "options": ["Respectivement aux besoins sociaux et aux besoins psychologiques", "Respectivement aux besoins physiques et aux besoins administratifs", "Tous deux uniquement aux besoins physiques", "Tous deux uniquement aux besoins spirituels"],
+      "correct": [0],
+      "explanation": "Éviter l'isolement relève de la dimension sociale et relationnelle ; exprimer sa peur relève notamment de la dimension psychologique et émotionnelle."
+    },
+    {
+      "question": "Quelle tension caractérise principalement une difficulté éthique en soins palliatifs ?",
+      "options": ["Concilier bienfaisance et respect de l'autonomie", "Choisir entre écoute active et reformulation", "Classer les symptômes par ordre alphabétique", "Remplacer le choix du patient par celui de l'entourage"],
+      "correct": [0],
+      "explanation": "La difficulté consiste notamment à vouloir aider tout en respectant les décisions, les préférences et la dignité de la personne."
+    },
+    {
+      "question": "Comment définir les mécanismes de défense psychiques ?",
+      "options": ["Des processus mentaux automatiques et inconscients", "Des stratégies toujours décidées volontairement", "Des processus aidant à faire face à une réalité psychiquement difficile", "Des signes prouvant une absence de souffrance"],
+      "correct": [0, 2],
+      "explanation": "Ils se mettent en place hors du contrôle volontaire et protègent temporairement la personne face à une réalité difficile."
+    },
+    {
+      "question": "Les mécanismes de défense se mettent en place automatiquement et en dehors du contrôle de la volonté.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ils sont décrits comme des processus mentaux automatiques et inconscients."
+    },
+    {
+      "question": "Un mécanisme de défense est toujours une stratégie consciente choisie par la personne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : il se met en place de manière automatique et inconsciente."
+    },
+    {
+      "question": "Quel est l'objectif principal d'un mécanisme de défense ?",
+      "options": ["Maintenir temporairement un équilibre psychique", "Protéger d'une souffrance encore difficile à affronter", "Supprimer définitivement la réalité", "Obtenir l'adhésion immédiate du soignant"],
+      "correct": [0, 1],
+      "explanation": "Le mécanisme protège temporairement la personne et contribue à maintenir son équilibre psychique ; il ne supprime pas la réalité."
+    },
+    {
+      "question": "Quels phénomènes peuvent constituer des mécanismes de défense ?",
+      "options": ["Le déni", "La projection", "L'identification", "Le déplacement", "La surveillance respiratoire"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Le déni, la projection, l'identification et le déplacement sont cités comme mécanismes de défense. La surveillance respiratoire est un soin clinique."
+    },
+    {
+      "question": "Le soignant doit respecter un mécanisme de défense plutôt que confronter brutalement la personne.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Ces mécanismes ont une fonction protectrice temporaire ; une confrontation brutale peut majorer la souffrance."
+    },
+    {
+      "question": "Quelle attitude est adaptée face à un mécanisme de défense ?",
+      "options": ["Respecter le rythme psychique de la personne", "Chercher à comprendre sa fonction protectrice", "Démontrer immédiatement que la personne a tort", "Éviter de le combattre brutalement"],
+      "correct": [0, 1, 3],
+      "explanation": "Le soignant accueille le mécanisme avec prudence et respecte son rôle protecteur, sans confrontation brutale."
+    },
+    {
+      "question": "Quelle description correspond au déni ou à la dénégation ?",
+      "options": ["Une incapacité temporaire à intégrer une information traumatisante", "Une négociation symbolique avec la réalité", "Une recherche d'apaisement après avoir cessé de lutter", "Une protection psychique évitant d'être submergé"],
+      "correct": [0, 3],
+      "explanation": "Le déni protège temporairement la personne qui ne peut pas encore intégrer complètement la réalité."
+    },
+    {
+      "question": "Le déni peut constituer une protection psychique temporaire.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Il peut éviter que la personne soit immédiatement submergée par une information traumatisante."
+    },
+    {
+      "question": "Quelle posture adopter face à une personne dans le déni ?",
+      "options": ["Respecter son rythme", "Ne pas la confronter brutalement à la réalité", "Multiplier les preuves jusqu'à obtenir son accord", "Tenir compte de son temps psychique"],
+      "correct": [0, 1, 3],
+      "explanation": "Le soignant respecte le rythme de la personne et évite la confrontation brutale."
+    },
+    {
+      "question": "Quelles manifestations peuvent traduire une phase de colère ?",
+      "options": ["Sentiment d'injustice", "Révolte ou impuissance", "Reproches adressés aux proches ou aux soignants", "Paix intérieure stable", "Irritabilité ou sarcasme"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "La colère peut s'exprimer par la révolte, l'irritabilité, le sarcasme ou les reproches, souvent sur fond d'injustice et d'impuissance."
+    },
+    {
+      "question": "Le soignant doit considérer les paroles agressives d'une personne en colère comme une attaque personnelle.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : ces paroles peuvent être l'expression de sa souffrance et ne doivent pas être prises personnellement."
+    },
+    {
+      "question": "Quelles attitudes sont adaptées face à la colère ?",
+      "options": ["Accueillir l'émotion sans jugement", "Laisser la personne verbaliser", "Chercher à la calmer immédiatement à tout prix", "Ne pas prendre personnellement les reproches"],
+      "correct": [0, 1, 3],
+      "explanation": "La colère est accueillie sans jugement. Vouloir la faire cesser trop vite peut empêcher l'expression de la souffrance."
+    },
+    {
+      "question": "Que caractérise le marchandage ?",
+      "options": ["Une négociation symbolique avec la réalité", "Une tentative de reprendre un certain contrôle", "Des pensées formulées sur le mode « si je guéris, alors… »", "Une absence complète de conscience de la maladie"],
+      "correct": [0, 1, 2],
+      "explanation": "Dans le marchandage, la personne peut avoir conscience de sa maladie tout en négociant symboliquement la suite ou la fin."
+    },
+    {
+      "question": "Pendant le marchandage, la personne peut avoir conscience de sa maladie tout en négociant symboliquement sa fin.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Cette conscience distingue notamment le marchandage du déni décrit comme une incapacité temporaire à intégrer la réalité."
+    },
+    {
+      "question": "Quelle posture soignante convient au marchandage ?",
+      "options": ["Accueillir l'espoir sans le ridiculiser", "Rester présent et factuel", "Briser brutalement tout espoir", "Écouter ce que la négociation représente pour la personne"],
+      "correct": [0, 1, 3],
+      "explanation": "Le soignant peut rester factuel sans ridiculiser ni détruire brutalement l'espoir porté par la personne."
+    },
+    {
+      "question": "Quelles manifestations correspondent à la phase dépressive décrite dans le processus de deuil ?",
+      "options": ["Profonde tristesse", "Repli sur soi", "Fatigue et diminution de l'intérêt", "Sentiment durable de joie", "Questionnements existentiels"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "La prise de conscience du caractère inévitable de la perte peut entraîner tristesse, retrait, fatigue et questionnements existentiels."
+    },
+    {
+      "question": "Face à une personne dans une phase dépressive, il faut la forcer à retrouver rapidement le moral.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : il convient d'être présent sans chercher de force à « remonter le moral » et de respecter un éventuel besoin de solitude."
+    },
+    {
+      "question": "Comment reconnaître l'acceptation ?",
+      "options": ["La personne cesse progressivement de lutter contre la réalité", "Elle peut rechercher une présence calme", "Elle éprouve obligatoirement de la joie", "Elle peut vouloir transmettre, régler certaines choses ou dire au revoir"],
+      "correct": [0, 1, 3],
+      "explanation": "L'acceptation correspond à une forme d'apaisement ou de paix intérieure, et non à une joie obligatoire."
+    },
+    {
+      "question": "L'acceptation peut prendre la forme d'un apaisement sans être une joie ni une résignation.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Elle peut se traduire par une paix intérieure et le souhait de régler certaines choses ou de dire au revoir."
+    },
+    {
+      "question": "Quelles attitudes conviennent pendant une phase d'acceptation ?",
+      "options": ["Respecter le calme et le silence", "Maintenir une présence douce", "Imposer des échanges prolongés", "Soutenir également les proches", "Respecter un éventuel retrait"],
+      "correct": [0, 1, 3, 4],
+      "explanation": "Une présence discrète et respectueuse est adaptée ; les échanges ne doivent pas être imposés."
+    },
+    {
+      "question": "Quelle association entre une étape et sa manifestation est correcte ?",
+      "options": ["Déni : incapacité temporaire à intégrer une réalité traumatisante", "Colère : sentiment d'injustice et reproches possibles", "Marchandage : négociation symbolique", "Dépression : joie liée à la guérison", "Acceptation : apaisement possible"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "La dépression est associée à la tristesse, au repli et à la prise de conscience de la perte, non à une joie liée à la guérison."
+    },
+    {
+      "question": "Qu'est-ce que l'ambivalence ?",
+      "options": ["La coexistence de deux sentiments opposés envers une même situation", "L'absence de toute émotion", "La coexistence de deux désirs contradictoires", "Une incapacité définitive à prendre une décision"],
+      "correct": [0, 2],
+      "explanation": "L'ambivalence correspond à la présence simultanée de sentiments ou de désirs opposés à propos d'une même situation."
+    },
+    {
+      "question": "L'ambivalence peut être normale et doit être accueillie sans jugement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [0],
+      "explanation": "Une personne peut éprouver simultanément des souhaits contraires face à la maladie et à la fin de vie."
+    },
+    {
+      "question": "Lorsqu'une personne exprime deux souhaits opposés, le soignant doit l'obliger immédiatement à en choisir un.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : l'ambivalence doit être reconnue comme possible et accueillie sans jugement."
+    },
+    {
+      "question": "Quelles situations illustrent une ambivalence ?",
+      "options": ["Vouloir vivre tout en souhaitant la fin de la souffrance", "Aimer la présence des proches et vouloir parfois rester seul", "Vouloir parler de la mort puis ne plus en supporter le sujet", "Ne ressentir aucune contradiction face à la situation"],
+      "correct": [0, 1, 2],
+      "explanation": "Ces exemples montrent la coexistence de désirs opposés à propos d'une même situation."
+    },
+    {
+      "question": "Quelles catégories de difficultés un soignant peut-il rencontrer en situation palliative ?",
+      "options": ["Émotionnelles", "Cliniques", "Organisationnelles", "Éthiques", "Uniquement techniques"],
+      "correct": [0, 1, 2, 3],
+      "explanation": "Les difficultés peuvent toucher le vécu émotionnel, l'évaluation clinique, l'organisation des soins et les choix éthiques."
+    },
+    {
+      "question": "Une réponse froide ou agressive du patient doit toujours être interprétée comme une attaque personnelle contre le soignant.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : cette attitude peut être l'expression d'une souffrance. Le soignant évite de la personnaliser et de répondre sur la défensive."
+    },
+    {
+      "question": "Quels éléments appartiennent aux difficultés et surveillances cliniques ?",
+      "options": ["Évaluer régulièrement la douleur", "Comptabiliser les interdoses nécessaires", "Surveiller les effets indésirables des opioïdes", "Attribuer automatiquement tout vomissement à la morphine", "Réévaluer l'efficacité des traitements"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "L'évaluation doit rester clinique et régulière. Un vomissement peut avoir plusieurs causes et ne doit pas être attribué automatiquement à un opioïde."
+    },
+    {
+      "question": "La survenue de vomissements chez une personne recevant un opioïde permet de conclure automatiquement qu'ils sont dus à ce traitement.",
+      "options": ["Vrai", "Faux"],
+      "correct": [1],
+      "explanation": "C'est faux : les opioïdes peuvent provoquer des nausées ou des vomissements, mais d'autres causes doivent être évaluées et transmises."
+    },
+    {
+      "question": "Quelles réponses relèvent d'une organisation individualisée des soins ?",
+      "options": ["Regrouper certains soins lorsque cela est possible", "Convenir d'horaires acceptables avec la personne", "Éviter les interruptions inutiles", "Supprimer toute surveillance pour préserver le repos", "Coordonner les intervenants et les transmissions"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "L'organisation concilie repos, préférences et sécurité. Elle n'implique pas de supprimer la surveillance nécessaire."
+    },
+    {
+      "question": "Quelles techniques de communication sont adaptées en soins palliatifs ?",
+      "options": ["Questions ouvertes", "Reformulation et clarification", "Respect des silences", "Affirmer « je comprends parfaitement »", "Posture calme et regard non insistant"],
+      "correct": [0, 1, 2, 4],
+      "explanation": "La communication associe écoute, questions ouvertes, reformulation, silence et attitude non verbale adaptée. Prétendre comprendre parfaitement peut banaliser le vécu singulier."
+    }
+  ]
+}
