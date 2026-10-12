@@ -236,6 +236,27 @@
     "icon": "🎗️"
   },
   {
+    "file": "data/2.9_S5_MEMO_BASES_DIAGNOSTIC_2026.json",
+    "code": "UE 2.9",
+    "name": "Mémo 1/3 - Bases tumorales et diagnostic",
+    "subtitle": "S5 - Cellule, cancérogenèse, types de cancers, TNM et examens",
+    "icon": "🔬"
+  },
+  {
+    "file": "data/2.9_S5_MEMO_PARCOURS_TRAITEMENTS_2026.json",
+    "code": "UE 2.9",
+    "name": "Mémo 2/3 - Parcours du patient et traitements",
+    "subtitle": "S5 - Annonce, soins de support et thérapeutiques anticancéreuses",
+    "icon": "💊"
+  },
+  {
+    "file": "data/2.9_S5_MEMO_TOXICITES_COMPLICATIONS_PREVENTION_2026.json",
+    "code": "UE 2.9",
+    "name": "Mémo 3/3 - Toxicités, complications et prévention",
+    "subtitle": "S5 - Effets indésirables, urgences métaboliques et prévention des cancers",
+    "icon": "🛡️"
+  },
+  {
     "file": "data/2.9_S5_LEUCEMIES_AIGUES_DIAGNOSTIC_URGENCES_2026.json",
     "code": "UE 2.9",
     "name": "Leucémies aiguës - Diagnostic et urgences",
